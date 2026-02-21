@@ -1,0 +1,217 @@
+{
+  "id": "acute_respiratory_quiz",
+  "name": "Acute Respiratory Disorders and Medications Quiz",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "epistaxis_nasal_packing",
+      "question": "A client with epistaxis has nasal packing. Frequent swallowing after nasal packing indicates that:",
+      "options": [
+        "The packing is effective and bleeding has stopped",
+        "Blood may be moving posteriorly rather than externally",
+        "The client should begin oral intake",
+        "Antibiotic therapy should be initiated"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Frequent swallowing after nasal packing indicates that blood may be moving posteriorly rather than externally-continuous bleeding. The nurse recognizes this as a complication requiring immediate assessment."
+    },
+    {
+      "id": "acute_bronchitis_antimicrobials",
+      "question": "Regarding antimicrobial therapy for acute bronchitis, the nurse understands that:",
+      "options": [
+        "The goal is complete eradication of the pathogen",
+        "Stopping therapy early prevents drug resistance",
+        "Client teaching focuses on symptom relief",
+        "Antibiotics are always prescribed for viral causes"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The goal of therapy is complete eradication of the pathogen. Stopping therapy early contributes to drug resistance and recurrence of infection. Client teaching focuses on adherence, not symptom relief."
+    },
+    {
+      "id": "hypoxia_progression",
+      "question": "Early neurological and compensatory cues of progressing hypoxia include:",
+      "options": [
+        "Visible color changes and decreased consciousness",
+        "Restlessness, agitation, increased heart rate",
+        "Bradycardia and hypotension",
+        "Confusion and disorientation"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Early neurological and compensatory cues: restlessness, agitation, increased heart rate, increased respiratory rate. Late oxygenation failure cues include visible color changes and decreased level of consciousness."
+    },
+    {
+      "id": "osa_diagnosis",
+      "question": "Diagnosis of obstructive sleep apnea requires:",
+      "options": [
+        "Overnight pulse oximetry only",
+        "A sleep study called polysomnography",
+        "Self-reported snoring assessment",
+        "Daytime sleepiness questionnaire alone"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Diagnosis requires a sleep study called polysomnography that evaluates breathing patterns, oxygen saturation, and sleep stages overnight."
+    },
+    {
+      "id": "allergic_rhinitis_pharma",
+      "question": "Primary medications for allergic rhinitis target:",
+      "options": [
+        "The histamine-mediated inflammatory response",
+        "Bacterial infection prevention",
+        "Mucosal thickening",
+        "Airway constriction"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The primary medications target the histamine-mediated inflammatory response aka anti-histamines. Antihistamines can be oral or nasal. Anti-infectives are not effective for allergen-triggered conditions."
+    },
+    {
+      "id": "post_procedure_airway",
+      "question": "After procedures that suppress the gag reflex:",
+      "options": [
+        "Oral intake should begin immediately",
+        "Oral intake is withheld until protective airway reflex returns",
+        "Nutrition takes priority over airway safety",
+        "Comfort measures are most important"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "After procedures that suppress the gag reflex: Oral intake is withheld until the nurse verifies the return of the protective airway reflex. Airway safety takes priority over nutrition and comfort."
+    },
+    {
+      "id": "cough_medications",
+      "question": "Cough medications that suppress the cough reflex are called:",
+      "options": [
+        "Mucolytics",
+        "Expectorants",
+        "Antitussives",
+        "Bronchodilators"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Some medications suppress the cough reflex - antitussives. Some increase secretion production to make the cough more productive - mucolytics or expectorants."
+    },
+    {
+      "id": "pneumothorax_assessment",
+      "question": "Assessment findings in pneumothorax include:",
+      "options": [
+        "Crackles in both lung fields",
+        "Increased breath sounds bilaterally",
+        "Reduced or absent breath sounds on affected side",
+        "Normal breath sounds throughout"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Pneumothorax causes reduced or absent breath sounds on the affected side due to air in the pleural space preventing lung expansion."
+    },
+    {
+      "id": "hemothorax_vs_pneumothorax",
+      "question": "Which finding differentiates hemothorax from pneumothorax?",
+      "options": [
+        "Absent breath sounds",
+        "Chest pain",
+        "Tracheal deviation",
+        "Blood in pleural space"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Hemothorax involves blood in the pleural space, while pneumothorax involves air. Both can cause absent breath sounds and chest pain."
+    },
+    {
+      "id": "chest_tube_air_leak",
+      "question": "Continuous bubbling in the water seal chamber of a chest tube system indicates:",
+      "options": [
+        "Normal function",
+        "Air leak in the system",
+        "Proper seal integrity",
+        "Tube obstruction"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Continuous bubbling in the water seal chamber indicates an air leak in the system that needs immediate attention."
+    },
+    {
+      "id": "rib_fracture_pain",
+      "question": "A client with rib fractures experiences most pain with:",
+      "options": [
+        "Deep inspiration",
+        "Quiet breathing",
+        "Expiration",
+        "Speaking softly"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Rib fracture pain is most severe with deep inspiration, coughing, or movement. Pain management and breathing exercises are essential."
+    },
+    {
+      "id": "flail_chest_signs",
+      "question": "Signs of flail chest include:",
+      "options": [
+        "Paradoxical chest wall movement",
+        "Unilateral chest expansion",
+        "Decreased respiratory rate",
+        "Normal breath sounds"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Flail chest is characterized by paradoxical chest wall movement where a portion of the chest wall moves inward during inspiration."
+    },
+    {
+      "id": "pulmonary_embolism_sudden",
+      "question": "A client suddenly develops severe dyspnea, tachycardia, and chest pain. The nurse suspects:",
+      "options": [
+        "Acute myocardial infarction",
+        "Pulmonary embolism",
+        "Pneumothorax",
+        "Acute bronchitis"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Sudden onset of severe dyspnea, tachycardia, and chest pain suggests pulmonary embolism, requiring immediate intervention."
+    },
+    {
+      "id": "asthma_acute_attack",
+      "question": "During an acute asthma attack, the nurse should first:",
+      "options": [
+        "Administer oral corticosteroids",
+        "Assess respiratory status and administer bronchodilators",
+        "Obtain sputum culture",
+        "Start IV antibiotics"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "During an acute asthma attack, immediate assessment of respiratory status and administration of bronchodilators takes priority."
+    },
+    {
+      "id": "hypoxia_early_signs",
+      "question": "Early signs of hypoxia include:",
+      "options": [
+        "Bradycardia and hypotension",
+        "Restlessness and tachycardia",
+        "Cyanosis and confusion",
+        "Apnea and respiratory arrest"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Early signs of hypoxia include restlessness, agitation, tachycardia, and increased respiratory rate."
+    }
+  ]
+}

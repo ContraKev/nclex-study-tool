@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN MASTERY HUB v3.2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #3b82f6;
+            --text: #f8fafc;
+            --success: #22c55e;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --border: #334155;
+        }
+
+        body {
+            background-color: var(--primary);
+            color: var(--text);
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            padding-bottom: 80px;
+        }
+
+        .nexus-nav {
+            background: var(--secondary);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .control-panel {
+            background: rgba(15, 23, 42, 0.98);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--border);
+            padding: 15px 0;
+            position: sticky;
+            top: 82px;
+            z-index: 999;
+        }
+
+        .nexus-card {
+            background: var(--secondary);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            transition: 0.3s;
+        }
+
+        .nexus-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-icon {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-accent {
+            background-color: var(--accent);
+            border-color: var(--accent);
+            color: var(--primary);
+        }
+
+        .btn-accent:hover {
+            background-color: #0066cc;
+            border-color: #0066cc;
+            color: var(--primary);
+        }
+
+        .btn-outline-purple {
+            color: #8b5cf6;
+            border-color: #8b5cf6;
+        }
+
+        .btn-outline-purple:hover {
+            color: #7c3aed;
+            background-color: rgba(139, 92, 246, 0.1);
+            border-color: #7c3aed;
+        }
+
+        .border-purple {
+            border-color: #8b5cf6 !important;
+        }
+
+        .mission-title-display {
+            background: rgba(59, 130, 246, 0.1);
+            border-left: 3px solid var(--accent);
+            padding: 8px 12px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* Drag-and-drop cloze styling */
+        .drag-drop-cloze {
+            max-width: 100%;
+        }
+
+        .cloze-text {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        .drop-zone {
+            display: inline-block;
+            min-width: 80px;
+            padding: 4px 8px;
+            margin: 0 4px;
+            border: 2px dashed var(--accent);
+            border-radius: 4px;
+            background: rgba(59, 130, 246, 0.1);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .drop-zone:hover {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: var(--warning);
+        }
+
+        .drop-zone.filled {
+            border: 2px solid var(--success);
+            background: rgba(34, 197, 94, 0.1);
+        }
+
+        .dropped-option {
+            background: var(--success);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .dropped-option:hover {
+            opacity: 0.8;
+        }
+
+        .options-pool {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .options-label {
+            font-weight: bold;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+
+        .options-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .draggable-option {
+            display: inline-block;
+            background: var(--secondary);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: grab;
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .draggable-option:hover {
+            background: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .draggable-option.dragging {
+            opacity: 0.5;
+            transform: rotate(5deg);
+        }
+
+        .cloze-instructions {
+            text-align: center;
+            color: var(--text);
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        /* Highlight selection styling */
+        .highlight-select {
+            max-width: 100%;
+        }
+
+        .highlight-instruction {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent);
+            font-weight: 500;
+        }
+
+        .highlight-text {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.7;
+            font-size: 1.05rem;
+            margin-top: 15px;
+        }
+
+        .text-highlight {
+            background: rgba(59, 130, 246, 0.2);
+            border-radius: 3px;
+            padding: 2px 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .text-highlight:hover {
+            background: rgba(59, 130, 246, 0.4);
+            border-color: var(--accent);
+        }
+
+        .text-highlight.selected {
+            background: var(--success);
+            color: white;
+            border-color: var(--success);
+            box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+        }
+
+        .text-highlight.highlight-correct {
+            border-bottom: 2px solid var(--success);
+        }
+
+        .text-highlight.highlight-distractor {
+            border-bottom: 2px solid var(--danger);
+        }
+
+        .point-label {
+            font-weight: 800;
+            color: var(--accent);
+            text-transform: uppercase;
+            font-size: 0.65rem;
+            margin-top: 15px;
+            letter-spacing: 1.5px;
+            display: block;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .point-value {
+            font-size: 0.92rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        .ae-common {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 6px;
+            margin-top: 5px;
+            font-size: 0.85rem;
+            border: 1px solid var(--warning);
+        }
+
+        .ae-severe {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid var(--danger);
+            color: #fca5a5;
+            padding: 10px;
+            border-radius: 6px;
+            margin-top: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .inter-table {
+            width: 100%;
+            margin-top: 10px;
+            font-size: 0.85rem;
+            border-collapse: separate;
+            border-spacing: 0 5px;
+        }
+
+        .inter-table td {
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 4px;
+        }
+
+        .inter-table tr.critical td {
+            border-left: 5px solid var(--danger);
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        .data-strip {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .logistics-box {
+            flex: 1;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .box-dosage {
+            background: rgba(34, 197, 94, 0.1);
+            color: #4ade80;
+        }
+
+        .box-admin {
+            background: rgba(245, 158, 11, 0.1);
+            color: #fcd34d;
+        }
+
+        .box-title {
+            font-weight: 800;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 5px;
+            opacity: 0.8;
+        }
+
+        /* MISSION OVERLAY */
+        .mission-container {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2100;
+            background: var(--primary);
+        }
+
+        .chart-pane {
+            width: 45%;
+            background: #f1f5f9 !important;
+            border-right: 4px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chart-pane * {
+            color: #0f172a !important;
+        }
+
+        .chart-header,
+        .chart-header * {
+            background: #334155 !important;
+            color: white !important;
+        }
+
+        .chart-tabs {
+            background: #e2e8f0 !important;
+            display: flex;
+            border-bottom: 1px solid #cbd5e1;
+        }
+
+        .chart-tab {
+            padding: 12px 20px;
+            cursor: pointer;
+            border-right: 1px solid #cbd5e1;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        .chart-tab.active {
+            background: white !important;
+            color: var(--accent) !important;
+            border-bottom: 3px solid var(--accent);
+        }
+
+        .chart-content {
+            padding: 25px;
+            flex-grow: 1;
+            overflow-y: auto;
+            background: white !important;
+            line-height: 1.6;
+        }
+
+        .work-pane {
+            width: 55%;
+            padding: 40px;
+            overflow-y: auto;
+            background: var(--primary);
+        }
+
+        /* BOWTIE */
+        .bowtie-container {
+            display: flex;
+            gap: 20px;
+            align-items: stretch;
+            margin-top: 30px;
+        }
+
+        .bowtie-wing {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.03);
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .bowtie-center {
+            width: 250px;
+            background: rgba(245, 158, 11, 0.05);
+            border: 2px solid var(--warning);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .bowtie-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+
+        .bw-option {
+            background: var(--secondary);
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .bw-option input {
+            margin-right: 10px;
+        }
+
+        /* SIDECAR */
+        .pharma-sidecar {
+            position: fixed;
+            right: -400px;
+            top: 0;
+            width: 400px;
+            height: 100vh;
+            background: var(--secondary);
+            z-index: 2200;
+            box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+            transition: 0.4s;
+            display: flex;
+            flex-direction: column;
+            border-left: 2px solid var(--accent);
+        }
+
+        .pharma-sidecar.active {
+            right: 0;
+        }
+
+        .sidecar-header {
+            background: var(--primary);
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sidecar-content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: var(--primary);
+        }
+
+        .sidecar-toggle {
+            position: fixed;
+            right: 20px;
+            bottom: 100px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--accent);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 2300;
+            border: none;
+        }
+
+        /* MOBILE RESPONSIVE MISSION MODAL */
+        @media (max-width: 768px) {
+            .mission-container {
+                flex-direction: column;
+                height: 100vh;
+                overflow-y: auto;
+            }
+
+            .chart-pane {
+                width: 100% !important;
+                height: 50vh;
+                border-right: none;
+                border-bottom: 4px solid var(--border);
+                overflow-y: auto;
+            }
+
+            .work-pane {
+                width: 100% !important;
+                height: 50vh;
+                padding: 20px;
+                overflow-y: auto;
+            }
+
+            .chart-tabs {
+                flex-wrap: wrap;
+            }
+
+            .chart-tab {
+                padding: 8px 12px;
+                font-size: 0.75rem;
+                white-space: nowrap;
+            }
+
+            .mission-container .btn {
+                font-size: 0.9rem !important;
+                padding: 0.5rem 1rem !important;
+            }
+
+            .step-badge {
+                font-size: 0.8rem !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .work-pane {
+                padding: 15px;
+            }
+
+            .mission-container .btn {
+                font-size: 0.8rem !important;
+                padding: 0.4rem 0.8rem !important;
+            }
+
+            .bowtie-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .bowtie-center {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="nexus-nav">
+        <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+            <div>
+                <h3 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-3"></i>NGN MASTERY HUB <span
+                        class="badge bg-primary ms-2" style="font-size: 0.7rem">v3.2</span></h3>
+                <p class="small text-secondary mb-0">High-Fidelity Clinical Simulation Platform</p>
+            </div>
+            <div class="d-flex align-items-center gap-3 nav-buttons">
+                <span class="text-secondary">Welcome to NGN Mastery Hub</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="control-panel shadow-lg">
+        <div class="container-fluid px-4">
+            <div class="row g-3 align-items-center">
+                <div class="col-md-4"><input type="text" id="drugSearch"
+                        class="form-control bg-dark text-white border-secondary" placeholder="Search..."
+                        onkeyup="renderDrugs()"></div>
+                <div class="col-md-4 text-center">
+                    <div class="btn-group w-100 shadow">
+                        <button id="btn-cv" class="btn btn-outline-primary active-cv"
+                            onclick="toggleFilter('cv')">Cardio</button>
+                        <button id="btn-dm" class="btn btn-outline-success active-dm"
+                            onclick="toggleFilter('dm')">Diabetes</button>
+                    </div>
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="btn-group"><button id="sort-az" class="btn btn-outline-light active"
+                            onclick="setSort('az')">A-Z</button><button id="sort-class" class="btn btn-outline-light"
+                            onclick="setSort('class')">Class</button></div>
+                    <span id="counter" class="badge bg-accent ms-2 py-2">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-4 mt-4">
+        <div class="row" id="drug-grid"></div>
+    </div>
+
+    <script src="data_lipids_statins.js"></script>
+    <script src="data_lipids_resins.js"></script>
+    <script src="data_lipids_fibrates_misc.js"></script>
+    <script src="data_raas_ace.js"></script>
+    <script src="data_raas_arb_dri.js"></script>
+    <script src="data_ccb.js"></script>
+    <script src="data_beta_blockers.js"></script>
+    <script src="data_adrenergics.js"></script>
+    <script src="data_vasodilators.js"></script>
+    <script src="data_diuretics_loop_thiazide.js"></script>
+    <script src="data_diuretics_ksparing_misc.js"></script>
+    <script src="data_angina_hf.js"></script>
+    <script src="data_antiplatelets.js"></script>
+    <script src="data_anticoagulants.js"></script>
+    <script src="data_antiarrhythmics.js"></script>
+    <script src="data_diabetes_sensitizers.js"></script>
+    <script src="data_diabetes_secretagogues.js"></script>
+    <script src="data_diabetes_alpha_sglt2.js"></script>
+    <script src="data_diabetes_gliptin_glp1a.js"></script>
+    <script src="data_diabetes_insulins_part1.js"></script>
+    <script src="data_diabetes_insulins_part2.js"></script>
+    <script src="lectureexam.js"></script>
+    <script src="mission_prototype.js"></script>
+    <script src="missions_cardio_1.js"></script>
+    <script src="missions_cardio_2.js"></script>
+    <script src="missions_cardio_3.js"></script>
+    <script src="missions_cardio_4.js"></script>
+    <script src="data_loader.js"></script>
+    <script src="mastery_logic.js"></script>
+    <script src="mission_logic_fixed.js"></script>
+
+    <script>
+        let currentSection = 'home';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                showHomeScreen();
+            }, 100);
+        });
+
+        function showHomeScreen() {
+            currentSection = 'home';
+            document.querySelector('.control-panel').style.display = 'none';
+            document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
+
+            const homeHtml = `
+                <div class="container-fluid px-4 mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center mb-5">
+                                <h1 class="display-4 fw-bold text-accent mb-3">
+                                    <i class="fas fa-microscope me-3"></i>
+                                    NGN MASTERY HUB
+                                </h1>
+                                <p class="lead text-secondary mb-4">High-Fidelity Clinical Simulation Platform</p>
+                                <div class="badge bg-primary fs-6 px-3 py-2">Version 3.2</div>
+                            </div>
+
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="nexus-card p-4 text-center h-100" onclick="showDrugReferences()">
+                                        <div class="card-icon mb-3">
+                                            <i class="fas fa-pills fa-3x text-accent"></i>
+                                        </div>
+                                        <h3 class="h4 fw-bold mb-3">Drug References</h3>
+                                        <p class="text-secondary mb-3">Comprehensive pharmacology database with detailed drug information, interactions, and clinical applications.</p>
+                                        <button class="btn btn-accent w-100 fw-bold">
+                                            <i class="fas fa-search me-2"></i>
+                                            Browse Drugs
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="nexus-card p-4 text-center h-100" onclick="showCaseStudies()">
+                                        <div class="card-icon mb-3">
+                                            <i class="fas fa-stethoscope fa-3x text-success"></i>
+                                        </div>
+                                        <h3 class="h4 fw-bold mb-3">Case Studies</h3>
+                                        <p class="text-secondary mb-3">Interactive clinical scenarios with NGN-style questions testing critical thinking and clinical decision-making.</p>
+                                        <button class="btn btn-success w-100 fw-bold">
+                                            <i class="fas fa-play me-2"></i>
+                                            Start Mission
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="nexus-card p-4 text-center h-100" onclick="showExams()">
+                                        <div class="card-icon mb-3">
+                                            <i class="fas fa-graduation-cap fa-3x text-warning"></i>
+                                        </div>
+                                        <h3 class="h4 fw-bold mb-3">Exams</h3>
+                                        <p class="text-secondary mb-3">Comprehensive assessment modules covering pharmacology, pathophysiology, and clinical applications.</p>
+                                        <button class="btn btn-warning w-100 fw-bold">
+                                            <i class="fas fa-clipboard-check me-2"></i>
+                                            Take Exam
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center mt-5">
+                                <div class="row g-3 justify-content-center">
+                                    <div class="col-auto">
+                                        <div class="d-flex align-items-center text-secondary">
+                                            <i class="fas fa-heartbeat me-2"></i>
+                                            <span>Acute Respiratory Focus</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="d-flex align-items-center text-secondary">
+                                            <i class="fas fa-brain me-2"></i>
+                                            <span>NGN-Style Questions</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="d-flex align-items-center text-secondary">
+                                            <i class="fas fa-chart-line me-2"></i>
+                                            <span>Evidence-Based Content</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.querySelector('.container-fluid.px-4.mt-4').innerHTML = homeHtml;
+            document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
+
+            // Update nav bar for home screen
+            const navButtons = document.querySelector('.nav-buttons');
+            navButtons.innerHTML = `
+                <span class="text-secondary">Welcome to NGN Mastery Hub</span>
+            `;
+        }
+
+        function showDrugReferences() {
+            currentSection = 'drugs';
+            document.querySelector('.control-panel').style.display = 'block';
+            document.querySelector('.container-fluid.px-4.mt-4').innerHTML = '<div class="row" id="drug-grid"></div>';
+            document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
+            renderDrugs();
+
+            // Update nav bar
+            const navButtons = document.querySelector('.nav-buttons');
+            navButtons.innerHTML = `
+                <button class="btn btn-outline-secondary" onclick="showHomeScreen()">
+                    <i class="fas fa-home me-2"></i>Home
+                </button>
+                <button class="btn btn-outline-info fw-bold" onclick="startMission()">CLINICAL MISSIONS</button>
+                <button class="btn btn-warning fw-bold" onclick="startExam()">TAKE SLIDE EXAM</button>
+            `;
+        }
+
+        function showCaseStudies() {
+            currentSection = 'missions';
+            startMission();
+        }
+
+        function showExams() {
+            currentSection = 'exams';
+            startExam();
+        }
+
+        // EXAM LOGIC WRAPPER
+        function startExam() {
+            showExamSelectionModal();
+        }
+
+        function showExamSelectionModal() {
+            if (!window.availableExams || window.availableExams.length === 0) {
+                alert('No exams available. Please check that exam modules have been properly configured.');
+                return;
+            }
+
+            const modalHtml = `<div id="examSelectionModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;">
+                <div class="container" style="max-width: 900px;">
+                    <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
+                        <h2 class="text-accent fw-bold">
+                            <i class="fas fa-graduation-cap me-3"></i>
+                            SELECT EXAM MODULE
+                        </h2>
+                        <button class="btn btn-outline-danger" onclick="closeExamSelection()">Cancel</button>
+                    </div>
+
+                    <div class="row">
+                        ${window.availableExams.map(exam => `
+                            <div class="col-md-6 mb-4">
+                                <div class="nexus-card" style="cursor: pointer;" onclick="selectExam('${exam.id}')">
+                                    <div class="point-label">EXAM MODULE</div>
+                                    <h4 class="text-white mb-3">${exam.name}</h4>
+                                    <p class="text-white-50 mb-3">${exam.data.length} Questions Available</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="badge bg-info text-primary">${exam.data.length} Questions</span>
+                                        <i class="fas fa-arrow-right text-accent"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>`;
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+        }
+
+        function selectExam(examId) {
+            const exam = window.availableExams.find(e => e.id === examId);
+            if (!exam) {
+                alert('Exam not found!');
+                return;
+            }
+
+            closeExamSelection();
+            window.examData = exam.data;
+            window.currentQuestionIndex = 0;
+            window.userAnswers = [];
+            window.feedbackMode = false;
+            window.currentExamName = exam.name;
+            showExamModal();
+            renderQuestion();
+        }
+
+        function closeExamSelection() {
+            document.getElementById('examSelectionModal')?.remove();
+        }
+        function closeExam() { document.getElementById('examModal')?.remove(); showExamSelectionModal(); }
+        function showExamModal() {
+            const examName = window.currentExamName || 'SLIDE EXAM';
+            const modalHtml = `<div id="examModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;">
+                <button class="sidecar-toggle" onclick="toggleSidecar()" style="z-index: 2060;"><i class="fas fa-pills fs-3"></i></button>
+                <div id="pharmaSidecar" class="pharma-sidecar" style="z-index: 2070;"><div class="sidecar-header"><div class="d-flex justify-content-between align-items-center mb-3"><h5 class="text-white mb-0">REFERENCE</h5><button class="btn btn-sm btn-outline-light" onclick="toggleSidecar()">X</button></div><input type="text" id="sidecarSearch" class="form-control form-control-sm bg-dark text-white" placeholder="Search..." onkeyup="renderSidecar()"></div><div id="sidecarContent" class="sidecar-content"></div></div>
+                <div class="container" style="max-width: 900px;"><div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3 border-secondary"><h3 class="text-accent fw-bold">${examName} <span id="examProgress" class="ms-3 fs-5 text-white-50"></span></h3><div class="d-flex align-items-center gap-2"><input type="number" id="jumpQuestionInput" class="form-control form-control-sm" placeholder="Question #" min="1" max="${window.examData.length}" style="width: 80px;"><button class="btn btn-outline-info btn-sm" onclick="jumpToQuestion()">Jump</button><button class="btn btn-outline-danger btn-sm" onclick="closeExam()">Exit</button></div></div><div id="questionContainer"></div><div id="feedbackContainer" class="mt-4 p-4 rounded d-none" style="border: 2px solid var(--border);"></div><div class="mt-5 d-flex justify-content-between"><button class="btn btn-outline-secondary btn-lg" onclick="prevQuestion()">Back</button><button id="actionBtn" class="btn btn-warning btn-lg" onclick="handleAction()">SUBMIT</button></div></div></div>`;
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+        }
+        function renderQuestion() {
+            const q = window.examData[window.currentQuestionIndex];
+            document.getElementById('examProgress').innerText = `(${window.currentQuestionIndex + 1} / ${window.examData.length})`;
+            document.getElementById('feedbackContainer').classList.add('d-none');
+            document.getElementById('questionContainer').innerHTML = `<h2 class="text-white mb-4">${window.currentQuestionIndex + 1}. ${q.question}</h2><div class="list-group">${q.options.map((opt, i) => `<label class="list-group-item list-group-item-action bg-secondary text-white border-secondary mb-3 py-3 px-4 rounded-4"><input class="form-check-input me-3" type="${Array.isArray(q.answer) ? 'checkbox' : 'radio'}" name="qOption" value="${i}"><span class="fs-5">${opt}</span></label>`).join('')}</div>`;
+            const btn = document.getElementById('actionBtn'); btn.innerText = "SUBMIT"; window.feedbackMode = false;
+        }
+        function handleAction() { if (!window.feedbackMode) checkAnswer(); else nextQuestion(); }
+        function checkAnswer() {
+            const q = window.examData[window.currentQuestionIndex];
+            // Map selected indices back to the option strings for comparison
+            const sel = Array.from(document.querySelectorAll('input[name="qOption"]:checked')).map(input => q.options[parseInt(input.value)]);
+            if (sel.length === 0) return;
+            window.feedbackMode = true;
+            const correct = Array.isArray(q.answer) ? q.answer : [q.answer];
+            const isCorrect = sel.length === correct.length && sel.every(v => correct.includes(v));
+            const fb = document.getElementById('feedbackContainer');
+            fb.className = `mt-4 p-4 rounded-4 border-2 d-block ${isCorrect ? 'border-success' : 'border-danger'}`;
+            fb.style.backgroundColor = isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)';
+            fb.innerHTML = `<h4 class="fw-bold ${isCorrect ? 'text-success' : 'text-danger'}">${isCorrect ? 'CORRECT' : 'INCORRECT'}</h4><p class="text-white mt-2">${q.rationale || ""}</p>`;
+            document.getElementById('actionBtn').innerText = "NEXT";
+        }
+        function nextQuestion() { if (window.currentQuestionIndex < window.examData.length - 1) { window.currentQuestionIndex++; renderQuestion(); } else { closeExam(); } }
+        function prevQuestion() { if (window.currentQuestionIndex > 0) { window.currentQuestionIndex--; renderQuestion(); } }
+        function jumpToQuestion() {
+            const input = document.getElementById('jumpQuestionInput');
+            const questionNum = parseInt(input.value);
+            if (questionNum >= 1 && questionNum <= window.examData.length) {
+                window.currentQuestionIndex = questionNum - 1;
+                renderQuestion();
+                input.value = '';
+            } else {
+                alert(`Please enter a valid question number between 1 and ${window.examData.length}`);
+            }
+        }
+    </script>
+</body>
+
+</html>

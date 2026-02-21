@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remastered Pharmacology Study Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        .container { max-width: 900px; margin-top: 50px; margin-bottom: 50px; }
+        .header-section { background: linear-gradient(135deg, #007bff, #0056b3); color: white; padding: 40px; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .card { border: none; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 20px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-3px); }
+        .flashcard { border-left: 5px solid #007bff; padding: 20px; background: white; border-radius: 8px; margin-bottom: 15px; }
+        .question { font-weight: bold; color: #0056b3; font-size: 1.1rem; }
+        .answer { margin-top: 10px; color: #28a745; font-weight: 600; }
+        .rationale { font-style: italic; color: #6c757d; font-size: 0.95rem; border-top: 1px solid #eee; margin-top: 10px; padding-top: 10px; }
+        .red-zone { border: 2px solid #dc3545; background-color: #fff5f5; padding: 20px; border-radius: 12px; }
+        .red-zone h3 { color: #dc3545; }
+        .table-custom thead { background-color: #007bff; color: white; }
+        .badge-toxicity { background-color: #fd7e14; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-section text-center">
+        <h1 class="display-4">🏥 Pharmacology Portal</h1>
+        <p class="lead">Remastered Study Guide: Cardiovascular & Diabetes</p>
+        <p class="small">Optimized for Web Display & Rapid Review</p>
+    </div>
+
+    <h2 class="mb-4">💊 I. Core Drug Monographs</h2>
+    <div class="table-responsive">
+        <table class="table table-hover table-custom bg-white">
+            <thead>
+                <tr>
+                    <th>Drug Class</th>
+                    <th>Key Prototype</th>
+                    <th>Critical Adverse Effect</th>
+                    <th>Nursing "Red Flag"</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Statins</b></td>
+                    <td>Atorvastatin</td>
+                    <td>Rhabdomyolysis</td>
+                    <td>Check CK; Evening dosing</td>
+                </tr>
+                <tr>
+                    <td><b>ACE-I</b></td>
+                    <td>Lisinopril</td>
+                    <td>Angioedema / Cough</td>
+                    <td>HOLD if swelling; Teratogenic</td>
+                </tr>
+                <tr>
+                    <td><b>Loop Diuretics</b></td>
+                    <td>Furosemide</td>
+                    <td>Ototoxicity</td>
+                    <td>Push slowly; Monitor K+</td>
+                </tr>
+                <tr>
+                    <td><b>Beta Blockers</b></td>
+                    <td>Metoprolol</td>
+                    <td>Bradycardia</td>
+                    <td>Hold if HR &lt; 60; Masks Hypo</td>
+                </tr>
+                <tr>
+                    <td><b>Biguanides</b></td>
+                    <td>Metformin</td>
+                    <td>Lactic Acidosis</td>
+                    <td>Hold 48h before/after Contrast</td>
+                </tr>
+                <tr>
+                    <td><b>SGLT2-I</b></td>
+                    <td>Canagliflozin</td>
+                    <td>UTIs / Yeast Inf.</td>
+                    <td>Monitor for hypotension</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 class="mt-5 mb-4">📝 II. Lecture Hall: Audience Response Archive</h2>
+    
+    <div class="flashcard">
+        <div class="question">Q1: When is the best time to take Simvastatin?</div>
+        <div class="answer">Answer: Evening.</div>
+        <div class="rationale"><b>Rationale:</b> Cholesterol synthesis peaks at night. Administering at bedtime ensures the drug is at peak concentration when the body is making the most fat.</div>
+    </div>
+
+    <div class="flashcard">
+        <div class="question">Q4: Priority interventions for IV Furosemide (Lasix)?</div>
+        <div class="answer">Actions: Check for Tinnitus & Monitor Potassium.</div>
+        <div class="rationale"><b>Rationale:</b> Loop diuretics are ototoxic and potassium-wasting. Rapid IV push can cause permanent hearing loss and lethal arrhythmias.</div>
+    </div>
+
+    <div class="flashcard">
+        <div class="question">Q10: Who is at highest risk for Digoxin Toxicity?</div>
+        <div class="answer">Answer: Patients on Furosemide (Lasix).</div>
+        <div class="rationale"><b>Rationale:</b> Lasix lowers potassium. Hypokalemia makes the heart hypersensitive to Digoxin, precipitating toxicity.</div>
+    </div>
+
+    <div class="flashcard">
+        <div class="question">Q22: A Metformin patient is extremely sleepy (Somnolence). Why?</div>
+        <div class="answer">Warning: Sign of Lactic Acidosis.</div>
+        <div class="rationale"><b>Rationale:</b> Lactic acidosis is a fatal complication. Somnolence + hyperventilation = medical emergency.</div>
+    </div>
+
+    <div class="flashcard">
+        <div class="question">Q24: Mixing Insulin: Which comes first?</div>
+        <div class="answer">Answer: Regular (Clear) before NPH (Cloudy).</div>
+        <div class="rationale"><b>Rationale:</b> Prevents the protein in the NPH (cloudy) vial from contaminating the pure regular (clear) vial. Mnemonic: "RN" (Regular then NPH).</div>
+    </div>
+
+    <h2 class="mt-5 mb-4">🚨 III. THE "RED ZONE": Critical Safety Checks</h2>
+    <div class="red-zone mb-5">
+        <div class="row">
+            <div class="col-md-6 border-end">
+                <h3>🧪 Lab Targets</h3>
+                <ul>
+                    <li><b>Digoxin:</b> 0.8 – 2.0 ng/mL <span class="badge badge-toxicity">Toxic > 2.4</span></li>
+                    <li><b>Warfarin (INR):</b> 2.0 – 3.0</li>
+                    <li><b>Potassium (K+):</b> 3.5 – 5.0 mEq/L</li>
+                </ul>
+            </div>
+            <div class="col-md-6 ps-4">
+                <h3>🚫 Absolute Contraindications</h3>
+                <ul>
+                    <li><b>ACE Inhibitors:</b> Pregnancy</li>
+                    <li><b>Beta Blockers:</b> Asthma</li>
+                    <li><b>Nitroglycerin:</b> Sildenafil (Viagra)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="mb-4">🛠 IV. Nursing Interventions Cheat Sheet</h2>
+    <div class="list-group">
+        <div class="list-group-item"><b>1. Digoxin:</b> Check Apical Pulse for 1 Full Minute (Hold &lt; 60).</div>
+        <div class="list-group-item"><b>2. Heparin:</b> Monitor aPTT; Antidote is <b>Protamine Sulfate</b>.</div>
+        <div class="list-group-item"><b>3. Warfarin:</b> Monitor PT/INR; Antidote is <b>Vitamin K</b>.</div>
+        <div class="list-group-item"><b>4. Nitrates:</b> Provide 8-12 hour "Nitrate-Free" window to prevent tolerance.</div>
+        <div class="list-group-item"><b>5. SQ Heparin:</b> 90-degree angle; Do NOT aspirate; Do NOT massage.</div>
+    </div>
+
+</div>
+
+</body>
+</html>

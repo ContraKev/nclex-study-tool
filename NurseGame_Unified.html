@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified NGN Study Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --accent: #3b82f6; --text: #f8fafc; --success: #22c55e; --danger: #ef4444; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; }
+        .nexus-card { background: var(--card); border: 1px solid #334155; border-radius: 12px; margin-bottom: 20px; transition: 0.3s; }
+        .nexus-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+        .mode-btn { padding: 40px; font-size: 1.5rem; transition: 0.3s; }
+        .drug-row:hover { background: rgba(59, 130, 246, 0.1); cursor: pointer; }
+        .vitals-box { background: rgba(0,0,0,0.3); border-radius: 8px; padding: 15px; font-family: monospace; }
+        .asset-icon { width: 60px; height: 60px; background: white; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin: 0 auto; }
+        .flashcard { border-left: 4px solid var(--accent); background: rgba(255,255,255,0.05); padding: 15px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    
+    <!-- MAIN SELECTION SCREEN -->
+    <div id="view-selection">
+        <div class="text-center mb-5">
+            <h1 class="display-3 fw-bold text-primary">NGN STUDY HUB</h1>
+            <p class="lead">Select your preparation path</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-5">
+                <button class="btn btn-primary w-100 mode-btn shadow" onclick="showView('study')">
+                    <i class="fas fa-book-open d-block mb-3 fa-2x"></i>
+                    Study Mode<br><small class="fs-6 opacity-75">8-Point Drug Monographs</small>
+                </button>
+            </div>
+            <div class="col-md-5">
+                <button class="btn btn-success w-100 mode-btn shadow" onclick="showView('scenario')">
+                    <i class="fas fa-user-nurse d-block mb-3 fa-2x"></i>
+                    Scenario Mode<br><small class="fs-6 opacity-75">Multi-Step NGN Cases</small>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- STUDY MODE VIEW -->
+    <div id="view-study" style="display: none;">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <button class="btn btn-outline-secondary" onclick="showView('selection')">← Back</button>
+            <h2>Pharmacology Encyclopedia</h2>
+            <input type="text" id="studySearch" class="form-control w-25 bg-dark text-white border-secondary" placeholder="Search drug..." onkeyup="filterStudy()">
+        </div>
+        <div class="row" id="study-list">
+            <!-- Injected by JS -->
+        </div>
+    </div>
+
+    <!-- SCENARIO MODE VIEW -->
+    <div id="view-scenario" style="display: none;">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <button class="btn btn-outline-secondary" onclick="showView('selection')">← Back</button>
+            <h2 id="scenario-module-name">Modules</h2>
+            <div class="badge bg-primary fs-5">Score: <span id="game-score">0</span></div>
+        </div>
+
+        <div id="module-picker" class="row justify-content-center">
+            <!-- Injected by JS -->
+        </div>
+
+        <div id="game-arena" style="display: none;">
+            <div class="nexus-card p-4">
+                <div id="asset-display" class="row mb-4 text-center">
+                    <div class="col-3"><h6>Patient</h6><div id="a-cond" class="asset-icon"></div></div>
+                    <div class="col-3"><h6>Room</h6><div id="a-env" class="asset-icon"></div></div>
+                    <div class="col-3"><h6>Action</h6><div id="a-act" class="asset-icon"></div></div>
+                    <div class="col-3"><h6>Drug</h6><div id="a-drug" class="asset-icon"></div></div>
+                </div>
+                
+                <div id="scenario-text" class="fs-5 mb-4 p-3 bg-white text-dark rounded border-start border-primary border-5 shadow-sm"></div>
+                
+                <div id="vitals-panel" class="vitals-box mb-4" style="display: none;">
+                    <div class="row">
+                        <div class="col-6"><b>VITALS:</b> <span id="v-vitals"></span></div>
+                        <div class="col-6"><b>LABS:</b> <span id="v-labs"></span></div>
+                    </div>
+                </div>
+
+                <h4 id="scenario-question" class="mb-4"></h4>
+                <div id="input-container" class="d-grid gap-2"></div>
+                
+                <div id="feedback-box" class="mt-4" style="display: none;"></div>
+                <button id="next-step-btn" class="btn btn-primary w-100 mt-4" style="display: none;" onclick="advanceStep()">Continue Mission →</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+// --- DATA SECTION ---
+const drugs = [
+    { name: "Atorvastatin (Lipitor)", class: "Statin", moa: "HMG-CoA Reductase Inhibitor", ind: "Hyperlipidemia", ae: "Rhabdomyolysis, Myalgia", nursing: "Evening dose, monitor LFTs" },
+    { name: "Lisinopril (Prinivil)", class: "ACE Inhibitor", moa: "Blocks Angiotensin I -> II", ind: "HTN, Heart Failure", ae: "Dry cough, Angioedema, Hyperkalemia", nursing: "Hold if facial swelling, avoid K+ salt" },
+    { name: "Metformin (Glucophage)", class: "Biguanide", moa: "Reduces liver glucose production", ind: "Type 2 Diabetes", ae: "Lactic Acidosis, GI upset", nursing: "Hold 48h for contrast dye" },
+    { name: "Digoxin (Lanoxin)", class: "Cardiac Glycoside", moa: "(+) Inotrope, (-) Chronotrope", ind: "Heart Failure, A-Fib", ae: "Toxicity (Halos, N/V)", nursing: "Check Apical Pulse 1 min (Hold <60)" },
+    { name: "Furosemide (Lasix)", class: "Loop Diuretic", moa: "Blocks Na/K/Cl in Loop", ind: "Edema, Heart Failure", ae: "Ototoxicity, Hypokalemia", nursing: "Push slow (耳), high K+ diet" },
+    { name: "Nitroglycerin", class: "Nitrate", moa: "Coronary Vasodilation", ind: "Angina", ae: "Headache, Hypotension", nursing: "8-12h free period to avoid tolerance" },
+    { name: "Warfarin (Coumadin)", class: "Anticoagulant", moa: "Vit K Antagonist", ind: "VTE, A-Fib Prophylaxis", ae: "Major Bleeding", nursing: "PT/INR target 2-3, consistent greens" }
+];
+
+const modules = [
+    {
+        id: "m3_extended",
+        name: "Module 3 (Remastered): Pharma Multi-Step",
+        scenarios: [
+            {
+                text: "You are the charge nurse checking on Mr. Henderson. He is taking Atorvastatin and reports new leg pain.",
+                vitals: "BP 130/80 | HR 72 | RR 16",
+                labs: "CK: 12,000 (Elevated)",
+                question: "What is your immediate priority action?",
+                options: ["Give Tylenol for pain", "Hold the Statin and notify provider", "Increase fluid intake", "Encourage leg exercises"],
+                correct: 1,
+                rationale: "CK > 10,000 + muscle pain = Rhabdomyolysis. High priority for renal protection.",
+                assets: { cond: "😨", env: "🏥", act: "🛑", drug: "💊" }
+            },
+            {
+                text: "Ms. Garcia has Type 2 DM and is taking Metformin. She is scheduled for a Cardiac Cath today.",
+                vitals: "BP 142/88 | HR 84",
+                labs: "Creatinine: 1.4",
+                question: "Which instruction is critical for this patient?",
+                options: ["Double the dose before procedure", "Hold Metformin for 48h after dye", "Switch to insulin for the day", "Take Metformin with clear liquids"],
+                correct: 1,
+                rationale: "Iodinated contrast + Metformin = extreme risk of Lactic Acidosis/Kidney Failure.",
+                assets: { cond: "👩", env: "🩺", act: "⏳", drug: "🧪" }
+            }
+        ]
+    }
+];
+
+// --- LOGIC SECTION ---
+let currentView = 'selection';
+let activeModule = null;
+let stepIdx = 0;
+let score = 0;
+
+function showView(v) {
+    document.getElementById('view-selection').style.display = v === 'selection' ? 'block' : 'none';
+    document.getElementById('view-study').style.display = v === 'study' ? 'block' : 'none';
+    document.getElementById('view-scenario').style.display = v === 'scenario' ? 'block' : 'none';
+    if (v === 'scenario') renderModulePicker();
+    if (v === 'study') renderStudy();
+}
+
+function renderStudy() {
+    const list = document.getElementById('study-list');
+    list.innerHTML = drugs.map(d => `
+        <div class="col-md-6 col-lg-4 mb-3 study-card">
+            <div class="nexus-card p-3 h-100">
+                <h5 class="text-primary">${d.name}</h5>
+                <p class="small mb-1"><b>Mechanism:</b> ${d.moa}</p>
+                <p class="small mb-1"><b>Side Effects:</b> <span class="text-danger">${d.ae}</span></p>
+                <p class="small border-top pt-2 mt-2 text-info"><i class="fas fa-user-nurse"></i> ${d.nursing}</p>
+            </div>
+        </div>
+    `).join('');
+}
+
+function renderModulePicker() {
+    document.getElementById('module-picker').style.display = 'flex';
+    document.getElementById('game-arena').style.display = 'none';
+    const container = document.getElementById('module-picker');
+    container.innerHTML = modules.map(m => `
+        <div class="col-md-6 mb-3">
+            <button class="btn btn-outline-primary w-100 p-4 fs-4" onclick="startModule('${m.id}')">${m.name}</button>
+        </div>
+    `).join('');
+}
+
+function startModule(id) {
+    activeModule = modules.find(m => m.id === id);
+    stepIdx = 0;
+    score = 0;
+    document.getElementById('game-score').innerText = score;
+    document.getElementById('module-picker').style.display = 'none';
+    document.getElementById('game-arena').style.display = 'block';
+    renderStep();
+}
+
+function renderStep() {
+    const s = activeModule.scenarios[stepIdx];
+    document.getElementById('scenario-text').innerText = s.text;
+    document.getElementById('scenario-question').innerText = s.question;
+    document.getElementById('feedback-box').style.display = 'none';
+    document.getElementById('next-step-btn').style.display = 'none';
+    
+    if (s.vitals || s.labs) {
+        document.getElementById('vitals-panel').style.display = 'block';
+        document.getElementById('v-vitals').innerText = s.vitals || 'N/A';
+        document.getElementById('v-labs').innerText = s.labs || 'N/A';
+    } else {
+        document.getElementById('vitals-panel').style.display = 'none';
+    }
+
+    // Assets
+    document.getElementById('a-cond').innerText = s.assets.cond;
+    document.getElementById('a-env').innerText = s.assets.env;
+    document.getElementById('a-act').innerText = s.assets.act;
+    document.getElementById('a-drug').innerText = s.assets.drug;
+
+    const input = document.getElementById('input-container');
+    input.innerHTML = s.options.map((opt, i) => `
+        <button class="btn btn-outline-light text-start p-3" onclick="checkChoice(${i})">${opt}</button>
+    `).join('');
+}
+
+function checkChoice(i) {
+    const s = activeModule.scenarios[stepIdx];
+    const fb = document.getElementById('feedback-box');
+    fb.style.display = 'block';
+    
+    const btns = document.querySelectorAll('#input-container button');
+    btns.forEach(b => b.disabled = true);
+
+    if (i === s.correct) {
+        score += 10;
+        fb.innerHTML = `<div class="alert alert-success"><b>CORRECT mission logic!</b><br>${s.rationale}</div>`;
+    } else {
+        score -= 5;
+        fb.innerHTML = `<div class="alert alert-danger"><b>SUBOPTIMAL Intervention.</b><br>${s.rationale}</div>`;
+    }
+    
+    document.getElementById('game-score').innerText = score;
+    document.getElementById('next-step-btn').style.display = 'block';
+}
+
+function advanceStep() {
+    stepIdx++;
+    if (stepIdx < activeModule.scenarios.length) {
+        renderStep();
+    } else {
+        alert("Mission Complete! Final Score: " + score);
+        showView('scenario');
+    }
+}
+
+function filterStudy() {
+    const term = document.getElementById('studySearch').value.toLowerCase();
+    const cards = document.querySelectorAll('.study-card');
+    cards.forEach(c => {
+        c.style.display = c.innerText.toLowerCase().includes(term) ? 'block' : 'none';
+    });
+}
+
+</script>
+</body>
+</html>

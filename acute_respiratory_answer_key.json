@@ -1,0 +1,596 @@
+[
+  {
+    "question_number": 1,
+    "question_id": "acute_bronchitis_001",
+    "question_text": "The goal of antibiotic therapy for acute bronchitis is:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Complete eradication of the pathogen"
+    ],
+    "rationale": "Antibiotic therapy aims for complete pathogen eradication to prevent drug resistance and recurrence."
+  },
+  {
+    "question_number": 2,
+    "question_id": "acute_bronchitis_002",
+    "question_text": "Acute bronchitis is diagnosed based on:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Health history and clinical presentation"
+    ],
+    "rationale": "Acute bronchitis diagnosis is based on history and clinical presentation, not advanced diagnostics."
+  },
+  {
+    "question_number": 3,
+    "question_id": "acute_bronchitis_003",
+    "question_text": "Nursing care for acute bronchitis focuses on:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Symptom management and patient education"
+    ],
+    "rationale": "Nursing care emphasizes symptom management, education, and infection control measures."
+  },
+  {
+    "question_number": 4,
+    "question_id": "influenza_001",
+    "question_text": "Influenza symptoms include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Abrupt onset with high fever (102-104\u00b0F)",
+      "Headache and general body aches",
+      "Exhaustion and fatigue lasting 3-4 days"
+    ],
+    "rationale": "Influenza has abrupt onset with high fever, headache, body aches, and prolonged fatigue."
+  },
+  {
+    "question_number": 5,
+    "question_id": "influenza_002",
+    "question_text": "Influenza is diagnosed using:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Rapid influenza diagnostic tests (RIDTs)"
+    ],
+    "rationale": "Rapid influenza diagnostic tests (RIDTs) are available to detect influenza viruses."
+  },
+  {
+    "question_number": 6,
+    "question_id": "pneumonia_001",
+    "question_text": "Bacterial pneumonia presents with:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Abrupt onset with severe shaking chills",
+      "Sharp, stabbing lateral chest pain",
+      "Intermittent cough with rusty sputum"
+    ],
+    "rationale": "Bacterial pneumonia has explosive onset with chills, lateral chest pain, and rusty sputum."
+  },
+  {
+    "question_number": 7,
+    "question_id": "pneumonia_002",
+    "question_text": "Viral pneumonia is characterized by:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Burning or searing sternal chest pain",
+      "Continuous hacking, barking cough",
+      "Small amounts of sputum production"
+    ],
+    "rationale": "Viral pneumonia features sternal burning pain, barking cough, and small sputum amounts."
+  },
+  {
+    "question_number": 8,
+    "question_id": "pneumonia_003",
+    "question_text": "Pneumonia risk factors include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Smoking",
+      "Altered consciousness from alcohol/drugs",
+      "Immunosuppression",
+      "Malnutrition and debilitation",
+      "Prolonged immobility"
+    ],
+    "rationale": "Pneumonia risk factors include smoking, altered consciousness, immunosuppression, malnutrition, and immobility."
+  },
+  {
+    "question_number": 9,
+    "question_id": "pleurisy_001",
+    "question_text": "Pleurisy is caused by:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Pneumonia",
+      "Tuberculosis",
+      "Chest wall injury",
+      "Pulmonary infarction",
+      "Tumors"
+    ],
+    "rationale": "Pleurisy causes include pneumonia, TB, chest injury, pulmonary infarction, and tumors."
+  },
+  {
+    "question_number": 10,
+    "question_id": "pleurisy_002",
+    "question_text": "Pleurisy pain assessment includes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Complete description including location and severity",
+      "Precipitating and alleviating factors",
+      "Radiation pattern"
+    ],
+    "rationale": "Complete pleurisy pain assessment includes PQRST components: location, severity, precipitating/alleviating factors, radiation."
+  },
+  {
+    "question_number": 11,
+    "question_id": "chest_trauma_001",
+    "question_text": "Chest trauma can result in:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Changes in intrathoracic pressure relationships",
+      "Interference with normal breathing patterns",
+      "Disturbances in pulmonary blood flow",
+      "Lung swelling and pain",
+      "Cough reflex impairment"
+    ],
+    "rationale": "Chest trauma affects pressure relationships, breathing patterns, blood flow, and protective mechanisms."
+  },
+  {
+    "question_number": 12,
+    "question_id": "chest_trauma_002",
+    "question_text": "Immediate chest trauma care prioritizes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Stabilization and prevention of further injury",
+      "Airway protection",
+      "Breathing assessment",
+      "Circulation support"
+    ],
+    "rationale": "Chest trauma care prioritizes ABCs and stabilization before diagnostics."
+  },
+  {
+    "question_number": 13,
+    "question_id": "pneumothorax_001",
+    "question_text": "Pneumothorax assessment reveals:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Reduced or absent breath sounds on affected side"
+    ],
+    "rationale": "Air in pleural space prevents lung expansion, causing reduced/absent breath sounds on affected side."
+  },
+  {
+    "question_number": 14,
+    "question_id": "pneumothorax_002",
+    "question_text": "Pneumothorax patient monitoring includes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Respiratory rate and effort",
+      "Breath sound symmetry",
+      "Pulse and blood pressure",
+      "Pain characteristics",
+      "Oxygen saturation trends",
+      "Mental status changes"
+    ],
+    "rationale": "Pneumothorax requires comprehensive monitoring of respiratory status, vital signs, pain, and oxygenation."
+  },
+  {
+    "question_number": 15,
+    "question_id": "hemothorax_001",
+    "question_text": "Hemothorax is associated with:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Lacerated blood vessels",
+      "Torn lung tissues",
+      "Lung malignancy",
+      "Pulmonary embolus",
+      "Pneumothorax"
+    ],
+    "rationale": "Hemothorax occurs from vascular/lung injury, malignancy, or PE, often with pneumothorax."
+  },
+  {
+    "question_number": 16,
+    "question_id": "rib_fractures_001",
+    "question_text": "Rib fracture healing takes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Approximately 6 weeks",
+      "Pain control for adequate breathing",
+      "Prevention of atelectasis/pneumonia"
+    ],
+    "rationale": "Rib fractures take 6 weeks to heal; treatment focuses on pain control to enable adequate breathing and prevent complications."
+  },
+  {
+    "question_number": 17,
+    "question_id": "flail_chest_001",
+    "question_text": "Flail chest treatment varies by:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Severity of the condition",
+      "Pain control and chest physiotherapy",
+      "Mechanical ventilation support",
+      "Surgical stabilization"
+    ],
+    "rationale": "Flail chest treatment ranges from pain control/physio to ventilation and surgical stabilization based on severity."
+  },
+  {
+    "question_number": 18,
+    "question_id": "pulmonary_embolus_001",
+    "question_text": "Pulmonary embolus effects depend on:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Size of occluded vessel",
+      "Extent of deprived lung tissue",
+      "Alveoli collapse",
+      "Cardiac output reduction",
+      "Bronchi constriction",
+      "Pulmonary artery constriction"
+    ],
+    "rationale": "PE effects depend on occlusion size and cause tissue ischemia, alveolar collapse, cardiac output fall, and pulmonary vasoconstriction."
+  },
+  {
+    "question_number": 19,
+    "question_id": "pulmonary_embolus_002",
+    "question_text": "Pulmonary embolus monitoring includes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Respiratory rate and breath sounds",
+      "Skin color and pulse",
+      "Blood pressure",
+      "Bleeding signs from anticoagulation"
+    ],
+    "rationale": "PE monitoring includes respiratory status, vital signs, and anticoagulation bleeding assessment."
+  },
+  {
+    "question_number": 20,
+    "question_id": "asthma_001",
+    "question_text": "Asthma rescue therapy characteristics:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Rapid onset of action",
+      "Relieves bronchospasm during acute attack",
+      "Administered by inhalation or nebulization"
+    ],
+    "rationale": "Rescue therapy has rapid onset, relieves acute bronchospasm via inhalation/nebulization."
+  },
+  {
+    "question_number": 21,
+    "question_id": "hypoxia_001",
+    "question_text": "Early hypoxia cues include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Restlessness and agitation",
+      "Increased heart rate",
+      "Increased respiratory rate"
+    ],
+    "rationale": "Early neurological cues: restlessness, agitation, tachycardia, tachypnea. Late cues: cyanosis, decreased LOC."
+  },
+  {
+    "question_number": 22,
+    "question_id": "cough_meds_001",
+    "question_text": "Cough medications include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Antitussives that suppress cough reflex",
+      "Expectorants that mobilize secretions",
+      "Corticosteroids that reduce inflammation",
+      "Bronchodilators that dilate airways"
+    ],
+    "rationale": "Cough medications: antitussives (suppress), expectorants/mucolytics (mobilize), corticosteroids/bronchodilators (inflammation)."
+  },
+  {
+    "question_number": 23,
+    "question_id": "thoracentesis_001",
+    "question_text": "Thoracentesis positioning allows fluid to collect:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "In dependent pleural space portion",
+      "Patient leans forward across table",
+      "Ribs separate for better access"
+    ],
+    "rationale": "Forward lean positions fluid dependently, separates ribs for pleural access."
+  },
+  {
+    "question_number": 24,
+    "question_id": "chest_tube_001",
+    "question_text": "Chest tube management principles:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "System kept below chest level",
+      "Sterile water prevents infection",
+      "Output marked but not emptied"
+    ],
+    "rationale": "Chest tubes stay below level to prevent backflow. Sterile water seal prevents infection. Output measured by marking."
+  },
+  {
+    "question_number": 25,
+    "question_id": "end_of_life_001",
+    "question_text": "Cheyne-Stokes respirations feature:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Alternating breathing depth",
+      "Periods of apnea",
+      "Gradual progression to respiratory failure"
+    ],
+    "rationale": "Cheyne-Stokes: alternating depth with apnea periods, progressing to respiratory failure."
+  },
+  {
+    "question_number": 26,
+    "question_id": "atelectasis_001",
+    "question_text": "Postoperative atelectasis leads to:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Increased work of breathing",
+      "Tachypnea",
+      "Decreased oxygenation",
+      "Prevention focuses on lung expansion"
+    ],
+    "rationale": "Atelectasis causes increased WOB, tachypnea, hypoxia. Prevention/treatment focuses on lung expansion techniques."
+  },
+  {
+    "question_number": 27,
+    "question_id": "oxygen_sat_001",
+    "question_text": "When oxygen saturation is low, promote:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Maximum lung expansion",
+      "Avoid respiratory depressants",
+      "Frequent deep breathing/coughing"
+    ],
+    "rationale": "Low O2 sat requires maximum lung expansion, avoiding depressants, and frequent deep breathing/coughing."
+  },
+  {
+    "question_number": 28,
+    "question_id": "pneumonia_findings_001",
+    "question_text": "Pneumonia expected findings:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Fever and tachypnea",
+      "Tachycardia",
+      "Purulent secretions",
+      "Adventitious breath sounds"
+    ],
+    "rationale": "Pneumonia presents with fever, increased RR/HR, purulent sputum, adventitious breath sounds."
+  },
+  {
+    "question_number": 29,
+    "question_id": "priority_abcde_001",
+    "question_text": "ABCDE framework prioritizes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Airway compromise over fever",
+      "Breathing over confusion",
+      "Circulation before urine output"
+    ],
+    "rationale": "ABCDE prioritizes Airway/Breathing/Circulation before other issues like fever, confusion, urine output."
+  },
+  {
+    "question_number": 30,
+    "question_id": "mdi_technique_001",
+    "question_text": "Correct MDI technique includes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Waiting between inhalations",
+      "Using spacer for delivery",
+      "Effectiveness shown by decreased WOB",
+      "Reduced wheezing indicates success",
+      "Improved oxygen saturation",
+      "No accessory muscle use"
+    ],
+    "rationale": "All listed items are correct MDI technique and effectiveness indicators."
+  },
+  {
+    "question_number": 31,
+    "question_id": "airway_obs_001",
+    "question_text": "Airway obstruction cues include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "High-pitched inspiratory sound",
+      "Visible retractions",
+      "Cyanosis",
+      "Labored respirations"
+    ],
+    "rationale": "Airway obstruction presents with stridor (high-pitched sound), retractions, cyanosis, labored breathing."
+  },
+  {
+    "question_number": 32,
+    "question_id": "ngn_hypoxia_001",
+    "question_text": "NGN hypoxia clues include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Decreased oxygen saturation",
+      "Restlessness or agitation",
+      "Tachycardia",
+      "Tachypnea",
+      "Cyanosis (late sign)",
+      "Early neurological changes"
+    ],
+    "rationale": "All listed are valid NGN clues for hypoxia recognition, with cyanosis being a late sign."
+  },
+  {
+    "question_number": 33,
+    "question_id": "ngn_resp_infection_001",
+    "question_text": "NGN respiratory infection clues:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Fever",
+      "Thick yellow/green secretions",
+      "Adventitious breath sounds",
+      "Inflammation on imaging"
+    ],
+    "rationale": "Respiratory infections show fever, purulent secretions, adventitious sounds, imaging inflammation."
+  },
+  {
+    "question_number": 34,
+    "question_id": "epistaxis_001",
+    "question_text": "Posterior epistaxis bleeding indicated by:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Frequent swallowing after nasal packing"
+    ],
+    "rationale": "Frequent swallowing indicates posterior bleeding moving toward throat, requiring immediate intervention."
+  },
+  {
+    "question_number": 35,
+    "question_id": "acute_viral_coryza_001",
+    "question_text": "Acute viral coryza (common cold) is:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Contagious and spread by droplet infection",
+      "Limited to relieving symptoms only"
+    ],
+    "rationale": "Acute viral coryza is contagious via droplets. Treatment focuses on symptom relief; antibiotics are not indicated for viral infections."
+  },
+  {
+    "question_number": 36,
+    "question_id": "peritonsillar_abscess_001",
+    "question_text": "A peritonsillar abscess is:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "An infection of tissue surrounding the tonsil",
+      "Usually occurs with acute rhinitis",
+      "Requires surgical drainage"
+    ],
+    "rationale": "Peritonsillar abscess is tissue infection around tonsils, often with acute rhinitis, requiring surgical intervention."
+  },
+  {
+    "question_number": 37,
+    "question_id": "acute_laryngitis_001",
+    "question_text": "Acute laryngitis causes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Hoarseness and voice loss",
+      "Usually occurs with acute rhinitis or sinusitis",
+      "Increased aspiration pneumonia risk"
+    ],
+    "rationale": "Acute laryngitis causes hoarseness, occurs with rhinitis/sinusitis, increases aspiration pneumonia risk."
+  },
+  {
+    "question_number": 38,
+    "question_id": "otitis_media_001",
+    "question_text": "Otitis media is:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "An infection of the middle ear",
+      "Common complication of upper respiratory infections",
+      "Caused by eustachian tube dysfunction",
+      "Treated with antibiotics"
+    ],
+    "rationale": "Otitis media is middle ear infection from eustachian tube issues during URIs, treated with antibiotics."
+  },
+  {
+    "question_number": 39,
+    "question_id": "acute_rhinitis_001",
+    "question_text": "Acute rhinitis symptoms include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Nasal congestion and discharge",
+      "Common cold symptoms",
+      "Drug-induced congestion (rhinitis medicamentosa)",
+      "Presence of foreign body",
+      "Bacterial infection"
+    ],
+    "rationale": "Acute rhinitis presents with congestion, discharge, and can be caused by viral infection, drugs, or foreign bodies."
+  },
+  {
+    "question_number": 40,
+    "question_id": "aspiration_pneumonia_001",
+    "question_text": "Increased aspiration pneumonia risk occurs with:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Supraglottic laryngectomy",
+      "Laryngitis",
+      "Weakened esophageal sphincter in older adults",
+      "Gastric contents reflux when lying down"
+    ],
+    "rationale": "Aspiration risk increases with laryngectomy, laryngitis, and age-related esophageal sphincter weakness allowing gastric reflux."
+  },
+  {
+    "question_number": 41,
+    "question_id": "respiratory_assessment_001",
+    "question_text": "Nursing assessment of respiratory disorders includes:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Health history and present illness",
+      "Past medical and family history",
+      "Review of systems",
+      "Functional assessment",
+      "Physical examination of head/neck/thorax"
+    ],
+    "rationale": "Comprehensive respiratory assessment includes complete history, ROS, functional status, and physical examination."
+  },
+  {
+    "question_number": 42,
+    "question_id": "breathing_patterns_001",
+    "question_text": "Identify the characteristics of abnormal breathing patterns:",
+    "type": "matrix",
+    "correct_answers": [],
+    "matrix_answer": {
+      "Tachypnea": "Rate > 20/min",
+      "Bradypnea": "Rate < 12/min",
+      "Cheyne-Stokes": "Alternating depth with apnea",
+      "Apnea": "Complete cessation"
+    },
+    "rationale": ""
+  },
+  {
+    "question_number": 43,
+    "question_id": "hypoxemia_hypoxia_001",
+    "question_text": "Hypoxemia differs from hypoxia in that hypoxemia is:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Low oxygen levels in blood",
+      "Caused by heart/lung conditions",
+      "Shows symptoms of restlessness and tachycardia",
+      "Requires oxygen therapy",
+      "Monitored by pulse oximetry"
+    ],
+    "rationale": "Hypoxemia is low blood oxygen (monitored by pulse ox), caused by cardiopulmonary issues, shows restlessness/tachycardia, requires O2 therapy."
+  },
+  {
+    "question_number": 44,
+    "question_id": "age_related_resp_001",
+    "question_text": "Age-related respiratory changes in older adults include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Increased nasal obstruction",
+      "Thinner mucous membranes producing less mucus",
+      "More common epistaxis",
+      "Decline in sense of smell",
+      "Drier, less elastic laryngeal tissues"
+    ],
+    "rationale": "Older adults experience nasal obstruction, thinner/drier mucous membranes, increased epistaxis, diminished smell, and weakened laryngeal tissues."
+  },
+  {
+    "question_number": 45,
+    "question_id": "diagnostic_resp_001",
+    "question_text": "Common respiratory diagnostic procedures include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Throat culture",
+      "Laryngoscopy",
+      "Fiberoptic bronchoscopy",
+      "Radiologic studies",
+      "Pulmonary function tests",
+      "Arterial blood gases"
+    ],
+    "rationale": "Respiratory diagnostics include throat culture, laryngoscopy, bronchoscopy, imaging, PFTs, and ABGs."
+  },
+  {
+    "question_number": 46,
+    "question_id": "oxygen_therapy_001",
+    "question_text": "Oxygen therapy principles include:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Must be ordered by healthcare provider",
+      "Closely monitored by nurse",
+      "Prevents or relieves hypoxia",
+      "Requires assessment of effects"
+    ],
+    "rationale": "O2 therapy requires provider orders, nursing monitoring, prevents hypoxia, and requires assessment of therapeutic effects."
+  },
+  {
+    "question_number": 47,
+    "question_id": "crackles_assessment_001",
+    "question_text": "Coarse crackles are caused by:",
+    "type": "extended_sata",
+    "correct_answers": [
+      "Secretions in larger airways",
+      "Usually clear with coughing"
+    ],
+    "rationale": "Coarse crackles result from secretions in larger airways and typically clear with coughing."
+  }
+]

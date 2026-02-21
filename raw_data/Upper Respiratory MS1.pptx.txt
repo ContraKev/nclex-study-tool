@@ -1,0 +1,565 @@
+Respiratory System Introduction
+Chapter 25
+
+Medical Surgical Nursing
+Objectives
+Discuss the anatomy and physiology of the respiratory system.
+List the components of the nursing assessment of the patient with a respiratory disorder.
+Describe the diagnostic tests and procedures used to evaluate respiratory function and the nursing responsibilities associated with each.
+Identify the uses, side effects, and nursing interventions associated with common drug therapies used in patients with respiratory disorders.
+Identify nursing actions when selected therapeutic measures are ordered for patients with respiratory disorders.
+
+2
+Anatomy of the Respiratory System
+Nose
+Sinuses
+Throat
+Trachea
+Bronchi
+Lungs
+The sinuses are spaces in the bones of the skull; they are lined with mucous membrane and filled with air. 
+The throat consists of the nasopharynx, oropharynx, and the larynx.
+
+Physiology of the Respiratory System
+Respiratory center: 
+Breathing is controlled by the respiratory center-located in the medulla
+The medulla is part of the brainstem immediately above the spinal cord
+The respiratory center is stimulated by changing levels of CO2 and O2 in arterial blood
+
+4
+Mechanism of breathing
+
+5
+Assessment Box 25.2
+Health history
+Reason for seeking care
+Present health
+Past health history
+Family history
+Review of systems
+Functional assessment
+Physical examination
+Head and neck
+Thorax
+
+The nurse’s examination of the nose and sinuses is usually confined to inspection of the external nose and palpation over the paranasal sinuses
+A nasal speculum and a lighted scope are used to observe the mucosa of the nasal cavity
+
+6
+Physical Examination
+Thorax: Inspect the chest for deformities and lesions and observe the breathing pattern and effort
+Palpate the thorax for tenderness and lumps
+Auscultate the lungs bilaterally in a systematic manner
+*Coarse crackles: Caused by secretions accumulating in the larger airways and usually clear with coughing
+7
+Hypoxemia vs Hypoxia
+Hypoxemia is low oxygen levels in your blood
+Hypoxia is low oxygen levels in your tissues
+Symptoms: Restlessness, Headache, Rapid or difficulty breathing, rapid heart rate and bluish skin
+Heart and Lung conditions put you at risk for hypoxemia
+Hypoxia: Reduced oxygen content in tissue and cells
+Manifestations of hypoxia include agitation and restlessness due to neurological changes from poor oxygen exchange
+Oxygen therapy prevents or relieves hypoxia
+O2 Must be ordered by a health care provider and closely monitored by the nurse
+
+8
+Types of Breathing Patterns Table 25.1
+Normal: Depth: even Rate: 12–20 breaths per minute
+
+Tachypnea: Depth: even Rate: faster than 20 breaths per minute
+Fever, pain, anxiety
+
+Bradypnea: Depth: even Rate: slower than 12 breaths per minute
+Sedatives, opioids, and alcohol; brain, metabolic, and respiratory disorders
+
+Apnea: Pattern: respirations cease for several seconds 
+Persistent cessation is respiratory arrest
+
+Cheyne-Stokes respirations, apnea: Breaths progressively deeper, then becoming more shallow, followed by period of apnea
+Severe brain pathology/death
+9
+Age-Related Changes Box 25.1
+Nasal obstruction more common because of the softening of the cartilage of the external nose 
+Mucous membrane thinner; produces less mucus 
+Epistaxis (nosebleed) more common in older people
+Decline in the sense of smell as people age 
+Tissues of larynx are drier and less elastic in older adult 
+Weakened esophageal sphincter allows gastric contents to flow back into the throat when the patient lies down
+
+Some older people report having a watery or “runny” nose when eating spicy or hot foods 
+The older person may fail to detect smoke or gas in the home or may neglect personal hygiene owing to failure to notice body odors
+Some people complain of a constant tickling sensation that causes them to clear the throat frequently
+
+10
+Diagnostic Tests and Procedures Table 25.2
+11
+Throat culture
+Laryngoscopy
+Fiberoptic bronchoscopy
+ Radiologic studies
+Imaging procedures
+Pulmonary function tests
+Pulse oximetry
+Sputum analysis
+Fluoroscopy
+Throat Culture
+
+Pulmonary function tests
+13
+Fiberoptic Bronchoscopy
+Bronchoscopy: Used to visualize abnormalities, take biopsy samples of lesions, or remove foreign bodies
+Obtain signed consent. Patient status should be NPO for 6–8 hours or as specified. Have the patient remove any dentures and provide oral hygiene. Document any loose teeth. Ask the patient not to smoke. Administer sedative and anticholinergics as ordered
+
+Patient status should be NPO until gag reflex returns and placed in semi-Fowler position 
+Monitor the patient's vital signs as well as for gross hemoptysis, swelling of face and neck, stridor, decreased or asymmetric chest movement, diminished lung sounds, and dyspnea 
+Report any abnormal findings to the physician.
+14
+Fluoroscopy
+Used to provide motion radiographs of lungs
+Taken to observe deep structures in motion
+Screen registers a constant image of the chest
+Fluoroscopic examination can give information about the speed and degree of lung expansion and structural defects in the bronchial tree
+15
+Drug Therapy
+Adrenergic agents
+Anticholinergics
+Antihistamines
+Corticosteroids
+Antipyretics
+Analgesics
+Anesthetics
+Antiinfectives
+
+Drug Therapy: Drugs Used to Treat Respiratory Disorders Table 25.4
+Decongestants: 
+Oral: pseudoephedrine (Sudafed) 
+Topical: azelastine (Astepro)
+Constricts blood vessels to reduce swelling of mucous membranes. Used to treat nasal discharge, common cold
+*Sudafed used with caution in those with severe hypertension and coronary artery disease
+Opioid antitussives: Codeine
+Opioid antitussives: codeine, hydrocodone
+Suppresses cough reflex. Appropriate to control nonproductive cough or cough that interferes with rest or wound healing.
+Codeine antitussive is a Schedule V controlled substance. Is an opioid and therefore has abuse potential and can cause sedation
+Encourage fluids unless contraindicated to facilitate expectoration of secretions. Take safety measures if the patient is drowsy
+
+18
+Bronchodilators
+Inhaled short-acting: Albuterol
+Decrease mucus secretion, increase mucociliary clearance, and stabilize mast cells. Significant cardiac stimulation
+Restlessness, anxiety, tachycardia, headache, hypertension, disorientation, nausea, vomiting, and diarrhea.
+Teach the patient to use an inhaler and to rinse the mouth after inhalation to decrease dryness and irritation. Avoid excessive caffeine. Monitor the patient's respiratory and cardiovascular status
+
+19
+Therapeutic Measures 
+Thoracentesis
+Breathing exercises
+Chest physiotherapy
+Humidification and aerosol therapy
+Oxygen therapy
+Intermittent positive pressure breathing treatments
+Artificial airways
+
+Mechanical ventilation
+Chest tubes
+Tracheostomy suctioning
+Tracheostomy care
+Nasal surgery
+Thoracic surgery
+Video thoracoscopy
+20
+Thoracentesis
+Insertion of a large-bore needle through the chest wall into the pleural space
+To remove pleural fluid, blood, or air or to instill medication
+Pleural fluid may be removed to reduce respiratory distress caused by fluid accumulation in the pleural space
+Position: Sitting on the side of the bed bent over bedside table
+21
+Tracheostomy Suctioning
+Suctioning is done to remove secretions from the upper airway
+Depending on the site of the secretions, you may need to suction the oral cavity, the oropharynx, the nasopharynx, or the trachea
+Suction only when evidence indicates. Signs: Increased heart and respiratory rates, restlessness, noisy expiration, mucus is apparent in the tracheostomy tube and ventilator is increased peak airway pressure
+22
+Thoracic Surgery: Pneumonectomy
+Pneumonectomy: Removal of an entire lung
+Contraindications to percussion and vibration
+After pneumonectomy, also avoid the complete side-lying position on the affected side because this may encourage mediastinal shift. Administer oxygen as ordered
+23
+Atelectasis
+Partial or Complete collapse of the lung
+Caused by a blockage of the air passages (bronchus or bronchioles) or by pressure on the outside of the lung
+Risk factors include: Anesthesia, prolonged bed rest with few changes in position, shallow breathing and underlying lung disease
+24
+Mechanical Ventilation
+Mechanical ventilation is the process of providing respiratory support by means of a mechanical device called a ventilator
+Most commonly required for patients with acute respiratory failure who are unable to maintain adequate gas exchange in the lungs
+Three types of positive pressure ventilators exist: 
+(1) volume cycled 
+(2) pressure cycled 
+(3) time cycled
+Positive end-expiratory pressure may be prescribed to keep the pressure in the lungs greater than the atmospheric pressure at the end of expiration
+25
+Chest Tubes
+Inserted to drain air or fluid from the pleural space of the lungs
+Permits Reexpansion of a collapsed lung in the patient with a hemothorax, pneumothorax, or pleural effusion
+A small incision is made to insert one chest tube in the second to fourth intercostal space to remove air
+Pleural drainage device composed of three compartments: 
+(1) The collection chamber 
+(2) The water seal chamber
+(3) The suction control chamber
+26
+Mechanical Ventilation: C-PAP
+CPAP unit: Individuals with sleep apnea 
+CPAP maintains positive pressure in the airway during sleep, thereby preventing periods of apnea 
+CPAP units are small and have a face mask that is worn during sleep
+27
+
+
+Presentation Title
+28
+Chest Tubes
+Spacer for Metered-Dosed Inhaler
+29
+Upper Respiratory Disorders
+Chapter 26
+
+Medical Surgical Nursing
+Objectives
+31
+Explain the pathophysiology, signs and symptoms, complications, and medical or surgical treatment of selected disorders of the nose, sinuses, and throat.
+Assist in developing nursing care plans for patients with disorders of the nose, sinuses, or throat.
+
+Sinusitis
+Inflammation of the sinuses, most often the maxillary and frontal sinuses 
+Signs and symptoms: Headache/Pain or a feeling of heaviness over the affected sinus; purulent drainage from the nose; pain may seem like a toothache
+32
+Nasal Polyps
+Swollen masses of sinus or nasal mucosa and connective tissue that extend into the nasal passages 
+Corticosteroids inhaled nasally may be prescribed 
+Surgical removal under local anesthesia, however, is often necessary 
+Nasal polyps tend to recur
+Nursing care after nasal polyp surgery
+33
+Allergic Rhinitis
+“Hay fever”: acute (seasonal) or chronic (perennial) 
+Follows exposure to a substance (allergen) that causes an allergic response 
+Signs and symptoms 
+Medical diagnosis 
+Medical treatment
+Nursing care
+
+34
+Acute Viral Coryza
+The common cold:
+Can be caused by any of some 30 viruses 
+It is contagious and spread by droplet infection 
+Signs and symptoms 
+Complications
+Medical treatment 
+Prevention 
+Nursing care
+
+35
+Acute Viral Coryza
+Medical management of the common cold is primarily directed at relief of symptoms
+People with colds are most contagious during the first 2 or 3 days after symptoms appear 
+The very young, the very old, and those with weakened immune systems especially should be protected from exposure
+
+36
+37
+Tumors
+Tumors can be benign or malignant. 
+Sinus malignancies are more common among people in certain occupations—notably furniture makers. 
+External nasal tumors are usually either basal cell or squamous cell carcinomas. 
+The earlier a malignancy is detected and treated, the better the chances of survival. 
+
+38
+Deviated Nasal Septum
+Nose divided into two passages by a cartilaginous wall called the septum 
+Major deviations can obstruct the nasal passages and block sinus drainage 
+Headaches, sinusitis, and epistaxis
+Treatment: submucosal resection/nasal septoplasty
+
+39
+Epistaxis
+Nosebleed; from trauma, clotting disorders, dryness, inflammation, and hypertension 
+The nose has an abundant blood supply that permits it to bleed easily. 
+An ice pack or a cold compress can be applied to the nose regardless of whether facial trauma has occurred. 
+Once the bleeding stops, advise the patient not to blow the nose for several hours because this may trigger renewed bleeding. 
+Epistaxis may be controlled by having the patient sit up and lean forward slightly. Then pinch the patient’s nostrils.
+
+40
+Epistaxis: Nursing care
+Severe epistaxis is an emergency
+Priority data: evidence of uncontrolled bleeding and excessive blood loss
+Inspect the nose and back of the throat for obvious bleeding and observe for frequent swallowing
+41
+42
+Pharyngitis
+Inflammation of the mucous membranes of the throat or pharynx 
+Usually occurs along with acute rhinitis or sinusitis.
+Patients with bacterial pharyngitis are more likely to have serious complications than those with viral pharyngitis. 
+Obtain the culture specimen before the antibiotics are started. 
+Fluids must be increased cautiously in the elderly because they do not adjust well to sudden changes in blood volume. 
+
+43
+44
+Tonsillitis
+Inflammation of tonsils/other throat lymphatic tissue 
+The culture and sensitivity identify the pathogenic organisms present and what antibiotics are likely to be effective 
+A peritonsillar abscess is an infection of the tissue surrounding the tonsil 
+
+45
+Tonsillectomy
+Surgical Treatment: Tonsillectomy
+A patient (usually a child) is diagnosed with strep throat 7 or more times in 1 year, the physician may suggest surgery to remove the tonsils (tonsillectomy)
+Considered when enlarged tonsils cause difficulty breathing, or when they contribute to obstructive sleep apnea (OSA)
+An elective surgery
+*The decision to remove a child's tonsils must be weighed against the risks of anesthesia and bleeding, as well as the missed school days to recover from the procedure
+46
+Tonsillectomy
+Nursing care after Tonsillectomy
+Nursing Care Plan: Patient Having a Tonsillectomy
+Pain related to tissue trauma: Patient will state that pain is relieved and will appear more relaxed
+Administer analgesics as ordered. Apply an ice collar as ordered. Give cold or frozen liquids when permitted Provide simple explanations and reassurance
+A chest radiograph also may be ordered to assess for respiratory complications
+
+47
+Obstructive Sleep Apnea 
+Airway obstruction during sleep 
+Symptoms related to disrupted sleep pattern 
+Symptoms can affect many aspects of life 
+Concentration and memory may be impaired 
+Hypertension and cardiac dysrhythmias 
+Diagnosis confirmed by polysomnography
+Conservative treatment: weight loss if obese, avoidance of sedatives and alcohol for 3-4 hours before bedtime 
+Surgical procedures
+48
+Laryngitis
+Inflammation of the larynx 
+The physician may use a laryngeal mirror to examine the larynx for color, edema, and growths such as polyps and tumors
+49
+Laryngeal Nodules
+Benign masses of fibrous tissue result primarily from voice overuse but can follow infections 
+Singers and public speakers prone to development of nodules 
+The only symptom is hoarseness 
+Nodules are surgically removed under local or general anesthesia
+The removal of nodules is usually fairly simple, but they may recur if the voice is again misused. 
+
+50
+Laryngeal Polyps
+Swollen mass of mucous membrane attached to vocal cord 
+Can cause continuous or intermittent hoarseness, depending on its location and attachment 
+In heavy smokers, masses may develop on both cords 
+A procedure called stripping of the vocal cords is necessary to treat this condition 
+Voice rest prescribed if polyps removed
+
+51
+Cancer of the Larynx
+Cancer of the larynx accounts for more than 10,000 new cancers each year. 
+It causes approximately 4000 deaths yearly and is increasing in frequency. 
+The cure rate is highest for patients with tumors that are conﬁned to the vocal cords.
+Factors: exposure to smoke or other noxious fumes, alcohol consumption, vocal strain, and chronic laryngitis 
+Malignant tumors can develop throughout the larynx: above the glottis, on the vocal cords, or below the vocal cords 
+
+52
+Cancer of the Larynx
+Laryngeal cancer is often caused by chronic exposure to tobacco and alcohol
+Persistent hoarseness is an early manifestation of cancer of the larynx because the presences of a tumor can impede the action of the vocal cords during speech
+Radiotherapy alone can cure some small cancers that have not spread to surrounding tissues 
+Chemotherapy may be administered as palliative treatment, before surgery to reduce tumor size, or postoperatively to reduce the risk of metastasis
+
+53
+Focused Assessment: Laryngectomy
+Assessment focuses on oxygenation, circulation, and comfort
+Weight changes, ability to swallow, and effectiveness of alternate means of communication
+The physician and speech therapist can advise the patient about appropriate alternatives for speech
+The patient with a supraglottic laryngectomy is at increased risk for aspiration pneumonia. 
+
+54
+Nursing Care of the Patient
+If the patient will lose the ability to speak, information about other means of communication should be available
+Anticipated loss of the voice is very stressful to patients. Listen compassionately and accept the patient's expressions of anger or despair
+Intravenous fluids and enteral feedings are usually ordered at first
+Considerable difficulty swallowing when oral nourishment is resumed
+Potential airway obstruction, pain, and inadequate knowledge for self-care
+55
+Nursing Interventions
+Potential Airway Obstruction
+Anxiety
+Decreased Cardiac Output
+Pain
+Potential for Injury
+Inadequate Nutrition
+Increased risk for aspiration pneumonia
+Prevent Aspiration: Patient must learn supraglottic swallowing
+Steps for Performing the Supraglottic Swallow Box 26.1
+Seat the patient upright with the head flexed slightly forward
+Suction machine should be on hand
+56
+Pulmonary Embolus
+Postoperative: At risk for developing a pulmonary embolus due to immobility
+Monitor for sudden shortness of breath, chest pain, cyanosis, tachycardia, and low blood pressure to identify a pulmonary embolus
+Heparin-induced thrombocytopenia A platelet count of 74,000/mm3 is below the expected reference range 
+57
+Emergency Interventions for Chest Injuries Table 63.2
+Pneumothorax: an open chest wound penetrates the pleural cavity, allowing air to enter, which collapses lung on affected side(Sucking Chest Wound)
+Signs and symptoms: Dyspnea, asymmetric chest wall movement, “sucking” sound as air moves in and out of wound with respirations.
+EMERGENCY INTERVENTION:
+Air-occlusive dressing taped on three sides (vented dressing)
+Apply vented dressing: sealed on three sides so air can escape but not enter the wound
+58
+Emergency Interventions for Chest Injuries Table 63.2
+Flail chest:
+Several adjacent ribs are broken in more than one place, causing a loss of support in the affected section of the chest wall.
+Signs and symptoms: The affected section moves inward on inspiration and outward on expiration. This abnormal chest wall movement, called paradoxical motion, impairs gas exchange (see Fig. 63.5)
+Provide support for the injured area. Hold or tape a small pad or pillow over the injury to splint the ribs
+59
+Drugs Used to Treat Upper Respiratory Disease
+Chapter 29
+
+Clayton’s Basic Pharmacology for Nurses, 19th edition
+Objectives
+61
+Discuss the causes of allergic rhinitis, nasal congestion, and rhinitis medicamentosa.
+Explain the major actions (effects) of sympathomimetic, antihistaminic, and corticosteroid medicines.
+Explain why all decongestant products should be used cautiously by people with hypertension, hyperthyroidism, diabetes mellitus, cardiac disease, increased intraocular pressure, or prostatic disease.
+Discuss the nursing assessments needed during therapy to monitor the therapeutic response to and the common and serious adverse effects of decongestant drug therapy.
+
+Anatomy of Upper Respiratory Tract
+Respiratory system is series of airways that start with nose and mouth; end at alveolar sacs within lungs
+Upper respiratory tract is composed of nose and its turbinates
+Sinuses
+Nasopharynx
+Pharynx
+Tonsils
+Eustachian tubes
+Larynx
+
+62
+Common Upper Respiratory Diseases
+Rhinitis
+Inflammation of nasal mucous membrane
+Causes of acute symptoms: Common cold, bacterial infection, presence of foreign body, drug-induced congestion (rhinitis medicamentosa)
+Allergic rhinitis
+Caused by allergic reaction on exposure to allergens such as pollens, grasses, dust mites
+Releases large amounts of histamine
+63
+Common Upper Respiratory Illnesses: Cold Virus
+Expensive illness
+Most common in midwinter, spring, and fall
+120 to 200 subtypes of viruses, spread by direct contact and sneezing
+Symptoms
+Clear, watery nasal discharge, sneezing
+Cough, mild sore throat
+Headache, malaise, chills, and fever
+Should resolve over 5 to 7 days
+
+64
+Complications From Cold Viruses
+Sinusitis: Thick, tenacious mucus obstructs sinus ducts
+Otitis media: Infection of the middle ear
+Exacerbations of obstructive lung disease, asthma
+Contact healthcare provider if symptoms worsen or if additional symptoms appear with a cold
+
+65
+Treatment of Upper Respiratory Diseases
+Common cold: Limited to relieving symptoms; reducing complications; preventing spread of viral infection
+Allergic rhinitis
+Identify allergens; avoid exposure
+Medicines block allergic reaction; treat symptoms
+Rhinitis medicamentosa: Prevention; frequent follow-up
+Decongestants are the most effective agent for relieving nasal congestion and rhinorrhea
+
+66
+Drug Therapy of Upper Respiratory Diseases
+Actions and uses
+Antihistamines are drugs of choice for treating allergic rhinitis
+Antiinflammatory agents administered intranasally are used to treat nasal symptoms resulting from mild to moderate allergic rhinitis
+Nursing implications
+Description of symptoms
+History of treatment
+History of concurrent medical problems
+Nasal congestion, allergic rhinitis, and sinusitis are treated with prescription or OTC medicines 
+The roles of the nurse in the healthcare provider’s office are to perform the initial assessment of symptoms and then focus on teaching the proper techniques for self-administering and monitoring of the medication therapy
+
+67
+Drug Class: Sympathomimetic Decongestants
+Action: Stimulate alpha-adrenergic receptors of nasal mucous membranes causing vasoconstriction
+Use: Relieve congestion associated with rhinitis
+Therapeutic outcomes: Reduced nasal congestion, easier breathing
+Common adverse effect: Mild nasal irritation
+
+Often used in conjunction with antihistamines to treat allergic rhinitis
+Administered orally or topically as nasal spray; if used improperly, it can lead to rebound swelling
+68
+Drug Class: Sympathomimetic Decongestants
+Serious adverse effect: Hypertension
+Used with caution in patients with hypertension, hyperthyroidism, diabetes mellitus, cardiac disease, increased intraocular pressure, or prostatic hyperplasia
+State laws regulate purchase of pseudoephedrine, one ingredient in methamphetamine manufacture
+Combining with MAOIs results in significant hypertension
+
+69
+Drug Class: Antihistamines
+Action: Compete with allergy-liberated histamine for H1 receptor sites
+Uses: Treat allergic rhinitis, conjunctivitis
+Therapeutic outcome: Reduced symptoms of allergic rhinitis
+Common adverse effects: Sedative effects, cognitive impairment, drying effects
+
+Each drug differs in frequency and adverse effects.
+For best results, take on a scheduled basis and use before symptoms are expected to occur. Antihistamines will not stop nasal congestion
+70
+Drug Class: Antihistamines
+Anticholinergic adverse effects
+Dry mouth, stuffy nose
+Blurred vision
+Constipation, urinary retention
+May make respiratory mucus thicker
+Patients with history of asthma, prostatic enlargement, or glaucoma should take antihistamines only with healthcare provider supervision
+
+71
+Drug Class: Respiratory Antiinflammatory Agents
+Drug: Intranasal corticosteroids
+Action: Reduce inflammation; mechanism of action unknown
+Use: For patients who do not respond to antihistamines or sympathomimetic agents
+Therapeutic outcomes: Reduced rhinorrhea, rhinitis, itching, sneezing
+Common adverse effect: Nasal burning
+Use only for short-term acute seasonal allergies
+72
+Intranasal Corticosteroids
+Reduced rhinorrhea, rhinitis, itching, sneezing
+73
+Drug Class: Respiratory Antiinflammatory Agents
+Drug: Cromolyn sodium (NasalCrom)
+Action: Stabilizes mast cells, reducing the release of histamine and other mediators
+Use: In conjunction with other drugs to treat severe allergic rhinitis
+Common adverse effect: Nasal burning
+Serious adverse effects: Bronchospasm, coughing
+Nonprescription.
+Usefulness is often limited because of the need for frequent dosing.
+May be most beneficial when used as a prophylactic treatment before an anticipated allergen exposure or in patients whose medical conditions do not allow the use of other medications (e.g., pregnancy).
+
+74
+Use of Decongestants 
+Alpha-adrenergic agents as nasal decongestant
+Stimulate alpha receptors at other sites in the body
+Use only for short-term acute seasonal allergies
+Excessive use of decongestants may result in significant hypertension
+Patients with hypertension, hyperthyroidism, diabetes mellitus, cardiac disease, increased intraocular pressure, or prostatic hyperplasia should only use these products if advised to do so by a healthcare provider or pharmacist.
+
+75
+Premedication and Nursing Assessments
+Description of symptoms
+History of treatment
+History of concurrent medical problems
+See specific assessments for decongestants, antihistamines, and corticosteroids in the textbook
+Always review the patient’s history for other diseases currently being treated (e.g., hypertension, glaucoma, asthma, prostatic hyperplasia) that may contraindicate the concurrent use of some upper respiratory medications used as OTC or prescribed treatments 
+
+76
+The way to get started is to quit talking and begin doing!
+-Walt Disney
+77
+THE END
+78
+Kathleen Abejuela, LVN
+Cell: 510-703-1155
+kabejuela@unitekcollege.edu
+

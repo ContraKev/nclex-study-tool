@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN MASTERY HUB v2.3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #0f172a; --secondary: #1e293b; --accent: #3b82f6; --text: #f8fafc; --success: #22c55e; --danger: #ef4444; --warning: #f59e0b; --border: #334155; }
+        body { background-color: var(--primary); color: var(--text); font-family: 'Inter', system-ui, sans-serif; padding-bottom: 80px; }
+        .nexus-nav { background: var(--secondary); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; padding: 1rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .control-panel { background: rgba(15, 23, 42, 0.98); backdrop-filter: blur(15px); border-bottom: 1px solid var(--border); padding: 15px 0; position: sticky; top: 73px; z-index: 999; }
+        .nexus-card { background: var(--secondary); border: 1px solid var(--border); border-radius: 16px; padding: 25px; margin-bottom: 25px; height: 100%; display: flex; flex-direction: column; transition: 0.3s; }
+        .nexus-card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+        .point-label { font-weight: 800; color: var(--accent); text-transform: uppercase; font-size: 0.65rem; margin-top: 15px; letter-spacing: 1.5px; display: block; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 5px; }
+        .point-value { font-size: 0.92rem; color: #cbd5e1; line-height: 1.6; }
+        .badge-cv { background: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid #3b82f6; }
+        .badge-dm { background: rgba(34, 197, 94, 0.2); color: #86efac; border: 1px solid #22c55e; }
+        .ae-common { background: rgba(255,255,255,0.05); padding: 10px; border-radius: 6px; margin-top: 5px; font-size: 0.85rem; }
+        .ae-severe { background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3); color: #fca5a5; padding: 10px; border-radius: 6px; margin-top: 8px; font-size: 0.85rem; font-weight: 600; }
+        .inter-table { width: 100%; margin-top: 10px; font-size: 0.85rem; border-collapse: separate; border-spacing: 0 5px; }
+        .inter-table td { padding: 10px; background: rgba(0,0,0,0.3); border-radius: 4px; }
+        .inter-table tr.critical td { border-left: 5px solid var(--danger); background: rgba(239, 68, 68, 0.1); }
+        .inter-table tr.high td { border-left: 5px solid var(--warning); }
+        .data-strip { display: flex; gap: 10px; margin-top: 15px; }
+        .logistics-box { flex: 1; padding: 12px; border-radius: 10px; font-size: 0.85rem; border: 1px solid rgba(255,255,255,0.1); }
+        .box-dosage { background: rgba(34, 197, 94, 0.1); color: #4ade80; border-color: rgba(34, 197, 94, 0.2); }
+        .box-admin { background: rgba(245, 158, 11, 0.1); color: #fcd34d; border-color: rgba(245, 158, 11, 0.2); }
+        .box-title { font-weight: 800; font-size: 0.65rem; text-transform: uppercase; display: block; margin-bottom: 5px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+<nav class="nexus-nav">
+    <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+        <div>
+            <h3 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-3"></i>TITANIUM PHARMACOLOGY <span class="badge bg-primary ms-2" style="font-size: 0.7rem">v2.3</span></h3>
+            <p class="small text-secondary mb-0">95+ Unique Generics | Lipitor-Standard Exhaustive Clinical Detail</p>
+        </div>
+    </div>
+</nav>
+
+<div class="control-panel shadow-lg">
+    <div class="container-fluid px-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-4">
+                <input type="text" id="drugSearch" class="form-control bg-dark text-white border-secondary py-2" placeholder="Search generic, brand, class, or symptom..." onkeyup="renderDrugs()">
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="btn-group w-100 shadow">
+                    <button id="btn-cv" class="btn btn-outline-primary active" onclick="toggleFilter('cv')">Cardiovascular</button>
+                    <button id="btn-dm" class="btn btn-outline-success active" onclick="toggleFilter('dm')">Diabetes</button>
+                </div>
+            </div>
+            <div class="col-md-4 text-end">
+                <div class="d-flex justify-content-end align-items-center gap-3">
+                    <div class="btn-group shadow">
+                        <button id="sort-az" class="btn btn-outline-light active" onclick="setSort('az')">A-Z Name</button>
+                        <button id="sort-class" class="btn btn-outline-light" onclick="setSort('class')">By Class</button>
+                    </div>
+                    <span id="counter" class="badge bg-accent px-3 py-2 fs-6">0 Drugs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid px-4 mt-4">
+    <div class="row" id="drug-grid"></div>
+</div>
+
+<script>
+const drugDB = [
+    // --- STATINS (6) ---
+    {
+        g: "Atorvastatin", b: "Lipitor", c: "Statin (HMG-CoA Reductase Inhibitor)", cat: "cv",
+        m: "Competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol synthesis. By reducing internal cholesterol production, it triggers a compensatory increase in the expression of LDL receptors on the surface of hepatocytes. This significantly enhances the clearance of LDL-C from the bloodstream. Additionally, it reduces VLDL production and modestly increases HDL levels while providing pleiotropic effects like plaque stabilization and reduced inflammation.",
+        ind: "Primary Hyperlipidemia, primary prevention of cardiovascular events in patients with multiple risk factors (diabetes, HTN, smoking), secondary prevention of clinical CV events (MI, stroke, revascularization) in patients with established CAD.",
+        con: "Active liver disease (cirrhosis, hepatitis, persistent transaminitis), Pregnancy (Category X - fetal need for cholesterol), Breastfeeding, hypersensitivity to statins.",
+        aec: "Dyspepsia, flatulence, headache, constipation, mild myalgia (without CK elevation).",
+        aes: "Rhabdomyolysis (muscle breakdown causing acute renal failure and myoglobinuria), Hepatotoxicity (elevated ALT/AST > 3x normal), new-onset Type 2 Diabetes, Angioedema (rare).",
+        inter: [
+            {d: "Grapefruit Juice", m: "Inhibits CYP3A4; leads to toxic statin levels and extreme Rhabdomyolysis risk.", s: "critical"},
+            {d: "Warfarin", m: "Potentiates anticoagulation; increases INR and bleeding risk.", s: "high"},
+            {d: "Gemfibrozil", m: "Synergistic myopathy risk; increased muscle breakdown.", s: "high"}
+        ],
+        dosage: "10 mg to 80 mg orally once daily. Maximum dose 80 mg/day.",
+        admin: "Take orally once daily. Preferred in the EVENING (cholesterol synthesis peaks at night). Can be taken without regard to food.",
+        nurse: "Monitor baseline LFTs and lipid panel. Assess for muscle pain/tenderness; check CK levels if myopathy suspected. Monitor for dark, tea-colored urine (Rhabdo sign)."
+    },
+    {
+        g: "Simvastatin", b: "Zocor", c: "Statin", cat: "cv",
+        m: "Blocks the conversion of HMG-CoA to mevalonate in the liver. Increases the number of hepatic LDL receptors to enhance uptake and catabolism of LDL. Lower lipid solubility than atorvastatin but high hepatic extraction.",
+        ind: "Hypercholesterolemia, risk reduction for coronary heart disease mortality and non-fatal MI.",
+        con: "Active liver disease, pregnancy, co-administration with strong CYP3A4 inhibitors (e.g. clarithromycin, ketoconazole).",
+        aec: "Headache, abdominal pain, nausea, upper respiratory tract infection.",
+        aes: "Myopathy, Rhabdomyolysis (especially at 80mg dose), severe hepatotoxicity.",
+        inter: [{d: "Amiodarone", m: "Increases simvastatin concentration; limit dose to 20mg.", s: "high"}, {d: "Verapamil", m: "Limit simvastatin to 10mg.", s: "high"}],
+        dosage: "5 mg to 40 mg daily. Starting dose usually 10-20 mg.",
+        admin: "MUST be taken in the EVENING. Swallow tablets whole.",
+        nurse: "Monitor liver enzymes baseline and periodically. Assess for muscle weakness."
+    },
+    { g: "Lovastatin", b: "Mevacor", c: "Statin", cat: "cv", m: "HMG-CoA reductase inhibitor; prodrug activated in the liver. Reduces LDL and VLDL.", ind: "Hypercholesterolemia.", con: "Pregnancy, liver disease.", aec: "GI upset, muscle aches.", aes: "Rhabdomyolysis, hepatotoxicity.", inter: [{d: "CYP3A4 inhibitors", m: "Toxicity risk.", s: "high"}], dosage: "20-80 mg daily.", admin: "Take with EVENING MEAL to increase absorption.", nurse: "Monitor LFTs." },
+    { g: "Pravastatin", b: "Pravachol", c: "Statin", cat: "cv", m: "Hydrophilic statin; not metabolized by CYP3A4. Lower risk of drug interactions.", ind: "Hyperlipidemia.", con: "Pregnancy.", aec: "Rash, myalgia.", aes: "Myopathy.", inter: [], dosage: "10-80 mg daily.", admin: "Once daily, usually at bedtime.", nurse: "Good choice for complex drug regimens." },
+    { g: "Rosuvastatin", b: "Crestor", c: "Statin", cat: "cv", m: "High-potency HMG-CoA inhibitor with long half-life (19 hours).", ind: "Hyperlipidemia, atherosclerosis.", con: "Pregnancy, active liver disease.", aec: "Myalgia, headache.", aes: "Rhabdomyolysis (highest risk in Asians/high dose), proteinuria.", inter: [{d: "Antacids", m: "Reduced absorption; separate 2h.", s: "med"}], dosage: "5-40 mg daily.", admin: "Once daily any time of day.", nurse: "Monitor renal function." },
+    { g: "Fluvastatin", b: "Lescol", c: "Statin", cat: "cv", m: "HMG-CoA inhibitor.", ind: "Hyperlipidemia.", con: "Liver disease.", aec: "Myalgia.", aes: "Hepatotoxicity.", inter: [], dosage: "20-80 mg daily.", admin: "Evening dose preferred.", nurse: "Monitor LFTs." },
+
+    // --- OTHER LIPIDS (11) ---
+    {
+        g: "Ezetimibe", b: "Zetia", c: "Cholesterol Absorption Inhibitor", cat: "cv",
+        m: "Selectively inhibits the absorption of cholesterol and related phytosterols in the small intestine. Specifically targets the Niemann-Pick C1-Like 1 (NPC1L1) transporter. Reduces delivery of intestinal cholesterol to the liver.",
+        ind: "Primary hyperlipidemia (monotherapy or with statin), homozygous sitosterolemia.",
+        con: "Moderate to severe hepatic impairment, pregnancy (when used with statins).",
+        aec: "Fatigue, diarrhea, abdominal pain, arthralgia.",
+        aes: "Cholelithiasis (if used with fibrates), severe myopathy, angioedema.",
+        inter: [{d: "Bile Acid Resins", m: "Decreased absorption; separate by 2-4 hours.", s: "med"}, {d: "Fibrates", m: "Increases risk of gallstones.", s: "high"}],
+        dosage: "10 mg orally once daily.",
+        admin: "Take once daily without regard to food. Can be co-administered with statins.",
+        nurse: "Monitor LFTs when used with statins. Monitor for cholecystitis symptoms."
+    },
+    {
+        g: "Cholestyramine", b: "Questran", c: "Bile Acid Sequestrant", cat: "cv",
+        m: "Binds with bile acids in the intestine to form an insoluble complex that is excreted in the feces. This prevents reabsorption of bile acids, forcing the liver to convert more cholesterol into bile, lowering serum LDL levels.",
+        ind: "Primary hypercholesterolemia, pruritus associated with partial biliary obstruction.",
+        con: "Complete biliary obstruction, hypersensitivity.",
+        aec: "Severe constipation, bloating, flatulence, nausea.",
+        aes: "Vitamin A, D, E, K deficiency (long term), fecal impaction, metabolic acidosis.",
+        inter: [{d: "All Oral Meds", m: "Binds meds in gut; prevents absorption.", s: "critical"}],
+        dosage: "4 g to 24 g daily in divided doses.",
+        admin: "Mix powder with 2-6 oz of fluid. Never take dry. Take other meds 1h before or 4-6h after.",
+        nurse: "Increase fiber/fluids. Monitor INR if on warfarin (Vit K loss)."
+    },
+    { g: "Colesevelam", b: "Welchol", c: "Bile Acid Sequestrant", cat: "cv", m: "Binds bile in gut; better tolerated than others.", ind: "Hyperlipidemia, T2DM control.", con: "Bowel obstruction.", aec: "Constipation.", aes: "Bowel obstruction.", inter: [], dosage: "3.75 g daily.", admin: "Take with meals and liquid.", nurse: "Preferred resin due to fewer interactions." },
+    { g: "Colestipol", b: "Colestid", c: "Bile Acid Sequestrant", cat: "cv", m: "Binds bile acids.", ind: "Hyperlipidemia.", con: "Biliary obstruction.", aec: "Constipation.", aes: "Fecal impaction.", inter: [], dosage: "2-16 g daily.", admin: "Tablets or granules.", nurse: "Separate from other meds." },
+    {
+        g: "Gemfibrozil", b: "Lopid", c: "Fibrate", cat: "cv",
+        m: "Activates PPAR-alpha receptors to increase the expression of lipoprotein lipase, enhancing the clearance of triglyceride-rich particles. Significantly lowers TG and increases HDL.",
+        ind: "Severe Hypertriglyceridemia (Type IV or V), risk reduction for CAD in patients with low HDL.",
+        con: "Gallbladder disease, severe renal/hepatic impairment.",
+        aec: "Dyspepsia, abdominal pain, diarrhea.",
+        aes: "Gallstones (cholelithiasis), severe myopathy, hepatotoxicity.",
+        inter: [{d: "Statins", m: "Extreme Rhabdo risk.", s: "critical"}, {d: "Warfarin", m: "Increases bleeding.", s: "high"}, {d: "Repaglinide", m: "Severe hypoglycemia.", s: "critical"}],
+        dosage: "600 mg twice daily.",
+        admin: "Take 30 minutes BEFORE breakfast and dinner.",
+        nurse: "Monitor LFTs and RUQ pain. Monitor for fatty food intolerance."
+    },
+    { g: "Fenofibrate", b: "Tricor", c: "Fibrate", cat: "cv", m: "Decreases TG synthesis.", ind: "High TG.", con: "Renal disease.", aec: "Dyspepsia.", aes: "Gallstones, myopathy.", inter: [{d: "Warfarin", m: "Inc bleeding.", s: "high"}], dosage: "48-145 mg daily.", admin: "Take with food.", nurse: "Check creatinine." },
+    { g: "Alirocumab", b: "Praluent", c: "PCSK9 Inhibitor", cat: "cv", m: "Increases LDL receptors in liver.", ind: "Refractory high LDL.", con: "Hypersensitivity.", aec: "Flu symptoms.", aes: "Inj site reaction.", inter: [], dosage: "75-150 mg every 2 weeks.", admin: "SC injection.", nurse: "Keep refrigerated." },
+    { g: "Evolocumab", b: "Repatha", c: "PCSK9 Inhibitor", cat: "cv", m: "Upregulates LDL receptors.", ind: "LDL reduction.", con: "Hypersensitivity.", aec: "Back pain.", aes: "Allergic reaction.", inter: [], dosage: "140 mg q2wk or 420mg qmo.", admin: "SC injection.", nurse: "Rotate sites." },
+    { g: "Bempedoic acid", b: "Nexletol", c: "ACL Inhibitor", cat: "cv", m: "Inhibits cholesterol synthesis earlier than statins.", ind: "Statin intolerant.", con: "Hypersensitivity.", aec: "Muscle pain.", aes: "Hyperuricemia (Gout), Tendon rupture.", inter: [], dosage: "180 mg daily.", admin: "Oral once daily.", nurse: "Check uric acid." },
+    { g: "Niacin", b: "Niaspan", c: "Vitamin B3", cat: "cv", m: "Reduces liver VLDL production.", ind: "High TG.", con: "Peptic ulcer.", aec: "Intense flushing, itching.", aes: "Hepatotoxicity, hyperglycemia.", inter: [], dosage: "500-2000 mg daily.", admin: "Take aspirin 30m before to reduce flush.", nurse: "Check glucose." },
+    { g: "Omega-3", b: "Lovaza", c: "Fish Oil", cat: "cv", m: "Reduces TG secretion.", ind: "TGs > 500.", con: "Fish allergy.", aec: "GI upset.", aes: "Inc bleeding risk.", inter: [{d: "Anticoagulants", m: "Inc bleeding.", s: "med"}], dosage: "4 g daily.", admin: "Oral with food.", nurse: "Monitor for bruising." },
+
+    // --- ACE INHIBITORS (6) ---
+    {
+        g: "Lisinopril", b: "Prinivil, Zestril", c: "ACE Inhibitor", cat: "cv",
+        m: "Inhibits the Angiotensin-Converting Enzyme (ACE), preventing the conversion of Angiotensin I to Angiotensin II (a potent vasoconstrictor). This results in systemic vasodilation and decreased aldosterone secretion, promoting sodium/water excretion and potassium retention.",
+        ind: "Hypertension, Heart Failure (HFrEF), Post-MI survival, Diabetic Nephropathy (protective).",
+        con: "Pregnancy (Black Box: fetal death), history of angioedema (hereditary or ACE-I induced), bilateral renal artery stenosis.",
+        aec: "Persistent dry, non-productive cough, dizziness, fatigue.",
+        aes: "Angioedema (potentially fatal airway swelling), Hyperkalemia (K+ > 5.0), first-dose hypotension, Renal impairment.",
+        inter: [{d: "Spironolactone", m: "Severe synergistic hyperkalemia.", s: "high"}, {d: "NSAIDs", m: "Reduced BP effect; AKI risk.", s: "med"}, {d: "Lithium", m: "Lithium toxicity.", s: "high"}],
+        dosage: "10 mg to 40 mg daily. HF starts at 5 mg.",
+        admin: "Orally once daily. Monitor BP closely for 2-6 hours after first dose.",
+        nurse: "Monitor K+ and Creatinine. Assess for facial/lip/tongue swelling (Emergency)."
+    },
+    { g: "Captopril", b: "Capoten", c: "ACE Inhibitor", cat: "cv", m: "Inhibits ACE.", ind: "HTN, HF, Diabetic Nephropathy.", con: "Pregnancy.", aec: "Taste change, cough.", aes: "Neutropenia (agranulocytosis), proteinuria.", inter: [{d: "Food", m: "Dec absorption.", s: "med"}], dosage: "25-50 mg BID/TID.", admin: "Empty stomach 1h before meals.", nurse: "Monitor CBC with diff." },
+    { g: "Enalapril", b: "Vasotec", c: "ACE Inhibitor", cat: "cv", m: "Inhibits ACE.", ind: "HTN, HF.", con: "Pregnancy.", aec: "Cough.", aes: "Angioedema, hypotension.", inter: [], dosage: "5-40 mg daily.", admin: "Oral or IV (enalaprilat).", nurse: "Assess BP." },
+    { g: "Ramipril", b: "Altace", c: "ACE Inhibitor", cat: "cv", m: "Inhibits ACE.", ind: "Post-MI, HTN.", con: "Pregnancy.", aec: "Cough.", aes: "Hyperkalemia.", inter: [], dosage: "2.5-10 mg daily.", admin: "Oral once/twice daily.", nurse: "Check labs." },
+    { g: "Benazepril", b: "Lotensin", c: "ACE Inhibitor", cat: "cv", m: "Inhibits ACE.", ind: "HTN.", con: "Pregnancy.", aec: "Cough.", aes: "Angioedema.", inter: [], dosage: "10-40 mg daily.", admin: "Once daily.", nurse: "Monitor BP." },
+    { g: "Fosinopril", b: "Monopril", c: "ACE Inhibitor", cat: "cv", m: "Inhibits ACE.", ind: "HTN, HF.", con: "Pregnancy.", aec: "Cough.", aes: "Hypotension.", inter: [], dosage: "10-40 mg daily.", admin: "Daily.", nurse: "Monitor renal." },
+
+    // --- ARB & DRI (4) ---
+    {
+        g: "Losartan", b: "Cozaar", c: "ARB", cat: "cv",
+        m: "Selectively and competitively blocks the binding of Angiotensin II to the AT1 receptor in vascular smooth muscle and the adrenal gland. Blocks vasoconstriction and aldosterone release.",
+        ind: "Hypertension, Diabetic Nephropathy in Type 2 DM.",
+        con: "Pregnancy, hypersensitivity.",
+        aec: "Dizziness, headache, fatigue.",
+        aes: "Hyperkalemia, renal impairment, angioedema (rare).",
+        inter: [{d: "NSAIDs", m: "Renal failure risk.", s: "med"}],
+        dosage: "25 mg to 100 mg daily.",
+        admin: "Once or twice daily with or without food.",
+        nurse: "Monitor BP and renal function. Ensure not pregnant."
+    },
+    { g: "Valsartan", b: "Diovan", c: "ARB", cat: "cv", m: "AT1 blocker.", ind: "HF, HTN.", con: "Pregnancy.", aec: "Headache.", aes: "Hypotension.", inter: [], dosage: "80-320 mg daily.", admin: "Daily.", nurse: "Assess BP." },
+    { g: "Candesartan", b: "Atacand", c: "ARB", cat: "cv", m: "AT1 blocker.", ind: "HF.", con: "Pregnancy.", aec: "Dizziness.", aes: "Hyperkalemia.", inter: [], dosage: "8-32 mg daily.", admin: "Daily.", nurse: "Check K+." },
+    { g: "Aliskiren", b: "Tekturna", c: "Direct Renin Inhibitor", cat: "cv", m: "Inhibits renin directly.", ind: "HTN.", con: "ACE/ARB use in DM.", aec: "Diarrhea.", aes: "Angioedema, Hyperkalemia.", inter: [{d: "Fatty food", m: "Dec absorption.", s: "med"}], dosage: "150-300 mg daily.", admin: "Avoid high-fat meals.", nurse: "Monitor for swelling." },
+
+    // --- CCB (6) ---
+    {
+        g: "Amlodipine", b: "Norvasc", c: "CCB (Dihydropyridine)", cat: "cv",
+        m: "Inhibits calcium influx across cell membrane in vascular smooth muscle. Potent peripheral vasodilation.",
+        ind: "Hypertension, Angina.",
+        con: "Severe hypotension.",
+        aec: "Peripheral edema (swollen ankles), flushing, headache.",
+        aes: "Severe hypotension, gingival hyperplasia (rare).",
+        inter: [],
+        dosage: "2.5 mg to 10 mg daily.",
+        admin: "Once daily.",
+        nurse: "Check for ankle edema. Monitor BP."
+    },
+    { g: "Nifedipine", b: "Procardia, Adalat", c: "CCB (Dihydropyridine)", cat: "cv", m: "Calcium channel block in vessels.", ind: "Angina, HTN.", con: "Heart block.", aec: "Headache, flushing.", aes: "Reflex Tachycardia, severe edema.", inter: [], dosage: "30-90 mg daily (SR).", admin: "Do not crush SR tablets.", nurse: "Monitor HR/BP." },
+    { g: "Felodipine", b: "Plendil", c: "CCB (Dihydropyridine)", cat: "cv", m: "Vascular calcium block.", ind: "HTN.", con: "Heart block.", aec: "Edema.", aes: "Hypotension.", inter: [], dosage: "2.5-10 mg daily.", admin: "Extended release.", nurse: "Check BP." },
+    { g: "Nicardipine", b: "Cardene", c: "CCB (Dihydropyridine)", cat: "cv", m: "Potent vasodilation.", ind: "HTN crisis, Angina.", con: "Heart block.", aec: "Flushing.", aes: "Hypotension.", inter: [], dosage: "20-40 mg TID (Oral); IV infusion.", admin: "Monitor site if IV.", nurse: "Assess for hypotension." },
+    {
+        g: "Verapamil", b: "Calan, Isoptin", c: "CCB (Non-Dihydropyridine)", cat: "cv",
+        m: "Inhibits calcium entry into myocardial cells and AV node. Negative inotrope and chronotrope. Slows SA/AV conduction.",
+        ind: "SVT, A-Fib rate control, Angina, HTN.",
+        con: "Severe HF, 2nd/3rd degree heart block, shock.",
+        aec: "CONSTIPATION (hallmark), dizziness.",
+        aes: "Severe Bradycardia, HF exacerbation, heart block.",
+        inter: [{d: "Digoxin", m: "Fatal tox risk; inc levels 50%.", s: "critical"}, {d: "Beta Blockers", m: "Additive HR suppression.", s: "high"}],
+        dosage: "120-480 mg daily divided.",
+        admin: "Increase fiber/fluids. Oral or IV.",
+        nurse: "Assess APICAL PULSE before admin (Hold <60). Monitor EKG."
+    },
+    { g: "Diltiazem", b: "Cardizem", c: "CCB (Non-Dihydropyridine)", cat: "cv", m: "Slows HR and conduction.", ind: "AFib, HTN, Angina.", con: "Heart block.", aec: "Headache, edema.", aes: "Bradycardia, heart block.", inter: [], dosage: "120-360 mg daily divided.", admin: "Oral or IV drip.", nurse: "EKG monitor for IV." },
+
+    // --- BETA BLOCKERS (6) ---
+    {
+        g: "Metoprolol", b: "Lopressor, Toprol XL", c: "Beta-1 Selective", cat: "cv",
+        m: "Selectively blocks Beta-1 receptors in heart. Reduces HR, CO, and BP. Inhibits renin.",
+        ind: "HTN, stabilized HF, post-MI.",
+        con: "Bradycardia (<45), Heart block > 1st deg, shock.",
+        aec: "Fatigue, dizziness, erectile dysfunction.",
+        aes: "Bradycardia, worsening HF, masks hypoglycemia tachycardia.",
+        inter: [{d: "Insulin", m: "Masks low BG signs.", s: "high"}],
+        dosage: "25 mg to 200 mg daily.",
+        admin: "Hold if HR < 60 or SBP < 90. Tartrate (Lopressor) with food.",
+        nurse: "Do NOT stop abruptly. Monitor BG in DM."
+    },
+    { g: "Atenolol", b: "Tenormin", c: "Beta-1 Selective", cat: "cv", m: "Reduces HR and CO.", ind: "HTN, Angina.", con: "Bradycardia.", aec: "Cold feet.", aes: "Bradycardia.", inter: [], dosage: "25-100 mg daily.", admin: "Daily.", nurse: "Check pulse." },
+    {
+        g: "Propranolol", b: "Inderal", c: "Non-Selective Beta Blocker", cat: "cv",
+        m: "Blocks B1 (heart) and B2 (lungs/liver). Reducess HR/BP but causes bronchoconstriction.",
+        ind: "HTN, Anxiety, Tremor, Migraine.",
+        con: "ASTHMA, COPD, Bradycardia.",
+        aec: "Vivid dreams, fatigue.",
+        aes: "BRONCHOSPASM (wheezing), severe bradycardia.",
+        inter: [{d: "Albuterol", m: "Blocks rescue inhaler.", s: "critical"}],
+        dosage: "40-320 mg daily divided.",
+        admin: "Avoid in reactive airway disease.",
+        nurse: "Listen to lungs. Hold if wheezing."
+    },
+    { g: "Nadolol", b: "Corgard", c: "Non-selective Beta", cat: "cv", m: "Blocks B1/B2.", ind: "HTN, Angina.", con: "Asthma.", aec: "Fatigue.", aes: "Bronchospasm.", inter: [], dosage: "40-240 mg daily.", admin: "Daily.", nurse: "Check lungs." },
+    { g: "Carvedilol", b: "Coreg", c: "Alpha/Beta Blocker", cat: "cv", m: "Vasodilation + slow HR.", ind: "HF.", con: "Asthma, severe HF.", aec: "Dizziness.", aes: "Bradycardia, edema.", inter: [], dosage: "3.125-50 mg BID.", admin: "Take WITH FOOD.", nurse: "Weight daily." },
+    { g: "Labetalol", b: "Trandate", c: "Alpha/Beta Blocker", cat: "cv", m: "Reduces BP.", ind: "HTN Crisis.", con: "Asthma.", aec: "Orthostatic hypo.", aes: "Bradycardia.", inter: [], dosage: "100-400 mg BID (Oral); IV for crisis.", admin: "IV push/drip.", nurse: "BP q5m if IV." },
+
+    // --- SYMPATHOLYTIC & VASODILATOR (11) ---
+    { g: "Prazosin", b: "Minipress", c: "Alpha-1 Blocker", cat: "cv", m: "Peripheral vasodilation.", ind: "HTN, BPH.", con: "Hypersensitivity.", aec: "Nasal congestion.", aes: "First-dose syncope.", inter: [], dosage: "1-20 mg daily divided.", admin: "1st dose at BEDTIME.", nurse: "Move patient slow." },
+    { g: "Terazosin", b: "Hytrin", c: "Alpha-1 Blocker", cat: "cv", m: "Vasodilation.", ind: "BPH, HTN.", con: "Hypersensitivity.", aec: "Dizziness.", aes: "Syncope.", inter: [], dosage: "1-20 mg daily.", admin: "Bedtime.", nurse: "Assess BP." },
+    { g: "Doxazosin", b: "Cardura", c: "Alpha-1 Blocker", cat: "cv", m: "Vasodilation.", ind: "HTN, BPH.", con: "Hypersensitivity.", aec: "Headache.", aes: "Syncope.", inter: [], dosage: "1-16 mg daily.", admin: "Daily.", nurse: "Check BP." },
+    { g: "Clonidine", b: "Catapres", c: "Alpha-2 Agonist", cat: "cv", m: "CNS sympathetic reduction.", ind: "HTN, withdrawal.", con: "Hypersensitivity.", aec: "Dry mouth, sedation.", aes: "REBOUND HTN (if stopped fast).", inter: [], dosage: "0.1-0.3 mg BID.", admin: "Oral or Patch (q7 days).", nurse: "Never stop fast." },
+    { g: "Methyldopa", b: "Aldomet", c: "Alpha-2 Agonist", cat: "cv", m: "Sympathetic reduction.", ind: "Pregnancy HTN.", con: "Liver disease.", aec: "Sedation.", aes: "Hepatotoxicity, hemolytic anemia.", inter: [], dosage: "250-500 mg BID/TID.", admin: "Pregnancy safe.", nurse: "Monitor liver." },
+    { g: "Guanfacine", b: "Tenex", c: "Alpha-2 Agonist", cat: "cv", m: "Sympathetic reduction.", ind: "HTN, ADHD.", con: "Hypersensitivity.", aec: "Drowsiness.", aes: "Bradycardia.", inter: [], dosage: "1-2 mg daily.", admin: "Daily.", nurse: "Check BP." },
+    { g: "Hydralazine", b: "Apresoline", c: "Direct Vasodilator", cat: "cv", m: "Arteriolar relaxation.", ind: "HTN.", con: "CAD.", aec: "Headache.", aes: "Reflex tachycardia, Lupus-like syndrome.", inter: [], dosage: "10-50 mg QID.", admin: "Oral/IV.", nurse: "Check HR." },
+    { g: "Minoxidil", b: "Loniten", c: "Direct Vasodilator", cat: "cv", m: "Potent arteriolar dilation.", ind: "Severe HTN.", con: "Pheo.", aec: "Hair growth.", aes: "Severe fluid retention, pericardial effusion.", inter: [], dosage: "5-40 mg daily.", admin: "Oral.", nurse: "Check edema." },
+    { g: "Diazoxide", b: "Hyperstat", c: "Direct Vasodilator", cat: "cv", m: "Vasodilation.", ind: "HTN crisis.", con: "Pheo.", aec: "GI upset.", aes: "Severe hyperglycemia.", inter: [], dosage: "1-3 mg/kg IV push.", admin: "IV push.", nurse: "Monitor glucose." },
+    { g: "Nitroprusside", b: "Nitropress", c: "Direct Vasodilator", cat: "cv", m: "Immediate arterial/venous dilation.", ind: "HTN Crisis (Emergency).", con: "HF, low perfusion.", aec: "Nausea.", aes: "CYANIDE TOXICITY (weakness, confusion).", inter: [], dosage: "0.3-10 mcg/kg/min IV.", admin: "IV ONLY. Foil wrap bag.", nurse: "BP q2-5m." },
+    { g: "Ranolazine", b: "Ranexa", c: "Antianginal", cat: "cv", m: "Sodium channel block.", ind: "Stable angina.", con: "QT prolongation.", aec: "Dizziness.", aes: "QT Interval Prolongation.", inter: [], dosage: "500-1000 mg BID.", admin: "Oral BID.", nurse: "Check EKG." },
+
+    // --- HF / DIURETIC / COAG / ARRHYTHMIC (38) ---
+    { g: "Digoxin", b: "Lanoxin", c: "Glycoside", cat: "cv", m: "Na/K ATPase inhibitor. (+) Inotrope.", ind: "HF, AFib.", con: "Heart Block.", aec: "Nausea, anorexia.", aes: "Dig Tox: Yellow halos, Bradycardia.", inter: [{d: "Lasix", m: "Low K+ risk.", s: "critical"}], dosage: "0.125-0.25 mg daily.", admin: "Pulse 60s (Hold < 60).", nurse: "Check K+ and range (0.5-2.0)." },
+    { g: "Nitroglycerin", b: "Nitrostat", c: "Nitrate", cat: "cv", m: "Preload reduction.", ind: "Angina.", con: "Viagra.", aec: "Throbbing headache.", aes: "Fatal hypotension (if mixed).", inter: [{d: "Viagra", m: "Fatal BP drop.", s: "critical"}], dosage: "0.4 mg SL q5m x3.", admin: "SL or Patch.", nurse: "Dark glass bottle." },
+    { g: "Isosorbide Dinitrate", b: "Isordil", c: "Nitrate", cat: "cv", m: "Vasodilation.", ind: "Angina.", con: "Viagra.", aec: "Headache.", aes: "Hypotension.", inter: [], dosage: "5-40 mg TID.", admin: "Oral.", nurse: "Check BP." },
+    { g: "Isosorbide Mononitrate", b: "Imdur", c: "Nitrate", cat: "cv", m: "Vasodilation.", ind: "Prophylaxis.", con: "Viagra.", aec: "Headache.", aes: "Hypotension.", inter: [], dosage: "30-120 mg daily.", admin: "Daily.", nurse: "Check BP." },
+    { g: "Furosemide", b: "Lasix", c: "Loop Diuretic", cat: "cv", m: "Blocks Na/K/Cl in Loop.", ind: "HF, Edema.", con: "Anuria.", aec: "Dizziness.", aes: "OTOTOXICITY, Hypokalemia.", inter: [{d: "Digoxin", m: "Tox risk.", s: "critical"}], dosage: "20-80 mg daily.", admin: "Push < 20mg/min. AM dose.", nurse: "Weight daily." },
+    { g: "Bumetanide", b: "Bumex", c: "Loop Diuretic", cat: "cv", m: "Loop block.", ind: "Edema.", con: "Anuria.", aec: "Dizzy.", aes: "Hypokalemia.", inter: [], dosage: "0.5-2 mg daily.", admin: "Oral/IV.", nurse: "Monitor weight." },
+    { g: "Torsemide", b: "Demadex", c: "Loop Diuretic", cat: "cv", m: "Loop block.", ind: "HF, HTN.", con: "Anuria.", aec: "Dizzy.", aes: "Hypokalemia.", inter: [], dosage: "5-20 mg daily.", admin: "AM.", nurse: "Check BP." },
+    { g: "Ethacrynic acid", b: "Edecrin", c: "Loop Diuretic", cat: "cv", m: "Loop block.", ind: "Edema.", con: "Anuria.", aec: "Dizzy.", aes: "Severe Ototoxicity.", inter: [], dosage: "50-200 mg daily.", admin: "Oral/IV.", nurse: "Check hearing." },
+    { g: "HCTZ", b: "Microzide", c: "Thiazide", cat: "cv", m: "Distal tubule block.", ind: "HTN, Edema.", con: "Renal fail.", aec: "Dizzy.", aes: "Hypokalemia, Hypercalcemia.", inter: [], dosage: "12.5-50 mg daily.", admin: "AM.", nurse: "Labs." },
+    { g: "Chlorothiazide", b: "Diuril", c: "Thiazide", cat: "cv", m: "Distal block.", ind: "HTN.", con: "Anuria.", aec: "Dizzy.", aes: "Hypokalemia.", inter: [], dosage: "500-1000 mg daily.", admin: "AM.", nurse: "BP." },
+    { g: "Chlorthalidone", b: "Thalitone", c: "Thiazide", cat: "cv", m: "Long distal block.", ind: "HTN.", con: "Anuria.", aec: "Dizzy.", aes: "Hypokalemia.", inter: [], dosage: "25-50 mg daily.", admin: "AM.", nurse: "BP." },
+    { g: "Indapamide", b: "Lozol", c: "Thiazide", cat: "cv", m: "Distal block.", ind: "HTN.", con: "Anuria.", aec: "Dizzy.", aes: "Hypokalemia.", inter: [], dosage: "1.25-5 mg daily.", admin: "AM.", nurse: "BP." },
+    { g: "Spironolactone", b: "Aldactone", c: "K-Sparing", cat: "cv", m: "Aldosterone Antag.", ind: "HF, HTN.", con: "Hyperkalemia.", aec: "Breast tenderness.", aes: "HYPERKALEMIA, Gynecomastia.", inter: [{d: "ACE-I", m: "Severe K+ rise.", s: "high"}], dosage: "25-100 mg daily.", admin: "Daily.", nurse: "Monitor K+." },
+    { g: "Eplerenone", b: "Inspra", c: "K-Sparing", cat: "cv", m: "Aldosterone Antag.", ind: "HF.", con: "Hyperkalemia.", aec: "Dizzy.", aes: "Hyperkalemia.", inter: [], dosage: "25-50 mg daily.", admin: "Daily.", nurse: "Labs." },
+    { g: "Amiloride", b: "Midamor", c: "K-Sparing", cat: "cv", m: "Na channel block.", ind: "HTN.", con: "K+ > 5.5.", aec: "Nausea.", aes: "Hyperkalemia.", inter: [], dosage: "5-10 mg daily.", admin: "Oral.", nurse: "Check K+." },
+    { g: "Triamterene", b: "Dyrenium", c: "K-Sparing", cat: "cv", m: "Direct Na block.", ind: "Edema.", con: "K+ > 5.5.", aec: "Blue urine.", aes: "Hyperkalemia.", inter: [], dosage: "100 mg BID.", admin: "Oral.", nurse: "Labs." },
+    { g: "Acetazolamide", b: "Diamox", c: "CA Inhibitor", cat: "cv", m: "Dec Hco3 reabsorp.", ind: "Glaucoma.", con: "Hypokalemia.", aec: "Numbness.", aes: "Metabolic acidosis.", inter: [], dosage: "250-500 mg.", admin: "Oral.", nurse: "Labs." },
+    { g: "Mannitol", b: "Osmitrol", c: "Osmotic", cat: "cv", m: "Inc filtrate pressure.", ind: "ICP reduction.", con: "Active ICH.", aec: "Thirst.", aes: "Fluid overload, AKI.", inter: [], dosage: "0.5-2 g/kg IV.", admin: "IV with filter.", nurse: "Neuro check." },
+    { g: "Aspirin", b: "Ecotrin", c: "Antiplatelet", cat: "cv", m: "COX inhibitor.", ind: "MI prevention.", con: "Bleeding.", aec: "GI upset.", aes: "GI BLEED, Tinnitus (Tox).", inter: [], dosage: "81-325 mg daily.", admin: "Take with food.", nurse: "Check stool." },
+    { g: "Clopidogrel", b: "Plavix", c: "Antiplatelet", cat: "cv", m: "ADP blocker.", ind: "Stent, ACS.", con: "Bleeding.", aec: "Rash.", aes: "Major Bleeding, Thrombocytopenia.", inter: [{d: "PPIs", m: "Reduced effect.", s: "high"}], dosage: "75 mg daily.", admin: "Daily.", nurse: "Check platelets." },
+    { g: "Ticagrelor", b: "Brilinta", c: "Antiplatelet", cat: "cv", m: "ADP blocker.", ind: "ACS.", con: "Bleeding.", aec: "Dyspnea.", aes: "Bleeding.", inter: [], dosage: "90 mg BID.", admin: "Twice daily.", nurse: "Check SOB." },
+    { g: "Abciximab", b: "ReoPro", c: "Antiplatelet", cat: "cv", m: "GPIIb/IIIa inhib.", ind: "PCI.", con: "Bleeding.", aec: "Nausea.", aes: "Major Bleeding, Platelet drop.", inter: [], dosage: "0.25 mg/kg bolus.", admin: "IV drip.", nurse: "Assess site." },
+    { g: "Eptifibatide", b: "Integrilin", c: "Antiplatelet", cat: "cv", m: "GPIIb/IIIa inhib.", ind: "ACS.", con: "Bleed.", aec: "Nausea.", aes: "Bleeding.", inter: [], dosage: "180 mcg/kg bolus.", admin: "IV drip.", nurse: "Check site." },
+    { g: "Dipyridamole", b: "Persantine", c: "Antiplatelet", cat: "cv", m: "PDE inhibitor.", ind: "Valve prophylaxis.", con: "Bleed.", aec: "GI upset.", aes: "Hypotension.", inter: [], dosage: "75-100 mg QID.", admin: "Oral.", nurse: "Check BP." },
+    { g: "Cilostazol", b: "Pletal", c: "Antiplatelet", cat: "cv", m: "PDE-3 inhib.", ind: "Claudication.", con: "HF.", aec: "Headache.", aes: "Palpitations.", inter: [], dosage: "100 mg BID.", admin: "Empty stomach.", nurse: "Check legs." },
+    { g: "Heparin", b: "Hep-Lock", c: "Anticoagulant", cat: "cv", m: "Potentiates AT-III.", ind: "DVT, PE, MI.", con: "HIT.", aec: "Bruising.", aes: "BLEEDING, HIT (Major drop).", inter: [], dosage: "5000 units SC; IV drip units/hr.", admin: "IV/SC. Antidote: Protamine.", nurse: "Monitor aPTT." },
+    { g: "Enoxaparin", b: "Lovenox", c: "LMWH", cat: "cv", m: "Xa inhib.", ind: "VTE prophylaxis.", con: "Bleed.", aec: "Pain at site.", aes: "BLEEDING, anemia.", inter: [], dosage: "30-40 mg SC.", admin: "SC abdomen. No rub.", nurse: "Rotate sites." },
+    { g: "Fondaparinux", b: "Arixtra", c: "Anticoagulant", cat: "cv", m: "Xa inhib.", ind: "VTE.", con: "Renal fail.", aec: "Nausea.", aes: "Bleeding.", inter: [], dosage: "2.5-10 mg SC.", admin: "SC only.", nurse: "Bruise check." },
+    { g: "Warfarin", b: "Coumadin", c: "Anticoagulant", cat: "cv", m: "Vit K Antagonist.", ind: "AFib, VTE.", con: "Pregnancy.", aec: "Easy bruising.", aes: "MAJOR HEMORRHAGE, necrosis.", inter: [{d: "NSAIDs", m: "Extreme risk.", s: "critical"}], dosage: "2-10 mg daily (adj).", admin: "Target INR 2-3. Antidote: Vit K.", nurse: "Check PT/INR." },
+    { g: "Apixaban", b: "Eliquis", c: "DOAC", cat: "cv", m: "Xa inhib.", ind: "AFib.", con: "Bleed.", aec: "Bruise.", aes: "Bleeding.", inter: [], dosage: "5 mg BID.", admin: "Daily.", nurse: "Assess bleed." },
+    { g: "Rivaroxaban", b: "Xarelto", c: "DOAC", cat: "cv", m: "Xa inhib.", ind: "AFib, VTE.", con: "Liver fail.", aec: "Nausea.", aes: "Bleeding.", inter: [], dosage: "15-20 mg daily.", admin: "Take WITH FOOD.", nurse: "Assess bleed." },
+    { g: "Dabigatran", b: "Pradaxa", c: "DOAC", cat: "cv", m: "Thrombin inhib.", ind: "AFib.", con: "Bleed.", aec: "GI upset.", aes: "GI Bleeding.", inter: [], dosage: "150 mg BID.", admin: "Original bottle.", nurse: "Check GI." },
+    { g: "Alteplase", b: "Activase", c: "Thrombolytic", cat: "cv", m: "Clot dissolver.", ind: "Stroke, MI.", con: "Bleed.", aec: "Bruise.", aes: "INTRA-CRANIAL HEMORRHAGE.", inter: [], dosage: "0.9 mg/kg max 90mg.", admin: "IV drip. Neuro q15m.", nurse: "Bedrest." },
+    { g: "Reteplase", b: "Retavase", c: "Thrombolytic", cat: "cv", m: "Clot dissolver.", ind: "Acute MI.", con: "Bleed.", aec: "Bruise.", aes: "HEMORRHAGE.", inter: [], dosage: "10 units IV bolus x2.", admin: "IV bolus.", nurse: "Site check." },
+    { g: "Quinidine", b: "Quinidex", c: "Class IA", cat: "cv", m: "Na channel block.", ind: "AFib.", con: "Heart block.", aec: "Diarrhea.", aes: "CINCHONISM (Tinnitus), QT rise.", inter: [{d: "Digoxin", m: "Inc level.", s: "high"}], dosage: "200-400 mg.", admin: "Oral.", nurse: "EKG." },
+    { g: "Lidocaine", b: "Xylocaine", c: "Class IB", cat: "cv", m: "Na channel block.", ind: "VT.", con: "Heart block.", aec: "Dizzy.", aes: "SEIZURES (CNS Tox).", inter: [], dosage: "1-1.5 mg/kg bolus.", admin: "IV only.", nurse: "Neuro check." },
+    { g: "Flecainide", b: "Tambocor", c: "Class IC", cat: "cv", m: "Na channel block.", ind: "Serious VT.", con: "HF.", aec: "Dizzy.", aes: "Ventricular Pro-arrhythmia.", inter: [], dosage: "50-150 mg BID.", admin: "Oral.", nurse: "EKG." },
+    { g: "Amiodarone", b: "Cordarone", c: "Class III", cat: "cv", m: "K channel block.", ind: "VT/VF.", con: "Bradycardia.", aec: "Corneal micro-deposits.", aes: "PULMONARY FIBROSIS, blue skin.", inter: [{d: "Warfarin", m: "Dec dose 50%.", s: "high"}], dosage: "200-400 mg daily.", admin: "Oral/IV.", nurse: "Monitor PFTs/LFTs." },
+    { g: "Sotalol", b: "Betapace", c: "Class III", cat: "cv", m: "K/Beta block.", ind: "VT.", con: "Asthma.", aec: "Dizzy.", aes: "QT PROLONGATION.", inter: [], dosage: "80-160 mg BID.", admin: "Oral.", nurse: "EKG." },
+    { g: "Adenosine", b: "Adenocard", c: "Misc", cat: "cv", m: "AV node block.", ind: "PSVT.", con: "Heart block.", aec: "Facial flush.", aes: "ASYSTOLE (Brief).", inter: [], dosage: "6 mg rapid IV push.", admin: "1-2s push + flush.", nurse: "EKG." },
+
+    // --- DIABETES (31) ---
+    {
+        g: "Metformin", b: "Glucophage", c: "Biguanide", cat: "dm",
+        m: "Decreases hepatic glucose production (gluconeogenesis), reduces intestinal absorption, and increases insulin sensitivity in peripheral tissues. No insulin secretion (no hypoglycemia risk alone).",
+        ind: "Type 2 Diabetes (First-line), PCOS.",
+        con: "eGFR < 30, metabolic acidosis.",
+        aec: "Nausea, vomiting, diarrhea, bloating (subsides).",
+        aes: "LACTIC ACIDOSIS (50% mortality - hyperventilation, somnolence), Vitamin B12 deficiency.",
+        inter: [{d: "Iodinated Contrast", m: "Synergistic renal failure risk; HOLD drug 48h.", s: "critical"}],
+        dosage: "500 mg to 2550 mg daily divided.",
+        admin: "Take WITH MEALS to reduce GI distress. Hold 48h for imaging with dye.",
+        nurse: "Monitor creatinine. Check for B12 anemia signs."
+    },
+    {
+        g: "Glipizide", b: "Glucotrol", c: "Sulfonylurea", cat: "dm",
+        m: "Stimulates insulin release from pancreatic beta cells. Increases insulin receptor sensitivity.",
+        ind: "Type 2 Diabetes.",
+        con: "Type 1 DM, DKA, Sulfa allergy.",
+        aec: "Weight gain, dyspepsia.",
+        aes: "SEVERE HYPOGLYCEMIA, disulfiram-like reaction with alcohol.",
+        inter: [{d: "Alcohol", m: "Intense N/V, flushing.", s: "high"}, {d: "Beta Blockers", m: "Mask tachycardia.", s: "high"}],
+        dosage: "2.5 mg to 20 mg daily.",
+        admin: "Take 30 minutes BEFORE breakfast. Skip meal = Skip dose.",
+        nurse: "Carry glucose tabs. Educate on sulfa cross-allergy."
+    },
+    { g: "Glyburide", b: "DiaBeta", c: "Sulfonylurea", cat: "dm", m: "Insulin release.", ind: "T2DM.", con: "T1DM.", aec: "Weight gain.", aes: "Hypoglycemia.", inter: [], dosage: "1.25-20 mg daily.", admin: "With breakfast.", nurse: "Check BG." },
+    { g: "Glimepiride", b: "Amaryl", c: "Sulfonylurea", cat: "dm", m: "Insulin release.", ind: "T2DM.", con: "Sulfa.", aec: "Nausea.", aes: "Hypoglycemia.", inter: [], dosage: "1-8 mg daily.", admin: "Once daily.", nurse: "BG monitoring." },
+    { g: "Chlorpropamide", b: "Diabinese", c: "Sulfonylurea", cat: "dm", m: "Insulin release.", ind: "T2DM.", con: "Renal fail.", aec: "GI.", aes: "Severe Hypo, disulfiram rxn.", inter: [], dosage: "100-500 mg daily.", admin: "Daily.", nurse: "Long-acting." },
+    { g: "Tolazamide", b: "Tolinase", c: "Sulfonylurea", cat: "dm", m: "Insulin release.", ind: "T2DM.", con: "DKA.", aec: "GI.", aes: "Hypoglycemia.", inter: [], dosage: "100-1000 mg daily.", admin: "Daily.", nurse: "Check BG." },
+    { g: "Repaglinide", b: "Prandin", c: "Meglitinide", cat: "dm", m: "Fast insulin release.", ind: "Post-prandial.", con: "DKA.", aec: "Diarrhea.", aes: "HYPOGLYCEMIA.", inter: [{d: "Gemfibrozil", m: "Fatal hypo risk.", s: "critical"}], dosage: "0.5-4 mg pre-meal.", admin: "15-30m BEFORE major meals.", nurse: "Skip meal = Skip dose." },
+    { g: "Nateglinide", b: "Starlix", c: "Meglitinide", cat: "dm", m: "Fast release.", ind: "T2DM.", con: "DKA.", aec: "Dizzy.", aes: "Hypoglycemia.", inter: [], dosage: "60-120 mg pre-meal.", admin: "Before meals.", nurse: "Check BG." },
+    { g: "Pioglitazone", b: "Actos", c: "TZD", cat: "dm", m: "PPAR-gamma sensitizer.", ind: "T2DM.", con: "NYHA III/IV HF.", aec: "Weight gain.", aes: "HEART FAILURE EXACERBATION, bone fractures.", inter: [{d: "Insulin", m: "Inc HF risk.", s: "med"}], dosage: "15-45 mg daily.", admin: "Once daily.", nurse: "Monitor for SOB/Edema." },
+    { g: "Rosiglitazone", b: "Avandia", c: "TZD", cat: "dm", m: "Insulin sensitizer.", ind: "T2DM.", con: "HF.", aec: "Edema.", aes: "HF progression.", inter: [], dosage: "2-8 mg daily.", admin: "Daily.", nurse: "Weight daily." },
+    { g: "Acarbose", b: "Precose", c: "Alpha-Gluc.", cat: "dm", m: "Slows carb absorption.", ind: "T2DM post-prandial.", con: "IBD.", aec: "FLATULENCE (severe), cramps.", aes: "Hepatotoxicity, anemia.", inter: [], dosage: "25-100 mg TID.", admin: "Take with FIRST BITE of meal.", nurse: "Treat hypo with GLUCOSE only." },
+    { g: "Miglitol", b: "Glyset", c: "Alpha-Gluc.", cat: "dm", m: "Slows carb absorption.", ind: "T2DM.", con: "IBD.", aec: "Gas.", aes: "GI Distress.", inter: [], dosage: "25-100 mg TID.", admin: "First bite.", nurse: "Check iron." },
+    { g: "Canagliflozin", b: "Invokana", c: "SGLT2 Inhibitor", cat: "dm", m: "Urine glucose excretion.", ind: "T2DM, HF reduction.", con: "eGFR < 30.", aec: "Polyuria, thirst.", aes: "UTIs, YEAST INFECTIONS, euglycemic DKA.", inter: [{d: "Diuretics", m: "Inc hydration risk.", s: "med"}], dosage: "100-300 mg daily.", admin: "Before first meal.", nurse: "Check BP/Hydration." },
+    { g: "Dapagliflozin", b: "Farxiga", c: "SGLT2", cat: "dm", m: "Urine glucose.", ind: "T2DM, HF.", con: "Dialysis.", aec: "UTIs.", aes: "Fournier's gangrene (rare).", inter: [], dosage: "5-10 mg daily.", admin: "Morning.", nurse: "Check BP." },
+    { g: "Empagliflozin", b: "Jardiance", c: "SGLT2", cat: "dm", m: "Urine glucose.", ind: "T2DM, HF.", con: "eGFR < 30.", aec: "UTIs.", aes: "Ketoacidosis.", inter: [], dosage: "10-25 mg daily.", admin: "Morning.", nurse: "Check renal." },
+    { g: "Sitagliptin", b: "Januvia", c: "DPP-4 Inhibitor", cat: "dm", m: "Enhances incretins.", ind: "T2DM.", con: "Hypersensitivity.", aec: "URI symptoms.", aes: "PANCREATITIS (Severe radiating pain).", inter: [], dosage: "100 mg daily.", admin: "Daily.", nurse: "Report severe abd pain." },
+    { g: "Linagliptin", b: "Tradjenta", c: "DPP-4", cat: "dm", m: "Incretin enhancer.", ind: "T2DM.", con: "Pancreatitis hx.", aec: "Headache.", aes: "Pancreatitis.", inter: [], dosage: "5 mg daily.", admin: "Daily.", nurse: "Assess pain." },
+    { g: "Exenatide", b: "Byetta", c: "GLP-1 Agonist", cat: "dm", m: "Mimics incretin.", ind: "T2DM.", con: "Thyroid Ca hx.", aec: "Nausea, weight loss.", aes: "Pancreatitis.", inter: [], dosage: "5-10 mcg SC BID.", admin: "SC 60m BEFORE meal.", nurse: "Check GI sxs." },
+    { g: "Dulaglutide", b: "Trulicity", c: "GLP-1", cat: "dm", m: "Mimics incretin.", ind: "T2DM.", con: "MEN 2.", aec: "Nausea.", aes: "Thyroid C-cell tumors.", inter: [], dosage: "0.75-1.5 mg SC weekly.", admin: "SC Weekly.", nurse: "Rotate sites." },
+    { g: "Liraglutide", b: "Victoza", c: "GLP-1", cat: "dm", m: "Mimics incretin.", ind: "T2DM.", con: "Thyroid Ca.", aec: "Vomit.", aes: "Pancreatitis.", inter: [], dosage: "0.6-1.8 mg SC daily.", admin: "Daily SC.", nurse: "Assess pain." },
+    { g: "Lixisenatide", b: "Adlyxin", c: "GLP-1", cat: "dm", m: "Mimics incretin.", ind: "T2DM.", con: "Renal fail.", aec: "Nausea.", aes: "Anaphylaxis.", inter: [], dosage: "20 mcg SC daily.", admin: "Daily SC.", nurse: "Check GI." },
+    { g: "Semaglutide", b: "Ozempic", c: "GLP-1", cat: "dm", m: "Mimics incretin.", ind: "T2DM, CV risk.", con: "Thyroid Ca.", aec: "Weight loss.", aes: "Pancreatitis.", inter: [], dosage: "0.25-1 mg SC weekly.", admin: "SC Weekly.", nurse: "Check abd pain." },
+    { g: "Pramlintide", b: "Symlin", c: "Amylin Mimetic", cat: "dm", m: "Slows gastric emptying.", ind: "T1/T2 mealtime adjunct.", con: "Gastroparesis.", aec: "Nausea.", aes: "SEVERE HYPOGLYCEMIA.", inter: [{d: "Insulin", m: "Dec insulin 50%.", s: "high"}], dosage: "15-120 mcg SC.", admin: "SC before meals. Do NOT mix.", nurse: "Monitor BG 3h post-dose." },
+    { g: "Glucagon", b: "GlucaGen", c: "Hyperglycemic Agent", cat: "dm", m: "Converts glycogen to glucose.", ind: "Severe Hypo.", con: "Pheo.", aec: "Nausea.", aes: "Projectile vomiting.", inter: [], dosage: "1 mg IM/SC/IV.", admin: "Turn patient on side.", nurse: "Assess responsiveness." },
+    { g: "Regular Insulin", b: "Humulin R", c: "Short-Acting", cat: "dm", m: "Glucose uptake.", ind: "Meals, DKA.", con: "Hypo.", aec: "Fatty lumps.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "Onset 30m. ONLY one for IV.", nurse: "Clear (1st) then Cloudy." },
+    { g: "Insulin Lispro", b: "Humalog", c: "Rapid-Acting", cat: "dm", m: "Immediate uptake.", ind: "Meals.", con: "Hypo.", aec: "Hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "Onset 15m. Food in front.", nurse: "Check BG pre-meal." },
+    { g: "Insulin Aspart", b: "NovoLog", c: "Rapid-Acting", cat: "dm", m: "Immediate uptake.", ind: "Meals.", con: "Hypo.", aec: "Hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "Onset 15m.", nurse: "Check BG." },
+    { g: "Insulin Glulisine", b: "Apidra", c: "Rapid-Acting", cat: "dm", m: "Fast uptake.", ind: "Meals.", con: "Hypo.", aec: "Hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "SC bolus.", nurse: "Check peak." },
+    { g: "Insulin NPH", b: "Humulin N", c: "Intermediate", cat: "dm", m: "Protamine delayed.", ind: "Basal.", con: "Hypo.", aec: "Afternoon hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "Cloudy. Roll to mix.", nurse: "Peak 4-12h." },
+    { g: "Insulin Glargine", b: "Lantus", c: "Long-Acting", cat: "dm", m: "Micro-precipitates.", ind: "24h Basal.", con: "Hypo.", aec: "Hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "Daily bedtime. Do NOT mix.", nurse: "Check consistency." },
+    { g: "Insulin Detemir", b: "Levemir", c: "Long-Acting", cat: "dm", m: "Basal.", ind: "Basal.", con: "Hypo.", aec: "Hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "Daily or BID.", nurse: "Rotate sites." },
+    { g: "Insulin Degludec", b: "Tresiba", c: "Ultra-Long", cat: "dm", m: "Up to 42h.", ind: "Basal.", con: "Hypo.", aec: "Hypo.", aes: "Hypoglycemia.", inter: [], dosage: "Individualized.", admin: "SC Daily.", nurse: "Check duration." }
+];
+
+let filters = { cv: true, dm: true };
+let sortMode = 'az';
+
+function toggleFilter(cat) {
+    filters[cat] = !filters[cat];
+    document.getElementById(`btn-${cat}`).classList.toggle('active', filters[cat]);
+    renderDrugs();
+}
+
+function setSort(mode) {
+    sortMode = mode;
+    document.getElementById('sort-az').classList.toggle('active', mode === 'az');
+    document.getElementById('sort-class').classList.toggle('active', mode === 'class');
+    renderDrugs();
+}
+
+function renderDrugs() {
+    const grid = document.getElementById('drug-grid');
+    const search = document.getElementById('drugSearch').value.toLowerCase();
+    
+    const filtered = drugDB.filter(d => {
+        return filters[d.cat] && (
+            d.g.toLowerCase().includes(search) || 
+            d.b.toLowerCase().includes(search) || 
+            d.c.toLowerCase().includes(search)
+        );
+    });
+
+    if(sortMode === 'az') filtered.sort((a,b) => a.g.localeCompare(b.g));
+    else filtered.sort((a,b) => a.c.localeCompare(b.c));
+
+    grid.innerHTML = filtered.map(d => `
+        <div class="col-md-6 mb-4">
+            <div class="nexus-card">
+                <div class="d-flex justify-content-between align-items-start mb-3" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px;">
+                    <div>
+                        <h4 class="fw-bold text-white mb-0">${d.g}</h4>
+                        <div class="small text-accent fw-bold">Brand: ${d.b}</div>
+                    </div>
+                    <span class="badge ${d.cat==='cv'?'badge-cv':'badge-dm'}">${d.c}</span>
+                </div>
+                
+                <span class="point-label">Mechanism of Action</span>
+                <div class="point-value">${d.m}</div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="point-label">Clinical Indications</span>
+                        <div class="point-value">${d.ind}</div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="point-label">Contraindications</span>
+                        <div class="point-value">${d.con}</div>
+                    </div>
+                </div>
+
+                <span class="point-label">Common Side Effects</span>
+                <div class="ae-common">${d.aec}</div>
+
+                <span class="point-label" style="color: var(--danger);">Severe/Life-Threatening Adverse Effects</span>
+                <div class="ae-severe">${d.aes}</div>
+                
+                <span class="point-label">Pharmacological Interactions</span>
+                <table class="inter-table">
+                    ${d.inter && d.inter.length ? d.inter.map(i => `<tr class="${i.s}">
+                        <td style="font-weight:700; color:#fff; width:35%;">${i.d}</td>
+                        <td style="color:#cbd5e1;">${i.m}</td>
+                    </tr>`).join('') : '<tr><td class="text-white-50 small italic">Refer to primary clinical text for non-critical interactions.</td></tr>'}
+                </table>
+
+                <div class="data-strip">
+                    <div class="logistics-box box-dosage">
+                        <span class="box-title"><i class="fas fa-weight-hanging me-1"></i> Adult Dosage Range</span>
+                        ${d.dosage}
+                    </div>
+                    <div class="logistics-box box-admin">
+                        <span class="box-title"><i class="fas fa-clock me-1"></i> Administration & Timing</span>
+                        ${d.admin}
+                    </div>
+                </div>
+
+                <span class="point-label">Nursing Considerations & Patient Education</span>
+                <div class="point-value text-info">${d.nurse}</div>
+            </div>
+        </div>
+    `).join('');
+    
+    document.getElementById('counter').innerText = `${filtered.length} Unique Generics`;
+}
+
+renderDrugs();
+</script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN MASTERY HUB: DEFINITIVE EDITION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #0f172a; --secondary: #1e293b; --accent: #3b82f6; --text: #f8fafc; --success: #22c55e; --danger: #ef4444; --warning: #f59e0b; }
+        body { background-color: var(--primary); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; overflow-x: hidden; }
+        .nexus-nav { background: var(--secondary); border-bottom: 1px solid #334155; position: sticky; top: 0; z-index: 1000; }
+        .nexus-card { background: var(--secondary); border: 1px solid #334155; border-radius: 12px; transition: 0.3s; padding: 20px; margin-bottom: 20px; height: 100%; }
+        .nexus-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+        .point-label { font-weight: 800; color: var(--accent); text-transform: uppercase; font-size: 0.7rem; margin-top: 8px; letter-spacing: 1px; display: block; }
+        .point-value { font-size: 0.9rem; color: #cbd5e1; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 4px; }
+        .badge-cv { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid #3b82f6; }
+        .badge-dm { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid #22c55e; }
+        .inter-box { margin-top: 5px; padding: 5px; border-radius: 4px; border: 1px solid #475569; font-size: 0.85rem; }
+        .inter-high { background: rgba(239, 68, 68, 0.1); border-color: var(--danger); }
+        .vitals-box { background: #000; color: #22c55e; font-family: 'Courier New', monospace; padding: 12px; border-radius: 8px; border: 1px solid #22c55e; }
+        .sidebar { height: calc(100vh - 80px); overflow-y: auto; border-right: 1px solid #334155; }
+        .mission-header { font-size: 0.8rem; font-weight: 800; color: var(--accent); margin: 15px 0 5px 10px; text-transform: uppercase; letter-spacing: 1px; }
+        .scenario-active { border-left: 5px solid var(--accent) !important; background: rgba(59, 130, 246, 0.1) !important; }
+    </style>
+</head>
+<body>
+
+<nav class="nexus-nav py-3 mb-4">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <h4 class="mb-0 fw-bold"><i class="fas fa-stethoscope text-info me-2"></i>NGN MASTERY HUB</h4>
+        <div class="btn-group">
+            <button class="btn btn-outline-light active" onclick="switchTab('drugs')"><i class="fas fa-pills me-2"></i>Compendium (58)</button>
+            <button class="btn btn-outline-light" onclick="switchTab('scenarios')"><i class="fas fa-user-md me-2"></i>Missions (28)</button>
+            <button class="btn btn-outline-light" onclick="switchTab('assessments')"><i class="fas fa-graduation-cap me-2"></i>Lecture Exam</button>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid px-4">
+
+    <!-- DRUG COMPENDIUM -->
+    <div id="tab-drugs" class="tab-view">
+        <div class="row mb-4">
+            <div class="col-md-4"><input type="text" id="drugSearch" class="form-control bg-dark text-white border-secondary" placeholder="Search drugs, effects, interactions..." onkeyup="filterDrugs()"></div>
+            <div class="col-md-8 text-end">
+                <button class="btn btn-sm btn-outline-primary" onclick="filterDrugs('cv')">Cardiovascular</button>
+                <button class="btn btn-sm btn-outline-success" onclick="filterDrugs('dm')">Diabetes</button>
+                <button class="btn btn-sm btn-outline-warning" onclick="filterDrugs('')">Show All</button>
+            </div>
+        </div>
+        <div class="row" id="drug-grid"></div>
+    </div>
+
+    <!-- MISSIONS -->
+    <div id="tab-scenarios" class="tab-view" style="display: none;">
+        <div class="row">
+            <div class="col-md-3 sidebar pe-3">
+                <div id="scenario-list"></div>
+            </div>
+            <div class="col-md-9 ps-4">
+                <div id="mission-arena" style="display: none;">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h2 id="m-title" class="text-primary"></h2>
+                        <div class="h4">Score: <span id="m-score" class="text-success">0</span></div>
+                    </div>
+                    <div class="nexus-card">
+                        <div class="vitals-box mb-3" id="m-clinical"></div>
+                        <div id="m-desc" class="fs-5 mb-4 pb-3 border-bottom border-secondary"></div>
+                        <div id="m-question-area"></div>
+                        <div id="m-feedback" class="mt-3" style="display: none;"></div>
+                        <button id="m-next-btn" class="btn btn-primary w-100 mt-4" style="display: none;" onclick="nextMissionStep()">Continue Mission →</button>
+                    </div>
+                </div>
+                <div id="mission-placeholder" class="text-center py-5 opacity-25">
+                    <i class="fas fa-hospital-user fa-5x mb-3"></i>
+                    <h3>Select a Clinical Mission to Begin</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LECTURE EXAM -->
+    <div id="tab-assessments" class="tab-view" style="display: none;">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="nexus-card p-5">
+                    <div class="d-flex justify-content-between mb-4"><h5 id="ex-counter"></h5><h5 id="ex-score" class="text-success">Points: 0</h5></div>
+                    <div id="ex-content"></div>
+                    <div id="ex-feedback" class="mt-4" style="display: none;"></div>
+                    <button id="ex-next-btn" class="btn btn-primary w-100 mt-4" style="display: none;" onclick="nextExamQ()">Next Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+// --- EXPANDED INTERACTION DATA SYNTHESIS ---
+const drugDB = [
+    // --- HYPERLIPIDEMIA ---
+    { g: "Atorvastatin", b: "Lipitor", c: "Statin", m: "HMG-CoA Reductase Inhibitor.", i: "Hyperlipidemia.", con: "Liver disease, Pregnancy.", a: "Rhabdomyolysis.", e: "Take in EVENING.", cat: "cv", 
+      inter: [{ drug: "Grapefruit", mgmt: "Avoid; increases levels.", sev: "high" }, { drug: "Warfarin", mgmt: "Increases bleeding risk.", sev: "med" }, { drug: "Gemfibrozil", mgmt: "Increases Rhabdo risk.", sev: "high" }] },
+    { g: "Simvastatin", b: "Zocor", c: "Statin", m: "HMG-CoA Reductase Inhibitor.", i: "Hyperlipidemia.", con: "Liver disease.", a: "Myalgia.", e: "Take in EVENING.", cat: "cv", 
+      inter: [{ drug: "Grapefruit", mgmt: "Avoid; toxic levels.", sev: "high" }, { drug: "Warfarin", mgmt: "Monitor INR.", sev: "med" }] },
+    { g: "Gemfibrozil", b: "Lopid", c: "Fibrate", m: "Induces lipid metabolism.", i: "Severe Hypertriglyceridemia.", con: "Gallbladder disease.", a: "Gallstones.", e: "30 min before meals.", cat: "cv", 
+      inter: [{ drug: "Warfarin", mgmt: "High bleeding risk.", sev: "high" }, { drug: "Repaglinide", mgmt: "Metabolism blocked; Hypoglycemia risk.", sev: "high" }] },
+    { g: "Cholestyramine", b: "Questran", c: "Resin", m: "Binds bile in gut.", i: "Hyperlipidemia.", con: "Biliary obstruction.", a: "Constipation.", e: "Separate meds by 4-6h.", cat: "cv", 
+      inter: [{ drug: "Most Meds", mgmt: "Take meds 1h before or 4-6h after resin.", sev: "high" }] },
+    { g: "Niacin", b: "Niaspan", c: "Vit B3", m: "Reduces liver fat synthesis.", i: "High TG.", con: "Gout, Peptic Ulcer.", a: "Intense flushing.", e: "Take Aspirin 30m before.", cat: "cv", 
+      inter: [{ drug: "Antihypertensives", mgmt: "Risk of additive hypotension.", sev: "med" }] },
+    { g: "Alirocumab", b: "Praluent", c: "PCSK9 Inhibitor", m: "Increases LDL receptors.", i: "High LDL reduction.", con: "Hypersensitivity.", a: "Inj site reaction.", e: "Store in fridge.", cat: "cv", inter: [] },
+    { g: "Bempedoic acid", b: "Nexletol", c: "ACL Inhibitor", m: "Inhibits cholesterol synth in liver.", i: "Statin intolerance.", con: "Hypersensitivity.", a: "Tendon Rupture.", e: "Report joint pain.", cat: "cv",
+      inter: [{ drug: "Simvastatin", mgmt: "Increases simvastatin levels.", sev: "med" }] },
+
+    // --- HYPERTENSION ---
+    { g: "Lisinopril", b: "Prinivil", c: "ACE Inhibitor", m: "Blocks Angiotensin I -> II.", i: "HTN, HF, Diabetic Nephropathy.", con: "Pregnancy.", a: "Angioedema, Dry Cough.", e: "Avoid K+ salt substitutes.", cat: "cv", 
+      inter: [{ drug: "Spironolactone", mgmt: "Severe hyperkalemia risk.", sev: "high" }, { drug: "NSAIDs", mgmt: "Renal risk; reduces effect.", sev: "med" }] },
+    { g: "Losartan", b: "Cozaar", c: "ARB", m: "Blocks Angio II receptors.", i: "HTN, HF.", con: "Pregnancy.", a: "Hyperkalemia.", e: "Notify if pregnant.", cat: "cv", 
+      inter: [{ drug: "Aliskiren", mgmt: "Contraindicated in DM pts.", sev: "high" }] },
+    { g: "Metoprolol", b: "Lopressor", c: "Beta-1 Selective", m: "Reduces HR/Contractility.", i: "HTN, Angina, HF.", con: "Bradycardia.", a: "Bradycardia.", e: "Check pulse before dose.", cat: "cv", 
+      inter: [{ drug: "Insulin", mgmt: "Masks tachycardia of low BS.", sev: "high" }, { drug: "CCBs", mgmt: "Heart block risk.", sev: "med" }] },
+    { g: "Propranolol", b: "Inderal", c: "Non-selective Beta", m: "Blocks B1 and B2.", i: "Angina, Anxiety.", con: "Asthma, COPD.", a: "Bronchospasm.", e: "DANGER in respiratory pts.", cat: "cv", 
+      inter: [{ drug: "Albuterol", mgmt: "Blocks bronchodilation effect.", sev: "high" }] },
+    { g: "Amlodipine", b: "Norvasc", c: "CCB (DHP)", m: "Calcium blockade; vasodilation.", i: "HTN, Angina.", con: "Heart Block.", a: "Ankle Edema.", e: "Monitor for swelling.", cat: "cv", 
+      inter: [{ drug: "Grapefruit", mgmt: "Increases levels.", sev: "med" }] },
+    { g: "Verapamil", b: "Calan", c: "CCB (Non-DHP)", m: "Slows HR and conduction.", i: "Angina, A-Fib.", con: "Heart failure.", a: "Constipation, Bradycardia.", e: "Check pulse.", cat: "cv", 
+      inter: [{ drug: "Digoxin", mgmt: "Increases digoxin levels.", sev: "high" }, { drug: "Beta Blockers", mgmt: "Heart block risk.", sev: "high" }] },
+    { g: "Nitroglycerin", b: "Nitrostat", c: "Nitrate", m: "Potent vasodilation.", i: "Angina.", con: "Sildenafil use.", a: "Headache, Hypotension.", e: "8-12h free period.", cat: "cv", 
+      inter: [{ drug: "Sildenafil (Viagra)", mgmt: "FATAL hypotension.", sev: "critical" }] },
+    { g: "Digoxin", b: "Lanoxin", c: "Cardiac Glycoside", m: "(+) Inotrope, (-) Chronotrope.", i: "HF, A-Fib.", con: "Heart Block.", a: "Yellow halos, Toxicity.", e: "Check K+ levels.", cat: "cv", 
+      inter: [{ drug: "Furosemide", mgmt: "Low K+ triggers toxicity.", sev: "critical" }, { drug: "Verapamil", mgmt: "Increases levels.", sev: "high" }] },
+    { g: "Furosemide", b: "Lasix", c: "Loop Diuretic", m: "Blocks Na/K/Cl in Loop.", i: "HF, Edema.", con: "Anuria.", a: "Ototoxicity, Hypokalemia.", e: "Take in morning.", cat: "cv", 
+      inter: [{ drug: "Digoxin", mgmt: "Low K+ risk.", sev: "critical" }, { drug: "Lithium", mgmt: "Increases lithium toxicity.", sev: "high" }] },
+    { g: "Spironolactone", b: "Aldactone", c: "K-Sparing", m: "Aldosterone Antagonist.", i: "HF, HTN.", con: "Hyperkalemia.", a: "Gynecomastia.", e: "Avoid K+ rich foods.", cat: "cv", 
+      inter: [{ drug: "ACE Inhibitors", mgmt: "Severe hyperkalemia risk.", sev: "high" }] },
+    { g: "Hydralazine", b: "Apresoline", c: "Vasodilator", m: "Direct smooth muscle relaxant.", i: "HTN, HF.", con: "CAD.", a: "Reflex Tachycardia.", e: "Monitor heart rate.", cat: "cv", inter: [] },
+    { g: "Nitroprusside", b: "Nitropress", c: "Vasodilator", m: "Venous/Arterial dilation.", i: "HTN Crisis.", con: "HF.", a: "Cyanide Toxicity.", e: "IV only. Protect from light.", cat: "cv", inter: [] },
+
+    // --- DIABETES ---
+    { g: "Metformin", b: "Glucophage", c: "Biguanide", m: "Lower liver glucose production.", i: "Type 2 DM.", con: "eGFR < 30.", a: "Lactic Acidosis.", e: "Hold for Contrast Dye.", cat: "dm", 
+      inter: [{ drug: "Iodine Dye", mgmt: "Hold 48h before/after.", sev: "critical" }, { drug: "Alcohol", mgmt: "Increases lactic acidosis risk.", sev: "high" }] },
+    { g: "Glipizide", b: "Glucotrol", c: "Sulfonylurea", m: "Stimulates insulin release.", i: "Type 2 DM.", con: "DKA.", a: "Hypoglycemia.", e: "30 min before meals.", cat: "dm", 
+      inter: [{ drug: "Alcohol", mgmt: "Disulfiram reaction.", sev: "high" }, { drug: "Beta Blockers", mgmt: "Masks low BS signs.", sev: "high" }] },
+    { g: "Repaglinide", b: "Prandin", c: "Meglitinide", m: "Fast-acting insulin release.", i: "Type 2 DM.", con: "T1DM.", a: "Hypoglycemia.", e: "Skip meal = skip dose.", cat: "dm", 
+      inter: [{ drug: "Gemfibrozil", mgmt: "Severe hypoglycemia risk.", sev: "high" }] },
+    { g: "Pioglitazone", b: "Actos", c: "TZD", m: "Increases sensitivity.", i: "Type 2 DM.", con: "Heart Failure.", a: "Edema, Heart failure.", e: "Report SOB immediately.", cat: "dm", 
+      inter: [{ drug: "Insulin", mgmt: "Increases edema risk.", sev: "med" }] },
+    { g: "Acarbose", b: "Precose", c: "Alpha-Glucosidase", m: "Slows carb absorption.", i: "Type 2 DM.", con: "IBD.", a: "GI Distress (Gas).", e: "Take with first bite.", cat: "dm", 
+      inter: [{ drug: "Insulin", mgmt: "Increases hypoglycemia risk.", sev: "med" }] },
+    { g: "Canagliflozin", b: "Invokana", c: "SGLT2 Inhibitor", m: "Renal glucose excretion.", i: "Type 2 DM, HF.", con: "Dialysis.", a: "UTIs, Yeast Inf.", e: "Stay hydrated.", cat: "dm", 
+      inter: [{ drug: "Diuretics", mgmt: "Increases effect; hypotension risk.", sev: "med" }] },
+    { g: "Semaglutide", b: "Ozempic", c: "GLP-1 Agonist", m: "Mimics incretin.", i: "Type 2 DM.", con: "Thyroid cancer history.", a: "Pancreatitis.", e: "Weekly SC injection.", cat: "dm", 
+      inter: [{ drug: "Oral Meds", mgmt: "May delay absorption of other meds.", sev: "low" }] },
+    { g: "Pramlintide", b: "Symlin", c: "Amylin Mimetic", m: "Slows gastric emptying.", i: "Type 1 & 2 DM.", con: "Gastroparesis.", a: "Hypoglycemia.", e: "Give before meals.", cat: "dm", 
+      inter: [{ drug: "Insulin", mgmt: "Severe hypoglycemia risk.", sev: "high" }] },
+    { g: "Insulin Regular", b: "Humulin R", c: "Short-acting", m: "Glucose uptake.", i: "DKA, Meals.", con: "Hypoglycemia.", a: "Hypoglycemia.", e: "Clear. ONLY one for IV.", cat: "dm", inter: [] },
+    { g: "Insulin NPH", b: "Humulin N", c: "Intermediate", m: "Basal control.", i: "DM.", con: "Hypoglycemia.", a: "Hypoglycemia.", e: "Cloudy. Draw up SECOND.", cat: "dm", inter: [] }
+];
+
+const missionDB = [
+    // --- CATEGORY: NGN MULTI-STEP ---
+    { type: "ngn", cat: "cv", title: "NGN Case: Heart Failure & Toxicity", clinical: "Digoxin 0.25 | K+ 3.1 | HR 48 | Sparkles in vision", steps: [
+        { d: "Patient reports seeing yellow halos.", q: "Identify the PRIORITY action.", o: ["Hold med & Notify MD", "Check LFTs", "Perform EKG"], c: 0, r: "Halos + Bradycardia = Digoxin Toxicity." },
+        { d: "The MD orders a K+ supplement.", q: "Why was K+ ordered for toxicity?", o: ["Low K+ triggers Digoxin binding", "K+ is the antidote", "Stabilizes BP"], c: 0, r: "Hypokalemia sensitizes the heart to Digoxin." }
+    ]},
+    { type: "ngn", cat: "dm", title: "NGN Case: DKA Protocol", clinical: "Confused | Sweet Breath | BG 520 | pH 7.25", steps: [
+        { d: "DKA confirmed.", q: "Which type of insulin is indicated for the IV infusion?", o: ["NPH", "Regular", "Glargine"], c: 1, r: "Regular is the only IV insulin." },
+        { d: "BG drops to 240.", q: "Next action in infusion protocol?", o: ["Stop insulin", "Add D5W to fluids", "Give glucagon"], c: 1, r: "Prevents cerebral edema during rapid BG drops." }
+    ]},
+
+    // --- CATEGORY: BASIC PHARMACOLOGY ---
+    { type: "basic", cat: "cv", title: "Mission: Statin Muscle Pain", clinical: "Atorvastatin | Leg Pain", steps: [{ d: "Patient reports leg pain.", q: "Priority action?", o: ["Stop med and notify MD", "Increase fluids"], c: 0, r: "Rhabdomyolysis alert." }]},
+    { type: "basic", cat: "cv", title: "Mission: ACE-I Swelling", clinical: "Lisinopril | Tongue Swelling", steps: [{ d: "Facial swelling noted.", q: "Condition?", o: ["Angioedema", "First dose effect"], c: 0, r: "Angioedema is an emergency." }]},
+    { type: "basic", cat: "dm", title: "Mission: Metformin Dye", clinical: "CT Scan Scheduled", steps: [{ d: "Takes Metformin daily.", q: "Protocol?", o: ["Hold 48h before/after", "Take extra dose"], c: 0, r: "Prevents renal failure." }]},
+    { type: "basic", cat: "dm", title: "Mission: Insulin Mixing", clinical: "10U Regular + 20U NPH", steps: [{ d: "Preparing the dose.", q: "Correct order?", o: ["Regular then NPH", "NPH then Regular"], c: 0, r: "Clear before Cloudy." }]},
+    { type: "basic", cat: "cv", title: "Mission: Digoxin Pulse", clinical: "Digoxin Med Pass", steps: [{ d: "Prior to admin.", q: "Action?", o: ["Apical pulse 1 min", "Radial pulse 30 sec"], c: 0, r: "Hold if < 60 bpm." }]},
+    { type: "basic", cat: "dm", title: "Mission: Repaglinide Busy", clinical: "Repaglinide | Skips Breakfast", steps: [{ d: "Patient skips meal.", q: "Dose action?", o: ["Skip dose", "Take anyway"], c: 0, r: "Prevents hypoglycemia." }]}
+];
+
+const examDB = [
+    { q: "When should Simvastatin be taken?", o: ["Morning", "Evening", "With meal", "PRN"], c: 1, r: "Cholesterol synthesis peaks at night." },
+    { q: "Mandatory Statin Lab?", o: ["INR", "LFTs", "BUN"], c: 1, r: "Statins are hepatotoxic." },
+    { q: "Gemfibrozil Side Effect?", o: ["Cough", "Diarrhea", "Halos"], c: 1, r: "GI distress." },
+    { q: "Furosemide IV Priority?", o: ["Check Tinnitus", "Check Eyes"], c: 0, r: "Ototoxic." },
+    { q: "Lisinopril + Pregnancy?", o: ["Safe", "Teratogenic"], c: 1, r: "Contraindicated." },
+    { q: "Propranolol Contraindication?", o: ["Asthma", "Tachycardia"], c: 0, r: "Bronchospasm." },
+    { q: "NTG Headache response?", o: ["Allergy", "Common Side Effect"], c: 1, r: "Normal dilation." },
+    { q: "NTG unrelieved 5 min?", o: ["Take 2nd tab", "Call 911"], c: 1, r: "Emergency MI protocol." },
+    { q: "Verapamil instruct?", o: ["Inc Fiber", "Inc Sugar"], c: 0, r: "Causes constipation." },
+    { q: "Digoxin Toxicity symptoms? (Select All)", o: ["Fatigue, Anorexia, Blurred Vision", "Rash, Itch"], c: 0, r: "Hallmark toxicity signs." },
+    { q: "Risk for Digoxin Toxicity?", o: ["Ranitidine", "Furosemide"], c: 1, r: "Low K+ precipitates toxicity." },
+    { q: "Heparin SC technique?", o: ["Aspirate", "90 deg angle"], c: 1, r: "No aspiration/massage." },
+    { q: "Metformin XR instruction?", o: ["Take with meal", "Crush"], c: 0, r: "Reduces GI upset." },
+    { q: "Glipizide mechanism?", o: ["Blocks liver", "Stimulates pancreas"], c: 1, r: "Secretagogue." },
+    { q: "Repaglinide timing?", o: ["Bedtime", "30 min before meal"], c: 1, r: "Prevents hypoglycemia." },
+    { q: "Acarbose lab?", o: ["WBC", "LFTs"], c: 1, r: "Hepatotoxicity risk." },
+    { q: "Metformin reportable effect?", o: ["Constipation", "Somnolence"], c: 1, r: "Lactic Acidosis sign." },
+    { q: "Insulin mixing order?", o: ["NPH then Regular", "Regular then NPH"], c: 1, r: "Clear before cloudy." },
+    { q: "IV Insulin choice?", o: ["Regular", "Lantus"], c: 0, r: "Approved for IV." },
+    { q: "Warfarin Antidote?", o: ["Protamine", "Vitamin K"], c: 1, r: "Phytonadione." },
+    { q: "Digoxin Toxic level?", o: ["> 1.0", "> 2.4"], c: 1, r: "Therapeutic 0.8-2.0." },
+    { q: "Nitroglycerin Viagra?", o: ["Absolute Contraindicated", "Take with food"], c: 0, r: "Fatal hypotension risk." },
+    { q: "Hypoglycemia Conscious?", o: ["15g simple carb", "Glucagon IM"], c: 0, r: "15/15 Rule." },
+    { q: "Sitagliptin reportable?", o: ["Pancreatitis", "Weight Gain"], c: 0, r: "Severe abdominal pain risk." },
+    { q: "Amiodarone check?", o: ["Pulmonary/LFTs", "Creatinine"], c: 0, r: "Black box toxicities." }
+];
+
+// UI LOGIC
+let score = 0; let mIdx = 0; let exIdx = 0;
+
+function switchTab(t) {
+    document.querySelectorAll('.tab-view').forEach(v => v.style.display = 'none');
+    document.querySelectorAll('.nexus-nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById(`tab-${t}`).style.display = 'block';
+    if(t === 'drugs') renderDrugs();
+    if(t === 'scenarios') renderMissions();
+    if(t === 'assessments') renderExam();
+}
+
+function renderDrugs(filter = "") {
+    const grid = document.getElementById('drug-grid');
+    let data = drugDB;
+    if(filter === 'cv') data = drugDB.filter(d => d.cat === 'cv');
+    if(filter === 'dm') data = drugDB.filter(d => d.cat === 'dm');
+    if(filter && !['cv','dm'].includes(filter)) data = drugDB.filter(d => JSON.stringify(d).toLowerCase().includes(filter.toLowerCase()));
+    grid.innerHTML = data.map(d => `
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="nexus-card">
+                <div class="d-flex justify-content-between mb-2">
+                    <h5 class="fw-bold text-white mb-0">${d.g} (${d.b})</h5>
+                    <span class="badge ${d.cat === 'cv' ? 'badge-cv' : 'badge-dm'}">${d.c}</span>
+                </div>
+                <div class="point-label">Mechanism</div><div class="point-value">${d.m}</div>
+                <div class="point-label">Indications</div><div class="point-value">${d.i}</div>
+                <div class="point-label">Contraindications</div><div class="point-value">${d.con}</div>
+                <div class="point-label">Adverse Effects</div><div class="point-value text-danger">${d.a}</div>
+                <div class="point-label">Interactions</div>
+                <div class="point-value">
+                    ${d.inter && d.inter.length > 0 ? d.inter.map(i => `
+                        <div class="inter-box ${i.sev === 'high' || i.sev === 'critical' ? 'inter-high' : ''}">
+                            <small class="fw-bold text-warning">${i.drug}:</small> <small>${i.mgmt}</small>
+                        </div>
+                    `).join('') : '<small class="text-muted">None specified</small>'}
+                </div>
+                <div class="point-label">Patient Education</div><div class="point-value text-info">${d.e}</div>
+            </div>
+        </div>
+    `).join('');
+}
+
+function filterDrugs() { renderDrugs(document.getElementById('drugSearch').value); }
+
+function renderMissions() {
+    const list = document.getElementById('scenario-list');
+    let html = "";
+    
+    const sections = {
+        "NGN Multi-Step (Complex)": missionDB.filter(m => m.type === 'ngn'),
+        "Basic Pharmacology (Single-Step)": missionDB.filter(m => m.type === 'basic')
+    };
+
+    for(let sec in sections) {
+        html += `<div class="mission-header">${sec}</div>`;
+        sections[sec].forEach(m => {
+            html += `<button class="list-group-item list-group-item-action bg-transparent text-white border-secondary mb-1" onclick="startMission('${m.id}', this)">
+                <i class="fas ${m.cat==='cv'?'fa-heart':'fa-tint'} me-2"></i>${m.title}</button>`;
+        });
+    }
+    list.innerHTML = html;
+}
+
+function startMission(id, el) {
+    document.querySelectorAll('.list-group-item').forEach(btn => btn.classList.remove('scenario-active'));
+    el.classList.add('scenario-active');
+    activeMission = missionDB.find(m => m.id === id); mIdx = 0; score = 0;
+    document.getElementById('m-score').innerText = score;
+    document.getElementById('mission-placeholder').style.display = 'none';
+    document.getElementById('mission-arena').style.display = 'block';
+    renderMissionStep();
+}
+
+function renderMissionStep() {
+    const s = activeMission.steps[mIdx];
+    document.getElementById('m-title').innerText = activeMission.title;
+    document.getElementById('m-clinical').innerText = activeMission.clinical;
+    document.getElementById('m-desc').innerText = s.d;
+    const area = document.getElementById('m-question-area');
+    area.innerHTML = `<h4 class="mb-4 text-warning">${s.q}</h4>` + s.o.map((o, k) => `<button class="btn btn-outline-light w-100 text-start mb-2" onclick="checkMissionStep(${k})">${o}</button>`).join('');
+    document.getElementById('m-feedback').style.display = 'none';
+    document.getElementById('m-next-btn').style.display = 'none';
+}
+
+function checkMissionStep(k) {
+    const s = activeMission.steps[mIdx];
+    const fb = document.getElementById('m-feedback');
+    fb.style.display = 'block';
+    if(k === s.c) { score += 10; fb.innerHTML = `<div class="alert alert-success">${s.r}</div>`; }
+    else { score -= 5; fb.innerHTML = `<div class="alert alert-danger">${s.r}</div>`; }
+    document.getElementById('m-score').innerText = score;
+    document.getElementById('m-next-btn').style.display = 'block';
+}
+
+function nextMissionStep() {
+    mIdx++;
+    if(mIdx < activeMission.steps.length) renderMissionStep();
+    else alert(`Mission Final Score: ${score}`);
+}
+
+function renderExam() {
+    const q = examDB[exIdx];
+    document.getElementById('ex-counter').innerText = `Question ${exIdx + 1} of ${examDB.length}`;
+    const area = document.getElementById('ex-content');
+    area.innerHTML = `<p class="flashcard-q">${q.q}</p>` + q.o.map((o, k) => `<button class="btn btn-outline-secondary w-100 text-start mb-2 p-3" onclick="checkExam(${k})">${o}</button>`).join('');
+    document.getElementById('ex-feedback').style.display = 'none';
+    document.getElementById('ex-next-btn').style.display = 'none';
+}
+
+function checkExam(k) {
+    const q = examDB[exIdx];
+    const fb = document.getElementById('ex-feedback');
+    fb.style.display = 'block';
+    if(k === q.c) { fb.innerHTML = `<div class="alert alert-success">${q.r}</div>`; }
+    else { fb.innerHTML = `<div class="alert alert-danger">${q.r}</div>`; }
+    document.getElementById('ex-next-btn').style.display = 'block';
+}
+
+function nextExamQ() { exIdx = (exIdx + 1) % examDB.length; renderExam(); }
+
+switchTab('drugs');
+</script>
+</body>
+</html>

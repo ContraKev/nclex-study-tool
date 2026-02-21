@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS: Advanced Pharmacology Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary-bg: #0f172a; --card-bg: #1e293b; --text-main: #f8fafc; --accent: #3b82f6; --danger: #ef4444; --success: #22c55e; --warning: #f59e0b; }
+        body { background-color: var(--primary-bg); color: var(--text-main); font-family: 'Inter', sans-serif; }
+        .nexus-card { background-color: var(--card-bg); border: 1px solid #334155; border-radius: 12px; transition: all 0.3s ease; }
+        .nexus-card:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); border-color: var(--accent); }
+        .nav-pills .nav-link { color: #94a3b8; border-radius: 8px; margin-right: 10px; }
+        .nav-pills .nav-link.active { background-color: var(--accent); color: white; }
+        .drug-badge { font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; margin-right: 5px; }
+        .badge-cv { background-color: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid #3b82f6; }
+        .badge-dm { background-color: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid #22c55e; }
+        .badge-cross { background-color: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid #f59e0b; }
+        .black-box { border-left: 4px solid var(--danger); background: rgba(239, 68, 68, 0.1); padding: 15px; margin-top: 10px; border-radius: 0 8px 8px 0; }
+        .modal-content { background-color: var(--card-bg); color: var(--text-main); border: 1px solid #475569; }
+        .search-box { background-color: #334155; border: none; color: white; padding: 12px; border-radius: 8px; width: 100%; }
+        .search-box:focus { outline: 2px solid var(--accent); background-color: #334155; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid py-4">
+    <!-- Header -->
+    <div class="row mb-4 align-items-center">
+        <div class="col-md-8">
+            <h1 class="fw-bold"><i class="fas fa-dna text-primary me-2"></i>NEXUS PHARMA HUB</h1>
+            <p class="text-secondary mb-0">Cardiovascular & Metabolic Command Center | Dr. James Lecture Series</p>
+        </div>
+        <div class="col-md-4">
+            <input type="text" id="drugSearch" class="search-box" placeholder="Search drugs, antidotes, or adverse effects..." onkeyup="filterDrugs()">
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+        <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-matrix">💊 Drug Matrix</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-crossover">⚡ Crossover Zone</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-quiz">🎓 Lecture Quiz (38 Qs)</button></li>
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+        
+        <!-- DRUG MATRIX TAB -->
+        <div class="tab-pane fade show active" id="tab-matrix">
+            <div class="row" id="drug-grid">
+                <!-- Javascript will inject drug cards here -->
+            </div>
+        </div>
+
+        <!-- CROSSOVER ZONE TAB -->
+        <div class="tab-pane fade" id="tab-crossover">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="nexus-card p-4 h-100">
+                        <h3 class="text-warning"><i class="fas fa-heart-crack me-2"></i>SGLT2 Inhibitors</h3>
+                        <hr class="border-secondary">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="badge badge-dm">DIABETES</span>
+                            <span class="badge badge-cv">HEART FAILURE</span>
+                        </div>
+                        <p><b>Agents:</b> Empagliflozin (Jardiance), Dapagliflozin (Farxiga)</p>
+                        <p><b>Mechanism of Crossover:</b> Osmotic diuresis reduces preload; reduction in arterial stiffness reduces afterload. Proven to reduce HF hospitalizations.</p>
+                        <div class="black-box">
+                            <small class="text-danger fw-bold">⚠️ NURSING ALERT</small><br>
+                            Monitor for hypotension and dehydration. Risk of "Euglycemic DKA".
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="nexus-card p-4 h-100">
+                        <h3 class="text-warning"><i class="fas fa-kidneys me-2"></i>ACE Inhibitors</h3>
+                        <hr class="border-secondary">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="badge badge-cv">HYPERTENSION</span>
+                            <span class="badge badge-dm">NEPHROPATHY</span>
+                        </div>
+                        <p><b>Agents:</b> Lisinopril, Enalapril</p>
+                        <p><b>Mechanism of Crossover:</b> Dilates the <i>efferent</i> arteriole of the glomerulus, reducing intraglomerular pressure and protecting the kidney from diabetic damage.</p>
+                        <div class="black-box">
+                            <small class="text-danger fw-bold">⚠️ BLACK BOX WARNING</small><br>
+                            Fetal Toxicity (Pregnancy Category X). Discontinue immediately if pregnant.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="nexus-card p-4 h-100">
+                        <h3 class="text-warning"><i class="fas fa-weight-scale me-2"></i>GLP-1 Agonists</h3>
+                        <hr class="border-secondary">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="badge badge-dm">DIABETES</span>
+                            <span class="badge badge-cv">STROKE/MI RISK</span>
+                        </div>
+                        <p><b>Agents:</b> Semaglutide (Ozempic), Liraglutide (Victoza)</p>
+                        <p><b>Mechanism of Crossover:</b> Significant weight loss (~15%) reduces cardiovascular risk factors. Anti-inflammatory effects on endothelium.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="nexus-card p-4 h-100">
+                        <h3 class="text-danger"><i class="fas fa-mask me-2"></i>Beta Blockers (The Masker)</h3>
+                        <hr class="border-secondary">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="badge badge-cv">PRIMARY: CV</span>
+                            <span class="badge badge-dm">RISK: DM</span>
+                        </div>
+                        <p><b>Agents:</b> Metoprolol, Propranolol</p>
+                        <p><b>Mechanism of Crossover:</b> Sympathetic blockade masks the tachycardia and tremors associated with hypoglycemia.</p>
+                        <div class="black-box">
+                            <small class="text-danger fw-bold">⚠️ SAFETY CHECK</small><br>
+                            Teach diabetic patients to rely on <b>sweating (diaphoresis)</b> as the primary warning sign of low blood sugar.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- QUIZ TAB -->
+        <div class="tab-pane fade" id="tab-quiz">
+            <div class="nexus-card p-4">
+                <div class="d-flex justify-content-between">
+                    <h4><i class="fas fa-chalkboard-teacher me-2"></i>Lecture Hall Challenge</h4>
+                    <span class="badge bg-primary fs-6" id="quiz-score">Score: 0</span>
+                </div>
+                <hr class="border-secondary">
+                <div id="quiz-container" class="mt-4">
+                    <!-- Quiz injected here -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+// --- DATA MATRIX ---
+const drugDB = [
+    { name: "Atorvastatin (Lipitor)", class: "Statin", cat: "CV", moa: "Inhibits HMG-CoA reductase; lowers LDL.", warning: "Rhabdomyolysis (Check CK)", note: "Take in Evening. No Grapefruit juice." },
+    { name: "Lisinopril (Prinivil)", class: "ACE Inhibitor", cat: "CV+DM", moa: "Blocks Angiotensin I->II. Renal protective.", warning: "Angioedema / Dry Cough", note: "Teratogenic. Avoid K+ salt substitutes." },
+    { name: "Metformin (Glucophage)", class: "Biguanide", cat: "DM", moa: "Reduces hepatic glucose production.", warning: "Lactic Acidosis (Hold for Contrast)", note: "Take with meals to reduce GI upset." },
+    { name: "Digoxin (Lanoxin)", class: "Cardiac Glycoside", cat: "CV", moa: "(+) Inotrope, (-) Chronotrope.", warning: "Toxicity (Halos, N/V)", note: "Apical Pulse 1 min (Hold <60). Low K+ = High Risk." },
+    { name: "Furosemide (Lasix)", class: "Loop Diuretic", cat: "CV", moa: "Blocks Na/K/Cl in Loop of Henle.", warning: "Ototoxicity (Push Slow)", note: "Monitor K+ (Hypokalemia risk). Daily weights." },
+    { name: "Nitroglycerin", class: "Nitrate", cat: "CV", moa: "Coronary Vasodilation.", warning: "Fatal Hypotension w/ Viagra", note: "8-12h Nitrate-Free period to prevent tolerance." },
+    { name: "Warfarin (Coumadin)", class: "Anticoagulant", cat: "CV", moa: "Vit K Antagonist.", warning: "Bleeding (Check PT/INR)", note: "Consistent Vit K diet. Antidote: Vitamin K." },
+    { name: "Ranolazine (Ranexa)", class: "Anti-Anginal", cat: "CV", moa: "Na+ Channel Blocker.", warning: "QT Prolongation", note: "For chronic stable angina. Doesn't lower BP/HR." },
+    { name: "Cilostazol (Pletal)", class: "PAD Agent", cat: "CV", moa: "PDE Inhibitor; Vasodilator.", warning: "Contraindicated in HF", note: "Treats Intermittent Claudication." },
+    { name: "Pramlintide (Symlin)", class: "Amylin Mimetic", cat: "DM", moa: "Slows gastric emptying.", warning: "Severe Hypoglycemia", note: "Injectable for T1/T2. Reduce insulin dose." },
+    { name: "Spironolactone", class: "K-Sparing Diuretic", cat: "CV", moa: "Aldosterone Antagonist.", warning: "Hyperkalemia", note: "Avoid high K+ foods. Gynecomastia risk." },
+    { name: "Amiodarone", class: "Anti-Arrhythmic", cat: "CV", moa: "K+ Channel Blocker.", warning: "Pulmonary Toxicity", note: "Blue-man syndrome. Long half-life." },
+    { name: "Canagliflozin (Invokana)", class: "SGLT2 Inhibitor", cat: "DM+CV", moa: "Blocks glucose reabsorption.", warning: "UTIs / Yeast Infections", note: "Hydration is key. Risk of hypotension." },
+    { name: "Regular Insulin", class: "Insulin (Short)", cat: "DM", moa: "Glucose uptake.", warning: "Hypoglycemia", note: "Clear. ONLY one for IV. Draw up FIRST." },
+    { name: "NPH Insulin", class: "Insulin (Interm.)", cat: "DM", moa: "Basal control.", warning: "Hypoglycemia (Peak 6-14h)", note: "Cloudy. Draw up SECOND." },
+    { name: "Clonidine (Catapres)", class: "Central Alpha-2", cat: "CV", moa: "Reduces sympathetic outflow.", warning: "Rebound HTN", note: "Do not stop abruptly. Patch q7 days." },
+    { name: "Hydralazine", class: "Vasodilator", cat: "CV", moa: "Direct smooth muscle relaxant.", warning: "Lupus-like Syndrome", note: "Reflex tachycardia." },
+    { name: "Nitroprusside", class: "Vasodilator", cat: "CV", moa: "Potent venous/arterial dilation.", warning: "Cyanide Toxicity", note: "IV only for HTN Crisis. Protect from light." },
+    { name: "Acarbose (Precose)", class: "Alpha-Glucosidase", cat: "DM", moa: "Slows carb digestion.", warning: "GI Distress (Gas)", note: "Take with FIRST BITE of food." },
+    { name: "Repaglinide (Prandin)", class: "Meglitinide", cat: "DM", moa: "Stimulates pancreas (fast).", warning: "Hypoglycemia", note: "Take 15-30 min before meal. Skip meal = Skip dose." }
+];
+
+// --- QUIZ DATA ---
+const quizDB = [
+    { q: "When should Simvastatin be taken?", a: ["Morning", "Noon", "Evening", "With fatty meal"], correct: 2, r: "Cholesterol synthesis peaks at night." },
+    { q: "Which lab is mandatory before starting Atorvastatin?", a: ["Potassium", "LFTs", "INR", "Creatinine"], correct: 1, r: "Statins can be hepatotoxic." },
+    { q: "Risk factor for Digoxin Toxicity?", a: ["Hyperkalemia", "Hypokalemia (e.g. Lasix)", "Hyponatremia", "High Magnesium"], correct: 1, r: "Low K+ sensitizes heart to Digoxin." },
+    { q: "Administering Heparin SQ: Angle?", a: "45 degrees", b: "15 degrees", c: "90 degrees", d: "Z-Track", a_opts: ["45 deg", "15 deg", "90 deg", "Z-Track"], correct: 2, r: "Standard SQ angle. Do not aspirate/massage." },
+    { q: "Patient on Metformin reports extreme somnolence. Suspect?", a: ["Hypoglycemia", "Lactic Acidosis", "Hyperglycemia", "Stroke"], correct: 1, r: "Somnolence + Hyperventilation = Lactic Acidosis risk." },
+    { q: "Insulin Mixing Order?", a: ["Cloudy then Clear", "Clear then Cloudy", "Mix in separate syringes", "Shake vigorously"], correct: 1, r: "Regular (Clear) first to prevent contaminating the vial." },
+    { q: "Antidote for Warfarin?", a: ["Protamine Sulfate", "Vitamin K", "Digibind", "Flumazenil"], correct: 1, r: "Phytonadione (Vit K) reverses Warfarin." },
+    { q: "Nitroglycerin Patch Schedule?", a: ["Wear 24h", "Change every 4h", "12h on / 12h off", "Wear only for pain"], correct: 2, r: "Nitrate-free period prevents tolerance." },
+    { q: "Serious side effect of Furosemide pushed too fast?", a: ["Tinnitus/Ototoxicity", "Blindness", "Constipation", "Hepatitis"], correct: 0, r: "Loop diuretics can damage the ear nerve." },
+    { q: "Dietary teaching for Warfarin?", a: ["Avoid all Vitamin K", "Consistent Vitamin K intake", "Increase dark greens", "Eat grapefruit"], correct: 1, r: "Consistency maintains stable INR." }
+];
+
+// --- RENDER FUNCTIONS ---
+function renderDrugs(filter = "") {
+    const grid = document.getElementById('drug-grid');
+    grid.innerHTML = "";
+    
+    drugDB.filter(d => d.name.toLowerCase().includes(filter.toLowerCase()) || d.warning.toLowerCase().includes(filter.toLowerCase()))
+          .forEach(d => {
+        let badgeClass = d.cat.includes("CV") && d.cat.includes("DM") ? "badge-cross" : (d.cat === "CV" ? "badge-cv" : "badge-dm");
+        let html = `
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="nexus-card p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h5 class="fw-bold text-white">${d.name}</h5>
+                        <span class="badge ${badgeClass}">${d.class}</span>
+                    </div>
+                    <p class="small text-secondary mb-2"><i>${d.moa}</i></p>
+                    <div class="p-2 bg-dark rounded mb-2 border border-secondary">
+                        <small class="text-info"><i class="fas fa-user-nurse me-1"></i> ${d.note}</small>
+                    </div>
+                    <div class="p-2 rounded bg-danger bg-opacity-10 border border-danger">
+                        <small class="text-danger fw-bold"><i class="fas fa-triangle-exclamation me-1"></i> ${d.warning}</small>
+                    </div>
+                </div>
+            </div>
+        `;
+        grid.innerHTML += html;
+    });
+}
+
+let quizIdx = 0;
+let score = 0;
+
+function renderQuiz() {
+    const container = document.getElementById('quiz-container');
+    if (quizIdx >= quizDB.length) {
+        container.innerHTML = `<div class="text-center py-5"><h3>Session Complete!</h3><h1 class="display-1 text-primary">${score}/${quizDB.length}</h1><button class="btn btn-outline-light mt-3" onclick="location.reload()">Reset Nexus</button></div>`;
+        return;
+    }
+    
+    const q = quizDB[quizIdx];
+    let html = `
+        <h5>Question ${quizIdx + 1}: ${q.q}</h5>
+        <div class="d-grid gap-2 mt-3">
+            ${q.a.map((opt, i) => `<button class="btn btn-outline-secondary text-start p-3" onclick="checkAnswer(${i})">${opt}</button>`).join('')}
+        </div>
+        <div id="feedback" class="mt-3" style="display:none;"></div>
+        <button id="next-q" class="btn btn-primary w-100 mt-3" style="display:none;" onclick="nextQ()">Next Mission</button>
+    `;
+    container.innerHTML = html;
+}
+
+function checkAnswer(i) {
+    const q = quizDB[quizIdx];
+    const feedback = document.getElementById('feedback');
+    const nextBtn = document.getElementById('next-q');
+    const btns = document.querySelectorAll('#quiz-container button.btn-outline-secondary');
+    
+    btns.forEach(b => b.disabled = true);
+    
+    if (i === q.correct) {
+        score++;
+        feedback.innerHTML = `<div class="alert alert-success"><b>CORRECT:</b> ${q.r}</div>`;
+    } else {
+        feedback.innerHTML = `<div class="alert alert-danger"><b>INCORRECT:</b> ${q.r}</div>`;
+    }
+    
+    document.getElementById('quiz-score').innerText = `Score: ${score}`;
+    feedback.style.display = 'block';
+    nextBtn.style.display = 'block';
+}
+
+function nextQ() {
+    quizIdx++;
+    renderQuiz();
+}
+
+function filterDrugs() {
+    renderDrugs(document.getElementById('drugSearch').value);
+}
+
+// Init
+renderDrugs();
+renderQuiz();
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

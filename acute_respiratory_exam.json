@@ -1,0 +1,249 @@
+[
+  {
+    "id": "acute_resp_001",
+    "type": "multiple_choice",
+    "question": "A patient with acute bronchitis presents with a productive cough and fever. The nurse knows that the primary goal of antibiotic therapy is:",
+    "options": [
+      "Symptom relief and comfort",
+      "Complete eradication of the pathogen",
+      "Prevention of drug resistance",
+      "Reduction of fever only"
+    ],
+    "correct_answer": 1,
+    "rationale": "The goal of antibiotic therapy for acute bronchitis is complete eradication of the pathogen to prevent recurrence and drug resistance.",
+    "topic": "Acute Bronchitis"
+  },
+  {
+    "id": "acute_resp_002",
+    "type": "select_all",
+    "question": "Which signs and symptoms are expected findings in a patient with pneumonia? (Select all that apply)",
+    "options": [
+      "Fever and tachypnea",
+      "Tachycardia and purulent secretions",
+      "Adventitious breath sounds",
+      "Hypothermia and bradycardia",
+      "Clear, watery sputum"
+    ],
+    "correct_answers": [
+      0,
+      1,
+      2
+    ],
+    "rationale": "Pneumonia typically presents with fever, increased respiratory and heart rate, purulent secretions, and adventitious breath sounds. Hypothermia and bradycardia are not typical compensatory responses.",
+    "topic": "Pneumonia"
+  },
+  {
+    "id": "acute_resp_003",
+    "type": "multiple_choice",
+    "question": "A patient with suspected pneumothorax is experiencing respiratory distress. The nurse expects to assess:",
+    "options": [
+      "Increased breath sounds on the affected side",
+      "Reduced or absent breath sounds on the affected side",
+      "Normal breath sounds bilaterally",
+      "Crackles in both lung fields"
+    ],
+    "correct_answer": 1,
+    "rationale": "Air in the pleural space prevents normal lung expansion, resulting in reduced or absent breath sounds on the affected side.",
+    "topic": "Pneumothorax"
+  },
+  {
+    "id": "acute_resp_004",
+    "type": "select_all",
+    "question": "For a patient with pulmonary embolism, which nursing interventions are priority? (Select all that apply)",
+    "options": [
+      "Administer oxygen to support oxygenation",
+      "Monitor respiratory rate and breath sounds",
+      "Assess for signs of bleeding due to anticoagulants",
+      "Position patient flat to reduce cardiac workload",
+      "Encourage deep breathing exercises"
+    ],
+    "correct_answers": [
+      0,
+      1,
+      2
+    ],
+    "rationale": "Priority interventions for pulmonary embolism focus on ABCs - airway, breathing, circulation. Oxygen support, respiratory monitoring, and anticoagulation bleeding assessment are critical. Positioning and deep breathing are not initial priorities.",
+    "topic": "Pulmonary Embolism"
+  },
+  {
+    "id": "acute_resp_005",
+    "type": "multiple_choice",
+    "question": "A patient undergoing thoracentesis is positioned:",
+    "options": [
+      "Supine with head elevated",
+      "Side-lying with affected side up",
+      "Leaning forward across a table",
+      "Prone position"
+    ],
+    "correct_answer": 2,
+    "rationale": "The patient leans forward (commonly across a table) to separate the ribs and expand access to the pleural area, allowing fluid to collect in the dependent portion.",
+    "topic": "Thoracentesis"
+  },
+  {
+    "id": "acute_resp_006",
+    "type": "select_all",
+    "question": "Which are characteristics of rescue therapy for asthma? (Select all that apply)",
+    "options": [
+      "Rapid onset of action",
+      "Relieves bronchospasm during acute attack",
+      "Administered by inhalation or nebulization",
+      "Prevents inflammation",
+      "Slow onset of action"
+    ],
+    "correct_answers": [
+      0,
+      1,
+      2
+    ],
+    "rationale": "Rescue therapy for acute asthma attacks has rapid onset, relieves acute bronchospasm, and is administered via inhalation. Maintenance therapy prevents inflammation with slower onset.",
+    "topic": "Acute Asthma"
+  },
+  {
+    "id": "acute_resp_007",
+    "type": "multiple_choice",
+    "question": "A patient with influenza presents with abrupt onset of symptoms. The nurse expects:",
+    "options": [
+      "Low-grade fever lasting 1-2 days",
+      "High fever (102-104°F) lasting 3-4 days",
+      "Gradual onset over several days",
+      "No fever but severe cough"
+    ],
+    "correct_answer": 1,
+    "rationale": "Influenza is characterized by abrupt onset with high fever (102-104°F) lasting 3-4 days, along with headache, body aches, and fatigue.",
+    "topic": "Influenza"
+  },
+  {
+    "id": "acute_resp_008",
+    "type": "select_all",
+    "question": "Early signs of hypoxia include: (Select all that apply)",
+    "options": [
+      "Restlessness and agitation",
+      "Increased heart rate",
+      "Increased respiratory rate",
+      "Visible color changes",
+      "Decreased level of consciousness"
+    ],
+    "correct_answers": [
+      0,
+      1,
+      2
+    ],
+    "rationale": "Early neurological and compensatory cues of hypoxia include restlessness, agitation, tachycardia, and tachypnea. Visible color changes and decreased consciousness are late signs.",
+    "topic": "Hypoxia"
+  },
+  {
+    "id": "acute_resp_009",
+    "type": "multiple_choice",
+    "question": "For a patient with chest tube drainage, the water seal must be kept:",
+    "options": [
+      "Above chest level to prevent backflow",
+      "At chest level for accurate measurement",
+      "Below chest level to prevent backflow",
+      "At the same level as the patient"
+    ],
+    "correct_answer": 2,
+    "rationale": "The drainage system must always be kept below chest level to prevent backflow of air or fluid into the pleural space.",
+    "topic": "Chest Tube Management"
+  },
+  {
+    "id": "acute_resp_010",
+    "type": "select_all",
+    "question": "Signs of airway obstruction include: (Select all that apply)",
+    "options": [
+      "High-pitched inspiratory sound",
+      "Visible retractions",
+      "Cyanosis",
+      "Labored respirations",
+      "Normal breathing pattern"
+    ],
+    "correct_answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rationale": "Airway obstruction presents with high-pitched inspiratory sounds (stridor), visible retractions, cyanosis, and labored respirations.",
+    "topic": "Airway Obstruction"
+  },
+  {
+    "id": "acute_resp_011",
+    "type": "multiple_choice",
+    "question": "A patient with postoperative atelectasis should be taught to perform:",
+    "options": [
+      "Pursed-lip breathing only",
+      "Deep breathing and coughing exercises",
+      "Shallow breathing to avoid pain",
+      "Hold breath for 10 seconds"
+    ],
+    "correct_answer": 1,
+    "rationale": "Prevention and treatment of atelectasis focuses on lung expansion techniques including deep breathing and coughing to mobilize secretions.",
+    "topic": "Atelectasis"
+  },
+  {
+    "id": "acute_resp_012",
+    "type": "select_all",
+    "question": "For a patient with ARDS, which ventilator strategies protect the lungs? (Select all that apply)",
+    "options": [
+      "Low tidal volume (6ml/kg PBW)",
+      "High tidal volume (10-12ml/kg)",
+      "High PEEP",
+      "Permissive hypercapnia",
+      "Maintain plateau pressure < 30 cmH2O"
+    ],
+    "correct_answers": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "rationale": "ARDS lung protection strategies include low tidal volumes, high PEEP to recruit alveoli, permissive hypercapnia (allowing CO2 to rise), and keeping plateau pressure low.",
+    "topic": "ARDS"
+  },
+  {
+    "id": "acute_resp_013",
+    "type": "multiple_choice",
+    "question": "A patient with pleurisy reports severe, abrupt pain. The nurse should assess:",
+    "options": [
+      "Location, severity, precipitating, and alleviating factors",
+      "Only the location of pain",
+      "Only the severity on a 1-10 scale",
+      "Whether pain is worse at night"
+    ],
+    "correct_answer": 0,
+    "rationale": "Complete pain assessment for pleurisy includes location, severity, precipitating factors (like breathing/coughing), and alleviating factors.",
+    "topic": "Pleurisy"
+  },
+  {
+    "id": "acute_resp_014",
+    "type": "select_all",
+    "question": "Cough medications are classified as: (Select all that apply)",
+    "options": [
+      "Antitussives that suppress cough reflex",
+      "Mucolytics that increase secretion production",
+      "Expectorants that mobilize secretions",
+      "Bronchodilators that reduce inflammation",
+      "Corticosteroids that suppress immune response"
+    ],
+    "correct_answers": [
+      0,
+      1,
+      2
+    ],
+    "rationale": "Cough medications include antitussives (suppress cough), mucolytics/expectorants (increase/make cough more productive), and corticosteroids/bronchodilators (reduce inflammation).",
+    "topic": "Cough Medications"
+  },
+  {
+    "id": "acute_resp_015",
+    "type": "multiple_choice",
+    "question": "When chest tube becomes disconnected, the nurse should immediately:",
+    "options": [
+      "Clamp the tube to prevent air entry",
+      "Create a temporary water seal",
+      "Call respiratory therapy",
+      "Notify the physician only"
+    ],
+    "correct_answer": 1,
+    "rationale": "If disconnection occurs, create a temporary water seal rather than clamping to maintain the negative pressure in the pleural space.",
+    "topic": "Chest Tube Management"
+  }
+]

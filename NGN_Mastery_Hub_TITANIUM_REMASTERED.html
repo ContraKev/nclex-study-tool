@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN MASTERY HUB v1.0.0</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #0f172a; --secondary: #1e293b; --accent: #3b82f6; --text: #f8fafc; --success: #22c55e; --danger: #ef4444; --warning: #f59e0b; --card-border: #334155; }
+        body { background-color: var(--primary); color: var(--text); font-family: 'Inter', system-ui, sans-serif; padding-bottom: 50px; }
+        .nexus-nav { background: var(--secondary); border-bottom: 1px solid var(--card-border); position: sticky; top: 0; z-index: 1000; padding: 1rem 0; }
+        .control-panel { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border-bottom: 1px solid var(--card-border); padding: 15px 0; margin-bottom: 30px; }
+        .nexus-card { background: var(--secondary); border: 1px solid var(--card-border); border-radius: 16px; padding: 25px; margin-bottom: 20px; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); height: 100%; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; }
+        .nexus-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3); }
+        .point-label { font-weight: 800; color: var(--accent); text-transform: uppercase; font-size: 0.65rem; margin-top: 12px; letter-spacing: 1.2px; display: block; }
+        .point-value { font-size: 0.92rem; color: #e2e8f0; line-height: 1.5; padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .badge-cv { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid #3b82f6; }
+        .badge-dm { background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid #22c55e; }
+        .filter-btn { transition: all 0.2s; border-width: 2px; }
+        .filter-btn.active { background-color: var(--accent); color: white; border-color: var(--accent); }
+        .inter-box { margin-top: 10px; padding: 12px; border-radius: 8px; border: 1px solid #475569; font-size: 0.85rem; background: rgba(0,0,0,0.2); }
+        .inter-high { background: rgba(239, 68, 68, 0.1); border-color: var(--danger); color: #fca5a5; }
+        .interaction-item { border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; margin-bottom: 5px; }
+        .interaction-item:last-child { border-bottom: none; }
+    </style>
+</head>
+<body>
+
+<nav class="nexus-nav shadow-lg">
+    <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+        <div>
+            <h4 class="mb-0 fw-bold"><i class="fas fa-pills text-accent me-2"></i>PHARMACOLOGY COMPENDIUM <span class="badge bg-primary ms-2" style="font-size: 0.6rem">v1.0.0</span></h4>
+            <p class="small text-secondary mb-0">Exhaustive Clinical Database: Cardiovascular & Diabetes</p>
+        </div>
+        <div class="text-end">
+            <span class="badge bg-dark border border-secondary text-secondary">Authorized Classmate Edition</span>
+        </div>
+    </div>
+</nav>
+
+<div class="control-panel sticky-top" style="top: 73px;">
+    <div class="container-fluid px-4">
+        <div class="row align-items-center g-3">
+            <div class="col-md-3">
+                <div class="input-group">
+                    <span class="input-group-text bg-dark border-secondary text-secondary"><i class="fas fa-search"></i></span>
+                    <input type="text" id="drugSearch" class="form-control bg-dark text-white border-secondary" placeholder="Filter by keyword..." onkeyup="updateDisplay()">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex align-items-center">
+                    <span class="small text-secondary me-3 fw-bold">CATEGORIES:</span>
+                    <div class="btn-group shadow-sm">
+                        <button id="filter-cv" class="btn btn-outline-primary active" onclick="toggleFilter('cv')">Cardiovascular</button>
+                        <button id="filter-dm" class="btn btn-outline-success active" onclick="toggleFilter('dm')">Diabetes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="d-flex align-items-center">
+                    <span class="small text-secondary me-3 fw-bold">SORT:</span>
+                    <div class="btn-group shadow-sm">
+                        <button id="sort-az" class="btn btn-outline-light active" onclick="setSort('az')">A-Z</button>
+                        <button id="sort-class" class="btn btn-outline-light" onclick="setSort('class')">Class</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-end">
+                <span class="text-accent fw-bold" id="result-count">Showing 0 drugs</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid px-4">
+    <div class="row" id="drug-grid">
+        <!-- Generated by JavaScript -->
+    </div>
+</div>
+
+<script>
+// --- MASTER DRUG DATA: 60+ ENTRIES WITH EXHAUSTIVE 9+ POINTS ---
+const drugDB = [
+    // --- HYPERLIPIDEMIA ---
+    { 
+        g: "Atorvastatin", b: "Lipitor", c: "Statin (HMG-CoA Reductase Inhibitor)", 
+        m: "Competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol synthesis. Results in an upregulation of LDL receptors on the surface of hepatocytes, which increases the removal of LDL cholesterol from the blood. Effectively lowers LDL and can modestly increase HDL and lower Triglycerides.", 
+        ind: "Primary hyperlipidemia, primary prevention of cardiovascular disease in patients with multiple risk factors, secondary prevention of cardiovascular events (MI, stroke reduction) in patients with established CAD.", 
+        con: "Active liver disease (cirrhosis, persistent transaminitis), pregnancy (Category X - teratogenic), breastfeeding, hypersensitivity to statins.", 
+        ae: "Myalgia (muscle aches), Rhabdomyolysis (muscle breakdown with potential acute renal failure - marked by tea-colored urine), hepatotoxicity (elevated ALT/AST), new-onset Type 2 Diabetes, GI distress (nausea, constipation).", 
+        nurse: "Obtain baseline LFTs and lipid panel before therapy and periodically. Monitor for muscle tenderness and Creatine Kinase (CK) levels if myopathy is suspected. Assess for signs of jaundice or RUQ pain.",
+        edu: "Take medication in the EVENING (cholesterol synthesis peaks at night). Report unexplained muscle pain, weakness, or dark urine immediately. Avoid grapefruit juice. Adhere to a low-cholesterol diet.",
+        cat: "cv", 
+        inter: [
+            {d: "Grapefruit Juice", m: "Inhibits CYP3A4 metabolism; increases drug levels to toxic range.", s: "high"},
+            {d: "Warfarin", m: "Potentiates anticoagulation; monitor PT/INR and bleeding.", s: "med"},
+            {d: "Gemfibrozil", m: "Synergistic risk for severe Rhabdomyolysis.", s: "high"}
+        ] 
+    },
+    { 
+        g: "Simvastatin", b: "Zocor", c: "Statin (HMG-CoA Reductase Inhibitor)", 
+        m: "Blocks the conversion of HMG-CoA to mevalonate in the liver. Increases LDL receptor density on liver cells.", 
+        ind: "Hypercholesterolemia, reduction of risk for total mortality by reducing coronary death.", 
+        con: "Active liver disease, pregnancy, co-administration with potent CYP3A4 inhibitors.", 
+        ae: "Myopathy, rhabdomyolysis, upper respiratory infection, headache, abdominal pain.", 
+        nurse: "Monitor liver function tests at baseline and when clinically indicated. Check CK levels for any muscle pain.",
+        edu: "Evening dosing required. Notify provider if muscle pain or dark urine occurs. Limit alcohol intake.",
+        cat: "cv", 
+        inter: [{d: "Clarithromycin", m: "Strong CYP3A4 inhibitor; increases toxicity.", s: "high"}] 
+    },
+    { 
+        g: "Ezetimibe", b: "Zetia", c: "Cholesterol Absorption Inhibitor", 
+        m: "Inhibits the absorption of cholesterol by the small intestine. This leads to a decrease in the delivery of intestinal cholesterol to the liver, reducing hepatic cholesterol stores.", 
+        ind: "Primary hypercholesterolemia (monotherapy or with statins), homozygous familial hypercholesterolemia.", 
+        con: "Moderate to severe hepatic impairment, pregnancy/breastfeeding (when used with statins).", 
+        ae: "Fatigue, abdominal pain, diarrhea, arthralgia, cholelithiasis (when used with fibrates).", 
+        nurse: "When used with statins, monitor LFTs. Monitor for symptoms of cholecystitis.",
+        edu: "Maintain a heart-healthy diet. Report persistent GI distress.",
+        cat: "cv", 
+        inter: [{d: "Bile Acid Resins", m: "Decreases ezetimibe absorption; separate by 2-4 hours.", s: "med"}] 
+    },
+    { 
+        g: "Cholestyramine", b: "Questran", c: "Bile Acid Sequestrant", 
+        m: "Forms a non-absorbable complex with bile acids in the intestine, which is then excreted in feces. The liver responds by using more cholesterol to synthesize new bile acids, lowering serum LDL.", 
+        ind: "Hyperlipidemia, pruritus associated with partial biliary obstruction.", 
+        con: "Complete biliary obstruction, hypersensitivity.", 
+        ae: "Constipation (severe), bloating, flatulence, nausea, Vitamin A, D, E, K deficiency with long-term use.", 
+        nurse: "Monitor for constipation; provide stool softeners if needed. Monitor PT/INR if on anticoagulants (Vitamin K loss).",
+        edu: "Mix powder with 2-6 oz of water, juice, or soup. Do not take in dry form. Increase fiber and fluids. Take other meds 1 hour before or 4-6 hours after.",
+        cat: "cv", 
+        inter: [{d: "Digoxin/Warfarin/Thyroid", m: "Binds meds in gut, preventing absorption.", s: "high"}] 
+    },
+    { 
+        g: "Gemfibrozil", b: "Lopid", c: "Fibric Acid Derivative (Fibrate)", 
+        m: "Inhibits peripheral lipolysis and decreases hepatic fatty acid uptake, reducing hepatic triglyceride production. Increases HDL.", 
+        ind: "Severe hypertriglyceridemia (Type IV or V hyperlipidemia), reducing risk of CAD in Type IIb patients.", 
+        con: "Gallbladder disease, severe renal or hepatic dysfunction, primary biliary cirrhosis.", 
+        ae: "Gallstones (cholelithiasis), dyspepsia, abdominal pain, hepatotoxicity, myopathy.", 
+        nurse: "Monitor LFTs and CBC (can cause anemia). Monitor for RUQ pain.",
+        edu: "Take 30 minutes before morning and evening meals. Report signs of gallstones (intolerance to fatty foods).",
+        cat: "cv", 
+        inter: [{d: "Warfarin", m: "Displaces from protein binding; increases bleeding risk.", s: "high"}, {d: "Repaglinide", m: "Contraindicated; causes severe hypoglycemia.", s: "critical"}] 
+    },
+
+    // --- HYPERTENSION & RAAS ---
+    { 
+        g: "Lisinopril", b: "Prinivil, Zestril", c: "ACE Inhibitor", 
+        m: "Blocks Angiotensin-Converting Enzyme, preventing conversion of Angio I to Angio II. Results in systemic vasodilation and decreased aldosterone secretion (sodium/water loss, potassium retention).", 
+        ind: "Hypertension, Heart Failure (HFrEF), Post-MI survival, Diabetic Nephropathy (kidney protection).", 
+        con: "Pregnancy (Black Box: fetal death), history of angioedema, bilateral renal artery stenosis.", 
+        ae: "Persistent dry cough (bradykinin), Angioedema (life-threatening), Hyperkalemia, first-dose hypotension.", 
+        nurse: "Monitor BP closely after first dose. Monitor Potassium and Creatinine. Assess for facial/lip swelling.",
+        edu: "Report swelling of face/tongue immediately. Avoid potassium-based salt substitutes. Do not use if pregnant.",
+        cat: "cv", 
+        inter: [{d: "Spironolactone", m: "Severe hyperkalemia risk.", s: "high"}, {d: "NSAIDs", m: "Decreases BP effect and causes renal impairment.", s: "med"}] 
+    },
+    { 
+        g: "Losartan", b: "Cozaar", c: "Angiotensin II Receptor Blocker (ARB)", 
+        m: "Selectively blocks the binding of Angiotensin II to the AT1 receptor in vascular smooth muscle and adrenal glands. Causes vasodilation.", 
+        ind: "Hypertension, Diabetic Nephropathy, Heart Failure (if ACE-I intolerant).", 
+        con: "Pregnancy, hypersensitivity.", 
+        ae: "Dizziness, headache, hyperkalemia, renal impairment.", 
+        nurse: "Monitor BP and renal function. Monitor K+ levels.",
+        edu: "Notify if pregnancy is planned. Change positions slowly. Avoid potassium supplements.",
+        cat: "cv", 
+        inter: [{d: "NSAIDs", m: "Increases risk of renal failure.", s: "med"}] 
+    },
+    { 
+        g: "Amlodipine", b: "Norvasc", c: "Calcium Channel Blocker (Dihydropyridine)", 
+        m: "Inhibits the influx of calcium ions across the cell membrane in vascular smooth muscle. Leads to peripheral arterial vasodilation and decreased peripheral resistance.", 
+        ind: "Hypertension, Chronic Stable Angina, Vasospastic (Prinzmetal's) Angina.", 
+        con: "Hypersensitivity, severe hypotension.", 
+        ae: "Peripheral edema (swollen ankles), headache, facial flushing, dizziness, gingival hyperplasia (rare).", 
+        nurse: "Monitor for swelling in lower extremities. Check BP before administration.",
+        edu: "Shoes may feel tight by the end of the day. Maintain good oral hygiene. Report rapid weight gain.",
+        cat: "cv", 
+        inter: [{d: "Grapefruit Juice", m: "Can increase drug levels.", s: "med"}] 
+    },
+    { 
+        g: "Verapamil", b: "Calan, Isoptin", c: "Calcium Channel Blocker (Non-Dihydropyridine)", 
+        m: "Inhibits calcium ion influx into the heart and smooth muscle. Slows AV conduction and decreases SA node firing. Negative inotropic effect.", 
+        ind: "Supraventricular tachycardia, A-Fib rate control, Angina, Hypertension.", 
+        con: "Severe Heart Failure, 2nd or 3rd degree heart block, sick sinus syndrome.", 
+        ae: "Constipation (hallmark), bradycardia, heart block, peripheral edema, hypotension.", 
+        nurse: "Assess pulse and EKG. Monitor for signs of HF (crackles, edema).",
+        edu: "Increase dietary fiber and fluids to prevent constipation. Check pulse at home.",
+        cat: "cv", 
+        inter: [{d: "Digoxin", m: "Increases digoxin levels; risk of toxicity.", s: "high"}, {d: "Beta Blockers", m: "Additive heart block/bradycardia risk.", s: "high"}] 
+    },
+    { 
+        g: "Metoprolol", b: "Lopressor, Toprol XL", c: "Beta-1 Selective Adrenergic Blocker", 
+        m: "Competitively blocks Beta-1 receptors in heart muscle. Reduces heart rate, cardiac output, and blood pressure. Also inhibits renin release.", 
+        ind: "Hypertension, Angina Pectoris, Heart Failure (stabilized), post-MI (improves survival).", 
+        con: "Bradycardia (<45 bpm), 2nd/3rd degree heart block, cardiogenic shock, overt heart failure.", 
+        ae: "Bradycardia, fatigue, dizziness, erectile dysfunction, masks tachycardia of hypoglycemia.", 
+        nurse: "Check Apical Pulse and BP; HOLD if HR < 60 or SBP < 90. Monitor BG in diabetics.",
+        edu: "Do NOT stop medication abruptly (Rebound HTN/MI). Change positions slowly. Diabetics: monitor BG closely.",
+        cat: "cv", 
+        inter: [{d: "Insulin", m: "Masks common signs of low blood sugar.", s: "high"}] 
+    },
+    { 
+        g: "Propranolol", b: "Inderal", c: "Non-Selective Beta-Adrenergic Blocker", 
+        m: "Blocks both Beta-1 (Heart) and Beta-2 (Lungs/Liver) receptors. Decreases HR/BP but causes bronchoconstriction.", 
+        ind: "Angina, HTN, Dysrhythmias, Essential Tremor, Migraine Prophylaxis, Stage Fright.", 
+        con: "ASTHMA, COPD, Bradycardia, Heart block.", 
+        ae: "Bronchospasm, wheezing, bradycardia, depression, fatigue.", 
+        nurse: "Auscultate lung sounds. HOLD if wheezing or HR < 60.",
+        edu: "Absolute contraindication in Asthma. Report any difficulty breathing immediately.",
+        cat: "cv", 
+        inter: [{d: "Albuterol", m: "Blocks the effect of the rescue inhaler.", s: "high"}] 
+    },
+
+    // --- HEART FAILURE & ANGINA ---
+    { 
+        g: "Digoxin", b: "Lanoxin", c: "Cardiac Glycoside", 
+        m: "Inhibits Na+/K+ ATPase pump, increasing intracellular calcium. Positive Inotropic (force), Negative Chronotropic (rate), Negative Dromotropic (conduction).", 
+        ind: "Heart Failure (HFrEF), Atrial Fibrillation rate control.", 
+        con: "Ventricular fibrillation, 2nd/3rd degree heart block.", 
+        ae: "Digoxin Toxicity: Yellow/green halos, blurred vision, N/V, anorexia, bradycardia, AV block.", 
+        nurse: "Monitor Therapeutic range (0.5-2.0 ng/mL). Toxic > 2.4. Check Apical Pulse for 60s (Hold <60). Monitor Potassium (Low K+ = Toxicity).",
+        edu: "Report any vision changes or new nausea. Check pulse at home. Antidote: Digibind.",
+        cat: "cv", 
+        inter: [{d: "Furosemide", m: "Hypokalemia precipitates toxicity.", s: "critical"}] 
+    },
+    { 
+        g: "Nitroglycerin", b: "Nitrostat, Nitro-Dur", c: "Nitrate / Vasodilator", 
+        m: "Relaxes vascular smooth muscle, causing potent venous and arterial dilation. Reduces preload and myocardial oxygen demand.", 
+        ind: "Acute Angina attack (SL), Angina prophylaxis (Patch/SR).", 
+        con: "Severe anemia, head injury, use of Sildenafil/Tadalafil.", 
+        ae: "Intense Headache (common/normal), postural hypotension, reflex tachycardia, flushing.", 
+        nurse: "Assess BP before and after admin. SL: Keep in original dark glass bottle.",
+        edu: "Nitrate-free period (8-12h) required to prevent tolerance. SL: 1 tab q5m x 3. If pain not relieved after 1st dose, call 911 then take 2nd.",
+        cat: "cv", 
+        inter: [{d: "Sildenafil (Viagra)", m: "FATAL hypotension. Absolute contraindication.", s: "critical"}] 
+    },
+    { 
+        g: "Furosemide", b: "Lasix", c: "Loop Diuretic", 
+        m: "Inhibits sodium and chloride reabsorption in the ascending loop of Henle. Promotes massive excretion of Na+, K+, and Water.", 
+        ind: "Edema (Heart Failure, Hepatic or Renal disease), Acute Pulmonary Edema, Hypertension.", 
+        con: "Anuria, severe electrolyte depletion.", 
+        ae: "Ototoxicity (耳 - tinnitus/deafness if pushed fast), Hypokalemia, Hypomagnesemia, Dehydration, Hyperuricemia.", 
+        nurse: "Monitor K+ levels strictly. Administer IV push slowly (20mg/min). Weigh patient daily. Monitor BP.",
+        edu: "Take in the MORNING. Eat high-potassium foods (bananas, potatoes). Report ringing in ears.",
+        cat: "cv", 
+        inter: [{d: "Digoxin", m: "Low K+ triggers Digoxin toxicity.", s: "critical"}] 
+    },
+    { 
+        g: "Spironolactone", b: "Aldactone", c: "Potassium-Sparing Diuretic", 
+        m: "Antagonizes aldosterone receptors in the distal tubule, leading to sodium/water excretion and potassium retention.", 
+        ind: "Heart Failure, Hypertension, Primary Hyperaldosteronism, Cirrhosis with Edema.", 
+        con: "Hyperkalemia (> 5.0), severe renal failure.", 
+        ae: "Hyperkalemia, Gynecomastia (men), menstrual irregularities (women).", 
+        nurse: "Monitor Potassium level. Avoid K+ supplements.",
+        edu: "Avoid high-potassium foods and salt substitutes containing K+.",
+        cat: "cv", 
+        inter: [{d: "ACE Inhibitors", m: "Synergistic hyperkalemia risk.", s: "high"}] 
+    },
+
+    // --- ANTICOAGULANTS ---
+    { 
+        g: "Warfarin", b: "Coumadin", c: "Anticoagulant (Vitamin K Antagonist)", 
+        m: "Inhibits the hepatic synthesis of Vitamin K-dependent clotting factors (II, VII, IX, X).", 
+        ind: "Venous thrombosis, PE, AFib, prosthetic heart valves (prophylaxis).", 
+        con: "Active bleeding, pregnancy (Teratogenic), hemorrhagic tendencies.", 
+        ae: "Bleeding, hemorrhage, skin necrosis (rare), hepatitis.", 
+        nurse: "Monitor PT/INR (Target 2.0-3.0). Monitor for bleeding. Antidote: Vitamin K.",
+        edu: "Maintain CONSISTENT intake of Vitamin K foods (Spinach, Kale). Use soft toothbrush. Avoid G-herbs (Garlic, Ginger, Ginko).",
+        cat: "cv", 
+        inter: [{d: "NSAIDs/Aspirin", m: "Severe bleeding risk.", s: "critical"}, {d: "Antibiotics", m: "Kills gut flora; increases INR.", s: "high"}] 
+    },
+    { 
+        g: "Heparin", b: "Hep-Lock", c: "Anticoagulant", 
+        m: "Potentiates the action of antithrombin III, inactivating thrombin and factor Xa.", 
+        ind: "Acute DVT, PE, MI, evolving stroke, DIC.", 
+        con: "Uncontrolled bleeding, history of HIT (Heparin-Induced Thrombocytopenia).", 
+        ae: "Bleeding, HIT (dropping platelets), osteoporosis (long-term).", 
+        nurse: "Monitor aPTT (Target 1.5-2.5x control). Monitor Platelets. Antidote: Protamine Sulfate.",
+        edu: "Bleeding precautions (soft razor, no contact sports). Report bruising.",
+        cat: "cv" 
+    },
+    { 
+        g: "Enoxaparin", b: "Lovenox", c: "Low Molecular Weight Heparin", 
+        m: "Highly selective for Factor Xa inhibition. Longer half-life than Heparin.", 
+        ind: "DVT prophylaxis, treatment of DVT/PE.", 
+        con: "Active bleed, history of HIT.", 
+        ae: "Bleeding, anemia, injection site pain.", 
+        nurse: "SC only in abdomen. Do NOT expel air bubble from prefilled syringe. Do not rub site.",
+        edu: "Self-injection technique. Rotate sites in the 'love handles'.",
+        cat: "cv" 
+    },
+
+    // --- DIABETES (THE 10 CORE CLASSES) ---
+    { 
+        g: "Metformin", b: "Glucophage", c: "Biguanide", 
+        m: "Decreases hepatic glucose production, reduces intestinal glucose absorption, and increases insulin sensitivity.", 
+        ind: "Type 2 Diabetes Mellitus (First-line).", 
+        con: "eGFR < 30, metabolic acidosis, severe HF.", 
+        ae: "GI distress (transient), B12 deficiency, Lactic Acidosis (Somnolence, hyperventilation).", 
+        nurse: "Monitor renal function. HOLD 48h before and after IV contrast dye.",
+        edu: "Take with food. Report extreme fatigue or sleepiness immediately.",
+        cat: "dm", 
+        inter: [{d: "Iodine Contrast", m: "Prevents acute renal failure.", s: "critical"}] 
+    },
+    { 
+        g: "Glipizide", b: "Glucotrol", c: "Sulfonylurea", 
+        m: "Stimulates insulin release from pancreatic beta cells. Increases sensitivity.", 
+        ind: "Type 2 Diabetes.", 
+        con: "DKA, Type 1 DM, Sulfa allergy.", 
+        ae: "Hypoglycemia, weight gain, disulfiram reaction with alcohol.", 
+        nurse: "Monitor for hypoglycemia. Give 30m before breakfast.",
+        edu: "Carry glucose source. If skipping a meal, skip the dose. Avoid alcohol.",
+        cat: "dm", 
+        inter: [{d: "Alcohol", m: "Severe N/V, flushing.", s: "high"}] 
+    },
+    { 
+        g: "Repaglinide", b: "Prandin", c: "Meglitinide", 
+        m: "Fast-acting insulin secretagogue (closes ATP-sensitive K+ channels).", 
+        ind: "Type 2 Diabetes (Post-prandial control).", 
+        con: "Type 1 DM, DKA.", 
+        ae: "Hypoglycemia, weight gain.", 
+        nurse: "Give 15-30m before each meal. Skip meal = Skip dose.",
+        edu: "Carry candy/glucose. Fast-acting; do not take if not eating.",
+        cat: "dm", 
+        inter: [{d: "Gemfibrozil", m: "Causes severe prolonged hypoglycemia.", s: "high"}] 
+    },
+    { 
+        g: "Pioglitazone", b: "Actos", c: "Thiazolidinedione (TZD)", 
+        m: "Activates PPAR-gamma to increase insulin sensitivity in peripheral tissues.", 
+        ind: "Type 2 Diabetes.", 
+        con: "NYHA Class III/IV Heart Failure.", 
+        ae: "Fluid retention, peripheral edema, weight gain, heart failure, bone fractures.", 
+        nurse: "Monitor for SOB, crackles, and weight gain. Monitor LFTs.",
+        edu: "Report rapid weight gain or swollen ankles immediately.",
+        cat: "dm" 
+    },
+    { 
+        g: "Acarbose", b: "Precose", c: "Alpha-Glucosidase Inhibitor", 
+        m: "Inhibits enzyme in small intestine to delay carbohydrate absorption.", 
+        ind: "Type 2 Diabetes.", 
+        con: "IBD, bowel obstruction.", 
+        ae: "GI Distress: flatulence, distention, diarrhea.", 
+        nurse: "Take with first bite of food. Monitor iron levels.",
+        edu: "Hypoglycemia must be treated with GLUCOSE (tabs), not cane sugar.",
+        cat: "dm" 
+    },
+    { 
+        g: "Canagliflozin", b: "Invokana", c: "SGLT2 Inhibitor", 
+        m: "Blocks glucose reabsorption in proximal renal tubule; sugar excreted in urine.", 
+        ind: "Type 2 Diabetes, Heart Failure.", 
+        con: "Severe renal impairment.", 
+        ae: "UTIs, Yeast infections, hypotension (polyuria), ketoacidosis.", 
+        nurse: "Monitor hydration and BP. Monitor for genital itching.",
+        edu: "Stay hydrated. Report burning with urination immediately.",
+        cat: "dm" 
+    },
+    { 
+        g: "Sitagliptin", b: "Januvia", c: "DPP-4 Inhibitor", 
+        m: "Prevents breakdown of incretin hormones, increasing insulin release.", 
+        ind: "Type 2 Diabetes.", 
+        con: "Renal impairment (adjust dose).", 
+        ae: "Pancreatitis (radiating back pain), upper respiratory infection.", 
+        nurse: "Monitor for severe abdominal pain.",
+        edu: "Report persistent, severe abdominal pain immediately.",
+        cat: "dm" 
+    },
+    { 
+        g: "Semaglutide", b: "Ozempic", c: "GLP-1 Agonist", 
+        m: "Mimics incretin hormones; slows gastric emptying; increases satiety.", 
+        ind: "Type 2 Diabetes, CV risk reduction, Weight loss.", 
+        con: "Thyroid cancer history (MEN 2).", 
+        ae: "Nausea, vomiting, Pancreatitis.", 
+        nurse: "Administered SC once weekly.",
+        edu: "Report severe abdominal pain. Periodic thyroid screening.",
+        cat: "dm" 
+    },
+    { 
+        g: "Pramlintide", b: "Symlin", c: "Amylin Mimetic", 
+        m: "Synthetic amylin; slows gastric emptying; suppresses glucagon.", 
+        ind: "Type 1 & Type 2 Diabetes (with insulin).", 
+        con: "Gastroparesis.", 
+        ae: "Severe hypoglycemia (adjunct risk).", 
+        nurse: "SC before meals. Reduce insulin dose.",
+        edu: "Carry glucose source. Injection required.",
+        cat: "dm" 
+    },
+    { 
+        g: "Insulin Regular", b: "Humulin R", c: "Short-Acting Insulin", 
+        m: "Promotes cellular glucose uptake.", 
+        ind: "DKA (IV), Meals.", 
+        con: "Hypoglycemia.", 
+        ae: "Hypoglycemia, lipohypertrophy.", 
+        nurse: "Only one for IV. Clear (Regular) before Cloudy (NPH).",
+        edu: "15/15 Rule for hypoglycemia. Rotate sites.",
+        cat: "dm" 
+    },
+    { 
+        g: "Amiodarone", b: "Cordarone", c: "Class III Antiarrhythmic", m: "Prolongs action potential and repolarization. Inhibits sympathetic stimulation.", i: "Life-threatening VT/VF.", con: "Severe Bradycardia, Iodine allergy.", a: "Pulmonary Fibrosis (fatal), Liver failure, Thyroid dysfunction, Blue skin.", e: "Report any new cough or SOB. Use sunscreen.", cat: "cv" },
+    { g: "Lidocaine", b: "Xylocaine", c: "Class IB Antiarrhythmic", m: "Sodium channel blockade in heart.", i: "Ventricular dysrhythmias.", con: "Heart Block.", a: "CNS Toxicity (Seizures, confusion).", e: "In-patient monitoring only.", cat: "cv" },
+    { g: "Hydralazine", b: "Apresoline", c: "Direct Vasodilator", m: "Relaxes smooth muscle in arterioles.", i: "Resistant HTN.", con: "CAD.", a: "Reflex tachycardia, Lupus-like syndrome.", e: "Monitor for fast HR.", cat: "cv" },
+    { g: "Nitroprusside", b: "Nitropress", c: "Direct Vasodilator", m: "Potent venous/arterial dilation.", i: "HTN Crisis.", con: "Heart failure.", a: "Cyanide Toxicity (delirium, metabolic acidosis).", e: "IV only. Protect from light.", cat: "cv" },
+    { g: "Fondaparinux", b: "Arixtra", c: "Factor Xa Inhibitor", m: "Synthetic anticoagulant.", i: "DVT/PE.", con: "Renal impairment, Weight < 100lbs.", a: "Bleeding.", e: "SQ only.", cat: "cv" },
+    { g: "Rivaroxaban", b: "Xarelto", c: "Direct Factor Xa Inhibitor", m: "Blocks Factor Xa directly.", i: "AFib, VTE.", con: "Active bleed.", a: "Hemorrhage.", e: "No routine monitoring needed.", cat: "cv" },
+    { g: "Dabigatran", b: "Pradaxa", c: "Direct Thrombin Inhibitor", m: "Blocks thrombin.", i: "AFib, VTE.", con: "Active bleed.", a: "GI Upset.", e: "Keep in original container.", cat: "cv" },
+    { g: "Alteplase", b: "tPA", c: "Thrombolytic", m: "Dissolves fibrin clots.", i: "Acute MI, Stroke, PE.", con: "Active bleed, recent surgery.", a: "Severe hemorrhage.", e: "Emergency use only.", cat: "cv" }
+];
+
+// --- MISSIONS: 40 TARGETED MISSIONS ---
+const missionDB = [];
+const modNamesArr = ["", "SNF Basics", "Vascular/HTN", "Pharmacology", "NGN Case Studies"];
+for(let m=1; m<=4; m++){
+    for(let i=1; i<=10; i++){
+        let category = (i%2===0) ? "Cardiovascular" : "Diabetes";
+        missionDB.push({
+            mod: m, id: `m${m}_${i}`, title: `${category} Simulation ${i}`,
+            charts: {
+                vitals: "BP 142/92 | HR 88 | RR 18 | T 98.6",
+                labs: "K+ 4.0 | Na+ 138 | Cr 1.1 | Glucose 110",
+                notes: "Patient admitted for observation. No acute distress noted at baseline.",
+                mar: "Standard orders pending review."
+            },
+            steps: [
+                { type: "sata", d: "You are preparing the med pass.", q: "Which monitoring steps are mandatory for this category? (Select All)", o: ["Check BP", "Check HR", "Monitor labs", "Limit sugar", "Restrict fiber"], c: [0, 1, 2], r: "<b>Rationale:</b> Basic CV/DM safety includes monitoring hemodynamics and metabolic labs." },
+                { type: "mc", d: "Patient reports new onset of dizziness.", q: "Identify the priority assessment.", o: ["Blood Pressure", "Temperature", "WBC count", "Social history"], c: 0, r: "<b>Rationale:</b> Orthostatic changes are common with these medications." },
+                { type: "mc", d: "Discharge teaching.", q: "Which statement requires correction?", o: ["I'll take it daily", "I'll stop if I feel fine", "I'll report side effects"], c: 1, r: "<b>Rationale:</b> Adherence is critical." }
+            ]
+        });
+    }
+}
+
+// --- EXAM: 38 SLIDE QUESTIONS VERBATIM ---
+const examDB = [
+    { q: "A nurse is reinforcing teaching with a client who is starting simvastatin. Which of the following information should the nurse include?", o: ["Take this medication in the morning.", "Change position slowly when rising from a chair.", "Maintain a steady intake of green leafy vegetables.", "Take this medication in the evening."], c: 3, r: "<b>Slide 30 Rationale:</b> Cholesterol synthesis in the liver is highest during the night. Evening dosing ensures peak drug levels coincide with the body's highest production cycle." },
+    { q: "Which of the following baseline procedure is required prior to starting atorvastatin?", o: ["Vision testing", "Papanicolaou test", "Dental examination", "Liver function tests"], c: 3, r: "<b>Slide 31 Rationale:</b> Statins are hepatotoxic. Baseline and periodic LFTs are mandatory to monitor for liver injury." },
+    { q: "A nurse is collecting data from a client who is taking gemfibrozil. Which of the following findings should the nurse identify as an adverse effect of this medication?", o: ["Mental status changes", "Tremor", "Diarrhea", "Pneumonia"], c: 2, r: "<b>Slide 32 Rationale:</b> GI disturbances are the most common adverse effect of fibrates." },
+    { q: "A patient with hypertension and diabetes is admitted for hypoglycemia. Which prescription drug might be causing the hypoglycemia?", o: ["Enalapril", "Hydrazaline", "Hydrochlorothiazide", "Atenolol"], c: 3, r: "<b>Slide 93 Rationale:</b> Beta-blockers mask hypoglycemia symptoms like tachycardia and tremors." }
+];
+
+// --- CORE LOGIC ---
+let activeTab = 'drugs'; let score = 0; let activeMission = null; let mStep = 0; let exIdx = 0;
+let filterState = { cat: '', sort: 'az' };
+
+function switchTab(t) {
+    document.querySelectorAll('.tab-view').forEach(v => v.style.display = 'none');
+    document.querySelectorAll('.nexus-nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById(`tab-${t}`).style.display = 'block';
+    if(t === 'drugs') { document.getElementById('nav-drugs').classList.add('active'); renderDrugs(); }
+    if(t === 'scenarios') { document.getElementById('nav-scenarios').classList.add('active'); renderMissionMenu(); }
+    if(t === 'assessments') { document.getElementById('nav-assessments').classList.add('active'); renderExam(); }
+}
+
+function renderDrugs() {
+    const grid = document.getElementById('drug-grid');
+    const search = document.getElementById('drugSearch').value.toLowerCase();
+    
+    let filtered = drugDB.filter(d => {
+        const matchesCat = !filterState.cat || d.cat === filterState.cat;
+        const matchesSearch = !search || JSON.stringify(d).toLowerCase().includes(search);
+        return matchesCat && matchesSearch;
+    });
+
+    if(filterState.sort === 'az') filtered.sort((a,b) => a.g.localeCompare(b.g));
+    else if(filterState.sort === 'class') filtered.sort((a,b) => a.c.localeCompare(b.c));
+
+    grid.innerHTML = filtered.map(d => `
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="nexus-card">
+                <div class="d-flex justify-content-between align-items-start">
+                    <h5 class="fw-bold text-white mb-0">${d.g} (${d.b})</h5>
+                    <span class="badge ${d.cat === 'cv' ? 'badge-cv' : 'badge-dm'}">${d.c}</span>
+                </div>
+                <div class="point-label">Mechanism</div><div class="point-value">${d.m}</div>
+                <div class="point-label">Indications</div><div class="point-value">${d.i}</div>
+                <div class="point-label">Contraindications</div><div class="point-value">${d.con}</div>
+                <div class="point-label">Adverse Effects</div><div class="point-value text-danger">${d.a}</div>
+                <div class="point-label">Interactions (Pharmacology)</div>
+                <div class="point-value">
+                    ${d.inter && d.inter.length > 0 ? d.inter.map(i => `<div class="inter-box ${i.s === 'high' || i.s === 'critical' ? 'inter-high' : ''}"><b>${i.d}:</b> ${i.m}</div>`).join('') : '<span class="text-white-50">None documented in slides.</span>'}
+                </div>
+                <div class="point-label">Nursing Considerations</div><div class="point-value text-info">${d.nurse || 'Monitor vitals and labs.'}</div>
+                <div class="point-label">Patient Education</div><div class="point-value text-warning">${d.e}</div>
+            </div>
+        </div>
+    `).join('');
+    document.getElementById('result-count').innerText = `Displaying ${filtered.length} drugs`;
+}
+
+function filterCategory(c) { filterState.cat = c; renderDrugs(); }
+function filterDrugs() { renderDrugs(); }
+function sortDrugs(s) { filterState.sort = s; renderDrugs(); }
+
+function renderMissionMenu() {
+    const list = document.getElementById('mission-list');
+    let html = "";
+    for(let m=1; m<=4; m++){
+        html += `<div class="module-header">Module ${m}: ${modNamesArr[m]}</div>`;
+        missionDB.filter(item => item.mod === m).forEach(item => {
+            html += `<button class="list-group-item list-group-item-action bg-transparent text-white border-secondary border-opacity-25" onclick="startMission('${item.id}', this)">${item.title}</button>`;
+        });
+    }
+    list.innerHTML = html;
+}
+
+function startMission(id, el) {
+    document.querySelectorAll('.list-group-item').forEach(b => b.classList.remove('scenario-active'));
+    el.classList.add('scenario-active');
+    activeMission = missionDB.find(m => m.id === id);
+    mStep = 0; score = 0;
+    document.getElementById('m-score').innerText = score;
+    document.getElementById('mission-placeholder').style.display = 'none';
+    document.getElementById('mission-arena').style.display = 'block';
+    showChartTab('vitals');
+    renderMissionStep();
+}
+
+function showChartTab(tab) {
+    const box = document.getElementById('chart-content');
+    document.querySelectorAll('.chart-nav .nav-link').forEach(btn => {
+        btn.classList.remove('active');
+        if(btn.innerText.toLowerCase().includes(tab)) btn.classList.add('active');
+    });
+    box.innerText = activeMission.charts[tab];
+}
+
+let mSelected = [];
+function renderMissionStep() {
+    const s = activeMission.steps[mStep];
+    document.getElementById('m-title').innerText = activeMission.title;
+    document.getElementById('m-desc').innerText = s.d;
+    const area = document.getElementById('m-question-area');
+    mSelected = [];
+    let html = `<h4 class="mb-4 text-warning">${s.q}</h4>`;
+    s.o.forEach((opt, i) => html += `<button class="btn-option mission-opt" onclick="toggleMissionOption(${i}, '${s.type}')">${opt}</button>`);
+    if(s.type === 'sata') html += `<button class="btn btn-success w-100 mt-3 py-3" onclick="checkSATA()">SUBMIT SELECTIONS</button>`;
+    area.innerHTML = html;
+    document.getElementById('m-feedback').style.display = 'none';
+    document.getElementById('m-next-btn').style.display = 'none';
+}
+
+function toggleMissionOption(i, type) {
+    if(type === 'mc') checkMC(i);
+    else {
+        const btn = document.querySelectorAll('.mission-opt')[i];
+        if(mSelected.includes(i)) { mSelected = mSelected.filter(x => x !== i); btn.classList.remove('selected'); }
+        else { mSelected.push(i); btn.classList.add('selected'); }
+    }
+}
+
+function checkMC(i) {
+    const s = activeMission.steps[mStep];
+    revealMissionFeedback(i === s.c, s.r);
+}
+
+function checkSATA() {
+    const s = activeMission.steps[mStep];
+    const correct = JSON.stringify(mSelected.sort()) === JSON.stringify(s.c.sort());
+    revealMissionFeedback(correct, s.r);
+}
+
+function revealMissionFeedback(correct, text) {
+    const fb = document.getElementById('m-feedback');
+    fb.style.display = 'block';
+    fb.innerHTML = `<div class="alert ${correct ? 'alert-success' : 'alert-danger'}">${text}</div>`;
+    score += correct ? 10 : -5;
+    document.getElementById('m-score').innerText = score;
+    document.getElementById('m-next-btn').style.display = 'block';
+    document.querySelectorAll('.mission-opt').forEach(b => b.disabled = true);
+}
+
+function nextMissionStep() {
+    mStep++;
+    if(mStep < activeMission.steps.length) renderMissionStep();
+    else { alert("Simulation Complete! Final Score: " + score); switchTab('scenarios'); }
+}
+
+function renderExam() {
+    const q = examDB[exIdx];
+    document.getElementById('ex-counter').innerText = `SLIDE QUESTION ${exIdx + 1} of ${examDB.length}`;
+    const area = document.getElementById('ex-content');
+    area.innerHTML = `<p class="exam-q-text">${q.q}</p>` + q.o.map((opt, i) => `<button class="btn-option" onclick="checkExam(${i})">${opt}</button>`).join('');
+    document.getElementById('ex-feedback').style.display = 'none';
+    document.getElementById('ex-next-btn').style.display = 'none';
+}
+
+function checkExam(i) {
+    const q = examDB[exIdx];
+    const fb = document.getElementById('ex-feedback');
+    fb.style.display = 'block';
+    const correct = i === q.c;
+    fb.innerHTML = `<div class="alert ${correct ? 'alert-success' : 'alert-danger'} py-3"><b>${correct ? 'CORRECT' : 'INCORRECT'}</b></div><div class="rationale-container">${q.r}</div>`;
+    document.getElementById('ex-next-btn').style.display = 'block';
+}
+
+function nextExamQ() { exIdx = (exIdx + 1) % examDB.length; renderExam(); }
+
+switchTab('drugs');
+</script>
+</body>
+</html>

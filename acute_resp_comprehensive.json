@@ -1,0 +1,567 @@
+{
+  "id": "acute_respiratory_quiz",
+  "name": "Acute Respiratory Disorders and Medications Quiz",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "epistaxis_nasal_packing",
+      "question": "A client with epistaxis has nasal packing. Frequent swallowing after nasal packing indicates that:",
+      "options": [
+        "The packing is effective and bleeding has stopped",
+        "Blood may be moving posteriorly rather than externally",
+        "The client should begin oral intake",
+        "Antibiotic therapy should be initiated"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Frequent swallowing after nasal packing indicates that blood may be moving posteriorly rather than externally-continuous bleeding. The nurse recognizes this as a complication requiring immediate assessment."
+    },
+    {
+      "id": "acute_bronchitis_antimicrobials",
+      "question": "Regarding antimicrobial therapy for acute bronchitis, the nurse understands that:",
+      "options": [
+        "The goal is complete eradication of the pathogen",
+        "Stopping therapy early prevents drug resistance",
+        "Client teaching focuses on symptom relief",
+        "Antibiotics are always prescribed for viral causes"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The goal of therapy is complete eradication of the pathogen. Stopping therapy early contributes to drug resistance and recurrence of infection. Client teaching focuses on adherence, not symptom relief."
+    },
+    {
+      "id": "hypoxia_early_cues",
+      "question": "Early neurological and compensatory cues of progressing hypoxia include:",
+      "options": [
+        "Visible color changes and decreased consciousness",
+        "Restlessness, agitation, increased heart rate",
+        "Bradycardia and hypotension",
+        "Apnea and respiratory arrest"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Early neurological and compensatory cues: restlessness, agitation, increased heart rate, increased respiratory rate. Late oxygenation failure cues include visible color changes and decreased level of consciousness."
+    },
+    {
+      "id": "hypoxia_late_cues",
+      "question": "Late oxygenation failure cues of hypoxia include:",
+      "options": [
+        "Restlessness and agitation",
+        "Increased heart rate and respiratory rate",
+        "Visible color changes and decreased consciousness",
+        "Tachycardia and hypertension"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Late oxygenation failure cues: visible color changes, decreased level of consciousness. Early cues include restlessness, agitation, increased heart rate, and increased respiratory rate."
+    },
+    {
+      "id": "osa_diagnosis",
+      "question": "Diagnosis of obstructive sleep apnea requires:",
+      "options": [
+        "Overnight pulse oximetry only",
+        "A sleep study called polysomnography",
+        "Self-reported snoring assessment",
+        "Daytime sleepiness questionnaire alone"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Diagnosis requires a sleep study called polysomnography that evaluates breathing patterns, oxygen saturation, and sleep stages overnight."
+    },
+    {
+      "id": "osa_polysomnography",
+      "question": "Polysomnography for sleep apnea evaluates:",
+      "options": [
+        "Breathing patterns and oxygen saturation",
+        "Blood pressure and heart rate",
+        "Muscle strength and coordination",
+        "Cognitive function and memory"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Polysomnography evaluates breathing patterns, oxygen saturation, and sleep stages overnight to diagnose obstructive sleep apnea."
+    },
+    {
+      "id": "allergic_rhinitis_pharma",
+      "question": "Primary medications for allergic rhinitis target:",
+      "options": [
+        "The histamine-mediated inflammatory response",
+        "Bacterial infection prevention",
+        "Mucosal thickening",
+        "Airway constriction"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The primary medications target the histamine-mediated inflammatory response aka anti-histamines. Antihistamines can be oral or nasal. Anti-infectives are not effective for allergen-triggered conditions."
+    },
+    {
+      "id": "antihistamines_route",
+      "question": "Antihistamines for allergic rhinitis can be administered:",
+      "options": [
+        "Oral or nasal only",
+        "Intravenous only",
+        "Topical only",
+        "Subcutaneous only"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Antihistamines can be oral or nasal. They target the histamine-mediated inflammatory response in allergic rhinitis."
+    },
+    {
+      "id": "post_procedure_airway",
+      "question": "After procedures that suppress the gag reflex:",
+      "options": [
+        "Oral intake should begin immediately",
+        "Oral intake is withheld until protective airway reflex returns",
+        "Nutrition takes priority over airway safety",
+        "Comfort measures are most important"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "After procedures that suppress the gag reflex: Oral intake is withheld until the nurse verifies the return of the protective airway reflex. Airway safety takes priority over nutrition and comfort."
+    },
+    {
+      "id": "gag_reflex_protection",
+      "question": "When the gag reflex is suppressed after a procedure, the priority is:",
+      "options": [
+        "Immediate feeding",
+        "Airway safety verification",
+        "Pain medication administration",
+        "Client comfort"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Airway safety takes priority over nutrition and comfort when the gag reflex is suppressed."
+    },
+    {
+      "id": "cough_suppress_reflex",
+      "question": "Cough medications that suppress the cough reflex are called:",
+      "options": [
+        "Mucolytics",
+        "Expectorants",
+        "Antitussives",
+        "Bronchodilators"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Some medications suppress the cough reflex - antitussives. Some increase secretion production to make the cough more productive - mucolytics or expectorants."
+    },
+    {
+      "id": "cough_productive",
+      "question": "Cough medications that increase secretion production to make coughing more productive are:",
+      "options": [
+        "Antitussives",
+        "Mucolytics or expectorants",
+        "Antihistamines",
+        "Decongestants"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Some medications increase secretion production to make the cough more productive - mucolytics or expectorants. Some suppress the cough reflex - antitussives."
+    },
+    {
+      "id": "pneumothorax_assessment",
+      "question": "Assessment findings in pneumothorax include:",
+      "options": [
+        "Crackles in both lung fields",
+        "Increased breath sounds bilaterally",
+        "Reduced or absent breath sounds on affected side",
+        "Normal breath sounds throughout"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Pneumothorax causes reduced or absent breath sounds on the affected side due to air in the pleural space preventing lung expansion."
+    },
+    {
+      "id": "pneumothorax_cause",
+      "question": "Pneumothorax occurs when:",
+      "options": [
+        "Air accumulates in the pleural space",
+        "Blood fills the pleural space",
+        "The diaphragm is paralyzed",
+        "Bronchioles become inflamed"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Air in the pleural space prevents normal lung expansion, causing reduced or absent breath sounds on the affected side."
+    },
+    {
+      "id": "chest_tube_positioning",
+      "question": "The chest tube drainage system should be kept:",
+      "options": [
+        "Above chest level",
+        "At chest level",
+        "Below chest level",
+        "At the foot of the bed"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The drainage system is always kept below chest level to prevent backflow. Water used in the system must be sterile to prevent infection."
+    },
+    {
+      "id": "chest_tube_water",
+      "question": "Water used in chest tube drainage systems must be:",
+      "options": [
+        "Distilled only",
+        "Sterile to prevent infection",
+        "Chlorinated",
+        "Carbonated"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Water used in the system must be sterile to prevent infection. The drainage system is always kept below chest level to prevent backflow."
+    },
+    {
+      "id": "rib_fracture_pain",
+      "question": "A client with rib fractures experiences most pain with:",
+      "options": [
+        "Deep inspiration",
+        "Quiet breathing",
+        "Expiration",
+        "Speaking softly"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Rib fracture pain is most severe with deep inspiration, coughing, or movement. Pain management and breathing exercises are essential."
+    },
+    {
+      "id": "rib_fracture_management",
+      "question": "Management of rib fractures includes:",
+      "options": [
+        "Tight chest binding",
+        "Pain management and breathing exercises",
+        "Complete bed rest for 6 weeks",
+        "Immediate surgical repair"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Pain management and breathing exercises are essential for rib fracture management. Tight binding is contraindicated."
+    },
+    {
+      "id": "flail_chest_signs",
+      "question": "Signs of flail chest include:",
+      "options": [
+        "Paradoxical chest wall movement",
+        "Unilateral chest expansion",
+        "Decreased respiratory rate",
+        "Normal breath sounds"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Flail chest is characterized by paradoxical chest wall movement where a portion of the chest wall moves inward during inspiration."
+    },
+    {
+      "id": "paradoxical_movement",
+      "question": "Paradoxical chest wall movement in flail chest means:",
+      "options": [
+        "The entire chest expands normally",
+        "A portion moves inward during inspiration",
+        "Both sides move symmetrically",
+        "Movement is absent"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Paradoxical chest wall movement means a portion of the chest wall moves inward during inspiration, which is characteristic of flail chest."
+    },
+    {
+      "id": "pulmonary_embolism_sudden",
+      "question": "A client suddenly develops severe dyspnea, tachycardia, and chest pain. The nurse suspects:",
+      "options": [
+        "Acute myocardial infarction",
+        "Pulmonary embolism",
+        "Pneumothorax",
+        "Acute bronchitis"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Sudden onset of severe dyspnea, tachycardia, and chest pain suggests pulmonary embolism, requiring immediate intervention."
+    },
+    {
+      "id": "pe_symptoms",
+      "question": "Classic symptoms of pulmonary embolism include:",
+      "options": [
+        "Gradual onset of shortness of breath",
+        "Sudden severe dyspnea with chest pain",
+        "Productive cough with green sputum",
+        "Fever and chills"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Sudden onset of severe dyspnea, tachycardia, and chest pain suggests pulmonary embolism."
+    },
+    {
+      "id": "asthma_acute_attack",
+      "question": "During an acute asthma attack, the nurse should first:",
+      "options": [
+        "Administer oral corticosteroids",
+        "Assess respiratory status and administer bronchodilators",
+        "Obtain sputum culture",
+        "Start IV antibiotics"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "During an acute asthma attack, immediate assessment of respiratory status and administration of bronchodilators takes priority."
+    },
+    {
+      "id": "asthma_priority",
+      "question": "Priority action for acute asthma exacerbation:",
+      "options": [
+        "Oral steroid administration",
+        "Respiratory assessment and bronchodilators",
+        "Laboratory blood work",
+        "Chest X-ray"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Immediate assessment of respiratory status and administration of bronchodilators takes priority in acute asthma attack."
+    },
+    {
+      "id": "hypoxia_early_signs",
+      "question": "Early signs of hypoxia include:",
+      "options": [
+        "Bradycardia and hypotension",
+        "Restlessness and tachycardia",
+        "Cyanosis and confusion",
+        "Apnea and respiratory arrest"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Early signs of hypoxia include restlessness, agitation, tachycardia, and increased respiratory rate."
+    },
+    {
+      "id": "hypoxia_compensatory",
+      "question": "Compensatory mechanisms in early hypoxia include:",
+      "options": [
+        "Decreased heart rate",
+        "Increased respiratory rate and heart rate",
+        "Bradycardia and hypotension",
+        "Decreased level of consciousness"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Early compensatory mechanisms include increased respiratory rate, restlessness, agitation, and tachycardia."
+    },
+    {
+      "id": "case_normal_vs",
+      "question": "The lecture mentions that case studies require knowledge of normal vital signs. This is important because:",
+      "options": [
+        "Normal values are not relevant to respiratory assessment",
+        "Abnormal vital signs help identify respiratory complications",
+        "Only heart rate matters in respiratory cases",
+        "Blood pressure is the only vital sign to monitor"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Case studies require knowledge of normal vital signs to identify abnormalities that indicate respiratory complications."
+    },
+    {
+      "id": "chest_tube_air_leak",
+      "question": "Continuous bubbling in the water seal chamber of a chest tube system indicates:",
+      "options": [
+        "Normal function",
+        "Air leak in the system",
+        "Proper seal integrity",
+        "Tube obstruction"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Continuous bubbling in the water seal chamber indicates an air leak in the system that needs immediate attention."
+    },
+    {
+      "id": "hemothorax_vs_pneumothorax",
+      "question": "Which finding differentiates hemothorax from pneumothorax?",
+      "options": [
+        "Absent breath sounds",
+        "Chest pain",
+        "Tracheal deviation",
+        "Blood in pleural space"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Hemothorax involves blood in the pleural space, while pneumothorax involves air. Both can cause absent breath sounds and chest pain."
+    },
+    {
+      "id": "pleural_space_air",
+      "question": "In pneumothorax, air accumulates in the:",
+      "options": [
+        "Lung parenchyma",
+        "Bronchial tree",
+        "Pleural space",
+        "Mediastinum"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Air accumulates in the pleural space, preventing normal lung expansion and causing reduced breath sounds."
+    },
+    {
+      "id": "sleep_apnea_evaluation",
+      "question": "Polysomnography evaluates all of the following EXCEPT:",
+      "options": [
+        "Breathing patterns",
+        "Oxygen saturation",
+        "Sleep stages",
+        "Blood glucose levels"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Polysomnography evaluates breathing patterns, oxygen saturation, and sleep stages, but not blood glucose levels."
+    },
+    {
+      "id": "allergic_response_target",
+      "question": "Anti-histamines target which allergic response?",
+      "options": [
+        "Bacterial infection",
+        "Histamine-mediated inflammation",
+        "Viral replication",
+        "Fungal growth"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Anti-histamines target the histamine-mediated inflammatory response in allergic rhinitis."
+    },
+    {
+      "id": "airway_reflex_return",
+      "question": "Oral intake is withheld after procedures suppressing gag reflex until:",
+      "options": [
+        "The client requests food",
+        "The nurse verifies protective airway reflex return",
+        "Four hours have passed",
+        "Pain medication is administered"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Oral intake is withheld until the nurse verifies the return of the protective airway reflex."
+    },
+    {
+      "id": "cough_medication_types",
+      "question": "Which medication increases mucus production to make coughing more effective?",
+      "options": [
+        "Antitussive",
+        "Expectorant",
+        "Antihistamine",
+        "Decongestant"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Expectorants increase secretion production to make the cough more productive. Antitussives suppress the cough reflex."
+    },
+    {
+      "id": "chest_tube_sterile_water",
+      "question": "Why must water in chest tube systems be sterile?",
+      "options": [
+        "To prevent evaporation",
+        "To maintain pressure",
+        "To prevent infection",
+        "To ensure visibility"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Water used in chest tube systems must be sterile to prevent infection."
+    },
+    {
+      "id": "rib_fracture_breathing",
+      "question": "Breathing exercises are important in rib fracture management to prevent:",
+      "options": [
+        "Osteoporosis",
+        "Atelectasis and pneumonia",
+        "Muscle atrophy",
+        "Cardiac complications"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Breathing exercises prevent atelectasis and pneumonia in clients with rib fractures."
+    },
+    {
+      "id": "flail_chest_mechanism",
+      "question": "Flail chest occurs when:",
+      "options": [
+        "One rib is fractured",
+        "Multiple adjacent ribs are fractured",
+        "The sternum is fractured",
+        "The clavicle is dislocated"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Flail chest occurs when multiple adjacent ribs are fractured, causing paradoxical chest wall movement."
+    },
+    {
+      "id": "pulmonary_embolism_onset",
+      "question": "Pulmonary embolism typically has:",
+      "options": [
+        "Gradual onset over days",
+        "Sudden onset with severe symptoms",
+        "Intermittent symptoms",
+        "Mild symptoms only"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Pulmonary embolism typically has sudden onset with severe dyspnea, tachycardia, and chest pain."
+    },
+    {
+      "id": "asthma_respiratory_assessment",
+      "question": "In acute asthma, assessment priority is:",
+      "options": [
+        "Breath sounds and respiratory rate",
+        "Skin color and temperature",
+        "Blood pressure and pulse",
+        "Level of consciousness only"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Assessment priority in acute asthma is breath sounds and respiratory rate to evaluate severity."
+    },
+    {
+      "id": "hypoxia_progression_cues",
+      "question": "Which are late cues of hypoxia progression?",
+      "options": [
+        "Restlessness and agitation",
+        "Visible color changes and decreased consciousness",
+        "Tachycardia and tachypnea",
+        "Anxiety and confusion"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Late oxygenation failure cues include visible color changes and decreased level of consciousness."
+    }
+  ]
+}

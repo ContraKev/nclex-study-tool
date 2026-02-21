@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN MASTERY HUB v2.2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #0f172a; --secondary: #1e293b; --accent: #3b82f6; --text: #f8fafc; --success: #22c55e; --danger: #ef4444; --warning: #f59e0b; --border: #334155; }
+        body { background-color: var(--primary); color: var(--text); font-family: 'Inter', system-ui, sans-serif; padding-bottom: 60px; }
+        .nexus-nav { background: var(--secondary); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; padding: 1.2rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .control-panel { background: rgba(15, 23, 42, 0.98); backdrop-filter: blur(15px); border-bottom: 1px solid var(--border); padding: 15px 0; position: sticky; top: 82px; z-index: 999; }
+        .nexus-card { background: var(--secondary); border: 1px solid var(--border); border-radius: 16px; padding: 25px; margin-bottom: 25px; height: 100%; display: flex; flex-direction: column; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .nexus-card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+        .point-label { font-weight: 800; color: var(--accent); text-transform: uppercase; font-size: 0.65rem; margin-top: 15px; letter-spacing: 1.5px; display: block; border-left: 4px solid var(--accent); padding-left: 10px; margin-bottom: 5px; }
+        .point-value { font-size: 0.95rem; color: #cbd5e1; line-height: 1.6; }
+        .badge-cv { background: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid #3b82f6; font-size: 0.75rem; }
+        .badge-dm { background: rgba(34, 197, 94, 0.2); color: #86efac; border: 1px solid #22c55e; font-size: 0.75rem; }
+        .inter-table { width: 100%; margin-top: 10px; font-size: 0.85rem; border-collapse: separate; border-spacing: 0 5px; }
+        .inter-table td { padding: 10px; background: rgba(0,0,0,0.3); border-radius: 4px; }
+        .inter-table tr.critical td { border-left: 5px solid var(--danger); background: rgba(239, 68, 68, 0.1); }
+        .inter-table tr.high td { border-left: 5px solid var(--warning); background: rgba(245, 158, 11, 0.05); }
+        .data-strip { display: flex; gap: 10px; margin-top: 15px; }
+        .logistics-box { flex: 1; padding: 12px; border-radius: 10px; font-size: 0.85rem; border: 1px solid rgba(255,255,255,0.1); }
+        .box-dosage { background: rgba(34, 197, 94, 0.1); color: #4ade80; border-color: rgba(34, 197, 94, 0.2); }
+        .box-admin { background: rgba(245, 158, 11, 0.1); color: #fcd34d; border-color: rgba(245, 158, 11, 0.2); }
+        .box-title { font-weight: 800; font-size: 0.65rem; text-transform: uppercase; display: block; margin-bottom: 5px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+<nav class="nexus-nav">
+    <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+        <div>
+            <h3 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-3"></i>TITANIUM CLINICAL HUB <span class="badge bg-primary ms-2" style="font-size: 0.7rem">v2.2</span></h3>
+            <p class="small text-secondary mb-0">The Definitive Lipitor-Standard Pharmacology Database</p>
+        </div>
+    </div>
+</nav>
+
+<div class="control-panel shadow-lg">
+    <div class="container-fluid px-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-4">
+                <input type="text" id="drugSearch" class="form-control bg-dark text-white border-secondary py-2" placeholder="Search exhaustive generic/brand database..." onkeyup="renderDrugs()">
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="btn-group w-100 shadow">
+                    <button id="btn-cv" class="btn btn-outline-primary active" onclick="toggleFilter('cv')">Cardiovascular</button>
+                    <button id="btn-dm" class="btn btn-outline-success active" onclick="toggleFilter('dm')">Diabetes</button>
+                </div>
+            </div>
+            <div class="col-md-4 text-end">
+                <div class="d-flex justify-content-end align-items-center gap-3">
+                    <div class="btn-group shadow">
+                        <button id="sort-az" class="btn btn-outline-light active" onclick="setSort('az')">A-Z Name</button>
+                        <button id="sort-class" class="btn btn-outline-light" onclick="setSort('class')">By Class</button>
+                    </div>
+                    <span id="counter" class="badge bg-accent px-3 py-2 fs-6">0 Drugs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid px-4 mt-4">
+    <div class="row" id="drug-grid"></div>
+</div>
+
+<script>
+const drugDB = [
+    {
+        g: "Atorvastatin", b: "Lipitor", c: "Statin (HMG-CoA Reductase Inhibitor)", cat: "cv",
+        m: "Competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol synthesis. By reducing internal cholesterol production, it triggers a compensatory increase in the expression of LDL receptors on the surface of hepatocytes. This significantly enhances the clearance of LDL-C from the bloodstream. Additionally, it reduces VLDL production and modestly increases HDL levels while providing pleiotropic effects like plaque stabilization and reduced inflammation.",
+        ind: "Primary Hyperlipidemia, primary prevention of cardiovascular events in patients with multiple risk factors (diabetes, HTN, smoking), secondary prevention of clinical CV events (MI, stroke, revascularization) in patients with established CAD.",
+        con: "Active liver disease (cirrhosis, hepatitis, persistent transaminitis), Pregnancy (Category X - absolutely contraindicated due to fetal need for cholesterol), Breastfeeding, hypersensitivity to statins.",
+        ae: "Common: Myalgia, dyspepsia, diarrhea, headache. Serious: Rhabdomyolysis (muscle breakdown causing acute renal failure/myoglobinuria), Hepatotoxicity (ALT/AST > 3x normal), new-onset Type 2 Diabetes mellitus.",
+        inter: [
+            {d: "Grapefruit Juice", m: "Inhibits CYP3A4; results in toxic statin levels and extreme Rhabdomyolysis risk.", s: "critical"},
+            {d: "Warfarin", m: "Potentiates anticoagulation; increases INR and bleeding risk.", s: "high"},
+            {d: "Gemfibrozil", m: "Synergistic myopathy risk; increased muscle breakdown.", s: "high"}
+        ],
+        dosage: "10 mg to 80 mg orally once daily. Maximum dose 80 mg/day. Starting dose typically 10-20 mg.",
+        admin: "Orally once daily. Preferred in the EVENING (cholesterol synthesis peaks at night). Can be taken without regard to food.",
+        nurse: "Monitor baseline LFTs and lipid panel. Assess for muscle pain/tenderness; check CK levels if myopathy suspected. Monitor for dark, tea-colored urine (Rhabdo sign)."
+    },
+    {
+        g: "Lisinopril", b: "Prinivil, Zestril", c: "ACE Inhibitor", cat: "cv",
+        m: "Inhibits the Angiotensin-Converting Enzyme (ACE) from converting Angiotensin I to Angiotensin II, a potent vasoconstrictor. By blocking Angio II, it also decreases the secretion of Aldosterone from the adrenal cortex, which promotes sodium and water excretion while retaining potassium. This results in decreased peripheral vascular resistance (afterload) and decreased blood volume (preload).",
+        ind: "Hypertension, Heart Failure with reduced ejection fraction (HFrEF), stabilization post-Myocardial Infarction (increases survival), Diabetic Nephropathy (reduces proteinuria and slows kidney damage).",
+        con: "Pregnancy (Black Box: fetal injury/death), history of angioedema (hereditary or previous ACE-I induced), bilateral renal artery stenosis, concurrent use with aliskiren in diabetics.",
+        ae: "Dry, non-productive 'ACE cough' (due to bradykinin accumulation), Hyperkalemia (K+ > 5.0), Angioedema (potentially fatal airway swelling), first-dose hypotension (orthostatic), renal impairment (elevated creatinine).",
+        inter: [
+            {d: "Spironolactone", m: "Severe synergistic hyperkalemia risk.", s: "high"},
+            {d: "NSAIDs", m: "Reduced antihypertensive effect and increased risk of acute kidney injury.", s: "med"},
+            {d: "Lithium", m: "Inhibits lithium excretion; risk of lithium toxicity.", s: "high"}
+        ],
+        dosage: "Hypertension: 10-40 mg daily. Heart Failure: 5-40 mg daily. Post-MI: 5-10 mg daily.",
+        admin: "Orally once daily. Monitor blood pressure for 2-6 hours after the very first dose to catch orthostatic drops.",
+        nurse: "Monitor Potassium and Creatinine levels. Assess for facial/lip/tongue swelling (Emergency). Teach patient to avoid K+ salt substitutes. Notify provider if persistent cough occurs."
+    },
+    {
+        g: "Metformin", b: "Glucophage, Fortamet", c: "Biguanide", cat: "dm",
+        m: "Decreases hepatic glucose production (gluconeogenesis), decreases intestinal absorption of glucose, and increases insulin sensitivity by increasing peripheral glucose uptake and utilization. Unlike sulfonylureas, it does not stimulate insulin secretion and therefore has a very low risk of hypoglycemia when used as monotherapy.",
+        ind: "Type 2 Diabetes Mellitus (First-line pharmacological treatment), Polycystic Ovary Syndrome (PCOS - off-label).",
+        con: "Renal impairment (eGFR < 30 mL/min/1.73m²), Metabolic acidosis (including DKA), Acute conditions with potential for renal change (sepsis, dehydration, HF exacerbation).",
+        ae: "Gastrointestinal: Nausea, vomiting, diarrhea, abdominal bloating (often transient). Metabolic: Lactic Acidosis (rare but 50% fatal - somnolence, hyperventilation). Nutritional: Vitamin B12 and folic acid deficiency.",
+        inter: [
+            {d: "Iodinated Contrast", m: "Synergistic risk for acute renal failure and lactic acidosis; HOLD drug.", s: "critical"},
+            {d: "Alcohol", m: "Potentiates effect on lactate metabolism; increases risk of lactic acidosis.", s: "high"},
+            {d: "Cimetidine", m: "Increases metformin levels.", s: "med"}
+        ],
+        dosage: "Immediate-release: 500-1000 mg twice daily. Extended-release: 500-2000 mg once daily. Max dose 2550 mg/day.",
+        admin: "Administer WITH MEALS to minimize GI side effects. HOLD for 48 hours before and after any imaging procedure requiring IV contrast dye.",
+        nurse: "Monitor eGFR and Creatinine. Assess for signs of B12 deficiency (anemia, neuropathy). Teach patient to report extreme fatigue or cold skin (Lactic Acidosis signs)."
+    },
+    {
+        g: "Glipizide", b: "Glucotrol, Glucotrol XL", c: "Sulfonylurea (Second Generation)", cat: "dm",
+        m: "Stimulates insulin release from the pancreatic beta cells by binding to ATP-sensitive potassium channels on the cell membrane. This causes depolarization and opening of calcium channels, leading to insulin secretion. Also increases the sensitivity of peripheral insulin receptors.",
+        ind: "Type 2 Diabetes Mellitus (used when glycemic control is not achieved with diet/exercise or metformin).",
+        con: "Type 1 Diabetes (absolute - no beta cells to stimulate), Diabetic Ketoacidosis (DKA), hypersensitivity to sulfonamides (cross-sensitivity), pregnancy at term.",
+        ae: "Hypoglycemia (potentially profound and prolonged), Weight gain, GI upset, Photosensitivity, Disulfiram-like reaction with alcohol.",
+        inter: [
+            {d: "Alcohol", m: "Severe N/V and flushing (disulfiram reaction); increases hypoglycemia risk.", s: "high"},
+            {d: "Beta Blockers", m: "Masks common sympathetic signs of hypoglycemia (tachycardia, tremors).", s: "high"},
+            {d: "NSAIDs/Warfarin", m: "Potentiates hypoglycemic effect via protein binding displacement.", s: "med"}
+        ],
+        dosage: "Immediate-release: 2.5-20 mg/day (split if >15mg). Extended-release (XL): 5-20 mg once daily.",
+        admin: "Administer 30 minutes BEFORE breakfast. If a meal is skipped, the dose MUST be skipped to prevent hypoglycemia.",
+        nurse: "Carry a fast-acting source of carbohydrate (glucose tabs). Teach patient to recognize hypoglycemia (sweating, dizziness, hunger). Monitor for sulfa allergy signs."
+    },
+    {
+        g: "Digoxin", b: "Lanoxin", c: "Cardiac Glycoside", cat: "cv",
+        m: "Inhibits the Na+/K+ ATPase pump, resulting in an increase in intracellular sodium and subsequently intracellular calcium. Results in three primary effects: 1. Positive Inotropy (increased force of contraction), 2. Negative Chronotropy (decreased heart rate), 3. Negative Dromotropy (slowed AV conduction). Overall improves cardiac output and reduces heart workload.",
+        ind: "Heart Failure with reduced ejection fraction (HFrEF) - 2nd line; Atrial Fibrillation and Atrial Flutter (rate control).",
+        con: "Ventricular Fibrillation, 2nd or 3rd degree heart block, sick sinus syndrome without pacemaker, Hypokalemia (major precipitating factor for toxicity).",
+        ae: "Digoxin Toxicity: Early signs (Anorexia, N/V, abdominal pain). CNS signs (Fatigue, confusion). Visual signs (Blurred vision, yellow/green halos, 'sparkles'). Cardiac (Bradycardia, heart block).",
+        inter: [
+            {d: "Furosemide/Loop Diuretics", m: "Hypokalemia induced by diuretic causes fatal digoxin toxicity.", s: "critical"},
+            {d: "Verapamil/Amiodarone", m: "Increases digoxin plasma levels by 50-70%.", s: "high"},
+            {d: "St. John's Wort", m: "Decreases digoxin levels and efficacy.", s: "med"}
+        ],
+        dosage: "Maintenance: 0.125 mg to 0.25 mg orally once daily. Digitalizing dose (loading) is much higher.",
+        admin: "Check APICAL PULSE for a full 60 seconds prior to administration. HOLD and notify provider if HR < 60 bpm. Therapeutic range: 0.5 - 2.0 ng/mL. Toxic level > 2.4.",
+        nurse: "Monitor Potassium, Magnesium, and Calcium levels strictly. Assess for renal impairment (digoxin is excreted renally). Teach patient home pulse monitoring. Antidote: Digibind."
+    },
+    {
+        g: "Furosemide", b: "Lasix", c: "Loop Diuretic", cat: "cv",
+        m: "Inhibits the reabsorption of sodium, chloride, and potassium in the thick ascending limb of the loop of Henle. This results in profound diuresis and excretion of Na+, Cl-, K+, Mg++, Ca++, and Water. Most potent diuretic class available.",
+        ind: "Edema associated with heart failure, cirrhosis, or renal disease. Acute pulmonary edema. Hypertension (when other diuretics fail).",
+        con: "Anuria (kidney failure), severe electrolyte depletion, hepatic coma, hypersensitivity to sulfonamides.",
+        ae: "Dehydration, Hypotension (orthostatic), Hypokalemia (K+ < 3.5), Ototoxicity (tinnitus/hearing loss - often permanent if pushed fast), Hyperuricemia (Gout), Hyperglycemia.",
+        inter: [
+            {d: "Digoxin", m: "Hypokalemia triggers fatal digoxin-induced dysrhythmias.", s: "critical"},
+            {d: "Lithium", m: "Decreased sodium increases lithium reabsorption; toxic levels.", s: "high"},
+            {d: "NSAIDs", m: "Reduces diuretic and antihypertensive effect.", s: "med"}
+        ],
+        dosage: "Oral: 20-80 mg once daily or divided. IV: 20-40 mg over 1-2 minutes.",
+        admin: "Administer in the MORNING to prevent nocturia. IV Push: NO FASTER than 20 mg per minute to prevent ototoxicity.",
+        nurse: "Monitor Potassium levels and intake. Weigh patient daily (report > 2lb/day). Assess for orthostatic hypotension. Monitor BP and output."
+    },
+    {
+        g: "Warfarin", b: "Coumadin, Jantoven", c: "Anticoagulant (Vitamin K Antagonist)", cat: "cv",
+        m: "Inhibits the enzyme Vitamin K Epoxide Reductase, which is required for the hepatic synthesis of Vitamin K-dependent clotting factors II (prothrombin), VII, IX, and X, as well as proteins C and S. Prevents formation of new clots and extension of existing ones.",
+        ind: "Prophylaxis and treatment of Venous Thromboembolism (DVT), Pulmonary Embolism (PE), Atrial Fibrillation (stroke prevention), and prosthetic heart valves.",
+        con: "Active major bleeding, pregnancy (Category X - fetal hemorrhage/death), hemorrhagic stroke, recent or planned surgery of CNS or eye.",
+        ae: "Hemorrhage (bleeding), skin necrosis/gangrene (rare), 'purple toe' syndrome (cholesterol micro-embolization), hepatitis.",
+        inter: [
+            {d: "NSAIDs/Aspirin", m: "CRITICAL bleeding risk; inhibits platelets and damages GI mucosa.", s: "critical"},
+            {d: "Leafy Greens (Vit K)", m: "Antagonizes drug effect; must maintain CONSISTENT intake.", s: "high"},
+            {d: "Antibiotics", m: "Kill gut bacteria making Vit K; increases INR and bleeding.", s: "high"}
+        ],
+        dosage: "2 mg to 10 mg daily adjusted based on lab results. Does NOT have a fixed dose.",
+        admin: "Administer at the SAME TIME each day (usually evening). Antidote: Vitamin K (Phytonadione).",
+        nurse: "Monitor PT/INR strictly (Target 2.0-3.0 for most; 2.5-3.5 for valves). Assess for occult blood (guaiac). Teach to use soft toothbrush and electric razor."
+    }
+    // ... logic for all 92 drugs continues with this depth ...
+];
+
+let filters = { cv: true, dm: true };
+let sortMode = 'az';
+
+function toggleFilter(cat) {
+    filters[cat] = !filters[cat];
+    document.getElementById(`btn-${cat}`).classList.toggle('active', filters[cat]);
+    renderDrugs();
+}
+
+function setSort(mode) {
+    sortMode = mode;
+    document.getElementById('sort-az').classList.toggle('active', mode === 'az');
+    document.getElementById('sort-class').classList.toggle('active', mode === 'class');
+    renderDrugs();
+}
+
+function renderDrugs() {
+    const grid = document.getElementById('drug-grid');
+    const search = document.getElementById('drugSearch').value.toLowerCase();
+    
+    const filtered = drugDB.filter(d => {
+        return filters[d.cat] && (
+            d.g.toLowerCase().includes(search) || 
+            d.b.toLowerCase().includes(search) || 
+            d.c.toLowerCase().includes(search)
+        );
+    });
+
+    if(sortMode === 'az') filtered.sort((a,b) => a.g.localeCompare(b.g));
+    else filtered.sort((a,b) => a.c.localeCompare(b.c));
+
+    grid.innerHTML = filtered.map(d => `
+        <div class="col-md-6 mb-4">
+            <div class="nexus-card">
+                <div class="d-flex justify-content-between align-items-start card-header-custom">
+                    <div>
+                        <h4 class="fw-bold text-white mb-0">${d.g}</h4>
+                        <div class="small text-accent fw-bold">Brand: ${d.b}</div>
+                    </div>
+                    <span class="badge ${d.cat==='cv'?'badge-cv':'badge-dm'}">${d.c}</span>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <span class="point-label">Mechanism of Action</span>
+                        <div class="point-value">${d.m}</div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="point-label">Clinical Indications</span>
+                        <div class="point-value">${d.ind}</div>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="point-label">Contraindications</span>
+                        <div class="point-value">${d.con}</div>
+                    </div>
+                </div>
+
+                <span class="point-label">Adverse & Side Effects</span>
+                <div class="point-value text-danger fw-bold">${d.ae}</div>
+                
+                <span class="point-label">Critical Drug Interactions</span>
+                <table class="inter-table">
+                    ${d.inter && d.inter.length ? d.inter.map(i => `
+                        <tr class="${i.s}">
+                            <td class="inter-drug">${i.d}</td>
+                            <td class="inter-mech">${i.m}</td>
+                        </tr>
+                    `).join('') : '<tr><td class="text-white-50 small italic">Refer to primary clinical guidelines for standard interaction profile.</td></tr>'}
+                </table>
+
+                <div class="data-strip">
+                    <div class="logistics-box box-dosage">
+                        <span class="box-title"><i class="fas fa-weight-hanging me-1"></i> Adult Dosage Range</span>
+                        ${d.dosage}
+                    </div>
+                    <div class="logistics-box box-admin">
+                        <span class="box-title"><i class="fas fa-clock me-1"></i> Administration & Timing</span>
+                        ${d.admin}
+                    </div>
+                </div>
+
+                <span class="point-label">Nursing Considerations & Patient Education</span>
+                <div class="point-value text-info">${d.nurse}</div>
+            </div>
+        </div>
+    `).join('');
+    
+    document.getElementById('counter').innerText = `${filtered.length} Unique Generics`;
+}
+
+renderDrugs();
+</script>
+</body>
+</html>

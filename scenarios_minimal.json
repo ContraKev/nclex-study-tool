@@ -1,0 +1,42 @@
+{
+  "modules": [
+    {
+      "id": "acute_respiratory_quiz",
+      "name": "Acute Respiratory Disorders and Medications Quiz",
+      "type": "exam",
+      "scenarios": [
+        {
+          "id": "placeholder",
+          "question": "Placeholder question",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Placeholder rationale"
+        }
+      ]
+    },
+    {
+      "id": "advanced_missions",
+      "name": "Module: Advanced NGN Missions (51-60)",
+      "type": "mission",
+      "scenarios": [
+        {
+          "id": "placeholder_mission",
+          "numerical_id": 51,
+          "steps": [
+            {
+              "type": "patient_info",
+              "content": "Placeholder patient info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

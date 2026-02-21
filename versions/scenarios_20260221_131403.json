@@ -1,0 +1,1154 @@
+{
+  "modules": [
+    {
+      "id": "acute_respiratory_quiz",
+      "name": "Acute Respiratory Disorders and Medications Quiz",
+      "type": "exam",
+      "scenarios": [
+        {
+          "id": "epistaxis_nasal_packing",
+          "question": "A client with epistaxis has nasal packing. Frequent swallowing after nasal packing indicates that:",
+          "options": [
+            "The packing is effective and bleeding has stopped",
+            "Blood may be moving posteriorly rather than externally",
+            "The client should begin oral intake",
+            "Antibiotic therapy should be initiated"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Frequent swallowing after nasal packing indicates that blood may be moving posteriorly rather than externally-continuous bleeding. The nurse recognizes this as a complication requiring immediate assessment."
+        },
+        {
+          "id": "acute_bronchitis_antimicrobials",
+          "question": "Regarding antimicrobial therapy for acute bronchitis, the nurse understands that:",
+          "options": [
+            "The goal is complete eradication of the pathogen",
+            "Stopping therapy early prevents drug resistance",
+            "Client teaching focuses on symptom relief",
+            "Antibiotics are always prescribed for viral causes"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "The goal of therapy is complete eradication of the pathogen. Stopping therapy early contributes to drug resistance and recurrence of infection. Client teaching focuses on adherence, not symptom relief."
+        },
+        {
+          "id": "hypoxia_early_cues",
+          "question": "Early neurological and compensatory cues of progressing hypoxia include:",
+          "options": [
+            "Visible color changes and decreased consciousness",
+            "Restlessness, agitation, increased heart rate",
+            "Bradycardia and hypotension",
+            "Apnea and respiratory arrest"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Early neurological and compensatory cues: restlessness, agitation, increased heart rate, increased respiratory rate. Late oxygenation failure cues include visible color changes and decreased level of consciousness."
+        },
+        {
+          "id": "hypoxia_late_cues",
+          "question": "Late oxygenation failure cues of hypoxia include:",
+          "options": [
+            "Restlessness and agitation",
+            "Increased heart rate and respiratory rate",
+            "Visible color changes and decreased consciousness",
+            "Tachycardia and hypertension"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Late oxygenation failure cues: visible color changes, decreased level of consciousness. Early cues include restlessness, agitation, increased heart rate, and increased respiratory rate."
+        },
+        {
+          "id": "osa_diagnosis",
+          "question": "Diagnosis of obstructive sleep apnea requires:",
+          "options": [
+            "Overnight pulse oximetry only",
+            "A sleep study called polysomnography",
+            "Self-reported snoring assessment",
+            "Daytime sleepiness questionnaire alone"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Diagnosis requires a sleep study called polysomnography that evaluates breathing patterns, oxygen saturation, and sleep stages overnight."
+        },
+        {
+          "id": "osa_polysomnography",
+          "question": "Polysomnography for sleep apnea evaluates:",
+          "options": [
+            "Breathing patterns and oxygen saturation",
+            "Blood pressure and heart rate",
+            "Muscle strength and coordination",
+            "Cognitive function and memory"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Polysomnography evaluates breathing patterns, oxygen saturation, and sleep stages overnight to diagnose obstructive sleep apnea."
+        },
+        {
+          "id": "allergic_rhinitis_pharma",
+          "question": "Primary medications for allergic rhinitis target:",
+          "options": [
+            "The histamine-mediated inflammatory response",
+            "Bacterial infection prevention",
+            "Mucosal thickening",
+            "Airway constriction"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "The primary medications target the histamine-mediated inflammatory response aka anti-histamines. Antihistamines can be oral or nasal. Anti-infectives are not effective for allergen-triggered conditions."
+        },
+        {
+          "id": "antihistamines_route",
+          "question": "Antihistamines for allergic rhinitis can be administered:",
+          "options": [
+            "Oral or nasal only",
+            "Intravenous only",
+            "Topical only",
+            "Subcutaneous only"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Antihistamines can be oral or nasal. They target the histamine-mediated inflammatory response in allergic rhinitis."
+        },
+        {
+          "id": "post_procedure_airway",
+          "question": "After procedures that suppress the gag reflex:",
+          "options": [
+            "Oral intake should begin immediately",
+            "Oral intake is withheld until protective airway reflex returns",
+            "Nutrition takes priority over airway safety",
+            "Comfort measures are most important"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "After procedures that suppress the gag reflex: Oral intake is withheld until the nurse verifies the return of the protective airway reflex. Airway safety takes priority over nutrition and comfort."
+        },
+        {
+          "id": "gag_reflex_protection",
+          "question": "When the gag reflex is suppressed after a procedure, the priority is:",
+          "options": [
+            "Immediate feeding",
+            "Airway safety verification",
+            "Pain medication administration",
+            "Client comfort"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Airway safety takes priority over nutrition and comfort when the gag reflex is suppressed."
+        },
+        {
+          "id": "cough_suppress_reflex",
+          "question": "Cough medications that suppress the cough reflex are called:",
+          "options": [
+            "Mucolytics",
+            "Expectorants",
+            "Antitussives",
+            "Bronchodilators"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Some medications suppress the cough reflex - antitussives. Some increase secretion production to make the cough more productive - mucolytics or expectorants."
+        },
+        {
+          "id": "cough_productive",
+          "question": "Cough medications that increase secretion production to make coughing more productive are:",
+          "options": [
+            "Antitussives",
+            "Mucolytics or expectorants",
+            "Antihistamines",
+            "Decongestants"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Some medications increase secretion production to make the cough more productive - mucolytics or expectorants. Some suppress the cough reflex - antitussives."
+        },
+        {
+          "id": "pneumothorax_assessment",
+          "question": "Assessment findings in pneumothorax include:",
+          "options": [
+            "Crackles in both lung fields",
+            "Increased breath sounds bilaterally",
+            "Reduced or absent breath sounds on affected side",
+            "Normal breath sounds throughout"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Pneumothorax causes reduced or absent breath sounds on the affected side due to air in the pleural space preventing lung expansion."
+        },
+        {
+          "id": "pneumothorax_cause",
+          "question": "Pneumothorax occurs when:",
+          "options": [
+            "Air accumulates in the pleural space",
+            "Blood fills the pleural space",
+            "The diaphragm is paralyzed",
+            "Bronchioles become inflamed"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Air in the pleural space prevents normal lung expansion, causing reduced or absent breath sounds on the affected side."
+        },
+        {
+          "id": "chest_tube_positioning",
+          "question": "The chest tube drainage system should be kept:",
+          "options": [
+            "Above chest level",
+            "At chest level",
+            "Below chest level",
+            "At the foot of the bed"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "The drainage system is always kept below chest level to prevent backflow. Water used in the system must be sterile to prevent infection."
+        },
+        {
+          "id": "chest_tube_water",
+          "question": "Water used in chest tube drainage systems must be:",
+          "options": [
+            "Distilled only",
+            "Sterile to prevent infection",
+            "Chlorinated",
+            "Carbonated"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Water used in the system must be sterile to prevent infection. The drainage system is always kept below chest level to prevent backflow."
+        },
+        {
+          "id": "rib_fracture_pain",
+          "question": "A client with rib fractures experiences most pain with:",
+          "options": [
+            "Deep inspiration",
+            "Quiet breathing",
+            "Expiration",
+            "Speaking softly"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Rib fracture pain is most severe with deep inspiration, coughing, or movement. Pain management and breathing exercises are essential."
+        },
+        {
+          "id": "rib_fracture_management",
+          "question": "Management of rib fractures includes:",
+          "options": [
+            "Tight chest binding",
+            "Pain management and breathing exercises",
+            "Complete bed rest for 6 weeks",
+            "Immediate surgical repair"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Pain management and breathing exercises are essential for rib fracture management. Tight binding is contraindicated."
+        },
+        {
+          "id": "flail_chest_signs",
+          "question": "Signs of flail chest include:",
+          "options": [
+            "Paradoxical chest wall movement",
+            "Unilateral chest expansion",
+            "Decreased respiratory rate",
+            "Normal breath sounds"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Flail chest is characterized by paradoxical chest wall movement where a portion of the chest wall moves inward during inspiration."
+        },
+        {
+          "id": "paradoxical_movement",
+          "question": "Paradoxical chest wall movement in flail chest means:",
+          "options": [
+            "The entire chest expands normally",
+            "A portion moves inward during inspiration",
+            "Both sides move symmetrically",
+            "Movement is absent"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Paradoxical chest wall movement means a portion of the chest wall moves inward during inspiration, which is characteristic of flail chest."
+        },
+        {
+          "id": "pulmonary_embolism_sudden",
+          "question": "A client suddenly develops severe dyspnea, tachycardia, and chest pain. The nurse suspects:",
+          "options": [
+            "Acute myocardial infarction",
+            "Pulmonary embolism",
+            "Pneumothorax",
+            "Acute bronchitis"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Sudden onset of severe dyspnea, tachycardia, and chest pain suggests pulmonary embolism, requiring immediate intervention."
+        },
+        {
+          "id": "pe_symptoms",
+          "question": "Classic symptoms of pulmonary embolism include:",
+          "options": [
+            "Gradual onset of shortness of breath",
+            "Sudden severe dyspnea with chest pain",
+            "Productive cough with green sputum",
+            "Fever and chills"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Sudden onset of severe dyspnea, tachycardia, and chest pain suggests pulmonary embolism."
+        },
+        {
+          "id": "asthma_acute_attack",
+          "question": "During an acute asthma attack, the nurse should first:",
+          "options": [
+            "Administer oral corticosteroids",
+            "Assess respiratory status and administer bronchodilators",
+            "Obtain sputum culture",
+            "Start IV antibiotics"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "During an acute asthma attack, immediate assessment of respiratory status and administration of bronchodilators takes priority."
+        },
+        {
+          "id": "asthma_priority",
+          "question": "Priority action for acute asthma exacerbation:",
+          "options": [
+            "Oral steroid administration",
+            "Respiratory assessment and bronchodilators",
+            "Laboratory blood work",
+            "Chest X-ray"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Immediate assessment of respiratory status and administration of bronchodilators takes priority in acute asthma attack."
+        },
+        {
+          "id": "hypoxia_early_signs",
+          "question": "Early signs of hypoxia include:",
+          "options": [
+            "Bradycardia and hypotension",
+            "Restlessness and tachycardia",
+            "Cyanosis and confusion",
+            "Apnea and respiratory arrest"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Early signs of hypoxia include restlessness, agitation, tachycardia, and increased respiratory rate."
+        },
+        {
+          "id": "hypoxia_compensatory",
+          "question": "Compensatory mechanisms in early hypoxia include:",
+          "options": [
+            "Decreased heart rate",
+            "Increased respiratory rate and heart rate",
+            "Bradycardia and hypotension",
+            "Decreased level of consciousness"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Early compensatory mechanisms include increased respiratory rate, restlessness, agitation, and tachycardia."
+        },
+        {
+          "id": "case_normal_vs",
+          "question": "The lecture mentions that case studies require knowledge of normal vital signs. This is important because:",
+          "options": [
+            "Normal values are not relevant to respiratory assessment",
+            "Abnormal vital signs help identify respiratory complications",
+            "Only heart rate matters in respiratory cases",
+            "Blood pressure is the only vital sign to monitor"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Case studies require knowledge of normal vital signs to identify abnormalities that indicate respiratory complications."
+        },
+        {
+          "id": "chest_tube_air_leak",
+          "question": "Continuous bubbling in the water seal chamber of a chest tube system indicates:",
+          "options": [
+            "Normal function",
+            "Air leak in the system",
+            "Proper seal integrity",
+            "Tube obstruction"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Continuous bubbling in the water seal chamber indicates an air leak in the system that needs immediate attention."
+        },
+        {
+          "id": "hemothorax_vs_pneumothorax",
+          "question": "Which finding differentiates hemothorax from pneumothorax?",
+          "options": [
+            "Absent breath sounds",
+            "Chest pain",
+            "Tracheal deviation",
+            "Blood in pleural space"
+          ],
+          "answer": [
+            3
+          ],
+          "rationale": "Hemothorax involves blood in the pleural space, while pneumothorax involves air. Both can cause absent breath sounds and chest pain."
+        },
+        {
+          "id": "pleural_space_air",
+          "question": "In pneumothorax, air accumulates in the:",
+          "options": [
+            "Lung parenchyma",
+            "Bronchial tree",
+            "Pleural space",
+            "Mediastinum"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Air accumulates in the pleural space, preventing normal lung expansion and causing reduced breath sounds."
+        },
+        {
+          "id": "sleep_apnea_evaluation",
+          "question": "Polysomnography evaluates all of the following EXCEPT:",
+          "options": [
+            "Breathing patterns",
+            "Oxygen saturation",
+            "Sleep stages",
+            "Blood glucose levels"
+          ],
+          "answer": [
+            3
+          ],
+          "rationale": "Polysomnography evaluates breathing patterns, oxygen saturation, and sleep stages, but not blood glucose levels."
+        },
+        {
+          "id": "allergic_response_target",
+          "question": "Anti-histamines target which allergic response?",
+          "options": [
+            "Bacterial infection",
+            "Histamine-mediated inflammation",
+            "Viral replication",
+            "Fungal growth"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Anti-histamines target the histamine-mediated inflammatory response in allergic rhinitis."
+        },
+        {
+          "id": "airway_reflex_return",
+          "question": "Oral intake is withheld after procedures suppressing gag reflex until:",
+          "options": [
+            "The client requests food",
+            "The nurse verifies protective airway reflex return",
+            "Four hours have passed",
+            "Pain medication is administered"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Oral intake is withheld until the nurse verifies the return of the protective airway reflex."
+        },
+        {
+          "id": "cough_medication_types",
+          "question": "Which medication increases mucus production to make coughing more effective?",
+          "options": [
+            "Antitussive",
+            "Expectorant",
+            "Antihistamine",
+            "Decongestant"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Expectorants increase secretion production to make the cough more productive. Antitussives suppress the cough reflex."
+        },
+        {
+          "id": "chest_tube_sterile_water",
+          "question": "Why must water in chest tube systems be sterile?",
+          "options": [
+            "To prevent evaporation",
+            "To maintain pressure",
+            "To prevent infection",
+            "To ensure visibility"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Water used in chest tube systems must be sterile to prevent infection."
+        },
+        {
+          "id": "rib_fracture_breathing",
+          "question": "Breathing exercises are important in rib fracture management to prevent:",
+          "options": [
+            "Osteoporosis",
+            "Atelectasis and pneumonia",
+            "Muscle atrophy",
+            "Cardiac complications"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Breathing exercises prevent atelectasis and pneumonia in clients with rib fractures."
+        },
+        {
+          "id": "flail_chest_mechanism",
+          "question": "Flail chest occurs when:",
+          "options": [
+            "One rib is fractured",
+            "Multiple adjacent ribs are fractured",
+            "The sternum is fractured",
+            "The clavicle is dislocated"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Flail chest occurs when multiple adjacent ribs are fractured, causing paradoxical chest wall movement."
+        },
+        {
+          "id": "pulmonary_embolism_onset",
+          "question": "Pulmonary embolism typically has:",
+          "options": [
+            "Gradual onset over days",
+            "Sudden onset with severe symptoms",
+            "Intermittent symptoms",
+            "Mild symptoms only"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Pulmonary embolism typically has sudden onset with severe dyspnea, tachycardia, and chest pain."
+        },
+        {
+          "id": "asthma_respiratory_assessment",
+          "question": "In acute asthma, assessment priority is:",
+          "options": [
+            "Breath sounds and respiratory rate",
+            "Skin color and temperature",
+            "Blood pressure and pulse",
+            "Level of consciousness only"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Assessment priority in acute asthma is breath sounds and respiratory rate to evaluate severity."
+        },
+        {
+          "id": "hypoxia_progression_cues",
+          "question": "Which are late cues of hypoxia progression?",
+          "options": [
+            "Restlessness and agitation",
+            "Visible color changes and decreased consciousness",
+            "Tachycardia and tachypnea",
+            "Anxiety and confusion"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Late oxygenation failure cues include visible color changes and decreased level of consciousness."
+        }
+      ]
+    },
+    {
+      "id": "chronic_respiratory_exam",
+      "name": "Chronic Respiratory Diseases Exam",
+      "type": "exam",
+      "scenarios": [
+        {
+          "id": "copd_assessment",
+          "slide": 1,
+          "question": "A client with COPD exhibits a barrel chest, dyspnea, clubbing, and shallow rapid respirations. These findings indicate which complication of COPD?",
+          "options": [
+            "Acute respiratory failure",
+            "Chronic hypoxia manifestations",
+            "Pulmonary hypertension",
+            "Right heart failure"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Barrel chest, dyspnea, clubbing, and shallow rapid respirations are hallmark physical findings in advanced COPD as described in Quiz Review #19 under 'COPD \u2013 Expected Findings & Nursing Interventions.' These manifestations result from chronic hypoxia and hyperinflation of the lungs. Acute respiratory failure would present with more acute changes like confusion or severe tachycardia. Pulmonary hypertension is a complication but not the primary expected finding. Right heart failure (cor pulmonale) can occur but is not listed among the basic expected findings in the quiz material."
+        },
+        {
+          "id": "copd_breathing",
+          "slide": 2,
+          "question": "Which breathing technique should the nurse teach a client with COPD to prolong exhalation and prevent airway collapse?",
+          "options": [
+            "Diaphragmatic breathing",
+            "Pursed-lip breathing",
+            "Abdominal breathing",
+            "4-7-8 breathing"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Pursed-lip breathing is specifically taught to COPD patients as outlined in Quiz Review #19 under 'COPD \u2013 Expected Findings & Nursing Interventions' and 'Emphysema \u2013 Gas Exchange Strategies.' This technique prolongs exhalation to prevent airway collapse, reduces air trapping in the lungs, and improves gas exchange. Diaphragmatic breathing, while helpful for some respiratory conditions, is not specifically mentioned for COPD management in the quiz materials. Abdominal breathing refers to diaphragmatic breathing. 4-7-8 breathing is a general relaxation technique but not specific to COPD airway management."
+        },
+        {
+          "id": "copd_vs_asthma",
+          "slide": 3,
+          "question": "Which characteristic differentiates COPD from asthma?",
+          "options": [
+            "Progressive disease course",
+            "Reversible airway obstruction",
+            "Episodic symptoms",
+            "Often begins in childhood"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "As clearly differentiated in Quiz Review #19 under 'COPD vs. Asthma,' COPD is characterized by progressive, persistent symptoms with irreversible airflow limitation, often associated with smoking history. Asthma presents with episodic, trigger-related symptoms and reversible airway obstruction that often begins earlier in life. Progressive disease course differentiates COPD (progressive, irreversible) from asthma (episodic, reversible). Reversible airway obstruction is characteristic of asthma. Episodic symptoms characterize asthma's pattern."
+        },
+        {
+          "id": "copd_nutrition",
+          "slide": 4,
+          "question": "The nurse is teaching a client with COPD about nutrition. Which dietary recommendations are appropriate?",
+          "options": [
+            "High-calorie, high-protein diet",
+            "Low-sodium, fluid-restricted diet",
+            "High-fiber, low-fat diet",
+            "Calorie-restricted, ketogenic diet"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "According to Quiz Review #19 under 'COPD \u2013 Expected Findings & Nursing Interventions' and 'Nutrition & hydration,' COPD patients require a high-calorie, high-protein diet due to increased work of breathing and metabolic demands. This helps maintain muscle mass and respiratory function. A low-sodium diet is important for hypertension but not specifically for COPD. High-fiber diets are generally healthy but don't address COPD's specific nutritional needs. Calorie-restricted diets would be inappropriate for patients already at risk for malnutrition from their respiratory condition."
+        },
+        {
+          "id": "asthma_therapy",
+          "slide": 5,
+          "question": "A client with asthma is prescribed both a bronchodilator and an inhaled corticosteroid. In what order should these medications be administered?",
+          "options": [
+            "Bronchodilator first, then corticosteroid",
+            "Corticosteroid first, then bronchodilator",
+            "Simultaneously",
+            "Based on patient preference"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "As specified in Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers,' bronchodilators must be administered before inhaled corticosteroids to open airways and enhance penetration of the steroid medication into the lung tissue. Administering corticosteroids first would be ineffective since the airways are constricted. Simultaneous administration is not recommended in the quiz materials. Patient preference is not a valid medical reason for changing evidence-based medication sequencing."
+        },
+        {
+          "id": "mdi_technique",
+          "slide": 6,
+          "question": "When teaching proper metered-dose inhaler (MDI) technique, which instruction is essential for effective medication delivery?",
+          "options": [
+            "Shake the inhaler vigorously before each use",
+            "Inhale rapidly and forcefully",
+            "Hold breath for at least 10 seconds after inhalation",
+            "Rinse mouth only if taste is unpleasant"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers' specifies that proper MDI technique includes slow deep inhalation, breath held for at least 10 seconds, and waiting between puffs. This ensures optimal medication deposition deep in the lung tissue. Shaking is important but not the critical step for effective delivery. Rapid forceful inhalation would cause medication to deposit in the mouth/throat. Breath holding for less than 10 seconds allows medication to be exhaled before absorption. Rinse mouth is important after corticosteroids but not the primary technique for effective delivery."
+        },
+        {
+          "id": "cystic_fibrosis_patho",
+          "slide": 34,
+          "question": "A client with cystic fibrosis experiences dysfunction of the exocrine glands and production of thick, tenacious mucus. Which symptom is typically the first pulmonary manifestation?",
+          "options": [
+            "Hemoptysis",
+            "Dyspnea on exertion",
+            "Chronic productive cough",
+            "Clubbing of the fingers"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "According to Lower Respiratory MS1 slide 34, 'Cough is the first pulmonary symptom' in cystic fibrosis due to dysfunction of exocrine glands producing thick mucus and impaired mucociliary clearance. Hemoptysis occurs later in disease progression. Dyspnea on exertion develops as lung function declines. Digital clubbing is a late sign of chronic hypoxemia. While all these can occur in CF, cough is specifically identified as the initial pulmonary manifestation in the lecture material."
+        },
+        {
+          "id": "cystic_fibrosis_treatment",
+          "slide": 36,
+          "question": "A client with cystic fibrosis is prescribed pancreatic enzyme replacement. When should these medications be administered?",
+          "options": [
+            "On an empty stomach, 30 minutes before meals",
+            "With meals and snacks",
+            "At bedtime only",
+            "Once daily in the morning"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Lower Respiratory MS1 slide 36 specifies that 'pancreatic enzyme replacement' should be administered 'with meals and snacks' for CF patients with pancreatic insufficiency to properly digest nutrients. Taking enzymes on an empty stomach would provide no benefit since there are no nutrients to digest. Taking them at bedtime is not indicated. Once daily dosing would be insufficient for proper nutrient absorption throughout the day."
+        },
+        {
+          "id": "emphysema_technique",
+          "slide": 9,
+          "question": "For a client with emphysema, which breathing technique promotes gas exchange and reduces work of breathing?",
+          "options": [
+            "Breathing in through pursed lips and out through the nose",
+            "Breathing in through the nose and out through pursed lips",
+            "Rapid shallow breathing",
+            "Holding breath for 20 seconds between breaths"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Emphysema \u2013 Gas Exchange Strategies' specifies 'breathing in through the nose and out through pursed lips' to prolong exhalation and improve gas exchange in emphysema patients. Pursed-lip breathing in reverse (in through pursed lips) is not described in the materials. Abdominal breathing focuses on diaphragmatic movement but doesn't address the specific nose/pursed-lip technique. Holding breath prevents normal gas exchange and would be harmful."
+        },
+        {
+          "id": "home_oxygen_safety",
+          "slide": 10,
+          "question": "A client is prescribed home oxygen therapy. Which safety measure is most important?",
+          "options": [
+            "Keep oxygen at least 10 feet from heat sources",
+            "Avoid using petroleum-based lotions",
+            "Ensure proper equipment fitting",
+            "All of the above"
+          ],
+          "answer": [
+            3
+          ],
+          "rationale": "Quiz Review #19 under 'Home Oxygen Therapy \u2013 Safety & Skin Care' identifies that oxygen 'increases fire risk' and patients must 'avoid petroleum-based products (more flammable),' 'assess skin breakdown at pressure points,' and ensure 'equipment must be clean and properly fitted.' Keeping oxygen away from outlets is good practice but not the most critical safety measure mentioned. Using extension cords is unsafe with oxygen equipment. Storing cylinders in the garage increases fire risk and is not recommended."
+        },
+        {
+          "id": "tb_manifestations",
+          "slide": 11,
+          "question": "Which clinical manifestations are characteristic of tuberculosis?",
+          "options": [
+            "Fatigue, hemoptysis, night sweats",
+            "Productive cough, fever, weight gain",
+            "Dyspnea, wheezing, chest tightness",
+            "Sore throat, nasal congestion, rhinorrhea"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Quiz Review #19 under 'Tuberculosis (TB) Expected clinical manifestations' lists: fatigue, hemoptysis, night sweats, weight loss, anorexia, and low-grade afternoon fever as characteristic symptoms. Productive cough with fever suggests bacterial pneumonia. Dyspnea with wheezing indicates asthma or COPD exacerbation. Sore throat with congestion suggests viral upper respiratory infection rather than TB."
+        },
+        {
+          "id": "pneumonia_oxygenation",
+          "slide": 12,
+          "question": "When caring for a client with pneumonia and low oxygen saturation, which positioning maximizes lung expansion?",
+          "options": [
+            "Supine position",
+            "Trendelenburg position",
+            "High Fowler position",
+            "Left lateral position"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Quiz Review #19 under 'Pneumonia \u2013 Oxygenation & Secretion Management' states that 'positioning that maximizes lung expansion' is priority for low oxygen saturation in pneumonia. High Fowler position accomplishes this by allowing maximum chest expansion and lung inflation. Supine position would decrease lung expansion. Trendelenburg position is contraindicated as it can cause respiratory distress. Left lateral position may help with specific lung segments but is not the primary position for oxygenation."
+        },
+        {
+          "id": "airway_clearance",
+          "slide": 13,
+          "question": "Before performing airway clearance therapies like percussion and postural drainage, the nurse should first:",
+          "options": [
+            "Administer pain medication",
+            "Assess lung fields to identify target areas",
+            "Apply supplemental oxygen",
+            "Have suction equipment ready"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Pneumonia \u2013 Oxygenation & Secretion Management' specifies that 'first action is always assessment of lung fields to identify target areas' before airway clearance therapies like percussion and postural drainage. Pain medication may be needed but assessment comes first. Supplemental oxygen may be indicated but doesn't replace the need for assessment. Suction equipment should be ready but assessment determines if it's needed."
+        },
+        {
+          "id": "resp_acidosis",
+          "slide": 14,
+          "question": "A client with COPD has ABG results showing low pH and elevated PaCO2. This indicates:",
+          "options": [
+            "Metabolic alkalosis",
+            "Respiratory acidosis",
+            "Metabolic acidosis",
+            "Respiratory alkalosis"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Acid\u2013Base Balance (ABGs)' defines respiratory acidosis as 'low pH, elevated PaCO\u2082, normal bicarbonate in uncompensated states, caused by hypoventilation or airway obstruction.' Metabolic alkalosis would show high pH with metabolic changes. Respiratory alkalosis would show high pH with low PaCO2. Metabolic acidosis would show low pH with low bicarbonate."
+        },
+        {
+          "id": "aspiration_risk",
+          "slide": 15,
+          "question": "Which finding in a client indicates risk for aspiration and requires immediate follow-up?",
+          "options": [
+            "Clear speech after drinking water",
+            "Coughing with eating",
+            "Normal oxygen saturation",
+            "Ability to swallow pills easily"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Dysphagia & Aspiration Risk' lists 'coughing with eating' as a finding requiring 'immediate follow-up' for aspiration risk. Clear speech after drinking water indicates no current aspiration risk. Hoarse voice after swallowing is also listed as a concerning sign. Normal oxygen saturation doesn't rule out aspiration risk. Ability to swallow pills easily is not a reliable indicator of swallowing safety."
+        },
+        {
+          "id": "bronchodilator_outcomes",
+          "slide": 16,
+          "question": "Following effective bronchodilator therapy, the nurse would expect to observe:",
+          "options": [
+            "Increased wheezing and accessory muscle use",
+            "Decreased oxygen saturation",
+            "Improved breathing effort and reduced respiratory rate",
+            "Increased sputum production and cough"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Quiz Review #19 under 'Client Outcomes \u2013 Effective Bronchodilator Therapy' lists: decreased wheezing, reduced accessory muscle use, improved oxygen saturation, decreased respiratory rate, easier breathing effort. Increased wheezing would indicate ineffective therapy. Decreased oxygen saturation would suggest worsening respiratory status. Increased sputum suggests infection or inadequate clearance. No change in respiratory rate would indicate lack of improvement."
+        },
+        {
+          "id": "acute_bronchitis",
+          "slide": 17,
+          "question": "A client is diagnosed with acute bronchitis. Which medication is most appropriate for symptom management?",
+          "options": [
+            "Antitussive agents like dextromethorphan",
+            "Expectorant agents like guaifenesin",
+            "Antibiotics for 7-10 days",
+            "Inhaled corticosteroids"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Lower Respiratory MS1 slide 5 states that acute bronchitis treatment includes antitussive agents like dextromethorphan or expectorant guaifenesin, with broad-spectrum antibiotics for 7-10 days if bacterial. Since most cases are viral, expectorants are often the first-line treatment. Antitussives suppress cough but don't address the underlying cause. Antibiotics are not routinely prescribed for viral bronchitis. Inhaled corticosteroids are used for asthma/COPD, not acute bronchitis."
+        },
+        {
+          "id": "influenza_spread",
+          "slide": 18,
+          "question": "How is influenza primarily spread?",
+          "options": [
+            "Through contaminated food and water",
+            "Through droplet infection",
+            "Through direct skin contact",
+            "Through insect vectors"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Lower Respiratory MS1 slide 6 states that influenza spreads through droplet infection, similar to the common cold but with different symptoms. Food/water contamination would indicate a gastrointestinal pathogen. Direct skin contact is not the primary transmission route. Insect vectors are not involved in influenza transmission."
+        },
+        {
+          "id": "respiratory_anatomy",
+          "slide": 19,
+          "question": "The respiratory center that controls breathing is located in the:",
+          "options": [
+            "Cerebellum",
+            "Medulla oblongata",
+            "Pons",
+            "Cerebral cortex"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Upper Respiratory MS1 slide 4 states that the respiratory center is located in the medulla oblongata and stimulated by changing CO2 and O2 levels in arterial blood. The cerebellum controls coordination and balance. The pons assists with respiratory control but is not the primary center. The cerebral cortex controls voluntary functions and consciousness."
+        },
+        {
+          "id": "thorax_assessment",
+          "slide": 20,
+          "question": "When assessing the thorax, the nurse should auscultate the lungs:",
+          "options": [
+            "Only on the anterior chest",
+            "Only on the posterior chest",
+            "Bilaterally in a systematic manner",
+            "Only if crackles are heard"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Upper Respiratory MS1 slide 7 states that lung auscultation should be performed bilaterally in a systematic manner. Anterior chest assessment alone misses posterior lung fields. Posterior assessment alone misses anterior fields. Systematic bilateral assessment ensures complete evaluation. Auscultation only when crackles are heard would miss other important findings."
+        },
+        {
+          "id": "coarse_crackles",
+          "slide": 21,
+          "question": "Coarse crackles heard during lung auscultation are typically caused by:",
+          "options": [
+            "Fluid in the alveoli",
+            "Narrowing of small airways",
+            "Secretions in larger airways",
+            "Fibrotic changes in lung tissue"
+          ],
+          "answer": [
+            2
+          ],
+          "rationale": "Upper Respiratory MS1 slide 7 describes coarse crackles as caused by secretions accumulating in larger airways, usually cleared with coughing. Fine crackles are caused by fluid in alveoli. Narrowing of small airways causes wheezes. Fibrotic changes in lung tissue cause crackles but are typically fine, not coarse."
+        },
+        {
+          "id": "rifampin_tb",
+          "slide": 22,
+          "question": "A client prescribed rifampin for tuberculosis develops reddish-orange colored secretions. The nurse understands this is:",
+          "options": [
+            "An allergic reaction requiring immediate discontinuation",
+            "A harmless side effect of the medication",
+            "A sign of treatment failure",
+            "An indication to increase the dose"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "In Class Quiz 19 review states 'Rifampin - TB drug, REDDISH/ORAGNE SECRETIONS' indicating this is a harmless side effect. An allergic reaction would require immediate discontinuation and show different symptoms like rash or anaphylaxis. A sign of treatment failure would show worsening clinical symptoms. Increasing the dose would not address discoloration and could cause toxicity."
+        },
+        {
+          "id": "tb_diagnosis",
+          "slide": 23,
+          "question": "A client has a positive TB skin test but no active disease. Which diagnostic test should be used to confirm latent TB?",
+          "options": [
+            "Repeat tuberculin skin test in 3 months",
+            "QuantiFERON-TB Gold blood test",
+            "Chest X-ray only",
+            "Sputum culture for acid-fast bacilli"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "In Class Quiz 19 review states 'If you have +TB test intradermally, you will always test positive. Must use QuantiFERON or Chest x-ray.' Repeat skin testing is not useful due to persistent positivity. Chest X-ray alone cannot confirm latent TB. Sputum culture is for active TB diagnosis, not latent."
+        },
+        {
+          "id": "antitussive_action",
+          "slide": 24,
+          "question": "An antitussive medication works by:",
+          "options": [
+            "Thinning respiratory secretions",
+            "Suppressing the cough reflex in the brain",
+            "Relaxing bronchial smooth muscle",
+            "Reducing airway inflammation"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "In Class Quiz 19 review states 'What does an anti-tussive: SUPPRESSES COUGH REFLEX.' Expectorants thin secretions rather than suppress cough. Bronchodilators relax smooth muscle but don't affect cough reflex. Anti-inflammatory agents reduce inflammation but don't directly suppress cough."
+        },
+        {
+          "id": "codeine_side_effects",
+          "slide": 25,
+          "question": "A client prescribed codeine for cough suppression should be monitored for which side effects?",
+          "options": [
+            "Hypertension and tachycardia",
+            "Drowsiness and sedation",
+            "Nausea and vomiting",
+            "Increased respiratory rate"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "In Class Quiz 19 review states 'Side effect of codeine: DROWSINESS AND SEDATION.' Hypertension and tachycardia are not typical opioid side effects. Nausea/vomiting can occur but sedation is the primary CNS effect. Increased respiratory rate would be paradoxical and not expected with opioids."
+        },
+        {
+          "id": "isoniazid_duration",
+          "slide": 26,
+          "question": "Isoniazid (INH) for latent tuberculosis infection is typically prescribed for:",
+          "options": [
+            "2 weeks",
+            "1 month",
+            "6 months",
+            "9 months"
+          ],
+          "answer": [
+            3
+          ],
+          "rationale": "In Class Quiz 19 review states 'How long Isoniazid, how long to prescribe? 9 MONTHS.' 2 weeks would be inadequate for LTBI treatment. 1 month is insufficient duration. 6 months is shorter than recommended for full protection."
+        },
+        {
+          "id": "mdi_purpose",
+          "slide": 27,
+          "question": "The primary purpose of using a metered-dose inhaler (MDI) is to:",
+          "options": [
+            "Reduce medication side effects",
+            "Increase medication delivery to the lungs",
+            "Decrease treatment frequency",
+            "Eliminate the need for spacers"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "In Class Quiz 19 review states 'Why use a metered dose inhaler? TO INCREASE THE INTAKE OF THE MEDICATION REACHING THE LUNGS.' MDIs create a fine mist for optimal lung deposition. Reducing dosage would not address delivery issues. Decreasing frequency would not improve delivery. Eliminating spacers would worsen delivery in patients who need them."
+        },
+        {
+          "id": "mdi_spacer",
+          "slide": 28,
+          "question": "A spacer is used with a metered-dose inhaler (MDI) to:",
+          "options": [
+            "Reduce medication dosage requirements",
+            "Improve delivery of medication into the lungs",
+            "Prevent medication interactions",
+            "Decrease treatment cost"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers' states 'A spacer is used to improve delivery of medication into the lungs.' This provides time for proper aerosolization. Reducing dosage requirements is not the primary purpose. Spacers don't prevent interactions. Treatment cost is not affected by spacer use."
+        },
+        {
+          "id": "inhaled_corticosteroid_rinse",
+          "slide": 29,
+          "question": "After using inhaled corticosteroids, the client should rinse their mouth to prevent:",
+          "options": [
+            "Dry mouth and throat irritation",
+            "Oral thrush and candidiasis",
+            "Bad taste and nausea",
+            "Increased heart rate"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers' states 'After inhaled corticosteroids, the client should rinse the mouth to prevent oral complications such as thrush or oral candidiasis.' Dry mouth is not the primary concern. Oral thrush is the specific complication mentioned. Bad taste is possible but not the main reason. Heart rate changes are not associated with inhaled corticosteroids."
+        },
+        {
+          "id": "rapid_relief_medications",
+          "slide": 30,
+          "question": "Rapid relief bronchodilator medications are primarily used for:",
+          "options": [
+            "Long-term inflammation prevention",
+            "Acute dyspnea, wheezing, and accessory muscle use",
+            "Daily maintenance therapy",
+            "Prevention of asthma attacks"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Bronchodilators vs. Anti-inflammatory Therapy' states rapid relief medications are 'used for acute dyspnea, wheezing, and accessory muscle use' by 'relaxing bronchial smooth muscle.' Long-term control medications are for inflammation prevention. Daily maintenance therapy describes controller medications. Prevention of attacks is a goal but not the immediate use."
+        },
+        {
+          "id": "opioid_cough_monitoring",
+          "slide": 31,
+          "question": "A client prescribed codeine for cough suppression should be monitored for opioid-related side effects including:",
+          "options": [
+            "Hypertension and tachycardia",
+            "Sedation, constipation, and urinary retention",
+            "Nausea, vomiting, and diarrhea",
+            "Increased respiratory rate and wheezing"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Antitussives & Cough Management' states opioid-based cough medications require monitoring for 'sedation, constipation, urinary retention.' These are classic opioid side effects. Hypertension and tachycardia are not typical opioid effects. Nausea/vomiting occur but sedation is the primary concern. Increased respiratory rate would be unexpected with opioid use."
+        },
+        {
+          "id": "tb_medication_timing",
+          "slide": 32,
+          "question": "Rifampin for tuberculosis treatment should be taken:",
+          "options": [
+            "With meals to improve absorption",
+            "On an empty stomach",
+            "With antacids to prevent stomach upset",
+            "At bedtime to minimize side effects"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Quiz Review #19 under 'Tuberculosis (TB) Expected clinical manifestations' states rifampin should be taken 'on an empty stomach' for proper absorption. Taking with meals reduces effectiveness. Antacids don't affect rifampin timing. Bedtime dosing doesn't address the absorption requirement."
+        },
+        {
+          "id": "pneumonia_fluids",
+          "slide": 33,
+          "question": "To thin respiratory secretions in pneumonia, the nurse should encourage:",
+          "options": [
+            "Increased fluid intake",
+            "Decreased fluid intake to reduce sputum volume",
+            "Thickened liquids only",
+            "Carbonated beverages"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Quiz Review #19 under 'Pneumonia \u2013 Oxygenation & Secretion Management' emphasizes that 'thinning secretions requires adequate fluid intake' to facilitate clearance in pneumonia patients. Dehydration thickens secretions and impairs ciliary function. Decreased fluid intake would worsen secretion viscosity. Thickened liquids are prescribed for dysphagia, not to thin secretions. Carbonated beverages don't provide the sustained hydration needed for secretion management."
+        },
+        {
+          "id": "copd_upright_positioning",
+          "slide": 34,
+          "question": "Upright positioning in COPD improves:",
+          "options": [
+            "Diaphragmatic excursion and lung expansion",
+            "Blood pressure and cardiac output",
+            "Urine output and kidney function",
+            "Sleep quality and duration"
+          ],
+          "answer": [
+            0
+          ],
+          "rationale": "Upright positioning allows better diaphragmatic excursion and lung expansion, improving ventilation and gas exchange in COPD."
+        },
+        {
+          "id": "tracheostomy_suctioning_priority",
+          "slide": 35,
+          "question": "Before performing tracheostomy suctioning, the nurse's first action should be to:",
+          "options": [
+            "Hyperoxygenate the patient",
+            "Collect respiratory assessment data",
+            "Prepare suction equipment",
+            "Administer pain medication"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Collecting respiratory data first ensures suctioning is indicated and helps determine the appropriate timing for hyperoxygenation."
+        },
+        {
+          "id": "home_oxygen_fire_safety",
+          "slide": 36,
+          "question": "Home oxygen therapy increases fire risk. Which precaution is most important?",
+          "options": [
+            "Keep oxygen at least 10 feet from electrical outlets",
+            "Avoid petroleum-based products and open flames",
+            "Use extension cords for oxygen concentrators",
+            "Store oxygen cylinders in the garage"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Oxygen supports combustion, so avoiding petroleum-based products (which are flammable) and open flames is critical for fire safety."
+        },
+        {
+          "id": "respiratory_acidosis_details",
+          "slide": 37,
+          "question": "In uncompensated respiratory acidosis, which ABG findings are expected?",
+          "options": [
+            "pH elevated, PaCO2 decreased, HCO3 normal",
+            "pH decreased, PaCO2 elevated, HCO3 normal",
+            "pH decreased, PaCO2 normal, HCO3 elevated",
+            "pH elevated, PaCO2 elevated, HCO3 decreased"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Respiratory acidosis shows decreased pH and elevated PaCO2. In uncompensated states, bicarbonate remains normal initially."
+        },
+        {
+          "id": "aspiration_hoarse_voice",
+          "slide": 38,
+          "question": "A client with hoarse voice after swallowing should be evaluated for:",
+          "options": [
+            "Gastroesophageal reflux disease",
+            "Aspiration risk requiring immediate follow-up",
+            "Laryngitis that will resolve spontaneously",
+            "Allergic reaction to food"
+          ],
+          "answer": [
+            1
+          ],
+          "rationale": "Hoarse voice after swallowing indicates possible aspiration and requires immediate evaluation to prevent complications."
+        }
+      ]
+    },
+    {
+      "id": "advanced_missions",
+      "name": "Module: Advanced NGN Missions (51-60)",
+      "type": "mission",
+      "scenarios": []
+    }
+  ]
+}

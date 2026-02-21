@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGN MASTERY HUB v1.1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #0f172a; --secondary: #1e293b; --accent: #3b82f6; --text: #f8fafc; --success: #22c55e; --danger: #ef4444; --warning: #f59e0b; --border: #334155; }
+        body { background-color: var(--primary); color: var(--text); font-family: 'Inter', system-ui, sans-serif; padding-bottom: 50px; }
+        .nexus-nav { background: var(--secondary); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; padding: 1rem 0; }
+        .control-panel { background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 15px 0; position: sticky; top: 73px; z-index: 999; }
+        .nexus-card { background: var(--secondary); border: 1px solid var(--border); border-radius: 16px; padding: 25px; margin-bottom: 20px; transition: 0.3s ease; height: 100%; display: flex; flex-direction: column; }
+        .nexus-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3); }
+        .point-label { font-weight: 800; color: var(--accent); text-transform: uppercase; font-size: 0.65rem; margin-top: 14px; letter-spacing: 1.2px; display: block; border-bottom: 1px solid rgba(59, 130, 246, 0.2); padding-bottom: 2px; margin-bottom: 4px; }
+        .point-value { font-size: 0.9rem; color: #e2e8f0; line-height: 1.6; padding-bottom: 4px; }
+        .badge-cv { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid #3b82f6; }
+        .badge-dm { background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid #22c55e; }
+        .inter-box { margin-top: 10px; padding: 12px; border-radius: 8px; border: 1px solid #475569; font-size: 0.85rem; background: rgba(0,0,0,0.3); }
+        .inter-high { background: rgba(239, 68, 68, 0.1); border-color: var(--danger); color: #fca5a5; }
+        .inter-label { font-weight: bold; color: var(--warning); display: block; margin-bottom: 2px; }
+        .btn-filter { border-width: 2px; font-weight: 700; transition: 0.2s; }
+        .btn-filter.active-cv { background: var(--accent); color: white; border-color: var(--accent); }
+        .btn-filter.active-dm { background: var(--success); color: white; border-color: var(--success); }
+    </style>
+</head>
+<body>
+
+<nav class="nexus-nav shadow-lg">
+    <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+        <div>
+            <h4 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-2"></i>TITANIUM DRUG PORTAL <small class="text-secondary ms-2">v1.1</small></h4>
+            <p class="small text-secondary mb-0">High-Fidelity Pharmacological Analysis & Database</p>
+        </div>
+    </div>
+</nav>
+
+<div class="control-panel shadow">
+    <div class="container-fluid px-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">
+                <input type="text" id="drugSearch" class="form-control bg-dark text-white border-secondary" placeholder="Search by Generic, Brand, or Class..." onkeyup="updateDisplay()">
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex align-items-center">
+                    <span class="small text-secondary me-3 fw-bold">FILTERS:</span>
+                    <button id="btn-cv" class="btn btn-outline-primary btn-filter me-2 active-cv" onclick="toggleFilter('cv')">Cardio</button>
+                    <button id="btn-dm" class="btn btn-outline-success btn-filter active-dm" onclick="toggleFilter('dm')">Diabetes</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="btn-group w-100">
+                    <button id="sort-az" class="btn btn-outline-light active" onclick="setSort('az')">A-Z Name</button>
+                    <button id="sort-class" class="btn btn-outline-light" onclick="setSort('class')">By Class</button>
+                </div>
+            </div>
+            <div class="col-md-2 text-end">
+                <span id="counter" class="fw-bold text-accent">Entries: 0</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid px-4 mt-4">
+    <div class="row" id="drug-grid">
+        <!-- JS RENDER -->
+    </div>
+</div>
+
+<script>
+const drugDB = [
+    // --- HYPERLIPIDEMIA (STATINS) ---
+    { 
+        g: "Atorvastatin", b: "Lipitor", c: "Statin (HMG-CoA Reductase Inhibitor)", 
+        m: "Competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol synthesis. This leads to a compensatory upregulation of LDL receptors on the surface of hepatocytes, which dramatically increases the clearance of LDL-C from the systemic circulation. Effectively lowers LDL (20-60%) and Triglycerides (10-30%) while modestly increasing HDL.", 
+        ind: "Primary Hyperlipidemia, primary prevention of cardiovascular disease in asymptomatic patients with multiple risk factors, secondary prevention of clinical cardiovascular events (MI, stroke reduction) in patients with established CAD.", 
+        con: "Active liver disease (cirrhosis, persistent transaminitis), pregnancy (Category X - absolute contraindication due to fetal cholesterol requirements), breastfeeding, hypersensitivity.", 
+        ae: "Myalgia (common), Rhabdomyolysis (rare but critical - muscle breakdown leading to myoglobinuria and acute renal failure), hepatotoxicity (elevated ALT/AST), new-onset Type 2 Diabetes, GI distress (dyspepsia, flatulence).", 
+        inter: [
+            {d: "Grapefruit Juice", m: "Inhibits CYP3A4 metabolism; leads to toxic statin levels and extreme Rhabdomyolysis risk.", s: "high"},
+            {d: "Warfarin", m: "Potentiates anticoagulation effect; increases bleeding risk and INR levels.", s: "med"},
+            {d: "Gemfibrozil", m: "Synergistic risk for severe myopathy and skeletal muscle breakdown.", s: "high"}
+        ],
+        admin: "Take orally once daily. Peak cholesterol synthesis occurs at night, so EVENING dosing is preferred for maximal efficacy. Can be taken with or without food.",
+        nurse: "Obtain baseline LFTs and Lipid panel. Monitor for dark, tea-colored urine (Rhabdo sign). Assess for RUQ pain or jaundice. Monitor CK levels if muscle pain is reported.",
+        cat: "cv"
+    },
+    { 
+        g: "Simvastatin", b: "Zocor", c: "Statin (HMG-CoA Reductase Inhibitor)", 
+        m: "Blocks the conversion of HMG-CoA to mevalonate in the liver. Increases the number of hepatic LDL receptors to enhance uptake and catabolism of LDL.", 
+        ind: "Hyperlipidemia, reduction of total mortality by reducing coronary death and non-fatal MI risk.", 
+        con: "Active liver disease, pregnancy, co-administration with strong CYP3A4 inhibitors (e.g., clarithromycin, itraconazole).", 
+        ae: "Myalgia, rhabdomyolysis, elevated liver enzymes, insomnia, headache.", 
+        inter: [
+            {d: "Amiodarone/Verapamil", m: "Increases simvastatin concentration; limit dose to 20mg/day.", s: "high"},
+            {d: "Warfarin", m: "Increases PT/INR.", s: "med"}
+        ],
+        admin: "Administer in the EVENING. Dosage range 5-40mg daily. Do not start new patients on 80mg dose due to myopathy risk.",
+        nurse: "Monitor liver function baseline and then as clinically indicated. Evaluate patient for muscle tenderness or weakness.",
+        cat: "cv"
+    },
+    { 
+        g: "Rosuvastatin", b: "Crestor", c: "Statin (HMG-CoA Reductase Inhibitor)", 
+        m: "Potent inhibitor of HMG-CoA reductase. Highly hydrophilic compared to other statins, which may reduce entry into non-hepatic tissues.", 
+        ind: "Hyperlipidemia, slowing of atherosclerosis progression, primary prevention of CV disease.", 
+        con: "Pregnancy, active liver disease, severe renal impairment.", 
+        ae: "Rhabdomyolysis, myalgia, proteinuria (transient), increased HbA1c.", 
+        inter: [
+            {d: "Antacids", m: "Reduce absorption; separate by 2 hours.", s: "med"},
+            {d: "Cyclosporine", m: "Increases rosuvastatin levels 7-fold.", s: "high"}
+        ],
+        admin: "Take anytime of day, but be consistent. Start at 5-10mg daily. Highest risk for Rhabdo at 40mg dose.",
+        nurse: "Check renal function. Monitor for dark urine and unexplained muscle pain.",
+        cat: "cv"
+    },
+    { 
+        g: "Ezetimibe", b: "Zetia", c: "Cholesterol Absorption Inhibitor", 
+        m: "Inhibits the NPC1L1 protein in the small intestine, blocking the absorption of dietary and biliary cholesterol. Reduces hepatic cholesterol stores.", 
+        ind: "Primary hypercholesterolemia (often as adjunct to statins), homozygous sitosterolemia.", 
+        con: "Moderate to severe hepatic impairment, pregnancy (when combined with statins).", 
+        ae: "Fatigue, abdominal pain, diarrhea, arthralgia, sinusitis.", 
+        inter: [
+            {d: "Bile Acid Resins", m: "Decreases ezetimibe absorption; separate by 2-4 hours.", s: "med"},
+            {d: "Cyclosporine", m: "Increases level of both drugs.", s: "med"}
+        ],
+        admin: "Take 10mg once daily. Can be taken at the same time as a statin (unlike resins).",
+        nurse: "Monitor LFTs when used with statins. Assess for GI side effects.",
+        cat: "cv"
+    },
+    { 
+        g: "Cholestyramine", b: "Questran", c: "Bile Acid Sequestrant (Resin)", 
+        m: "Binds with bile acids in the intestine to form an insoluble complex that is excreted in the feces. This prevents reabsorption of bile acids, forcing the liver to convert more cholesterol into bile, lowering serum LDL levels.", 
+        ind: "Primary hypercholesterolemia, pruritus associated with partial biliary obstruction.", 
+        con: "Complete biliary obstruction, hypersensitivity.", 
+        ae: "Constipation (severe), bloating, flatulence, nausea, fecal impaction, Vitamin A, D, E, K deficiency.", 
+        inter: [
+            {d: "Warfarin/Digoxin/Thyroid", m: "Binds these drugs in gut; prevents absorption.", s: "high"},
+            {d: "Thiazide Diuretics", m: "Decreased diuretic effect.", s: "med"}
+        ],
+        admin: "Mix powder with 60-180 mL of water, juice, or non-carbonated beverage. Do not take in dry form (choking/aspiration risk).",
+        nurse: "Monitor for severe constipation. Give other medications 1 hour before or 4-6 hours after the resin. Monitor INR if on warfarin.",
+        cat: "cv"
+    },
+    { 
+        g: "Gemfibrozil", b: "Lopid", c: "Fibric Acid Derivative (Fibrate)", 
+        m: "Activates PPAR-alpha, which increases the expression of lipoprotein lipase. This increases the clearance of triglyceride-rich VLDL and reduces hepatic triglyceride production. Increases HDL significantly.", 
+        ind: "Severe hypertriglyceridemia (Type IV or V), reduction of CAD risk in patients with low HDL and high LDL.", 
+        con: "Gallbladder disease, primary biliary cirrhosis, severe renal or hepatic dysfunction.", 
+        ae: "Gallstones (cholelithiasis), dyspepsia, abdominal pain, hepatotoxicity (elevated LFTs), myopathy.", 
+        inter: [
+            {d: "Statins", m: "Extreme risk of Rhabdomyolysis; generally avoided.", s: "high"},
+            {d: "Warfarin", m: "Displaces warfarin from protein binding; increases bleeding and INR.", s: "high"},
+            {d: "Repaglinide", m: "CONTRAINDICATED; inhibits metabolism leading to severe, prolonged hypoglycemia.", s: "critical"}
+        ],
+        admin: "Take 600mg twice daily, 30 minutes BEFORE the morning and evening meals.",
+        nurse: "Monitor LFTs, CBC (can cause anemia/leukopenia), and for symptoms of gallstones (RUQ pain, fatty food intolerance).",
+        cat: "cv"
+    },
+
+    // --- HYPERTENSION (ACE, ARB, DRI) ---
+    { 
+        g: "Lisinopril", b: "Prinivil, Zestril", c: "ACE Inhibitor", 
+        m: "Prevents the Angiotensin-Converting Enzyme (ACE) from converting Angiotensin I to Angiotensin II (a potent vasoconstrictor). This results in systemic vasodilation and decreased aldosterone secretion, promoting sodium/water excretion and potassium retention.", 
+        ind: "Hypertension, Heart Failure (HFrEF), Post-MI survival improvement, Diabetic Nephropathy (reduces proteinuria).", 
+        con: "Pregnancy (Black Box: fetal death), history of angioedema (hereditary or ACE-I induced), bilateral renal artery stenosis.", 
+        ae: "Dry, nonproductive cough (bradykinin build-up), Angioedema (life-threatening airway swelling), Hyperkalemia, First-dose hypotension, Renal impairment.", 
+        inter: [
+            {d: "Spironolactone", m: "Additive risk for severe hyperkalemia.", s: "high"},
+            {d: "NSAIDs", m: "Decreases antihypertensive effect and increases risk of acute kidney injury.", s: "med"},
+            {d: "Lithium", m: "Increases lithium levels and toxicity risk.", s: "high"}
+        ],
+        admin: "Administer once daily. Monitor BP closely for 2-6 hours after the very first dose.",
+        nurse: "Assess for facial/lip swelling (angioedema). Monitor K+ and Creatinine. Teach patient to avoid potassium-based salt substitutes.",
+        cat: "cv"
+    },
+    { 
+        g: "Captopril", b: "Capoten", c: "ACE Inhibitor", 
+        m: "Inhibits ACE, leading to vasodilation and reduced fluid volume via aldosterone blockade.", 
+        ind: "HTN, HF, Left ventricular dysfunction post-MI, Diabetic Nephropathy.", 
+        con: "Pregnancy, history of angioedema.", 
+        ae: "Neutropenia (rare but serious), agranulocytosis, proteinuria, dry cough, taste disturbance (dysgeusia).", 
+        inter: [{d: "Food", m: "Decreases absorption by 30-40%.", s: "med"}],
+        admin: "Must take on an EMPTY STOMACH (1 hour before or 2 hours after meals). Usually 2-3 times daily.",
+        nurse: "Monitor CBC with differential for neutropenia. Monitor renal function.",
+        cat: "cv"
+    },
+    { 
+        g: "Losartan", b: "Cozaar", c: "Angiotensin II Receptor Blocker (ARB)", 
+        m: "Selectively and competitively blocks the binding of Angiotensin II to the AT1 receptor in many tissues, including vascular smooth muscle and the adrenal gland. Blocks vasoconstriction and aldosterone release without affecting bradykinin (no cough).", 
+        ind: "Hypertension, Diabetic Nephropathy in Type 2 DM, Stroke prevention in patients with HTN and Left Ventricular Hypertrophy.", 
+        con: "Pregnancy, hypersensitivity.", 
+        ae: "Dizziness, headache, hyperkalemia (less risk than ACE-I), renal impairment, upper respiratory infection.", 
+        inter: [
+            {d: "NSAIDs", m: "Blunts BP effect and increases risk of renal failure.", s: "med"},
+            {d: "Fluconazole", m: "Increases active metabolite of losartan.", s: "med"}
+        ],
+        admin: "Take once or twice daily with or without food.",
+        nurse: "Monitor BP and renal function. Monitor K+ levels. Ensure patient is not pregnant.",
+        cat: "cv"
+    },
+    { 
+        g: "Aliskiren", b: "Tekturna", c: "Direct Renin Inhibitor", 
+        m: "Binds directly to renin, inhibiting the conversion of Angiotensinogen to Angiotensin I. Effectively shuts down the RAAS at its origin.", 
+        ind: "Hypertension (monotherapy or adjunct).", 
+        con: "Pregnancy, co-administration with ACE-I or ARBs in patients with diabetes.", 
+        ae: "Angioedema, hyperkalemia, diarrhea (dose-related), cough (rare).", 
+        inter: [{d: "High-Fat Meals", m: "Substantially decreases absorption.", s: "med"}],
+        admin: "Take once daily. Avoid taking with high-fat meals. Do not use with ACE or ARBs in diabetics.",
+        nurse: "Monitor for swelling of face/throat. Monitor K+ levels closely.",
+        cat: "cv"
+    },
+
+    // --- CALCIUM CHANNEL BLOCKERS ---
+    { 
+        g: "Amlodipine", b: "Norvasc", c: "CCB (Dihydropyridine)", 
+        m: "Inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Specifically selective for vascular smooth muscle, causing potent peripheral vasodilation and decreased peripheral resistance.", 
+        ind: "Hypertension, Chronic Stable Angina, Vasospastic (Prinzmetal's) Angina.", 
+        con: "Severe hypotension, hypersensitivity.", 
+        ae: "Peripheral edema (swollen ankles/feet), headache, flushing, dizziness, gingival hyperplasia.", 
+        inter: [{d: "Grapefruit Juice", m: "May increase drug levels and hypotensive effect.", s: "med"}],
+        admin: "Take once daily. Dose range 2.5 - 10mg.",
+        nurse: "Check BP before admin. Assess for lower extremity edema. Teach patient about dental hygiene for gingival health.",
+        cat: "cv"
+    },
+    { 
+        g: "Verapamil", b: "Calan, Isoptin, Verelan", c: "CCB (Non-Dihydropyridine)", 
+        m: "Inhibits calcium ion influx across the cell membrane of arterial smooth muscle and myocardial cells. Acts on the SA and AV nodes to slow conduction. Negative inotropic, chronotropic, and dromotropic effects.", 
+        ind: "Angina Pectoris, Supraventricular Tachyarrhythmias (A-Fib/Flutter rate control), Hypertension.", 
+        con: "Severe Heart Failure (HFrEF), 2nd/3rd degree heart block, sick sinus syndrome, cardiogenic shock.", 
+        ae: "Constipation (most common/severe), bradycardia, heart block, peripheral edema, hypotension.", 
+        inter: [
+            {d: "Digoxin", m: "Increases digoxin levels by 50-70%; risk of fatal toxicity.", s: "high"},
+            {d: "Beta Blockers", m: "Additive suppression of HR and contractility; risk of heart failure.", s: "high"},
+            {d: "Grapefruit Juice", m: "Significant increase in drug levels.", s: "high"}
+        ],
+        admin: "Oral or IV. Do not crush SR/ER tablets. Increase fiber and fluid to manage constipation.",
+        nurse: "Check pulse and BP; HOLD if HR < 60 or SBP < 90. Monitor EKG for heart block. Assess for crackles/edema (HF signs).",
+        cat: "cv"
+    },
+    { 
+        g: "Diltiazem", b: "Cardizem, Tiazac", c: "CCB (Non-Dihydropyridine)", 
+        m: "Similar to verapamil; inhibits calcium entry into heart and vessel cells. Reduces HR and causes vasodilation.", 
+        ind: "HTN, Angina, SVT, A-Fib rate control.", 
+        con: "Acute MI with pulmonary congestion, heart block.", 
+        ae: "Bradycardia, peripheral edema, headache, dizziness.", 
+        inter: [{d: "Statins", m: "Increases risk of statin toxicity.", s: "med"}],
+        admin: "Available in IV drip for acute rate control. Oral for maintenance.",
+        nurse: "Continuous EKG for IV administration. Monitor for bradycardia.",
+        cat: "cv"
+    },
+
+    // --- BETA BLOCKERS ---
+    { 
+        g: "Metoprolol", b: "Lopressor (Tartrate), Toprol XL (Succinate)", c: "Beta-1 Selective Adrenergic Blocker", 
+        m: "Selectively blocks Beta-1 receptors in the heart. Reduces heart rate, cardiac output, and myocardial oxygen demand. Also inhibits the release of renin.", 
+        ind: "Hypertension, Angina Pectoris, Heart Failure (NYHA II-III), Post-MI (decreases mortality).", 
+        con: "Sinus bradycardia, heart block > 1st degree, cardiogenic shock, overt heart failure (acute).", 
+        ae: "Bradycardia, fatigue, dizziness, erectile dysfunction, depression, masks tachycardia of hypoglycemia.", 
+        inter: [
+            {d: "Insulin/Oral Hypoglycemics", m: "Masks common signs of low blood sugar (tachycardia).", s: "high"},
+            {d: "Digoxin/CCBs", m: "Additive bradycardia and heart block risk.", s: "high"}
+        ],
+        admin: "Check Apical Pulse and BP; HOLD if HR < 60 or SBP < 90. Tartrate is immediate-acting; Succinate is extended-release.",
+        nurse: "Do NOT stop abruptly (Rebound HTN/MI risk). Monitor BG in diabetics. Assess for worsening heart failure (weight gain, SOB).",
+        cat: "cv"
+    },
+    { 
+        g: "Propranolol", b: "Inderal", c: "Non-Selective Beta-Adrenergic Blocker", 
+        m: "Blocks both Beta-1 (heart) and Beta-2 (lungs, liver, vessels) receptors. Decreases HR and BP but causes bronchoconstriction.", 
+        ind: "Hypertension, Angina, Dysrhythmias, Migraine prophylaxis, Essential tremor, Stage fright.", 
+        con: "ASTHMA, COPD, Bradycardia, Heart block.", 
+        ae: "Bronchospasm, wheezing, bradycardia, cold extremities, vivid dreams.", 
+        inter: [{d: "Albuterol", m: "Antagonizes and blocks the effect of the rescue inhaler.", s: "high"}],
+        admin: "Available in immediate and long-acting. Avoid in patients with reactive airway disease.",
+        nurse: "Auscultate lung sounds. HOLD if wheezing or HR < 60. Teach patient to report difficulty breathing.",
+        cat: "cv"
+    },
+    { 
+        g: "Carvedilol", b: "Coreg", c: "Alpha/Beta-Adrenergic Blocker", 
+        m: "Non-selective beta block plus Alpha-1 block. Causes peripheral vasodilation and heart rate reduction.", 
+        ind: "Heart Failure (HFrEF), Hypertension, Left ventricular dysfunction post-MI.", 
+        con: "Severe chronic heart failure (decompensated), asthma.", 
+        ae: "Bradycardia, dizziness, postural hypotension, edema.", 
+        inter: [{d: "Digoxin", m: "Increases digoxin levels.", s: "med"}],
+        admin: "MUST TAKE WITH FOOD to minimize orthostatic hypotension risk.",
+        nurse: "Monitor BP and HR. Weigh patient daily. Monitor for worsening HF.",
+        cat: "cv"
+    },
+
+    // --- HEART FAILURE & DIURETICS ---
+    { 
+        g: "Digoxin", b: "Lanoxin", c: "Cardiac Glycoside", 
+        m: "Inhibits the Na+/K+ ATPase pump, increasing intracellular sodium and subsequently intracellular calcium. Results in: 1. Positive Inotropy (force), 2. Negative Chronotropy (rate), 3. Negative Dromotropy (conduction).", 
+        ind: "Heart Failure (HFrEF), Atrial Fibrillation/Flutter (rate control).", 
+        con: "Ventricular fibrillation, 2nd/3rd degree heart block, hypokalemia (precipitating factor).", 
+        ae: "Digoxin Toxicity: Anorexia, N/V, abdominal pain (early); blurred vision, yellow/green halos (hallmark); bradycardia, AV block.", 
+        inter: [
+            {d: "Furosemide/Loop Diuretics", m: "Hypokalemia significantly increases the risk of fatal toxicity.", s: "critical"},
+            {d: "Verapamil/Amiodarone", m: "Increased digoxin plasma levels.", s: "high"},
+            {d: "St. John's Wort", m: "Decreases digoxin level.", s: "med"}
+        ],
+        admin: "Therapeutic range: 0.5 - 2.0 ng/mL. Toxic > 2.4. Antidote: Digibind.",
+        nurse: "Assess APICAL PULSE for 60 seconds (HOLD if < 60). Monitor K+ and Mg levels strictly. Teach patient to report visual changes.",
+        cat: "cv"
+    },
+    { 
+        g: "Nitroglycerin", b: "Nitrostat (SL), Nitro-Dur (Patch)", c: "Nitrate / Vasodilator", 
+        m: "Relaxes vascular smooth muscle by converting to nitric oxide. Causes potent venous dilation (reduces preload) and arterial dilation (reduces afterload). Decreases myocardial oxygen demand.", 
+        ind: "Acute relief of Angina pectoris (SL), prophylaxis of Angina (Patch/SR).", 
+        con: "Head injury (increased ICP), severe anemia, use of Phosphodiesterase inhibitors (Viagra).", 
+        ae: "Throbbing Headache (common/transient), orthostatic hypotension, reflex tachycardia, syncope, flushing.", 
+        inter: [{d: "Sildenafil (Viagra)", m: "FATAL hypotension due to extreme vasodilation. Absolute contraindication.", s: "critical"}],
+        admin: "SL: 1 tab under tongue q5min x 3. If pain not relieved after 1st dose, call 911 then take 2nd. Patch: 12h ON / 12h OFF to prevent tolerance.",
+        nurse: "Monitor BP before and after admin. SL should 'sting' if fresh. Store in original dark glass bottle.",
+        cat: "cv"
+    },
+    { 
+        g: "Furosemide", b: "Lasix", c: "Loop Diuretic", 
+        m: "Inhibits the reabsorption of sodium and chloride in the thick ascending loop of Henle and distal renal tubule. Promotes profound diuresis of Na+, Cl-, K+, Mg, Ca, and Water.", 
+        ind: "Edema associated with HF, cirrhosis, or renal disease. Acute pulmonary edema. Hypertension.", 
+        con: "Anuria, hypersensitivity to sulfonamides (cross-sensitivity rare but possible).", 
+        ae: "Hypokalemia, Ototoxicity (tinnitus/hearing loss if pushed too fast), dehydration, hyponatremia, hyperuricemia (gout flare).", 
+        inter: [{d: "Digoxin", m: "Low potassium triggers Digoxin toxicity and dysrhythmias.", s: "critical"}, {d: "Lithium", m: "Increases lithium toxicity.", s: "high"}],
+        admin: "Take in the MORNING. IV Push: No faster than 20mg per minute to prevent permanent hearing loss.",
+        nurse: "Monitor K+ levels. Weigh patient daily. Monitor BP and output. Encourage high-potassium foods.",
+        cat: "cv"
+    },
+    { 
+        g: "HCTZ", b: "Microzide", c: "Thiazide Diuretic", 
+        m: "Inhibits sodium reabsorption in the distal convoluted tubule. Less potent than loop diuretics.", 
+        ind: "Hypertension, Edema.", 
+        con: "Renal failure (anuria).", 
+        ae: "Hypokalemia, Hyponatremia, Hypercalcemia, hyperglycemia (careful in diabetics).", 
+        inter: [{d: "NSAIDs", m: "Decreased diuretic effect.", s: "med"}],
+        admin: "Take in the morning. Often combined with Lisinopril or Losartan.",
+        nurse: "Monitor BP and electrolytes. Assess for gout and skin rash.",
+        cat: "cv"
+    },
+    { 
+        g: "Spironolactone", b: "Aldactone", c: "Potassium-Sparing Diuretic / Aldosterone Antagonist", 
+        m: "Competes with aldosterone for receptor sites in the distal renal tubules, increasing sodium chloride and water excretion while conserving potassium.", 
+        ind: "Heart Failure (HFrEF), Hypertension, Edema, Primary Hyperaldosteronism, Acne (off-label).", 
+        con: "Hyperkalemia (> 5.0 mEq/L), severe renal impairment, Addison's disease.", 
+        ae: "Hyperkalemia, Gynecomastia (enlarged male breasts), menstrual irregularities, impotence.", 
+        inter: [{d: "ACE-I / ARBs", m: "Significantly increases hyperkalemia risk.", s: "high"}],
+        admin: "Take once daily. Avoid excessive intake of high-potassium foods (bananas, potatoes).",
+        nurse: "Monitor serum Potassium and Creatinine. Teach to avoid salt substitutes containing K+.",
+        cat: "cv"
+    },
+
+    // --- ANTICOAGULANTS ---
+    { 
+        g: "Warfarin", b: "Coumadin", c: "Anticoagulant (Vitamin K Antagonist)", 
+        m: "Interferes with the hepatic synthesis of Vitamin K-dependent clotting factors (Factors II, VII, IX, and X) and the anticoagulant proteins C and S.", 
+        ind: "Prophylaxis and treatment of Venous Thromboembolism (DVT/PE), Atrial Fibrillation, Prosthetic heart valves.", 
+        con: "Active bleeding, pregnancy (Teratogenic), hemorrhagic stroke, recent surgery.", 
+        ae: "Bleeding (epistaxis, hematuria, GI bleed), hemorrhage, skin necrosis, 'purple toe' syndrome.", 
+        inter: [
+            {d: "Vitamin K Foods", m: "Antagonizes drug effect; must maintain CONSISTENT intake.", s: "high"},
+            {d: "NSAIDs/Aspirin", m: "Severe bleeding risk; inhibits platelets and damages GI lining.", s: "critical"},
+            {d: "Antibiotics", m: "Kill gut bacteria that make Vitamin K; increases INR significantly.", s: "high"}
+        ],
+        admin: "Administer same time daily. Target INR: 2.0 - 3.0 (2.5 - 3.5 for valves). Antidote: Vitamin K.",
+        nurse: "Monitor PT/INR strictly. Assess for occult bleeding. Teach to use soft toothbrush and electric razor.",
+        cat: "cv"
+    },
+    { 
+        g: "Heparin", b: "Hep-Lock", c: "Anticoagulant", 
+        m: "Potentiates the action of antithrombin III, which inactivates thrombin (Factor IIa) and Factor Xa, preventing the formation of a stable fibrin clot.", 
+        ind: "Acute DVT, Pulmonary Embolism, unstable angina, MI, evolving stroke, DIC.", 
+        con: "Uncontrolled bleeding, history of HIT (Heparin-Induced Thrombocytopenia).", 
+        ae: "Bleeding, Heparin-Induced Thrombocytopenia (HIT - 50% drop in platelets), osteoporosis (long-term).", 
+        inter: [{d: "Antiplatelets", m: "Increased hemorrhage risk.", s: "high"}],
+        admin: "IV or SC only (not IM). IV: require second nurse verification. Antidote: Protamine Sulfate.",
+        nurse: "Monitor aPTT (Target 1.5 - 2.5x control). Monitor Platelet count daily. Assess for hematomas.",
+        cat: "cv"
+    },
+    { 
+        g: "Enoxaparin", b: "Lovenox", c: "Low Molecular Weight Heparin (LMWH)", 
+        m: "Has a higher ratio of anti-Factor Xa to anti-Factor IIa activity than unfractionated heparin. More predictable response.", 
+        ind: "DVT prophylaxis (post-surgery), treatment of DVT and PE, STEMI/NSTEMI.", 
+        con: "Active major bleed, hypersensitivity to pork, history of HIT.", 
+        ae: "Bleeding, anemia, thrombocytopenia, injection site pain/hematoma.", 
+        inter: [{d: "NSAIDs", m: "Increased bleeding risk.", s: "high"}],
+        admin: "SC ONLY in the abdomen (love handles). Do NOT expel air bubble from prefilled syringe. Do not rub injection site.",
+        nurse: "Monitor CBC for anemia. No routine aPTT monitoring needed. Use caution in renal impairment.",
+        cat: "cv"
+    },
+    { 
+        g: "Alteplase", b: "Activase (tPA)", c: "Thrombolytic / Fibrinolytic", 
+        m: "Binds to fibrin in a thrombus and converts entrapped plasminogen to plasmin, which initiates local fibrinolysis (dissolves the clot).", 
+        ind: "Acute Ischemic Stroke (within 3-4.5h), Acute MI, Massive Pulmonary Embolism.", 
+        con: "Active internal bleeding, history of recent stroke (3mo), severe uncontrolled HTN, intracranial neoplasm.", 
+        ae: "Internal/External Bleeding, intracranial hemorrhage, GI/GU hemorrhage.", 
+        inter: [{d: "Anticoagulants", m: "Extreme risk of fatal hemorrhage.", s: "critical"}],
+        admin: "IV only. Large bore access. Absolute bedrest during and after infusion.",
+        nurse: "Perform neuro checks q15m during infusion. Avoid invasive procedures (no IM, no Foley). Monitor for blood in stool/urine.",
+        cat: "cv"
+    },
+
+    // --- DIABETES (10 CORE CLASSES) ---
+    { 
+        g: "Metformin", b: "Glucophage", c: "Biguanide", 
+        m: "1. Decreases hepatic glucose production (gluconeogenesis). 2. Decreases intestinal absorption of glucose. 3. Increases insulin sensitivity by increasing peripheral glucose uptake and utilization. Does not stimulate insulin secretion (no weight gain/hypo).", 
+        ind: "Type 2 Diabetes Mellitus (1st line drug), PCOS.", 
+        con: "Renal impairment (eGFR < 30 mL/min), metabolic acidosis, acute HF, sepsis.", 
+        ae: "GI distress (N/V/D, cramping - transient), Vitamin B12 deficiency, Lactic Acidosis (rare but 50% mortality - somnolence, cold skin).", 
+        inter: [
+            {d: "Iodinated Contrast", m: "Synergistic risk for acute renal failure and lactic acidosis; HOLD 48h.", s: "critical"},
+            {d: "Alcohol", m: "Increases risk of lactic acidosis.", s: "high"}
+        ],
+        admin: "Take WITH MEALS to minimize GI upset. Dosage range 500-2550mg daily.",
+        nurse: "Monitor Creatinine/eGFR. Hold for any surgery or imaging with dye. Assess for B12 anemia.",
+        cat: "dm"
+    },
+    { 
+        g: "Glipizide", b: "Glucotrol", c: "Sulfonylurea (2nd Gen)", 
+        m: "Stimulates insulin release from the pancreatic beta cells. Increases sensitivity of insulin receptors at target tissues.", 
+        ind: "Type 2 Diabetes (when diet/exercise fail).", 
+        con: "Type 1 DM, DKA, Sulfa allergy, severe renal/hepatic disease.", 
+        ae: "Hypoglycemia (potentially severe), weight gain, GI upset, disulfiram-like reaction with alcohol.", 
+        inter: [
+            {d: "Alcohol", m: "Disulfiram-like reaction (intense N/V, flushing).", s: "high"},
+            {d: "Beta Blockers", m: "Mask common signs of hypoglycemia (tachycardia).", s: "high"},
+            {d: "NSAIDs", m: "Potentiates hypoglycemia.", s: "med"}
+        ],
+        admin: "Take 30 minutes BEFORE breakfast. If a meal is skipped, the dose MUST be skipped.",
+        nurse: "Monitor for hypoglycemia. Carry fast-acting carbs. Educate on sulfa cross-sensitivity.",
+        cat: "dm"
+    },
+    { 
+        g: "Repaglinide", b: "Prandin", c: "Meglitinide / Glinide", 
+        m: "Closes ATP-sensitive potassium channels in beta cells, stimulating insulin release. Faster acting and shorter duration than sulfonylureas.", 
+        ind: "Type 2 Diabetes (Post-prandial control).", 
+        con: "Type 1 DM, DKA.", 
+        ae: "Hypoglycemia, weight gain, diarrhea.", 
+        inter: [{d: "Gemfibrozil", m: "Inhibits metabolism; results in severe, prolonged hypoglycemia.", s: "high"}],
+        admin: "Take 15-30 minutes BEFORE each major meal. Skip meal = Skip dose. Eat within 15m of taking.",
+        nurse: "Ideal for patients with erratic eating schedules. Monitor BG levels.",
+        cat: "dm"
+    },
+    { 
+        g: "Pioglitazone", b: "Actos", c: "Thiazolidinedione (TZD)", 
+        m: "Activates PPAR-gamma, which regulates genes involved in glucose and lipid metabolism. Increases insulin sensitivity in muscle and fat, and reduces hepatic glucose output.", 
+        ind: "Type 2 Diabetes.", 
+        con: "NYHA Class III/IV Heart Failure (Black Box: fluid retention), active liver disease.", 
+        ae: "Fluid retention (edema), weight gain, heart failure exacerbation, bladder cancer risk (long-term), bone fractures in women.", 
+        inter: [{d: "Insulin", m: "Increases risk of severe edema and HF.", s: "med"}],
+        admin: "Take once daily without regard to food.",
+        nurse: "Monitor for SOB, crackles, and peripheral edema. Monitor weight daily. Monitor LFTs periodically.",
+        cat: "dm"
+    },
+    { 
+        g: "Acarbose", b: "Precose", c: "Alpha-Glucosidase Inhibitor", 
+        m: "Competitively inhibits enzymes in the brush border of the small intestine, delaying the digestion and absorption of carbohydrates. Reduces postprandial glucose spike.", 
+        ind: "Type 2 Diabetes (often with other agents).", 
+        con: "IBD, colonic ulceration, intestinal obstruction, cirrhosis.", 
+        ae: "GI Distress (flatulence, distention, diarrhea, borborygmi), iron deficiency anemia, hepatotoxicity.", 
+        inter: [{d: "Digestive Enzymes", m: "Reduces drug effect.", s: "med"}],
+        admin: "Take with the FIRST BITE of each main meal. Does not cause hypo as monotherapy.",
+        nurse: "If hypoglycemia occurs (from other drugs), it MUST be treated with GLUCOSE (tabs/gel), not sucrose (cane sugar/juice) due to delayed absorption.",
+        cat: "dm"
+    },
+    { 
+        g: "Canagliflozin", b: "Invokana", c: "SGLT2 Inhibitor", 
+        m: "Inhibits SGLT2 in the proximal renal tubules, reducing reabsorption of filtered glucose and lowering the renal threshold for glucose. Result: Glucose is excreted in the urine.", 
+        ind: "Type 2 Diabetes, reduction of CV death risk in T2DM/CVD, Heart Failure.", 
+        con: "Severe renal impairment (eGFR < 30), dialysis.", 
+        ae: "Genital mycotic infections (yeast), UTIs (sugar in urine), polyuria, hypotension/dehydration, hyperkalemia, euglycemic ketoacidosis.", 
+        inter: [{d: "Diuretics", m: "Increases risk of dehydration and hypotension.", s: "med"}],
+        admin: "Take once daily BEFORE the first meal of the day.",
+        nurse: "Monitor hydration status and BP. Assess for genital itching or burning. Monitor K+ levels.",
+        cat: "dm"
+    },
+    { 
+        g: "Sitagliptin", b: "Januvia", c: "DPP-4 Inhibitor (Gliptin)", 
+        m: "Inhibits the DPP-4 enzyme, preventing the breakdown of incretin hormones (GLP-1 and GIP). Increases insulin release and decreases glucagon secretion in a glucose-dependent manner.", 
+        ind: "Type 2 Diabetes.", 
+        con: "Hypersensitivity.", 
+        ae: "Pancreatitis (Black Box warning - severe abdominal pain radiating to back), upper respiratory infection, headache, arthralgia.", 
+        inter: [{d: "Digoxin", m: "May slightly increase levels.", s: "med"}],
+        admin: "Take once daily with or without food.",
+        nurse: "Monitor for severe, persistent abdominal pain. Monitor renal function (dose adjustment needed for impairment).",
+        cat: "dm"
+    },
+    { 
+        g: "Semaglutide", b: "Ozempic (SC), Wegovy (Weight), Rybelsus (Oral)", c: "GLP-1 Receptor Agonist (Incretin Mimetic)", 
+        m: "Mimics natural incretin hormones; stimulates insulin secretion, suppresses glucagon, slows gastric emptying, and increases satiety (feeling full).", 
+        ind: "Type 2 Diabetes, weight management, CV risk reduction.", 
+        con: "Personal or family history of Medullary Thyroid Carcinoma (Black Box), MEN 2 syndrome.", 
+        ae: "Nausea, vomiting, diarrhea (common), Pancreatitis, injection site reactions, diabetic retinopathy complications.", 
+        inter: [{d: "Oral Meds", m: "May delay absorption due to slowed gastric emptying.", s: "med"}],
+        admin: "Once weekly subcutaneous injection. Rotate sites. Rybelsus: Take on empty stomach with < 4oz water.",
+        nurse: "Monitor for severe abdominal pain. Periodic thyroid screening. Monitor for dehydration from GI symptoms.",
+        cat: "dm"
+    },
+    { 
+        g: "Pramlintide", b: "Symlin", c: "Amylin Mimetic", 
+        m: "Synthetic analog of amylin (a hormone co-secreted with insulin). Slows gastric emptying and suppresses glucagon secretion. Complementary to insulin.", 
+        ind: "Type 1 and Type 2 Diabetes (adjunct to mealtime insulin).", 
+        con: "Gastroparesis, hypoglycemia unawareness.", 
+        ae: "SEVERE hypoglycemia (when combined with insulin), nausea (severe), anorexia.", 
+        inter: [{d: "Insulin", m: "High risk of severe hypoglycemia; must reduce mealtime insulin dose by 50%.", s: "high"}],
+        admin: "SC injection before each major meal (>250 cal). Do NOT mix in the same syringe as insulin.",
+        nurse: "Monitor for severe hypoglycemia within 3 hours of dose. Must be able to self-monitor BG.",
+        cat: "dm"
+    },
+    { 
+        g: "Insulin Regular", b: "Humulin R, Novolin R", c: "Short-Acting Insulin", 
+        m: "Promotes cellular uptake of glucose, amino acids, and potassium. Promotes conversion of glucose to glycogen.", 
+        ind: "Type 1 DM, Type 2 DM, DKA (IV use), Hyperkalemia (IV with glucose).", 
+        con: "Hypoglycemia.", 
+        ae: "Hypoglycemia, lipohypertrophy (fatty lumps), weight gain, hypokalemia.", 
+        inter: [{d: "Beta Blockers", m: "Mask tachycardia of hypoglycemia.", s: "high"}],
+        admin: "Onset: 30-60m. Peak: 2-4h. Duration: 5-8h. ONLY one for IV. Give 30m before meals.",
+        nurse: "Clear (Regular) before Cloudy (NPH). Rotate sites within one area (e.g., abdomen) to ensure consistent absorption. 15/15 Rule for treatment.",
+        cat: "dm"
+    },
+    { 
+        g: "Insulin Lispro", b: "Humalog", c: "Rapid-Acting Insulin", 
+        m: "Similar to regular but with faster onset due to structural change.", 
+        ind: "Prandial (mealtime) glycemic control.", 
+        con: "Hypoglycemia.", 
+        ae: "Hypoglycemia.", 
+        inter: [],
+        admin: "Onset: 15m. Peak: 1-2h. Duration: 3-4h. GIVE ONLY WHEN FOOD IS IN FRONT OF PATIENT.",
+        nurse: "Ensure patient eats within 15m of injection. Ideal for pump use.",
+        cat: "dm"
+    },
+    { 
+        g: "Insulin NPH", b: "Humulin N, Novolin N", c: "Intermediate-Acting Insulin", 
+        m: "Insulin regular conjugated with protamine to delay absorption.", 
+        ind: "Basal (background) glycemic control.", 
+        con: "Hypoglycemia.", 
+        ae: "Hypoglycemia (often occurs mid-to-late afternoon).", 
+        inter: [],
+        admin: "Onset: 1-2h. Peak: 4-12h. Duration: 18-24h. Cloudy appearance. Roll (do not shake) to mix.",
+        nurse: "Monitor for hypoglycemia at the PEAK (e.g., 4pm if given at 8am).",
+        cat: "dm"
+    },
+    { 
+        g: "Insulin Glargine", b: "Lantus, Basaglar", c: "Long-Acting Insulin", 
+        m: "Forms micro-precipitates in SC tissue that release insulin slowly over 24 hours. No peak.", 
+        ind: "24-hour basal glycemic control.", 
+        con: "Hypoglycemia.", 
+        ae: "Hypoglycemia (less risk than NPH).", 
+        inter: [],
+        admin: "Onset: 1-2h. NO PEAK. Duration: 24h. Take at same time each day (usually bedtime).",
+        nurse: "DO NOT MIX with any other insulin in the same syringe.",
+        cat: "dm"
+    },
+
+    // --- ANTIPLATELETS & MISC CV ---
+    { 
+        g: "Aspirin", b: "Ecotrin, Bayer", c: "Salicylate / Antiplatelet", 
+        m: "Irreversibly inhibits COX-1 and COX-2 enzymes, preventing the synthesis of thromboxane A2, a potent inducer of platelet aggregation. Effect lasts the life of the platelet (7-10 days).", 
+        ind: "Prophylaxis of MI/Stroke, PAD, Acute MI, inflammatory conditions.", 
+        con: "Active GI bleed, children with viral illness (Reye's Syndrome), hypersensitivity to NSAIDs.", 
+        ae: "GI Bleeding, tinnitus (toxicity sign), dyspepsia, occult blood loss.", 
+        inter: [{d: "Warfarin/Heparin", m: "Extreme bleeding risk.", s: "high"}, {d: "NSAIDs", m: "May reduce antiplatelet efficacy.", s: "med"}],
+        admin: "81mg (low dose) for prophylaxis. 325mg for acute MI (CHEW IT). Take with food.",
+        nurse: "Monitor for black/tarry stools. Assess for ringing in ears (salicylism). Avoid in patients with ulcers.",
+        cat: "cv"
+    },
+    { 
+        g: "Clopidogrel", b: "Plavix", c: "Antiplatelet (ADP Inhibitor)", 
+        m: "Irreversibly blocks the P2Y12 component of ADP receptors on the platelet surface, preventing activation of the GPIIb/IIIa receptor complex.", 
+        ind: "Reduction of atherosclerotic events (MI, Stroke) in patients with PAD or recent ACS.", 
+        con: "Active pathological bleeding (peptic ulcer, ICH).", 
+        ae: "Bleeding, purpura, rash, thrombocytopenia.", 
+        inter: [{d: "Omeprazole (PPI)", m: "Inhibits CYP2C19; significantly reduces drug efficacy.", s: "high"}],
+        admin: "Take 75mg once daily. Prodrug (requires liver activation).",
+        nurse: "Monitor platelet count. Discontinue 5-7 days before elective surgery.",
+        cat: "cv"
+    },
+    { 
+        g: "Amiodarone", b: "Cordarone", c: "Class III Antiarrhythmic", 
+        m: "Prolongs the action potential and refractory period in all cardiac tissues. Blocks K+ channels primarily, but also has some Na+, Ca++, and Beta-blocking activity.", 
+        ind: "Life-threatening Ventricular Tachycardia and Fibrillation. Conversion of A-Fib.", 
+        con: "Severe bradycardia, 2nd/3rd degree heart block, cardiogenic shock, Iodine hypersensitivity.", 
+        ae: "Pulmonary Fibrosis (fatal lung scarring), Liver Toxicity, Thyroid dysfunction (hypo/hyper), Blue-grey skin discoloration, corneal micro-deposits.", 
+        inter: [{d: "Digoxin/Warfarin", m: "Increases levels significantly; must reduce doses by 50%.", s: "high"}],
+        admin: "Long half-life (58 days). SC only in emergency. Oral for maintenance.",
+        nurse: "Monitor Pulmonary Function Tests (PFTs), LFTs, and Thyroid labs. Teach to report SOB or new cough immediately. Use sunscreen.",
+        cat: "cv"
+    },
+    { 
+        g: "Lidocaine", b: "Xylocaine", c: "Class IB Antiarrhythmic", 
+        m: "Blocks sodium channels, decreasing the depolarization and automaticity of the ventricles.", 
+        ind: "Ventricular dysrhythmias (VT/VF) during acute MI or cardiac surgery.", 
+        con: "Wolff-Parkinson-White syndrome, severe heart block.", 
+        ae: "CNS Toxicity: 'Lido Jitters' (slurred speech, confusion, tremors, seizures), bradycardia.", 
+        inter: [],
+        admin: "IV Bolus then continuous infusion. Use only lidocaine labeled 'for cardiac dysrhythmias'.",
+        nurse: "Monitor therapeutic levels (1.5 - 5.0 mcg/mL). Continuous EKG and neuro checks.",
+        cat: "cv"
+    },
+    { 
+        g: "Hydralazine", b: "Apresoline", c: "Direct-Acting Vasodilator", 
+        m: "Causes direct relaxation of arteriolar smooth muscle. Little effect on veins.", 
+        ind: "Resistant Hypertension, Hypertensive crisis, Heart Failure (with nitrates).", 
+        con: "Coronary artery disease, mitral valvular rheumatic heart disease.", 
+        ae: "Reflex tachycardia, palpitations, systemic lupus erythematosus (SLE)-like syndrome (fever, rash), headache.", 
+        inter: [{d: "NSAIDs", m: "Decreased effect.", s: "med"}],
+        admin: "Oral or IV. Usually given with a beta-blocker to prevent reflex tachycardia.",
+        nurse: "Monitor HR and BP. Assess for joint pain or facial rash.",
+        cat: "cv"
+    },
+    { 
+        g: "Nitroprusside", b: "Nitropress", c: "Direct Vasodilator", 
+        m: "Directly acts on both venous and arterial smooth muscle to cause immediate, potent vasodilation.", 
+        ind: "Hypertensive Crisis (immediate reduction of BP).", 
+        con: "Compensatory HTN (e.g., AV shunt), decreased cerebral perfusion.", 
+        ae: "Cyanide Toxicity (disorientation, metabolic acidosis), profound hypotension, thiocyanate toxicity.", 
+        inter: [],
+        admin: "IV ONLY via infusion pump. Protect IV bag from light (wrap in foil).",
+        nurse: "Monitor BP q2-5m. Monitor thiocyanate levels if used > 48h. Infusion should be stopped if BP drops too low.",
+        cat: "cv"
+    }
+];
+
+let activeFilters = { cv: true, dm: true };
+let currentSort = 'az';
+
+function toggleFilter(cat) {
+    activeFilters[cat] = !activeFilters[cat];
+    document.getElementById(`btn-${cat}`).classList.toggle(`active-${cat}`, activeFilters[cat]);
+    updateDisplay();
+}
+
+function setSort(mode) {
+    currentSort = mode;
+    document.getElementById('sort-az').classList.toggle('active', mode === 'az');
+    document.getElementById('sort-class').classList.toggle('active', mode === 'class');
+    updateDisplay();
+}
+
+function updateDisplay() {
+    const grid = document.getElementById('drug-grid');
+    const search = document.getElementById('drugSearch').value.toLowerCase();
+    
+    let filtered = drugDB.filter(d => {
+        const matchesCat = activeFilters[d.cat];
+        const matchesSearch = !search || 
+            d.g.toLowerCase().includes(search) || 
+            d.b.toLowerCase().includes(search) || 
+            d.c.toLowerCase().includes(search) ||
+            d.ind.toLowerCase().includes(search);
+        return matchesCat && matchesSearch;
+    });
+
+    if(currentSort === 'az') {
+        filtered.sort((a,b) => a.g.localeCompare(b.g));
+    } else {
+        filtered.sort((a,b) => a.c.localeCompare(b.c));
+    }
+
+    grid.innerHTML = filtered.map(d => `
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="nexus-card">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h5 class="fw-bold text-white mb-0">${d.g}</h5>
+                        <small class="text-accent fw-bold">Brand: ${d.b}</small>
+                    </div>
+                    <span class="badge ${d.cat === 'cv' ? 'badge-cv' : 'badge-dm'}">${d.c}</span>
+                </div>
+                
+                <span class="point-label">Mechanism of Action</span>
+                <div class="point-value">${d.m}</div>
+                
+                <span class="point-label">Clinical Indications</span>
+                <div class="point-value">${d.ind}</div>
+                
+                <span class="point-label">Contraindications</span>
+                <div class="point-value">${d.con}</div>
+                
+                <span class="point-label">Adverse & Side Effects</span>
+                <div class="point-value text-danger fw-bold">${d.ae}</div>
+                
+                <span class="point-label">Interactions (Pharmacology)</span>
+                <div class="point-value">
+                    ${d.inter && d.inter.length > 0 ? d.inter.map(i => `
+                        <div class="inter-box ${i.s === 'high' || i.s === 'critical' ? 'inter-high' : ''}">
+                            <span class="inter-label">${i.d}</span>
+                            ${i.m}
+                        </div>
+                    `).join('') : '<div class="text-white-50 small italic">Detailed interaction profile available in primary text.</div>'}
+                </div>
+
+                <span class="point-label">Dosage & Administration</span>
+                <div class="point-value text-warning">${d.admin}</div>
+                
+                <span class="point-label">Nursing Considerations & Education</span>
+                <div class="point-value text-info">${d.nurse}</div>
+            </div>
+        </div>
+    `).join('');
+    
+    document.getElementById('counter').innerText = `Entries: ${filtered.length}`;
+}
+
+updateDisplay();
+</script>
+</body>
+</html>

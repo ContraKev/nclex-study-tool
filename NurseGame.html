@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNF: Charge Nurse Simulator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .card { border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-top: 20px; }
+        .scenario-text { font-size: 1.2rem; line-height: 1.6; color: #2c3e50; background: #fff; padding: 20px; border-radius: 10px; border-left: 5px solid #007bff; }
+        .btn-option { text-align: left; margin-bottom: 10px; padding: 12px; border-radius: 8px; transition: all 0.2s; }
+        .btn-option:hover { transform: translateX(5px); }
+        .matrix-table th { background-color: #007bff; color: white; }
+        .correct { background-color: #d4edda !important; border-color: #c3e6cb !important; }
+        .incorrect { background-color: #f8d7da !important; border-color: #f5c6cb !important; }
+        #rationale-box { display: none; margin-top: 20px; padding: 15px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div id="menu-view">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">SNF: Charge Nurse Simulator</h1>
+            <p class="lead">NGN & ATI Study Portal</p>
+        </div>
+        <div class="row justify-content-center" id="module-list">
+            <!-- Modules injected here -->
+        </div>
+    </div>
+
+    <div id="game-view" style="display: none;">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <button class="btn btn-outline-secondary" onclick="showMenu()">← Main Menu</button>
+            <h4 id="module-title"></h4>
+            <div class="badge bg-primary fs-5">Score: <span id="score">0</span></div>
+        </div>
+
+        <!-- Asset Panel -->
+        <div class="row mb-4" id="asset-panel" style="display: none;">
+            <div class="col-md-3 text-center">
+                <h6>Condition</h6>
+                <div id="asset-condition" class="border rounded p-2 bg-white" style="height: 100px; display: flex; align-items: center; justify-content: center;"></div>
+            </div>
+            <div class="col-md-3 text-center">
+                <h6>Environment</h6>
+                <div id="asset-environment" class="border rounded p-2 bg-white" style="height: 100px; display: flex; align-items: center; justify-content: center;"></div>
+            </div>
+            <div class="col-md-3 text-center">
+                <h6>Intervention</h6>
+                <div id="asset-action" class="border rounded p-2 bg-white" style="height: 100px; display: flex; align-items: center; justify-content: center;"></div>
+            </div>
+            <div class="col-md-3 text-center">
+                <h6>Drug</h6>
+                <div id="asset-drug" class="border rounded p-2 bg-white" style="height: 100px; display: flex; align-items: center; justify-content: center;"></div>
+            </div>
+        </div>
+
+        <div class="card p-4">
+            <div id="scenario-content">
+                <p class="scenario-text mb-4" id="text"></p>
+                <h5 class="mb-4" id="question"></h5>
+                <div id="options-container" class="d-grid gap-2"></div>
+                
+                <!-- Matrix Container -->
+                <div id="matrix-container" style="display: none;">
+                    <table class="table table-bordered matrix-table">
+                        <thead id="matrix-head"></thead>
+                        <tbody id="matrix-body"></tbody>
+                    </table>
+                </div>
+
+                <div id="rationale-box"></div>
+                <button id="next-btn" class="btn btn-primary mt-4 w-100" style="display: none;" onclick="nextScenario()">Next Question →</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const gameData = {
+  "modules": [
+    {
+      "id": "intro_basics",
+      "name": "Module 1: SNF Basics (Intro)",
+      "scenarios": [
+        {
+          "id": "handover_1",
+          "type": "standard",
+          "text": "Night shift reports: 'Mr. Henderson in 202 is confused. He's usually AO3. His O2 sats were 89% on room air at 05:00. I put him on 2L NC.'",
+          "question": "What is your first priority?",
+          "options": [
+            "Go directly to Room 202 to assess Mr. Henderson.",
+            "Sit down and read the full charts for all 20 patients first.",
+            "Go to the breakroom for coffee."
+          ],
+          "answer_type": "single",
+          "correct_indices": [0],
+          "rationales": [
+            "CORRECT: Assessing the unstable patient is the priority (ABCs).",
+            "DELAY: A change in mental status and O2 sats requires immediate bedside assessment.",
+            "CRITICAL FAILURE: Patient safety is compromised."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vascular_htn_final",
+      "name": "Module 2: Vascular & Hypertension (ATI/NCLEX + Instructor Prep)",
+      "scenarios": [
+        {
+          "id": "pad_vs_venous_matrix",
+          "type": "matrix",
+          "text": "NGN COMPARISON: The nurse is performing a physical assessment on two clients with different vascular disorders.",
+          "question": "For each clinical finding, determine if it is characteristic of Peripheral Arterial Disease (PAD) or Venous Insufficiency.",
+          "columns": ["Arterial (PAD)", "Venous Insufficiency"],
+          "rows": [
+            {"text": "Skin is cool, shiny, and hairless", "correct_col_idx": 0},
+            {"text": "Skin is warm with brownish discoloration (Stasis Dermatitis)", "correct_col_idx": 1},
+            {"text": "Pulses are diminished or absent", "correct_col_idx": 0},
+            {"text": "Lower extremity edema is present (worse at end of day)", "correct_col_idx": 1},
+            {"text": "Ulcer is 'punched out' and located on the toes", "correct_col_idx": 0},
+            {"text": "Ulcer is irregular and located on the medial ankle", "correct_col_idx": 1}
+          ]
+        },
+        {
+          "id": "positioning_logic",
+          "type": "SATA",
+          "text": "The nurse is providing discharge teaching regarding positioning and pain relief for a client with PAD and a client with Venous Insufficiency.",
+          "question": "Which of the following instructions are CORRECT? (Select All That Apply)",
+          "options": [
+            "PAD: 'Dangle your legs over the side of the bed to relieve pain.'",
+            "Venous: 'Elevate your legs above the level of your heart.'",
+            "PAD: 'Elevate your legs on two pillows to increase flow.'",
+            "Venous: 'Avoid prolonged standing or sitting.'",
+            "PAD: 'Use a heating pad on your feet to keep them warm.'"
+          ],
+          "answer_type": "multi",
+          "correct_indices": [0, 1, 3],
+          "rationales": [
+            "CORRECT: Dangling (dependency) uses gravity to help arterial blood reach the toes.",
+            "CORRECT: Elevation uses gravity to help venous blood return to the heart.",
+            "INCORRECT: Elevation worsens PAD pain by making it harder for blood to reach the feet.",
+            "CORRECT: Prolonged stillness increases venous pooling.",
+            "DANGEROUS: Clients with PAD often have decreased sensation and can easily be burned."
+          ]
+        },
+        {
+          "id": "beuger_allen",
+          "type": "standard",
+          "text": "An LPN is assisting a patient with Peripheral Vascular Disease (PVD) who has been prescribed Buerger-Allen exercises.",
+          "question": "What should the nurse instruct the patient to do FIRST?",
+          "options": [
+            "Raise legs above the heart until they blanch.",
+            "Lower the legs to a dependent position until rubor appears.",
+            "Lie flat with legs straight for 5 minutes.",
+            "Perform vigorous ankle circles."
+          ],
+          "answer_type": "single",
+          "correct_indices": [0],
+          "rationales": [
+            "CORRECT: Step 1 is elevation to drain the vessels.",
+            "Step 2 (Dependency).",
+            "Step 3 (Rest).",
+            "Done during Step 2."
+          ]
+        },
+        {
+          "id": "htn_crisis_priority",
+          "type": "standard",
+          "text": "A patient is admitted to the ICU with a diagnosis of hypertensive emergency. BP is 200/130 mmHg. The nurse is preparing IV nitroprusside.",
+          "question": "Upon assessment, which finding requires the MOST immediate intervention?",
+          "options": [
+            "Nausea and severe occipital headache",
+            "Chest pain score of 3/10",
+            "Urine output of 40 mL over the last hour",
+            "Left arm numbness and weakness"
+          ],
+          "answer_type": "single",
+          "correct_indices": [3],
+          "rationales": [
+            "Expected.",
+            "Serious.",
+            "Normal.",
+            "CORRECT: Numbness/weakness = potential CVA (Priority)."
+          ]
+        },
+        {
+          "id": "dash_diet_sata",
+          "type": "SATA",
+          "text": "The DASH diet (Dietary Approaches to Stop Hypertension) recommends low servings of specific food groups.",
+          "question": "Which of the following should the nurse teach the patient to limit? (Select All That Apply)",
+          "options": [
+            "Fat",
+            "Dairy products",
+            "Red Meat (Poultry/Beef)",
+            "Fruits and Vegetables",
+            "Whole grains"
+          ],
+          "answer_type": "multi",
+          "correct_indices": [0, 1, 2],
+          "rationales": [
+            "CORRECT: DASH is low in total/saturated fat.",
+            "CORRECT: DASH emphasizes low-fat dairy over full-fat.",
+            "CORRECT: DASH recommends limiting red meat and poultry.",
+            "Encouraged.",
+            "Encouraged."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardio_diabetes_pharma",
+      "name": "Module 3: Pharmacology - Cardio & Diabetes",
+      "scenarios": [
+        {
+          "id": "statin_safety",
+          "type": "standard",
+          "text": "A client is newly prescribed Atorvastatin (Lipitor) for hyperlipidemia. During a follow-up visit, the client reports 'dark, tea-colored urine' and severe muscle weakness in their legs.",
+          "question": "Which action should the nurse take FIRST?",
+          "options": [
+            "Instruct the client to stop the medication and come to the clinic for a CK (creatine kinase) level.",
+            "Advise the client that these are common side effects that will subside with time.",
+            "Tell the client to increase their fluid intake to 3L per day.",
+            "Suggest taking the medication with a glass of grapefruit juice to increase absorption."
+          ],
+          "answer_type": "single",
+          "correct_indices": [0],
+          "rationales": [
+            "CORRECT: These are signs of rhabdomyolysis, a critical adverse effect requiring immediate intervention.",
+            "INCORRECT: Muscle pain and tea-colored urine are NEVER normal with statins.",
+            "INSUFFICIENT: While fluids help, the medication must be stopped first.",
+            "DANGEROUS: Grapefruit juice increases statin toxicity."
+          ]
+        },
+        {
+          "id": "ace_inhibitor_emergency",
+          "type": "standard",
+          "text": "A nurse is reinforcing teaching with a client who is starting Lisinopril. Which finding should the nurse emphasize as a reason to seek IMMEDIATE emergency medical attention?",
+          "options": [
+            "A persistent dry, non-productive cough.",
+            "Swelling of the tongue, lips, or throat.",
+            "A slight increase in serum potassium level.",
+            "Dizziness when standing up too quickly."
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "COMMON: While annoying, the cough is not a medical emergency.",
+            "CORRECT: This indicates angioedema, which can compromise the airway.",
+            "EXPECTED: ACE inhibitors can cause mild hyperkalemia but it's not usually an 'emergency' unless severe.",
+            "EXPECTED: Orthostatic hypotension is a common side effect."
+          ]
+        },
+        {
+          "id": "digoxin_toxicity_matrix",
+          "type": "matrix",
+          "text": "The nurse is evaluating a client who has been taking Digoxin 0.125 mg daily for heart failure. The client's potassium level is 3.2 mEq/L.",
+          "question": "For each clinical finding, determine if it indicates Potential Toxicity or a Therapeutic Effect.",
+          "columns": ["Potential Toxicity", "Therapeutic Effect"],
+          "rows": [
+            {"text": "Client reports seeing 'yellow-greenish halos' around lights.", "correct_col_idx": 0},
+            {"text": "Apical heart rate is 72 bpm and regular.", "correct_col_idx": 1},
+            {"text": "Client reports new onset of nausea and loss of appetite.", "correct_col_idx": 0},
+            {"text": "Increased urine output and decreased peripheral edema.", "correct_col_idx": 1},
+            {"text": "Client's heart rate is 48 bpm.", "correct_col_idx": 0}
+          ]
+        },
+        {
+          "id": "metformin_contrast",
+          "type": "standard",
+          "text": "A client with Type 2 Diabetes who takes Metformin daily is scheduled for a CT scan with IV contrast dye at 14:00 today.",
+          "question": "What is the most appropriate nursing action regarding the Metformin?",
+          "options": [
+            "Ensure the client takes the Metformin with a light snack before the procedure.",
+            "Verify that the Metformin was held for 48 hours prior and will be held 48 hours after the scan.",
+            "Administer an extra dose of Metformin to prevent hyperglycemia during the stress of the procedure.",
+            "No action is needed; Metformin does not interact with contrast dye."
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "DANGEROUS: Metformin and contrast dye together increase the risk of lactic acidosis and acute renal failure.",
+            "CORRECT: Standard safety protocol is to hold Metformin for 48 hours before and after contrast.",
+            "DANGEROUS: Increases risk of lactic acidosis.",
+            "INCORRECT: There is a significant and dangerous interaction."
+          ]
+        },
+        {
+          "id": "insulin_mixing_sata",
+          "type": "SATA",
+          "text": "The nurse is preparing to administer a mixed dose of 10 units of Regular insulin and 20 units of NPH insulin to a client.",
+          "question": "Which of the following actions are CORRECT? (Select All That Apply)",
+          "options": [
+            "Inject 20 units of air into the NPH vial first.",
+            "Inject 10 units of air into the Regular vial after airing the NPH.",
+            "Withdraw the NPH insulin into the syringe first.",
+            "Withdraw the Regular insulin into the syringe first.",
+            "Ensure the total volume in the syringe is 30 units."
+          ],
+          "answer_type": "multi",
+          "correct_indices": [0, 1, 3, 4],
+          "rationales": [
+            "CORRECT: Air goes into the 'cloudy' (NPH) first.",
+            "CORRECT: Air goes into the 'clear' (Regular) second.",
+            "INCORRECT: Clear (Regular) must be withdrawn first to avoid contaminating it with NPH.",
+            "CORRECT: Clear before Cloudy!",
+            "CORRECT: 10 + 20 = 30 total units."
+          ]
+        },
+        {
+          "id": "beta_blocker_diabetes",
+          "type": "standard",
+          "text": "A client with Type 1 Diabetes is prescribed Metoprolol for hypertension. What should the nurse include in the patient teaching?",
+          "question": "Which instruction is MOST important for this client?",
+          "options": [
+            " 'You can stop checking your blood sugar as often because Metoprolol stabilizes it.' ",
+            " 'Metoprolol may mask symptoms of low blood sugar, such as a fast heart rate.' ",
+            " 'Take your Metoprolol only when you feel your blood pressure is high.' ",
+            " 'Metoprolol will make your insulin work faster, so you should reduce your insulin dose.' "
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "DANGEROUS: Frequent monitoring is still required.",
+            "CORRECT: Beta blockers mask the sympathetic response (tachycardia) to hypoglycemia.",
+            "INCORRECT: HTN meds must be taken consistently.",
+            "INCORRECT: It doesn't necessarily make it work 'faster', but it complicates the symptom profile."
+          ]
+        },
+        {
+          "id": "hypoglycemia_protocol",
+          "type": "standard",
+          "text": "A client's fingerstick blood glucose is 58 mg/dL. The client is awake, alert, and able to swallow.",
+          "question": "What should the nurse administer FIRST?",
+          "options": [
+            "15g of simple carbohydrate (e.g., 4 oz orange juice).",
+            "1 mg of Glucagon IM.",
+            "A peanut butter sandwich and 8 oz of whole milk.",
+            "The client's scheduled dose of Regular insulin."
+          ],
+          "answer_type": "single",
+          "correct_indices": [0],
+          "rationales": [
+            "CORRECT: The '15/15' rule for conscious patients starts with 15g of fast-acting carbs.",
+            "INAPPROPRIATE: Glucagon is for unconscious patients or those who cannot swallow.",
+            "DELAY: Complex carbs/protein are given AFTER the blood sugar is stabilized with simple carbs.",
+            "CRITICAL FAILURE: This would further lower the blood sugar and could be fatal."
+          ]
+        },
+        {
+          "id": "warfarin_safety_sata",
+          "type": "SATA",
+          "text": "A client is being discharged on Warfarin (Coumadin) for Atrial Fibrillation.",
+          "question": "Which of the following instructions should the nurse include in the discharge teaching? (Select All That Apply)",
+          "options": [
+            " 'Use a soft-bristled toothbrush and an electric razor.' ",
+            " 'Increase your intake of dark leafy green vegetables significantly.' ",
+            " 'Notify your provider if you notice dark, tarry stools.' ",
+            " 'You will need regular blood tests to check your PT/INR levels.' ",
+            " 'Take Aspirin if you have a headache, as it works well with Warfarin.' "
+          ],
+          "answer_type": "multi",
+          "correct_indices": [0, 2, 3],
+          "rationales": [
+            "CORRECT: These measures reduce the risk of bleeding.",
+            "INCORRECT: Patients should maintain a CONSISTENT intake of Vitamin K; sudden increases can decrease Warfarin's effectiveness.",
+            "CORRECT: Dark, tarry stools (melena) indicate GI bleeding.",
+            "CORRECT: Regular monitoring of PT/INR is essential for dosing.",
+            "DANGEROUS: Aspirin increases the risk of bleeding when taken with Warfarin."
+          ]
+        },
+        {
+          "id": "furosemide_monitoring",
+          "type": "standard",
+          "text": "A nurse is caring for an older adult patient who is receiving Furosemide (Lasix) 40 mg IV push for pulmonary edema.",
+          "question": "Which finding is the MOST concerning following the administration?",
+          "options": [
+            "The patient's urine output is 200 mL in the first hour.",
+            "The patient reports new onset of 'ringing in the ears' (tinnitus).",
+            "The patient's potassium level is 3.6 mEq/L.",
+            "The patient's blood pressure drops from 140/90 to 128/82."
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "EXPECTED: This indicates the diuretic is working.",
+            "CORRECT: Ototoxicity (tinnitus/hearing loss) is a serious adverse effect, especially if IV Furosemide is pushed too quickly.",
+            "NORMAL: 3.5 - 5.0 is the normal range.",
+            "EXPECTED: A mild drop in BP is expected with fluid removal."
+          ]
+        },
+        {
+          "id": "insulin_types_matrix",
+          "type": "matrix",
+          "text": "The nurse is reviewing different types of insulin for a client with newly diagnosed diabetes.",
+          "question": "Match each insulin type to its correct characteristics.",
+          "columns": ["Rapid-Acting", "Long-Acting (Basal)", "Short-Acting"],
+          "rows": [
+            {"text": "Lispro or Aspart; Onset 15-30 mins; Peak 0.5-2.5 hrs.", "correct_col_idx": 0},
+            {"text": "Glargine or Detemir; No peak; Duration 24 hrs.", "correct_col_idx": 1},
+            {"text": "Regular Insulin; The only type that can be given IV.", "correct_col_idx": 2},
+            {"text": "Should be administered up to 15 mins before a meal.", "correct_col_idx": 0},
+            {"text": "Typically administered once daily, often at bedtime.", "correct_col_idx": 1}
+          ]
+        },
+        {
+          "id": "sulfonylurea_hypoglycemia",
+          "type": "standard",
+          "text": "A client with Type 2 Diabetes is prescribed Glipizide (Glucotrol). The client tells the nurse, 'I sometimes skip breakfast if I'm busy.'",
+          "question": "What is the most important teaching point for this client?",
+          "options": [
+            " 'You can skip your Glipizide dose if you skip a meal.' ",
+            " 'If you skip a meal while taking Glipizide, you are at high risk for hypoglycemia.' ",
+            " 'Glipizide only works if you eat a high-protein breakfast.' ",
+            " 'Taking Glipizide on an empty stomach helps it absorb faster.' "
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "INCORRECT: The client should not adjust their dose without provider guidance, but the priority is meal consistency.",
+            "CORRECT: Sulfonylureas stimulate insulin release regardless of food intake, increasing hypoglycemia risk if meals are skipped.",
+            "INCORRECT: It works with any meal, but consistency is key.",
+            "INCORRECT: It should be taken roughly 30 mins before a meal for optimal effect and safety."
+          ]
+        },
+        {
+          "id": "sglt2_inhibitor_teaching",
+          "type": "SATA",
+          "text": "A client is starting Canagliflozin (Invokana) for Type 2 Diabetes.",
+          "question": "Which of the following should the nurse include in the teaching? (Select All That Apply)",
+          "options": [
+            " 'You may experience an increase in the frequency of urination.' ",
+            " 'This medication works by helping your kidneys get rid of extra sugar.' ",
+            " 'Report any genital itching or discharge immediately.' ",
+            " 'You should limit your fluid intake while on this medication.' ",
+            " 'Monitor for signs of a UTI, such as burning during urination.' "
+          ],
+          "answer_type": "multi",
+          "correct_indices": [0, 1, 2, 4],
+          "rationales": [
+            "CORRECT: Polyuria is a common side effect as sugar pulls water with it into the urine.",
+            "CORRECT: This is the mechanism of action for SGLT2 inhibitors.",
+            "CORRECT: Increased sugar in the urine promotes yeast growth (candidiasis).",
+            "INCORRECT: Clients should maintain adequate hydration to prevent dehydration/hypotension.",
+            "CORRECT: High glucose in the urinary tract increases the risk of bacterial infections."
+          ]
+        },
+        {
+          "id": "verapamil_constipation",
+          "type": "standard",
+          "text": "A client is taking Verapamil for hypertension and angina.",
+          "question": "Which instruction should the nurse provide to manage a common side effect of this medication?",
+          "options": [
+            " 'Take an aspirin daily to prevent blood clots.' ",
+            " 'Increase your intake of dietary fiber and fluids.' ",
+            " 'Avoid eating bananas and orange juice.' ",
+            " 'Limit your physical activity to avoid muscle strain.' "
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "INCORRECT: Not related to Verapamil's side effects.",
+            "CORRECT: Constipation is a very common side effect of Verapamil (a non-dihydropyridine CCB).",
+            "INCORRECT: Verapamil doesn't significantly affect potassium levels like diuretics do.",
+            "INCORRECT: Activity is generally encouraged unless contraindicated by angina severity."
+          ]
+        },
+        {
+          "id": "spironolactone_potassium",
+          "type": "standard",
+          "text": "A client with Heart Failure is taking Spironolactone (Aldactone).",
+          "question": "Which food choice by the client indicates a need for further teaching?",
+          "options": [
+            " 'I'll have a small apple with my lunch.' ",
+            " 'I'm switching to a potassium-based salt substitute to lower my sodium.' ",
+            " 'I'll try to include more lean chicken in my diet.' ",
+            " 'I'll drink plenty of water throughout the day.' "
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "APPROPRIATE: Apples are low in potassium.",
+            "CORRECT: Spironolactone is potassium-sparing; using potassium salt substitutes significantly increases the risk of dangerous hyperkalemia.",
+            "APPROPRIATE: Lean protein is part of a healthy diet.",
+            "APPROPRIATE: Hydration is important, though fluid limits may apply in severe HF."
+          ]
+        },
+        {
+          "id": "niacin_flushing",
+          "type": "standard",
+          "text": "A client taking Niacin for hyperlipidemia reports 'intense skin flushing and itching' after each dose.",
+          "question": "What should the nurse suggest to the client?",
+          "options": [
+            " 'Stop the medication immediately as this is an allergic reaction.' ",
+            " 'Take an aspirin 30 minutes before your Niacin dose.' ",
+            " 'Double your next dose to get your body used to the medication faster.' ",
+            " 'Only take Niacin on an empty stomach to avoid this effect.' "
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "INCORRECT: Flushing is a known vasodilator effect, not typically a true allergy.",
+            "CORRECT: Aspirin (or NSAIDs) can help reduce the prostaglandin-mediated flushing caused by Niacin.",
+            "DANGEROUS: Would worsen the effect.",
+            "INCORRECT: Taking it with food or at bedtime can actually help reduce symptoms."
+          ]
+        },
+        {
+          "id": "dka_insulin_choice",
+          "type": "standard",
+          "text": "A patient is admitted to the emergency department with Diabetic Ketoacidosis (DKA). The provider orders a continuous insulin infusion.",
+          "question": "Which insulin should the nurse prepare for IV administration?",
+          "options": [
+            "NPH Insulin",
+            "Insulin Glargine",
+            "Regular Insulin",
+            "Insulin Lispro"
+          ],
+          "answer_type": "single",
+          "correct_indices": [2],
+          "rationales": [
+            "INCORRECT: NPH is intermediate-acting and cloudy; never given IV.",
+            "INCORRECT: Glargine is long-acting and never given IV.",
+            "CORRECT: Regular insulin is the only insulin that can be administered intravenously.",
+            "INCORRECT: Lispro is rapid-acting but Regular is the standard for IV infusions in DKA."
+          ]
+        },
+        {
+          "id": "amlodipine_edema",
+          "type": "standard",
+          "text": "A client taking Amlodipine (Norvasc) for hypertension reports that their 'shoes feel too tight' by the end of the day and their ankles look swollen.",
+          "question": "What is the nurse's best explanation for this?",
+          "options": [
+            " 'This indicates that your blood pressure is still too high.' ",
+            " 'This is a common side effect of Amlodipine due to peripheral vasodilation.' ",
+            " 'You are likely developing heart failure from the medication.' ",
+            " 'You are eating too much salt, which is counteracting the drug.' "
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "INCORRECT: While BP should be checked, edema is a known drug effect.",
+            "CORRECT: Peripheral edema is a hallmark side effect of dihydropyridine CCBs like Amlodipine.",
+            "INCORRECT: While CCBs can be used in HF, Amlodipine itself isn't a common cause of new-onset HF.",
+            "INCORRECT: While salt intake matters, the drug effect is the primary cause here."
+          ]
+        },
+        {
+          "id": "severe_hypoglycemia_glucagon",
+          "type": "standard",
+          "text": "A family member found a client with diabetes unconscious at home. The client's blood glucose is 42 mg/dL.",
+          "question": "Which action is the priority?",
+          "options": [
+            "Try to pour orange juice into the client's mouth.",
+            "Administer 1 mg of Glucagon IM or SQ.",
+            "Check the client's temperature.",
+            "Wait 15 minutes and recheck the blood glucose."
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "DANGEROUS: High aspiration risk in an unconscious patient.",
+            "CORRECT: Glucagon is the emergency treatment for severe hypoglycemia when the patient cannot swallow.",
+            "INAPPROPRIATE: Not a priority during a hypoglycemic crisis.",
+            "DANGEROUS: Severe hypoglycemia requires immediate treatment to prevent brain damage."
+          ]
+        },
+        {
+          "id": "gliptin_pancreatitis",
+          "type": "standard",
+          "text": "A client taking Sitagliptin (Januvia) for Type 2 Diabetes reports 'severe, persistent abdominal pain that radiates to my back' along with nausea.",
+          "question": "Which potential adverse effect should the nurse suspect?",
+          "options": [
+            "Lactic Acidosis",
+            "Pancreatitis",
+            "Rhabdomyolysis",
+            "B12 Deficiency"
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "INCORRECT: Associated with Metformin.",
+            "CORRECT: Severe abdominal pain radiating to the back is a classic sign of pancreatitis, a rare but serious side effect of Gliptins (DPP-4 inhibitors).",
+            "INCORRECT: Associated with Statins.",
+            "INCORRECT: Associated with Metformin; causes anemia/neuropathy, not acute pain."
+          ]
+        },
+        {
+          "id": "digoxin_apical_pulse",
+          "type": "standard",
+          "text": "The nurse is preparing to administer the daily dose of Digoxin to a client.",
+          "question": "Which action must the nurse take before administration?",
+          "options": [
+            "Check the client's blood pressure in both arms.",
+            "Auscultate the apical pulse for 1 full minute.",
+            "Ask the client if they have had a bowel movement today.",
+            "Ensure the client has finished their breakfast."
+          ],
+          "answer_type": "single",
+          "correct_indices": [1],
+          "rationales": [
+            "INCORRECT: BP is important but HR is the specific safety check for Digoxin.",
+            "CORRECT: Safety protocol requires a full 1-minute apical pulse check; hold if <60 bpm in adults.",
+            "INCORRECT: Not a specific requirement for Digoxin.",
+            "INCORRECT: Digoxin can be taken with or without food."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experimental_ngn",
+      "name": "Module 4: Experimental NGN Case Studies",
+      "scenarios": [
+        {
+          "id": "cardio_case_1",
+          "type": "bowtie",
+          "text": "CASE STUDY: Mr. Ramirez, a 68-year-old with HF and HTN, presents with 3+ pitting edema and SOB.\nVITALS: BP 162/98, HR 102, RR 24, SpO2 91% (RA).\nLABS: K+ 3.1 mEq/L, Digoxin 2.4 ng/mL.\nNOTES: Reports seeing 'sparkles' in vision and feeling nauseous.\nMEDS: Digoxin 0.125mg, Furosemide 40mg, Lisinopril 10mg.",
+          "question": "Complete the Bowtie: Identify the condition, 2 actions to take, and 2 parameters to monitor.",
+          "actions": ["Hold Digoxin and Furosemide", "Administer K+ supplement as ordered", "Increase Furosemide dose", "Administer Albuterol", "Check apical pulse"],
+          "conditions": ["Digoxin Toxicity exacerbated by Hypokalemia", "Hypertensive Crisis", "Acute Pulmonary Edema", "Lispro Overdose"],
+          "parameters": ["Digoxin levels and Electrolytes", "Cardiac rhythm (ECG)", "Daily weights", "Blood Glucose"],
+          "correct_actions": [0, 1],
+          "correct_condition": [0],
+          "correct_parameters": [0, 1],
+          "assets": {
+            "condition": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#FF0000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><line x1='8' y1='15' x2='16' y2='15'></line><line x1='12' y1='9' x2='12' y2='12'></line></svg>",
+            "environment": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M2 21L22 21L22 10L12 2L2 10L2 21Z'></path><path d='M10 16L14 16L14 21L10 21L10 16Z'></path></svg>",
+            "action": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#006400' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><line x1='12' y1='8' x2='12' y2='16'></line><line x1='8' y1='12' x2='16' y2='12'></line></svg>",
+            "drug": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#0000FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><line x1='15' y1='9' x2='9' y2='15'></line><line x1='9' y1='9' x2='15' y2='15'></line></svg>"
+          }
+        },
+        {
+          "id": "diabetes_case_1",
+          "type": "matrix",
+          "text": "CASE STUDY: Ms. Chen, 24yo with Type 1 DM, is admitted with fruity breath and deep/rapid breathing.\nLABS: BG 450 mg/dL, pH 7.28, Ketones positive in urine.\nVITALS: BP 90/60, HR 115.\nORDERS: 1. Normal Saline 1L bolus, 2. Regular Insulin IV drip, 3. NPH Insulin SQ now.",
+          "question": "For each provider order, determine if it is Indicated, Contraindicated, or Non-Essential at this time.",
+          "columns": ["Indicated", "Contraindicated", "Non-Essential"],
+          "rows": [
+            {"text": "Normal Saline 1L bolus (Fluid Resuscitation)", "correct_col_idx": 0},
+            {"text": "Regular Insulin IV drip (Standard DKA Protocol)", "correct_col_idx": 0},
+            {"text": "NPH Insulin SQ (Intermediate acting insulin)", "correct_col_idx": 1},
+            {"text": "Frequent monitoring of K+ and Glucose levels", "correct_col_idx": 0},
+            {"text": "Administering IV D50W immediately", "correct_col_idx": 1}
+          ],
+          "assets": {
+            "condition": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#FFA500' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><path d='M16 16s-1.5-2-4-2-4 2-4 2'></path><line x1='9' y1='9' x2='9.01' y2='9'></line><line x1='15' y1='9' x2='15.01' y2='9'></line></svg>",
+            "environment": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M14 11H2V3h12v8zM2 11h12M2 3L2 11M14 3L14 11M2 3l12 0'></path><path d='M16 8L22 21L10 21L16 8Z'></path></svg>",
+            "action": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#800080' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><line x1='12' y1='16' x2='12' y2='12'></line><line x1='12' y1='8' x2='12.01' y2='8'></line></svg>",
+            "drug": "<svg width='80' height='80' viewBox='0 0 24 24' fill='none' stroke='#FF00FF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><path d='M9 10L15 10L15 14L9 14L9 10Z'></path></svg>"
+          }
+        }
+      ]
+    }
+  ]
+};
+
+let currentModule = null;
+let currentIdx = 0;
+let score = 0;
+
+function showMenu() {
+    document.getElementById('menu-view').style.display = 'block';
+    document.getElementById('game-view').style.display = 'none';
+    const list = document.getElementById('module-list');
+    list.innerHTML = '';
+    gameData.modules.forEach(m => {
+        const div = document.createElement('div');
+        div.className = 'col-md-6 mb-3';
+        div.innerHTML = `<button class="btn btn-primary w-100 p-4 fs-4" onclick="startModule('${m.id}')">${m.name}</button>`;
+        list.appendChild(div);
+    });
+}
+
+function startModule(id) {
+    currentModule = gameData.modules.find(m => m.id === id);
+    currentIdx = 0;
+    score = 0;
+    document.getElementById('menu-view').style.display = 'none';
+    document.getElementById('game-view').style.display = 'block';
+    document.getElementById('score').innerText = score;
+    renderScenario();
+}
+
+function renderScenario() {
+    const s = currentModule.scenarios[currentIdx];
+    document.getElementById('module-title').innerText = currentModule.name;
+    document.getElementById('text').innerText = s.text;
+    document.getElementById('question').innerText = s.question;
+    document.getElementById('rationale-box').style.display = 'none';
+    document.getElementById('next-btn').style.display = 'none';
+    
+    const container = document.getElementById('options-container');
+    const matrix = document.getElementById('matrix-container');
+    const bowtie = document.getElementById('bowtie-container');
+    container.innerHTML = '';
+    matrix.style.display = 'none';
+    if (bowtie) bowtie.style.display = 'none';
+
+    // Display assets if available
+    if (s.assets) {
+        document.getElementById('asset-panel').style.display = 'flex';
+        displayAsset('asset-condition', s.assets.condition || '');
+        displayAsset('asset-environment', s.assets.environment || '');
+        displayAsset('asset-action', s.assets.action || '');
+        displayAsset('asset-drug', s.assets.drug || '');
+    } else {
+        document.getElementById('asset-panel').style.display = 'none';
+    }
+
+    if (s.type === 'matrix') {
+        renderMatrix(s);
+    } else if (s.type === 'bowtie') {
+        renderBowtie(s);
+    } else {
+        s.options.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'btn btn-outline-primary btn-option';
+            btn.innerText = (s.type === 'SATA' ? '[ ] ' : '') + opt;
+            btn.onclick = () => handleChoice(i);
+            container.appendChild(btn);
+        });
+        if (s.type === 'SATA') {
+            const submit = document.createElement('button');
+            submit.className = 'btn btn-success mt-3';
+            submit.innerText = 'Submit Answer';
+            submit.onclick = () => checkSATA();
+            container.appendChild(submit);
+        }
+    }
+}
+
+function renderBowtie(s) {
+    let container = document.getElementById('bowtie-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'bowtie-container';
+        document.getElementById('scenario-content').insertBefore(container, document.getElementById('rationale-box'));
+    }
+    container.style.display = 'block';
+    container.innerHTML = `
+        <div class="row text-center mt-4">
+            <div class="col-md-4 border-end">
+                <h6>Actions to Take (Select 2)</h6>
+                ${s.actions.map((a, i) => `<div class="form-check text-start"><input class="form-check-input" type="checkbox" name="bt-action" value="${i}" id="bt-a-${i}"><label class="form-check-label" for="bt-a-${i}">${a}</label></div>`).join('')}
+            </div>
+            <div class="col-md-4 border-end">
+                <h6>Condition (Select 1)</h6>
+                ${s.conditions.map((c, i) => `<div class="form-check text-start"><input class="form-check-input" type="radio" name="bt-cond" value="${i}" id="bt-c-${i}"><label class="form-check-label" for="bt-c-${i}">${c}</label></div>`).join('')}
+            </div>
+            <div class="col-md-4">
+                <h6>Parameters to Monitor (Select 2)</h6>
+                ${s.parameters.map((p, i) => `<div class="form-check text-start"><input class="form-check-input" type="checkbox" name="bt-param" value="${i}" id="bt-p-${i}"><label class="form-check-label" for="bt-p-${i}">${p}</label></div>`).join('')}
+            </div>
+        </div>
+        <button class="btn btn-success mt-4 w-100" onclick="checkBowtie()">Submit Bowtie Analysis</button>
+    `;
+}
+
+function checkBowtie() {
+    const s = currentModule.scenarios[currentIdx];
+    const actions = Array.from(document.querySelectorAll('input[name="bt-action"]:checked')).map(i => parseInt(i.value));
+    const cond = Array.from(document.querySelectorAll('input[name="bt-cond"]:checked')).map(i => parseInt(i.value));
+    const params = Array.from(document.querySelectorAll('input[name="bt-param"]:checked')).map(i => parseInt(i.value));
+
+    if (actions.length !== 2 || cond.length !== 1 || params.length !== 2) {
+        alert("Please select exactly 2 Actions, 1 Condition, and 2 Parameters.");
+        return;
+    }
+
+    let scoreAdj = 0;
+    if (JSON.stringify(actions.sort()) === JSON.stringify(s.correct_actions.sort())) scoreAdj += 4;
+    if (cond[0] === s.correct_condition[0]) scoreAdj += 2;
+    if (JSON.stringify(params.sort()) === JSON.stringify(s.correct_parameters.sort())) scoreAdj += 4;
+
+    score += scoreAdj;
+    document.getElementById('score').innerText = score;
+    
+    revealBowtieResult(scoreAdj);
+}
+
+function revealBowtieResult(adj) {
+    const ratBox = document.getElementById('rationale-box');
+    ratBox.style.display = 'block';
+    ratBox.className = 'mt-4 p-3 rounded ' + (adj > 0 ? 'bg-success-subtle' : 'bg-danger-subtle');
+    ratBox.innerHTML = `<h4>Bowtie Analysis Complete</h4><p>Score Adjusted: ${adj}</p><p>Review the case study details above to understand the clinical logic.</p>`;
+    document.getElementById('next-btn').style.display = 'block';
+    document.querySelectorAll('input').forEach(i => i.disabled = true);
+}
+
+let selectedSATA = new Set();
+function handleChoice(i) {
+    const s = currentModule.scenarios[currentIdx];
+    if (s.type === 'SATA') {
+        const btns = document.querySelectorAll('.btn-option');
+        if (selectedSATA.has(i)) {
+            selectedSATA.delete(i);
+            btns[i].classList.replace('btn-primary', 'btn-outline-primary');
+            btns[i].innerText = '[ ] ' + s.options[i];
+        } else {
+            selectedSATA.add(i);
+            btns[i].classList.replace('btn-outline-primary', 'btn-primary');
+            btns[i].innerText = '[X] ' + s.options[i];
+        }
+    } else {
+        revealAnswer([i]);
+    }
+}
+
+function checkSATA() {
+    revealAnswer(Array.from(selectedSATA));
+    selectedSATA.clear();
+}
+
+function renderMatrix(s) {
+    const matrix = document.getElementById('matrix-container');
+    matrix.style.display = 'block';
+    const head = document.getElementById('matrix-head');
+    const body = document.getElementById('matrix-body');
+    
+    head.innerHTML = `<tr><th>Finding</th>${s.columns.map(c => `<th>${c}</th>`).join('')}</tr>`;
+    body.innerHTML = '';
+    
+    s.rows.forEach((row, rIdx) => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${row.text}</td>` + s.columns.map((c, cIdx) => 
+            `<td><input type="radio" name="row-${rIdx}" value="${cIdx}" onchange="checkMatrix(${rIdx}, ${cIdx}, ${row.correct_col_idx})"></td>`
+        ).join('');
+        body.appendChild(tr);
+    });
+}
+
+let matrixCorrect = 0;
+function checkMatrix(rIdx, chosen, correct) {
+    const radios = document.getElementsByName(`row-${rIdx}`);
+    radios.forEach(r => r.disabled = true);
+    if (chosen == correct) {
+        score += 2;
+        matrixCorrect++;
+    } else {
+        score -= 1;
+    }
+    document.getElementById('score').innerText = score;
+    
+    if (matrixCorrect === currentModule.scenarios[currentIdx].rows.length) {
+        document.getElementById('next-btn').style.display = 'block';
+        matrixCorrect = 0;
+    }
+}
+
+function revealAnswer(userIndices) {
+    const s = currentModule.scenarios[currentIdx];
+    const correct = s.correct_indices;
+    const isCorrect = JSON.stringify(userIndices.sort()) === JSON.stringify(correct.sort());
+    
+    score += isCorrect ? 10 : -5;
+    document.getElementById('score').innerText = score;
+    
+    const ratBox = document.getElementById('rationale-box');
+    ratBox.style.display = 'block';
+    ratBox.className = 'mt-4 p-3 rounded ' + (isCorrect ? 'bg-success-subtle' : 'bg-danger-subtle');
+    
+    let html = `<h4>${isCorrect ? '✅ Correct!' : '❌ Incorrect'}</h4><hr>`;
+    if (s.rationales) {
+        s.rationales.forEach((r, i) => {
+            const status = correct.includes(i) ? '<b>[YES]</b>' : '<b>[NO]</b>';
+            html += `<p>${status} Option ${i+1}: ${r}</p>`;
+        });
+    }
+    
+    ratBox.innerHTML = html;
+    document.getElementById('next-btn').style.display = 'block';
+    
+    // Disable buttons
+    document.querySelectorAll('.btn-option').forEach(b => b.disabled = true);
+}
+
+function nextScenario() {
+    currentIdx++;
+    if (currentIdx < currentModule.scenarios.length) {
+        renderScenario();
+    } else {
+        alert("Module Complete! Final Score: " + score);
+        showMenu();
+    }
+}
+
+function displayAsset(panelId, svgContent) {
+    const panel = document.getElementById(panelId);
+    if (svgContent) {
+        panel.innerHTML = svgContent;
+        panel.style.display = 'flex';
+    } else {
+        panel.innerHTML = '';
+        panel.style.display = 'none';
+    }
+}
+
+showMenu();
+</script>
+</body>
+</html>
