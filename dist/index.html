@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>NCLEX Study Tool</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -501,27 +504,165 @@
             border: none;
         }
 
-        /* MOBILE RESPONSIVE MISSION MODAL */
+        /* ============================================
+           MOBILE RESPONSIVE - TABLET (max-width: 768px)
+           ============================================ */
         @media (max-width: 768px) {
+            /* --- NAV BAR --- */
+            .nexus-nav {
+                padding: 0.6rem 0;
+            }
+
+            .nexus-nav h3 {
+                font-size: 1.1rem !important;
+            }
+
+            .nexus-nav p {
+                display: none;
+            }
+
+            .nexus-nav .container-fluid {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .nav-buttons {
+                width: 100%;
+                justify-content: center !important;
+                flex-wrap: wrap;
+                gap: 6px !important;
+            }
+
+            .nav-buttons .btn {
+                font-size: 0.75rem !important;
+                padding: 0.35rem 0.7rem !important;
+            }
+
+            .nav-buttons > span {
+                width: 100%;
+                text-align: center;
+                font-size: 0.8rem;
+            }
+
+            /* --- CONTROL PANEL (Drug Filters) --- */
+            .control-panel {
+                top: 62px;
+                padding: 10px 0;
+            }
+
+            .control-panel .row {
+                flex-direction: column;
+                gap: 8px !important;
+            }
+
+            .control-panel .col-md-4 {
+                text-align: center !important;
+            }
+
+            .control-panel .btn-group {
+                width: 100% !important;
+            }
+
+            .control-panel .btn {
+                font-size: 0.8rem;
+                padding: 0.4rem 0.6rem;
+            }
+
+            /* --- HOME SCREEN --- */
+            .display-4 {
+                font-size: 1.6rem !important;
+            }
+
+            .display-4 .me-3 {
+                margin-right: 0.5rem !important;
+            }
+
+            .col-md-4 .nexus-card {
+                margin-bottom: 0;
+            }
+
+            /* --- DRUG REFERENCE CARDS --- */
+            .col-md-6.mb-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .nexus-card {
+                padding: 18px;
+                border-radius: 12px;
+            }
+
+            .nexus-card h4 {
+                font-size: 1.1rem;
+            }
+
+            .point-label {
+                font-size: 0.6rem;
+            }
+
+            .point-value {
+                font-size: 0.85rem;
+            }
+
+            .nexus-card .row .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .data-strip {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .inter-table {
+                font-size: 0.78rem;
+            }
+
+            .inter-table td {
+                padding: 6px 8px;
+            }
+
+            .ae-common, .ae-severe {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+
+            /* --- MISSION MODAL --- */
             .mission-container {
                 flex-direction: column;
                 height: 100vh;
+                height: 100dvh;
                 overflow-y: auto;
             }
 
             .chart-pane {
                 width: 100% !important;
-                height: 50vh;
+                height: auto;
+                min-height: 35vh;
+                max-height: 45vh;
                 border-right: none;
-                border-bottom: 4px solid var(--border);
+                border-bottom: 3px solid var(--border);
                 overflow-y: auto;
             }
 
             .work-pane {
                 width: 100% !important;
-                height: 50vh;
-                padding: 20px;
+                height: auto;
+                min-height: 55vh;
+                padding: 20px 15px;
                 overflow-y: auto;
+            }
+
+            .chart-header {
+                padding: 10px 12px !important;
+            }
+
+            .chart-header h5 {
+                font-size: 0.95rem !important;
+            }
+
+            .chart-header span {
+                font-size: 0.7rem !important;
             }
 
             .chart-tabs {
@@ -530,30 +671,34 @@
 
             .chart-tab {
                 padding: 8px 12px;
-                font-size: 0.75rem;
+                font-size: 0.72rem;
                 white-space: nowrap;
             }
 
+            .chart-content {
+                padding: 15px;
+                font-size: 0.88rem;
+            }
+
             .mission-container .btn {
-                font-size: 0.9rem !important;
-                padding: 0.5rem 1rem !important;
+                font-size: 0.85rem !important;
+                padding: 0.45rem 0.9rem !important;
             }
 
             .step-badge {
-                font-size: 0.8rem !important;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .work-pane {
-                padding: 15px;
+                font-size: 0.75rem !important;
             }
 
-            .mission-container .btn {
-                font-size: 0.8rem !important;
-                padding: 0.4rem 0.8rem !important;
+            .work-pane h3 {
+                font-size: 1.15rem !important;
             }
 
+            .mission-title-display {
+                font-size: 0.8rem;
+                padding: 6px 10px;
+            }
+
+            /* --- BOWTIE --- */
             .bowtie-container {
                 flex-direction: column;
                 gap: 15px;
@@ -561,6 +706,357 @@
 
             .bowtie-center {
                 width: 100%;
+            }
+
+            .bowtie-wing {
+                padding: 15px;
+            }
+
+            .bw-option {
+                font-size: 0.88rem;
+                padding: 10px 8px;
+            }
+
+            /* --- DRAG-AND-DROP CLOZE --- */
+            .cloze-text {
+                font-size: 0.95rem;
+                padding: 15px;
+                line-height: 1.8;
+            }
+
+            .drop-zone {
+                min-width: 60px;
+                padding: 4px 6px;
+                font-size: 0.85rem;
+            }
+
+            .draggable-option {
+                padding: 8px 12px;
+                font-size: 0.85rem;
+                touch-action: none;
+            }
+
+            .options-pool {
+                padding: 12px;
+            }
+
+            /* --- HIGHLIGHT SELECT --- */
+            .highlight-text {
+                font-size: 0.95rem;
+                padding: 15px;
+            }
+
+            .text-highlight {
+                padding: 3px 5px;
+            }
+
+            /* --- SIDECAR (Drug Reference Panel) --- */
+            .pharma-sidecar {
+                width: 85vw;
+                right: -85vw;
+            }
+
+            .sidecar-toggle {
+                width: 50px;
+                height: 50px;
+                right: 12px;
+                bottom: 80px;
+            }
+
+            .sidecar-toggle i {
+                font-size: 1.2rem !important;
+            }
+
+            /* --- EXAM VIEW --- */
+            #examModal, #examSelectionModal {
+                padding: 15px !important;
+            }
+
+            #examModal .container,
+            #examSelectionModal .container {
+                padding: 0;
+            }
+
+            #examModal h2, #examModal h3 {
+                font-size: 1.1rem !important;
+            }
+
+            #examModal .fs-5 {
+                font-size: 0.95rem !important;
+            }
+
+            #examModal label {
+                padding: 12px 14px !important;
+                font-size: 0.9rem;
+            }
+
+            #examModal .d-flex.justify-content-between.align-items-center {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            #examModal .btn-lg {
+                font-size: 0.9rem !important;
+                padding: 0.5rem 1.2rem !important;
+            }
+
+            #examSelectionModal h2 {
+                font-size: 1.2rem !important;
+            }
+
+            #examSelectionModal .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            /* --- MISSION SELECTOR --- */
+            #missionSelectorModal {
+                padding: 15px !important;
+            }
+
+            #missionSelectorModal h2 {
+                font-size: 1.2rem !important;
+            }
+
+            #missionSelectorModal h4 {
+                font-size: 1rem !important;
+            }
+
+            #missionSelectorModal .col-md-4,
+            #missionSelectorModal .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .mission-btn {
+                font-size: 0.85rem;
+            }
+        }
+
+        /* ============================================
+           MOBILE RESPONSIVE - PHONE (max-width: 480px)
+           ============================================ */
+        @media (max-width: 480px) {
+            /* --- NAV BAR --- */
+            .nexus-nav h3 {
+                font-size: 0.95rem !important;
+            }
+
+            .nexus-nav .badge {
+                font-size: 0.55rem !important;
+                padding: 0.2rem 0.4rem !important;
+            }
+
+            .nav-buttons .btn {
+                font-size: 0.7rem !important;
+                padding: 0.3rem 0.5rem !important;
+            }
+
+            /* --- CONTROL PANEL --- */
+            .control-panel {
+                top: 52px;
+            }
+
+            /* --- HOME SCREEN --- */
+            .display-4 {
+                font-size: 1.3rem !important;
+            }
+
+            .lead {
+                font-size: 0.9rem !important;
+            }
+
+            body {
+                padding-bottom: 60px;
+            }
+
+            /* --- DRUG CARDS --- */
+            .nexus-card {
+                padding: 14px;
+                margin-bottom: 15px;
+            }
+
+            .nexus-card h4 {
+                font-size: 1rem;
+                word-break: break-word;
+            }
+
+            .point-value {
+                font-size: 0.82rem;
+            }
+
+            .logistics-box {
+                font-size: 0.78rem;
+                padding: 10px;
+            }
+
+            /* --- MISSION WORK PANE --- */
+            .work-pane {
+                padding: 15px 12px !important;
+            }
+
+            .work-pane h3 {
+                font-size: 1.05rem !important;
+                line-height: 1.4;
+            }
+
+            /* Mission action buttons at bottom */
+            .work-pane .mt-5 {
+                margin-top: 1.5rem !important;
+                position: sticky;
+                bottom: 0;
+                background: var(--primary);
+                padding: 12px 0;
+                z-index: 10;
+            }
+
+            .mission-container .btn {
+                font-size: 0.8rem !important;
+                padding: 0.4rem 0.8rem !important;
+            }
+
+            /* --- BOWTIE --- */
+            .bowtie-wing, .bowtie-center {
+                padding: 12px;
+                border-radius: 12px;
+            }
+
+            .bowtie-label {
+                font-size: 0.65rem;
+            }
+
+            .bw-option {
+                font-size: 0.82rem;
+                padding: 8px;
+            }
+
+            /* --- DRAG-AND-DROP --- */
+            .cloze-text {
+                font-size: 0.88rem;
+                padding: 12px;
+            }
+
+            .draggable-option {
+                padding: 6px 10px;
+                font-size: 0.82rem;
+            }
+
+            /* --- EXAM --- */
+            #examModal {
+                padding: 10px !important;
+            }
+
+            #examModal h2 {
+                font-size: 1rem !important;
+                line-height: 1.4;
+            }
+
+            #examModal .fs-5 {
+                font-size: 0.88rem !important;
+            }
+
+            #examModal label {
+                padding: 10px 12px !important;
+                margin-bottom: 8px !important;
+            }
+
+            #feedbackContainer {
+                font-size: 0.9rem;
+            }
+
+            #feedbackContainer h4 {
+                font-size: 1rem;
+            }
+
+            /* --- SIDECAR --- */
+            .pharma-sidecar {
+                width: 92vw;
+                right: -92vw;
+            }
+
+            .sidecar-toggle {
+                width: 44px;
+                height: 44px;
+                right: 8px;
+                bottom: 70px;
+            }
+
+            .sidecar-toggle i {
+                font-size: 1rem !important;
+            }
+        }
+
+        /* ============================================
+           TOUCH DEVICE ENHANCEMENTS
+           ============================================ */
+        @media (hover: none) and (pointer: coarse) {
+            /* Larger tap targets for touch */
+            .btn {
+                min-height: 44px;
+                min-width: 44px;
+            }
+
+            .chart-tab {
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+            }
+
+            .bw-option {
+                min-height: 48px;
+            }
+
+            .text-highlight {
+                padding: 4px 6px;
+                line-height: 2;
+            }
+
+            /* Disable hover effects that don't work on touch */
+            .nexus-card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+
+            .draggable-option:hover {
+                transform: none;
+            }
+
+            /* Active states for touch feedback */
+            .nexus-card:active {
+                border-color: var(--accent);
+                transform: scale(0.98);
+            }
+
+            .btn:active {
+                transform: scale(0.96);
+            }
+
+            .draggable-option:active {
+                background: var(--accent);
+                transform: scale(0.95);
+            }
+
+            .text-highlight:active {
+                background: rgba(59, 130, 246, 0.4);
+            }
+        }
+
+        /* Safe area for iPhones with notch/Dynamic Island */
+        @supports (padding-top: env(safe-area-inset-top)) {
+            .nexus-nav {
+                padding-top: calc(0.6rem + env(safe-area-inset-top));
+            }
+
+            .mission-container {
+                padding-top: env(safe-area-inset-top);
+            }
+
+            #examModal, #examSelectionModal, #missionSelectorModal {
+                padding-top: calc(15px + env(safe-area-inset-top)) !important;
+            }
+
+            body {
+                padding-bottom: calc(80px + env(safe-area-inset-bottom));
             }
         }
     </style>
@@ -572,7 +1068,7 @@
         <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
             <div>
                 <h3 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-3"></i>NCLEX Study Tool <span
-                        class="badge bg-primary ms-2" style="font-size: 0.7rem">v3.2</span></h3>
+                        class="badge bg-primary ms-2" style="font-size: 0.7rem">v3.3</span></h3>
                 <p class="small text-secondary mb-0">High-Fidelity Clinical Study Platform</p>
             </div>
             <div class="d-flex align-items-center gap-3 nav-buttons">
@@ -4865,13 +5361,18 @@ function renderMissionStep() {
             zone.ondragover = handleDragOver;
             zone.ondrop = handleDrop;
         });
+
+        // Add touch support for mobile
+        initTouchDrag();
     }
 }
 
 function handleMissionAction() { if (!missionFeedbackMode) evaluateMissionStep(); else nextMissionStep(); }
 
-// Drag and drop functionality for cloze questions
+// Drag and drop functionality for cloze questions (desktop + mobile touch)
 let draggedElement = null;
+let touchDragClone = null;
+let touchStartX = 0, touchStartY = 0;
 
 function handleDragStart(e) {
     draggedElement = e.target;
@@ -4895,28 +5396,26 @@ function handleDrop(e) {
     e.preventDefault();
     const dropZone = e.target.closest('.drop-zone');
     if (!dropZone || !draggedElement) return;
+    placeInDropZone(draggedElement, dropZone);
+    return false;
+}
 
-    // Remove existing content from drop zone
+// Shared logic: place a dragged element into a drop zone
+function placeInDropZone(sourceEl, dropZone) {
     dropZone.innerHTML = '';
-
-    // Clone the dragged element and place it in the drop zone
-    const clone = draggedElement.cloneNode(true);
+    const clone = sourceEl.cloneNode(true);
     clone.draggable = false;
     clone.classList.remove('dragging');
     clone.classList.add('dropped-option');
     clone.onclick = () => removeFromDropZone(clone, dropZone);
-
+    // Also allow touch-tap to remove on mobile
+    clone.ontouchend = (ev) => { ev.preventDefault(); removeFromDropZone(clone, dropZone); };
     dropZone.appendChild(clone);
     dropZone.classList.add('filled');
-
-    // Remove from options pool
-    draggedElement.remove();
-
-    return false;
+    sourceEl.remove();
 }
 
 function removeFromDropZone(element, dropZone) {
-    // Return option to pool
     const optionText = element.textContent;
     const optionsContainer = document.querySelector('.options-container');
     const newOption = document.createElement('span');
@@ -4925,12 +5424,91 @@ function removeFromDropZone(element, dropZone) {
     newOption.textContent = optionText;
     newOption.ondragstart = handleDragStart;
     newOption.ondragend = handleDragEnd;
-
+    addTouchDragSupport(newOption);
     optionsContainer.appendChild(newOption);
-
-    // Clear drop zone
     dropZone.innerHTML = '_____';
     dropZone.classList.remove('filled');
+}
+
+// --- TOUCH DRAG SUPPORT (for mobile) ---
+function addTouchDragSupport(el) {
+    el.addEventListener('touchstart', onTouchDragStart, { passive: false });
+    el.addEventListener('touchmove', onTouchDragMove, { passive: false });
+    el.addEventListener('touchend', onTouchDragEnd, { passive: false });
+}
+
+function onTouchDragStart(e) {
+    draggedElement = e.target.closest('.draggable-option');
+    if (!draggedElement) return;
+    const touch = e.touches[0];
+    touchStartX = touch.clientX;
+    touchStartY = touch.clientY;
+
+    // Create a floating visual clone
+    touchDragClone = draggedElement.cloneNode(true);
+    touchDragClone.style.cssText = `
+        position: fixed; z-index: 9999; pointer-events: none;
+        opacity: 0.85; transform: scale(1.05);
+        left: ${touch.clientX - 40}px; top: ${touch.clientY - 20}px;
+        background: var(--accent); color: white; padding: 8px 12px;
+        border-radius: 6px; font-size: 0.85rem; box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    `;
+    document.body.appendChild(touchDragClone);
+    draggedElement.classList.add('dragging');
+}
+
+function onTouchDragMove(e) {
+    if (!touchDragClone) return;
+    e.preventDefault(); // Prevent scrolling while dragging
+    const touch = e.touches[0];
+    touchDragClone.style.left = (touch.clientX - 40) + 'px';
+    touchDragClone.style.top = (touch.clientY - 20) + 'px';
+
+    // Highlight nearest drop zone
+    document.querySelectorAll('.drop-zone').forEach(z => z.style.borderColor = '');
+    const el = document.elementFromPoint(touch.clientX, touch.clientY);
+    const zone = el ? el.closest('.drop-zone') : null;
+    if (zone) zone.style.borderColor = 'var(--warning)';
+}
+
+function onTouchDragEnd(e) {
+    if (!touchDragClone) return;
+    const touch = e.changedTouches[0];
+
+    // Clean up the floating clone
+    touchDragClone.remove();
+    touchDragClone = null;
+
+    // Check if it was just a tap (not a drag) — ignore short non-drags
+    const dx = Math.abs(touch.clientX - touchStartX);
+    const dy = Math.abs(touch.clientY - touchStartY);
+    if (dx < 10 && dy < 10) {
+        // Tap: find the first empty drop zone and place it there
+        if (draggedElement) {
+            draggedElement.classList.remove('dragging');
+            const emptyZone = document.querySelector('.drop-zone:not(.filled)');
+            if (emptyZone) placeInDropZone(draggedElement, emptyZone);
+        }
+        draggedElement = null;
+        return;
+    }
+
+    // Find the drop zone under the finger
+    document.querySelectorAll('.drop-zone').forEach(z => z.style.borderColor = '');
+    const el = document.elementFromPoint(touch.clientX, touch.clientY);
+    const dropZone = el ? el.closest('.drop-zone') : null;
+
+    if (dropZone && draggedElement) {
+        placeInDropZone(draggedElement, dropZone);
+    } else if (draggedElement) {
+        draggedElement.classList.remove('dragging');
+    }
+    draggedElement = null;
+}
+
+// Initialize touch support on any newly rendered draggable options
+function initTouchDrag() {
+    document.querySelectorAll('.draggable-option').forEach(el => addTouchDragSupport(el));
 }
 
 // Highlight selection functions
@@ -5025,7 +5603,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                                     NCLEX Study Tool
                                 </h1>
                                 <p class="lead text-secondary mb-4">High-Fidelity Clinical Study Platform</p>
-                                <div class="badge bg-primary fs-6 px-3 py-2">Version 3.2</div>
+                                <div class="badge bg-primary fs-6 px-3 py-2">Version 3.3</div>
                             </div>
 
                             <div class="row g-4">
