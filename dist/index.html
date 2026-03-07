@@ -5695,41 +5695,49 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         }
 
         async function handleAuth() {
-            const email = document.getElementById('auth-email').value.trim();
-            const password = document.getElementById('auth-password').value;
+            const email = document.getElementById('auth-email')?.value.trim();
+            const password = document.getElementById('auth-password')?.value;
             const errEl = document.getElementById('auth-error');
-            errEl.innerText = '';
+            if (errEl) { errEl.innerText = ''; errEl.style.color = 'var(--danger)'; }
 
-            if (!email || !password) { errEl.innerText = 'Please enter email and password.'; return; }
-            if (password.length < 6) { errEl.innerText = 'Password must be at least 6 characters.'; return; }
+            if (!email || !password) { if (errEl) errEl.innerText = 'Please enter email and password.'; return; }
+            if (password.length < 6) { if (errEl) errEl.innerText = 'Password must be at least 6 characters.'; return; }
 
             const btn = document.getElementById('auth-submit-btn');
-            btn.disabled = true; btn.innerText = 'Please wait...';
+            if (btn) { btn.disabled = true; btn.innerText = 'Please wait...'; }
+
+            if (!sb) {
+                if (errEl) errEl.innerText = 'Connection not ready. Try again in a moment.';
+                if (btn) { btn.disabled = false; btn.innerText = authMode === 'signup' ? 'Create Account' : 'Sign In'; }
+                return;
+            }
 
             try {
                 if (authMode === 'signup') {
-                    const name = document.getElementById('auth-name').value.trim() || 'Student';
+                    const name = document.getElementById('auth-name')?.value.trim() || 'Student';
                     const { data, error } = await sb.auth.signUp({
                         email, password,
                         options: { data: { display_name: name } }
                     });
                     if (error) throw error;
                     if (data.user && !data.session) {
-                        errEl.style.color = 'var(--success)';
-                        errEl.innerText = 'Account created! Check your email to confirm, then sign in.';
-                        btn.disabled = false; btn.innerText = 'Create Account';
+                        if (errEl) { errEl.style.color = 'var(--success)'; errEl.innerText = 'Account created! Check your email to confirm, then sign in.'; }
+                        if (btn) { btn.disabled = false; btn.innerText = 'Create Account'; }
                         return;
                     }
+                    // If we got a session, auth state listener handles it
                 } else {
                     const { data, error } = await sb.auth.signInWithPassword({ email, password });
                     if (error) throw error;
+                    // Auth state listener handles the rest
                 }
+                // Re-enable button after a short delay in case listener doesn't fire
+                setTimeout(() => { if (btn) { btn.disabled = false; btn.innerText = authMode === 'signup' ? 'Create Account' : 'Sign In'; } }, 5000);
             } catch (e) {
-                errEl.innerText = e.message || 'Authentication failed.';
-                btn.disabled = false; btn.innerText = authMode === 'signup' ? 'Create Account' : 'Sign In';
-                return;
+                const msg = e.message || 'Authentication failed.';
+                if (errEl) errEl.innerText = msg.includes('Invalid login') ? 'Invalid email or password. If you just signed up, try signing up again.' : msg;
+                if (btn) { btn.disabled = false; btn.innerText = authMode === 'signup' ? 'Create Account' : 'Sign In'; }
             }
-            // Auth succeeded — session listener will handle the rest
         }
 
         function continueAsGuest() {
