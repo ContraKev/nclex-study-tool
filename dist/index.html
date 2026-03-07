@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>NCLEX Study Tool</title>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" async></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -5642,12 +5642,21 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
            ============================================ */
         const SUPABASE_URL = 'https://yawiilrsovmyteifqabv.supabase.co';
         const SUPABASE_ANON_KEY = 'sb_publishable_3T8uPePWOuuvmdcFISXv0w_FdB8iKSV';
-        const _supaLib = window.supabase;
-        const sb = (_supaLib && _supaLib.createClient) ? _supaLib.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
-        if (!sb) console.warn('Supabase client failed to initialize — running in guest-only mode');
+        let sb = null; // initialized after CDN loads
 
         let nmUser = null; // current authenticated user
         let nmProfile = null; // user profile (display_name)
+
+        // Try to init Supabase (CDN may not be loaded yet if async)
+        function tryInitSupabase() {
+            if (sb) return true;
+            if (window.supabase && window.supabase.createClient) {
+                sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+                console.log('Supabase client initialized');
+                return true;
+            }
+            return false;
+        }
 
         // --- AUTH UI ---
         function showAuthScreen() {
@@ -5909,51 +5918,51 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             showHomeScreen();
         }
 
-        document.addEventListener('DOMContentLoaded', () => {
-            try {
-                if (!sb) {
-                    console.log('No Supabase client — running in guest mode');
-                    initApp();
-                    return;
-                }
+        // Boot the app immediately, then layer on Supabase when ready
+        function bootSupabaseAuth() {
+            if (!tryInitSupabase()) return; // CDN not loaded yet
 
-                // Listen for auth state changes
-                sb.auth.onAuthStateChange(async (event, session) => {
-                    try {
-                        if (session?.user) {
-                            nmUser = session.user;
-                            try {
-                                const { data } = await sb.from('profiles').select('*').eq('id', nmUser.id).single();
-                                nmProfile = data || { display_name: nmUser.user_metadata?.display_name || nmUser.email?.split('@')[0] || 'Student' };
-                            } catch (profileErr) {
-                                console.warn('Profile fetch failed:', profileErr);
-                                nmProfile = { display_name: nmUser.email?.split('@')[0] || 'Student' };
-                            }
-                            document.getElementById('auth-overlay')?.remove();
-                            initApp();
-                        } else if (event === 'SIGNED_OUT') {
-                            nmUser = null; nmProfile = null;
-                            showAuthScreen();
+            sb.auth.onAuthStateChange(async (event, session) => {
+                try {
+                    if (session?.user) {
+                        nmUser = session.user;
+                        try {
+                            const { data } = await sb.from('profiles').select('*').eq('id', nmUser.id).single();
+                            nmProfile = data || { display_name: nmUser.user_metadata?.display_name || nmUser.email?.split('@')[0] || 'Student' };
+                        } catch (e) {
+                            nmProfile = { display_name: nmUser.email?.split('@')[0] || 'Student' };
                         }
-                    } catch (authErr) {
-                        console.error('Auth state change error:', authErr);
-                        initApp(); // fallback — show the app anyway
-                    }
-                });
-
-                // Check for existing session
-                sb.auth.getSession().then(({ data: { session } }) => {
-                    if (!session) {
+                        document.getElementById('auth-overlay')?.remove();
+                        showHomeScreen(); // refresh home with user info
+                    } else if (event === 'SIGNED_OUT') {
+                        nmUser = null; nmProfile = null;
                         showAuthScreen();
                     }
-                }).catch(err => {
-                    console.error('getSession failed:', err);
-                    initApp(); // fallback
-                });
+                } catch (e) { console.warn('Auth error:', e); }
+            });
 
-            } catch (e) {
-                console.error('DOMContentLoaded error:', e);
-                initApp(); // always show the app no matter what
+            sb.auth.getSession().then(({ data: { session } }) => {
+                if (!session) showAuthScreen();
+            }).catch(() => {});
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // ALWAYS show the app first, no matter what
+            initApp();
+
+            // Then try to set up auth (may need to wait for CDN)
+            if (tryInitSupabase()) {
+                bootSupabaseAuth();
+            } else {
+                // CDN still loading — wait for it
+                const check = setInterval(() => {
+                    if (tryInitSupabase()) {
+                        clearInterval(check);
+                        bootSupabaseAuth();
+                    }
+                }, 200);
+                // Give up after 10 seconds
+                setTimeout(() => clearInterval(check), 10000);
             }
         });
 
