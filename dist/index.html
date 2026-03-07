@@ -5902,7 +5902,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         // --- APP INITIALIZATION ---
         let currentSection = 'home';
 
-        async function initApp() {
+        function initApp() {
             showHomeScreen();
         }
 
@@ -5932,15 +5932,13 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             // If session exists, onAuthStateChange will fire and handle it
         });
 
-        async function showHomeScreen() {
+        function showHomeScreen() {
             currentSection = 'home';
             document.querySelector('.control-panel').style.display = 'none';
             document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
 
             const userName = nmProfile?.display_name || 'Student';
             const isGuest = !nmUser;
-            const dashData = isGuest ? null : await loadDashboardData();
-            const dashHtml = renderDashboard(dashData);
 
             const userSection = isGuest
                 ? `<div class="text-center mb-3"><span class="badge bg-secondary px-3 py-2">Guest Mode</span> <span class="auth-toggle ms-2" onclick="showAuthScreen()" style="font-size:0.85rem;">Sign in to save progress</span></div>`
@@ -6030,7 +6028,9 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                                 </div>
                             </div>
 
-                            ${dashHtml}
+                            <div id="dashboard-container">
+                                <div class="text-center py-4"><span class="text-secondary"><i class="fas fa-spinner fa-spin me-2"></i>Loading progress...</span></div>
+                            </div>
 
                         </div>
                     </div>
@@ -6044,6 +6044,21 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             navButtons.innerHTML = nmUser
                 ? `<span class="user-badge"><i class="fas fa-user me-1"></i>${nmProfile?.display_name || 'Student'}</span>`
                 : `<span class="text-secondary">Welcome to NCLEX Study Tool</span>`;
+
+            // Load dashboard data asynchronously (non-blocking)
+            if (!isGuest) {
+                loadDashboardData().then(data => {
+                    const el = document.getElementById('dashboard-container');
+                    if (el) el.innerHTML = renderDashboard(data);
+                }).catch(e => {
+                    console.warn('Dashboard load failed:', e);
+                    const el = document.getElementById('dashboard-container');
+                    if (el) el.innerHTML = '<div class="text-center text-secondary py-3"><small>Could not load progress data</small></div>';
+                });
+            } else {
+                const el = document.getElementById('dashboard-container');
+                if (el) el.innerHTML = renderDashboard(null);
+            }
         }
 
         function showDrugReferences() {
