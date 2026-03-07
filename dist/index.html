@@ -5277,13 +5277,16 @@ function showMissionUI() {
     }, 100);
 }
 
-async function closeMission() {
-    // Save mission results if any steps were logged
-    if (window.missionStepLog && window.missionStepLog.length > 0 && currentMission) {
-        const score = window.missionStepLog.filter(s => s.correct).length;
-        const total = window.missionStepLog.length;
-        await saveMissionResult(currentMission.id, currentMission.title, currentMission.category || '', score, total, window.missionStepLog);
-    }
+function closeMission() {
+    // Save mission results in background (non-blocking)
+    try {
+        if (window.missionStepLog && window.missionStepLog.length > 0 && currentMission) {
+            const score = window.missionStepLog.filter(s => s.correct).length;
+            const total = window.missionStepLog.length;
+            saveMissionResult(currentMission.id, currentMission.title, currentMission.category || '', score, total, window.missionStepLog)
+                .catch(e => console.warn('Mission save failed:', e));
+        }
+    } catch (e) { console.warn('Mission save error:', e); }
     window.missionStepLog = [];
     document.body.style.overflow = 'auto';
     document.getElementById('missionModal')?.remove();
@@ -5906,30 +5909,52 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             showHomeScreen();
         }
 
-        document.addEventListener('DOMContentLoaded', async () => {
-            if (!sb) { initApp(); return; } // no supabase — run without auth
-
-            // Listen for auth state changes
-            sb.auth.onAuthStateChange(async (event, session) => {
-                if (session?.user) {
-                    nmUser = session.user;
-                    // Fetch profile
-                    const { data } = await sb.from('profiles').select('*').eq('id', nmUser.id).single();
-                    nmProfile = data || { display_name: nmUser.user_metadata?.display_name || nmUser.email?.split('@')[0] || 'Student' };
-                    document.getElementById('auth-overlay')?.remove();
+        document.addEventListener('DOMContentLoaded', () => {
+            try {
+                if (!sb) {
+                    console.log('No Supabase client — running in guest mode');
                     initApp();
-                } else if (event === 'SIGNED_OUT') {
-                    nmUser = null; nmProfile = null;
-                    showAuthScreen();
+                    return;
                 }
-            });
 
-            // Check for existing session
-            const { data: { session } } = await sb.auth.getSession();
-            if (!session) {
-                showAuthScreen();
+                // Listen for auth state changes
+                sb.auth.onAuthStateChange(async (event, session) => {
+                    try {
+                        if (session?.user) {
+                            nmUser = session.user;
+                            try {
+                                const { data } = await sb.from('profiles').select('*').eq('id', nmUser.id).single();
+                                nmProfile = data || { display_name: nmUser.user_metadata?.display_name || nmUser.email?.split('@')[0] || 'Student' };
+                            } catch (profileErr) {
+                                console.warn('Profile fetch failed:', profileErr);
+                                nmProfile = { display_name: nmUser.email?.split('@')[0] || 'Student' };
+                            }
+                            document.getElementById('auth-overlay')?.remove();
+                            initApp();
+                        } else if (event === 'SIGNED_OUT') {
+                            nmUser = null; nmProfile = null;
+                            showAuthScreen();
+                        }
+                    } catch (authErr) {
+                        console.error('Auth state change error:', authErr);
+                        initApp(); // fallback — show the app anyway
+                    }
+                });
+
+                // Check for existing session
+                sb.auth.getSession().then(({ data: { session } }) => {
+                    if (!session) {
+                        showAuthScreen();
+                    }
+                }).catch(err => {
+                    console.error('getSession failed:', err);
+                    initApp(); // fallback
+                });
+
+            } catch (e) {
+                console.error('DOMContentLoaded error:', e);
+                initApp(); // always show the app no matter what
             }
-            // If session exists, onAuthStateChange will fire and handle it
         });
 
         function showHomeScreen() {
@@ -6151,17 +6176,21 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
 
         function closeExamSelection() {
             document.getElementById('examSelectionModal')?.remove();
+            showHomeScreen();
         }
-        async function closeExam() {
-            // Save exam results if any answers were logged
-            if (window.examAnswerLog && window.examAnswerLog.length > 0) {
-                const score = window.examAnswerLog.filter(a => a.correct).length;
-                const total = window.examAnswerLog.length;
-                await saveExamResult(window.currentExamId, window.currentExamName, score, total, window.examAnswerLog);
-            }
+        function closeExam() {
+            // Save exam results in background (non-blocking)
+            try {
+                if (window.examAnswerLog && window.examAnswerLog.length > 0) {
+                    const score = window.examAnswerLog.filter(a => a.correct).length;
+                    const total = window.examAnswerLog.length;
+                    saveExamResult(window.currentExamId, window.currentExamName, score, total, window.examAnswerLog)
+                        .catch(e => console.warn('Exam save failed:', e));
+                }
+            } catch (e) { console.warn('Exam save error:', e); }
             window.examAnswerLog = [];
             document.getElementById('examModal')?.remove();
-            showExamSelectionModal();
+            showHomeScreen();
         }
         function showExamModal() {
             const examName = window.currentExamName || 'SLIDE EXAM';
