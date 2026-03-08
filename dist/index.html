@@ -5278,16 +5278,19 @@ function showMissionUI() {
 }
 
 function closeMission() {
-    // Save mission results in background (non-blocking)
+    // Save final mission results and delete in-progress session
     try {
         if (window.missionStepLog && window.missionStepLog.length > 0 && currentMission) {
             const score = window.missionStepLog.filter(s => s.correct).length;
             const total = currentMission.steps ? currentMission.steps.length : window.missionStepLog.length;
             saveMissionResult(currentMission.id, currentMission.title, currentMission.category || '', score, total, window.missionStepLog)
                 .catch(e => console.warn('Mission save failed:', e));
+            // Delete the in-progress session since mission is done
+            deleteMissionSession(currentMission.id).catch(() => {});
         }
     } catch (e) { console.warn('Mission save error:', e); }
     window.missionStepLog = [];
+    currentMission = null;
     document.body.style.overflow = 'auto';
     document.getElementById('missionModal')?.remove();
 }
@@ -5630,6 +5633,8 @@ function evaluateMissionStep() {
     } else {
         window.missionStepLog.push({ step: currentStepIndex, type: step.type || 'multiple_choice', correct: isCorrect });
     }
+    // Auto-save session after every step
+    saveMissionSession().catch(() => {});
     document.getElementById('mission-feedback').innerHTML = `<div class="p-4 rounded-4 border-2 ${isCorrect ? 'border-success' : 'border-danger'}" style="background: ${isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)'}; backdrop-filter: blur(10px);"><h4 class="fw-bold ${isCorrect ? 'text-success' : 'text-danger'}"><i class="fas ${isCorrect ? 'fa-check-circle' : 'fa-times-circle'} me-2"></i>${isCorrect ? 'CORRECT' : 'INCORRECT'}</h4><p class="text-white mb-0 mt-2 fs-5">${step.rationale || "Review clues and pharmacology interaction."}</p></div>`;
     missionFeedbackMode = true;
     const btn = document.getElementById('mission-action-btn');
@@ -5783,6 +5788,157 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     steps: JSON.stringify(steps)
                 });
             } catch (e) { console.warn('Failed to save mission result:', e); }
+        }
+
+        // --- SESSION AUTO-SAVE (Resume Feature) ---
+        async function saveExamSession() {
+            if (!sb || !nmUser || !window.currentExamId) return;
+            try {
+                const sessionData = {
+                    user_id: nmUser.id,
+                    session_type: 'exam',
+                    exam_id: window.currentExamId,
+                    exam_name: window.currentExamName,
+                    current_index: window.currentQuestionIndex,
+                    total_items: window.examData ? window.examData.length : 0,
+                    answers: JSON.stringify(window.examAnswerLog),
+                    updated_at: new Date().toISOString()
+                };
+                await sb.from('active_sessions')
+                    .upsert(sessionData, { onConflict: 'user_id,session_type,exam_id' });
+            } catch (e) { console.warn('Session save failed:', e); }
+        }
+
+        async function saveMissionSession() {
+            if (!sb || !nmUser || !currentMission) return;
+            try {
+                const sessionData = {
+                    user_id: nmUser.id,
+                    session_type: 'mission',
+                    mission_id: currentMission.id,
+                    mission_title: currentMission.title,
+                    mission_category: currentMission.category || '',
+                    mission_numerical_id: currentMission.numerical_id,
+                    current_index: currentStepIndex,
+                    total_items: currentMission.steps ? currentMission.steps.length : 0,
+                    answers: JSON.stringify(window.missionStepLog),
+                    updated_at: new Date().toISOString()
+                };
+                await sb.from('active_sessions')
+                    .upsert(sessionData, { onConflict: 'user_id,session_type,mission_id' });
+            } catch (e) { console.warn('Mission session save failed:', e); }
+        }
+
+        async function deleteExamSession(examId) {
+            if (!sb || !nmUser) return;
+            try {
+                await sb.from('active_sessions')
+                    .delete()
+                    .eq('user_id', nmUser.id)
+                    .eq('session_type', 'exam')
+                    .eq('exam_id', examId);
+            } catch (e) { console.warn('Session delete failed:', e); }
+        }
+
+        async function deleteMissionSession(missionId) {
+            if (!sb || !nmUser) return;
+            try {
+                await sb.from('active_sessions')
+                    .delete()
+                    .eq('user_id', nmUser.id)
+                    .eq('session_type', 'mission')
+                    .eq('mission_id', missionId);
+            } catch (e) { console.warn('Mission session delete failed:', e); }
+        }
+
+        async function loadActiveSessions() {
+            if (!sb || !nmUser) return [];
+            try {
+                const { data } = await sb.from('active_sessions')
+                    .select('*')
+                    .eq('user_id', nmUser.id)
+                    .order('updated_at', { ascending: false });
+                return data || [];
+            } catch (e) { console.warn('Failed to load sessions:', e); return []; }
+        }
+
+        function resumeExamSession(session) {
+            const exam = window.availableExams.find(e => e.id === session.exam_id);
+            if (!exam) { alert('Exam not found.'); return; }
+
+            window.examData = exam.data;
+            window.currentExamId = session.exam_id;
+            window.currentExamName = session.exam_name;
+            window.currentQuestionIndex = session.current_index || 0;
+            window.feedbackMode = false;
+            try { window.examAnswerLog = JSON.parse(session.answers) || []; } catch (e) { window.examAnswerLog = []; }
+
+            // Close any open modals
+            document.getElementById('examSelectionModal')?.remove();
+            document.getElementById('examModal')?.remove();
+
+            showExamModal();
+            renderQuestion();
+        }
+
+        function resumeMissionSession(session) {
+            const mission = (window.allMissions || []).concat(window.customMissions || [])
+                .find(m => m.id === session.mission_id || m.numerical_id === session.mission_numerical_id);
+            if (!mission) { alert('Mission not found.'); return; }
+
+            currentMission = mission;
+            currentStepIndex = session.current_index || 0;
+            missionFeedbackMode = false;
+            try { window.missionStepLog = JSON.parse(session.answers) || []; } catch (e) { window.missionStepLog = []; }
+
+            // Close any open modals
+            document.getElementById('missionSelectorModal')?.remove();
+            document.getElementById('missionModal')?.remove();
+
+            showMissionUI();
+            renderMissionStep();
+        }
+
+        // Save on tab close / navigate away
+        window.addEventListener('beforeunload', () => {
+            if (window.currentExamId && window.examAnswerLog && window.examAnswerLog.length > 0) {
+                saveExamSession();
+            }
+            if (currentMission && window.missionStepLog && window.missionStepLog.length > 0) {
+                saveMissionSession();
+            }
+        });
+
+        function renderActiveSessions(sessions) {
+            if (!sessions || sessions.length === 0) return '';
+
+            return `<div class="dashboard-card mt-4">
+                <h6 class="text-warning fw-bold mb-3"><i class="fas fa-pause-circle me-2"></i>In Progress</h6>
+                ${sessions.map(s => {
+                    const isExam = s.session_type === 'exam';
+                    const name = isExam ? s.exam_name : s.mission_title;
+                    let answered = 0;
+                    try { answered = JSON.parse(s.answers).length; } catch(e) {}
+                    const progress = Math.round((answered / s.total_items) * 100);
+                    const ago = getTimeAgo(s.updated_at);
+                    return `<div class="d-flex justify-content-between align-items-center py-3 border-bottom border-secondary">
+                        <div class="flex-grow-1 me-3">
+                            <div class="d-flex align-items-center gap-2 mb-1">
+                                <span class="badge bg-${isExam ? 'info' : 'success'}" style="font-size:0.6rem;">${isExam ? 'EXAM' : 'MISSION'}</span>
+                                <span class="text-white small fw-bold">${name.length > 30 ? name.slice(0, 30) + '...' : name}</span>
+                            </div>
+                            <div class="weak-area-bar"><div class="weak-area-fill" style="width:${progress}%; background: var(--warning);"></div></div>
+                            <small class="text-secondary">${answered}/${s.total_items} answered · ${ago}</small>
+                        </div>
+                        <button class="btn btn-warning btn-sm fw-bold" onclick='${isExam
+                            ? `resumeExamSession(${JSON.stringify(s).replace(/'/g, "\\'")})`
+                            : `resumeMissionSession(${JSON.stringify(s).replace(/'/g, "\\'")})`
+                        }'>
+                            <i class="fas fa-play me-1"></i>Resume
+                        </button>
+                    </div>`;
+                }).join('')}
+            </div>`;
         }
 
         // --- WEAK AREA DASHBOARD ---
@@ -6090,11 +6246,11 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 ? `<span class="user-badge"><i class="fas fa-user me-1"></i>${nmProfile?.display_name || 'Student'}</span>`
                 : `<span class="text-secondary">Welcome to NCLEX Study Tool</span>`;
 
-            // Load dashboard data asynchronously (non-blocking)
+            // Load dashboard data and active sessions asynchronously (non-blocking)
             if (!isGuest) {
-                loadDashboardData().then(data => {
+                Promise.all([loadDashboardData(), loadActiveSessions()]).then(([dashData, sessions]) => {
                     const el = document.getElementById('dashboard-container');
-                    if (el) el.innerHTML = renderDashboard(data);
+                    if (el) el.innerHTML = renderActiveSessions(sessions) + renderDashboard(dashData);
                 }).catch(e => {
                     console.warn('Dashboard load failed:', e);
                     const el = document.getElementById('dashboard-container');
@@ -6199,7 +6355,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             showHomeScreen();
         }
         function closeExam() {
-            // Save exam results in background (non-blocking)
+            // Save final exam results and delete the in-progress session
             try {
                 if (window.examAnswerLog && window.examAnswerLog.length > 0) {
                     const score = window.examAnswerLog.filter(a => a.correct).length;
@@ -6207,8 +6363,11 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     saveExamResult(window.currentExamId, window.currentExamName, score, total, window.examAnswerLog)
                         .catch(e => console.warn('Exam save failed:', e));
                 }
+                // Delete the in-progress session since exam is done
+                deleteExamSession(window.currentExamId).catch(() => {});
             } catch (e) { console.warn('Exam save error:', e); }
             window.examAnswerLog = [];
+            window.currentExamId = null;
             document.getElementById('examModal')?.remove();
             showHomeScreen();
         }
@@ -6244,6 +6403,8 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             } else {
                 window.examAnswerLog.push({ question_id: qKey, correct: isCorrect, selected: sel });
             }
+            // Auto-save session after every answer
+            saveExamSession().catch(() => {});
             const fb = document.getElementById('feedbackContainer');
             fb.className = `mt-4 p-4 rounded-4 border-2 d-block ${isCorrect ? 'border-success' : 'border-danger'}`;
             fb.style.backgroundColor = isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)';
