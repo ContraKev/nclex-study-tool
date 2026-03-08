@@ -5279,17 +5279,22 @@ function showMissionUI() {
 }
 
 function closeMission() {
-    // Save final mission results and delete in-progress session
     try {
-        if (window.missionStepLog && window.missionStepLog.length > 0 && currentMission) {
-            const score = window.missionStepLog.filter(s => s.correct).length;
-            const total = currentMission.steps ? currentMission.steps.length : window.missionStepLog.length;
-            saveMissionResult(currentMission.id, currentMission.title, currentMission.category || '', score, total, window.missionStepLog)
-                .catch(e => console.warn('Mission save failed:', e));
-            // Delete the in-progress session since mission is done
-            deleteMissionSession(currentMission.id).catch(() => {});
+        if (currentMission && window.missionStepLog) {
+            const answered = window.missionStepLog.length;
+            const total = currentMission.steps ? currentMission.steps.length : 0;
+            const isComplete = answered >= total && total > 0;
+
+            if (isComplete) {
+                // Mission fully completed — save final result and delete session
+                const score = window.missionStepLog.filter(s => s.correct).length;
+                saveMissionResult(currentMission.id, currentMission.title, currentMission.category || '', score, total, window.missionStepLog)
+                    .catch(e => console.warn('Mission save failed:', e));
+                deleteMissionSession(currentMission.id).catch(() => {});
+            }
+            // If NOT complete, session is already saved via auto-save — just leave it
         }
-    } catch (e) { console.warn('Mission save error:', e); }
+    } catch (e) { console.warn('Mission close error:', e); }
     window.missionStepLog = [];
     currentMission = null;
     document.body.style.overflow = 'auto';
@@ -5870,9 +5875,12 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             window.examData = exam.data;
             window.currentExamId = session.exam_id;
             window.currentExamName = session.exam_name;
-            window.currentQuestionIndex = session.current_index || 0;
             window.feedbackMode = false;
             try { window.examAnswerLog = JSON.parse(session.answers) || []; } catch (e) { window.examAnswerLog = []; }
+
+            // Resume on the next unanswered question
+            const answeredCount = window.examAnswerLog.length;
+            window.currentQuestionIndex = Math.min(answeredCount, exam.data.length - 1);
 
             // Close any open modals
             document.getElementById('examSelectionModal')?.remove();
@@ -5888,9 +5896,12 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             if (!mission) { alert('Mission not found.'); return; }
 
             currentMission = mission;
-            currentStepIndex = session.current_index || 0;
             missionFeedbackMode = false;
             try { window.missionStepLog = JSON.parse(session.answers) || []; } catch (e) { window.missionStepLog = []; }
+
+            // Resume on the next unanswered step
+            const answeredSteps = window.missionStepLog.length;
+            currentStepIndex = Math.min(answeredSteps, mission.steps.length - 1);
 
             // Close any open modals
             document.getElementById('missionSelectorModal')?.remove();
@@ -6356,17 +6367,20 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             showHomeScreen();
         }
         function closeExam() {
-            // Save final exam results and delete the in-progress session
             try {
-                if (window.examAnswerLog && window.examAnswerLog.length > 0) {
+                const answered = window.examAnswerLog ? window.examAnswerLog.length : 0;
+                const total = window.examData ? window.examData.length : 0;
+                const isComplete = answered >= total && total > 0;
+
+                if (isComplete) {
+                    // Exam fully completed — save final result and delete session
                     const score = window.examAnswerLog.filter(a => a.correct).length;
-                    const total = window.examData ? window.examData.length : window.examAnswerLog.length;
                     saveExamResult(window.currentExamId, window.currentExamName, score, total, window.examAnswerLog)
                         .catch(e => console.warn('Exam save failed:', e));
+                    deleteExamSession(window.currentExamId).catch(() => {});
                 }
-                // Delete the in-progress session since exam is done
-                deleteExamSession(window.currentExamId).catch(() => {});
-            } catch (e) { console.warn('Exam save error:', e); }
+                // If NOT complete, session is already saved via auto-save — just leave it
+            } catch (e) { console.warn('Exam close error:', e); }
             window.examAnswerLog = [];
             window.currentExamId = null;
             document.getElementById('examModal')?.remove();
