@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#0f172a">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>NCLEX Study Tool</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" async></script>
@@ -5282,7 +5282,7 @@ function closeMission() {
     try {
         if (window.missionStepLog && window.missionStepLog.length > 0 && currentMission) {
             const score = window.missionStepLog.filter(s => s.correct).length;
-            const total = window.missionStepLog.length;
+            const total = currentMission.steps ? currentMission.steps.length : window.missionStepLog.length;
             saveMissionResult(currentMission.id, currentMission.title, currentMission.category || '', score, total, window.missionStepLog)
                 .catch(e => console.warn('Mission save failed:', e));
         }
@@ -5623,8 +5623,13 @@ function evaluateMissionStep() {
         const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
         isCorrect = diag === step.center_condition.answer && l.length === 2 && l.every(v => step.left_actions.answer.includes(v)) && r.length === 2 && r.every(v => step.right_monitor.answer.includes(v));
     }
-    // Log step result for progress tracking
-    window.missionStepLog.push({ step: currentStepIndex, type: step.type || 'multiple_choice', correct: isCorrect });
+    // Log step result for progress tracking (update if re-answered, don't duplicate)
+    const existingStepIdx = window.missionStepLog.findIndex(s => s.step === currentStepIndex);
+    if (existingStepIdx >= 0) {
+        window.missionStepLog[existingStepIdx] = { step: currentStepIndex, type: step.type || 'multiple_choice', correct: isCorrect };
+    } else {
+        window.missionStepLog.push({ step: currentStepIndex, type: step.type || 'multiple_choice', correct: isCorrect });
+    }
     document.getElementById('mission-feedback').innerHTML = `<div class="p-4 rounded-4 border-2 ${isCorrect ? 'border-success' : 'border-danger'}" style="background: ${isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)'}; backdrop-filter: blur(10px);"><h4 class="fw-bold ${isCorrect ? 'text-success' : 'text-danger'}"><i class="fas ${isCorrect ? 'fa-check-circle' : 'fa-times-circle'} me-2"></i>${isCorrect ? 'CORRECT' : 'INCORRECT'}</h4><p class="text-white mb-0 mt-2 fs-5">${step.rationale || "Review clues and pharmacology interaction."}</p></div>`;
     missionFeedbackMode = true;
     const btn = document.getElementById('mission-action-btn');
@@ -6198,7 +6203,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             try {
                 if (window.examAnswerLog && window.examAnswerLog.length > 0) {
                     const score = window.examAnswerLog.filter(a => a.correct).length;
-                    const total = window.examAnswerLog.length;
+                    const total = window.examData ? window.examData.length : window.examAnswerLog.length;
                     saveExamResult(window.currentExamId, window.currentExamName, score, total, window.examAnswerLog)
                         .catch(e => console.warn('Exam save failed:', e));
                 }
@@ -6231,8 +6236,14 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             window.feedbackMode = true;
             const correct = Array.isArray(q.answer) ? q.answer : [q.answer];
             const isCorrect = sel.length === correct.length && sel.every(v => correct.includes(v));
-            // Log answer for progress tracking
-            window.examAnswerLog.push({ question_id: q.id || `q${window.currentQuestionIndex}`, correct: isCorrect, selected: sel });
+            // Log answer for progress tracking (update if already answered, don't duplicate)
+            const qKey = q.id || `q${window.currentQuestionIndex}`;
+            const existingIdx = window.examAnswerLog.findIndex(a => a.question_id === qKey);
+            if (existingIdx >= 0) {
+                window.examAnswerLog[existingIdx] = { question_id: qKey, correct: isCorrect, selected: sel };
+            } else {
+                window.examAnswerLog.push({ question_id: qKey, correct: isCorrect, selected: sel });
+            }
             const fb = document.getElementById('feedbackContainer');
             fb.className = `mt-4 p-4 rounded-4 border-2 d-block ${isCorrect ? 'border-success' : 'border-danger'}`;
             fb.style.backgroundColor = isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)';
