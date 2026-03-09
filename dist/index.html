@@ -5691,8 +5691,8 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                             <span id="auth-toggle-text">Don't have an account?</span>
                             <span class="auth-toggle" onclick="toggleAuthMode()"> <span id="auth-toggle-link">Sign Up</span></span>
                         </p>
-                        <p class="text-secondary mt-2" style="font-size:0.75rem;">
-                            <span class="auth-toggle" onclick="continueAsGuest()">Continue as Guest</span>
+                        <p class="text-secondary mt-2" style="font-size:0.8rem;">
+                            <span class="auth-toggle" onclick="continueAsGuest()"><i class="fas fa-play me-1"></i>Try it out first</span>
                         </p>
                     </div>
                 </div>
@@ -5756,17 +5756,92 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             }
         }
 
-        function continueAsGuest() {
-            nmUser = null;
-            nmProfile = { display_name: 'Guest' };
-            document.getElementById('auth-overlay')?.remove();
-            initApp();
+        async function continueAsGuest() {
+            if (!sb) {
+                // No Supabase — true guest mode fallback
+                nmUser = null;
+                nmProfile = { display_name: 'Guest' };
+                document.getElementById('auth-overlay')?.remove();
+                initApp();
+                return;
+            }
+            const btn = document.getElementById('auth-submit-btn');
+            try {
+                // Use anonymous auth — creates a real session with progress tracking
+                const { data, error } = await sb.auth.signInAnonymously();
+                if (error) throw error;
+                // Auth state listener will handle the rest
+            } catch (e) {
+                console.warn('Anonymous auth failed, falling back to guest:', e);
+                nmUser = null;
+                nmProfile = { display_name: 'Guest' };
+                document.getElementById('auth-overlay')?.remove();
+                initApp();
+            }
         }
 
         async function handleSignOut() {
             if (sb && nmUser) await sb.auth.signOut();
             nmUser = null; nmProfile = null;
             showAuthScreen();
+        }
+
+        // Upgrade anonymous account to a full account with email/password
+        async function showUpgradePrompt() {
+            const html = `<div id="upgrade-overlay" class="auth-overlay" style="z-index:10000;">
+                <div class="auth-card text-center">
+                    <h2 class="fw-bold text-accent mb-1"><i class="fas fa-user-plus me-2"></i>Create Account</h2>
+                    <p class="text-secondary mb-4">Save your progress permanently and access it from any device</p>
+                    <input type="text" id="upgrade-name" placeholder="Display Name">
+                    <input type="email" id="upgrade-email" placeholder="Email">
+                    <input type="password" id="upgrade-password" placeholder="Password (min 6 characters)">
+                    <button class="btn-auth mt-2" id="upgrade-btn" onclick="handleUpgrade()">Create Account</button>
+                    <div id="upgrade-error" class="auth-error"></div>
+                    <p class="text-secondary mt-3" style="font-size:0.8rem;">
+                        <span class="auth-toggle" onclick="document.getElementById('upgrade-overlay')?.remove()">Cancel</span>
+                    </p>
+                </div>
+            </div>`;
+            document.body.insertAdjacentHTML('beforeend', html);
+        }
+
+        async function handleUpgrade() {
+            const email = document.getElementById('upgrade-email')?.value.trim();
+            const password = document.getElementById('upgrade-password')?.value;
+            const name = document.getElementById('upgrade-name')?.value.trim() || 'Student';
+            const errEl = document.getElementById('upgrade-error');
+            const btn = document.getElementById('upgrade-btn');
+
+            if (!email || !password) { if (errEl) errEl.innerText = 'Please enter email and password.'; return; }
+            if (password.length < 6) { if (errEl) errEl.innerText = 'Password must be at least 6 characters.'; return; }
+            if (btn) { btn.disabled = true; btn.innerText = 'Please wait...'; }
+
+            try {
+                // Link email/password to the anonymous account
+                const { data, error } = await sb.auth.updateUser({
+                    email: email,
+                    password: password,
+                    data: { display_name: name }
+                });
+                if (error) throw error;
+
+                // Update profile in database
+                if (nmUser) {
+                    sb.from('profiles').update({ display_name: name, updated_at: new Date().toISOString() })
+                        .eq('id', nmUser.id).then(() => {}).catch(() => {});
+                }
+
+                nmProfile = { display_name: name };
+                if (errEl) { errEl.style.color = 'var(--success)'; errEl.innerText = 'Account created! Your progress has been saved.'; }
+                setTimeout(() => {
+                    document.getElementById('upgrade-overlay')?.remove();
+                    showHomeScreen();
+                }, 1500);
+            } catch (e) {
+                const msg = e.message || 'Upgrade failed.';
+                if (errEl) errEl.innerText = msg;
+                if (btn) { btn.disabled = false; btn.innerText = 'Create Account'; }
+            }
         }
 
         // --- PROGRESS TRACKING ---
@@ -6107,7 +6182,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 console.log('Auth event:', event);
                 if (session?.user) {
                     nmUser = session.user;
-                    nmProfile = { display_name: nmUser.user_metadata?.display_name || nmUser.email?.split('@')[0] || 'Student' };
+                    const isAnon = nmUser.is_anonymous === true;
+                    nmProfile = {
+                        display_name: isAnon ? 'Guest' : (nmUser.user_metadata?.display_name || nmUser.email?.split('@')[0] || 'Student')
+                    };
                     // Try to fetch profile from DB (non-blocking, non-critical)
                     sb.from('profiles').select('display_name').eq('id', nmUser.id).maybeSingle().then(({ data }) => {
                         if (data?.display_name) nmProfile.display_name = data.display_name;
@@ -6152,13 +6230,24 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
 
             const userName = nmProfile?.display_name || 'Student';
             const isGuest = !nmUser;
+            const isAnonymous = nmUser?.is_anonymous === true;
 
-            const userSection = isGuest
-                ? `<div class="text-center mb-3"><span class="badge bg-secondary px-3 py-2">Guest Mode</span> <span class="auth-toggle ms-2" onclick="showAuthScreen()" style="font-size:0.85rem;">Sign in to save progress</span></div>`
-                : `<div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+            let userSection;
+            if (isGuest) {
+                userSection = `<div class="text-center mb-3"><span class="badge bg-secondary px-3 py-2">Guest Mode</span> <span class="auth-toggle ms-2" onclick="showAuthScreen()" style="font-size:0.85rem;">Sign in to save progress</span></div>`;
+            } else if (isAnonymous) {
+                userSection = `<div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+                    <span class="user-badge"><i class="fas fa-user-clock me-1"></i>Trying it out</span>
+                    <button class="btn btn-accent btn-sm fw-bold" onclick="showUpgradePrompt()" style="font-size:0.75rem;"><i class="fas fa-user-plus me-1"></i>Create Account</button>
+                    <button class="btn btn-outline-secondary btn-sm" onclick="handleSignOut()" style="font-size:0.65rem;">Sign Out</button>
+                  </div>
+                  <div class="text-center mb-2"><small class="text-secondary">Your progress is being saved! Create an account to keep it permanently.</small></div>`;
+            } else {
+                userSection = `<div class="d-flex justify-content-center align-items-center gap-3 mb-3">
                     <span class="user-badge"><i class="fas fa-user me-1"></i>${userName}</span>
                     <button class="btn btn-outline-secondary btn-sm" onclick="handleSignOut()" style="font-size:0.75rem;">Sign Out</button>
                   </div>`;
+            }
 
             const homeHtml = `
                 <div class="container-fluid px-4 mt-5">
@@ -6254,9 +6343,13 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
 
             // Update nav bar for home screen
             const navButtons = document.querySelector('.nav-buttons');
-            navButtons.innerHTML = nmUser
-                ? `<span class="user-badge"><i class="fas fa-user me-1"></i>${nmProfile?.display_name || 'Student'}</span>`
-                : `<span class="text-secondary">Welcome to NCLEX Study Tool</span>`;
+            if (isAnonymous) {
+                navButtons.innerHTML = `<button class="btn btn-accent btn-sm fw-bold" onclick="showUpgradePrompt()" style="font-size:0.7rem;"><i class="fas fa-user-plus me-1"></i>Create Account</button>`;
+            } else if (nmUser) {
+                navButtons.innerHTML = `<span class="user-badge"><i class="fas fa-user me-1"></i>${nmProfile?.display_name || 'Student'}</span>`;
+            } else {
+                navButtons.innerHTML = `<span class="text-secondary">Welcome to NCLEX Study Tool</span>`;
+            }
 
             // Load dashboard data and active sessions asynchronously (non-blocking)
             if (!isGuest) {
