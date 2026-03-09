@@ -20,7 +20,13 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
   4. Final Review: Med-Surg Comprehensive (54 questions)
   5. Final Review Part 2: Class Notes & ABG (59 questions)
   6. Female Reproductive System & Disorders (55 questions)
-- **62 Clinical Missions** across categories: Cardiovascular (20), Diabetes (10), Combined/Comorbidities (10), Acute Respiratory (10), Advanced NGN (10), Female Reproductive (2)
+- **62 Clinical Missions** organized in category → subcategory hierarchy:
+  - Cardiovascular (20): Electrolytes, Emergency, Beta Blockers, Diuretics, Coagulation, Adrenergics, Antiplatelets, Nitrates, Thrombolytic, Lipids, Arrhythmia
+  - Endocrine (10): Diabetes
+  - Respiratory (10): Acute/Pneumonia
+  - Reproductive Health (2): Female Reproductive
+  - Complex Care (10): Multi-System/Comorbidities
+  - Advanced NGN Practice (10): NGN Scenarios
 - **121 Drug Reference Cards** (Cardio + Diabetes pharmacology)
 - **NGN Question Types**: Multiple choice, SATA, matrix, drag-drop cloze, highlight/select, bow-tie
 
@@ -31,7 +37,7 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
 - Auto-save & resume (saves after every answer, resume button on dashboard)
 - Only completed exams count toward metrics (partial exits stay as resumable sessions)
 - Mobile responsive (phone + tablet CSS, touch drag-and-drop support, iPhone safe areas)
-- Mission selector with category-first navigation
+- Mission selector with category → subcategory drill-down navigation (dynamic grouping via `classifyMission()` + `MISSION_CATEGORY_CONFIG`)
 
 ## Database Tables (Supabase)
 - `profiles` — user display names, linked to auth.users

@@ -103,6 +103,13 @@
             border-color: #8b5cf6 !important;
         }
 
+        .text-purple { color: #8b5cf6 !important; }
+        .bg-purple { background-color: #8b5cf6 !important; }
+
+        .text-pink { color: #ec4899 !important; }
+        .bg-pink { background-color: #ec4899 !important; }
+        .border-pink { border-color: #ec4899 !important; }
+
         .mission-title-display {
             background: rgba(59, 130, 246, 0.1);
             border-left: 3px solid var(--accent);
@@ -4947,96 +4954,7 @@ function evaluateMissionStep() {
     } catch (e) { Logger.error("Step Evaluation Failed", e); }
 }
 
-// NAVIGATION WRAPPERS
-function startMission() {
-    allMissions = [
-        ...(typeof window.mission_prototype !== 'undefined' ? [window.mission_prototype] : []),
-        ...(typeof window.missions_cardio_1 !== 'undefined' ? window.missions_cardio_1 : []),
-        ...(typeof window.missions_cardio_2 !== 'undefined' ? window.missions_cardio_2 : []),
-        ...(typeof window.missions_cardio_3 !== 'undefined' ? window.missions_cardio_3 : []),
-        ...(typeof window.missions_cardio_4 !== 'undefined' ? window.missions_cardio_4 : []),
-        ...(window.customMissions || [])
-    ];
-    console.log('allMissions loaded:', allMissions.length, 'missions');
-    console.log('Missions with IDs:', allMissions.map(m => m.numerical_id).sort());
-    console.log('M-051 found:', allMissions.find(m => m.numerical_id === 51));
-    showMissionSelector();
-}
-
-function showMissionSelector() {
-    const modalHtml = `
-    <div id="missionSelectorModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2050; overflow-y: auto; padding: 40px;">
-        <div class="container" style="max-width: 1200px;">
-            <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
-                <h2 class="text-accent fw-bold">CLINICAL MISSION CONTROL</h2>
-                <button class="btn btn-outline-danger" onclick="closeMissionSelector()">Exit</button>
-            </div>
-            
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-info ps-3">CARDIOVASCULAR (1-20)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 20 }).map((_, i) => renderMissionButton(i + 1, 'cv')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-success ps-3">DIABETES MELLITUS (21-30)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 21, 'dm')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-warning ps-3">COMBINED / COMORBIDITIES (31-40)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 31, 'combined')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-danger ps-3">ACUTE RESPIRATORY / PNEUMONIA (41-50)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 41, 'acute_resp')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-purple ps-3">ADVANCED NGN MISSIONS (51-60)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 51, 'advanced')).join('')}
-                </div>
-            </div>
-        </div>
-    </div>`;
-    document.body.insertAdjacentHTML('beforeend', modalHtml);
-}
-
-function renderMissionButton(id, category) {
-    const mission = allMissions.find(m => m.numerical_id === id);
-    const locked = !mission;
-    let colorClass;
-    if (category === 'cv') colorClass = 'btn-outline-info';
-    else if (category === 'dm') colorClass = 'btn-outline-success';
-    else if (category === 'acute_resp') colorClass = 'btn-outline-danger';
-    else if (category === 'advanced') colorClass = 'btn-outline-purple';
-    else colorClass = 'btn-outline-warning'; // combined
-    const activeClass = mission ? `bg-opacity-10 ${colorClass.replace('btn-outline', 'bg')} text-white border-${colorClass.split('-')[2]}` : 'btn-outline-secondary opacity-25';
-
-    return `
-    <div class="col">
-        <button class="btn ${activeClass} w-100 p-2 fw-bold text-start position-relative" style="height: 100px; overflow: hidden;" ${mission ? `onclick="launchSpecificMission(${id})"` : 'disabled'}>
-            <div class="fs-4 opacity-50 mb-1">#${id}</div>
-            <div style="font-size: 0.65rem; text-transform: uppercase; line-height: 1.2;">${mission ? mission.title : 'LOCKED'}</div>
-        </button>
-    </div>`;
-}
-
-function launchSpecificMission(id) {
-    currentMission = allMissions.find(m => m.numerical_id === id);
-    currentStepIndex = 0; missionFeedbackMode = false;
-    document.getElementById('missionSelectorModal')?.remove();
-    showMissionUI();
-}
+// NAVIGATION WRAPPERS — old hardcoded selector removed, see dynamic renderMissionSelector below
 
 function showMissionUI() {
     document.body.style.overflow = 'hidden';
@@ -5090,11 +5008,7 @@ function renderMissionStep() {
 function closeMission() {
     document.body.style.overflow = 'auto';
     document.getElementById('missionModal')?.remove();
-    if (typeof showMissionSelectorNew === 'function') {
-        showMissionSelectorNew();
-    } else {
-        showMissionSelector();
-    }
+    showMissionSelectorNew();
 }
 function nextMissionStep() { if (currentStepIndex < currentMission.steps.length - 1) { currentStepIndex++; renderMissionStep(); } else { closeMission(); } }
 function prevMissionStep() { if (currentStepIndex > 0) { currentStepIndex--; renderMissionStep(); } }
@@ -5144,13 +5058,20 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
 let missionsUnlocked = false;
 
 function startMission() {
-    allMissions = [
-        ...(typeof mission_prototype !== 'undefined' ? [mission_prototype] : []),
-        ...(typeof missions_cardio_1 !== 'undefined' ? missions_cardio_1 : []),
-        ...(typeof missions_cardio_2 !== 'undefined' ? missions_cardio_2 : []),
-        ...(typeof missions_dm_1 !== 'undefined' ? missions_dm_1 : []),
-        ...(window.customMissions || []) // Include dynamically loaded missions
+    // Load ALL mission sources
+    const raw = [
+        ...(typeof window.mission_prototype !== 'undefined' ? [window.mission_prototype] : []),
+        ...(typeof window.missions_cardio_1 !== 'undefined' ? window.missions_cardio_1 : []),
+        ...(typeof window.missions_cardio_2 !== 'undefined' ? window.missions_cardio_2 : []),
+        ...(typeof window.missions_cardio_3 !== 'undefined' ? window.missions_cardio_3 : []),
+        ...(typeof window.missions_cardio_4 !== 'undefined' ? window.missions_cardio_4 : []),
+        ...(window.customMissions || [])
     ];
+    // De-duplicate by numerical_id (last definition wins)
+    const seen = new Map();
+    raw.forEach(m => { if (m && m.numerical_id != null) seen.set(m.numerical_id, m); });
+    allMissions = Array.from(seen.values()).sort((a, b) => a.numerical_id - b.numerical_id);
+    console.log('allMissions loaded:', allMissions.length, 'missions');
     showMissionSelectorNew();
 }
 
@@ -5168,78 +5089,124 @@ function showMissionSelectorNew() {
     renderMissionSelector();
 }
 
+// Category config — colors, icons, display order
+const MISSION_CATEGORY_CONFIG = {
+    'Cardiovascular':        { color: 'info',    icon: 'fa-heartbeat',     order: 1 },
+    'Endocrine':             { color: 'success', icon: 'fa-tint',          order: 2 },
+    'Respiratory':           { color: 'danger',  icon: 'fa-lungs',         order: 3 },
+    'Reproductive Health':   { color: 'pink',    icon: 'fa-venus',         order: 4 },
+    'Complex Care':          { color: 'warning', icon: 'fa-layer-group',   order: 5 },
+    'Advanced NGN Practice': { color: 'purple',  icon: 'fa-brain',         order: 6 }
+};
+
+// Map raw mission categories → parent category + subcategory
+function classifyMission(mission) {
+    const raw = mission.category || 'Other';
+    const parts = raw.split(' / ');
+    const main = parts[0].trim();
+    const sub = parts[1] ? parts[1].trim() : null;
+
+    // Normalize main categories into parent groups
+    if (main === 'Cardiovascular') return { parent: 'Cardiovascular', sub: sub || 'General' };
+    if (main === 'Diabetes')       return { parent: 'Endocrine', sub: sub || 'Diabetes' };
+    if (main === 'Acute Respiratory' || main === 'Chronic Respiratory') return { parent: 'Respiratory', sub: sub || main.replace(' Respiratory', '') };
+    if (main === 'Female Reproductive' || main === 'Male Reproductive') return { parent: 'Reproductive Health', sub: sub || main };
+    if (main === 'Combined')       return { parent: 'Complex Care', sub: sub || 'Multi-System' };
+    if (main === 'Advanced NGN Practice') return { parent: 'Advanced NGN Practice', sub: sub || 'NGN Scenarios' };
+    return { parent: main, sub: sub || 'General' };
+}
+
 function renderMissionSelector() {
     const homeContent = document.querySelector('.container-fluid.px-4.mt-4');
     if (homeContent) homeContent.style.display = 'none';
     document.getElementById('missionSelectorModal')?.remove();
 
-    // Group missions by main category
-    const missionGroups = {};
+    // Group missions by parent category → subcategory
+    const groups = {};
     allMissions.forEach(mission => {
-        const fullCategory = mission.category || 'Other';
-        const mainCategory = fullCategory.split(' / ')[0] || fullCategory;
-        if (!missionGroups[mainCategory]) missionGroups[mainCategory] = [];
-        missionGroups[mainCategory].push(mission);
+        const { parent, sub } = classifyMission(mission);
+        if (!groups[parent]) groups[parent] = { missions: [], subs: {} };
+        groups[parent].missions.push(mission);
+        if (!groups[parent].subs[sub]) groups[parent].subs[sub] = [];
+        groups[parent].subs[sub].push(mission);
     });
 
-    const colors = ['info', 'success', 'warning', 'danger', 'primary', 'secondary'];
-    const icons = { 'Cardiovascular': 'fa-heartbeat', 'Diabetes': 'fa-tint', 'Combined': 'fa-layer-group', 'Acute Respiratory': 'fa-lungs', 'Advanced NGN Practice': 'fa-brain', 'Chronic Respiratory Diseases': 'fa-wind', 'Fibrotic Lung Diseases': 'fa-lungs-virus', 'Genetic Lung Diseases': 'fa-dna', 'Systemic Lung Diseases': 'fa-disease', 'Sleep-Related Respiratory Disorders': 'fa-bed', 'Occupational Respiratory Disorders': 'fa-hard-hat', 'Female Reproductive': 'fa-venus' };
+    // Sort categories by configured order
+    const sortedCategories = Object.keys(groups).sort((a, b) => {
+        const oa = MISSION_CATEGORY_CONFIG[a]?.order || 99;
+        const ob = MISSION_CATEGORY_CONFIG[b]?.order || 99;
+        return oa - ob;
+    });
 
     let contentHtml = '';
 
     if (missionSelectorView === 'categories') {
-        // CATEGORY VIEW — show category cards
-        let catIndex = 0;
-        Object.keys(missionGroups).forEach(category => {
-            const missions = missionGroups[category];
-            const color = colors[catIndex % colors.length];
-            const icon = icons[category] || 'fa-stethoscope';
-            catIndex++;
+        // ═══════════ CATEGORY CARDS VIEW ═══════════
+        sortedCategories.forEach(category => {
+            const cfg = MISSION_CATEGORY_CONFIG[category] || { color: 'secondary', icon: 'fa-stethoscope' };
+            const missions = groups[category].missions;
+            const subCount = Object.keys(groups[category].subs).length;
 
             contentHtml += `
                 <div class="col-md-4 col-6 mb-4">
-                    <div class="nexus-card p-4 text-center h-100" onclick="showMissionCategory('${category.replace(/'/g, "\\'")}')" style="cursor:pointer;">
+                    <div class="nexus-card p-4 text-center h-100" onclick="showMissionCategory('${category.replace(/'/g, "\\'")}')" style="cursor:pointer; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 25px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
                         <div class="card-icon mb-3">
-                            <i class="fas ${icon} fa-2x text-${color}"></i>
+                            <i class="fas ${cfg.icon} fa-3x text-${cfg.color}"></i>
                         </div>
                         <h5 class="fw-bold text-white mb-2">${category}</h5>
-                        <p class="text-secondary mb-2" style="font-size:0.85rem;">${missions.length} mission${missions.length > 1 ? 's' : ''}</p>
-                        <span class="badge bg-${color}">${missions.length}</span>
+                        <p class="text-secondary mb-1" style="font-size:0.8rem;">${missions.length} mission${missions.length !== 1 ? 's' : ''}</p>
+                        <p class="text-secondary mb-2" style="font-size:0.7rem;">${subCount} subcategor${subCount !== 1 ? 'ies' : 'y'}</p>
+                        <span class="badge bg-${cfg.color}" style="font-size: 0.75rem;">${missions.length}</span>
                     </div>
                 </div>
             `;
         });
     } else {
-        // MISSION VIEW — show missions for selected category
-        const missions = missionGroups[missionSelectorCategory] || [];
-        const catIndex = Object.keys(missionGroups).indexOf(missionSelectorCategory);
-        const color = colors[catIndex % colors.length];
+        // ═══════════ SUBCATEGORY DRILL-DOWN VIEW ═══════════
+        const group = groups[missionSelectorCategory];
+        const cfg = MISSION_CATEGORY_CONFIG[missionSelectorCategory] || { color: 'secondary', icon: 'fa-stethoscope' };
+        if (!group) { showMissionSelectorNew(); return; }
 
-        contentHtml = `
-            <div class="col-12 mb-4">
-                <button class="btn btn-outline-secondary mb-3" onclick="showMissionSelectorNew()">
-                    <i class="fas fa-arrow-left me-2"></i>Back to Categories
-                </button>
-                <h3 class="text-white border-start border-4 border-${color} ps-3 mb-4">${missionSelectorCategory.toUpperCase()} <span class="badge bg-${color} ms-2">${missions.length}</span></h3>
-                <div class="row g-3">
-                    ${missions.map(mission => renderMissionButton(mission.numerical_id, missionSelectorCategory.toLowerCase().replace(/\s+/g, ''))).join('')}
-                </div>
-            </div>
-        `;
+        // Sort subcategories by lowest mission ID in each
+        const sortedSubs = Object.keys(group.subs).sort((a, b) => {
+            const minA = Math.min(...group.subs[a].map(m => m.numerical_id));
+            const minB = Math.min(...group.subs[b].map(m => m.numerical_id));
+            return minA - minB;
+        });
+
+        contentHtml = `<div class="col-12 mb-4">
+            <button class="btn btn-outline-secondary mb-4" onclick="showMissionSelectorNew()">
+                <i class="fas fa-arrow-left me-2"></i>All Categories
+            </button>`;
+
+        sortedSubs.forEach(sub => {
+            const missions = group.subs[sub].sort((a, b) => a.numerical_id - b.numerical_id);
+            contentHtml += `
+                <div class="mb-4">
+                    <h5 class="text-white mb-3 border-start border-4 border-${cfg.color} ps-3">
+                        <i class="fas ${cfg.icon} me-2 text-${cfg.color}" style="font-size:0.9rem;"></i>
+                        ${sub.toUpperCase()}
+                        <span class="badge bg-${cfg.color} ms-2" style="font-size:0.65rem;">${missions.length}</span>
+                    </h5>
+                    <div class="row g-3">
+                        ${missions.map(m => renderMissionCard(m, cfg.color)).join('')}
+                    </div>
+                </div>`;
+        });
+
+        contentHtml += `</div>`;
     }
 
     const totalMissions = allMissions.length;
     const headerText = missionSelectorView === 'categories'
         ? `CLINICAL MISSION CONTROL <span class="badge bg-accent ms-3">${totalMissions} missions</span>`
-        : missionSelectorCategory.toUpperCase();
+        : `<i class="fas ${(MISSION_CATEGORY_CONFIG[missionSelectorCategory] || {}).icon || 'fa-stethoscope'} me-2"></i>${missionSelectorCategory.toUpperCase()} <span class="badge bg-${(MISSION_CATEGORY_CONFIG[missionSelectorCategory] || {}).color || 'secondary'} ms-2">${groups[missionSelectorCategory]?.missions.length || 0}</span>`;
 
     const modalHtml = `
         <div id="missionSelectorModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2050; overflow-y: auto; padding: 40px;">
             <div class="container" style="max-width: 1100px;">
                 <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
-                    <h2 class="text-accent fw-bold">
-                        <i class="fas fa-map-marked-alt me-3"></i>${headerText}
-                    </h2>
+                    <h2 class="text-accent fw-bold">${headerText}</h2>
                     <button class="btn btn-outline-danger" onclick="closeMissionSelector()">Return to Hub</button>
                 </div>
                 <div class="row">
@@ -5257,28 +5224,37 @@ function showMissionCategory(category) {
     renderMissionSelector();
 }
 
-function renderMissionButton(id, category) {
-    const mission = allMissions.find(m => m.numerical_id === id);
-    const isAvailable = !!mission || missionsUnlocked;
-    const color = category === 'cv' ? 'btn-outline-info' : 'btn-outline-success';
-    const activeColor = category === 'cv' ? 'bg-info text-primary' : 'bg-success text-white';
-    
-    let title = 'LOCKED';
-    if (mission) title = mission.title;
-    else if (missionsUnlocked) title = 'DATA PENDING';
+const CARD_BG_MAP = {
+    info: 'rgba(13,202,240,0.08)', success: 'rgba(25,135,84,0.08)', danger: 'rgba(220,53,69,0.08)',
+    warning: 'rgba(255,193,7,0.08)', purple: 'rgba(139,92,246,0.08)', pink: 'rgba(236,72,153,0.08)',
+    primary: 'rgba(13,110,253,0.08)', secondary: 'rgba(108,117,125,0.08)'
+};
+const CARD_BORDER_MAP = {
+    info: '#0dcaf0', success: '#198754', danger: '#dc3545', warning: '#ffc107',
+    purple: '#8b5cf6', pink: '#ec4899', primary: '#0d6efd', secondary: '#6c757d'
+};
 
+function renderMissionCard(mission, color) {
+    const sub = classifyMission(mission).sub;
+    const bg = CARD_BG_MAP[color] || CARD_BG_MAP.secondary;
+    const border = CARD_BORDER_MAP[color] || CARD_BORDER_MAP.secondary;
     return `
-        <div class="col-3">
-            <button class="btn ${isAvailable ? activeColor : color} w-100 p-1 fw-bold shadow-sm ${!isAvailable ? 'opacity-25' : ''}" 
-                    style="height: 80px; display: flex; flex-direction: column; justify-content: center; align-items: center; border-width: 2px; overflow: hidden;" 
-                    ${isAvailable ? `onclick="launchSpecificMission(${id})"` : 'disabled'}>
-                <div class="fs-6" style="line-height: 1;">${id}</div>
-                <div style="font-size: 0.5rem; line-height: 1; text-transform: uppercase; margin-top: 3px; white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; padding: 0 2px;">
-                    ${title}
+        <div class="col-lg-3 col-md-4 col-6">
+            <button class="btn w-100 p-2 fw-bold text-start position-relative border-2"
+                    style="height: 105px; overflow: hidden; background: ${bg}; border-color: ${border}; color: #fff; transition: transform 0.15s, box-shadow 0.15s;"
+                    onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 15px rgba(0,0,0,0.3)'"
+                    onmouseout="this.style.transform='';this.style.boxShadow=''"
+                    onclick="launchSpecificMission(${mission.numerical_id})">
+                <div class="d-flex align-items-center mb-1">
+                    <span class="badge bg-${color} me-2" style="font-size:0.6rem;">#${mission.numerical_id}</span>
+                    <span class="text-${color}" style="font-size:0.55rem; text-transform:uppercase;">${sub}</span>
                 </div>
+                <div style="font-size: 0.7rem; text-transform: uppercase; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                    ${mission.title}
+                </div>
+                ${mission.difficulty ? `<span class="position-absolute bottom-0 end-0 m-1 badge bg-dark" style="font-size:0.5rem; opacity:0.7;">${mission.difficulty}</span>` : ''}
             </button>
-        </div>
-    `;
+        </div>`;
 }
 
 function closeMissionSelector() {
