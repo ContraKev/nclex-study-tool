@@ -10,21 +10,22 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
 - **Auth**: Email/password signup + anonymous auth with upgrade path. Supabase JS client loaded async via CDN.
 - **Git remote**: `git@github.com:ContraKev/nclex-study-tool.git` (SSH)
 
-## Current Version: v3.5
+## Current Version: v3.6
 
 ## Content Inventory
-- **6 Exam Modules** (284 total questions):
+- **7 Exam Modules** (354 total questions):
   1. Acute Respiratory Quiz (40 questions)
   2. Chronic Respiratory Exam (38 questions)
   3. Cardiovascular & Diabetes Pharmacology (38 questions)
   4. Final Review: Med-Surg Comprehensive (54 questions)
   5. Final Review Part 2: Class Notes & ABG (59 questions)
   6. Female Reproductive System & Disorders (55 questions)
-- **62 Clinical Missions** organized in category → subcategory hierarchy:
+  7. Male Reproductive System & Disorders (70 questions)
+- **70 Clinical Missions** organized in category → subcategory hierarchy:
   - Cardiovascular (20): Electrolytes, Emergency, Beta Blockers, Diuretics, Coagulation, Adrenergics, Antiplatelets, Nitrates, Thrombolytic, Lipids, Arrhythmia
   - Endocrine (10): Diabetes
   - Respiratory (10): Acute/Pneumonia
-  - Reproductive Health (2): Female Reproductive
+  - Reproductive Health (10): Female Reproductive (2), Male Reproductive (8) — BPH, Emergency, Cancer, Infection, Pharmacology, Assessment
   - Complex Care (10): Multi-System/Comorbidities
   - Advanced NGN Practice (10): NGN Scenarios
 - **121 Drug Reference Cards** (Cardio + Diabetes pharmacology)
@@ -59,7 +60,7 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
 
 ## Roadmap
 - [ ] More content areas: Pediatrics, OB/Maternity, Psych/Mental Health, Leadership/Delegation, Neuro, GI, Renal, Musculoskeletal
-- [ ] Male reproductive system content (slides pending)
+- [x] Male reproductive system content (70 exam questions + 8 missions)
 - [ ] Access codes for institutional licensing
 - [ ] Instructor dashboard (class-wide performance view)
 - [ ] Custom domain + landing page
