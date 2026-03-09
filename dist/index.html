@@ -6295,7 +6295,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                                     NCLEX Study Tool
                                 </h1>
                                 <p class="lead text-secondary mb-3">High-Fidelity Clinical Study Platform</p>
-                                <div class="badge bg-primary fs-6 px-3 py-2 mb-3">Version 3.5</div>
+                                <div class="badge bg-primary fs-6 px-3 py-2 mb-3" id="versionBadgeHome">Version 4.0</div>
                                 ${userSection}
                             </div>
 
@@ -7345,6 +7345,158 @@ window.obCh12ExamData = [
 window.availableExams = window.availableExams || [];
 window.availableExams.push({id: 'ob_ch12_newborn', name: 'OB Chapter 12: The Term Newborn', data: window.obCh12ExamData});
 console.log('Created exam module: OB Chapter 12 with ' + window.obCh12ExamData.length + ' questions');
+</script>
+
+<!-- HIDDEN ANSWER KEY SYSTEM -->
+<script>
+(function() {
+    // ═══════════ ANSWER KEY GENERATOR ═══════════
+    function generateAnswerKey() {
+        let html = `<div id="answerKeyModal" style="position:fixed;top:0;left:0;width:100%;height:100%;background:var(--primary);z-index:9999;overflow-y:auto;padding:30px;">
+        <div class="container" style="max-width:1000px;">
+            <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3 border-secondary">
+                <h2 class="text-accent fw-bold"><i class="fas fa-key me-2"></i>MASTER ANSWER KEY</h2>
+                <div>
+                    <button class="btn btn-outline-info btn-sm me-2" onclick="copyAnswerKey()"><i class="fas fa-copy me-1"></i>Copy All</button>
+                    <button class="btn btn-outline-danger btn-sm" onclick="document.getElementById('answerKeyModal').remove()">Close</button>
+                </div>
+            </div>
+            <div class="mb-3">
+                <input type="text" id="akSearch" class="form-control bg-dark text-white border-secondary" placeholder="Search questions, topics, or IDs..." oninput="filterAnswerKey()">
+            </div>
+            <div id="akContent">`;
+
+        // ── EXAMS ──
+        html += `<h3 class="text-info mt-4 mb-3 border-start border-4 border-info ps-3">EXAM MODULES</h3>`;
+        const exams = window.availableExams || [];
+        let totalQ = 0;
+        exams.forEach(exam => {
+            const questions = exam.data || [];
+            totalQ += questions.length;
+            html += `<div class="ak-section mb-4">
+                <h5 class="text-white mb-2 ak-title" style="cursor:pointer;" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
+                    <i class="fas fa-chevron-right me-2 text-info" style="font-size:0.7rem;"></i>${exam.name} <span class="badge bg-info ms-2">${questions.length}</span>
+                </h5>
+                <div style="display:none;">
+                <table class="table table-dark table-sm table-bordered" style="font-size:0.75rem;">
+                    <thead><tr><th style="width:30px">#</th><th>Question</th><th style="width:35%">Answer</th></tr></thead><tbody>`;
+            questions.forEach((q, i) => {
+                const answer = Array.isArray(q.answer) ? q.answer.join('; ') : q.answer;
+                const qText = (q.question || '').substring(0, 100) + (q.question && q.question.length > 100 ? '...' : '');
+                const aText = (answer || '').substring(0, 120);
+                html += `<tr class="ak-row"><td>${i+1}</td><td>${qText}</td><td class="text-success fw-bold">${aText}</td></tr>`;
+            });
+            html += `</tbody></table></div></div>`;
+        });
+
+        // ── MISSIONS ──
+        html += `<h3 class="text-warning mt-5 mb-3 border-start border-4 border-warning ps-3">CLINICAL MISSIONS</h3>`;
+        const missions = (typeof allMissions !== 'undefined' && allMissions.length > 0) ? allMissions : (window.customMissions || []);
+        // Deduplicate
+        const seen = new Map();
+        missions.forEach(m => { if (m && m.numerical_id != null) seen.set(m.numerical_id, m); });
+        // Add inline missions if available
+        [window.mission_prototype, ...(window.missions_cardio_1||[]), ...(window.missions_cardio_2||[]), ...(window.missions_cardio_3||[]), ...(window.missions_cardio_4||[])].forEach(m => {
+            if (m && m.numerical_id != null && !seen.has(m.numerical_id)) seen.set(m.numerical_id, m);
+        });
+        const sortedMissions = Array.from(seen.values()).sort((a,b) => a.numerical_id - b.numerical_id);
+        let totalM = sortedMissions.length;
+
+        sortedMissions.forEach(m => {
+            const steps = m.steps || [];
+            html += `<div class="ak-section mb-3">
+                <h6 class="text-white mb-1 ak-title" style="cursor:pointer;" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
+                    <i class="fas fa-chevron-right me-2 text-warning" style="font-size:0.6rem;"></i>
+                    <span class="badge bg-warning text-dark me-2">#${m.numerical_id}</span>${m.title}
+                    <span class="text-secondary ms-2" style="font-size:0.7rem;">${m.category || ''}</span>
+                </h6>
+                <div style="display:none;" class="ms-4 mt-2">`;
+            steps.forEach((step, si) => {
+                let answer = step.answer;
+                if (Array.isArray(answer)) {
+                    if (answer.every(a => typeof a === 'number')) {
+                        const opts = step.options || [];
+                        answer = answer.map(a => opts[a] || `[${a}]`).join('; ');
+                    } else {
+                        answer = answer.join('; ');
+                    }
+                } else if (typeof answer === 'object') {
+                    answer = JSON.stringify(answer);
+                }
+                const aStr = String(answer || '').substring(0, 150);
+                const prompt = (step.prompt || '').substring(0, 120);
+                html += `<div class="ak-row mb-2" style="font-size:0.75rem;">
+                    <div class="text-secondary">Step ${si+1} [${step.type || '?'}]: ${prompt}...</div>
+                    <div class="text-success fw-bold">→ ${aStr}</div>
+                </div>`;
+            });
+            html += `</div></div>`;
+        });
+
+        html += `<div class="mt-5 p-3 border border-secondary rounded text-center text-secondary">
+            <strong>Totals:</strong> ${totalQ} exam questions across ${exams.length} modules | ${totalM} clinical missions
+        </div></div></div></div>`;
+
+        document.body.insertAdjacentHTML('beforeend', html);
+    }
+
+    // ── Search/Filter ──
+    window.filterAnswerKey = function() {
+        const q = document.getElementById('akSearch').value.toLowerCase();
+        document.querySelectorAll('.ak-section').forEach(section => {
+            const text = section.textContent.toLowerCase();
+            section.style.display = text.includes(q) ? '' : 'none';
+        });
+    };
+
+    // ── Copy to clipboard ──
+    window.copyAnswerKey = function() {
+        const el = document.getElementById('akContent');
+        const text = el.innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            const btn = document.querySelector('#answerKeyModal .btn-outline-info');
+            btn.innerHTML = '<i class="fas fa-check me-1"></i>Copied!';
+            setTimeout(() => { btn.innerHTML = '<i class="fas fa-copy me-1"></i>Copy All'; }, 2000);
+        });
+    };
+
+    // ═══════════ TRIGGERS ═══════════
+
+    // 1. Keyboard shortcut: Cmd+Opt+Shift+K (Mac) or Ctrl+Alt+Shift+K (Windows)
+    document.addEventListener('keydown', function(e) {
+        if ((e.metaKey || e.ctrlKey) && e.altKey && e.shiftKey && e.key.toLowerCase() === 'k') {
+            e.preventDefault();
+            if (document.getElementById('answerKeyModal')) {
+                document.getElementById('answerKeyModal').remove();
+            } else {
+                generateAnswerKey();
+            }
+        }
+    });
+
+    // 2. Version badge 5-tap (mobile-friendly)
+    let tapCount = 0;
+    let tapTimer = null;
+    document.addEventListener('click', function(e) {
+        const badge = e.target.closest('[id*="versionBadge"], .badge.bg-primary');
+        if (badge && (badge.textContent.includes('v4') || badge.textContent.includes('Version 4'))) {
+            tapCount++;
+            clearTimeout(tapTimer);
+            tapTimer = setTimeout(() => { tapCount = 0; }, 2000);
+            if (tapCount >= 5) {
+                tapCount = 0;
+                if (document.getElementById('answerKeyModal')) {
+                    document.getElementById('answerKeyModal').remove();
+                } else {
+                    generateAnswerKey();
+                }
+            }
+        }
+    });
+
+    // Expose for console access too
+    window.showAnswerKey = generateAnswerKey;
+})();
 </script>
 </body>
 
