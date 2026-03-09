@@ -10,10 +10,10 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
 - **Auth**: Email/password signup + anonymous auth with upgrade path. Supabase JS client loaded async via CDN.
 - **Git remote**: `git@github.com:ContraKev/nclex-study-tool.git` (SSH)
 
-## Current Version: v3.6
+## Current Version: v4.0
 
 ## Content Inventory
-- **7 Exam Modules** (354 total questions):
+- **14 Exam Modules** (~545 total questions):
   1. Acute Respiratory Quiz (40 questions)
   2. Chronic Respiratory Exam (38 questions)
   3. Cardiovascular & Diabetes Pharmacology (38 questions)
@@ -21,12 +21,21 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
   5. Final Review Part 2: Class Notes & ABG (59 questions)
   6. Female Reproductive System & Disorders (55 questions)
   7. Male Reproductive System & Disorders (70 questions)
-- **70 Clinical Missions** organized in category → subcategory hierarchy:
+  8. OB Chapter 3: Fetal Development (30 questions)
+  9. OB Chapter 4: Prenatal Care & Adaptations (30 questions)
+  10. OB Chapter 5: Pregnancy Complications (30 questions)
+  11. OB Chapters 6-7: Labor & Birth (25 questions)
+  12. OB Chapter 8: Labor & Birth Complications (25 questions)
+  13. OB Chapter 9: Postpartum & Newborn Care (30 questions)
+  14. OB Chapter 10: Postpartum Complications (25 questions)
+  15. OB Chapter 12: The Term Newborn (20 questions)
+- **86 Clinical Missions** organized in category → subcategory hierarchy:
   - Cardiovascular (20): Electrolytes, Emergency, Beta Blockers, Diuretics, Coagulation, Adrenergics, Antiplatelets, Nitrates, Thrombolytic, Lipids, Arrhythmia
   - Endocrine (10): Diabetes
   - Respiratory (10): Acute/Pneumonia
-  - Reproductive Health (10): Female Reproductive (2), Male Reproductive (8) — BPH, Emergency, Cancer, Infection, Pharmacology, Assessment
+  - Reproductive Health (10): Female Reproductive (2), Male Reproductive (8)
   - Complex Care (10): Multi-System/Comorbidities
+  - OB / Maternity (16): Fetal Development, Prenatal Care, Pregnancy Complications, Labor & Birth, Labor Complications, Postpartum, Postpartum Complications, Newborn
   - Advanced NGN Practice (10): NGN Scenarios
 - **121 Drug Reference Cards** (Cardio + Diabetes pharmacology)
 - **NGN Question Types**: Multiple choice, SATA, matrix, drag-drop cloze, highlight/select, bow-tie
@@ -59,7 +68,8 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
 - Anon Key: `sb_publishable_3T8uPePWOuuvmdcFISXv0w_FdB8iKSV`
 
 ## Roadmap
-- [ ] More content areas: Pediatrics, OB/Maternity, Psych/Mental Health, Leadership/Delegation, Neuro, GI, Renal, Musculoskeletal
+- [x] OB/Maternity content (8 exam modules, 16 clinical missions — Chapters 3-12)
+- [ ] More content areas: Pediatrics, Psych/Mental Health, Leadership/Delegation, Neuro, GI, Renal, Musculoskeletal
 - [x] Male reproductive system content (70 exam questions + 8 missions)
 - [ ] Access codes for institutional licensing
 - [ ] Instructor dashboard (class-wide performance view)
