@@ -1,0 +1,244 @@
+=== SLIDE 1 ===
+Immunity:  Glucocorticoid, anti-rheumatic and gout medications
+Clayton 19th Ed., Ch.37PN Pharmacology for Nursing CMS 8.0, Chs. 28(Coordinate with Med-Surg Nursing, Ch. 5)
+
+=== SLIDE 2 ===
+IMMUNE SYSTEM
+Innate (general) immune system
+Fast response, nonspecific
+Not always effective
+First exposure and subsequent exposure
+
+Adaptive (specific) immune system
+Slower response with first exposure
+Highly specific 
+Second and subsequent exposure has faster response
+Immunologic memory for specific pathogen
+
+=== SLIDE 3 ===
+Primary vs Secondary Adaptive Immune  Response
+
+=== SLIDE 4 ===
+Anti-body mediated
+antibodies formed against specific pathogen
+Cell mediated
+specialized immune cells targeting specific pathogen
+First line of defense
+immune cells
+
+=== SLIDE 5 ===
+Which is Active-Natural Immunity?
+Which is Active-Artificial Immunity?
+Which is Passive-Natural Immunity?
+Which is Passive-Artificial Immunity?
+Active immunity
+The immune system produces antibodies in response to the entry of antigens into the body.
+Generates immune memory.
+Passive immunity
+Temporary, and develops when antibodies are created by another human or animal and then transferred to the client.
+No immune memory.
+Natural immunity
+Developed by host.
+Direct exposure to pathogen.
+Artificial immunity
+Acquired by donor.
+Developed from vaccine.
+
+=== SLIDE 6 ===
+AUTOIMMUNE RESPONSES
+
+The body’s immune system does not recognize and attacks its own cells.
+
+Trigger is often unknown. 
+
+Treatments often based on resolving symptoms.
+Symptoms of Systemic Lupus Erythematosus
+
+=== SLIDE 7 ===
+Glucocorticoids
+Glucocorticoid is a type of Corticosteroid. 
+ Mineralcorticoid is the other type.
+
+Immunosuppressive, anti-inflammatory, anti-proliferative and vasoconstrictive effects.
+
+Examples of synthetic glucocorticoids:
+Prednisone 
+Prednisolone
+Methylprednisolone
+Hydrocortisone
+Dexamethasone
+Beclomethasone
+Budesonide
+Fluticasone
+Betamethasone
+Triamcinolone
+Clobetasol
+Mometasone
+Loteprednol
+
+=== SLIDE 8 ===
+Glucocorticoids Formulations
+Examples of Corticosteroid Medications 
+intravenous methylprednisolone
+fluticasone inhaler
+prednisone tablets
+hydrocortisone creams
+
+=== SLIDE 9 ===
+Categories of Glucocorticoids
+Systemic – prednisolone, hydrocortisone, dexamethasone
+ Allergic and inflammatory disorders
+ Suppression of autoimmune disease
+ Transplant recipients
+ Used as part of a wider chemotherapy regimen
+ Hormone replacement in conditions such as adrenal insufficiency
+
+  Inhaled – beclomethasone, budesonide, fluticasone
+ Asthma and chronic obstructive pulmonary disease (COPD)
+
+  Topical – hydrocortisone, betamethasone, triamcinolone, mometasone
+ Inflammatory skin diseases, such as eczema and other skin flare-ups
+
+=== SLIDE 10 ===
+Side Effects of Glucocorticoids
+Side effects with glucocorticoids vary depending upon which route of administration is required. Oral or systemic administration has greater side effect potential.
+
+Immunosuppression – risk of infection
+Steroid-induced diabetes – hyperglycemia
+Bone effects – bone loss and osteoporosis
+GI effects – dyspepsia, peptic ulcer
+Muscle weakness 
+Mood alterations – depression, psychosis, confusion, insomnia
+Mineralocorticoid effects – hypertension, fluid retention, edema and hypokalemia
+Increased appetite and weight gain
+Increased risk of heart attack and stroke
+Adrenal suppression
+
+=== SLIDE 11 ===
+Clinical Considerations for Glucocorticoids
+NSAIDs interaction – Increased risk of GI bleed
+
+Loop and Thiazide Diuretics interaction – Increased risk of hypokalemia
+
+Warfarin (Coumadin) – May enhance or reduce effect of anticoagulation
+
+Diabetics – Increased blood sugar
+
+Older patients – Increased risk of fractures
+
+Increased risk of infections
+
+Long term use requires tapering of dose to prevent adrenal insufficiency
+**Medication needs to be tapered and weaned off to allow for the adrenal gland to make its own cortisol.**
+
+=== SLIDE 12 ===
+DMARDS I: Major nonbiologic DMARDs 
+● Immunomodulator medications:  methotrexate, leflunomide
+● Antimalarial agent:  hydroxychloroquine 
+● Anti‑inflammatory medication:  sulfasalazine 
+● Tetracycline antibiotic:  minocycline
+
+DMARDS II: Major biologic DMARDs 
+● Tumor necrosis factor antagonists:  etanercept, infliximab, adalimumab
+● B‑lymphocyte‑depleting agent:  rituximab 
+● Interleukin‑1 receptor antagonist:  abatacept
+
+DMARDS III: Minor nonbiologic and nonbiologic DMARDs 
+● Gold salts: Auranofin 
+● Penicillamine 
+● Immunosuppressant medications:  azathioprine, cyclosporine
+
+=== SLIDE 13 ===
+Pharmacological Action
+Suppressing the immune system's overactivity and inflammatory response, which is a key factor in many autoimmune diseases like rheumatoid arthritis. 
+DMARDs are often used in conjunction with glucocorticoids and nsaids to provide symptomatic relief and slow progression of disease.
+
+Therapeutic Uses
+Analgesia for pain, swelling, and joint stiffness 
+Maintenance of joint function
+Slow/delay the worsening of the disease 
+Prevention of organ rejection in clients who have transplants (kidney, liver, and heart transplants 
+Management of inflammatory bowel disease
+
+=== SLIDE 14 ===
+COMPLICATIONS
+Cytotoxic agent/immunomodulator:  methotrexate
+Bone marrow suppression – anemia, leukopenia, thrombocytopenia
+Hepatotoxicity
+Ulcerative stomatitis/ other GI ulcerations
+Folic acid deficiency – anemia
+Folic acid reduces effectiveness of methotrexate, but is often prescribed together to prevent hepatotoxicity and GI symptoms
+
+Antimalarial agent:  hydroxychloroquine
+Visual disturbances, retinal blindness
+
+Sulfasalazine
+Avoid in patients with sulfa allergies
+Bone marrow suppression
+Hepatotoxicity
+GI discomfort – nausea, vomiting, diarrhea, dyspepsia
+
+=== SLIDE 15 ===
+COMPLICATIONS
+TNF antagonists:  etanercept, infliximab, adalimumab
+sc injection site irritation
+iv infusion reactions (infliximab) – flu-like symptoms, hypotension, allergic rx
+risk of infection
+blood dyscrasias
+heart failure
+severe skin reactions, including Stevens-Johnson syndrome
+
+Gold salts:  auranofin
+Toxicity – rash, severe pruritus, stomatitis
+Blood dyscrasias – thrombocytopenia, leukopenia, agranulocytosis, aplastic anemia
+Nephrotoxicity
+Hepatitis
+GI discomfort – nausea, vomiting, abd pain
+
+=== SLIDE 16 ===
+COMPLICATIONS
+Penicillamine
+Toxicity – rash, severe pruritus
+Bone marrow suppression
+
+Cyclosporine
+Immunosupression – risk of infetion
+Hepatotoxic and nephrotoxic
+Hirsutism
+Gingival hyperplasia
+Avoid grapefruit juice – as it juice inhibits the liver enzyme that metabolizes cyclosporine and increases its blood level with risk for toxicity
+
+=== SLIDE 17 ===
+Anti-inflammatory:  colchicine
+Therapeutic uses:
+Abort an acute gout attack in response to precursor findings.
+Treatment of acute attacks.
+Agents for Hyperuricemia
+Prototype medication:  allopurinol
+Other:  probenecid
+Pharmacological action: 
+Allopurinol inhibits uric acid production. 
+Probenecid inhibits uric acid reabsorption by renal tubules.
+Therapeutic uses:
+Hyperuricemia due to chronic gout or secondary to cancer chemotherapy
+ANTIGOUT MEDICATIONS
+
+=== SLIDE 18 ===
+Allopurinol
+Hypersensitivity reaction, fever, rash
+Hepatic and Nephrotoxicity
+GI distress (nausea and vomiting)
+Increase in gout attacks during first month of treatment
+Increase warfarin levels
+COMPLICATIONS/PRECAUTIONS
+Colchicine
+Mild GI distress, which can progress to GI toxicity
+Abdominal pain, diarrhea, nausea, vomiting
+Thrombocytopenia, suppressed bone marrow
+Rhabdomyolysis – Sudden onset of muscle pain, tenderness
+Grapefruit juice can increase levels and increase adverse effects
+Probenecid
+Renal calculi and renal injury
+Gastrointestinal effects
+Salicylates reduce probenecid’s effectiveness
+

@@ -1,0 +1,583 @@
+=== SLIDE 1 ===
+Pharmacology: respiratory system
+Clayton 19th, Ed. Chs. 29-30
+ATI CMS Pharmacology for Nursing 8.0, Chs. 16-17
+
+=== SLIDE 3 ===
+Drug classes
+Anti-Histamines – reduces inflammation 
+
+Intranasal anti-inflammatory agents – reduces inflammation
+
+Decongestants – reduces nasal congestion
+
+Antitussives – reduces cough
+
+Expectorants – clear mucus 
+
+Mucolytics – clear mucus
+
+=== SLIDE 4 ===
+Question #1
+A patient presents with a runny nose, sneezing, congested throat, chills, and fever. What chemical in the body is responsible for these symptoms?
+Antibodies
+Histamine
+Potassium
+Acetylcholine
+
+=== SLIDE 5 ===
+Antihistamines
+Actions
+Selectively block the effects of histamine at the H1 receptor sites, decreasing the allergic response.
+Inhibits smooth muscle constriction in blood vessels and the respiratory and GI tracts.
+Decreases capillary permeability.
+Anticholinergic and antipruritic effects.
+
+Indications
+Allergic rhinitis, allergic conjunctivitis, uncomplicated urticaria, and angioedema.
+Respiratory cold and allergy symptoms.
+Motion sickness
+Insomnia (1st generation anti-histamines)
+
+=== SLIDE 6 ===
+Antihistamines
+Examples
+1st Generation
+Can penetrate the blood-brain barrier and cause CNS symptoms (e.g., drowsiness, dizziness, confusion, urinary retention, dry mouth).
+Diphenhydramine (Benadryl), Promethazine, Dimenhydrinate, Brompheniramine (Dimetapp), Chlorpheniramine
+
+2nd Generation
+Less potential to penetrate blood-brain barrier.
+Cetirizine (Zyrtec), Loratadine (Claritin), Levocetirizine (Xyzal)
+
+3rd Generation
+Less potential to penetrate blood-brain barrier.
+Lower risk of cardiac toxicity in patients with metabolic issues compared to 2nd generation.
+Fexofenadine (Allegra), Desloratadine (Clarinex)
+
+Intranasal forms
+Azelastine, Olopatadine
+
+=== SLIDE 7 ===
+Antihistamines
+Adverse Effects
+Anticholinergic symptoms
+Cholinergic Effects (muscarinic receptors)
+Cholinergic (Ach) = parasympathetic effects
+Anticholinergic = opposite of parasympathetic effects
+Anticholinergic (antimuscarinic) symptoms
+CNS - Headache, confusion, delirium, anxiety, insomnia, impaired memory, and reduced cognitive function. 
+PNS - Dry mouth, blurred vision, constipation, urinary retention, tachycardia, flushing, arrhythmias, reduced gut motility, vomiting, reduced saliva, and tear production.
+Other - Hyperthermia, anhidrosis, dilated pupils, bowel obstruction, and ejaculatory difficulties.
+
+=== SLIDE 8 ===
+You WILL be tested on this on the NCLEX.
+Many medications have anticholinergic side effects.
+These medications block the parasympathetic system.
+Anticholinergic syndrome
+
+=== SLIDE 9 ===
+Antihistamines
+Precautions
+Avoid in the elderly due to anticholinergic effects.
+Avoid in children – can have paradoxical effect of excitation, (flushed face, fever, tachycardia, pupil dilation, hallucinations, incoordination, and seizures).
+Promethazine contraindicated in patients with cardiac dysrhythmias, hepatic diseases, and those on MAOI therapy.
+
+Interactions
+CNS depressants/alcohol cause additive CNS depression
+Enhanced effect with other medications with anti-cholinergic effects
+
+=== SLIDE 11 ===
+Question #2
+What is the action of antihistamines?
+Block production of histamine
+Create drowsiness to mask symptoms
+Occupy the receptor sites for histamine
+Prevent nasal congestion
+
+=== SLIDE 12 ===
+Question #3
+A nurse is reinforcing teaching with a client who has a new prescription for diphenhydramine for allergic rhinitis.  The nurse should instruct the client to monitor for which of the following manifestations as an adverse effect of this medication?  (Select all that apply.)
+Dry mouth
+Nonproductive cough
+Skin rash
+Drowsiness
+Urinary hesitation
+
+=== SLIDE 13 ===
+Intranasal anti-inflammatory agents
+Intranasal corticosteroids
+Mechanism
+Anti-inflammatory.
+i.e. inhibits histamine release; suppression of neutrophil chemotaxis; mild vasoconstriction and reduction in edema; and inhibition of mast cell–mediated late-phase reaction.
+
+Indications
+Most effective pharmacologic therapy for allergic rhinitis, with persistent or moderate to severe allergic symptoms (sneezing, nasal itching, stuffiness, and rhinorrhea).
+Time to effectiveness: 3 – 14d.
+
+=== SLIDE 14 ===
+Intranasal anti-inflammatory agents
+Intranasal corticosteroids
+Formulation
+Nasal spray
+Used primarily as prophylactic (not acute tx)
+
+Examples
+Mometasone (Nasonex)
+Beclomethasone (Beconase)
+Budesonide
+Fluticasone (Flonase)
+Triamcinolone (Nasacort Allergy)
+
+Adverse effects
+Nasal irritation (burning sensation)
+Epistaxis (rare)
+Sore throat
+Headache
+
+=== SLIDE 15 ===
+Intranasal anti-inflammatory agents
+Chromolyn sodium (NasalChrom)
+Mechanism
+Mast cell stabilizer that inhibits the release of histamine and other mediators of inflammation.
+
+Indications
+Prophylactic – Cromolyn is effective when used shortly (30 minutes) before exposure to allergen inhalation such as cat dander and seasonal allergies. 
+For seasonal allergies, it is most effective when initiated just before the pollen season, rather than after symptoms have begun.
+Full benefit 2-4 weeks of use.
+
+Side and adverse effects
+Nasal irritation (common)
+Bronchospasm and coughing
+
+=== SLIDE 16 ===
+Question #4
+A nurse is discussing the use of fluticasone with a client to treat perennial rhinitis.  Which of the following statements by the client indicates an understanding of the information?
+“I should use the spray every 4 hours while I am awake”
+“It can take as long as 3 weeks before the medication take maximum effect”
+“This medication can also be used to treat motion sickness”
+“I can use this medication when my nasal passages are blocked”
+
+=== SLIDE 17 ===
+Question #4.1
+The drugs used to treat allergic rhinitis are primarily intranasal corticosteroids and _______?
+Antibiotics
+Antivirals
+Oral or intranasal antihistamines
+Calcium channel blockers
+
+=== SLIDE 18 ===
+Question #5
+A patient is being treated with chromolyn sodium. Which severe adverse effect does the nurse teach the patient about?
+Nasal irritation
+Sneezing
+Bronchospasm
+Nasal stuffiness
+
+=== SLIDE 19 ===
+Question #6
+A patient is experiencing a severe headache and pressure over the eyes. The patient feels congested but has no temperature elevation, and there is a history of sinus infection. Which agent does the nurse anticipate the healthcare provider might order?
+Expectorant
+Decongestant
+Antitussive
+Antibiotic
+
+=== SLIDE 20 ===
+decongestants
+Action
+Sympathomimetic - acts directly on the adrenergic receptors of sympathetic nervous system. 
+The drug produces vasoconstriction, which shrinks nasal mucosa membranes, reduce inflammation and opens air passage.
+
+Indications 
+Alleviate the stuffiness commonly associated with allergies, sinusitis, colds, and the flu. 
+
+Formulations
+Two types of decongestants are systemic decongestants and topical, or nasal, decongestants.
+Oxymetazoline nasal spray (Afrin)
+Phenylephrine (Sudafed PE), Pseudoephedrine (Sudafed), Naphazoline, Ephedrine
+
+=== SLIDE 21 ===
+decongestants
+Adverse Effects
+Rebound congestion can occur if used for more than 3 days.
+Adrenergic effects – CNS stimulation
+Nervousness, heart palpitations, and tachycardia 
+Restlessness and insomnia
+Avoid at bedtime
+Avoid caffeine and alcohol
+Hypertension due to vasoconstriction
+Careful use in patient with heart disease and high blood pressure
+Phenylephrine has less impact on blood pressure than pseudoephedrine.
+Precautions
+Careful use in patients with HTN, hyperthyroidism, diabetes, cardiac disease, increased intraocular pressure (glaucoma), benign prostatic hypertrophy.
+
+=== SLIDE 22 ===
+Question #7
+A nurse is caring for a client who has been taking phenylephrine nasal drops for the past 10 days for sinusitus.  The nurse should monitor the client for which of the following manifestations as an adverse effect of this medication?
+Sedation
+Nasal congestion
+Productive cough
+Constipation
+
+=== SLIDE 23 ===
+Question #8
+A patient reports a harsh, nonproductive cough and muscle aches that have lasted for 5 days. There is no sore throat, temperature elevation, or swollen lymph nodes, but the patient is coughing so much that sleeping at night is difficult. Which type of medication will likely be prescribed for this patient?
+Decongestant
+Antitussive
+Antibiotic
+Expectorant
+
+=== SLIDE 24 ===
+Antitussives (cough suppressants)
+Mechanism
+It is thought that these medications inhibit the cough center in the brain or soothe nerve receptors around airways to reduce transmission of cough signals to the brain. 
+Indication
+Treatment of nonproductive cough.
+Not recommended for productive coughs where the client is coughing up mucus due to the infection risk that can result from the buildup of mucus in the respiratory system.
+Classes
+Opioid antitussives
+Codeine (typically as combination with guaifenesin or promethazine)
+Nonopioid antitussives
+Dextromethorphan (Robitussin)
+Benzonatate (Tessalon)
+
+=== SLIDE 25 ===
+Antitussives (cough suppressants)
+Side and Adverse Effect
+Opioid antitussives can cause 
+CNS effects:  drowsiness, dizziness, confusion
+Pulmonary:  respiratory depression
+GI:  nausea, vomitting, constipation
+Urinary:  retention
+
+Nonopioid antitussives can cause drowsiness, dizziness, headache.
+Dextromethorphan has lesser CNS effects.
+
+=== SLIDE 26 ===
+Antitussives (cough suppressants)
+Precautions
+Opioid antitussives can cause respiratory depression. 
+Opioid antitussives contraindicated in patients with respiratory depression, acute asthma, head trauma, liver and renal dysfunction, and acute alcohol disorder.
+Some OTC formulations of non-opioid antitussives contain alcohol and/or sucrose.
+Caution in elderly.
+Only provides symptomatic relief and if cough persists (or if accompanied by fever), contact health care provider.
+
+=== SLIDE 27 ===
+Question #9
+A nurse is reviewing information with a client who has a new prescription for dextromethorphan to suppress a cough.  The nurse should instruct the client to monitor for which of the following manifestations as an adverse effect of this medication?
+Diarrhea
+Anxiety
+Sedation
+Palpitations
+
+=== SLIDE 28 ===
+Question #10
+A patient has a history of emphysema and has been coughing for a prolonged period after waking in the morning. The patient is having difficulty clearing the thickened mucus from the lungs. Which type of medication does the nurse anticipate will be ordered for this patient?
+Diuretic
+Antibiotic
+Antitussive
+Mucolytic
+
+=== SLIDE 29 ===
+expectorants
+Mechanism
+Expectorants work by lubricating the airways, stimulating the cough reflex, and decreasing mucus viscosity so that it is easier to expel.
+Indications
+Used with productive coughs when it is necessary to loosen and clear mucus.
+Guaifenesin (Mucinex)
+Guaifenesin is a common expectorant and is available over the counter without a prescription.  
+Can be combined with antitussive or decongestant formulation.
+Adverse effects – Typically does not cause many adverse effects, but dizziness, headache, nausea, and vomiting may occur. 
+Can cause bronchospasm in those with asthma.
+Normal Saline Solution
+NS solutions are typically administered via nebulization to hydrate mucus and reduce viscosity. 
+Adverse effects – none.
+
+=== SLIDE 30 ===
+mucolytics
+Mechanism
+Clear mucus from the airway by breaking its protein bonds, helping to reduce the thickness and stickiness of mucus. 
+
+Indications
+They differ from expectorants in that they are used to help high-risk respiratory clients cough up thick, tenacious mucus. 
+Mucus is a breeding ground for bacteria.
+Patients with tracheostomies often benefit from mucolytics.
+Typically inhaled.
+
+=== SLIDE 31 ===
+mucolytics
+Acetylcysteine
+Used in clients with pneumonia, bronchitis, cystic fibrosis, and emphysema. 
+Inhalation used prior to bronchial studies (e.g., bronchoscopy) to help clear the airway and is also used as routine tracheostomy care. 
+Acetylcysteine has a sulfur content that can cause a rotten egg odor.
+Acetylcysteine is also administered orally or intravenously as the antidote for acetaminophen toxicity.
+
+Dornase Alfa
+Inhaled via nebulizer
+Cystic fibrosis. Dornase alfa acts like an enzyme naturally found in the lungs to help thin out thick, sticky mucus.
+
+=== SLIDE 32 ===
+mucolytics
+Adverse Effects
+Dizziness, drowsiness
+Tachycardia
+Hypotension
+Nausea, and vomiting
+Voice changes, hoarseness, and sore throat
+Pharyngitis
+Bronchospasm
+Aspiration (secondary to vomiting)
+
+Contraindications
+Acetylcysteine commonly causes vomiting – avoid in patients with peptic ulcer disease, esophageal varices.
+
+=== SLIDE 33 ===
+Question #11
+A nurse is reinforcing teaching the family of a child who has cystic fibrosis and a new prescription for acetylcysteine.  Which of the following information should the nurse include in the instructions?
+“Expect this medication to suppress your child’s cough”
+“Expect this medication to smell like rotten eggs”
+“Expect this medication to cause euphoria”
+“Expect this medication to turn your child’s urine orange”
+
+=== SLIDE 35 ===
+Question #12
+A person who has smoked 1½ packs of cigarettes for 30 years has a pack-year history of how many years?
+20
+30
+45
+55
+
+=== SLIDE 36 ===
+Figure 30.1 Clayton, 19th Ed.
+The respiratory tract and alveoli
+
+=== SLIDE 37 ===
+Lower respiratory conditions
+Two types: obstructive and restrictive. 
+
+Obstructive airway diseases are those that narrow air passages, create turbulence, and increase resistance to airflow. 
+Symptoms – smooth muscle constriction (bronchospasm), edema, inflammation of the bronchial walls, or excess mucus secretion. 
+Examples – COPD (emphysema, chronic bronchitis); asthma, acute bronchitis
+
+Restrictive airway diseases are those in which lung expansion is limited from loss of elasticity.
+Examples – Pulmonary fibrosis (interstitial lung disease), sarcoidosis, physical deformity of the chest (e.g., kyphosis).
+
+=== SLIDE 43 ===
+Drug classes
+Beta-2 agonists
+Anticholinergics aerosols
+Inhaled Corticosteroids
+Leukotriene receptor antagonists
+Xanthine derivatives: Theophylline
+Mast cell stabilizer: Cromolyn
+Phosphodiesterase-4 inhibitor: Roflumilast
+Immunomodulators
+
+=== SLIDE 44 ===
+Beta2 selective adrenergic agonists
+Mechanism
+Stimulating the beta-2 adrenergic receptors, relaxing the smooth muscles in the airways and leading to bronchodilation and improved airflow.
+Inhibition of histamine release.
+
+Indication
+Bronchospasm (as in asthma, bronchitis, exercise-induced)
+
+=== SLIDE 45 ===
+Beta2 selective adrenergic agonists
+Short acting Meds
+Onset: 1-2 min
+Frequency: q3-4h
+Example:  Albuterol (Proventil, Ventolin, Accuneb), Levalbuterol (Xopenex)
+
+Long acting Meds
+Example:  Salmeterol (Severent) – onset 10-15 min; q12h dosing
+Example:  Formoterol – onset 5-15 min; q24h dosing
+Note: Due to concern that prolonged use of long acting beta-2 agonists can make acute episodes worse, an asthma controller medication (e.g., inhaled corticosteroid) should be used prior to using a long acting Beta-2 agonist; and both can be used together.
+
+=== SLIDE 46 ===
+Beta2 selective adrenergic agonists
+Adverse Effects and Contraindications
+Common adverse effects are due to adrenergic activity 
+Cardiac – tachycardia, palpitations, hypertension
+CNS – tremors, nervousness, anxiety, restlessness, headache
+GI – nausea, vomiting
+
+Precautions
+Clients with severe cardiac disease should use albuterol only at the direction of their health care provider due to systemic effects on heart rate and blood pressure.
+
+Drug interactions
+Anti-arhythmics – can affect efficacy
+Nonselective beta blockers – reduce effectiveness
+CNS stimulants – can have additive effects
+
+=== SLIDE 47 ===
+Question #13
+A nurse is reinforcing instructions to a client who has a new prescription for albuterol, PO.  Which of the following instructions should the nurse include?
+“You can take this medication to prevent an acute asthma attack”
+“Tremors are an adverse effect of this medication”
+“Prolonged use of this medication can cause hyperglycemia”
+This medication can slow skeletal growth rate”
+
+=== SLIDE 48 ===
+Question #13.1
+A nurse is reinforcing discharge teaching with a client following an episode of status asthmaticus.  The client has a prescription for two inhalations from an albuterol metered-dose inhaler.  Which of the following statements by the client indicates an understanding of the teaching ?
+“I will hold the inhaler with my nondominant hand”
+“I will tilt my head forward while inhaling the medication”
+“I will hold my breath for at least 10 seconds after inhaling the medication”
+“I will wait 10 minute between each inhalation”
+
+=== SLIDE 49 ===
+Anticholinergic bronchodilating agents
+Mechanism
+Competitively bind to cholinergic receptors on bronchial smooth muscle, blocking the bronchoconstriction action of vagal efferent impulses. 
+Indication
+Bronchoconstriction associated with asthma, chronic bronchitis, and emphysema.
+Short Acting
+Ipatropium – q6h
+Long Acting
+Aclidinium, glycopyrrolate – q12h
+Revefenacin, tiotropium, umeclidinium – q24h
+Meta-analysis suggests that anticholinergics are superior to beta2 agonists in reducing severe exacerbations and respiratory deaths.
+Titotropium capsule to be used with inh device
+
+=== SLIDE 50 ===
+Anticholinergic bronchodilating agents
+Side and Adverse Effects
+Mouth dryness, throat irritation (common)
+Can rinse mouth after inhalation
+Cough
+Anticholinergic – tachycardia, urinary retention, dizziness, nervousness
+Careful use in elderly
+
+Drug interactions
+Additive effect in any drug with anticholinergic properties
+
+=== SLIDE 51 ===
+Inhaled corticosteroids
+Mechanism
+Anti-inflammatory effect including direct effect on smooth muscle relaxation.
+Indication
+Used for maintenance therapy of bronchoconstriction associated with asthma and COPD.
+Formulations
+Beclomethasone (Qvar), budesonide (Pulmicort), fluticasone (Flovent)
+
+Also comes in combination formulations 
+With beta-2 agonists (e.g., fluticasone/salmetrol [Advair Diskus])
+With beta-2 agonists and anticholinergic bronchodilators (e.g., fluticasone/vilanterol/umeclidinium [Trelegy/Ellipta])
+
+=== SLIDE 52 ===
+Inhaled corticosteroids
+Side and Adverse Effects
+Hoarseness, dry mouth, cough, sore throat, and oropharyngeal candidiasis. 
+Patients should rinse their mouths after use to prevent candidiasis (thrush).
+Systemic side effects of corticosteroids possible with over-use.
+
+=== SLIDE 53 ===
+Question #14
+A nurse is reinforcing teaching with a client who has a new prescription for beclomethasone by inhaler.  Which of the following instructions should the nurse include?
+“Rinse your mouth after each use of this medication”
+“Limit fluid intake while taking this medication”
+“Increase your intake of vitamin B12 while taking this medication”
+“You can take the medication as needed”
+
+=== SLIDE 54 ===
+Question #14.1
+A nurse is caring for a client who has asthma and is taking fluticasone.  For which of the following adverse effect should the nurse monitor?
+Hypoglycemia
+Hypertension
+Polyuria
+Oral candidiasis
+
+=== SLIDE 55 ===
+Question #15
+A nurse is reinforcing instructions to a client who has a new prescription for albuterol and beclomethasone inhalers for the control of asthma.  Which of the following instructions should the nurse include in the teaching?
+“Take the albuterol at the same time each day”
+“Administer the albuterol inhaler prior to using the beclomethasone inhaler”
+“Use beclomethasone if experiencing an acute episode”
+“Avoid shaking the beclomethasone before use”
+
+=== SLIDE 56 ===
+Leukotriene receptorantagonist
+Mechanism
+Blocks leukotriene receptors and decreases inflammation.
+
+Indication
+Use in conjunction with other medications for the prophylactic and chronic treatment of asthma.
+Can be used as alternatives to low-dose inhaled corticosteroids for mild persistent asthma or use with low to medium doses of inhaled corticosteroids for moderate persistent asthma.
+
+Drugs
+Montelukast (Singulair)
+Zafirlukast (Accolate)
+Zileuton
+
+=== SLIDE 57 ===
+Leukotriene receptorantagonist
+Adverse Effects
+Headaches, dizziness, epistaxis, urticaria
+Serious neuropsychiatric events (aggressive behavior, agitation, depression and suicidality) have been reported in clients taking montelukast. 
+Reconsider use in mild asthma or exercise-induced bronchospasm given psychiatric risks.
+Hepatotoxicity with zileuton and zafirlukast
+
+Interactions
+Zileuton and zafirlukast  increases warfarin levels 
+Phenytoin decrease effectiveness of montelukast
+
+=== SLIDE 58 ===
+Xanthines
+Mechanism
+Relaxes bronchial smooth muscle by nonselective inhibition of the enzyme phosphodiesterase and suppresses airway responsiveness to stimuli that cause bronchoconstriction.
+
+Indication
+Long-term management of persistent asthma that is unresponsive to beta agonists or inhaled corticosteroids.
+Medication has fallen out of favor due to narrow therapeutic range (5-15 mcg/mL) and side effects.
+Needs periodic monitoring of blood levels
+
+Drugs
+Theophylline 
+Aminophylline
+
+=== SLIDE 59 ===
+XanthinEs
+Adverse Effects
+Xanthine toxicity
+GI:  Nausea, vomiting are early signs.
+CNS:  Stimulation, nervousness, confusion and insomnia.
+Severe:  Dysrhythmias and seizures.
+
+Precautions/Interactions
+Avoid CNS stimulants, including caffeine (which can also increase theophylline levels).
+Cimetidine, ciprofloxacin and other fluoroquinolone antibiotics increase theophylline levels.
+Tobacco and marijuana can decrease theophylline levels.
+Phenobarbital, phenytoin, and rifampin decrease theophylline levels.
+
+=== SLIDE 60 ===
+Inhaled Mast cell stabilizer
+Drug: Cromolyn sodium (Intal)
+
+Actions: Mast cell stabilizer; inhibits release of histamines and other mediators of inflammation.
+
+Use: In combination with other agents to treat severe bronchial asthma or allergic rhinitis.
+Common adverse effects:  Oral irritation, dry mouth.
+
+Serious adverse effects:  Bronchospasm, coughing.
+
+=== SLIDE 61 ===
+Phosphodiesterase-4 inhibitor: roflumilast
+Action: Block inflammation (selective phosphodiesterase-4 inhibitor)
+
+Formulation:  po
+
+Use: Reduce frequency of flare-ups of inflammation in patients with chronic bronchitis, severe COPD; used with bronchodilators and corticosteroids.
+Common adverse effects:  Headache and mainly GI (Dyspepsia, cramps, nausea, diarrhea, weight loss).
+
+Severe adverse effects:  Psychiatric (Insomnia, anxiety, depression, suicidal thoughts, mood changes).
+
+=== SLIDE 62 ===
+Immunomodulator agents
+Drug: Omalizumab (Xolair), benralizumab.
+
+Action:  Humanized monoclonal antibodies bind to circulating IgE antibodies, inhibiting mast cell release of inflammatory chemicals.
+
+Use: Treatment of moderate to severe persistent allergic asthma that have failed other therapies.
+Common and serious adverse effects:  Hypersensitivity, injection site reactions.
+

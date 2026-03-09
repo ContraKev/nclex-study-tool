@@ -4750,6 +4750,92 @@ window.missions_cardio_4 = [
 
 </script>
     <script>
+/* SOURCE: data_pain_nonopioid.js */
+const data_pain_nonopioid = [
+    {
+        g: "Acetaminophen", b: "Tylenol", c: "Non-Opioid Analgesic / Antipyretic", cat: "pain",
+        m: "Weak inhibitor of peripheral prostaglandins. Mechanism is unclear but analgesic effect is primarily within the CNS. Has antipyretic effect by acting on the hypothalamic heat-regulating center. Unlike NSAIDs, it has NO anti-inflammatory or antiplatelet activity.",
+        ind: "Mild to moderate pain (headache, musculoskeletal pain, dental pain). Antipyretic for fever reduction. Good substitute for patients who cannot take aspirin or NSAIDs.",
+        con: "Severe hepatic impairment. Known hypersensitivity. Use with caution in patients with alcohol use (3-4+ drinks/day) or concurrent hepatotoxic medications.",
+        aec: "Nausea, vomiting. Generally well-tolerated at therapeutic doses.",
+        aes: "HEPATOTOXICITY — the major serious adverse effect. Can cause fatal hepatic necrosis in overdose. Long-term high-dose use may cause bone marrow suppression (anemia, leukopenia, thrombocytopenia — rare).",
+        inter: [
+            {d: "Warfarin", m: "Slows metabolism of warfarin → increased bleeding risk with regular use.", s: "high"},
+            {d: "Alcohol", m: "Concurrent alcohol use significantly increases hepatotoxicity risk.", s: "high"},
+            {d: "Hepatotoxic drugs (Rifampin, INH, Carbamazepine)", m: "Additive hepatotoxicity risk.", s: "med"}
+        ],
+        dosage: "Adults: 325-1000mg PO every 4-6 hours PRN. Maximum 3000-4000mg/day (3g/day for chronic use or elderly). Available: oral, rectal, IV.",
+        admin: "Oral (regular 325mg, extra strength 500-650mg), rectal suppository, and IV formulations. Take as directed — do not exceed maximum daily dose.",
+        nurse: "Monitor liver function (AST/ALT). Be aware of OTC combination products containing acetaminophen (Vicodin, Percocet, NyQuil, etc.) — patients may inadvertently exceed max dose. Antidote for overdose: Acetylcysteine (Mucomyst). Teach patient to avoid alcohol and read ALL medication labels for acetaminophen content."
+    },
+    {
+        g: "Ibuprofen", b: "Advil, Motrin", c: "NSAID (Nonselective COX-1/COX-2 Inhibitor)", cat: "pain",
+        m: "Inhibits both cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2) enzymes, reducing prostaglandin synthesis. This produces analgesic, anti-inflammatory, and antipyretic effects. COX-1 inhibition reduces the protective prostaglandins in the GI mucosa and affects platelet aggregation.",
+        ind: "Mild to moderate inflammatory pain, fever reduction, dysmenorrhea, headache, musculoskeletal pain, arthritis (osteoarthritis, rheumatoid arthritis).",
+        con: "Active GI bleeding or peptic ulcer disease. Third trimester of pregnancy (risk of premature closure of ductus arteriosus). Patients with aspirin-sensitive asthma. Severe renal impairment. Post-CABG surgery.",
+        aec: "GI upset (dyspepsia, nausea, abdominal pain, heartburn). Dizziness. Fluid retention/edema.",
+        aes: "GI BLEEDING and peptic ulcers. Nephrotoxicity (elevated BUN/Cr, decreased urine output). Cardiovascular risk — can increase risk of MI and stroke. Hepatotoxicity (rare). Hematologic — increased bleeding from antiplatelet activity.",
+        inter: [
+            {d: "Warfarin/Anticoagulants", m: "Increased bleeding risk due to antiplatelet effect + anticoagulant effect.", s: "high"},
+            {d: "ACE Inhibitors/ARBs", m: "NSAIDs reduce antihypertensive effect and increase nephrotoxicity risk.", s: "med"},
+            {d: "Lithium", m: "NSAIDs decrease renal lithium excretion → lithium toxicity.", s: "high"},
+            {d: "Methotrexate", m: "NSAIDs decrease renal clearance of methotrexate → toxicity.", s: "high"}
+        ],
+        dosage: "Adults: 200-800mg PO every 4-8 hours. Maximum 3200mg/day (prescription) or 1200mg/day (OTC). Pediatric: 5-10mg/kg/dose every 6-8 hours.",
+        admin: "Take with food or milk to minimize GI upset. May be prescribed with a proton pump inhibitor (omeprazole) for GI protection. Do not crush or chew enteric-coated formulations.",
+        nurse: "Check for history of GI bleeding, peptic ulcers, kidney disease, cardiovascular disease, and bleeding disorders. Monitor renal function (BUN/Cr). Assess for GI bleeding (dark stools, abdominal pain). Contraindicated in 3rd trimester of pregnancy — can cause premature closure of ductus arteriosus."
+    },
+    {
+        g: "Naproxen", b: "Aleve, Naprosyn", c: "NSAID (Nonselective COX-1/COX-2 Inhibitor)", cat: "pain",
+        m: "Same mechanism as ibuprofen — inhibits COX-1 and COX-2 to reduce prostaglandin synthesis. Longer half-life than ibuprofen allows for twice-daily dosing. Provides analgesic, anti-inflammatory, and antipyretic effects.",
+        ind: "Mild to moderate pain, inflammatory conditions (arthritis, tendinitis, bursitis), dysmenorrhea, gout, fever. Often preferred for chronic inflammatory conditions due to longer duration.",
+        con: "Same as ibuprofen: active GI bleed, 3rd trimester pregnancy, aspirin-sensitive asthma, severe renal impairment, post-CABG.",
+        aec: "GI upset, headache, dizziness, drowsiness, fluid retention.",
+        aes: "GI bleeding, nephrotoxicity, cardiovascular events (MI/stroke risk), hepatotoxicity (rare), serious skin reactions (SJS — rare).",
+        inter: [
+            {d: "Warfarin/Anticoagulants", m: "Increased bleeding risk.", s: "high"},
+            {d: "ACE Inhibitors/ARBs/Diuretics", m: "Reduced antihypertensive effect; increased nephrotoxicity risk.", s: "med"},
+            {d: "Lithium", m: "Decreased renal excretion → lithium toxicity.", s: "high"}
+        ],
+        dosage: "Adults: 250-500mg PO twice daily. Maximum 1500mg/day (prescription) or 660mg/day (OTC). Available: tablets, liquid gels, suspension.",
+        admin: "Take with food or milk. Longer half-life allows BID dosing (compared to ibuprofen's QID). Do not combine with other NSAIDs.",
+        nurse: "Same monitoring as all NSAIDs: renal function, GI bleeding, cardiovascular status. Educate that OTC Aleve and prescription naproxen are the same drug — do not take both. Avoid in pregnancy, especially 3rd trimester."
+    },
+    {
+        g: "Ketorolac", b: "Toradol", c: "NSAID (Nonselective COX-1/COX-2 Inhibitor)", cat: "pain",
+        m: "Potent NSAID with powerful analgesic effects — often compared to morphine for acute pain relief. Inhibits COX-1 and COX-2. Primary action is analgesic rather than anti-inflammatory. Available as IM injection making it useful for acute pain management.",
+        ind: "Short-term management of moderate to severe ACUTE pain. Often given IM for acute inflammatory pain including severe headaches, renal colic, and postoperative pain. NOT for chronic pain.",
+        con: "Use limited to 5 DAYS maximum (high risk of GI bleeding with longer use). Active GI bleed, peptic ulcer disease. Pre-operative use (bleeding risk). Renal impairment. Labor and delivery. Concurrent NSAID use.",
+        aec: "GI upset, headache, drowsiness, dizziness, injection site pain (IM).",
+        aes: "GI BLEEDING (risk increases significantly after 5 days). Nephrotoxicity. Wound bleeding (inhibits platelet function). Bronchospasm in aspirin-sensitive patients.",
+        inter: [
+            {d: "Anticoagulants", m: "Significantly increased bleeding risk.", s: "high"},
+            {d: "Other NSAIDs/Aspirin", m: "Do NOT combine — additive GI and bleeding risk.", s: "high"},
+            {d: "ACE Inhibitors", m: "Reduced antihypertensive effect; nephrotoxicity.", s: "med"}
+        ],
+        dosage: "IM/IV: 15-30mg every 6 hours. Oral: 10mg every 4-6 hours. MAXIMUM 5 DAYS of therapy (combined IM/IV and oral).",
+        admin: "IM injection is most common route for acute pain. Can transition to oral. Total duration must NOT exceed 5 days. IV given over at least 15 seconds.",
+        nurse: "Strict 5-day maximum — document start date clearly. Monitor for GI bleeding. Assess renal function. Often used as an opioid-sparing strategy in acute pain. Not appropriate for chronic pain or outpatient long-term use."
+    },
+    {
+        g: "Celecoxib", b: "Celebrex", c: "NSAID (Selective COX-2 Inhibitor)", cat: "pain",
+        m: "Selectively inhibits COX-2 while sparing COX-1. This targeted inhibition reduces inflammation and pain while preserving the protective prostaglandins in the GI mucosa (produced by COX-1). Result: LESS GI side effects compared to nonselective NSAIDs but INCREASED cardiovascular risk.",
+        ind: "Osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, acute pain, primary dysmenorrhea. Preferred when GI protection is a priority.",
+        con: "Allergy to SULFONAMIDES (celecoxib contains a sulfonamide moiety). History of MI or stroke. Severe cardiovascular disease. Third trimester pregnancy. Post-CABG surgery.",
+        aec: "Headache, dizziness, abdominal pain, diarrhea, dyspepsia (but LESS GI effects than nonselective NSAIDs).",
+        aes: "CARDIOVASCULAR: increased risk of MI and stroke — particularly with prolonged use or in patients with cardiovascular risk factors. Nephrotoxicity. Hepatotoxicity (rare). Serious skin reactions (rare).",
+        inter: [
+            {d: "Warfarin", m: "May increase INR and bleeding risk.", s: "high"},
+            {d: "ACE Inhibitors/ARBs", m: "Reduced antihypertensive effect.", s: "med"},
+            {d: "Fluconazole", m: "Inhibits celecoxib metabolism → increased levels.", s: "med"}
+        ],
+        dosage: "OA: 200mg daily or 100mg BID. RA: 100-200mg BID. Acute pain: 400mg initially, then 200mg on day 1, then 200mg BID.",
+        admin: "Oral. Can be taken with or without food (better GI tolerance than other NSAIDs). Capsules can be opened and sprinkled on applesauce for patients with difficulty swallowing.",
+        nurse: "CONTRAINDICATED in sulfonamide allergy. Monitor for cardiovascular events — use lowest effective dose for shortest duration. Despite better GI profile, still monitor for GI bleeding. Assess renal function. Educate about cardiovascular warning signs (chest pain, SOB, weakness on one side)."
+    }
+];
+</script>
+    <script>
 /* SOURCE: data_loader.js */
 // Master Data Aggregator - Globally Exposed
 window.drugDB = [];
@@ -4794,6 +4880,9 @@ if (typeof data_diabetes_alpha_sglt2 !== 'undefined') mergeData(data_diabetes_al
 if (typeof data_diabetes_gliptin_glp1a !== 'undefined') mergeData(data_diabetes_gliptin_glp1a);
 if (typeof data_diabetes_insulins_part1 !== 'undefined') mergeData(data_diabetes_insulins_part1);
 if (typeof data_diabetes_insulins_part2 !== 'undefined') mergeData(data_diabetes_insulins_part2);
+
+// Pain Management Atomic Loads
+if (typeof data_pain_nonopioid !== 'undefined') mergeData(data_pain_nonopioid);
 
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");
 

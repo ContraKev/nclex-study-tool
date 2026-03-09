@@ -1,0 +1,983 @@
+=== PAGE 1 ===
+1 | P a g e  
+ • I like this book for Nursing Pharmacology: “ Nursing Pharmacology OpenRN” (2nd Ed.):     
+https://wtcs.pressbooks.pub/pharmacology2e/  
+A. ANTIMICROBIAL MEDICATIONS  
+ANTIBIOTICS  
+-AFFECTING BACTERIAL CELL WALL  
+Penicillins (“ -cillin”)  penicillin  G (im) 
+penicillin V  (po) 
+amoxicillin -clavulanate  (po) **Penicillins** → **Allergy risk 
+(rash, anaphylaxis)**   
+ 
+ 
+Cephalosporins (“Cef -“) cephalexin  (po) 
+ceftriaxone  (im, iv) **Cephalosporins** → **Cross -
+sensitivity if allergic to 
+penicillin**   
+Carbapenems (“ -penem”)  imipenem (im, iv)   
+Others  vancomycin  
+fosfomycin  
+aztreon am **Vancomycin** → Monitor for 
+**red man syndrome (infuse 
+slowly)** ; monitor for ototoxicity, 
+nephrotoxicity ; check peak and 
+trough levels  
+-fosfomycin – 1 dose for UTI  
+-AFFECTING PROTEIN SYNTHESIS  
+Tetracyclines (“ -cycline”)  
+ tetracycline  
+doxycycline  -tetracycline stains teeth  
+Macrolides (“ -thromycin”)  erythromycin  
+azithromycin  
+clarithromycin  **Macrolides** → **QT 
+prolongation**   
+ 
+Aminoglycosides (“ -mycin”)  gentamicin  
+streptomycin  
+neomycin  -ototoxic , nephrotoxic  
+-AFFECTING BACTERIAL DNA  
+Fluoroquinolones  
+(“-floxacin”)  ciprofloxacin  
+levofloxacin  **Fluoroquinolones** → 
+**Tendon rupture, avoid with 
+dairy  products **   
+ 
+UTI MEDS  sulfonamides -trimethoprim  
+nitrofurantoin  **Sulfonamides **→ watch out 
+sulfa allergies  
+UTI ANALGESIC  phenazopyridine   
+ 
+TUBERCULOSIS MEDS  
+(“RIPE”)  
+ rifampin  
+isoniazid  
+pyraminazaide  
+ethambutol  -very hepatotoxic  
+-rifampin cause body fluids to 
+turn orange  
+ 
+ANTI -PARASITICS  
+ metronidazole  
+ -Treats C. Diff  
+ 
+ANTI -MALARIAL  hydroxychloroquine  
+chloroquine  -also used for RA ; watch for vision 
+changes , tinnitus  
+ 
+ANTI -FUNGALS  
+ 
+polyene  antibiotic  amphotericin B  (iv) 
+nystatin  -very nephrotoxic  
+(“-azole”)  fluconazole  
+clotrimazole
+
+=== PAGE 2 ===
+2 | P a g e  
+  
+ANTIVIRALS  
+herpes  
+(“-vir”)  acyclovir  
+ganciclovir   
+influenza  
+(“-vir”)  oseltamivir   
+ 
+HIV Antiretrovirals  
+NRTI  
+ zidovudine  
+ -lactic acidosis, pancreatitis, 
+neuropathy  
+NNRTI  
+ delavirdine  
+efarivenz   
+Entry/fusion inhibitor  enfuvirtide  
+ -sc inj  only  
+Integrase inhibitor  raltegravir  
+  
+Protease inhibitor  ritonavir  -dyslipidemia, hyperglycemia  
+ 
+B. DRUGS USED IN PAIN MANAGEMENT  
+ANALGESICS  
+Non -opioids  acetaminophen  
+aspirin  - **Acetaminophen** → **Max 4g/day 
+(risk of liver toxicity)**   
+-Aspirin don’t use under 16yo ; tinnitus 
+and hearing problems indicative of 
+salicylism; toxicity – metabolic acidosis  
+NSAIDs  ibuprofen  
+naproxen  
+nabumetone  
+meloxicam  
+celecoxib  - **NSAIDs (Ibuprofen)** → **GI bleed, 
+nephrotoxic **   
+Opioid agonist  codeine  
+hydrocodone  
+oxycodone  
+morphine  
+hydromorphone  
+methadone  
+fentanyl  
+tramadol  **- Monitor for **respiratory 
+depression**   
+ 
+Opioid partial agonist  buprenorphine  
+butorphanol  -also used in opioid use disorder  
+Opioid antagonist  naloxone  -reverse effect s of opioids  
+ 
+Muscle rela xant  cyclobenzaprine  
+methocarbamol  
+baclofen  
+dantrolene  -used in conditions that cause muscle 
+contractions and spasms  
+-dantrolene can treat  malignant 
+hyperthermia , but has high risk  of 
+hepatoxicity  
+ 
+Migraine medication  sumatriptan  -watch out for neuropathy
+
+=== PAGE 3 ===
+3 | P a g e  
+ C. ANTI -HYPERTENSIVE MEDICATIONS  
+Angiotensin -Converting Enzyme (ACE) 
+Inhibitor  
+(“-pril”)  lisinopril  
+captopril  - Used for **hypertension, heart 
+failure**   
+  - Monitor for **dry cough, 
+hyperkalemia, angioedema**   
+  - Teach patient to **avoid potassium 
+supplements**   
+Angiotensin Receptor Blocker(ARBs)  
+(“-sartan”)  losartan  
+valsartan  -HTN; avoid in pregnancy, monitor 
+potassium  
+ 
+Aldosterone antagonist  eplerenone  -also a potassium sparing diuretic  - 
+hyperkalemia  
+Direct renin inhibitor  aliskiren   
+Calcium -Channel Blockers  
+dipine group  (“-dipine”)  nifedipine  
+amlodipine  
+ 
+**non -dipine group**  
+diltiazem, verapamil  Used for **HTN, angina, arrhythmias**   
+  - **Amlodipine** → peripheral edema   
+  
+ - **Verapamil/Diltiazem** → 
+constipation, bradycardia   
+Beta blocker  
+(“-olol”, “ilol”, “ -alol,”)  
+ atenolol  
+metoprolol  
+propanolol  Used for **HTN, angina, arrhythmias, 
+heart failure**   
+- **Do NOT stop abruptly** (risk of 
+rebound hypertension)   
+- Monitor for **bradycardia  hold if HR < 
+60 
+- can mask hypoglycemia  
+- bronchospasm (avoid in asthma)**    
+Alpha -1 blocker  
+(“-zosin”)  terazosin  
+doxazosin  -also used for BPH  urinary retention  
+Alpha -1 and beta blocker  carvedilol  -used for HF, post -MI, also HTN  
+Alpha -2 central blocker  
+ clonidine  
+methyldopa  -clonidine used for HTN,  ADHD,  also 
+chronic pain  and alcohol/ opiate 
+withdrawal **cannot be stopped 
+abruptly**  
+Direct vasodilators  
+ hydralazine  
+nitroprusside  -can lower BP quickly **watch out for 
+rebound tachycardia**  
+ 
+D. DIURETICS  
+Thiazide Diuretics   
+ hydrochlorothiazide  
+   - **Thiazide (HCTZ)** → 
+**Hypokalemia  - **Hypercalcemia, 
+hyperglycemia**   
+Loop Diuretics  
+ furosemide  Loop (Furosemide)** → Watch for 
+**hypokalemia, ototoxicity**   
+Potassium Sparing Diuretics    
+ spironolactone  
+eplerenone    - **K+ -Sparing (Spironolactone)** → 
+**Hyperkalemia** (avoid potassium -
+rich foods)   
+-eplerenone also an aldosterone 
+antagonist  
+Osmotic Diuretic  
+ man nitol  -used for cerebral edema, closed angle 
+glaucoma  
+Carbonic Anhydrase Inhibitors   
+ acetazolamide  -used for glaucoma
+
+=== PAGE 4 ===
+4 | P a g e  
+ E. DRUGS AFFECTING THE CARDIOVASCULAR   SYSTEM  
+ANTILIPEMICS  
+HMG -CoA reductase inhibitor (“-statin”)  lovastatin  
+atorvastatin  
+lovastatin  
+simvastatin  -myalgia/rhabdomyolysis  
+-hepatotoxic  
+-avoid grapefruit juice  
+-increases warfarin levels  
+Fibrates  gemfibrozil  -take 30min before meal  
+-can cause gallstones  
+Cholesterol absorption inhibitor  ezetimibe   
+Bile acid resins  colesevelam  
+cholestyramine  -may bind to other meds and prevent 
+absorption  – take other meds 1h before  
+or 4-6h after taking this  
+vit B3  niacin  -may cause flushing  
+ 
+Nitrates  
+ nitroglycerine  
+isosorbide  -used for CAD ; can cause headache and 
+hypotension  
+ 
+Heart failure meds  digoxin  
+dobutamine, dopamine  
+milrinone  **Digoxin** → Monitor for **toxicity 
+(nausea, vision changes, bradycardia)**   
+monitor levels, K+, HR for bradycardia  
+ 
+Anti -arrhythmic Drugs   (**NOT HIGH YIELD**)  
+Class IA/Na channel blocker  quinidine  
+procainamide   
+Class IB/Na channel blocker  lidocaine   
+Class IC/Na channel blocker  flecainide   
+Class II/Beta blocker  propanolol   
+Class III/K channel blocker  amiodarone   
+Class IV/Ca channel blocker  verapamil   
+Class V/Misc  adenosine   
+ 
+Anticoagulants  Heparin  
+Enoxaparin  
+Warfarin (Coumadin)  
+apixaban, rivaroxaban  
+dabigatran  **Heparin** → Monitor **aPTT **, risk 
+of **HIT (thrombocytopenia)**   
+ 
+**Warfarin** → **Many drug 
+interactions (check INR)**   
+ 
+DOACs (Apixaban, Rivaroxaban)** → 
+Fewer labs needed   
+Antiplatelet Medications  
+ Aspirin  
+Clopidogrel   
+Thrombolytic  
+ alteplase  
+ -high risk of bleeding
+
+=== PAGE 5 ===
+5 | P a g e  
+ F. DIABETES MEDICATIONS  
+NON -INSULIN  
+Biguanide  metformin  
+ - **Metformin** → ** monitor kidneys, 
+lactic acidosis risk  **-B12 and folic acid 
+deficiency can lead to anemia  
+Sulfonylurea  glipizide  
+(Meglitinide ) - repaglinide  
+   - **Sulfonylureas (Glipizide)** → Risk 
+of **hypoglycemia  if pt skips meal **; 
+also watch for sulfa allergies  
+Glitazones  pioglitazone  -fluid retention  
+Alpha glucosidase inhibitor  acarbose  -GI side effects – bloating, diarrhea  
+SGLT2 inhibitors  canaglif lozin 
+ -possible fluid loss  (dehydration, 
+hypotension) ** - UTIs  
+Gliptins  sitagliptin  -watch out for pancreatitis  
+GLP-1 receptor agonist  
+ dulaglutide  
+exenatide  
+pramlintide  -inject  site reaction  
+ 
+INSULIN  
+Insulin long acting  nph 
+glargine  
+detemir  **Long -acting (Glargine, Detemir)** → 
+**Once daily, no peak**   
+Insulin short -acting  regular  
+lispro  
+aspart  **Rapid -acting (Lispro, Aspart)* * → 
+Given **before meals**   
+ 
+ 
+For hypoglycemia  glucagon  - **Hypoglycemia treatment**: **15g 
+fast-acting carbs (juice, glucose tabs)**   
+ 
+G. RESPIRATORY MEDICATIONS  
+DRUG THERAPY FOR NON -INFECTIOUS LOWER RESP AIRFLOW DISORDERS  
+BRONCHODILATORS  
+Beta -2 agonists  albuterol   - **Albuterol (SABA)** → Rescue 
+inhaler, watch for **tachycardia**   
+  - **Salmeterol (LABA)** → 
+Maintenance, **NOT for acute 
+attacks**   
+Anticholinergics  ipratropium  -watch out for anticholinergic side 
+effects  
+   
+Glucocorticoids (Corticosteroids)  
+ Beclomethasone  
+fluticasone  
+budesonide  - **Inhaled Corticosteroids (Fluticasone, 
+Budesonide)**   
+  - Rinse mouth to prevent **oral 
+thrush**
+
+=== PAGE 6 ===
+6 | P a g e  
+ Mast Cell Stabilizers  cromolyn  - takes 2 -4 wks to work  
+Methylxanthines  theophylline  - **Narrow therapeutic range → 
+Monitor **   - toxicity : N/V early signs, 
+then CNS stimulation, confusion, then 
+tachycardia, seizures**   
+Leuko triene modifier  montelukast  -Asthma/allergy prevention  
+-rare: agitation, anxiety, depression  
+ 
+DRUG THERAPY FOR NON -INFECTIOUS UPPER RESPIRATORY DISORDERS  
+Anti -histamines (H -1 blockers)  1st generation – diphenhydramine  
+2nd generation – cetirizine  -anticholinergic side effects  
+Sympathomimetics  phenylephrine  -sympathetic stimulation  
+Antitussives  Nonopioid – dextromethorphan  
+Opioid - codeine   
+Expectorants  guaifenesin   
+Mucolytics  acetylcysteine  -also used for acetaminophen overdose  
+ 
+H.  GASTROINTES TINAL SYSTEM MEDICATIONS  
+DRUG THERAPY FOR GERD AND PUD  
+Proton pump inhibitor  
+(“-prazole”)  
+ omeprazole   - Long -term use → **B12 deficiency, 
+hypocalcemia, bone fracture risk**   
+Histamine -2 antagonist  
+(“-tidine”)  
+ cimetidine  
+ranitidine  -cimetidine - many  drug interactions  
+-anticholinergic  
+-gynecomastia    
+Mucosal protectant  sucralfate  **coats stomach – take without food 
+and 1h before meal  
+Antacids  aluminum hydroxide  
+calcium  compound  
+magnesium  compound  **Mg  – diarrhea  
+**Al, Ca  – constipation  
+**take on empty stomach  
+ 
+ANTI -EMETICS  
+Serotonin antagonist  
+(“-setron”)  ondansetron  -used for CINV  
+-**QT prolongation**  
+Antihistamine  diphenhydramine  
+promethazine  
+meclizine  
+dimenhydrinate  -anticholinergic effects  
+Anticholinergic  scopolamine  -anticholinergic  
+Dopamine antagonist /prokinetic  chlorpromazine  
+prochlorpromazine  
+metoclopromide  -**watch for e xtrapyramidal sxs
+
+=== PAGE 7 ===
+7 | P a g e  
+ CONSTIPATION  LAXATIVES  
+Stimulant  
+ bisacodyl  
+senna, sennosides    
+Osmotics  
+ lactulose  
+polyethylene glycol  
+magnesium citrate, magnesium 
+hydroxide  
+sodium phosphate  -too much fluid loss → 
+diarrhea/dehydration/electrolyte 
+imbalance  
+Bulk -forming  docusate  
+psyllium  -take psyllium with water  
+Lubricant  mineral oil   
+Peripheral o pioid  antagonist  methylnatrexone  -used for opioid -induced constipation  
+ 
+ANTI -DIARRHEAL  
+Locally acting  
+ Bismuth subsalicylate  
+Psyllium   
+Systemic agent  
+ diphenoxylate/atropine  
+loperamide   
+ 
+I. ENDOCRINE MEDICATIONS (EXCEPT DM)  
+Thyroid Disorders  
+Hypothyroid  levothyroxine  - Given **on empty stomach** (best in 
+morning)   
+  - Monitor for **hyperthyroidism 
+symptoms (tachycardia, weight loss)**   
+Hyperthyroid  methimazole  
+propylthiouracil  
+radioactive iodine I -131 -methimazole  **watch out for 
+overmedication leading to 
+hypothyroidism; also agranulocytosis 
+and hepatitis  
+ 
+Adrenal Deficiency (Addison’s)  
+Glucocorticoids  hydrocortisone  
+dexamethasone  
+prednisone  
+prednisolone  **know side effects of steroids!**  
+Mineralcorticoids  fludrocortisone  -salt and fluid retention  → BP↑ 
+ 
+Hypothalamic/Pituitary  
+ADH deficiency  desmopressin   
+GH deficiency  somatropin   
+GH excess  octreotide
+
+=== PAGE 8 ===
+8 | P a g e  
+ J.  REPRODUCTIVE MEDICATIONS  
+Female  
+Estrogen HRT  estrogen , estradiol  -**increased risk of blood clots  
+particularly in smoker  
+Progesterone  medroxyprogesterone   
+Estrogen and progesterone HRT  conjugated estrogen and 
+medroxyprogesterone acetate   
+Oral contraceptive  ethinyl estradiol and 
+drospirenone   
+GnRH agonist  leuprolide  -suppresses sex hormones; us e for 
+endometriosis and prostate ca  
+Selective estrogen receptor modulators  
+(SERMs)  raloxifene  
+tamoxifene  -raloxifene used for osteoporosis and 
+breast ca prevention  
+-tamoxifen used for breast ca treatment 
+and prevention  
+Antiprolactinemia/dopamine agonist  carbegoline  
+bromocriptine  -bromocriptine also used in Parkinson’s 
+dz 
+ 
+OB medications  
+LH and FSH stimulant  clomiphene (Clomid)   
+Ovulation stimulant  hCG (Pregnyl)   
+Induce labor  dinoprostone   
+Induce labor/prevent postpartum hemorrhage  oxytocin   
+Ergot alkaloid/prevent postpartum 
+hemorrhage  methylergonovine   
+B-2 adrenergic agonist/ Delay preterm labor  terbutaline  -also used for asthma  
+ 
+Male  
+Hormone  testosterone   
+Erectile dysfunction  sildenafil  -**do not use with nitrates  
+ 
+K.  UROLOGY MEDICATIONS  
+Overactive bladder  
+anticholinergic  
+ oxybutynin  
+ -anticholinergic side effects  
+Beta -3 agonist  
+ mirabegron  -sympathomimetic side effects  
+Urinary retention - nonobstructive  
+Cholinergic  bethanechol   
+ 
+BPH treatment  
+5-alpha reductase inhibitor  finasteride   
+alpha -1 adrenergic antagonist  tamsulosin  
+terazosin , doxazosin  -terazosin and doxazosin also reduces BP  
+(watch out for hypotension)
+
+=== PAGE 9 ===
+9 | P a g e  
+ L. DRUGS AFFECTING THE NEUROLOGICAL  SYSTEM  
+Antiparkinsonian Agents  
+Drugs that increase dopamine  
+ levodopa -carbidopa  
+bromocriptine  
+pramipexole  
+selegiline  
+amant adine  -watch out for dyskinesia, orthostatic 
+hypotension , somnolence  
+-**selegiline can cause hypertensive 
+crisis with foods containing tyramine  
+-amantadine has anticholinergic effects  
+Anticholinergic  benztropine  -anticholinergic effects  
+ 
+Drugs for alzheimer’s disease  
+Acetylcholinesterase inhibitor  
+ donepezil  
+ -**cholinergic crisis (SLUDGE) – 
+salivation, lacrimation, urinary 
+incontinence, diarrhea, GI cramps, 
+emesis  
+NDMA (glutamate receptor) inhibitor  
+ memantine  -akathisia, increased motor activity  
+ 
+Anticonvulsants (antiepileptics)  
+Traditional  Barbiturate  
+phenobarbital  
+primidone  
+Other  
+phenytoin  
+carbamazepine  
+Valproic acid  **Phenytoin (Dilantin)** → **Gingival 
+hyperplasia, monitor levels  for toxicity **   
+ 
+-carbamazepine  also used for trigeminal 
+neuralgia ; --**can cause SIADH  
+Newer  Lamotrigine  
+Levetiracetam  
+Topiramate  
+Gabapentin  
+Pregabalin   
+ 
+ 
+-gabapentin, pregabalin also used for 
+neuropathic pain or chronic pain  
+ 
+Anesthetics  
+ lidocaine  
+midazolam  
+methohexital   
+-midazolam  is BZD  
+-methohexital is a barbiturate  
+ 
+CNS stimulants  
+ADHD and narcolepsy  amphetamine  
+dextroamphetamine  
+methylphenidate  
+modaf inil -adrenergic effects  
+ 
+Cholinergic Agents (Parasympathomemitics)  
+Nicotinic agonist  nicotine patch  -used for tobacco cessation  
+Muscarinic agonist  bethanechol  
+pilocarpine  -bethanechol used for urinary retention -
+-pilocarpine  used in glaucoma  
+ 
+Cholinergic Blocking Agents  (Parasympatholytics, Anticholinergics)  
+Muscarinic antagonist  oxybutynin  
+atropine  
+scopolamine  -oxybutynin used in overactive bladder  
+-atropine used to dilate pupil  
+-scopolamine used for motion sickness  
+-other anticholinergics like benztropine 
+also used in Parkinson’s disease
+
+=== PAGE 10 ===
+10 | P a g e  
+ Adrenergic Agents (Sympathomimetics)  
+alpha and beta agonists 
+(catecholamines)  epinephrine  
+norepinephrine  
+dopamine  -epinephrine used for an aphylaxis ; other 
+uses include dilation of pupil for eye 
+exam  
+-dopamine used for shock/hypovolemia 
+and for heart failure  
+alpha -1 agonist  
+ phenylephrine  
+pseudoephedrine  -phenylephrine used for 
+vasoconstriction to offset nasal 
+congestion ; can increase BP  
+alpha -2 agonist  clonidine  -used primarily to reduce BP  
+beta -1 agonist  dobutamine  -used to increase heart contractility in 
+heart failure  
+beta -2 agonist  albuterol  -used to facilitate bronchodilation  
+ 
+Adrenergic Blocking Agents (Sympatholytics)  
+alpha -1 antagonist  
+ tamsulosin  
+ -relaxes bladder neck to increase urine 
+outflow in BPH  
+selective beta -1 antagonist  metoprolol  
+ -used to reduce HR and BP  
+nonselective beta -2 antagonist  propranolol  -used to reduce HR and BP; caution use 
+in asthma/COPD due to increase 
+bronchoconstriction  
+ 
+M.  DRUGS AFFECTING MENTAL FUNCTIONING  
+Anxiolytics  
+Benzodiazepine  
+(“-zepam”)  lorazepam  
+clonazepam  
+diazepam  
+alprazolam  **Benzodiazepines (Lorazepam, 
+Diazepam)**   
+  - Used for **anxiety, seizures**   
+  - Risk of **dependence, respiratory 
+depression**   
+Non-benzodiazepine  buspirone  (BuSpar)   
+ 
+Anti -depressants  
+SSRIs  paroxetine  
+fluoxetine  
+sertraline  
+citalopram  **SSRIs (Sertraline, Fluoxetine)**   
+  - Takes **4 –6 weeks** for full effect  
+  - Risk of serotonin syndrome   
+  - **Suicide risk** in young patients   
+SNRIs  venlafaxine  
+duloxetine  - risk of serotonin syndrome  
+Tricyclics  amitriptyline  -** anticholinergic  effects  (avoid in 
+elderly)  
+-** dysrhythmia  
+MAOIs  phenelzine  -**hypertensive crisis with 
+sympathomimetic meds, vasopressors**  
+-**tyramine syndrome with certain 
+foods  
+-**serotonin syndrome with SSRI , SNRI  
+Atypical antidepressants  bupropion  (Wellbutrin)  
+mirtazapine  
+trazodone  -bupropion  is typically extended release 
+– swallow whole pill  
+-mirtazapine also used to increase 
+appetite  
+-trazodone also used for insomnia
+
+=== PAGE 11 ===
+11 | P a g e  
+ Bipolar disorder  
+ Lithium  
+Antiepileptic  – valproic acid  -**monitor and know symptoms of 
+lithium toxicity** , -**maintain 
+hydration  and sodium intake  
+ 
+Antipsychotics  
+Traditional  chlorpromazine  
+fluphenazine  
+haloperidol  
+aripiprazole   - **EPS side effects** (tardive 
+dyskinesia, dystonia)   
+ - **anticholinergic effects  
+ - **orthostatic hypotension  
+ - **neuroleptic malignant syndrome  
+ - **chlorpromazine and haloperidol – 
+prolonged QT interval  
+Atypical  risperidone  
+clozapine  
+olanzapine  
+quetiapine    - **Metabolic syndrome** (weight 
+gain, diabetes , dyslipidemia )   
+  - **clozapine - agranulocytosis  
+ 
+N.  EYE AND EAR MEDICATIONS  
+Glaucoma  
+Beta -blocker  
+ timolol  
+betaxolol   
+Alpha -2 adrenergic agonists  brimonidine   
+Prostaglandin analog  latanoprost  -can darken iris  
+cholinergic agonist  pilocarpine   
+cholinesterase inhibitor  echothiopate   
+ 
+Cerumenolytic  carbamide peroxide  
+mineral oil/glycerin   
+ 
+O.  CANCER MEDICATIONS  
+Cancer   (**PROBABLY NOT HIGH YIELD**)  
+Cytotoxic  
+ cisplatin  
+cyclophosphamide  
+fluorouracil  
+methotrexate  
+doxorubicin  
+paclitaxel  
+vinblastine  -**immunosuppression (infection risk)  
+-**side effects of chemotherapy  include 
+mucositis/stomatitis, N/V, diarrhea, 
+fatigue, loss of appetite and wt loss ; 
+severe adverse effects include 
+cardiomyopathy and neuropathy  
+Hormones  enzaluamide  
+leuprolide  
+tamoxifen  -leuprolide used for prostate ca  
+-tamoxifen used for breast ca  
+Bone marrow stimulant  epoetin  
+darb epoetin  -stimulate RBC production
+
+=== PAGE 12 ===
+12 | P a g e  
+ P.  MUSCULOSKELETAL  SYSTEM  
+Skeletal Muscle Relaxants  baclofen  
+dantrolene  
+cyclobenzaprine  -most are sedating  
+-dantrolene is used for malignant 
+hyperthermia , also very hepatotoxic  
+ 
+Rheumatoid arthritis  
+DMARDs I  methotrexate  
+hydroxychloroquine  
+sulfasalazine  -methotrexate – folic acid  (B9) 
+deficiency,  hepatotoxic, stomatitis  
+-hydroxychloroquine – watch for visual 
+disturbance  
+-sulfa salazine – avoid if sulfa allergy  
+DMARDs II  etanercept  
+infliximab  
+rituximab  -biologics – inj site reaction, rash 
+hypersensitivity ; iv form can cause flu -
+like symptoms  
+Immunosuppressants  azathioprine  
+cyclosporine  -cyclosporine – gingival hyperplasia (like 
+phenytoin) ; avoid grapefruit (like statin)  
+ 
+Gout medications  
+Anti-inflammatory  colchicine  -avoid grapefruit ; myalgia; 
+thrombocytopenia  
+Agent for hyperuricemia  allopurinol  
+probenecid   
+-probenecid – kidney stones  
+ 
+Osteoporosis  (SERM ) – raloxifene  
+alendronate  (Fosamax)  
+calcitonin  -alendronate take in am 30min before 
+eating, sit upright to prevent esophagitis  
+ 
+### **NCLEX -PN Tips:**   
+✔ **Know side effects, nursing considerations, and patient teaching**   
+✔ **Focus on safety (e.g., holding Metformin before contrast dye)**   
+✔ **Recognize emergency meds (EpiPen, Naloxone, Nitroglycerin)**
+
+=== PAGE 13 ===
+13 | P a g e  
+ May increase INR  – Increase the effect of warfarin (Coumadin) → Increase risk of bleeding  
+Acetaminophen  
+Allopurinol  
+Amiodarone  
+Androgens  
+• Methyltestosterone  
+• Oxandrolone  
+• Testosterone  
+Antibiotics  
+• Cephalosporins  
+• Doxycycline  
+• Fluoroquinolones  
+• Ciprofloxacin  
+• Levofloxacin  
+• Moxifloxacin  
+• Norfloxacin  
+• Macrolides  
+• Azithromycin  
+• Clarithromycin  
+• Erythromycin  
+• Metronidazole  
+• Penicillins ( exceptions:  dicloxacillin 
+and nafcillin may decrease the INR)  
+• Amoxicillin  
+• Amoxicillin -clavulanate  
+• Trimethoprim -sulfamethoxazole  
+Azole antifungals* 
+• Fluconazole  
+• Miconazole (oral)  
+• Voriconazole  Cancer therapies  
+• Capecitabine  
+• Fluorouracil (5 -FU) 
+• Imatinib  
+• Tamoxifen  
+Cholesterol -lowering agents (exception:  cholestyramine may 
+decrease the INR)  
+• Fenofibrate  
+• Fluvastatin  
+• Gemfibrozil  
+• Lovastatin  
+• Rosuvastatin  
+• Simvastatin  
+Cimetidine  
+Glucocorticoids  
+• Methylprednisolone  
+• Prednisone  
+Omeprazole  (case reports with other proton pump inhibitors)  
+Serotonin reuptake inhibitors¶ 
+• Duloxetine  
+• Fluoxetine  
+• Fluvoxamine  
+• Venlafaxine  
+Tramadol
+
+=== PAGE 14 ===
+14 | P a g e  
+  
+May decrease INR  – Decrease the effect of warfarin (Coumadin) → Increase risk of blood clot  
+Antibiotics  
+▪ Dicloxacillin  
+▪ Griseofulvin  
+▪ Nafcillin  
+▪ Rifampin  
+Azathioprine  
+Cholestyramine  
+Enzyme -inducing antiseizure medications  
+▪ Carbamazepine  
+▪ Phenobarbital  
+▪ Phenytoin (mixed effects described)  
+Ritonavir  
+Saint John's wort  
+Sucralfate  
+Vitamin K  
+ 
+Increased Risk of Bleeding is Possible when Combining Warfarin With:  
+• Antiplatelets  
+• Other Anticoagulants  
+• NSAIDs  
+• Steroids  
+• Thyroid replacement (levothyroxine)  
+• Testosterone  
+• Vitamin E  
+• Supplements  
+• Fish oil/ Omega -3 fatty acids  
+• Feverfew  
+• Tumeric  
+• “Gs” – garlic, ginger, ginko
+
+=== PAGE 15 ===
+15 | P a g e  
+ Ototoxic Drugs  
+Antibiotics  
+Aminoglycosides  
+• gentamicin sulfate (Garamycin)  
+• neomycin sulfate  
+• streptomycin sulfate  
+• tobramycin sulfate (Nebcin)  
+Macrolide - Erythromycins  
+Tetracycline  
+Miscellaneous Agent - vancomycin  
+ 
+Diuretics  
+• furosemide (Lasix)  
+• ethacrynic acid (Edecrin)  
+ 
+Antidysrhythmic Agents  
+• quinidine  
+ 
+Antiinflammatories/Analgesics  
+• aspirin  
+• ibuprofen (Motrin)  
+• indomethacin (Indocin)  
+ 
+Antineoplastic Agents  
+• bleomycin (Blenoxane)  
+• cisplatin (Platinol, CDDP)  
+• dactinomycin (Cosmegen)  
+• mechlorethamine (nitrogen mustard, Mustargen)
+
+=== PAGE 16 ===
+16 | P a g e  
+ Medications that cause photosensitivity  
+Cardiovascular 
+meds  • HCTZ  
+• furosemide  
+• amiodarone  
+• fenofibrate  
+NSAIDs  • naproxen  
+• ketoprofen  
+• piroxicam  
+Antibiotics  • tetracycline  
+• doxycycline  
+• demeclocycline  
+• sulfonamides  
+• ciprofloxacin  
+Sulfonylureas  • Glipizide  
+• Glyburide  
+• Glimerpiride  
+Others  • Methotrexate  
+• Promethazine
+
+=== PAGE 17 ===
+17 | P a g e  
+ Drugs that reduce blood levels of anticonvulsants (greater risk of seizures)  
+Drug  Anticonvulsant affected  
+• Oral contraceptives  • lamotrigine  
+• valproic acid  
+• probenicid  • carbamazepine  
+• cimetidine  • gabapentin  
+ 
+ 
+Drugs that increase serum levels of anticonvulsants (greater risk side effects/toxicity)  
+Antidepressants and antipsychotics  
+Drug  Anticonvulsant affected  
+• haloperidol, risperidone  • carbamazepine  
+• chlorpromazine  • valproic acid  
+• clomipramine  • carbamazepine  
+• phenytoin  
+• phenobarbital  
+• valproic acid  
+• sertraline  • carbamazepine  
+• lamotrigine  
+• phenytoin  
+• valproic acid  
+Antimicrobial  
+Drug  Anticonvulsant affected  
+• Macrolides  (erythromycin, 
+clarithromycin)  • carbamazepine  
+• rifampin  • lamotrigine  
+• isoniazid  • carbamazepine  
+• phenytoin  
+• valproic acid
+
+=== PAGE 18 ===
+18 | P a g e  
+ Food drug interactions  
+Food  Effect  
+Food with high Vit K  
+(green leafy vegetables such as spinach, kale, 
+broccoli, and Brussels sprouts ) • ↓ effect of warfarin = ↑ risk blood clot  
+Food rich in potassium  
+(banana, leafy green vegetables, avodacos, 
+potatoes, watermelon, cantaloupe, beets, 
+guava, coconut water, milk)  • Watch out for hyperkalemia in patient taking 
+potassium -sparing diuretics, ACE -I, ARBs.  
+Calcium -rich foods and supplements  
+(e.g., yogurt, milk)  • Affects absorption of tetracyclines, fluoroquinolones.  
+• ↓ effect of levothyroxine  
+Grapefruit juice  • ↑ effect of warfarin  
+• ↑ effect of statin  
+• ↑ effect of calcium channel blockers  
+Tyramine rich food  
+(aged cheese, cured meat, hot dogs, bacon, 
+processed food, soybean products, alcohol)  • Tyramine syndrome (hypertension, tachycardia, HA, 
+N/V) with MAO -I (phenelzine, selegiline , rasagilin e)  
+Alcohol  • ↑ effect of warfarin  
+• Avoid concurrent use with CNS depressants  
+• Avoid meds with possible hepatotoxicity  
+• Disulfiram reaction (hypotension, palpitations, 
+flushing, sweating, N/V) with metronidazole, some 
+cephalosporins, sulfonylureas (glyburide, glipizide)
+
+=== PAGE 19 ===
+19 | P a g e  
+ Medications that should be taken on an empty stomach  
+Medication  Note  
+Levothyroxine  • Take first thing in AM on empty stomach  
+Bisphosphonates (alendronate, ibandronate, 
+risedronate)  • Take at least 30 -60 minutes before breakfast.  Can 
+take with water.  
+Sucralfate  • Take on empty stomach – i.e. 1h before or 2h after 
+meal  
+Captopril  • Take on empty stomach – i.e. 1h before or 2h after 
+meal  
+Bethanechol  
+ • Take on empty stomach – i.e. 1h before or 2h after 
+meal  
+Ampicillin  • Take on empty stomach – i.e. 1h before or 2h after 
+meal  
+Zafirlukast  • Take on empty stomach – i.e. 1h before or 2h after 
+meal  
+Proton pump inhibitors  • Take 30 -60 min before meal  
+Isoniazid  • Take on empty stomach – i.e. 1h before or 2h after 
+meal  
+ 
+Medications that should be taken with food  
+Medication  Note  
+NSAIDs  • Ibuprofen, naproxen, etc.  
+Corticosteroids  • Prednisone, prednisolone, etc.  
+Antacids   
+Certain antibiotics  • Amoxicillin/clavulanate  
+• Cefpodoxime  
+• Nitrofurantoin  
+Diabetic meds  
+ • Sulfonylureas  
+• Metformin  
+Gout med  • Allopurinol  
+Enzyme supplements  • Creon  
+• Pancreaze  
+HIV meds  • Ritonavir  
+Dopamine receptor agonist  • Bromocriptine

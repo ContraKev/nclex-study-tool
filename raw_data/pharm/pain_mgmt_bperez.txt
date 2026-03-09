@@ -1,0 +1,434 @@
+=== SLIDE 1 ===
+Chapter 8
+Linton-Medical-Surgical Nursing
+8th edition
+
+=== SLIDE 2 ===
+Definition of Pain
+International Association for the Study of Pain defines it as “an unpleasant sensory and emotional experience associated with actual or potential tissue damage” 
+
+“Pain is whatever the person experiencing it says it is and exists whenever he says it does”
+
+Oxford Language Dictionary states, “physical suffering or discomfort caused by illness or injury”
+
+=== SLIDE 3 ===
+Physiology of Pain
+Sensory experiences: time/space, emotions, cognition 
+Afferent pathways (activated by nociceptors)
+Nerves that carry messages to the brain for interpretation 
+Efferent pathways (descending) 
+Carry messages away from the brain via spinal cord
+Nociceptors 
+Receptors that activate the afferent pathways 
+Unevenly distributed in muscles, tendons, subcutaneous tissue, and the skin
+
+=== SLIDE 4 ===
+Physiology of Pain (cONT.)
+Pain receptors are sensitive to chemical changes, temperature, mechanical stimuli, and tissue damage
+Pain receptors are unable to adapt to repeated stimuli and thus continue to react until stimuli are removed
+When pain receptors are stimulated, impulses are transmitted to the 
+   spinal cord
+
+=== SLIDE 5 ===
+Physiology of Pain (cont.)
+Impulses then travel up the spinal cord to the brain 
+In the brain, the cortex interprets the impulses as pain and identifies the location and qualities of the pain
+Endorphins and enkephalins, natural opioid-like substances: block transmission of painful impulses to the brain
+
+=== SLIDE 6 ===
+Osmosis: Physiology of pain 0-3:40 
+https://youtu.be/ZIzd8bg1tSI?si=KTAO8eE4qApHpUNz
+Video: How Gate Control Works by Pain Care Labs
+
+=== SLIDE 7 ===
+Gate-Control Theory
+Pain reflects physical and psychosocial factors
+What are some physical factors that influence pain?
+What are psychological factors that influence pain?
+Painful impulses are transmitted to the spinal cord through small-diameter nerve fibers in the afferent pathway
+When these fibers are stimulated, the gating mechanism opens in the spinal cord, which permits the transmission of impulses from the spinal cord to the brain
+The brain doesn’t have capacity to acknowledge pain while interpreting another stimuli
+
+=== SLIDE 8 ===
+Gate-Control Theory (cont.)
+Factors that cause the gate to open: tissue damage, a monotonous environment, and fear of pain 
+Stimulation of large-diameter fibers can close the gate and interfere with impulse transmission between spinal cord and the brain, causing diminished pain perception
+
+=== SLIDE 9 ===
+Factors Influencing Response to Pain
+Although people may have the same injury or insult, they may respond differently because many physical and psychosocial factors affect the response to pain
+What does this mean for the nurse and other healthcare professionals? 
+Important for health professionals to be nonjudgmental and to avoid comparing one individual in pain with another
+
+=== SLIDE 10 ===
+Physical Factors
+Pain Threshold 
+Minimum point at which something causes you pain.  Point at which stimulus causes sensation of pain.
+i.e. someone with a low pain threshold might feel pain when minimal pressure is applied to their body.
+Pain Tolerance 
+Maximum amount of pain a person can handle.  Intensity of pain a person will endure.
+
+=== SLIDE 11 ===
+Physical factors
+Age
+Older patients with chronic pain report lower levels of pain compared to the severity of the stimulus or injury.
+Pain is not a normal part of aging, why might that be a common perception? older adults often suffer from chronic conditions such as arthritis, cancer, and bone fractures that are associated with pain.
+Physical activity and nervous system integrity
+May precipitate, aggravate, or relieve pain
+Surgery and anesthesia 
+Type of surgery and the type of anesthesia used can influence the response to pain
+
+=== SLIDE 12 ===
+older adults
+Assessing pain in some patients, especially older adults, can be difficult. 
+Visual, speech, hearing, and motor impairments may limit the ability of older patients to communicate pain or to use scales to rate pain
+Patients with cognitive impairment may be unable to report pain or recall pain sensations. 
+Pain can also cause confusion, irritation, and depression in older adults
+Older adult patients with chronic pain usually report lower levels of pain much less severe than they really are
+
+=== SLIDE 13 ===
+PAIN THRESHOLD
+Genetics. Research suggests that your genes can affect how you perceive pain. Your genetics may also influence how you respond to pain medications.
+Age. Elderly individuals may have a higher pain threshold.  More research is needed to understand why.
+Sex. For unknown reasons, females report longer-lasting and more severe pain levels than males do.
+Chronic illness. Over time, a chronic illness, such as migraines or fibromyalgia, can change your pain tolerance.
+Mental illness. Pain is more often reported in people with depression or panic disorder.  Being under a lot of stress can make pain feel more severe.
+Social isolation. Social isolation may add to the experience of pain and decrease your pain tolerance.
+Past experience. Your previous experiences of pain can influence your pain tolerance. For example, people regularly exposed to extreme temperatures may have a higher pain tolerance than others. However, people who’ve had a bad experience at the dentist can have a strong pain response to even minor procedures at future visits.
+Expectations. Your upbringing and learned coping strategies can affect how you think you should feel or react to a painful experience.
+
+=== SLIDE 14 ===
+Psychological Factors
+Culture and ethnicity 
+Different ways of expressing/responding to pain 
+Religious beliefs 
+Some patients may pray and believe that divine intervention will help them to endure the pain 
+Others may view pain as a punishment for sins 
+Some believe that suffering is required before pain relief
+Past experiences and anxiety 
+May have developed positive coping strategies to deal with previous painful experiences 
+If strategies were unsuccessful, may be very anxious and overwhelmed by another painful experience
+Situational factors 
+If pain associated with a serious illness, it may have a greater effect on mood and activity than if the pain were associated with a less serious condition
+
+=== SLIDE 15 ===
+Osmosis: physiology of pain 3:40- 8:39
+
+=== SLIDE 16 ===
+Autonomic Nervous System
+Pain is a signal interpreted by the brain as a stressor.
+Activates the fight-or-flight response; certain physiologic responses initiated
+The nervous system responses can be measured by increased heart rate, respiratory rate, and blood pressure
+Acute and chronic pain elicit different kinds of responses
+
+=== SLIDE 17 ===
+Autonomic Nervous system response
+Sympathetic
+↑ Blood pressure
+↑ Pulse rate
+↑ Respiratory rate
+Dilated pupils
+Perspiration
+Pallor
+Parasympathetic
+Constipation
+Urinary retention
+
+=== SLIDE 18 ===
+Acute Pain
+Follows the normal pathway for pain from nociceptor activation to the brain and may be called nociceptive pain
+Cause is known and treatable 
+It serves as a warning of tissue damage and subsides when healing takes place
+Behavioral and physiologic signs: 
+Patient guards or rubs a body part
+Wrinkles the brow
+Bites the lip
+Changes in the heart rate
+Changes in blood pressure (   )
+Changes in respiratory rate
+
+=== SLIDE 19 ===
+Chronic Pain
+Persists/recurs for >6 months; may last a lifetime 
+Most chronic pain is neuropathic pain because it follows an abnormal pathway for pain
+Results from nerve damage from anatomic and physiologic conditions and underlying diseases
+Includes unusual sensations such as burning, shooting pain, and abnormal sensations that occur when there is no painful stimulus present
+Serves no useful purpose
+
+=== SLIDE 20 ===
+Comparison of Acute and Chronic Pain
+Chronic pain serves no useful purpose
+Acute warns of tissue damage and trauma
+Nursing assessment to identify:
+Type and Amount of pain
+Chronic or Acute
+Acute and Chronic pain at the same time—sometimes called Acute on Chronic
+Cancer related pain—
+Complex
+Nociceptive
+Neuropathic
+
+=== SLIDE 21 ===
+Comparison of Acute and Chronic Pain
+
+=== SLIDE 22 ===
+Nursing Care of the Patient in Pain
+Assessment
+Accept patient’s report of pain
+Determine status of the pain
+Describe the pain
+Examine the site of pain
+Identify coping mechanisms
+Document findings
+
+=== SLIDE 23 ===
+Ati video
+Skills module 3.0 – Pain management: Pain assessment
+
+=== SLIDE 24 ===
+Assessment
+Should be done on admission and on a regular basis
+Six Steps:
+Accept the patient’s report 
+Determine the status of the pain-
+(prior experience, acute, chronic)
+Describe the pain
+Location—consider referred pain
+Quality
+Intensity
+Aggravating and Alleviating factors
+Examine the site of the pain 
+Identify coping methods 
+Document assessment findings and evaluate interventions
+Pain is sometimes called the fifth vital sign
+
+=== SLIDE 25 ===
+Assessment of Cognitively impaired
+Ask the patient about pain—ask yes/no questions 
+Ask family members/caregivers about behaviors that indicate pain for the patient.
+Review the medical record; identify past history or diagnoses associated with pain.
+Examine the patient physically to identify potential sources of pain.
+Observe behaviors that may indicate pain for the patient. Observe the behaviors at rest and with activity. Note whether the behaviors change or improve when pain medication is administered.
+
+=== SLIDE 26 ===
+Assessment of Cognitively impaired
+
+=== SLIDE 27 ===
+Tools for pain assessment
+Numeric
+Wong-Baker FACES scale
+Gill-Melzack Pain Questionnaire (p. 305)
+Painad scale
+And more…
+
+=== SLIDE 30 ===
+Osmosis Video
+Osmosis: physiology of pain 8:40- end
+
+=== SLIDE 31 ===
+Nursing management of pain
+
+=== SLIDE 32 ===
+Interventions
+Nonpharmacologic 
+Pharmacologic
+
+=== SLIDE 33 ===
+Nonpharmacologic Interventions for Pain
+Comfort measures
+Cold
+Heat
+Guided imagery 
+Relaxation techniques
+Environmental control
+TENS
+Massage
+Anxiety reduction
+Distraction
+
+=== SLIDE 34 ===
+Tens unit
+https://youtu.be/y6Cd-woOfDc?si=jEooWyOEbsUWiN4o
+What is transcutaneous electrical nerve stimulation (TENS)?
+Transcutaneous electrical nerve stimulation (TENS) is a type of pain relief therapy. It uses a low-voltage electrical current to block pain or change your perception of it.
+TENS stimulate the skin and underlying tissues to decrease the intensity of pain by blocking pain signals and releasing endorphins
+
+=== SLIDE 35 ===
+Pharmacologic interventions
+Nonopioid
+Aspirin
+Acetaminophen
+NSAIDs (table 8.4)
+Opioid
+Hydromorphone
+Meperidine
+Morphine
+Fentanyl
+Buprenorphine
+Nalbuphine
+
+=== SLIDE 36 ===
+Pharmacologic interventions
+The Joint Commission issued new recommendations for pain interventions in January 2021. The standards include recommendations that healthcare professionals: 
+Involve the patient in pain management discussions
+Develop strategies for pain reduction that may include pharmacologic and nonpharmacologic interventions
+Establish realistic and measurable goals with the patient
+Provide pain management education for health care professionals.
+
+=== SLIDE 37 ===
+Ati video
+Skills module 3.0 – Pain management: pain interventions
+
+=== SLIDE 38 ===
+Pharmacologic Interventions: Opioid Analgesic Misconceptions
+Patients, families, nurses, and physicians have misconceptions about addiction; therefore, the term must be defined and differentiated by the terms tolerance and physical dependence
+Tolerance and physical dependence are normal responses to continued opioid administration for pain relief; they do not lead to a craving for the drug for its mind-altering effects
+Opioid addiction, aka opioid use disorder (OUD); According to the American Medical Association (AMA) (<1%) of patients taking opioids for pain relief develop chronic dependency.
+
+=== SLIDE 39 ===
+Pharmacologic Interventions: Opioid Analgesics
+Routes of administration
+Oral
+Intramuscular
+Sublingual
+Intravenous: 
+Intermittent bolus injections
+Continuous infusions
+Patient-controlled analgesia (PCA) 
+Epidural or Intrathecal route
+Dermal
+
+=== SLIDE 40 ===
+Pharmacologic Interventions: Opioid Analgesics (cont.)
+Side effects
+Constipation
+Nausea, with or without vomiting
+Sedation 
+Respiratory depression 
+Confusion
+Hypotension (especially orthostatic)
+Dizziness
+Urinary retention
+
+=== SLIDE 41 ===
+Monitoring Parameters for Opiate Agonists
+Premedication assessment and planning
+Appropriate pain assessments
+Therapeutic goals
+Pain at rest less than 3 on pain scale
+Pain with movement less than 5 on pain scale
+Able to have at least 6 hours of sleep without interruption by pain
+Able to work at hobby for 1 hour
+Observe for vital signs and mental status changes, especially respiratory rate. Hold medication if respirations are below 12/min for adult; consult with healthcare provider
+Pain assessments include onset, location, depth, quality, duration, and severity (using a scoring system). Pain scales use a rating of 0 to 10, with 10 being the worst possible pain
+Administer smallest possible dose that allows for pain relief; determine effectiveness
+
+=== SLIDE 42 ===
+Drug Class: Opiate Antagonists
+Drugs
+Naloxone (Narcan)
+Naltrexone (Revia)
+Action: Reverse respiratory depression, sedation, hypotension associated with opiate agonists and opiate partial agonists
+Use: Treat respiratory depression from excessive doses of opiate agonists or opiate partial agonists; drug of choice
+Also approved to treat alcoholism.
+Not effective in CNS depression from tranquilizers or sedative-hypnotics.
+The most common Adverse Effects are rare: Nausea, vomiting, chills, myalgia, dysphoria, abdominal cramps, joint pain, mental depression, apathy.
+
+=== SLIDE 43 ===
+opiate withdrawal Chapt 48
+All opioids produce similar signs and symptoms of withdrawal. 
+Onset of withdrawal symptoms in opioid-dependent people is somewhat predictable based on the half-life of the drug being abused; the symptoms begin two or three half-lives after the last dose has been taken. 
+Onset of withdrawal symptoms from heroin or morphine is usually within 6 to 12 hours after the last dose, whereas it may take 2 to 4 days after discontinuation of longer-acting drugs such as methadone. 
+Physical signs and symptoms associated with withdrawal are anxiety and restlessness, increased blood pressure and pulse, pupillary dilation, rhinorrhea, sweating, nausea, vomiting, and diarrhea. In severe cases, piloerection and fever may be present. 
+Subjectively, the person may complain of an achy feeling, often located in the back and legs, an increased sensitivity to pain (Muscular spasms/Muscle cramps.) And drug-seeking behavior (craving). Acute withdrawal symptoms from short-acting opiates (e.g., heroin) usually peak in 1 to 3 days and dissipate over the next 5 to 7 days. 
+Chronic withdrawal symptoms (e.g., insomnia, anxiety, drug craving, apathy toward the pleasures in life [anhedonia]) may require weeks to months to dissipate.
+
+=== SLIDE 44 ===
+Patient-Controlled Analgesia (PCA)
+Syringe pump contains opiate agonist (usually morphine) connected to IV pump, IV catheter
+Patient self-administers small dose of analgesic
+Pump limits amount and frequency of dose
+Provide patient/family teaching
+Record amount used and degree of pain relief
+
+=== SLIDE 45 ===
+Pharmacologic Interventions: Placebos
+What is a placebo?
+Inactive substance (e.g., saline or “sugar pills”) used in research or clinical practice to determine the effects of a legitimate drug or treatment
+Appropriately used in studies in which patients consent to participate
+Many health care organizations take the position that placebos should not be used to assess or manage pain 
+Nurses have ethical obligation to ensure that patients are not deceived and that institutional policies related to placebos are followed
+
+=== SLIDE 46 ===
+Pharmacologic Interventions: Adjuvant Analgesics and Medications
+Drugs not usually classified as analgesics may relieve pain in certain situations
+A patient who has undergone back surgery may complain more about muscle spasms than incisional pain 
+A muscle relaxant may be more effective in relieving pain than an opioid alone
+Specific pain syndromes, especially neuropathic, may be controlled with drugs other than the commonly known analgesics 
+See Table 8.5
+
+=== SLIDE 47 ===
+Question
+A nurse is monitoring a client who is receiving opioid analgesia.  Which of the following findings should the nurse identify as adverse effects of opioid analgesia? (select all that apply)
+Urinary incontinence
+Diarrhea
+Bradypnea
+Orthostatic hypotension
+Nausea
+
+=== SLIDE 48 ===
+answer
+A nurse is monitoring a client who is receiving opioid analgesia.  Which of the following findings should the nurse identify as adverse effects of opioid analgesia? (select all that apply)
+Urinary incontinence
+Diarrhea
+Bradypnea
+Orthostatic hypotension
+Nausea
+
+=== SLIDE 49 ===
+ATI Pain Summary
+Pt right for pain management
+Nurse’s responsibility to continually collect pain data
+Evaluation 10 to 60 minutes after administering pain medication
+Nociceptive pain involves transduction, transmission, perception and modulation of the impulses
+Tissue damage results in chemical triggers
+Neuropathic pain caused by changes in peripheral or central nervous system
+Collect objective and subjective data
+Mixed pain is difficult to categorize (fibromyalgia, HIV, Lyme disease)
+Breakthrough pain = exacerbation of acute or chronic pain
+
+=== SLIDE 50 ===
+Key terms
+Acute pain
+Addiction
+Analgesia
+Analgesic
+Chronic pain
+Neuropathic
+Nociceptive
+Nociceptor
+Pain
+Pain threshold
+Pain Tolerance
+Physical Dependence
+Referred pain
+Tolerance
+Pain that begins suddenly and is usually sharp in quality. It serves as a warning of disease or a threat to the body.
+ a chronic dysfunction of the bran system that involves reward, motivation, and memory; dependence on opioid after extended use
+inability to feel pain, pain free
+ a drug acting to relieve pain
+ pain that carries on for longer than 12 weeks despite medication or treatment
+ a disturbance of function or a change in one or several nerves
+nociceptive=pain and senses
+the nerve endings in your body that allow you to feel pain; they are distributed differently throughout the body
+“an unpleasant sensory and emotional experience associated with actual or potential tissue damage” 
+the point where stimulate sense of pain; lowest intensity at which a given stimulus is perceived as painful
+Maximum of pain that a person undergo; the maximum amount, or level, of pain a person can tolerate or bear
+condition in which a person takes a drug over time, and unpleasant physical symptoms occur if the drug is suddenly stopped or taken in smaller doses
+the pain perceived at a location other than the original site of the pain
+physiologic changes that occur from repeated doses of opioids resulting to higher doses needed to achieve pain relief;
+
+=== SLIDE 51 ===
+Ati virtual scenario
+Health Assess 3.0- Pain management: Virtual scenario
+

@@ -1,0 +1,902 @@
+=== SLIDE 1 ===
+Drugs Used for Pain Management
+Clayton, Ch. 19
+PN Pharmacology for Nursing CMS 8.0, Chs. 30-33
+(Coordinate with MS Nursing, Ch. 8)
+
+=== SLIDE 3 ===
+“old school” pain model
+Pain can only be explained by “tissue injury”
+Did not adequately explain certain “chronic pain” conditions.
+
+=== SLIDE 4 ===
+“new school” pain model
+Pain is a combination of many factors, not necessarily just “tissue injury.”
+Explains “chronic pain” syndromes and conditions where pain persists beyond what is normally expected after “injury.”
+
+=== SLIDE 5 ===
+Pain perception: Also called nociception
+
+Pain threshold: When pain is first perceived
+
+Pain tolerance: Person’s ability to endure pain
+
+=== SLIDE 6 ===
+somatic
+visceral
+A
+central
+Peripheral
+B
+altered nociception without clear evidence of actual or threatened tissue damage
+typically chronic
+B
+< 3 mos
+direct injury
+A
+> 3 mos
+may be independent from specific illness or injury 
+B
+Acetaminophen
+Aspirin
+Nsaids
+Opioids
+Acetaminophen
+Aspirin
+Nsaids
+Opioids
+Adjuvants
+anticonvulsants
+antidepressants
+A and B
+
+=== SLIDE 7 ===
+AUDIENCE RESPONSE QUESTION
+A patient admitted with the diagnosis of possible myocardial infarction complains of pain and tingling in the left arm and says, “How in the world could I be having a heart attack when it’s just my arm that is giving me trouble?” What type of pain should the nurse explain that the patient is experiencing?
+
+Referred pain
+Psychogenic pain
+Neuromuscular pain
+Muscle spasms of the shoulder
+
+=== SLIDE 9 ===
+Nursing Pain Assessment
+History of pain experience
+Pain medication history
+Patient’s perception of pain
+Believe pain experience
+Nurses must assist the patient in managing pain. The first important step in this process is to believe the patient’s description of the pain. 
+Note onset, location, depth, quality, duration, and severity
+Nonverbal behavior
+Examine the area of pain
+Behavioral response
+
+=== SLIDE 10 ===
+Nursing Pain Assessment
+Considered fifth vital sign
+If pain is not controlled, nursing functions and outcome will be impaired.
+Assess pain before and after interventions
+The nurse should also evaluate the pain level immediately before and after pain medications are given; at 1-, 2-, and 3-hour intervals for oral medications; and at 15- to 30-minute intervals after parenteral administration.
+Pain assessment tools
+Various tools for nonverbal patients, infants, and children
+Most institutions utilize a 0-10 pain scale
+
+=== SLIDE 11 ===
+Pain Management
+
+=== SLIDE 12 ===
+Nursing Implementation
+Comfort measures
+Positioning
+Ice/heat
+Massage
+
+Exercise and activity
+
+Non-pharmacologic treatments
+TENS
+Acupuncture
+Bracing 
+Stress management
+
+Medication
+Non-opioid, opioid, or adjuvant pain medication for type and severity of pain
+Encourage patient to request pain medication before pain escalates
+Identify when last dose of pain medication was administered
+Pain scale assessment used with pain relief range orders
+
+=== SLIDE 13 ===
+Nursing evaluation
+Always evaluate the patient’s response to pain treatments
+With analgesic medications, the nurse should assess for decrease in pain 30 minutes after IV administration and 60 minutes after oral medication. 
+
+Evaluate for any adverse effects (e.g., check respiratory rate, O2 sat since respiratory depression can occur with opioid analgesics).
+
+The nurse may need to consider administering other medications (e.g., anti-emetics medications) that treat the side effects of analgesic medication.
+
+=== SLIDE 14 ===
+Patient-Controlled Analgesia (PCA)
+Typically used post major surgery
+
+Syringe pump contains opiate agonist (usually morphine) connected to IV pump, IV catheter
+
+Patient self-administers small dose of analgesic
+
+Pump limits amount and frequency of dose
+
+Provide patient/family teaching
+
+Record amount used and degree of pain relief
+
+=== SLIDE 15 ===
+REVIEW Question
+The nurse is caring for a client with acute pain. Which of the following should the nurse recognize as objective signs of pain? (Select all that apply)
+
+Pulse rate 108
+Increased respiratory depth and frequency
+Blood Pressure 110/62
+Complains of pain
+Decreased respiratory depth
+Guarding the injured forearm by holding it to the body
+
+=== SLIDE 16 ===
+REVIEW Question
+A care plan is being developed for a client with chronic pain. Which of the following approaches will the nurse be using for pain management?
+
+A variety of pain relief methods
+Only pain medicine
+At least three alternating methods
+Only one method at a time
+
+=== SLIDE 17 ===
+REVIEW Question
+A patient continues to report pain after the administration of the prescribed analgesic. Why should the nurse change the nursing care plan?
+
+Patient’s pain threshold has risen
+Patient’s pain threshold has lowered
+Patient has become addicted
+Patient is seeking attention
+
+=== SLIDE 18 ===
+REVIEW Question
+The nurse is educating a postoperative patient about the use of a patient-controlled analgesia (PCA) pump. Which statement by the patient indicates a need for further teaching?
+
+“I’m afraid I’ll give myself too much medicine and become addicted to it.”
+
+  “I can only receive the medication every 10 minutes.”
+
+  “I’ll let the nurse know if my pain doesn’t improve.”
+
+“I’ll be sure to push the button to give myself pain medicine before I get up into a chair.”
+
+=== SLIDE 19 ===
+Adjuvant Pain Medications
+Anticonvulsants
+Carbamazepine
+Gabapentin
+
+Tricyclic antidepressants
+Amitriptyline
+Imipramine
+
+SNRI antidepressants
+Duloxetine
+
+Migraine medications
+Sumatriptan
+Ergotamine, dihydroergotamine
+
+Muscle relaxants
+Non-Opioid Analgesics
+Acetaminophen
+NSAIDs
+
+Opioid Agonists
+Morphine
+Codeine
+Oxycodone
+Hydromorphone
+Meperidine
+Fentanyl
+Methadone
+
+Opioid Agonist-antagonist
+Butophanol
+Nalbuphine
+Buprenorphine
+Pentazocine
+
+Opioid Antagonists
+Naloxone
+Naltrexone
+
+=== SLIDE 20 ===
+Drug Class: ACETAMINOPHEN (Tylenol)
+Actions
+Weak inhibitor of peripheral prostaglandins
+Mechanism unclear but analgesic effect primarily within the CNS
+Antipyretic effect
+	
+Formulations
+Oral, rectal and IV
+Regular strength – 325mg
+Extra strength – 500mg or 650mg
+
+Indication:
+Analgesic for a variety of pain conditions including headache and musculoskeletal pain
+Antipyretic
+Good substitute for patients who cannot take products containing aspirin or NSAIDs
+
+=== SLIDE 21 ===
+OTC packaging labeling
+
+=== SLIDE 23 ===
+Drug Class: ACETAMINOPHEN (Tylenol)
+Side/Adverse Effects
+Nausea and vomitting
+Hepatoxic
+Long-term, high dosage use may lead to bone marrow issues – anemia, leukopenia, thombocytopenia.  (Rare.)
+
+Precautions/Interactions
+Use caution in clients with alcohol use (~3-4 beverages a day)
+Consider use with concurrent use of hepatoxic medications (rifampin, INH, carbamezapine, and barbituates)
+Slows metabolism of warfarin and increased bleeding risk.
+
+Nursing Interventions and Client Education
+Monitor liver function
+Be aware of OTC sources of acetaminophen
+Take as prescribed, and do not exceed 3000mg/d
+Treat acetaminophen overdose with acetylcysteine
+
+=== SLIDE 24 ===
+Drug Class: aspirin
+Uses
+Mild pain relief
+Antipyretic
+Antiplatelet 
+Cardioprotective prophylaxis
+	
+Complications
+GI discomfort:  dyspepsia, abdominal pain, heartburn, nausea
+Take with food, milk
+Do not chew or crush enteric-coated formulations
+GI bleed: abdominal pain, dark colored stool
+Nephrotoxicity:  decreased urine output, elevated BUN/Cr
+Salicylism:  tinnitus, headache, dizziness
+Aspirin toxicity:  may progress from salicylism to sweating, high fever, dehydration, metabolic acidosis, electrolyte imbalance, seizures.
+
+=== SLIDE 25 ===
+Drug Class: aspirin
+Considerations
+Aspirin typically stopped 1 week before elective surgery
+Avoid in children <16yo due to Reye’s syndrome
+This also includes salicylates NSAIDs
+
+=== SLIDE 26 ===
+REVIEW Question
+Which classification does not describe a property of salicylates?
+
+ Analgesic
+ Antipyretic
+ Antiplatelet
+ Sedative
+ Antiinflammatory
+
+=== SLIDE 27 ===
+REVIEW Question
+A nurse is collecting data on a client who has salicylism.  Which of the following findings should the nurse expect?
+
+ Dizziness
+ Diarrhea
+ Jaundice
+ Tinnitus
+ Headache
+
+=== SLIDE 28 ===
+REVIEW Question
+A nurse is collecting data from a client who has severe aspirin toxicity.  Which of the following findings should the nurse expect?
+
+ Body temp 35º C (95º F)
+ Lung crackles
+ Cool, dry skin
+ Hyperventilation
+
+=== SLIDE 29 ===
+REVIEW Question
+A nurse is collecting data from a client who reports taking aspirin about 4 times daily for a sprained wrist.  Which of the following prescribed medications taken by the client is contraindicated with aspirin?
+
+ Digoxin
+ Metformin
+ Warfarin
+ Nitroglycerin
+
+=== SLIDE 30 ===
+REVIEW Question
+A nurse is caring for a client who reports daily use of acetaminophen to manage mild knee pain. Which of the following statements by the client should the nurse investigate further?
+
+"I have a glass of wine before bedtime each evening."
+"I have my blood checked often due to the heparin I am taking."
+"I take two regular-strength tablets in the morning and two in the evening.”
+"I can take this the same time as my Norco pills."
+
+=== SLIDE 31 ===
+Drug Class: nsaids
+Actions
+Inhibitors of prostaglandins
+Two types
+Nonselective COX-1 and COX-2 inhibitors
+Selective COX-2 inhibitor
+
+Indication:
+Mild to moderate inflammatory pain
+Antipyretic effect
+
+Adverse Effects and Consideration
+GI upset and GI bleed
+Anticoagulant effect
+Nephrotoxicity
+Cardiac risks – MI, stroke, hypertension
+
+=== SLIDE 32 ===
+PG = prostaglandin
+
+=== SLIDE 33 ===
+Drug Class: nsaids
+Drugs
+Long list but most common are
+Ibuprofen (Advil, Motrin)
+Naproxen (Aleve)
+Diclofenac (Voltaren)
+Indomethacin (Indocin)
+Meloxicam
+Ketorolac (Toradol)
+Often given as IM for acute inflammatory pain including headaches
+
+Only COX-2 inhibitor is celecoxib (Celebrex)
+COX-2 has lesser GI side effects
+
+=== SLIDE 34 ===
+Drug Class: nsaids
+Adverse Effects
+Gastric – peptic ulcers
+
+Nephrotoxic (elevated serum Cr) – can lead to renal dysfunction, fluid/electrolyte disorders, elevated blood pressure 
+
+Cardiovascular – can increase the risk of heart attack and stroke, particularly in those with heart disease or risk factors like high blood pressure, high cholesterol, or smoking.
+
+Hepatotoxicity (elevated aminotransferase levels) – rare
+
+Hematologic – increased bleeding due to antiplatelet activity
+
+=== SLIDE 35 ===
+Drug Class: nsaids
+Nursing Considerations
+Check for history of allergies, history of alcohol use, smoker, peptic ulcer disease, kidney disease, bleeding disorders, cardiovascular disease (increased risk of MI and stroke, particularly with celecoxib)
+
+Take with food, milk.  May be prescribed with stomach acid reducing drug (e.g., omeprazole, ranitidine).
+
+Check lab for kidney function
+
+Check for any condition or meds that reduces blood clotting
+
+Celecoxib contraindicated in clients with allergy to sulfonamides
+
+=== SLIDE 36 ===
+REVIEW Question
+What is a common but serious adverse effect of nonsteroidal antiinflammatory drugs (NSAIDs)?
+
+ Increased upper GI bleeding
+ Excessive drowsiness
+ Antipyretic action
+ Diarrhea
+
+=== SLIDE 37 ===
+REVIEW Question
+Which medication used for pain is contraindicated when a patient is taking warfarin (Coumadin)?
+
+acetaminophen (Tylenol)
+ibuprofen (Motrin)
+propoxyphene (Darvon)
+morphine (Roxanol)
+
+=== SLIDE 38 ===
+REVIEW Question
+A nurse is reinforcing teaching with a client about a new prescription for celecoxib.  Which of the following information should the nurse include?
+
+ Increases the risk for a heart attack
+ Decreases the risk of stroke
+ Inhibits COX-1
+ Increases platelet aggregation
+
+=== SLIDE 39 ===
+Opioid analgesics
+Morphine and codeine are naturally occurring opiates from opium poppy plant
+
+Opioid analgesics can also be classified by their mechanism of action
+Agonists
+Partial agonists
+Antagonists
+
+=== SLIDE 40 ===
+Drug Class: Opiate Agonists
+Morphine-like 
+Morphine
+Codeine
+Hydrocodone 
+Oxycodone
+Hydromorphone
+Oxymorphone
+
+
+
+
+
+Meperidine-like 
+Meperidine
+Fentanyl 
+Methadone
+Other 
+Tramadol
+Tapentadol
+Classifications of opioids
+Formulations
+ Oral – immediate and extended release (ER)
+ER (e.g. Oxycontin, MS Contin) not to be crushed or chewed
+ Parenteral – IM and IV
+Morphine also has rectal and epidural formulations.
+
+Indications
+Relief of moderate to severe pain
+Codeine is also used for cough suppression
+
+=== SLIDE 41 ===
+Drug Class: Opiate Agonists
+Important to know equianalgesic dosing to prevent overdose
+
+=== SLIDE 42 ===
+Drug Class: Opiate Agonists
+Common side effects
+Nausea and vomiting
+Constipation
+Itching
+Sweating
+
+Adverse side effects
+Cardiovascular – hypotension, bradycardia, flushing
+CNS – disorientation, dysphoria, euphoria
+GI – biliary tract spasm (avoid in client with biliary colic)
+GU – urinary retention (what should we do if this happens?)
+Respiratory – bradypnea, respiratory depression
+Integumentary – itching, rash, wheal formation
+
+Opioid toxicity triad
+Respiratory depression
+Coma
+Pinpoint pupils
+Confusion
+ Lightheadedness
+ Sedation
+ Blurred vision
+
+=== SLIDE 43 ===
+Opioid analgesics
+Precautions:  Use cautiously and monitor
+Respiratory insufficiency
+Obesity
+Obstructive sleep apnea
+Myasthenia gravis
+Head injuries (particularly, elevated intracranial pressure)
+Paralytic ileus
+Enlarged prostate
+Hepatic or renal disease
+Pregnancy
+
+=== SLIDE 44 ===
+Drug Class: Opiate Agonists
+Interactions
+Use with CNS depressants (e.g., alcohol, benzodiazepines, tricyclic antidepressants, antihistamines) has cummulative effect on sedation and respiratory depression
+Tramadol or tapentadol use with selective serotonin reuptake inhibitors (a type of anti-depressant) and monoamine oxidase inhibitors can lead to serotonin syndrome which causes activation of the sympathetic nervous system.
+
+Misuse and Diversion
+Tolerance vs Dependence vs Addiction
+Know rules of handling and disposal of opioids (as well as DEA Scheduled drugs)
+
+=== SLIDE 45 ===
+Drug Class: Opiate Agonists
+Codeine
+Schedule II; Schedule III when used in combination with acetaminophen.
+Typically not used for pain.  Only opioid that has a “ceiling effect.” 
+Can cause stomach upset.
+
+Morphine
+Indicated for severe pain
+Available in oral, parenteral and rectal forms.
+Oral ER include MS Contin and Kadia.
+Toxic metabolites can accumulate in kidney.  Consider other opioids for renal insufficiency.
+
+=== SLIDE 46 ===
+Drug Class: Opiate Agonists
+Oxycodone
+Indicated for severe pain
+Similar to morphine
+Can be immediate or extended release
+Formulation often combined with acetaminophen (Percocet) or aspirin (Percodan)
+
+Hydrocodone
+Indicated for moderate to pain
+Relatively weaker than oxycodone 
+Formulation often combined with acetaminophen (Vicodin, Norco)
+
+=== SLIDE 47 ===
+Drug Class: Opiate Agonists
+Tramadol (Ultram, ConZip)
+Oral
+Ultracet is tramadol/acetaminophen combo
+Indicated for moderate to moderately severe pain
+Has weak opioid effect, but has nonopioid pain relieving effect by blocking reuptake of norepinephrine and serotonin
+Use cautiously with SSRIs and monoamine oxidase inhibitors
+
+Hydromorphone (Dilaudid)
+Approximately 7 times more potent than morphine.
+Nurses have mistaken “hydromorphone” for “morphine” and unaware of the potency difference.
+Hydromorphone are also given low doses of 0.2 – 1mg which also have been mistaken for being low potency.
+
+Meperidine (Demerol)
+Metabolites can accumulate and cause seizures.
+Use now disfavored.  May be used post anesthesia to prevent shivering.
+
+=== SLIDE 48 ===
+Drug Class: Opiate Agonists
+Fentanyl
+Indication for severe pain.
+Available as parenteral injections, transdermal patch (Duragesic), buccal lozenges (Fentora), and buccal lozenges on a stick (Actiq).
+Transdermal formulation often used for chronic pain in non-opioid-naïve patients.  
+Patch is applied every 72h.  It takes 6-12 hours to reach steady state so oral opioids should not be discontinued during this period.
+
+Methadone (Dolophine)
+Drug of choice for detoxification treatment of opioid addicts
+Also used for chronic and cancer related pain
+Has longer half-life and drug can accumulate in tissues which allows for qd (or q12h) dosing.
+Eliminated by liver so can be used with renal insufficiency.
+Can cause cardiac dysrhythmia.
+
+=== SLIDE 49 ===
+Monitoring Parameters  for Opiate Agonists
+Premedication assessment and planning
+Appropriate pain assessments
+
+Therapeutic goals
+Pain at rest less than 3 on pain scale
+Pain with movement less than 5 on pain scale
+Able to have at least 6 hours of sleep without interruption by pain
+Able to work at hobby for 1 hour
+
+Observe for vital signs and mental status changes, especially respiratory rate. Hold medication if respirations are below 12/min for adult; consult with healthcare provider
+
+=== SLIDE 50 ===
+REVIEW Question
+Which common adverse effect may be seen with use of opiate agonists?
+
+Appetite stimulation
+Orthostatic hypotension
+Mood elevation
+Increased respirations
+
+=== SLIDE 51 ===
+REVIEW Question
+A nurse is preparing to administer an opioid agonist to a client who has acute pain.  For which of the following manifestations should the nurse monitor as an adverse effect of this medication?
+
+ Urinary retention
+ Tachypnea
+ Hypertension
+ Irritating cough
+
+=== SLIDE 52 ===
+REVIEW Question
+A nurse is caring for a client who is postoperative and receiving morphine.  Which of the following actions should the nurse take?
+
+ Monitory for seizures and confusion with repeated doses.
+ Protect the client’s skin from the severe diarrhea that occurs with morphine.
+ Withhold this medication if respiratory rates is less than 12/min.
+ Give the morphine intermittent via IV bolus over 30 seconds or less
+
+=== SLIDE 53 ===
+REVIEW Question
+The nurse knows which is true about the transdermal opioid analgesic fentanyl (Duragesic)?
+
+Fentanyl is only used for acute pain
+Fentanyl patches provide relief for up to 72 hours
+No other analgesics may be used concurrently with fentanyl
+Approximately 2 hours are required for the initial patch of medication to reach a steady blood level
+
+=== SLIDE 54 ===
+REVIEW Question
+A nurse is reviewing the medication administration record for a client who is receiving transdermal fentanyl for severe pain.  The nurse should identify that which of the following medications can cause an adverse effect when administered concurrently with fentanyl?
+
+ Ampicillin
+ Diazepam
+ Furosemide
+ Prednisone
+
+=== SLIDE 55 ===
+REVIEW Question
+A patient who is obviously in pain refuses the morphine that has been prescribed for pain control because of a fear of addiction. How should the nurse respond to the patient's fears?
+
+Educate the patient that physical dependency is not an issue with short term opioid use
+Notify the provider about the patient's concerns
+Confirm that 30% to 50% of patients do experience some form of opiod dependency and offer an ice pack instead
+Ask the patient's family to talk some sense into them so that they will take their pain medication
+
+=== SLIDE 56 ===
+Drug Class: Opiate PARTIAL Agonist
+Buprenorphine (Buprenex, Subutex)
+Butorphanol (Stadol)
+Nalbuphine (Nubain)
+Pentazocine (Talwin)
+
+=== SLIDE 57 ===
+Drug Class: Opiate PARTIAL Agonist
+Indications
+Short term pain relief (up to 3 weeks) in opioid-naïve patients of moderate to severe pain
+Potency similar to morphine.
+“Ceiling effect” – at a particular dosage, a larger dose does not produce a significantly greater analgesic effect.
+
+Buprenorphine is also used for opioid use disorder
+Helps reduce cravings, prevent withdrawal symptoms, and block the euphoric effects of other opioids, thereby promoting recovery and reducing harmful behaviors associated with opioid misuse.
+
+Nalbuphine has minimal physical dependence liability and is not a controlled substance. 
+Because nalbuphine has a ceiling effect for analgesia and respiratory depression, it is often used as an analgesic for obstetric patients.
+
+=== SLIDE 58 ===
+Drug class: opiate partial agonist
+The drug ceiling effect
+
+=== SLIDE 59 ===
+Drug Class: opiate PARTIAL Agonist
+Side effects
+Clamminess, dizziness, sedation, sweating
+Nausea, vomiting, dry mouth
+Constipation
+
+Adverse effects (Same as opioid agonist)
+Mental status change – confusion, disorientation, hallucinations
+Respiratory depression
+
+Drug Interactions
+Do not combine with other meds with CNS depressant effects
+May precipitate withdrawal symptoms (because it doesn’t fully activate opioid receptors) in patients who are dependent on opioid agonists (Abstinence syndrome)
+
+=== SLIDE 60 ===
+REVIEW Question
+A nurse is preparing to administer butorphanol to a client who has a history of substance use disorder.  The nurse should identify which of the following information as true regarding butorphanol?
+
+ “Butorphanol has a greater risk for abuse than morphine.”
+ “Butorphanol causes a higher incidence of respiratory depression than morphine.”
+ “Butorphanol cannot be reversed with an opioid antagonist.”
+“Butorphanol can cause abstinence syndrome in clients who have opioid dependence.”
+
+=== SLIDE 61 ===
+REVIEW Question
+If an opiate partial agonist (nalbuphine) is administered to a patient who is addicted to the opiate agonist morphine, what must the nurse assess for?
+
+constipation
+hypotension
+elevated WBCs
+withdrawal symptoms
+
+=== SLIDE 62 ===
+Drug Class: opiate ANTAGONIST
+Block opiate receptors
+Opiate agonists (e.g., morphine) cannot access receptors
+
+NOT used for pain relief.  Used to reverse effects of opiates.
+
+=== SLIDE 63 ===
+Drug Class: opiate ANTAGONIST
+Naloxone (Narcan)
+Injection (IV, IM, SC)
+Reversal of opioid adverse effects
+Adverse effect – withdrawal symptoms in patients with opioid-dependence
+Nausea, vomiting, chills, myalgia, dysphoria, abdominal cramps, joint pain, mental depression, apathy.
+
+Naltrexone (Revia)
+Oral
+Used as an adjunct for maintenance of an opioid free state of former opioid addicts
+Adjunct to psychosocial treatment for alcoholism
+Can reverse post-op opioid-induced respiratory depression
+Methylnaltrexone (Relistor) is used to treat opioid induced constipation
+Adverse effects – nausea and tachycardia; similar to naloxone; may be hepatotoxic
+
+=== SLIDE 64 ===
+REVIEW Question
+After receiving a dose of morphine for postoperative pain, a patient becomes unresponsive, with a respiratory rate of 10/min, with shallow breathing. The nurse should anticipate administering which medication?
+
+ Naloxone
+ Nalbuphine
+ Meperidine
+ Pentazocine
+
+=== SLIDE 65 ===
+REVIEW Question
+A nurse administers naloxone (Narcan), an opiate antagonist, to a 78-year-old patient. The family is worried about the patient and thinks that this drug is too strong and will cause harm. What should the nurse assure the family regarding this drug?
+
+It does not accumulate in the body
+It reverses the CNS depressant effects of opiate agonists
+It does not affect the CNS
+It's not as harmful if given intranasally
+
+=== SLIDE 66 ===
+Adjuvant analgesics
+Adjuvant analgesics are medications that were developed for other purposes but were later found to be effective to treat certain pain conditions (e.g., neuropathic pain, chronic pain)
+
+Anti-Convulsants
+gabapentin (Neurontin)
+pregabalin (Lyrica)
+tiagabine (Gabitril)
+topiramate (Topamax)
+
+Tricyclic anti-depressants
+amitriptyline, nortriptyline, protriptyline, doxepin, imipramine, clomipramine, and desipramine
+
+SSRI Antidepressants
+desvenlafaxine (Pristiq) 
+duloxetine (Cymbalta) 
+levomilnacipran 
+venlafaxine (Effexor)
+escitaloprem (Lexapro)
+
+=== SLIDE 67 ===
+Migraine medications
+Drugs
+Serotonin receptor agonists (triptans)
+Sumatriptan (po, inh, transdermal, sc)
+
+Ergot alkaloids
+Ergotamine (po, sublingual, pr)
+Dihydroergotamine (iv, im, sc, intranasal)
+
+Beta blockers
+Propanolol (po)
+
+Anticonvulsants
+Divalproex (po)
+Topiramate (po)
+
+Tricyclic antidepressants
+Amitriptyline (po)
+
+Estrogens (gel, patches)
+
+=== SLIDE 68 ===
+Migraine medications complications
+Triptans:  sumatriptan
+First line abortive migraine treatment
+Chest pain/pressure (heavy harms or chest tightness) from coronary artery vasospasm/angina
+Avoid in patients with CAD
+Dizziness, vertigo
+
+Ergot alkaloids:  ergotamine
+Second line abortive migraine treatment
+Nausea and vomiting
+Toxic levels (ergotism) cause muscle pain, numbness in fingers/toes (neuropathy)
+Physical dependence can develop with chronic long term use
+Concurrent use with triptans can increase risk of vasospasm
+
+=== SLIDE 69 ===
+Migraine medications complications
+Propanolol
+Adverse effect of beta blockers – bradycardia, hypotension
+
+Anticonvulsant:  divalproex
+GI – N/V, dyspepsia, diarrhea
+GI – hepatitis, pancreatitis
+
+Tricyclic antidepressant:  amitriptyline
+Anticholinergic effects – dry mouth, sedation, confusion, constipation, urinary retention
+
+=== SLIDE 70 ===
+REVIEW Question
+A nurse is reinforcing teaching with a client who is experiencing migraine headaches. Which of the following instructions should the nurse provide? (Select all that apply.)
+
+Take ergotamine as a prophylaxis to prevent a migraine headache.
+Identify and avoid trigger factors.
+Lie down in a dark quiet room at the onset of a migraine.
+Avoid foods that contain tyramine.
+Avoid exercise that can increase heart rate.
+
+=== SLIDE 71 ===
+REVIEW Question
+A patient who has had back surgery complains of muscle spasms. Which drug may be most effective in relieving his pain?
+
+Muscle relaxant
+Opioid
+NSAID
+Aspirin
+
+=== SLIDE 72 ===
+MUSCLE RELAXANTS
+cyclobenzaprine (Flexeril, Fexmid)
+methocarbamol (Robaxin)
+metaxalone (Skelaxin, Metaxall)
+baclofen (Lioresal, Gablofen)
+tizanidine (Zanaflex)
+carisoprodol (Soma, Vanadom)
+chlorzoxazone (Lorzone, Parafon Forte DSC, Relax-DS, and Remular S)
+orphenadrine (Norflex)
+dantrolene (Dantrium)
+
+They all cause sedation.
+Dantrolene is hepatotoxic.
+
+=== SLIDE 73 ===
+Takeaways
+Pain control is a nursing priority.
+
+Believe the patient when they say they have pain.
+
+Assess pain before and after treatment.  Monitor for adverse effects.  Evaluate at periodic intervals that pain treatments are effective.
+
+Nursing functions and patient outcome will be impaired if pain is not controlled.
+For example, you will not be able to ambulate the patient if he has pain.
+
+=== SLIDE 74 ===
+Takeaways
+Acetaminophen
+Also antipyretic.
+Max dose is 4g/d.  Watch out for patient using other medications that may also include acetaminophen.
+Hepatotoxic.
+
+Aspirin
+Also antipyretic and antiplatelet (can be used as blood thinner).
+Take with food to avoid GI upset, ulcer development.
+Risk of bleeding.
+Nephrotoxic.
+Ototoxic.
+Salicylism/toxicity – tinnitus, dizziness, dehydration, fever, metabolic acidosis.
+
+=== SLIDE 75 ===
+Takeaways
+NSAIDS
+Very similar to aspirin
+Anti-inflammatory analgesic and antipyretic.
+Can also affect platelet function.
+Risk of bleeding – particularly GI bleed.
+Take with food to avoid GI upset, ulcer development.
+Nephrotoxic.
+Can increase the risk of heart attack and stroke, particularly in those with heart disease or risk factors like high blood pressure, high cholesterol, or smoking.
+Celecoxib is the only COX-2 inhibitor and has lesser GI side effects compared to all other nsaids, but has increased risk of heart attack and stroke with prolonged use or in those with heart disease and risk factors.
+
+=== SLIDE 76 ===
+Takeaways
+Opioid Agonists
+Watch out for different potencies of opioids.
+Watch out for respiratory depression, hypotension, bradycardia.
+Watch out for confusion, sedation, altered mental status.
+Typical side effects include N/V, pruritus, sweating, constipation, urinary retention (watch out for this too).
+
+Opioid Partial Agonists
+Similar side effects as agonists but typically less so.
+Watch out for withdrawal (abstinence) syndrome in patients who are dependent on opioids.
+Buprenorphine is used to treat opioid use disorder.
+
+Opioid Antagonists
+Used to reverse effects of opioids.
+Can precipitate withdrawal (abstinence) syndrome.
+
+=== SLIDE 77 ===
+Takeaways
+Adjunctive pain medications
+Includes anticonvulsants and antidepressants.
+Used to treat neuropathic (nerve) pain and chronic pain.
+
+Migraine medications
+Sumatriptan can cause angina.
+Ergotamine can cause myalgia and neuropathy.
+
+Muscle relaxants
+Used to treat muscle spams.
+Sedation.
+
+=== SLIDE 78 ===
+TOO MUCH PAIN?Questions?
+

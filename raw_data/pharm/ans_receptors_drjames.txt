@@ -1,0 +1,137 @@
+=== PAGE 1 ===
+1 
+ Receptors  of the Autonomic Nervous System :  Adrenergic and Cholinergic  
+Adrenergic vs Cholinergic Receptors  
+ Adrenergic Receptors  Cholinergic Receptors  
+Definition  Autonomic receptors  to which 
+epinephrine and norepinephrine 
+binds  Autonomic receptors to which 
+acetylcholine binds  
+Responsible nervous system  sympathetic  parasympathetic  
+Receptor types  alpha1 - and alpha -2  
+beta -1 and beta -2 muscarinic  
+nicotinic  
+ 
+Adrenergic neurotransmitters and receptors  
+❖ Epinephrine  and norepinephrine  activate adrenergic receptors  of the sympathetic system .  
+Medications that act like  epinephrine and norepinephrine are “ sympathomimetic .” 
+❖ A medication that blocks adrenergic receptors  will block the  action of the  sympathetic 
+system .  Medications that do this are “ sympatholytic .” 
+❖ There are 4 main classes of adrenergic receptors:  apha -1, alpha -2, beta -1, and beta -2.  
+The table below shows the effects of stimulation and effects of blocking these receptors.  
+ 
+Receptor  Effect of stimulation  Effect of blockade  
+alpha -1 Vasoconstriction (e.g., 
+phenyl ephrine reduces nasal 
+congestion)  
+Pupil → mydriasis   
+ Vasodilation → ↓BP  (e.g. , , prazosin, 
+terazosin ) 
+Bladder - Detrusor contraction, Sphincter 
+relaxation →  promotes urination  (e.g., 
+tamsulo sin and terazosin  used for BPH)  
+alpha -2 Vasodilation → ↓BP  (e.g., 
+clonidine)  Not used clinically  
+beta -1 ↑ Heart rate ( tachycardia ) 
+↑ Heart contractility  
+(e.g., dobutamine)  ↓ Heart rate ( bradycardia )  
+↓ Heart contractility  
+(e.g., metoprolol , atenolol ) 
+beta -2 Lungs – bronchodilation  (e.g., 
+albuterol)  
+GI – decreased peristalsis  (may 
+cause constipation)  Lungs – broncho constriction  (a side effect 
+of nonselective  beta -blockers like 
+propanolol ) 
+beta -3 Bladder - Detrusor relaxation, 
+Sphincter contraction →  urinary 
+retention  (e.g., mirabeg ron u sed for 
+overactive bladder)
+
+=== PAGE 2 ===
+2 
+ Cholinergic neurotransmitters and receptors  
+❖ Acetylcholine  is a neurotransmitter that activates muscarinic receptors  of the 
+parasympathetic system .  Medications that do this are “ cholinergic .” 
+❖ A medication that blocks , or has the effect of blocking, the muscarinic receptors  will block 
+the parasympathetic system and its symptoms.  Medications that do this are 
+“anticholinergic .”  Many medications have anticholinergic side effects and this is often 
+tested on the NCLEX.  
+❖ Below is a table of the effects of stimulation and effects of blockage of cholinergic 
+muscarinic receptors.  
+Effects of Muscarinic Receptor Stimulation vs. Inhibition  
+Organ/System  Muscarinic Stimulation (Agonists, e.g., 
+Acetylcholine, Pilocarpine, Bethanechol)  Muscarinic Inhibition (Antagonists, 
+e.g., Atropine, Scopolamine, 
+Ipratropium)  
+Eye (Iris 
+sphincter)  Contraction →  miosis (pupil 
+constriction)  Relaxation →  mydriasis (pupil 
+dilation)  
+Eye (Ciliary 
+muscle)  Contraction →  accommodation (near 
+vision)  Relaxation →  blurred near vision 
+(cycloplegia)  
+Heart (SA node)  ↓ Heart rate ( bradycardia ) via M₂ 
+receptors  ↑ Heart rate ( tachycardia ) 
+Blood vessels  Mild vasodilation (indirect, via NO 
+release; no strong innervation)  Minimal effect (most vessels lack 
+cholinergic innervation)  
+Lungs (Bronchi)  Bronchoconstriction, ↑ secretions  Bronchodilation, ↓ secretions (used 
+in asthma/COPD)  
+GI Tract  ↑ Motility, ↑ secretions, sphincter 
+relaxation  ↓ Motility, ↓ secretions, sphincter 
+contraction →  constipation  
+Urinary Bladder  Detrusor contraction, sphincter 
+relaxation →  promotes urination  Detrusor relaxation, sphincter 
+contraction →  urinary retention  
+Salivary Glands  ↑ Salivation (watery secretions)  ↓ Salivation →  dry mouth 
+(xerostomia)  
+Sweat Glands  ↑ Sweating (via sympathetic cholinergic 
+fibers)  ↓ Sweating →  anhidrosis
+
+=== PAGE 3 ===
+3 
+  
+❖ Anticholingeric side effects:
+
+=== PAGE 4 ===
+4 
+ Below are some classes of  medications that have “anti -cholinergic” effects:   
+ 
+ 
+REVIEW:    
+ Action  Examples  Adverse Effects  
+Blockage of 
+receptors   
+Anti-cholinergic  atropine  
+scopolamine  
+oxybutynin  
+**many other 
+meds**  Dry mouth, blurred vision (pupillary 
+constriction), confusion, constipation, urinary 
+retention; tachycardia, hypertension;  
+confusion, drowsiness, hallucinations  
+Anti-adrenergic  or 
+sympatholytic  tamsulosin  
+propanolol  Decreased HR, vasodilation, hypotension  
+Activation 
+of 
+receptors   
+Cholinergic  nicotine  
+bethanechol  
+pilocarpine  Salivation, lacrimation, sweating, 
+bronchoconstriction, increased GI motility (can 
+lead to cramps, diarrhea), urinary frequency;  
+bradycardia (may lead to hypotension);  
+confusion, drowsiness  
+Adrenergic  or 
+sympathomimetic  epinephrine  
+norepinephrine  
+dopamine  
+phenylephrine  
+dobutamine  
+albuterol  Increased HR, vasoconstriction, hypertension, 
+bronchodilation, increased blood sugar, 
+pupillary dilation, decreased peristalsis (may 
+lead to constipation), urinary retention

@@ -1,0 +1,1279 @@
+=== SLIDE 1 ===
+INFECTION:  ANTIMICROBIAL MEDICATIONS
+Clayton 19th Ed., Ch. 45PN Pharmacology for Nursing CMS 8.0, Chs. 37-42(Coordinate with Med-Surg Nursing, Ch. 5)
+
+=== SLIDE 2 ===
+TIPS FOR LEARNING PHARMACOLOGY
+Learn in small chunks.  Too much information at one time is overwhelming.  Over time, you will be able to add more information.
+
+For each drug, learn one or two items from each category such as adverse effects, interactions, etc.  Typically, they test you on something that can cause an emergency or something “unusual” or “unique” about the drug.  
+They assume you already know the routine stuff.
+
+=== SLIDE 3 ===
+TIPS FOR LEARNING PHARMACOLOGY
+When they give you a scenario, they are not going to state that the patient has, for instance, “nephrotoxicity.”  Instead, they will say something like “the client has decreased urine output (<30 mL/h), hematuria, increased serum BUN and creatinine” which indicates there is something wrong with the kidneys.  You have to recognize that the kidney is being affected by a drug.
+
+Try to find some commonalities among drugs.  For instance, group drugs that cause ototoxicity  or drugs that can increase or decrease the effectiveness of warfarin (an anticoagulant).  
+Make your own tables or outlines of drugs.
+
+=== SLIDE 4 ===
+TIPS FOR LEARNING PHARMACOLOGY
+Look things up and keep looking things up if you don’t remember or understand a term.  That is how you recall memory.
+
+Do a lot of ATI questions.  Understand why the answer is correct as well as why the other answers are incorrect.  Over time you will learn that there is a pattern as to how questions and answer choices (both correct and incorrect ones) are made.
+
+=== SLIDE 5 ===
+TIPS FOR LEARNING PHARMACOLOGY
+I like this book for Nursing Pharmacology: “Nursing Pharmacology OpenRN” (2nd Ed.)
+
+https://wtcs.pressbooks.pub/pharmacology2e/
+
+=== SLIDE 6 ===
+Infection
+Infection – Invasion and colonization of the body by harmful microbes such as bacteria, parasites, fungi, viruses, or other microbes .
+
+Infection generates an inflammatory response in a person with a competent immune system.
+
+Can be local or systemic.
+
+=== SLIDE 7 ===
+Antimicrobial Drug Classes
+Antibiotics (Bacteria)
+
+Antimycobacterial (Tuberculosis)
+
+Antiprotozoals (Parasites)
+
+Antifungals (Fungi)
+
+Antivirals (Viruses)
+
+Antihelminths (Worms)
+
+=== SLIDE 8 ===
+Relative Size of Pathogens
+
+=== SLIDE 10 ===
+3 Factors in the Selection of Antibiotics
+Identity of the type of bacteria.
+
+Which antibiotic is most effective against this type of bacteria.
+
+Other factors – e.g., location of infection, age, allergies and immune status of host.
+
+*Empirical treatment 
+Prescribing medication based on the anticipated cause of an infection or illness, rather than a specific identification of the causative agent. 
+Used when immediate action is needed before precise diagnostic tests (like blood cultures) are available.
+
+=== SLIDE 11 ===
+Sample Collection
+
+=== SLIDE 12 ===
+Identification of Infective Agent
+Gram stain test
+Gram positive bacteria – e.g., Staphylococcus, Streptococcus.
+Gram negative bacteria – e.g., E. Coli, Neisseria, Pseudomonas.
+
+Culture and Sensitivity Test
+Colonies grown and then tested on various antimicrobials (including for effective concentration of drug).
+
+=== SLIDE 14 ===
+Broad-spectrum vs Narrow-spectrum antibiotics
+Narrow-spectrum targets either gram-positive or gram-negative bacteria.
+
+Broad-spectrum is effective against both gram-negative and gram-positive bacteria.
+
+Broad-spectrum antibiotics impact the individual’s microbiome and can cause diarrhea and secondary infections.
+
+=== SLIDE 15 ===
+Bacteriostatic vs Bactericidal
+Bacteriostatic relies on immune system to eliminate infection.
+
+=== SLIDE 16 ===
+Host Factors
+Immune system
+People with a compromised immune system need a strong bactericidal antibiotics, not bacteriostatic medication.
+Site of infection
+Some sites are difficult for antimicrobials to reach (e.g., brain, CSF, bone, thrombus, abscess or prosthesis).
+Age
+Infants and older adults are at increased risk for toxicity due to slower metabolism and excretion of medication.
+
+=== SLIDE 17 ===
+Host Factors
+Presence of previous allergic reaction
+Especially with penicillin.
+Note:  Allergic reactions can range from severe anaphylaxis to a rash discomfort.
+
+Pregnancy and Lactation
+Some medications are teratogenic.
+Tetracyclines cause discoloration of developing teeth.
+Gentamicin causes hearing loss in infants.
+Sulfonamides can produce kernicterus, a severe neurologic disorder, in newborns.
+Lactation will transmit drugs to breast feeding infant.
+
+=== SLIDE 18 ===
+Combination Therapy
+Pros
+Severe infections
+Infections from multiple organisms
+Prevention of bacterial resistance (e.g., TB and HIV)
+Decrease risk of toxicity by reducing dosage of each medication
+
+Cons
+Organisms may develop increased resistance
+Increased cost
+Increased side effects from multiple medications
+Increased risk of suprainfection
+
+=== SLIDE 19 ===
+Immunocompromised (e.g., organ transplant recipients)
+
+Surgical procedures (e.g., those with heart valves)
+
+Recurring infections (e.g., UTI)
+
+Following initial exposure (e.g., sexually transmitted infections)
+
+=== SLIDE 20 ===
+Nursing Role
+Infection control procedures
+Identify history of medication allergies and treatment
+If culture and sensitivity is ordered, perform test before initiating therapy
+Administer medications at appropriate time intervals to maintain therapeutic effects
+Patient education
+How to take the medication – e.g., with or without food
+What to expect and what to watch out for – e.g., side and adverse effects
+What to avoid
+Complete course of treatment
+Monitor for signs of medication reaction
+Monitor for signs of secondary infections
+Monitor effectiveness of treatment
+Increased risk of suprainfection
+
+=== SLIDE 21 ===
+Audience Response Question
+A nurse is contributing to a plan of care for a client who has a wound infection.  Which of the following actions should the nurse recommend as the priority?
+
+ Administer antibiotic medication
+ Obtain a wound specimen for culture
+ Monitor the client for superinfection
+ Reinforce teaching with the client about wound care
+
+=== SLIDE 22 ===
+Audience Response Question
+A nurse is reinforcing teaching with a client about treatment of methicillin-resistant Staphylococcus aureus (MRSA). Which of the following information should the nurse include in the teaching?
+
+Antibiotics are prescribed only when a viral infection is present.
+Broad-spectrum antibiotics are used whenever possible.
+Antibiotic dosages below the minimum concentration are prescribed.
+Infections become resistant to high doses of antibiotics.
+
+=== SLIDE 23 ===
+Antibiotic Classes
+
+=== SLIDE 24 ===
+Antibiotic Mechanism of Action
+
+=== SLIDE 25 ===
+Antibiotics Affecting the Bacterial Cell Wall
+Bactericidal, beta-lactam antibiotics
+
+Classes
+Penicillins (“-cillin”)
+Cephalosporins (“Cef-”)
+Carbapenems (“-penem”)
+Others – vancomycin, aztreonam, fosfomycin
+
+=== SLIDE 26 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Penicillins (“-cillin”)
+Narrow-spectrum
+Penicillin G for IM use
+Penicillin V for PO use
+
+Broad-spectrum
+Amoxicillin for PO use
+Amoxicillin-clavulanate for PO use
+Ampicillin for PO or IV use
+
+Anti-staphylococcal
+Nafcillin for IM or IV use 
+
+Anti-pseudomonal (extended spectrum)
+Ticarcillin-clavulanate for IV use
+Piperacillin tazobactam for IV use
+
+=== SLIDE 27 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Penicillins(“-cillin”)
+Therapeutic Uses
+Primarily infections due to gram-positive cocci (Streptococcus).
+
+Meningitis due to gram-negative cocci (Neisseria or meningococci).
+
+Syphillis (Treponema pallidum).
+
+Extended-spectrum penicillins (piperacillin, ticarcillin) are effective against a broad range of organisms (Pseudomonas, Enterobacter species, Proteus, Klebsiella).
+
+=== SLIDE 28 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Penicillins(“-cillin”)
+Complications
+Allergic reactions from penicillin allergy.
+
+GI: Nausea, vomiting and diarrhea – “big three” adverse effects of all antimicrobials
+Diarrhea may signify suprainfection with Clostridium Difficile colitis.
+Nausea and vomiting may not require discontinuation of medication.
+
+Nephrotoxicity/nephritis.
+
+Penicillin G (high dosages) – hyperkalemia, dysrhythmias
+
+=== SLIDE 29 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Penicillins(“-cillin”)
+Interactions
+Penicillin in same IV solution as aminoglycosides inactivates the aminoglycoside.
+
+Can reduce effectiveness of oral contraceptives.
+
+=== SLIDE 30 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Cephalosporins(“Cef-”)
+First generation
+Cephalexin for PO use
+Cefazolin for IM or IV use
+
+Second generation
+Cefaclor for PO use
+Cefotetan  for IM or IV use
+
+Third generation
+Ceftriaxone, cefotaxime  for IM or IV use
+
+Fourth generation
+Cefepime for IM or IV use 
+
+Fifth generation
+Ceftaroline for IV use (effective against MRSA)
+
+=== SLIDE 31 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Cephalosporins(“Cef-”)
+Therapeutic Uses
+
+First-generation cephalosporins are effective mainly against gram-positive organisms (i.e. staph and strep). 
+
+Higher generations generally have expanded spectra against aerobic gram-negative bacilli. 
+
+Later generations can reach CSF and are broader spectrum, effective against Gram-negative and anaerobic organisms.
+
+5th generation Ceftaroline effective against MRSA.
+
+=== SLIDE 32 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Cephalosporins(“Cef-”)
+Complications
+Allergy:  Potential for cross-sensitivity for those with penicillin allergies.  
+
+Secondary infections:  Broad-spectrum antibiotics have increased risk of C. difficile pseudomembranous colitis.
+
+Bleeding tendencies:  Increased bleeding risks for those with bleeding disorders or on anticoagulants (from cefotetan and ceftriaxone).
+
+Renal impairments:  Most cephalosporins are eliminated by the kidney.  Ceftriaxone is the exception where it is mainly eliminated by the liver.
+
+=== SLIDE 33 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Cephalosporins(“Cef-”)
+Interactions
+
+Avoid concurrent use with alcohol – cefotetan can cause disulfiram reaction.
+
+No alcohol is basically the advice for taking all antibiotics and may resume 48h after completion of course.
+
+=== SLIDE 34 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Carbapenems(“-penem”)
+Prototype Medication
+Imipenem-cilastatin for IM or IV use
+Meropenem for IV use
+
+Therapeutic Use
+Bactericidal, broad antimicrobial spectrum – gram positive and negative cocci, and anaerobes.
+
+=== SLIDE 35 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Carbapenems(“-penem”)
+Complications
+Allergy:  Potential for cross-sensitivity for those with penicillin and cephalosporin allergies.  
+
+GI upset:  Nausea, vomiting, diarrhea.
+
+Suprainfections:  Monitor for indications of colitis (diarrhea), oral thrush, vaginal yeast infection.
+
+Interactions
+Imipenem-cilastatin reduces blood levels of valproic acid (seizure medication).
+
+=== SLIDE 36 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Others
+Vancomycin for PO, IM or IV use
+*Do not confuse vancomycin with macrolides and aminoglycosides antibiotics which ends in “-micin” and “-mycin.”
+
+Broad spectrum glycopeptide used in infections requiring hospitalization.
+
+Treats MRSA.
+
+Treats pseudomembranous colitis due to C. difficile.
+
+Treats serious infections involving hospitalization.
+
+=== SLIDE 37 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Others
+Vancomycin Adverse Effects
+
+Ototoxicity (vertigo, tinnitus, hearing loss)
+Increased risk with other meds that can cause ototoxicity (loop diuretics, aminoglycoside antibiotics, amphotericin B).
+
+Nephrotoxicity.  (Decreased urine output <30 mL/h; elevated Cr/BUN; hematuria).
+Monitor peak and trough levels.
+
+Thrombophlebitis at injection site.
+
+“Red man syndrome” or vancomycin flushing syndrome (rash, flushing, itching, hypotension, tachycardia) from rapid infusion.  Should be infused slowly over 60 min.
+
+=== SLIDE 38 ===
+Antibiotics Affecting the Bacterial Cell Wall:  Others
+Fosfomycin for PO use
+Single dose for uncomplicated UTI.
+
+Not used often due to limited efficacy, potential for bacterial resistance, and more effective antibiotics.
+
+Can cause diarrhea, headaches, vaginitis, drowsiness, and abdominal pain.
+
+
+Aztreonam for IM or IV use
+Narrow-spectrum monobactam treats infections involving gram-negative bacteria.
+
+Notable for treating infections in patients with cystic fibrosis.
+
+Watch out for diarrhea – due to C. Difficile suprainfection.
+
+=== SLIDE 39 ===
+Audience Response Question
+A patient receiving a large intramuscular dose of antibiotic was asked to please wait 20 to 30 minutes before checking out. What is the reason for this request?
+
+The office staff needs to make sure that the right medicine was administered before the patient leaves.
+The nurse always forgets to ask the patient about allergies before administering the antibiotic.
+Antibiotics are a common source of severe allergic reactions within the first few minutes after an injection.
+The staff wants to make sure that the patient has time to pay for the services delivered that day.
+
+=== SLIDE 40 ===
+Audience Response Question
+A nurse is preparing to administer penicillin V to a client who has a streptococcal infection.  The client reports difficulty swallowing tablets and doesn’t “do well” with liquid or chewable medications because of taste, even when the nurse mixes the medication with food.  The nurse should request a prescription for which of the following medications.
+
+ Fosfomycin
+ Amoxicillin
+ Nafcillin
+ Cefactor
+
+=== SLIDE 41 ===
+Audience Response Question
+A nurse is preparing to administer nafcillin IM to a client.  Which of the following action should the nurse plan to take?  (Select all that apply.)
+
+ Select a 25g, ½-inch needle for the injection
+ Administer the medication deeply into the ventrogluteal muscle
+ Ask the client about an allergy to penicillin before administering the injection
+ Monitor the client for 30 min following the injection
+Tell the client to expect a temporary rash to develop after the injection
+
+=== SLIDE 42 ===
+Audience Response Question
+A nurse is caring for a client who has a cerebrospinal fluid infection with gram-negative bacteria.  Which of the following cephalosporin antibiotics should the nurse expect to administer IV to treat this infection?
+
+ Cefactor
+ Cefazolin
+ Cefepime
+ Cephalexin
+
+=== SLIDE 43 ===
+Audience Response Question
+A nurse is collecting data from a client who has a severe infection and has been receiving cefotaxime for the past week.  Which of the following findings indicates a potentially serious adverse reaction to this medication that the nurse should report to the provider.
+
+ diaphoresis
+ epistatxis
+ diarrhea
+ alopecia
+
+=== SLIDE 44 ===
+Audience Response Question
+A patient with the diagnosis of Clostridium difficile infection asks what has caused the diarrhea. What is the best response by the nurse?
+
+"It is caused by a protozoal infection, which probably spread to you when you had infected food or water."
+"It is caused by a fecal–oral contamination and spreads when you haven't washed your hands after using the bathroom."
+"It is caused by an inflammatory response to the medication you are taking."
+"It is often caused by antibiotic therapy, which allows other microorganisms to overgrow and cause a superinfection."
+
+=== SLIDE 45 ===
+Audience Response Question
+A nurse is assisting with the care of a client who has a methicillin-resistant Staphylococcus aureus (MRSA) infection and is receiving vancomycin via IV infusion. Which of the following changes in the client's condition should the nurse identify as the priority finding to report to the provider?
+
+ nausea
+ back pain
+ hypotension
+ chills
+
+=== SLIDE 46 ===
+Audience Response Question
+A nurse is reinforcing teaching about vancomycin with a client who has an infection. Which of the following information should the nurse include in the teaching?
+
+"Decrease your fluid intake to 1000mL per day."
+"Expect your urine to turn pink or red while taking this medication."
+"Discontinue the medication once your symptoms subside."
+"Notify your provider if you experience any changes in your hearing."
+
+=== SLIDE 47 ===
+Audience Response Question
+On a visit to administer the fifth in a series of 10 antibiotic doses of amoxicillin, a home health nurse is told that the patient is now complaining about a bothersome vaginal discharge and itching. The nurse communicates the problem and arranges for medication. What is the most likely cause of the vaginal discharge and itching?
+
+Poor genital hygiene—not changing underwear often enough
+Allergy to the soap or soap products used in the genital area
+Secondary infection due to the initiation of antimicrobial therapy
+Sexual contact with another infected person
+
+=== SLIDE 48 ===
+Antibiotics Affecting Protein Synthesis
+Bacteriostatic
+Tetracyclines (“-cycline”)
+Macrolides (“-thromycin”)
+
+Bactericidal
+Aminoglycosides (“-mycin”)
+
+Treats respiratory, GI, urinary and reproductive tract infections.
+
+=== SLIDE 49 ===
+Antibiotics Affecting Protein Synthesis:Tetracycline (“-cycline”)
+Medications:  Tetracycline, doxyclycline, minocycline, demeclocycline
+Broad-spectrum, bacteriostatic.
+
+Complications
+GI discomfort:  nausea, vomiting, diarrhea and cramping, esophageal ulceration (avoid at bedtime or avoid lying down for at least 30 min).
+
+Dental:  yellow or brown teeth discoloration, and hypoplasia of tooth enamel.
+
+Hepatoxicity:  lethargy, jaundice, elevated LFTs.
+
+Photosensitivity:  intense sunburn can be avoided with protective clothing and sunscreen.
+
+Suprainfection:  C. Difficile, yeast infections.
+
+=== SLIDE 50 ===
+Antibiotics Affecting Protein Synthesis:Tetracycline (“-cycline”)
+Precautions
+Decrease effectiveness of oral contraceptives.
+Hepatoxic and renal toxic, although doxycycline and minocycline are generally safe for renal disease.
+
+Interactions
+Take with water, not food.  
+Milk products, calcium and iron supplements, laxatives containing magnesium and antacids reduce absorption of tetracyclines.  Can take these items 1h before or 2h after meals.
+
+=== SLIDE 51 ===
+Antibiotics Affecting Protein Synthesis:Macrolides (“-thromycin”)
+Medications:  Erythromycin, clarithromycin, azithromycin
+Bacteriostatic
+Alternative for penicillin allergy
+
+Complications
+GI discomfort:  nausea, vomiting, diarrhea and epigastric pain.
+Typically taken on an empty stomach but can be taken with food.
+
+Cardiovascular:  prolongs QT intervals, dysrhythmias, cardiac arrest.
+
+
+
+
+Ototoxicity:  hearing loss, tinnitus, vertigo particularly with high dosages.
+
+Hepatotoxicity:  fatigue, jaundice, elevated LFTs.
+
+=== SLIDE 52 ===
+Antibiotics Affecting Protein Synthesis:Macrolides (“-thromycin”)
+Interactions
+Increases blood levels of carbamezapine, warfarin, and digoxin.
+
+Erythromycin levels increased by verapamil, diltiazem, HIV protease inhibitors, antifungal medications, and nefazodone (antidepressant).  
+Toxic levels of erythromycin can lead to more severe complications including dysrhythmias (e.g. prolonged QT interval) and cardiac arrest.
+
+=== SLIDE 53 ===
+Antibiotics Affecting Protein Synthesis:Aminoglycosides (“-mycin”)
+Prototype Medication:  Gentamicin 
+
+Other Medications:  Tobramycin, neomycin, streptomycin, paromomycin
+
+Bactericial
+
+Treats aerobic gram-negative bacilli (E. Coli, Klebsiella, Proteus, Pseudomonas)
+Neomycin suppresses normal flora of GI and used prior to colorectal surgery.
+
+Most are parenteral.  
+Typically need peak and trough levels.
+Gentamicin and streptomycin are IM.  
+Neomycin has oral and topical formulations.
+
+=== SLIDE 54 ===
+Antibiotics Affecting Protein Synthesis:Aminoglycosides (“-mycin”)
+Complications
+Ototoxicity:  hearing loss, tinnitus, dizziness, vertigo.
+
+Nephrotoxicity:  proteinuria, hematuria, elevated creatinine.
+
+Neuromuscular blockade (particularly in patients with neuromuscular disorder):  muscle weakness, respiratory depression.
+
+Streptomycin-related neurological disorder:  optic nerve dysfunction, tingling/numbness.
+
+Hypersensitivity reactions:  rash, pruritus, paresthesia, urticaria.
+
+=== SLIDE 55 ===
+Antibiotics Affecting Protein Synthesis:Aminoglycosides (“-mycin”)
+Precautions
+Pregnancy:  tobramycin and streptomycin can cause congenital hearing loss.
+Use carefull in clients with renal impairment.
+
+
+Interactions
+Penicillin inactivates aminoglycosides when in the same IV solution.
+Concurrent use in medications with ototoxic side effects increases risk of hearing loss.
+
+=== SLIDE 56 ===
+Audience Response Question
+A nurse is reinforcing teaching with a client about taking tetracycline to treat a GI infection due to H. Pylori.  Which of the following statement should the nurse identify as an indication that the client understands the instruction.
+
+ “I will take this medication with 8 oz of milk.”
+ “I will let my doctor know if I start having diarrhea.”
+ “I can stop taking this medication when I feel completely well.”
+ “I can take this medication just before bedtime.”
+
+=== SLIDE 57 ===
+Audience Response Question
+A nurse is assisting with the care of a client who is starting a course of gentamicin IV for a serious respiratory infection.  For which of the following manifestations should the nurse monitor as an adverse effect of this medication?  (Select all that apply.)
+
+pruritus
+hematuria
+cardiac arrhythmia
+difficulty swallowing
+vertigo
+
+=== SLIDE 58 ===
+Audience Response Question
+A nurse is assisting with providing care for a client who has subacute bacterial endocarditis and is receiving several antibiotics, including streptomycin IM.  For which of the following manifestations should the nurse monitor as an adverse effect of this medication?
+
+ataxia
+urinary retention
+constipation
+complex partial seizures
+
+=== SLIDE 59 ===
+Audience Response Question
+A nurse is monitoring the administration of gentamicin by IV infusion at 0900.  The medication will take 1 hr to infuse.  When should the  nurse plan to obtain a blood sample for peak blood level of gentamicin?
+
+1000
+1030
+1100
+1130
+
+Hint:  Trough level is done before administration.  Peak level done 1h after po administration and 30min after iv.
+
+=== SLIDE 60 ===
+DNA Inhibitors:Fluoroquinolones(“-floxacin”)
+Prototype Medication:  Ciprofloxacin PO and IV
+
+Other Medications:  Moxifloxacin, levofloxacin, gemifloxacin
+
+Mechanism
+Inhibits DNA replication and repair
+
+Uses
+Broad-spectrum, bactericidal.
+Alternative to parenteral antibiotics for severe infections.
+Urinary, respiratory, and GI tract infections; infections of bones, joints, skin and soft tissue.
+Prevention of anthrax after inhalation of anthrax spores.
+
+=== SLIDE 61 ===
+DNA Inhibitors:Fluoroquinolones(“-floxacin”)
+Complications
+GI:  nausea, vomitting, diarrhea
+Suprainfection:  C. Difficile, yeast infections
+Photosensitivity:  severe sunburn
+Achilles tendon rupture:  greater risk in children
+
+
+Interactions
+Decreased absorption with concurrent use of antacids, dairy products.
+Increases plasma concentration of warfarin (bleeding risk).
+
+=== SLIDE 62 ===
+DNA Inhibitors:Fluoroquinolones(“-floxacin”)
+Complications
+GI:  nausea, vomitting, diarrhea
+Suprainfection:  C. Difficile, yeast infections
+Photosensitivity:  severe sunburn
+Achilles tendon rupture:  greater risk in children
+
+
+Interactions
+Decreased absorption with concurrent use of antacids, dairy products.
+Increases plasma concentration of warfarin (bleeding risk).
+
+=== SLIDE 63 ===
+Antimetabolite antibiotics:Sulfonamides and Trimethoprim
+Prototype Medications
+Trimethoprim-sulfamethoxazole
+Sulfadiazine
+Trimethoprim
+
+Mechanism
+Bacteriostatic
+Inhibit synthesis of folic acid derivative tetrahydrofolate, which is required for production of DNA, RNA and proteins.
+
+Uses
+UTIs (particularly from E. Coli).
+Otitis media, chancroid, pertussis, shigellosis and pneumocystis jirovecii pneumonia.
+
+=== SLIDE 64 ===
+Antimetabolite antibiotics:Sulfonamides and Trimethoprim
+Complications
+Hypersensitivity:  rash, possible Stevens-Johnson syndrome (skin peeling).  Do not administer trimethoprim-sulfamethoxazole to clients with allergies to sulfa:
+Sulfonamides (sulfa)
+Sulfonylurea-type oral hypoglycemics (glipizide, glyburide)
+Thiazide diuretics (hydrochlorothiazide)
+Loop diuretics (furosemide)
+
+Photosensitivity:  (skin redness, blisters)
+Avoid sun and wear protective clothing which can cause skin redness, blisters.
+
+Blood dyscrasias:  hemolytic anemia, agranulocytosis, leukopenia, thrombocytopenia, aplastic anemia.
+Reports symptoms associated with anemia, bleeding, infection.
+
+=== SLIDE 65 ===
+Antimetabolite antibiotics:Sulfonamides and Trimethoprim
+Complications (Con’t)
+Crystalluria:  Crystal formation can injure kidneys.  
+Ensure adequate fluid intake.
+Careful use in those with renal impairment.
+
+Hyperkalemia:  Monitor potassium levels.  
+Avoid when taking medications (Potassium sparing diuretics, ACE inhibitors, angiotensin II receptor blockers) or potassium supplements that can cause hyperkalemia.
+Hyperkalemia can cause arrhythmia, cardiac arrest.
+
+
+Interactions
+Increased effects of warfarin (bleeding) and phenytoin (neurological changes)
+
+Dosages of these medications can be reduced while taking trimethoprim-sulfamethoxazole.
+
+=== SLIDE 66 ===
+Urinary Tract Antiseptics
+Prototype Medications
+Nitrofurantoin
+Methenamine
+
+Mechanism
+Broad-spectrum, bacteriostatic and bactericial
+Damages bacterial DNA
+
+Uses
+Acute UTI
+Prophylaxis for recurrent UTI
+
+=== SLIDE 67 ===
+Urinary Tract Antiseptics
+Complications
+GI:  nausea, vomiting, diarrhea.  
+Best taken with food.
+Hypersensitivity:  fever, chills, pulmonary manifestations (dyspnea, cough).
+Blood dyscrasias:  agranulocytosis, leukopenia, thrombocytopenia, megaloblastic anemia.
+Neurologic:  peripheral neuropathy with numbness, tingling in hands/feet.
+
+Precautions
+Can turn urine into brown color.
+Can stain teeth is capsule is crushed.
+
+=== SLIDE 68 ===
+Audience Response Question
+A nurse is reviewing a client’s medication history notes an allergy to sulfonamides.  This allergy is a contraindication for taking which of the following medications?  (Select all that apply.)
+
+hydrochlorothiazide
+metoprolol
+acetaminophen
+glipizide
+furosemide
+
+=== SLIDE 69 ===
+Audience Response Question
+A nurse is reinforcing teaching with a client who has a new prescription for nitrofurantoin.  Which of the following information should the nurse include?  (Select all that apply.)
+
+Observe for bruising on the skin
+Take the medication with milk or meals
+Expect brown discoloration of urine
+Crush the medication if it is difficult to swallow
+Expect insomnia when taking it
+
+=== SLIDE 70 ===
+Audience Response Question
+A nurse is reinforcing teaching with a client who has severe UTI about ciprofloxacin.  Which of the following information about adverse reactions should the nurse include?  (Select all that apply.)
+
+Observe for pain and swelling of the Achilles tendon
+Watch for a vaginal yeast infection
+Expect excessive nighttime perspiration
+Inspect the mouth for cottage cheese-like lesions
+Take the medication with a dairy product
+
+=== SLIDE 71 ===
+Audience Response Question
+A nurse is collecting data from a client who has been taking ofloxacin for a urinary tract infection.  Which of the following statements should the nurse report to the provider?
+
+“I have been limiting my time outdoors”
+“I have had foul-smelling diarrhea”
+“I kept taking my medication even though my symptoms stopped”
+“I have been taking loratadine for my allergies.
+
+=== SLIDE 72 ===
+Audience Response Question
+A nurse is contributing to the discharge teaching plan for a female client who has a new prescription for trimethoprim-sulfamethoxazole.  Which of the following information should the nurse include?
+
+Take the medication even if pregnant
+Maintain fluid restriction while taking it
+Take it with or without food
+Stop taking it when manifestations subside
+
+=== SLIDE 73 ===
+Audience Response Question
+When providing patient education for a new prescription of an antimicrobial medication, the nurse should include (select all that apply)
+
+Continue with a normal diet as there are no specific dietary needs during antimicrobial therapy
+It is important to add a barrier form of birth control during the drug therapy as most antimicrobials will interrupt oral contraceptives
+Rest decreases metabolic needs and enhances healing
+It is ok to stop the medication as soon as the symptoms are completely gone
+It is important to drink at least 2000 ml in a day (unless contraindicated) during antimicrobial therapy
+As long as you are using some form of birth control, you can engage in sexual intercourse during treatment of an STI
+
+=== SLIDE 74 ===
+Antibiotics Review
+Obtain sample (urine, sputum, wound, blood, etc.) first before giving antibiotics.
+
+Educate patient to complete entire course of ABx even if symptoms improve.
+
+ABx typically will reduce effectiveness of oral contraceptives 
+Particularly the "Cs" (-cillins (penicillin) and -cycline (doxycycline, tetracycline)).
+Educate on use of barrier contraceptive
+
+=== SLIDE 75 ===
+Antibiotics Review
+Broad spectrum ABx and combination therapy risk suprainfection.  
+Watch out for diarrhea ("foul smelling stool") which indicates C. Difficile colitis (treated by vancomycin and metronidazole).  
+Suprainfection also includes candida yeast infection which will require antifungal med.
+
+Diarrhea can also lead to dehydration.  
+Hypotension which can lead to tachycardia, dizziness and falls.  
+Electrolyte imbalance 
+Hypernatremia - confusion, lethargy.
+Hyper/hypokalemia - arrhythmia, muscle weakness, fatigue.
+Metabolic acidosis - N/V, HA, dizziness, confusion, fatigue, anorexia, tachycardia, tachypnea.
+
+=== SLIDE 76 ===
+Antibiotics Review
+NO FOOD (just take with water) which reduces absorptions 
+Macrolides (azithromycin), Tetracycline ("-cycline"), Fluoroquinolones ("-floxacin").
+
+Photosensitivity (avoid sun) 
+Fluoroquinolones (-"floxacin"), Tetracycline ("-cycline"), Sulfa (Trimethoprim-sulfamethoxazole).
+
+Nephrotoxicity (elevated creatinine and BUN, decreased urine output, hematuria)
+Need peak and trough for iv meds - ("-mycin" and "-micin") - vancomycin, aminoglycosides (gentamicin, neomycin).
+
+Otoxicity (vertigo, tinnitus, hearing loss) - vancomycin, macrolides, aminoglycosides.
+
+=== SLIDE 77 ===
+Antibiotics Review
+Penicillins ("-cillin")
+Always ask about penicillin allergies
+
+Cephalosporins ("Cef-" or "Ceph-")
+Cross-reactivity with penicillin allergies - should not be used for those with penicillin allergies
+Ceftaroline (5th gen) can treat MRSA
+
+Carbapenems ("-penem")
+Powerful parenteral ABx with risk of suprainfection
+
+=== SLIDE 78 ===
+Antibiotics Review
+Vancomycin
+Can treat C. Diff and MRSA
+Have to check peak and trough levels to ensure it is within therapeutic range due toxicity
+Nephrotoxic
+Ototoxic
+Watch injection site as it can cause thrombophlebitis ("burning sensation")
+"Red man syndrome" (flushing, red rash, itching, hypotension, tachycardia) if iv infused too quickly (< 1hr).  Not the same as anaphylaxis (hives, angioedema, wheezing) which needs epinephrine.
+
+=== SLIDE 79 ===
+Antibiotics Review
+Tetracyclines (“-cycline”)
+Take without food, particularly foods with calcium (dairy, antacids), magnesium or iron
+Tooth discoloration
+Photosensitivity
+Esophagitis/reflux - avoid lying down for at least 30 min after taking med
+Reduce effectiveness of oral contraceptives
+
+Fluoroquinolones ("-floxacin")
+Take without food, particularly avoid foods with calcium (dairy, antacids), magnesium or iron
+Photosensitivity
+Achilles tendinitis
+
+=== SLIDE 80 ===
+Antibiotics Review
+Aminoglycosides (“-mycin” - gentamicin, tobramycin, neomycin)
+Nephrotoxic
+Ototoxic
+Contraindicated in patients with neuromuscular disorders – causes weakness, and respiratory depression (weakness of breathing muscle) in worse case scenario
+
+Macrolides ("-thromycin" - azithromycin, erythromycin)
+Prolonged QT interval arrythmias
+Hepatoxic 
+Ototoxic
+
+=== SLIDE 81 ===
+Antibiotics Review
+Sulfonamides (Trimethoprim-sulfamethoxazole)
+Typically used to treat UTI
+Avoid for those with allergies to sulfa (glyburides (DM med), thiazide and loop diuretics (BP meds))
+Photosensitivity
+Kidney and bladder stones - advise increased fluid intake
+
+=== SLIDE 82 ===
+Antibiotics Review
+ABx that increase levels of warfarin (increased risk of bleeding)
+Penicillins (amoxicillin/clavulanate)
+Cephalosporins (cefazolin)
+Fluoroquinolones (ciprofloxacin, levofloxaxin)
+Macrolides (azithromycin, clarithromycin)
+Sulfamethoxazole/trimethoprim
+Metronidazole
+
+ABx that may decrease levels of warfarin (increased risk of clotting)
+Penicillins (nafcillin and dicloxacillin)
+
+=== SLIDE 83 ===
+Anti-Tuberculosis medications
+
+=== SLIDE 84 ===
+Mnemonic = “RIPE”
+
+=== SLIDE 85 ===
+Selective Anti-tuberculosis
+Medication
+
+=== SLIDE 86 ===
+Selective Anti-tuberculosis
+Medication
+
+=== SLIDE 87 ===
+Selective Anti-tuberculosis
+Medication
+
+=== SLIDE 88 ===
+Selective Anti-tuberculosis
+Medication
+
+=== SLIDE 89 ===
+Selective Anti-tuberculosis
+Medication
+
+=== SLIDE 90 ===
+Audience Response Question
+A nurse is caring for a client who has diabetes, pulmonary TB, and a new prescription for isoniazid.  Which of the following supplements should the nurse expect to administer to prevent an adverse effect of INH?
+
+ascorbic acid (vit C)	
+Pyridoxine (vit B6)
+folic acid (vit B9)
+Cyanocobalamin (vit B12)
+
+=== SLIDE 91 ===
+Audience Response Question
+A nurse is reinforcing teaching with a client who has active TB about the treatment regimen.  The client asks why four different medications are necessary.  Which of the following responses should the nurse make?
+
+“Four medications decrease the risk of an allergic reaction.”
+“Four medications reduce the chance that the bacteria will become resistant.”
+“Four medications reduce the risk of adverse reactions.”
+“Four medications decrease the chance of having a positive tuberculin PPD skin test.”
+
+=== SLIDE 92 ===
+Audience Response Question
+A nurse is reinforcing discharge teaching with a client who has pulmonary tuberculosis and is to start taking rifampin. Which of the following information should the nurse include?
+
+Purified protein derivative skin test results will improve in 3 months.
+Expect to have insomnia while taking this medication.
+Take the medication with meals.
+Urine and other secretions will turn orange.
+
+=== SLIDE 93 ===
+TB Meds Review
+Concepts
+Tx lasts 6-12 mos
+N95 mask required
+Sputum samples q2-4 wks
+NO alcohol
+Rifampin
+Turns body fluids orange.  Wear glasses instead of contacts while on med.
+Hepatoxic (jaundice, clay colored stool)
+Decrease effectiveness of oral contraceptives.  Use back up birth control.
+Decrease effectiveness of warfarin (increased risk of blood clots)
+Isoniazid (INH)
+Need B6 (pyroxidine) supplement  to prevent peripheral neuropathy (numbness, tingling, ataxia)
+Hepatoxic (jaundice, clay colored stool)
+Ethambutol
+Visual changes (blurred vision, color changes)
+
+=== SLIDE 94 ===
+Anti-protozoal medications
+
+=== SLIDE 95 ===
+Malaria – spread by mosquitoes
+Amebiasis – amebic dysentery
+Leishmaniasis – spread by sand flies, mucocutaneous skin ulcerations
+Trypanosomiasis – African sleeping sickness and Chagas disease
+Trichomoniasis - vaginitis
+Giardiasis – intestinal parasite
+
+=== SLIDE 96 ===
+Anti-Protozoals
+Antimalarials
+hydroxychloroquine (Plaquenil)
+mefloquine 
+primaquine
+pyrimethamine 
+quinine 
+
+Other antiprotozoals
+metronidazole (Flagyl)
+atovaquone
+nitazoxanide
+tinidazole
+pentamidine
+
+=== SLIDE 97 ===
+Antimalarials
+Prototype Medications 
+Hydroxychloroquine (Plaquenil)
+Quinine sulfate
+
+Therapeutic Uses
+Prevent malarial attacks
+Also used for rheumatoid arthritis and systemic lupus
+
+Complications
+Retinopathy which can lead to blindness
+
+Precautions
+Increased risk of psoriasis
+
+=== SLIDE 98 ===
+Other Antiprotozoal
+Prototype Medications 
+Metronidazole (Flagyl)
+
+Therapeutic Uses
+Broad spectrum bactericidal.
+
+Treatment of protozoal infections (intestinal amebiasis, giardiasis, trichomoniasis) and obligate anaerobic bacteria (Bacteroides fragilis, antibiotic-induced C. Difficile, Gardnerella vaginalis).
+
+Treatment of H. pylori in combination with tetracycline and bismuth subsalicylate.
+
+=== SLIDE 99 ===
+Other Antiprotozoal
+Complications
+GI discomfort – nausea, vomiting, dry mouth, metallic taste.
+Take with food.
+
+Darkening of urine – harmless.
+
+Neurotoxicity – numbness, ataxia, seizures.
+
+Interactions
+Alcohol causes a disulfiram-like reaction (facial flushing, vomiting, dyspnea, tachycardia) even 48h after course completion.
+
+Increases serum levels of warfarin, phenytoin, and lithium.
+
+=== SLIDE 100 ===
+Audience Response Question
+A nurse is reinforcing teaching with a client is beginning a course of metronidazole to treat an infection.  For which of the following findings of an adverse effect should the nurse instruct the client as a priority to stop taking metronidazole and notify the provider?
+
+Metallic taste
+Nausea
+Ataxia
+Dark colored urine
+
+=== SLIDE 101 ===
+Antiprotozoal Meds Review
+Metronidazole
+Main medication to treat C. Diff.  
+Dark urine (compare nitrofurantoin can turn urine brown; rifampin, orange).
+Metallic taste.
+Skin rash or peeling - Stevens Johnson syndrome (sulfonamides too).
+
+Antimalarial hydroxychloroquine
+Retinopathy/blindness (TB med ethambutol can cause visual changes too).
+
+=== SLIDE 102 ===
+Anti-fungal medications
+
+=== SLIDE 103 ===
+Anti-Fungals
+Treat mycosis (infections caused by fungi).
+
+Systemic antifungals treat systemic mycosis – very toxic
+
+Azole Antifungals
+fluconazole (Diflucan)
+itraconazole (Sporanox)
+ketoconazole (Nizoral, Xolegel)
+voriconazole (VFend)
+terbinafine (Lamisil)
+
+Topical antifungals treat a variety of mycoses of skin and mucous membranes.  
+clotrimazole (lotrimin, Mycelex)
+ketoconazole (Extina, Xolegel)
+miconazole (Monistat, Fungoid)
+terbinafine (Lamisil)
+
+
+*Don’t confuse “-azole” antifungals with metronidazole or with Proton pump inhibitors (for stomach acid reduction) which ends in “-prazole”.
+Other systemic antifungals
+amphotericin B (Abelcet, Amphotec)
+griseofulvin
+nystatin (Mycostatin, Nilstat)
+
+=== SLIDE 104 ===
+Anti-Fungals
+Prototype Medication:  Amphotericin B
+Mechanism:  Disrupts fungal cell membranes
+
+Other Medications
+Nystatin
+Miconazole
+Clotrimazole
+Terbinafine
+Fluconazole
+Griseofulvin
+
+Therapeutic Uses
+Treatment of systemic fungal infections (candidiasis, aspergillosis, cryptococcosis, mucormycosis).
+Amphotericin B is highly toxic and is often reserved for severe fungal infections.
+
+Some antifungals treat superficial fungal infections (e.g., jock itch, athlete’s foot, onychomycosis, candida infection of skin)
+
+=== SLIDE 105 ===
+Anti-Fungals
+Complications
+Infusion reactions:  Amphotericin B is typically administered IV and infusion reactions can include fever, chills, rigors, headache, N/V and hypotension 1-3 h after initiation.
+Infuse slowly or with a test dose of 1g.  Typically infused over 2-6 h.
+Can pre-medicate with benadryl and tylenol and/or dantrolene or hydrocortisone for rigors.
+Nephrotoxicity – most serious adverse effect.
+Electrolyte imbalance, particularly hypokalemia.
+Hyperglycemia
+Bone marrow suppression – anemia, leukopenia, thrombocytopenia
+
+Contraindications/Precautions
+Avoid in client with renal impairment.
+Use cautiously in client with anemia or bone marrow suppression.
+Avoid other meds with nephrotoxic risks (e.g., vancomycin, aminoglycosides).
+
+=== SLIDE 106 ===
+Audience Response Question
+A nurse is assisting with the care of a client who is receiving IV amphotericin B for treatment of a systemic fungal infection.  Which of the following adverse effects should the nurse monitor for?
+
+hypoglycemia
+constipation
+fever
+hyperkalemia
+
+=== SLIDE 107 ===
+Audience Response Question
+A nurse is assisting with the care of a client who is receiving IV amphotericin B for treatment of a systemic fungal infection.  The nurse should monitor which of the following laboratory values?  (Select all that apply.)
+
+Blood albumin
+Blood amylase
+Blood potassium
+Hematocrit
+Blood creatinine
+
+=== SLIDE 108 ===
+Antifungal Meds Review
+Amphotericin
+Infusion reactions (fever, chills, rigors, and headache, N/V, hypotension)
+Nephrotoxic and ototoxic (Vancomycin and neomycin also nephrotoxic and ototoxic)
+Hypokalemia
+Hyperglycemia
+Bone marrow suppression
+
+Nystatin
+Shake liquid suspension
+Treats oral candidiasis- swish/spit or swish/swallow
+
+=== SLIDE 109 ===
+Anti-viral medications
+
+=== SLIDE 110 ===
+Anti-Virals
+Most antivirals work by inhibiting a process in replicating viral particle
+
+Depending on the infection, antiviral drugs can be:
+Curative
+Reduce symptoms
+Preventative
+
+Antivirals can prevent the spread of viral infections after exposure and reduce risk of spreading to others.  For example, taking antivirals:
+
+Within 48 hours (two days) of exposure to the flu may keep you from getting sick.
+
+Within 72 hours (three days) of a potential HIV exposure can lower the chances you get infected.
+
+Every day can lower the risk of passing herpes or HIV to others or getting them from a sexual partner who has it.
+
+During pregnancy lowers the risk of a pregnant person passing a virus they have to the fetus (babies will also receive antivirals after they’re born).
+
+=== SLIDE 111 ===
+Anti-Viral Classes(“-ovir”)(“-ivir”)(“-udine”)
+Herpes Antivirals
+acyclovir 
+valacyclovir
+famciclovir
+ganciclovir
+valganciclovir
+cidofovir
+
+
+
+Influenza Antivirals
+oseltamivir (Tamiflu)
+Zanamivir
+peramivir
+Hepatitis Antivirals
+tenofovir
+entecavir
+lamivudine
+adefovir
+telbivudine
+sofosbuvir (Sovaldi)
+Anti-Retrovirals (HIV)
+zidovudine
+efavirenz
+ritonavir
+enfuvirtide
+maraviroc
+raltegravir
+Anti-Covid-19 Antivirals
+ nirmatrelvir/ritonavir (Paxlovid)
+ molnupiravir (Lagevrio)
+ remdesivir (Veklury)
+
+=== SLIDE 112 ===
+Anti-Viral Classes(“-ovir”)(“-ivir”)(“-udine”)
+Prototype Medications:  
+Acyclovir (oral, topical, IV)
+ Ganciclovir  (oral, IV)
+
+
+Other Medications:  
+Lamivudine
+Oseltamivir
+Ribavirin
+Boceprevir
+telaprevir
+
+
+Mechanism of Action
+Prevent replication of viral DNA
+
+=== SLIDE 113 ===
+Anti-Viral Classes(“-ovir”)(“-ivir”)(“-udine”)
+Indications
+Acyclovir is used to treat herpes simplex and varicella-zoster viruses (shingles)
+
+Ganciclovir is used for treatment and prevention of cytomegalovirus (CMV).
+
+Oseltamivir treats influenza A and B.
+
+Ribavirin treats respiratory syncytial virus, hepatitis C, and influenza (unlabeled use).
+
+Boceprevir and telaprevir and protease inhibitors used to treat hepatitis C virus.
+
+=== SLIDE 114 ===
+Anti-Viral Classes(“-ovir”)(“-ivir”)(“-udine”)
+Complications
+Acyclovir po and iv
+Mild side effects include headache, nausea, diarrhea.
+IV infusion should be administered slowly over 1h.  Can cause phlebitis.
+Ensure adequate hydration to prevent nephrotoxicity.
+Rarely can cause blood disorders – anemia and thrombocytopenia.
+
+Ganciclovir 
+Bone marrow suppresion – anemia, increased risk of infection, bleeding risk.
+Mild side effects include fever, headache, nausea and diarrhea. nausea and d
+
+=== SLIDE 115 ===
+Audience Response Question
+A nurse is monitoring a client who is receiving IV acyclovir for treatment of varicella.  Which of the following actions should the nurse take?
+
+Administer a stool softener
+Decrease fluid intake following infusion
+Infuse acyclovir over 1 hour
+Monitor for hypotension
+
+=== SLIDE 116 ===
+Audience Response Question
+A school nurse cautions a group of parents about children playing barefoot on dirt. To what infectious agents can this action expose the children?
+
+Helminthes
+Protozoa
+Rickettsiae
+Mycoplasmas
+
+=== SLIDE 117 ===
+Anti-helminth medications
+
+=== SLIDE 118 ===
+Anti-Helminths
+Schistosomiasis (blood fluke)
+Antimonials	
+Metrifonate	
+Oxamnaquine	
+Praziquantel	
+
+Cestodiasis (tape worm)
+Niclosamide
+Benzimidazoles
+Praziquantel
+
+Fasciolasis (liver fluke)
+Praziquantel
+Closantel
+Intestinal round worms
+Piperazine
+Benzimidazoles
+Morantel
+Pyrantel
+Levamisole
+Avermectins and milbemycins
+Closantel
+Emodepside
+
+Filariasis (tissue round worms)
+Diethylcarbmazine
+Suramin
+Ivermectin
+
+=== SLIDE 119 ===
+Anti-Helminths
+Mechanism of Action
+Preventing microtubule formation within the parasitic cell, compromising glucose uptake. 
+
+Blocking neuronal transmission within the parasite, subsequently causing starvation, paralysis, and death of the worms. 
+
+Inhibit ATP formation and impair calcium uptake, inducing paralysis and death.
+
+
+Complications
+Side effects include GI upset, nausea, vomiting, diarrhea, and loss of appetite. 
+
+Adverse effects of antihelmintic medications include hepatotoxicity and bone marrow suppression – particularly with prolonged therapy.
+

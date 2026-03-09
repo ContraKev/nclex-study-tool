@@ -1,0 +1,851 @@
+=== PAGE 1 ===
+1 
+  
+ 
+A. DRUGS AFFECTING THE CENTRAL AND AUTONOMIC SYSTEM  
+Cholinergic Agents (Parasympathomemitics)  
+Cholinergic Blocking Agents  (Parasympatholytics, Anticholinergics)  
+Adrenergic Agents (Sympathomimetics)  
+Adrenergic Blocking Agents  
+Skeletal Muscle Relaxants Agents  
+Anticonvulsants  
+Antiparkinsonian Agents  
+Central Nervous System Stimulants  
+ 
+ 
+B. DRUGS AFFECTING MENTAL FUNCTIONING  
+Sedatives, Hypnotics, and Anxiolytics  
+Antidepressants and Mood Disorder Drugs  
+Antipsychotic drugs (Neuroleptics)  
+ 
+C. DRUGS USED IN PAIN MANAGEMENT  
+General Anesthetics  
+Local and Topical Anesthetic  
+Analgesics  
+ 
+D. DRUGS AFFECTING THE CARDIOVASCULAR   SYSTEM  
+Anticoagulants  
+Thrombolytic  
+Antiplatelet Medications  
+Cardiac Glycosides  
+Nitrates  
+Anti-arrhythmic Drugs  
+Antilipemics  
+ 
+E. ANTI – HYPERTENSIVE MEDICATIONS  
+Angiotensin -Converting Enzyme (ACE) Inhibitors  
+Calcium -Channel Blockers  
+ 
+F. DIURETICS  
+Carbonic Anhydrase Inhibitors   
+Osmotic Diuretic  
+Thiazide Diuretics   
+Loop Diuretics  
+Potassium Sparing Diuretics    
+ 
+F. RESPIRATORY MEDICATIONS  
+Bronchodilators  
+Glucocorticoids (Corticosteroids)  
+Mast Cell Stabilizers  
+Anti-histamines (H -1 blockers)  
+Anti-tuberculosis  
+ 
+G. DRUGS AFFECTING GASTROINTESTINAL SYSTEM  
+Antacids  
+Histamine – 2 blockers
+
+=== PAGE 2 ===
+2 
+ Proton – Pump Inhibitors (PPI)  
+Mucosal Barriers  
+Anti-diarrheal Agents  
+Laxatives  
+Emetics
+
+=== PAGE 3 ===
+3 
+ PHARMACOLOGY: A REVIEW  
+ 
+ 
+PHARMACOLOGY  
+  - most s imply defined as study of drug.  
+Fundamentals of Pharmacology  
+ 1. Pharmacokinetics  
+    - study of drug’s changes as it enters and passes through the body.  
+a. absorption  
+b. distribution  
+c. biotransformation  
+d. excretion  
+ 2. Pharmacodynamics  
+      - mechanism by which drugs produce changes in body tissue.  
+a. desired effect  - intended action of drugs  
+b. adverse effect  - harmful unintended reactions  
+c. side effects – consequence reactions  
+d. toxicity – the degree which something is poisonous  
+ Digoxin =  0.5 – 2.0 ng/mL  
+ Lithium  =  0.5 – 1.5 mEq/L  
+ Digoxin Toxicity: nausea,  vomiting, anorexia, diarrhea, halo vision  
+ 
+SAFETY AND EFFICACY  
+Nursing Principles  
+1. Always verify the Five Rights  
+a. Right Medication  
+b. Right Amount  
+c. Right Patient  
+d. Right Manner and Route  
+e. Right Time  
+f. Right Documentation  
+g. Right Assessment  
+h. Right Education  
+i. Right Evaluation  
+j. Right to Refuse to Medication  
+2. Chart dr ug administration only after it has  been given, never before.  
+3. Never leave the medication on cart or tray unattended.  
+4. Chart observed therapeutic and adverse effects accurately and fully.  
+5. Check history for allergies and potential drug interactions before administering a newly ordered drug.  
+6. Inform the prescribing physician of any observed adverse effects; if cannot be located, inform the 
+nursing supervisor  
+7. Question drug orders that are unclear, that appear to contain errors, or that have potential to harm.  
+8. Take the following actions if an error occurs: immediately  notify the nursing supervisor, the 
+prescribing physician, and the pharmacist.  Assess  the client’s condition and provide any necessary care.  
+9. For postpartum women, advice to take drugs after  breastfeeding.  
+ 
+Administration of Drugs  
+ Routes and Nursing C onsiderations:  
+1. Enteral – oral, sublingual, rectal, gastric tubes  
+ -capsulated pill, sustained release and enteric coated should not be crushed.  
+2. Parenteral – IV, IM, SQ, ID, IT, IA, epidural.  
+ Vastus lateralis (safest site for IM)  
+ Deltoid - less than 2ml
+
+=== PAGE 4 ===
+4 
+  Dorsogulteal (gluteus maximus) - not use for patient less than 3 years old  
+3. Topical – skin, inhalants, mucus membrane.  
+Eye medications  
+o administer eyedrops first then ointment.  
+o use a separate bottle for each client.  
+o instruct the client to tilt the head backward, open  eyes and look up.  
+o avoid contact of medication bottle to the eyeball.  
+o place prescribed dose in the lower conjunctival sac.  
+o instruct the client  to press the inner canthus  for 30 -60 seconds.  
+o instruct the client to close the eye gently.  
+Ear drops   
+o in infant and children younger than 3 y.o, pull pinna downward and backward.  
+o in older children and adult, upward and  backward.  
+o direct the solution on the wall of the ear canal, not directly on the ear drum.  
+ 
+CLASSIFICATIONS OF DRUGS  
+ 
+A. DRUGS AFFECTING THE CENTRAL AND AUTONOMIC SYSTEM  
+Cholinergic Agents (Parasympathomemitics)  
+Prototype  
+-synthetic acetylcholine, pilocarpine, carbachol, bethanecol (Urocholine), edrophonium (Tensilon), 
+neostigmine (Prostigmine), pyridostigmine (Mestinon).  
+Mechanism of action  
+-stimulates cholinergic receptor s by mimicking acetylcholine or inhibition of  enzyme cholinesterase  
+Indications  
+-glaucoma, urine retention, Myasthenia Gravis  
+-antidote to neuromuscular blocking agents :   tricyclic antidepressants and atropine  
+Adverse effects  
+-blurring of vision, miosis  
+-increase in salivation, intestinal cramps  
+-bronchoconstriction, wheezing, DOB  
+-hypotension and bradycardia  
+Nursing considerations  
+1. Warn & moni tor clients of the side effects  
+2. Have atropin e available for use as antidote  
+Cholinergic Blocking Agents  (Parasympatholytics, Anticholinergics)  
+Prototype  
+-atropine, scopalamine (Triptone), dicyclomine (Bentyl), propantheline (Pro -Banthine).  
+Mechanism of actions  
+-block the binding of acetylcholine in the receptors of parasympathetic nerves.  
+Indication  
+-use preoperatively to dry up secretions.  
+-treat spasticity of GI or urinary tract.  
+-use for treatment of bradycardia, asthma , Parkinsonism . 
+-use for antidote in organophosphate poisoning . 
+ Adverse effects  
+-dry mouth,  dilatation of pupils, tachycardia  
+-urinary retention, ileus, heat stroke  
+Nursing considerations  
+  1. Keep clients  in cool environment.  
+  2. Watch out for signs of heatstroke and dehydration.  
+  3. Encourage clients to increase fluid intake and use of sugarless um/candy for dry mouth.  
+  4. For GI spasticity, administer 30 minutes before meals and at bed time.
+
+=== PAGE 5 ===
+5 
+ Adrenergic Agents (Sympathomimetics)  
+Prototype  
+-epinephrine, norepinephrine, ephedrine, dopamine, dobutamine, phenylephrine, terbutaline, 
+albuterol, isoproterenol.  
+ Mechanism of actions  
+-stimulate alpha and beta adrenergic receptor directly or trigger the release of catecholamines 
+indirectly causing sympathetic effects.  
+Indications  
+-cardiopulmonary arrest, hypotension  
+-COPD and asthma, nasal congestions  
+-allergic reaction, anaphylactic shock  
+Adverse effects  
+-restlessness, insomnia, tremors, nausea  
+-palpitations, angina, tachycardia, HPN  
+Nursing considerations  
+ 1. Contraindicated in clients w/ hyperthyroidism, pheochromocytoma & cardiovascular disease.  
+ 2. Monitor vital signs and advice precautions.  
+ 3. Should be taken with food.  
+Adrenergic Blocking Agents  
+Prototype  
+a. Alpha blockers    
+-phentolamine (Regintine), phenoxybenzamine, prazosin (Minipress),  reserpine (Serpasil),  
+terazosin (Hytrin)  
+-clonidine (Catapress), methyldopa (Aldomet)  
+b. Beta blockers  
+-atenolol (Tenormin), esmolol (Brevibloc), metoprolol (Lopressor), nadolol (Corgard), propanolol 
+(Inderal), timolol ( Blocadren)  
+Mechanism of actions  
+a. alpha blockers  
+-inhibits action of a -receptors in vascular smooth muscle to cause vasodilatation.  
+b. beta blockers  
+-compete with epinephrine in b -receptors in  heart, pulmonary airways, peripheral circulation and 
+CNS. 
+Indications  
+-Raynaud’s disease, hypertension,   pheochromocytoma.  
+-angina, arrhythmias, mitral valve prolapse, glaucoma  
+Adverse effects  
+-orthostatic hypotension, bradycardia, CHF  
+-depression, insomnia and vertigo  
+-bronchospasm and dyspnea, nasal stuffiness, cold extremities  
+Nursing considerations  
+1. Administer oral alpha -blockers with milk to minimize GI side effects.  
+2. Administer oral beta -blockers before meals and at a.m. if insomnia occurs.  
+3. Check client’s apical pulse rate before drug administration, refer if below 60 bpm.  
+4. Hypotensive precautions.  
+5. Warn clients not to drive or operate dangerous machinery until he/she has adjusted to 
+medications.  
+Skeletal Muscle Relaxants Agents  
+Prototype  
+-methacarbamol (Robaxin), baclofen (Lioresal), dantrolene (Dantrium), metaxalone (Skelaxin),  
+orphanedrine (Norgesic), chlorzoxazone  
+Mechanism of actions  
+-depress CNS
+
+=== PAGE 6 ===
+6 
+ -inhibit calcium ion release in the muscle  
+-enhance the inhibitory action of GABA (gamma -amino butyric acid)  
+Indications  
+-for acute musculoskeletal pain  
+-for muscle spasticity associated with multiple sclerosis, cerebral palsy, CVA, and spinal cord injury  
+Adverse effects  
+-hypotonia, ataxia, hypotension, drowsiness  
+-blurred vision, bradycardia, depression, urine retention  
+Nursing considerations  
+1. Caution clients that mental alertness may be impaired.  
+2. Monitor neuromuscular status, bowel and bladder functions.  
+3. Inform clients that maximum benefit of baclofen is attained for 1 -2 months.  
+4. Reduce baclofen dosage gradually because of   associated withdrawal symptoms: Confusion , 
+hallucinations, paranoia & rebound spasticity.  
+Anticonvulsants  
+Prototype  
+a. Hydantoins -phenytoin (Dilantin)  
+b. Barbiturates -phenobarbital ( Luminal)  
+c. Miscellaneous  
+- carbamazepine (Tegretol), diazepam, clorazepate (Tranxene), valproic acid (Dapakene), 
+ethosuximide (Zarontin)  
+Mechanism of action  
+-treat seizures by depressing abnormal neuronal  activity in motor cortex  
+Adverse effects  
+-sedation & drowsiness, gingival hyperplasia  
+-diplopia, nystagmus, vertigo, dizziness  
+-thrombocytopenia, aplastic anemia  
+Nursing considerations  
+1. Advise female clients to use contraceptives.  
+2. Inform clients taking phenytoin that harmless urine discoloration is common.  
+3. Warn clients with diabetes that hydantoins  may increase blood sugar level and that valproic acid 
+may produce a false positive result in urine ketone test.  
+4. Teach clients receiving carbamazepine to identify symptoms of bone marrow depressions.  
+5. Reassure that barbiturates are not addictive at a low dosage.  
+6. Avoid taking alcohol with barbiturates.  
+7. Administer IV phenytoin slowly to avoid cardiotoxicity.  
+8. Avoid mixing other drugs in same syringe with phenytoin.  
+Antiparkinsonian Agents  
+Prototype  
+a. Anticholinergic agents  
+-trihexyphenidyl (Artane),  benztropine (Congentin)  
+b. Dopaminergic agents  
+-Levodopa, carbidopa -levodopa (Sinemet),  amantidine (Symmetrel), pergolide (Permax), selegiline 
+(Eldepryl), bromocriptine.  
+ Mechanism of actions  
+a. anticholinergic agents  
+-inhibit cerebral motor centers  
+b. dopaminergic agents  
+-increasing dopamine concentrations or enhancing neurotransmitter functioning.  
+Adverse effects of dopaminergic agents  
+a. levodopa –nausea, vomiting, anorexia, orthostatic hypotension,  dark -colored urine and sweat  
+b. amantidine –ankle edema, constipation  
+c. bromocriptine –palpitations, tachycardia
+
+=== PAGE 7 ===
+7 
+ Nursing considerations  
+1. Give dopaminergic agents after meals to reduce  GI symptoms.  
+2. Reassure client that levodopa may cause harmless darkening of urine and sweat.  
+3. Avoid taking Vit B6 (pyridoxine) with levodopa because it speed up metabolism.  
+4. Educate clients to minimize orthostatic hypotension.  
+5. Elev ate leg to reduce ankle edema.  
+Central Nervous System Stimulants  
+Prototype  
+-amphetamines, methylphenidate (Ritalin)  
+Mechanism of actions  
+-increase excitatory CNS neurotransmitter activity and blocks inhibitory impulses  
+Indications  
+-for obesity (amphetamines)  
+-attention deficit hyperactivity disorders  
+-narcolepsy  
+-drug-induced respiratory depressions.  
+Adverse effects  
+-nervousness, insomnia, restlessness  
+-hypertension, tachycardia, headache  
+-anorexia, dry mouth  
+Nursing considerations  
+1. Should be given at morning.  
+2. Don’t stop amphetamine abruptly to avoid withdrawal symptoms.  
+3. Monitor blood pressure and pulse.  
+4. Ice chips or sugarless gum for dry mouth.  
+5. Watch out for growth retardation in children taking methylphenidate  
+ 
+B. DRUGS AFFECTING MENTAL FUNCTIONING  
+Sedatives, Hypnotics, and Anxiolytics  
+Prototype  
+a. Benzodiazepines  
+-diazepam (Valium), lorazipam (Ativan), alprazolam (Xanax), flurazepam (Dalmane)  
+b. Barbiturates  
+-amobarbital, phenobarbital, secobarbital  
+c. Miscellaneous  
+-chloral hydrate (Noctec), buspirone (Buspar),  paraldehyde (Paral)  
+Mechanism of actions  
+a. Benzodiazepines  
+-increase the effect of inhibitory   neuro transmitter GABA (gamma -amino butyric acid)  
+b. Barbiturates and Miscellaneous agents  
+-depress CNS  
+Indications  
+-induce sleep, sedate and calm clients  
+Adverse effects  
+-hangover -effect, dizziness, CNS depression  
+-respiratory depression, drug -dependence  
+Nursing considerations  
+1. Warn clients of injuries and falls.  
+2. Brief period of confusion and excitement upon waking up is common with benzodiazepines.  
+3. Warn clients not to discontinue medications abruptly without consulting a physician.  
+4. Avoid alcohol while taking these drugs.  
+5. Rotate and don’t shake the ampules of barbiturates.  Don’t mix with other drugs.  
+6. Warn female clients that diazepam is associated with cleft lip.
+
+=== PAGE 8 ===
+8 
+ Antidepressants and Mood Disorder Drugs  
+Prototype  
+a. Tricyclic antidepressants  
+-amitriptyline (Elavil), protriptyline (Vivactil), imipramine (Tofranil), desipramine  
+b. MAO (monoamine oxidase inhibitors)  
+-isocarboxazid (Marplan), phenelzine (Nardil), tranylcypromine (Pernate)  
+c. Second -generation antidepressants  
+-fluoxetine (Prozac), trazodone (Desyrel)  
+d. Lithium  
+Mechanism of actions  
+a. Tricyclic antidepressants  
+-increase receptor sensitivity to serotonin and/or norepinephrine.  
+b. MAO inhibitors  
+-inhibit the enzyme MAO that metabolizes the neurotransmitters norepinephrine and  serotonin.  
+c. Second – generation antidepressants  
+-inhibits the reuptake of serotonin.  
+d. Lithium  
+-increase serotonin & norepinephrine uptake  
+Adverse effects  
+-dry mouth, blurred vision, urine retention, constipation (anticholinergic effects)  
+-orthostatic hypotension, insomnia  
+-hypertensive crisis (MAO)  
+-dehydration (Lithium)  
+ Nursing considerations  
+1. Caution client to rise slowly to reduce the effects  of orthostatic hypotension.  
+2. Take antidepressant with food to enhance absorption  
+3. Explain to client that full response may take   several weeks (2 weeks).  
+4. Assess client for constipation resulting from tricyclic antidepressant use.  
+5. Client taking MAO inhibitors should avoid    tyramine -rich foods to avoid Hypertensive  crisis.  
+-aged cheese, sour cream, yogurt, beer, wine, chocolate, soy sauce and yeast  
+-pentholamine (Regintine) is the drug of choice  for hypertensive crisis.  
+6. Inform physician and withhold fluoxetine if client  develop rashes.  
+7. Take lithium with food to reduce GI effects  
+->1.5 mEq/L blood level may cause toxicity manifested by:  confusion, lethargy, 
+seizures,hyperreflexia.  
+-maintain salt and adequate fluid intake  
+-tremors may occur but it is temporary  
+-monitor white blood cell count (increase)  
+Antipsychotic drugs (Neuroleptics)  
+Prototype  
+a. Phenothiazines  
+-chlorpromazine (Thorazine),  
+-trifluoperazine (Stelazine),  
+-thioridazine (Mellaril)  
+b. Other Agents  
+-clozapine (Clozaril), haloperidol (Haldol)  
+Mechanism of action  
+-block dopamine receptor in the limbic system, hypothalamus, and other regions of the brain.  
+Adverse effects  
+-Extra pyramidal symptoms such as dystonia, pseudoparkinsonism,  and an irreversible  tardive 
+dyskinesia as manifested by :  
+a. lip smacking  
+b. fine wormlike tongue movement
+
+=== PAGE 9 ===
+9 
+ c. involuntary movements of arms and leg.  
+-Neuroleptic malignant syndrome  
+a. fever, tachycardia, tachypnea, diaphoresis, cardiovascular collapse  
+b. muscle rigidity, seizures.  
+-orthostatic hypotension  
+Nursing considerations  
+1. Teach family members the signs of EPS and NMS, and report to physician immediately.  
+2. Normalization of symptoms may not occur for s everal weeks after beginning of therapy.  
+3. Avoid administering haloperidol intravenously  
+4. Watch out of neutropenia with clozapine.  
+5. Watch out for orthostatic hypotension and photosensitivity with phenothiazine.  
+6. Be sure that oral doses are swallowed, and   not hoarded.  
+ 
+C. DRUGS USED IN PAIN MANAGEMENT  
+General Anesthetics  
+Prototype  
+a. Inhalation anesthetics  
+-enflurane (Ethrane), halothane  
+-isoflurane (Forane), nitrous oxide  
+b. Injection anesthetics  
+-fentanyl (Sublimaze), ketamine (Ketalar), thiopental Na (Penthotal), etomidate (Amidate)  
+Mechanism of actions  
+-cause CNS depression, by producing loss of consciousness, unresponsiveness to pain stimuli, and 
+muscle relaxation  
+Nursing considerations  
+1. Instruct client NPO for 8 hours before administration.  
+2. Monitor cardio pulmonary depression and hypotension.  
+3. Monitor urinary retention.  
+4. Monitor body temperature  
+-malignant hyperthermic crisis: dantrolene (antidote)  
+5. Avoid alcohol or CNS depressants for 24 hours after anesthesia  
+6. In patient who received halothane, monitor signs of hepatic fatal side effects:  
+-rash, fever, nausea, vomiting  
+-jaundice and altered liver function  
+Local and Topical Anesthetic  
+Prototype  
+Local: bupivacaine, lidocaine, tetracaine, procaine, mepivacaine, prilocaine  
+Topical: benzocaine, butacaine, dibucaine,lignocaine  
+Mechanism of action  
+-block transmission of impulses across nerve cell membrane.  
+Adverse effects  
+-cardiac dysrhythmias  
+Nursing considerations  
+1. lignocaine + prilocaine (EMLA cream) should be  applied topically 60 minutes before procedure.  
+2. administer cautiously to the areas of large broken skin.  
+3. observe for fetal  bradycardia in pregnant  clients.
+
+=== PAGE 10 ===
+10 
+ Analgesics  
+Prototype  
+a. Narcotic analgesics  
+-codeine, meperidine (Demerol) morphine,  butorphanol (Stadol) nalbuphine (Nubain)  
+b. Non – narcotic analgesic  
+NSAIDs – aspirin (aminosalicylic acid), mefenamic acid (Ponstan),  
+ibuprofen (Motrin), naproxen, ketoprofen (Orudis), ketorolac. paracetamol and acetaminophen 
+(Tylenol)                       
+Mechanism of actions  
+a. Narcotic analgesics  
+-alter pain perception by bind ing to opiod   receptors in CNS  
+b. Non - narcotic analgesic  
+-relieves pain and fever by inhibiting the prostaglandin  pathway.  
+Nursing considerations  
+1. Monitor respiratory depression & hypotension in clients taking narcotic analgesic.  
+2. Injury and accident precautions in clients taking narcotic analgesic.  
+3. Warn clients about possibility of dependency, and do not discontinue narcotics abruptly in the 
+narcotic -dependent clients.  
+4. Naloxone is antidote for narcotic overdose.  
+5. Advice clients to take NSAIDs with food and monitor bleeding complications.  
+6. Aspirin is contraindicated in  clients below 18 years  old with flu -like symptoms.  
+7. Monitor hearing loss in clients taking aspirin.  
+8. Monitor liver function in clients taking   acetaminophen.  
+9. N-acetylcysteine is antidote for paracetamol overdose . 
+ 
+D. DRUGS AFFECTING THE CARDIOVASCULAR   SYSTEM  
+Anticoagulants  
+Prototype  
+-Heparin (SQ and IV) , Warfarin (Orally)   
+Mechanism of actions  
+a. Heparin   
+-prevents thrombin from converting fibrinogen  to fibrin.  
+b. Warfarin  
+-suppress coagulation by acting as an antagonist of vitamin K after 4 -5 days.  
+Indications  
+-thrombosis, pulmonary embolism, myocardial infarction  
+Adverse effect  
+-bleeding  
+Nursing considerations  
+1. HEPARIN sodium  
+-if given SQ don’t aspirate or rub the injection site (above the scapula - best site).  
+-therapeutic level 1.5 -2.5 times normal PTT;  normal PTT is 20 -35 sec. = 50 -85 sec.  
+-antidote:  (protamine sulfate)      
+2. WARFARIN sodium (coumadin)  
+-warfarin is used for long -term 
+-onset of action is 4 -5 days.  
+-therapeutic level is 1.5 -2.5 times normal PT;  normal PT = 9.6 -11.8 sec. = 25 - 30 sec; INR = 2 – 
+3 
+-should be taken at the same time of the day to maintain at therapeutic level.  
+-reduce intake of green leafy vegetables.  
+-antidote:  Vitamin K (Aquamephyton )
+
+=== PAGE 11 ===
+11 
+ Hemostasis:  
+ 
+Bleeding/injury                                                   
+I      
+Vasoconstriction      Plasminogen  
+I               I 
+Platelet aggregation     Plasmin  
+(temporary plug)             I   
+I              I           
+Clotting factor activation ----------------------------                       I           
+I     I            I I 
+Intrinsic pathway (8 , 9, 10, 11, 12 ) Extrinsic pathway ( 3, 7, 10)    I 
+           I   I       I 
+(PTT)  (PT) Vit K depletion          I 
+`                  I        I                     I  
+     Prothrombin activation       I 
+         I                I 
+              Thrombin                I      I 
+         I          I    
+Fibrinogen ------------ Fibrin threads -------------  Fibrin split products  
+                                      (Coagulation )     (Removed by liver & spleen)   
+Thrombolytic  
+Prototype  
+Streptokinase, Urokinase  
+Mechanism of actions  
+-activates plasminogen to generates plasmin (enzyme that dissolve clots).  
+Indications  
+-use early in the course of MI   (within 4 -6 hours of the onset)  
+Nursing considerations  
+1. monitor bleeding  
+2. antidote : Aminocarpic acid  
+Antiplatelet Medications  
+Prototype  
+Aspirin, Dipyridamole (Persantin) , Clopidoigrel (Plavix), Ticlopidine  
+Mechanism of action  
+-inhibit the aggregation of platelet thereby prolonging  bleeding time.  
+Indications  
+-used in the prophylaxis of long -term compl ication following M.I, coronary  revascularization, and 
+thrombotic CVA.  
+Nursing considerations  
+1. Monitor bleeding time (NV = 1-9 mins)  
+2. Take the medication with food.  
+Cardiac Glycosides  
+Prototype  
+-digoxin (Lanoxin) and digitoxin (Crystodigin)  
+Mechanism of actions  
+-increase intracellular calcium, which causes  the heart muscle fibers to contract more efficiently, 
+producing positive inotropic &  negative chronotropic action.  
+Indications  
+-use for CHF, atrial tachycardia and fibrillation  
+Nursing considerations  
+1. Monitor for toxicity as evidence by : nausea, vomiting, anorexia, halo vision, confusion, bradycardia 
+and heart blocks .
+
+=== PAGE 12 ===
+12 
+ 2. Do not administer if pulse is less than 60 bpm.  
+3. Should be caution in patient with hypothyroidism and hypokalemia.  
+4. Antidote : Digi -bind 
+5. Phenytoin is the drug of choice to manage digitalis -induced arrhythmia.  
+Nitrates  
+Prototype  
+-Isosorbide dinitrate (Isordil)  
+-nitroglycerine (Deponit, Nitrostat)  
+Mechanism of action  
+-produce vasodilatation including coronary artery.  
+Indications  
+-angina pectoris, MI, peripheral arterial occlusive disease  
+Adverse effects  
+-headache, orthostatic hypotension  
+Nursing Considerations  
+1. Transdermal patch  
+-apply the patch to a hairless area using a   new patch and different site each day.  
+-remove the patch after 12 -24 hours, allowing 10 -12 hours “patch free” each day to prevent 
+tolerance.  
+2. Sublingual medications  
+-note the BP before giving the medication  
+-offer sips of water before giving because  dryness may inhibit absorption  
+-one tablet f or pain and repeat every 5 minutes   for a total of three doses; if not relieved after 15 
+minutes  seek medical help.  
+-stinging or burning sensation indicates that the  tablet is fresh.  
+-instruct patient not to swallow the pill  
+-sustained release medications should b e swallowed and not to be crush  
+-protect the pills from light  
+Anti-arrhythmic Drugs  
+Class I (block Na channels)  
+IA - quinidine, procainamide  
+IB – lidocaine  
+IC - flecainamide  
+Class II (Beta -blockers)  
+propanolol, esmolol  
+Class III (block K channels)  
+amiodarone, bretylium  
+Class IV (block Ca channels)  
+verapramil, diltiazem  
+Nursing considerations  
+1. Watch out for signs of CHF.  
+2. Have client weigh themselves and report  weight gain.  
+3. Watch out for signs of lidocaine toxicity: confusion and restlessness  
+Antilipemics  
+Prototype  
+a.cholesterol -lowering agents  
+-cholestyramine, colestipol, lovastatin  
+b.triglyceride -lowering agents  
+-gemfibrozil, clofibrate  
+Mechanism of action  
+-interfere with cholesterol synthesis as well as decreasing lipoprotein & triglyceride synthesis.  
+Nursing considerations  
+1. monitor liver functions while using statins.
+
+=== PAGE 13 ===
+13 
+ 2. prevent constipation, flatulence, cholelithiasis  
+3. encourage increase fluid and fiber intake.  
+ 
+E. ANTI – HYPERTENSIVE MEDICATIONS  
+Angiotensin -Converting Enzyme (ACE) Inhibitors “PRIL”  
+Prototype  
+captopril (Capoten), enalapril (Vasotec), quinapril, lisinopril  
+Mechanism of actions  
+-prevent peripheral vasoconstriction by blocking conversion of angiotensin I to angiotensin II 
+decreasing peripheral resistance  
+Adverse effect  
+-it cause hyperkalemia  
+-induce chronic cough  
+Nursing considerations  
+1. not to discontinue medications because it can cause rebound hypertension.  
+2. avoid using K+ sparing diuretics.  
+Calcium -Channel Blockers  
+Prototype  
+-Nifedipine (calcibloc, adalat), Amlodipine (norvasc), Felodipine (Plendil)  Verapramil (Isoptin)  
+Mechanism of action  
+-decrease cardiac contractility and the workload of the heart, thus decreasing the need for O2.  
+-it also promotes vasodilatation of the coronary and peripheral vessels.  
+Indications  
+-hypertension, angina, arrhythmia  
+Adverse effects  
+-bradycardia, hypotension, headache  
+-reflex tachycardia, constipation  
+Nursing considerations  
+1. Administer between meals to enhance  absorption.  
+2. Take client’s pulse rate before each dose,  withhold if pulse is below 60 bpm.  
+3. Refer for signs of congestive heart failure.  
+ 
+F. DIURETICS  
+-usually given at mornin g 
+Carbonic Anhydrase Inhibitors     
+-Acetazolimide (Diamox)  
+-Increase Na+, K+, & Hco3 Secretion, Along With It Is H2o  
+-Metabolic Acidosis  
+Osmotic Diuretic  
+-Mannitol  
+-Increase Osmotic Pressure Of The Glomerular Filtrate .  
+-Hypotension  
+Thiazide Diuretics   
+-Hydrochlorothiazide  
+-Blocks Na and K Reabsorption; Reabsorb Ca  
+-Hypercalcemia  
+Loop Diuretics  
+-Furosemide (Lasix)  
+-Blocks Na, K, and Ca Reabsorption  
+-Hypocalcemia  
+Potassium Sparing Diuretics    
+-Spironolactone (Aldactone)  
+-Excrete Na and Water but it reabsorbs  K
+
+=== PAGE 14 ===
+14 
+ -Hyperkalemia  
+ 
+F. RESPIRATORY MEDICATIONS  
+Bronchodilators  
+Prototype : 
+Symphatomimetic    Xanthines  
+-albuterol, salbutamol   -aminophylline  
+-isoproteren ol, salmeterol   -theophylline  
+-terbutaline  
+Mechanism of actions:  
+-sympathomimetic (b -receptor agonist)   bronchodilators, dilate airways.  
+-xanthine bronchodilators, stimulate CNS for respiration . 
+Indications :     
+-broncho spasm, asthma, bronchitis, COPD  
+Adverse effects:  
+-palpitations and tachycardia  
+-restlessness, nervousness, tremors  
+-anorexia, nausea an d vomiting, headache, dizziness  
+Nursing considerations:  
+1. Contraindicated hyperthyroidism, cardiac dysrhythmia, or uncontrolled seizure disorder.  
+2. It should  be used with caution in patient with HPN  and narrow -angle glaucoma.  
+Glucocorticoids (Corticosteroids)  
+Prototype : 
+-dexamethasone, budesonide, fluticasone, prednisone, beclomethasone  
+Mechanism of actions:  
+-act as anti -inflammatory agents and reduce edema  of the airways, as well as pulmonary edema.  
+Adverse effects:   
+-Cushing’s syndrome, neutropenia. osteoporosis  
+Nursing considerations:  
+1. Take drugs at meal time or with food.  
+2. Eat foods high in potassium, low in sodium.  
+3. Instruct client to avoid individuals with RTI.  
+4. Instruct client not to stop medication abruptly, it should be tapered to prevent adrenal insufficiency  
+5. Avoid taking NSAID while taking steroids.  
+6. Take inhaled bronchodilators first before taking inhaled steroids, and rinse mouth after using.  
+Mast Cell Stabilizers  
+Prototype:  
+-cromolyn sodium (Intal)  
+Mechanism of action : 
+-stabilize mast cells that release histamine triggering asthmatic attacks.  
+Nursing Consideration:  
+1. It should be given before asthmatic attacks.  
+2. Administer oral capsule at least 30 mins before meals for better absorption.  
+3. Drink a few sips of water before & after inhalation to prevent cough & unpleasant taste  
+4. Assess for lactose -intolerance.  
+Anti-histamines (H -1 blockers)  
+Prototype : 
+-Astemizole (Hismanal), Loratidine (Claritin),  Brompheniramine (Dimetapp), Diphenhydramine 
+(Benadryl), Cetirizine (Iterax), Celestamine (Tavist)
+
+=== PAGE 15 ===
+15 
+ Mechanism of action:  
+-decrease nasopharyngeal secretions and decrease nasal itching by blocking histamine in H1 -
+receptor.  
+Indications : 
+-common colds, rhinitis, nausea and vomiting , urticaria, allergies and as sleep ai d 
+Nursing Considerations:  
+1. Administer with food and drink.  
+2. Given IM via Z -track method or orally.  
+3. Precautions in handling machine and driving while taking these drugs.  
+4. Ice chips or candy for dry mouth  
+Anti-tuberculosis  
+Prototype:  
+First line    Second line  
+-Isoniazid (INH)     -Cycloserine  
+-Rifampicin (Rifadin)    -Kanamycin  
+-Ethambutol    -Ethonamide  
+-Pyrazinamide    -Para-aminosalicylic acid  
+-Streptomycin  
+-active tuberculosis is treated with drug  combination for 6 -9 mos.  
+-multidrug -resistant strain (MDR -TB) are  medicated for 1 year up to 2 years  
+-given before meals  
+Isoniazid  
+-should be given 1 hr before or 2 hrs after meals  because food may delay absorption.  
+-should be given at least 1 hr before antacids.  
+-instruct to notify physician for signs of hepatoxicity (jaundice), and neurotoxicity , numbness of 
+extremities.  
+-administer with Vitamin B6 to counteract the neurotoxic  side effects.  
+-avoid alcohol.  
+Rifampicin  
+-given on an empty stomach with 8 0z. of water, 1 hour before or 2 hours after meals and avoid 
+taking antacids with medications.  
+-hepatotoxic thus avoid alcohol.  
+-instruct the client that urine, feces, sweat, and tears  will be red -orange in color.  
+Pyrazinamide  
+-given for 2 months.  
+-increase serum uric acid and cause photosensitivity.  
+Ethambutol  
+-contraindicated in children under 13 years old.  
+-obtain a baseline visual  acuity because it can cause optic neuritis.  
+-instruct the client to  notify the physician immediately if any visual problems occurs.  
+Streptomycin  
+-aminoglycoside antibiotic given IM  
+-nephrotoxic and ototoxic  
+-obtain baseline  audiometric test and repeat every 1 -2 months because  the medications impairs the 
+CN VIII  
+ 
+G. DRUGS AFFECTING GASTROINTESTINAL SYSTEM  
+Antacids  
+Prototype : 
+-Aluminum/magnesium  compounds (Maalox)  
+-Sodium  bicarbonate (Alka -Seltzer)  
+-Calcium  carbonate (Tums)  
+-Magnesium  hydroxide (Milk of Magnesia).
+
+=== PAGE 16 ===
+16 
+ Mechanism of actions:  
+-neutralize the stomach acidity.  
+Adverse effects:  
+-metabolic alkalosis, stone formation  
+-electrolyte imbalance  
+-diarrhea (magn esium), constipation (aluminum)  
+Nursing considerations:  
+1. Give 1 hr after meals.  
+2. Avoid giving medications within 1 -2 hrs of antacid administration (decreases absorption).  
+3. Take fluids to flush after intake of antacid suspensions.  
+4. Monitor for changes of bowel patterns.  
+Histamine – 2 blockers  
+Prototype:  
+-cimetidine (Tagamet), ranitidine (Zantac),  famotidine (Pepcid), nizatidine (Axid)
+
+=== PAGE 17 ===
+17 
+ Mechanism of action:  
+-blocks H2 receptors in the stomach, reducing acid secretions  
+Nursing considerations:  
+1. Given before or with meals  
+2. Avoid giving other drugs with cimetidine  
+3. Gynecomastia may develop with chronic use of cimetidine.  
+Proton – Pump Inhibitors (PPI)  
+Prototype : 
+-omeprazole (Losec), Lansoprazole (Lanz), pantoprazole (Pantoloc).  
+Mechanism of action : 
+-inhibit the proton H+ to combine with Cl - toform hydrochloric acid.  
+Nursing considerations : 
+1. Given bef ore meals preferably at morning  
+Mucosal Barriers  
+Prototype: 
+-sucralfate (Carafate), misoprostol (Cytotec).  
+Mechanism of action : 
+-coats th e mucosa to prevent ulcerations  
+Nursing consideration:  
+2. Given before meals  
+3. Misoprostol is contraindicated for pregnants.  
+4. Sucralfate cause constipation.  
+Anti-diarrheal Agents  
+Prototype : 
+-diphenoxylate (Lomotil), loperamide (Imodium), kaolin/pectin mixture (Kaopectate)  
+Mechanism of actions:  
+-decrease stomach motility and peristalsis  
+Nursing considerations:  
+1. Monitor for rebound constipation.  
+2. Be cautious taking if with infectious diarrhea.  
+3. Monitor atropine toxicity with diphenoxylate.  
+4. Clay, white or pale stool is common with kaopectate.  
+Laxatives  
+A. lactulose (Cephulac), Na biphosphate (Fleet enema) & magnesium salt (Milk of Magnesia)  
+-retain fluid and distend intestine  
+B. ducosate (Dialose)  
+-emulsify fecal fat and water  
+C. bisacodyl (Dulcolax) & senna (X -prep)  
+-irritates intestinal mucosa and stimulate intestinal smooth muscles  
+D. bulk -forming laxative (Metamucil)  
+-increase fecal bulk and water content  
+E. mineral oil  
+-lubricates & prevent colon absorption  
+Emetics  
+Prototype:  
+-ipecac syrup, apomorphine  
+Mechanism of actions:  
+-induce vomiting through stimulation of vomiting  center of medulla.  
+Indications:  
+-ingestion of poisonous or toxic substances  
+Nursing considerations : 
+1. Consult poison control center before induction of vomiting.  
+2. Administer ipecac  syrup with large amount of fluid.
