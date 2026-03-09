@@ -5094,10 +5094,18 @@ const MISSION_CATEGORY_CONFIG = {
     'Cardiovascular':        { color: 'info',    icon: 'fa-heartbeat',     order: 1 },
     'Endocrine':             { color: 'success', icon: 'fa-tint',          order: 2 },
     'Respiratory':           { color: 'danger',  icon: 'fa-lungs',         order: 3 },
-    'Reproductive Health':   { color: 'pink',    icon: 'fa-venus',         order: 4 },
-    'Complex Care':          { color: 'warning', icon: 'fa-layer-group',   order: 5 },
-    'Advanced NGN Practice': { color: 'purple',  icon: 'fa-brain',         order: 6 }
+    'Critical Care':         { color: 'primary', icon: 'fa-procedures',    order: 4 },
+    'Reproductive Health':   { color: 'pink',    icon: 'fa-venus',         order: 5 },
+    'Complex Care':          { color: 'warning', icon: 'fa-layer-group',   order: 6 },
+    'Advanced NGN Practice': { color: 'purple',  icon: 'fa-brain',         order: 7 }
 };
+
+// Keywords that map to the Respiratory parent category
+const RESPIRATORY_KEYWORDS = [
+    'Acute Respiratory', 'Chronic Respiratory', 'Fibrotic Lung',
+    'Genetic Lung', 'Systemic Lung', 'Sleep-Related Respiratory',
+    'Occupational Respiratory'
+];
 
 // Map raw mission categories → parent category + subcategory
 function classifyMission(mission) {
@@ -5107,12 +5115,18 @@ function classifyMission(mission) {
     const sub = parts[1] ? parts[1].trim() : null;
 
     // Normalize main categories into parent groups
-    if (main === 'Cardiovascular') return { parent: 'Cardiovascular', sub: sub || 'General' };
-    if (main === 'Diabetes')       return { parent: 'Endocrine', sub: sub || 'Diabetes' };
-    if (main === 'Acute Respiratory' || main === 'Chronic Respiratory') return { parent: 'Respiratory', sub: sub || main.replace(' Respiratory', '') };
-    if (main === 'Female Reproductive' || main === 'Male Reproductive') return { parent: 'Reproductive Health', sub: sub || main };
-    if (main === 'Combined')       return { parent: 'Complex Care', sub: sub || 'Multi-System' };
+    if (main === 'Cardiovascular')        return { parent: 'Cardiovascular', sub: sub || 'General' };
+    if (main === 'Diabetes')              return { parent: 'Endocrine', sub: sub || 'Diabetes' };
+    if (main === 'Critical Care')         return { parent: 'Critical Care', sub: sub || 'General' };
+    if (main === 'Combined')              return { parent: 'Complex Care', sub: sub || 'Multi-System' };
     if (main === 'Advanced NGN Practice') return { parent: 'Advanced NGN Practice', sub: sub || 'NGN Scenarios' };
+    if (main === 'Female Reproductive' || main === 'Male Reproductive')
+        return { parent: 'Reproductive Health', sub: sub || main };
+
+    // All respiratory / lung / airway categories → Respiratory
+    if (RESPIRATORY_KEYWORDS.some(kw => main.startsWith(kw)) || main.includes('Lung') || main.includes('Respiratory'))
+        return { parent: 'Respiratory', sub: sub || main.replace(/\s*(Diseases?|Disorders?)\s*$/i, '').trim() };
+
     return { parent: main, sub: sub || 'General' };
 }
 
