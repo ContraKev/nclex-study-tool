@@ -29,11 +29,11 @@ Single-page HTML app (`dist/index.html`) for NCLEX exam preparation. Deployed vi
   13. OB Chapter 9: Postpartum & Newborn Care (30 questions)
   14. OB Chapter 10: Postpartum Complications (25 questions)
   15. OB Chapter 12: The Term Newborn (20 questions)
-- **86 Clinical Missions** organized in category → subcategory hierarchy:
+- **92 Clinical Missions** organized in category → subcategory hierarchy:
   - Cardiovascular (20): Electrolytes, Emergency, Beta Blockers, Diuretics, Coagulation, Adrenergics, Antiplatelets, Nitrates, Thrombolytic, Lipids, Arrhythmia
   - Endocrine (10): Diabetes
   - Respiratory (10): Acute/Pneumonia
-  - Reproductive Health (10): Female Reproductive (2), Male Reproductive (8)
+  - Reproductive Health (16): Female Reproductive (8) — PID, Mastectomy, Vaginitis, Endometriosis, Prolapse, Cervical Screening, Menopause, Bartholin; Male Reproductive (8)
   - Complex Care (10): Multi-System/Comorbidities
   - OB / Maternity (16): Fetal Development, Prenatal Care, Pregnancy Complications, Labor & Birth, Labor Complications, Postpartum, Postpartum Complications, Newborn
   - Advanced NGN Practice (10): NGN Scenarios
