@@ -42,4 +42,8 @@ if (typeof data_diabetes_gliptin_glp1a !== 'undefined') mergeData(data_diabetes_
 if (typeof data_diabetes_insulins_part1 !== 'undefined') mergeData(data_diabetes_insulins_part1);
 if (typeof data_diabetes_insulins_part2 !== 'undefined') mergeData(data_diabetes_insulins_part2);
 
+// Pain Management Atomic Loads
+if (typeof data_pain_nonopioid !== 'undefined') mergeData(data_pain_nonopioid);
+if (typeof data_pain_opioid_agonists !== 'undefined') mergeData(data_pain_opioid_agonists);
+
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");

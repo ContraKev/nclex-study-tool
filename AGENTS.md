@@ -78,7 +78,7 @@ Each block = new `const data_xxx = [...]` array added before data_loader.js, the
 | Block | Category | Drugs | Status | Source files |
 |---|---|---|---|---|
 | 1a | Pain: Non-Opioid | 5 | ✅ Done | pain_lecture_drjames.txt |
-| 1b | Pain: Opioid Agonists | 9 (morphine, codeine, oxycodone, hydrocodone, hydromorphone, fentanyl, methadone, meperidine, tramadol) | ⏳ | pain_lecture_drjames.txt |
+| 1b | Pain: Opioid Agonists | 9 (morphine, codeine, oxycodone, hydrocodone, hydromorphone, fentanyl, methadone, meperidine, tramadol) | ✅ Done | pain_lecture_drjames.txt |
 | 1c | Pain: Partial Agonists + Antagonists | 5 (buprenorphine, nalbuphine, butorphanol, naloxone, naltrexone) | ⏳ | pain_lecture_drjames.txt |
 | 1d | Pain: Adjuvants + Migraine + Muscle Relaxants | 6 (gabapentin, pregabalin, duloxetine, sumatriptan, cyclobenzaprine, baclofen) | ⏳ | pain_lecture_drjames.txt |
 | 2 | Antimicrobials | ~23 (penicillins, cephalosporins, vancomycin, macrolides, tetracyclines, aminoglycosides, fluoroquinolones, sulfonamides, metronidazole, anti-TB, antifungals, antivirals) | ⏳ | antimicrobial_drjames.txt, pharmacology_B_drjames.txt |
