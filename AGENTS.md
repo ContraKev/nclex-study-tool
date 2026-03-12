@@ -81,7 +81,7 @@ Each block = new `const data_xxx = [...]` array added before data_loader.js, the
 | 1b | Pain: Opioid Agonists | 9 (morphine, codeine, oxycodone, hydrocodone, hydromorphone, fentanyl, methadone, meperidine, tramadol) | ✅ Done | pain_lecture_drjames.txt |
 | 1c | Pain: Partial Agonists + Antagonists | 5 (buprenorphine, nalbuphine, butorphanol, naloxone, naltrexone) | ✅ Done | pain_lecture_drjames.txt |
 | 1d | Pain: Adjuvants + Migraine + Muscle Relaxants | 6 (gabapentin, pregabalin, duloxetine, sumatriptan, cyclobenzaprine, baclofen) | ✅ Done | pain_lecture_drjames.txt |
-| 2 | Antimicrobials | ~23 (penicillins, cephalosporins, vancomycin, macrolides, tetracyclines, aminoglycosides, fluoroquinolones, sulfonamides, metronidazole, anti-TB, antifungals, antivirals) | ⏳ | antimicrobial_drjames.txt, pharmacology_B_drjames.txt |
+| 2 | Antimicrobials | 24 (penicillins, cephalosporins, vancomycin, macrolides, tetracyclines, aminoglycosides, fluoroquinolones, sulfonamides, metronidazole, anti-TB, antifungals, antivirals) | ✅ Done | antimicrobial_drjames.txt, pharmacology_B_drjames.txt |
 | 3 | Respiratory | ~15 (antihistamines, decongestants, antitussives, expectorants, mucolytics, bronchodilators, inhaled corticosteroids, leukotriene modifiers) | ⏳ | respiratory_pharm.txt, pharmacology_A_drjames.txt |
 | 4 | Corticosteroids/Immunity/Gout | ~8 (prednisone, methylprednisolone, dexamethasone, hydrocortisone, colchicine, allopurinol, methotrexate, hydroxychloroquine) | ⏳ | immunity_corticosteroids_drjames.txt |
 | 5 | Psych/CNS | ~8 (benzodiazepines, sedatives, anticonvulsants, antiparkinsonian, antipsychotics, SSRIs) | ⏳ | pharmacology_A_drjames.txt |

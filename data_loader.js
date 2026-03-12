@@ -48,4 +48,9 @@ if (typeof data_pain_opioid_agonists !== 'undefined') mergeData(data_pain_opioid
 if (typeof data_pain_partial_antagonists !== 'undefined') mergeData(data_pain_partial_antagonists);
 if (typeof data_pain_adjuvants !== 'undefined') mergeData(data_pain_adjuvants);
 
+// Antimicrobials Atomic Loads
+if (typeof data_antimicrobials_part1 !== 'undefined') mergeData(data_antimicrobials_part1);
+if (typeof data_antimicrobials_part2 !== 'undefined') mergeData(data_antimicrobials_part2);
+if (typeof data_antimicrobials_part3 !== 'undefined') mergeData(data_antimicrobials_part3);
+
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");
