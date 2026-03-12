@@ -110,6 +110,33 @@
         .bg-pink { background-color: #ec4899 !important; }
         .border-pink { border-color: #ec4899 !important; }
 
+        /* Custom button colors for drug filters */
+        .btn-outline-orange { color: #f97316; border-color: #f97316; }
+        .btn-outline-orange:hover, .btn-outline-orange.active-gi { color: #fff; background-color: #f97316; border-color: #f97316; }
+        .bg-orange { background-color: #f97316 !important; }
+
+        .btn-outline-pink { color: #ec4899; border-color: #ec4899; }
+        .btn-outline-pink:hover, .btn-outline-pink.active-endo, .btn-outline-pink.active-repro { color: #fff; background-color: #ec4899; border-color: #ec4899; }
+
+        .btn-outline-cyan { color: #06b6d4; border-color: #06b6d4; }
+        .btn-outline-cyan:hover, .btn-outline-cyan.active-neuro { color: #fff; background-color: #06b6d4; border-color: #06b6d4; }
+        .bg-cyan { background-color: #06b6d4 !important; }
+
+        .btn-outline-teal { color: #14b8a6; border-color: #14b8a6; }
+        .btn-outline-teal:hover, .btn-outline-teal.active-immun { color: #fff; background-color: #14b8a6; border-color: #14b8a6; }
+        .bg-teal { background-color: #14b8a6 !important; }
+
+        .btn-outline-purple:hover, .btn-outline-purple.active-cns { color: #fff; background-color: #8b5cf6; border-color: #8b5cf6; }
+
+        /* Active states for all filter buttons */
+        .btn-outline-primary.active-cv { color: #fff; background-color: #0d6efd; border-color: #0d6efd; }
+        .btn-outline-success.active-dm { color: #fff; background-color: #198754; border-color: #198754; }
+        .btn-outline-warning.active-pain, .btn-outline-warning.active-msk { color: #000; background-color: #ffc107; border-color: #ffc107; }
+        .btn-outline-danger.active-abx { color: #fff; background-color: #dc3545; border-color: #dc3545; }
+        .btn-outline-info.active-resp { color: #fff; background-color: #0dcaf0; border-color: #0dcaf0; }
+        .btn-outline-secondary.active-uro { color: #fff; background-color: #6c757d; border-color: #6c757d; }
+        .btn-outline-light.active-ophthal, .btn-outline-light.active-derm { color: #000; background-color: #f8f9fa; border-color: #f8f9fa; }
+
         .text-orange { color: #f97316 !important; }
         .bg-orange { background-color: #f97316 !important; }
         .border-orange { border-color: #f97316 !important; }
@@ -1137,11 +1164,34 @@
                         class="form-control bg-dark text-white border-secondary" placeholder="Search..."
                         onkeyup="renderDrugs()"></div>
                 <div class="col-md-4 text-center">
-                    <div class="btn-group w-100 shadow">
-                        <button id="btn-cv" class="btn btn-outline-primary active-cv"
-                            onclick="toggleFilter('cv')">Cardio</button>
-                        <button id="btn-dm" class="btn btn-outline-success active-dm"
-                            onclick="toggleFilter('dm')">Diabetes</button>
+                    <div class="dropdown w-100">
+                        <button class="btn btn-outline-accent dropdown-toggle w-100" type="button" id="categoryDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-filter me-2"></i>Filter Categories
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-dark p-3" style="min-width: 320px; max-height: 400px; overflow-y: auto;">
+                            <div class="d-flex justify-content-between mb-2">
+                                <button class="btn btn-sm btn-outline-success" onclick="selectAllFilters()">Select All</button>
+                                <button class="btn btn-sm btn-outline-danger" onclick="clearAllFilters()">Clear All</button>
+                            </div>
+                            <hr class="my-2 border-secondary">
+                            <div class="row g-2">
+                                <div class="col-6"><button id="btn-cv" class="btn btn-sm btn-outline-primary w-100 active-cv" onclick="toggleFilter('cv')"><i class="fas fa-heartbeat me-1"></i>Cardio <span class="badge bg-primary" id="count-cv">0</span></button></div>
+                                <div class="col-6"><button id="btn-dm" class="btn btn-sm btn-outline-success w-100 active-dm" onclick="toggleFilter('dm')"><i class="fas fa-tint me-1"></i>Diabetes <span class="badge bg-success" id="count-dm">0</span></button></div>
+                                <div class="col-6"><button id="btn-pain" class="btn btn-sm btn-outline-warning w-100 active-pain" onclick="toggleFilter('pain')"><i class="fas fa-pills me-1"></i>Pain <span class="badge bg-warning text-dark" id="count-pain">0</span></button></div>
+                                <div class="col-6"><button id="btn-abx" class="btn btn-sm btn-outline-danger w-100 active-abx" onclick="toggleFilter('abx')"><i class="fas fa-virus me-1"></i>Antimicro <span class="badge bg-danger" id="count-abx">0</span></button></div>
+                                <div class="col-6"><button id="btn-resp" class="btn btn-sm btn-outline-info w-100 active-resp" onclick="toggleFilter('resp')"><i class="fas fa-lungs me-1"></i>Resp <span class="badge bg-info" id="count-resp">0</span></button></div>
+                                <div class="col-6"><button id="btn-cns" class="btn btn-sm btn-outline-purple w-100 active-cns" onclick="toggleFilter('cns')"><i class="fas fa-brain me-1"></i>CNS/Psych <span class="badge bg-purple" id="count-cns">0</span></button></div>
+                                <div class="col-6"><button id="btn-gi" class="btn btn-sm btn-outline-orange w-100 active-gi" onclick="toggleFilter('gi')"><i class="fas fa-stomach me-1"></i>GI <span class="badge bg-orange" id="count-gi">0</span></button></div>
+                                <div class="col-6"><button id="btn-endo" class="btn btn-sm btn-outline-pink w-100 active-endo" onclick="toggleFilter('endo')"><i class="fas fa-shield-virus me-1"></i>Endocrine <span class="badge bg-pink" id="count-endo">0</span></button></div>
+                                <div class="col-6"><button id="btn-neuro" class="btn btn-sm btn-outline-cyan w-100 active-neuro" onclick="toggleFilter('neuro')"><i class="fas fa-head-side-brain me-1"></i>Neuro <span class="badge bg-cyan" id="count-neuro">0</span></button></div>
+                                <div class="col-6"><button id="btn-repro" class="btn btn-sm btn-outline-pink w-100 active-repro" onclick="toggleFilter('repro')"><i class="fas fa-venus-mars me-1"></i>Repro <span class="badge bg-pink" id="count-repro">0</span></button></div>
+                                <div class="col-6"><button id="btn-immun" class="btn btn-sm btn-outline-teal w-100 active-immun" onclick="toggleFilter('immun')"><i class="fas fa-shield-alt me-1"></i>Immune <span class="badge bg-teal" id="count-immun">0</span></button></div>
+                                <div class="col-6"><button id="btn-uro" class="btn btn-sm btn-outline-secondary w-100 active-uro" onclick="toggleFilter('uro')"><i class="fas fa-toilet me-1"></i>Urology <span class="badge bg-secondary" id="count-uro">0</span></button></div>
+                                <div class="col-6"><button id="btn-ophthal" class="btn btn-sm btn-outline-light w-100 active-ophthal" onclick="toggleFilter('ophthal')"><i class="fas fa-eye me-1"></i>Eye <span class="badge bg-light text-dark" id="count-ophthal">0</span></button></div>
+                                <div class="col-6"><button id="btn-msk" class="btn btn-sm btn-outline-warning w-100 active-msk" onclick="toggleFilter('msk')"><i class="fas fa-bone me-1"></i>MSK <span class="badge bg-warning text-dark" id="count-msk">0</span></button></div>
+                                <div class="col-6"><button id="btn-derm" class="btn btn-sm btn-outline-light w-100 active-derm" onclick="toggleFilter('derm')"><i class="fas fa-hand-dots me-1"></i>Derm <span class="badge bg-light text-dark" id="count-derm">0</span></button></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-end">
@@ -7854,7 +7904,7 @@ console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.
 // - drugDB Object: { g: generic, b: brand, c: class, m: moa, ind: indic, con: contra, aec: common, aes: severe, inter: [], dosage: str, admin: str, nurse: str }
 // - Mission Object: { numerical_id: int, title: str, patient_profile: {}, exhibits: [], steps: [] }
 
-let filters = { cv: true, dm: true };
+let filters = { cv: true, dm: true, pain: true, abx: true, resp: true, immun: true, cns: true, gi: true, endo: true, neuro: true, repro: true, uro: true, ophthal: true, msk: true, derm: true };
 let sortMode = 'az';
 let currentMission = null;
 let currentStepIndex = 0;
@@ -7940,6 +7990,7 @@ function renderDrugs() {
             </div>
         `).join('');
         document.getElementById('counter').innerText = `${filtered.length} Unique Generics`;
+        updateCategoryCounts();
     } catch (e) { Logger.error("Drug Grid Render Failed", e); }
 }
 
@@ -8100,7 +8151,42 @@ function renderSidecar() {
     `).join('') || '<div class="text-white-50 text-center mt-5">No matches found.</div>';
 }
 
-function toggleFilter(cat) { filters[cat] = !filters[cat]; document.getElementById(`btn-${cat}`).classList.toggle(`active-${cat}`, filters[cat]); renderDrugs(); }
+function toggleFilter(cat) { 
+    filters[cat] = !filters[cat]; 
+    document.getElementById(`btn-${cat}`).classList.toggle(`active-${cat}`, filters[cat]); 
+    renderDrugs(); 
+}
+
+function selectAllFilters() {
+    Object.keys(filters).forEach(cat => {
+        filters[cat] = true;
+        const btn = document.getElementById(`btn-${cat}`);
+        if (btn) btn.classList.add(`active-${cat}`);
+    });
+    renderDrugs();
+}
+
+function clearAllFilters() {
+    Object.keys(filters).forEach(cat => {
+        filters[cat] = false;
+        const btn = document.getElementById(`btn-${cat}`);
+        if (btn) btn.classList.remove(`active-${cat}`);
+    });
+    renderDrugs();
+}
+
+function updateCategoryCounts() {
+    if (!window.drugDB) return;
+    const counts = {};
+    window.drugDB.forEach(d => {
+        counts[d.cat] = (counts[d.cat] || 0) + 1;
+    });
+    Object.keys(filters).forEach(cat => {
+        const el = document.getElementById(`count-${cat}`);
+        if (el) el.textContent = counts[cat] || 0;
+    });
+}
+
 function setSort(mode) { sortMode = mode; document.getElementById('sort-az').classList.toggle('active', mode === 'az'); document.getElementById('sort-class').classList.toggle('active', mode === 'class'); renderDrugs(); }
 
 </script>
