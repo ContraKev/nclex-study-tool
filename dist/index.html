@@ -136,6 +136,9 @@
         .btn-outline-info.active-resp { color: #fff; background-color: #0dcaf0; border-color: #0dcaf0; }
         .btn-outline-secondary.active-uro { color: #fff; background-color: #6c757d; border-color: #6c757d; }
         .btn-outline-light.active-ophthal, .btn-outline-light.active-derm { color: #000; background-color: #f8f9fa; border-color: #f8f9fa; }
+        .btn-outline-danger.active-hem { color: #fff; background-color: #dc3545; border-color: #dc3545; }
+        .btn-outline-warning.active-emerg { color: #000; background-color: #ffc107; border-color: #ffc107; }
+        .btn-outline-info.active-lytes { color: #fff; background-color: #0dcaf0; border-color: #0dcaf0; }
 
         .text-orange { color: #f97316 !important; }
         .bg-orange { background-color: #f97316 !important; }
@@ -1190,6 +1193,9 @@
                                 <div class="col-6"><button id="btn-ophthal" class="btn btn-sm btn-outline-light w-100 active-ophthal" onclick="toggleFilter('ophthal')"><i class="fas fa-eye me-1"></i>Eye <span class="badge bg-light text-dark" id="count-ophthal">0</span></button></div>
                                 <div class="col-6"><button id="btn-msk" class="btn btn-sm btn-outline-warning w-100 active-msk" onclick="toggleFilter('msk')"><i class="fas fa-bone me-1"></i>MSK <span class="badge bg-warning text-dark" id="count-msk">0</span></button></div>
                                 <div class="col-6"><button id="btn-derm" class="btn btn-sm btn-outline-light w-100 active-derm" onclick="toggleFilter('derm')"><i class="fas fa-hand-dots me-1"></i>Derm <span class="badge bg-light text-dark" id="count-derm">0</span></button></div>
+                                <div class="col-6"><button id="btn-hem" class="btn btn-sm btn-outline-danger w-100 active-hem" onclick="toggleFilter('hem')"><i class="fas fa-droplet me-1"></i>Heme <span class="badge bg-danger" id="count-hem">0</span></button></div>
+                                <div class="col-6"><button id="btn-emerg" class="btn btn-sm btn-outline-warning w-100 active-emerg" onclick="toggleFilter('emerg')"><i class="fas fa-bolt me-1"></i>Emerg <span class="badge bg-warning text-dark" id="count-emerg">0</span></button></div>
+                                <div class="col-6"><button id="btn-lytes" class="btn btn-sm btn-outline-info w-100 active-lytes" onclick="toggleFilter('lytes')"><i class="fas fa-flask me-1"></i>Lytes/IV <span class="badge bg-info" id="count-lytes">0</span></button></div>
                             </div>
                         </div>
                     </div>
@@ -7800,7 +7806,863 @@ const data_osteoporosis = [
 
 </script>
 
+        <script>
+/* SOURCE: data_dermatology.js */
+/* Dermatology Drugs - NCLEX Essential
+   Common topical and systemic dermatologic agents */
+
+const data_dermatology = [
+    {
+        g: "Hydrocortisone", b: "Cortaid, Cortizone-10", c: "Topical Corticosteroid (Low Potency)", cat: "derm",
+        m: "Binds to intracellular glucocorticoid receptors → inhibits phospholipase A2 → reduces arachidonic acid release → decreases prostaglandins and leukotrienes. Anti-inflammatory, antipruritic, and vasoconstrictive effects.",
+        ind: "Mild inflammatory skin conditions: contact dermatitis, eczema, insect bites, minor rashes, diaper rash. Safe for face and intertriginous areas.",
+        con: "Viral skin infections (herpes, varicella). Fungal infections (unless combined with antifungal). Bacterial skin infections. Rosacea, perioral dermatitis.",
+        aec: "Skin atrophy with prolonged use. Striae (stretch marks). Telangiectasia. Burning/stinging on application. Folliculitis.",
+        aes: "HPA axis suppression (rare with topical). Cushing syndrome (prolonged large-area use). Skin ulceration. Secondary infection.",
+        inter: [
+            {d: "Other corticosteroids", m: "Additive HPA suppression", s: "med"}
+        ],
+        dosage: "Apply thin layer to affected area 2-4 times daily. OTC: 0.5-1%. Rx: up to 2.5%.",
+        admin: "Clean and dry area before application. Rub in gently. Do NOT cover with occlusive dressing unless directed. Avoid eyes and mucous membranes.",
+        nurse: "⚠️ TEACH: Use lowest potency for shortest duration. Do NOT use on face for >2 weeks without MD guidance. Watch for skin thinning, especially in elderly. If no improvement in 2 weeks, reassess diagnosis. Do NOT stop abruptly after prolonged use."
+    },
+    {
+        g: "Triamcinolone", b: "Kenalog, Aristocort", c: "Topical Corticosteroid (Medium Potency)", cat: "derm",
+        m: "Intermediate-potency fluorinated corticosteroid. Inhibits inflammatory mediators. More potent anti-inflammatory effect than hydrocortisone due to fluorination.",
+        ind: "Moderate inflammatory dermatoses: psoriasis, eczema, allergic dermatitis, lichen planus. NOT for face or groin without careful monitoring.",
+        con: "Primary skin infections. Facial use (risk of atrophy). Perioral dermatitis. Rosacea. Children <2 years.",
+        aec: "Skin atrophy. Hypopigmentation. Acneiform eruptions. Delayed wound healing. Perioral dermatitis (if used on face).",
+        aes: "HPA axis suppression. Cushing syndrome. Glaucoma (periorbital use). Severe skin atrophy with striae.",
+        inter: [
+            {d: "Occlusive dressings", m: "Increases absorption 10-fold", s: "high"}
+        ],
+        dosage: "Apply thin film 2-3 times daily. Cream: 0.025-0.5%. Ointment for dry, scaly lesions.",
+        admin: "Apply sparingly. Ointments more occlusive than creams. Avoid prolonged use on thin-skinned areas. Taper if used >2 weeks.",
+        nurse: "⚠️ STRONGER than hydrocortisone — not for mild conditions. Avoid face, axillae, groin. Monitor for skin changes. Teach patient to use fingertip unit (FTU) dosing. If condition worsens, suspect secondary infection or contact allergy to vehicle."
+    },
+    {
+        g: "Clobetasol", b: "Temovate, Clobex, Olux", c: "Topical Corticosteroid (Super-High Potency)", cat: "derm",
+        m: "Most potent topical corticosteroid available. Profound anti-inflammatory and immunosuppressive effects. Reserved for severe, resistant dermatoses.",
+        ind: "Severe psoriasis (plaque). Severe eczema/dermatitis unresponsive to lower-potency steroids. Discoid lupus. Lichen planus.",
+        con: "Face, groin, axillae. Primary skin infections. Rosacea. Perioral dermatitis. Children. Pregnancy (use only if clearly needed).",
+        aec: "Rapid skin atrophy. Telangiectasia. Striae (often permanent). Burning, stinging. Folliculitis. Hypopigmentation.",
+        aes: "HPA axis suppression (common with prolonged use). Cushing syndrome. Adrenal insufficiency on withdrawal. Glaucoma, cataracts (periorbital).",
+        inter: [
+            {d: "Other corticosteroids", m: "Cumulative HPA suppression", s: "high"},
+            {d: "Occlusive dressings", m: "Dramatically increases systemic absorption", s: "high"}
+        ],
+        dosage: "Apply thin layer 1-2 times daily. MAX: 50g/week, 2 consecutive weeks. Do NOT exceed 2 weeks continuous use.",
+        admin: "Use for shortest duration possible. Never use under occlusion. Never use on face. Taper or switch to lower potency when controlled.",
+        nurse: "⚠️ SUPER-HIGH POTENCY — reserve for severe cases only. Strict 2-week limit. Never on face/groin/axillae. Monitor for adrenal suppression signs (fatigue, hypotension). Permanent striae can occur rapidly. Educate: 'Stronger is not always better.'"
+    },
+    {
+        g: "Mupirocin", b: "Bactroban, Centany", c: "Topical Antibiotic", cat: "derm",
+        m: "Inhibits bacterial isoleucyl-tRNA synthetase → blocks protein synthesis. Bactericidal at high concentrations. Excellent against gram-positive organisms including MRSA.",
+        ind: "Impetigo. Secondary skin infections. MRSA decolonization (nasal). Minor wounds, burns, lacerations with infection risk.",
+        con: "Hypersensitivity to mupirocin or polyethylene glycol base. Large open wounds (systemic absorption of PEG).",
+        aec: "Burning, stinging at application site. Pruritus. Contact dermatitis. Dry skin.",
+        aes: "Rare: Severe allergic reaction. Superinfection with prolonged use. C. difficile (rare with topical).",
+        inter: [
+            {d: "Other topical products", m: "May decrease efficacy if mixed", s: "low"}
+        ],
+        dosage: "Skin: Apply small amount 3 times daily for 5-10 days. Nasal (MRSA decolonization): Apply to each nostril BID x 5 days.",
+        admin: "Clean wound before application. May cover with gauze. Nasal: Apply with cotton swab, press nostrils together to distribute.",
+        nurse: "⚠️ EFFECTIVE AGAINST MRSA — often first-line for skin MRSA. Complete full course even if improved. Nasal decolonization: teach proper technique. Watch for resistance with overuse. Not for large wounds (PEG toxicity risk in renal impairment)."
+    },
+    {
+        g: "Benzoyl Peroxide", b: "Clearasil, PanOxyl, Benzac", c: "Topical Acne Agent (Keratolytic/Antibacterial)", cat: "derm",
+        m: "Releases free oxygen radicals → bactericidal against P. acnes. Keratolytic effect breaks down keratin in follicles. Reduces comedones and inflammatory lesions.",
+        ind: "Acne vulgaris (mild to moderate). Often combined with topical antibiotics or retinoids.",
+        con: "Hypersensitivity. Very sensitive skin. Open wounds.",
+        aec: "Dryness, peeling, erythema (common initially). Bleaching of hair, fabrics, towels. Contact dermatitis.",
+        aes: "Severe allergic reaction (rare). Severe skin irritation requiring discontinuation.",
+        inter: [
+            {d: "Tretinoin", m: "May cause excessive irritation if applied together; apply at different times", s: "med"},
+            {d: "Dapsone topical", m: "Causes temporary orange/yellow skin discoloration", s: "med"}
+        ],
+        dosage: "Start with 2.5% once daily, increase to 5-10% as tolerated. Apply once or twice daily.",
+        admin: "Start low concentration, increase gradually. Apply to dry skin. Avoid eyes, lips, mucous membranes. Use sunscreen (increases photosensitivity).",
+        nurse: "⚠️ WARN ABOUT BLEACHING — will stain towels, pillowcases, clothing. Start low (2.5%) to minimize irritation. Dryness/peeling is expected initially — use oil-free moisturizer. Takes 6-8 weeks for full effect. Can use with antibiotics to prevent resistance."
+    },
+    {
+        g: "Tretinoin", b: "Retin-A, Renova, Atralin", c: "Topical Retinoid", cat: "derm",
+        m: "Vitamin A derivative that binds retinoic acid receptors → normalizes follicular keratinization → reduces comedone formation. Increases cell turnover, promotes collagen synthesis.",
+        ind: "Acne vulgaris. Photoaging (fine wrinkles, mottled hyperpigmentation). Adjunct for melasma.",
+        con: "⚠️ PREGNANCY (Category C but treated as X) — teratogenic. Eczema. Sunburn. Concurrent use of irritating products.",
+        aec: "Dryness, peeling, erythema (retinoid dermatitis). Photosensitivity (SEVERE). Initial acne flare ('purging'). Burning, stinging.",
+        aes: "Severe irritation. Blistering. Hyperpigmentation (paradoxical, especially in darker skin tones).",
+        inter: [
+            {d: "Benzoyl peroxide", m: "Oxidizes tretinoin if applied simultaneously", s: "med"},
+            {d: "Other drying agents", m: "Additive irritation", s: "med"},
+            {d: "Photosensitizing drugs", m: "Increased sun sensitivity", s: "med"}
+        ],
+        dosage: "Apply pea-sized amount to entire face once daily at bedtime. Start every other night if sensitive.",
+        admin: "Apply to DRY skin 20-30 minutes after washing (wet skin increases absorption and irritation). Avoid eyes, mouth, angles of nose. Use sunscreen daily (SPF 30+).",
+        nurse: "⚠️ TERATOGENIC — ensure negative pregnancy test, discuss contraception. Expect initial worsening ('purging') weeks 2-6. Takes 8-12 weeks for improvement. MUST use sunscreen daily. Apply at NIGHT only. Start slow — every other night acceptable. Peeling = normal; blistering = stop."
+    },
+    {
+        g: "Adapalene", b: "Differin, Epiduo (with BP)", c: "Topical Retinoid", cat: "derm",
+        m: "Third-generation retinoid that selectively binds RAR-beta and RAR-gamma receptors. Normalizes keratinization, reduces inflammation. Better tolerated than tretinoin.",
+        ind: "Acne vulgaris (now OTC 0.1%). Preferred retinoid for sensitive skin or retinoid-naive patients.",
+        con: "Pregnancy. Eczematous skin. Sunburned skin.",
+        aec: "Dryness, scaling (less than tretinoin). Erythema. Mild burning. Photosensitivity (less than tretinoin).",
+        aes: "Severe irritation (rare). Allergic contact dermatitis.",
+        inter: [
+            {d: "Other retinoids", m: "Do not combine — no added benefit, increased irritation", s: "high"},
+            {d: "Harsh cleansers/scrubs", m: "Increased irritation", s: "med"}
+        ],
+        dosage: "Apply thin layer once daily at bedtime. OTC: 0.1% gel. Rx: 0.1% and 0.3%.",
+        admin: "Apply to dry skin. Gentler than tretinoin — good starting retinoid. Can combine with benzoyl peroxide (apply at different times or use combo product).",
+        nurse: "⚠️ NOW OTC (Differin 0.1%) — first OTC retinoid. Good choice for retinoid beginners — less irritating. Still needs pregnancy counseling. Takes 8-12 weeks for results. Less photosensitivity than tretinoin but still recommend sunscreen."
+    },
+    {
+        g: "Clindamycin Topical", b: "Cleocin T, Clindagel, Evoclin", c: "Topical Antibiotic (Acne)", cat: "derm",
+        m: "Lincosamide antibiotic that inhibits bacterial protein synthesis (50S ribosomal subunit). Reduces P. acnes colonization and inflammation.",
+        ind: "Inflammatory acne vulgaris. Usually combined with benzoyl peroxide to prevent resistance.",
+        con: "History of antibiotic-associated colitis. Regional enteritis. Ulcerative colitis.",
+        aec: "Dryness. Oily skin (solution formulation). Peeling. Erythema. Burning/stinging.",
+        aes: "Pseudomembranous colitis (rare but reported with topical). Antibiotic resistance development.",
+        inter: [
+            {d: "Erythromycin topical", m: "Antagonistic — do not combine", s: "high"},
+            {d: "Neuromuscular blockers", m: "May enhance blockade (systemic absorption)", s: "low"}
+        ],
+        dosage: "Apply thin film twice daily (morning and evening). Available as solution, gel, lotion, foam, pledgets.",
+        admin: "Apply to entire affected area, not just spots. ALWAYS combine with benzoyl peroxide to prevent P. acnes resistance.",
+        nurse: "⚠️ NEVER USE ALONE — monotherapy leads to antibiotic resistance. Always pair with benzoyl peroxide (can use combo product like Duac, BenzaClin). Rare but report any diarrhea — topical can cause C. diff. Lotion/foam better for larger areas."
+    },
+    {
+        g: "Ketoconazole Topical", b: "Nizoral, Xolegel, Extina", c: "Topical Antifungal (Azole)", cat: "derm",
+        m: "Imidazole antifungal that inhibits fungal cytochrome P450 enzyme (14-alpha demethylase) → blocks ergosterol synthesis → disrupts fungal cell membrane integrity.",
+        ind: "Tinea infections (corporis, cruris, pedis, versicolor). Seborrheic dermatitis. Dandruff (shampoo).",
+        con: "Hypersensitivity to azoles.",
+        aec: "Local irritation. Pruritus. Stinging. Dryness.",
+        aes: "Severe allergic reaction (rare). Contact dermatitis.",
+        inter: [
+            {d: "Topical corticosteroids", m: "Often combined beneficially for seborrheic dermatitis", s: "low"}
+        ],
+        dosage: "Cream/gel: Apply once or twice daily for 2-4 weeks. Shampoo: Use twice weekly, leave on 3-5 minutes.",
+        admin: "Continue 2 weeks after symptoms resolve to prevent recurrence. Shampoo can be used on body for tinea versicolor (leave on 5 min before rinsing).",
+        nurse: "⚠️ COMMON NCLEX: Tinea versicolor — causes hypopigmented patches, worse in summer. Shampoo formulation works for scalp AND body tinea. Teach: Tinea pedis — dry feet thoroughly, wear breathable shoes. Complete full course even if improved."
+    },
+    {
+        g: "Terbinafine Topical", b: "Lamisil AT, Lamisil", c: "Topical Antifungal (Allylamine)", cat: "derm",
+        m: "Allylamine antifungal that inhibits squalene epoxidase → blocks ergosterol synthesis earlier in pathway than azoles. Fungicidal (kills fungi) vs. azoles (fungistatic).",
+        ind: "Tinea pedis (athlete's foot). Tinea cruris (jock itch). Tinea corporis (ringworm). Often preferred for dermatophyte infections.",
+        con: "Hypersensitivity to terbinafine.",
+        aec: "Local irritation. Burning. Dryness. Redness.",
+        aes: "Allergic reaction (rare with topical).",
+        inter: [],
+        dosage: "Apply once or twice daily for 1-4 weeks depending on infection site. Tinea pedis: 2-4 weeks. Tinea cruris/corporis: 1-2 weeks.",
+        admin: "Clean and dry affected area before application. Apply to surrounding healthy skin as well. OTC for most tinea infections.",
+        nurse: "⚠️ FUNGICIDAL — often more effective than azoles for dermatophytes. Shorter treatment course than azoles. Oral form used for onychomycosis (nail fungus) — requires liver monitoring. Topical OTC for athlete's foot, jock itch."
+    },
+    {
+        g: "Permethrin", b: "Elimite, Nix, Acticin", c: "Topical Antiparasitic (Scabicide/Pediculicide)", cat: "derm",
+        m: "Synthetic pyrethroid that disrupts sodium channel function in parasites → causes paralysis and death of scabies mites and lice. Ovicidal (kills eggs).",
+        ind: "Scabies (5% cream). Head lice / Pediculosis (1% cream rinse OTC). Pubic lice.",
+        con: "Hypersensitivity to pyrethrins/pyrethroids or chrysanthemums. Infants <2 months (scabies).",
+        aec: "Pruritus (may worsen initially). Burning, stinging. Tingling. Erythema. Rash.",
+        aes: "Severe allergic reaction. Seizures (very rare, usually with misuse).",
+        inter: [],
+        dosage: "SCABIES (5%): Apply from neck down to entire body, leave on 8-14 hours (overnight), rinse off. Repeat in 7 days. LICE (1%): Apply to clean, damp hair, leave 10 minutes, rinse.",
+        admin: "Scabies: Apply to ALL skin from jawline down including under nails, between fingers/toes, buttocks, genitals. Wash all bedding, clothing in hot water.",
+        nurse: "⚠️ NCLEX FAVORITE: Scabies treatment protocol — apply neck to toes, leave overnight, wash off AM. Treat ALL household contacts simultaneously. Wash all linens/clothing in HOT water, dry on high heat. Itching may persist 2-4 weeks after successful treatment (dead mite reaction). Second treatment in 1 week."
+    },
+    {
+        g: "Lindane", b: "Kwell (discontinued brand)", c: "Topical Antiparasitic (Scabicide/Pediculicide)", cat: "derm",
+        m: "Organochlorine insecticide that is absorbed through parasite exoskeleton → causes CNS excitation → seizures and death in parasites. Also affects human CNS — neurotoxic.",
+        ind: "SECOND-LINE ONLY for scabies and lice when other treatments fail. Rarely used due to neurotoxicity.",
+        con: "⚠️ SEIZURE DISORDERS. Premature infants. Neonates. Pregnancy/lactation. Elderly (thin skin increases absorption). Extensive dermatitis (increases absorption).",
+        aec: "Skin irritation. Eczematous rash. Pruritus.",
+        aes: "⚠️ SEIZURES (especially in children, elderly, or with misuse). CNS toxicity. Aplastic anemia. Neurotoxicity.",
+        inter: [
+            {d: "Drugs lowering seizure threshold", m: "Increased seizure risk", s: "high"}
+        ],
+        dosage: "Apply thin layer to dry skin from neck down, leave on 8-12 hours (scabies) or 4 minutes (lice shampoo). ONE application only.",
+        admin: "⚠️ APPLY TO DRY SKIN ONLY — wet/damaged skin increases absorption. Do NOT repeat application. Do NOT use after bath (vasodilation increases absorption).",
+        nurse: "⚠️ BLACK BOX WARNING: Neurotoxicity, seizures. SECOND-LINE ONLY — use permethrin first. Never use on infants, elderly, pregnant, or seizure patients. ONE application only — never repeat. Apply to COMPLETELY DRY skin. Teach: Not more effective than permethrin, just more toxic."
+    },
+    {
+        g: "Silver Sulfadiazine", b: "Silvadene, SSD, Thermazene", c: "Topical Antimicrobial (Burns)", cat: "derm",
+        m: "Releases silver ions that bind to bacterial DNA and cell membranes → bactericidal. Broad-spectrum: gram-positive, gram-negative, yeast. Sulfonamide component also antibacterial.",
+        ind: "Prevention and treatment of burn wound infections (second and third-degree burns). Prophylaxis for skin grafts.",
+        con: "⚠️ SULFA ALLERGY. Pregnancy near term (kernicterus risk). Premature infants/neonates. G6PD deficiency (hemolysis risk).",
+        aec: "Transient leukopenia (usually resolves). Skin discoloration. Burning sensation. Rash. Pruritus.",
+        aes: "Bone marrow suppression (rare). Hemolysis in G6PD deficiency. Kernicterus in neonates. Sulfa-related Stevens-Johnson syndrome.",
+        inter: [
+            {d: "Enzymatic debriding agents", m: "Silver inactivates collagenase — do not use together", s: "high"}
+        ],
+        dosage: "Apply 1/16-inch thick layer to burn wound once or twice daily. Keep wound covered at all times.",
+        admin: "Use sterile technique. Apply with gloved hand or sterile applicator. Reapply when rubbed off or removed by activity. Continue until healing or ready for grafting.",
+        nurse: "⚠️ SULFA DRUG — assess allergy. Monitor CBC weekly (transient leukopenia common days 2-4, usually resolves). Creates pseudoeschar (white/gray coating) — normal, not infection. May delay wound healing slightly. NOT for facial burns (use alternative). Stains gray — normal."
+    },
+    {
+        g: "Calamine", b: "Caladryl (with diphenhydramine)", c: "Topical Antipruritic/Astringent", cat: "derm",
+        m: "Zinc oxide + iron oxide mixture. Provides protective barrier, mild antiseptic effect, cooling sensation through evaporation. Counterirritant effect distracts from itch.",
+        ind: "Poison ivy/oak/sumac. Insect bites. Chickenpox. Sunburn. Minor skin irritations.",
+        con: "Do not apply to open wounds, blistered skin, or weeping lesions.",
+        aec: "Skin dryness. Contact dermatitis (rare).",
+        aes: "None significant with proper use.",
+        inter: [],
+        dosage: "Apply to affected area as needed, up to 3-4 times daily. Shake well before use.",
+        admin: "Apply with cotton ball or clean hands. Allow to dry. Can be washed off and reapplied. Avoid eyes and mucous membranes.",
+        nurse: "OTC and safe for most patients including children. Helps dry weeping lesions (poison ivy). Pink color is cosmetic (iron oxide). Caladryl contains diphenhydramine — avoid systemic diphenhydramine concurrently. Teach: For poison ivy, wash all clothing/objects that contacted plant oil."
+    },
+    {
+        g: "Diphenhydramine Topical", b: "Benadryl Cream/Spray", c: "Topical Antihistamine", cat: "derm",
+        m: "H1-receptor antagonist applied topically provides local antipruritic effect. Also has mild local anesthetic properties.",
+        ind: "Insect bites. Poison ivy/oak (mild). Minor burns. Sunburn. Pruritus.",
+        con: "Chickenpox. Measles. Extensive area application. Blistered/broken skin.",
+        aec: "Local irritation. Photosensitivity. Drowsiness (with large area application).",
+        aes: "Allergic contact dermatitis. Systemic absorption toxicity (especially in children with large area use).",
+        inter: [
+            {d: "Oral diphenhydramine", m: "Additive systemic effects — avoid concurrent use", s: "high"},
+            {d: "Other CNS depressants", m: "Additive sedation if absorbed systemically", s: "med"}
+        ],
+        dosage: "Apply to affected area 3-4 times daily. Do not exceed 25g per day or 25% body surface area.",
+        admin: "Do not use on large areas, broken skin, or in children under 2 without medical advice. Avoid with concurrent oral antihistamines.",
+        nurse: "⚠️ SYSTEMIC ABSORPTION WARNING — topical diphenhydramine CAN cause systemic anticholinergic effects, especially in children and elderly. Do NOT use with oral Benadryl. Do NOT use on chickenpox (extensive area). For large areas or children, use calamine or hydrocortisone instead."
+    },
+    {
+        g: "Minoxidil Topical", b: "Rogaine, Theroxidil", c: "Hair Growth Stimulant", cat: "derm",
+        m: "Originally oral antihypertensive. Topically: opens potassium channels → vasodilation of scalp blood vessels → improves follicle nutrition. Also prolongs anagen (growth) phase of hair cycle.",
+        ind: "Androgenetic alopecia (male and female pattern baldness). Must use continuously to maintain effect.",
+        con: "Hypersensitivity. Pregnancy/breastfeeding (Category C). Do not use on other body areas (causes unwanted hair growth).",
+        aec: "Scalp irritation. Dryness. Scaling. Pruritus. Initial hair shedding (first 2-4 weeks). Unwanted facial hair (especially women).",
+        aes: "Hypotension, tachycardia (rare, with excessive use or broken skin). Chest pain. Edema.",
+        inter: [
+            {d: "Antihypertensives", m: "May have additive hypotensive effects if absorbed", s: "low"},
+            {d: "Retinoids (topical)", m: "May increase minoxidil absorption", s: "med"}
+        ],
+        dosage: "Apply 1mL to affected scalp areas twice daily. Men: 2% or 5% solution. Women: 2% typically (5% may cause facial hair).",
+        admin: "Apply to DRY scalp. Do not wash hair for 4 hours after application. Wash hands thoroughly after applying. Takes 4-6 months to see results.",
+        nurse: "SET EXPECTATIONS: Takes 4-6 months for visible results. Initial shedding is NORMAL (old hairs falling to make way for new). Must use FOREVER — stopping causes loss of new hair within 3-6 months. Women should use 2% to avoid facial hair. Watch for cardiac symptoms with overuse."
+    }
+];
+
+</script>
     <script>
+/* SOURCE: data_hematology.js */
+/* Hematology & Blood Products - NCLEX Essential
+   Anemia treatments, growth factors, blood products */
+
+const data_hematology = [
+    {
+        g: "Ferrous Sulfate", b: "Feosol, Slow FE, Fer-In-Sol", c: "Iron Supplement", cat: "hem",
+        m: "Elemental iron essential for hemoglobin synthesis. Absorbed primarily in duodenum. Incorporated into hemoglobin in RBC precursors in bone marrow.",
+        ind: "Iron deficiency anemia (most common anemia). Pregnancy (increased iron needs). Chronic blood loss (menorrhagia, GI bleeding). Inadequate dietary intake.",
+        con: "Hemochromatosis. Hemolytic anemias (not iron deficiency). Iron overload. Repeated blood transfusions. GI obstruction.",
+        aec: "⚠️ GI UPSET (very common): Nausea, constipation, dark/black stools, abdominal cramping. Teeth staining (liquid forms). Metallic taste.",
+        aes: "Iron toxicity/overdose (especially in children — leading cause of pediatric poisoning death). GI hemorrhage. Hepatotoxicity.",
+        inter: [
+            {d: "Antacids, PPIs, H2 blockers", m: "Decrease iron absorption — need acidic environment", s: "high"},
+            {d: "Tetracyclines, fluoroquinolones", m: "Iron chelates antibiotics — separate by 2-4 hours", s: "high"},
+            {d: "Levothyroxine", m: "Iron decreases thyroid hormone absorption — separate by 4 hours", s: "high"},
+            {d: "Calcium supplements", m: "Decreases iron absorption", s: "med"}
+        ],
+        dosage: "Adults: 325mg (65mg elemental iron) 1-3 times daily. Children: 3-6mg/kg/day elemental iron. Take for 3-6 months to replenish stores.",
+        admin: "Take on EMPTY STOMACH for best absorption (1 hour before or 2 hours after meals). If GI upset intolerable, take with small amount of food (decreases absorption 50%). Take with vitamin C (enhances absorption).",
+        nurse: "⚠️ BLACK STOOLS ARE NORMAL — but test for occult blood if concerned about GI bleed. Warn about constipation — increase fluids, fiber. Liquid forms: use straw, rinse mouth (prevents teeth staining). KEEP AWAY FROM CHILDREN — iron overdose is deadly. Reticulocyte count should increase in 1 week; Hgb in 2-4 weeks."
+    },
+    {
+        g: "Iron Dextran", b: "INFeD, Dexferrum", c: "Parenteral Iron", cat: "hem",
+        m: "Iron-dextran complex given IM or IV when oral iron not tolerated or absorption impaired. Iron released slowly from complex, taken up by reticuloendothelial system, then incorporated into hemoglobin.",
+        ind: "Iron deficiency anemia when oral therapy fails or contraindicated. Malabsorption syndromes. Inflammatory bowel disease. Chronic kidney disease on dialysis. Significant ongoing blood loss.",
+        con: "Hypersensitivity to iron dextran. Anemias not due to iron deficiency. Acute kidney infection.",
+        aec: "Injection site reactions (IM). Headache. Dizziness. Nausea. Flushing. Brown discoloration at injection site.",
+        aes: "⚠️ ANAPHYLAXIS (black box warning) — test dose required. Delayed reactions (1-2 days): arthralgia, myalgia, fever. Hypotension. Respiratory distress.",
+        inter: [
+            {d: "ACE inhibitors", m: "Increased risk of anaphylactoid reactions", s: "med"},
+            {d: "Chloramphenicol", m: "May delay response to iron therapy", s: "low"}
+        ],
+        dosage: "Total dose calculated based on hemoglobin deficit and body weight. Test dose: 25mg IV over 5 min, observe 1 hour before full dose.",
+        admin: "⚠️ TEST DOSE MANDATORY. Have epinephrine, resuscitation equipment available. IV preferred over IM. If IM: use Z-track technique (prevents skin staining). Infuse slowly.",
+        nurse: "⚠️ BLACK BOX: ANAPHYLAXIS RISK — test dose required. Monitor for 1 hour after test dose, 30 min after each dose. Have crash cart ready. Signs of reaction: dyspnea, chest pain, hypotension, urticaria. IM injection: Z-track technique prevents permanent skin staining. Monitor H&H in 2-4 weeks."
+    },
+    {
+        g: "Iron Sucrose", b: "Venofer", c: "Parenteral Iron", cat: "hem",
+        m: "Iron-sucrose complex for IV administration. Lower molecular weight than iron dextran → lower anaphylaxis risk. Iron released to transferrin after uptake by reticuloendothelial system.",
+        ind: "Iron deficiency anemia in chronic kidney disease (dialysis and non-dialysis). When oral iron ineffective or contraindicated.",
+        con: "Iron overload. Anemias not due to iron deficiency. Known hypersensitivity.",
+        aec: "Hypotension (especially if infused too fast). Headache. Nausea. Muscle cramps. Pruritus.",
+        aes: "Anaphylaxis (rare, less than iron dextran). Hypotension. Chest pain. Dyspnea.",
+        inter: [
+            {d: "Oral iron supplements", m: "Reduce absorption of oral iron — separate dosing", s: "low"}
+        ],
+        dosage: "CKD-dialysis: 100mg per dialysis session x 10 doses (1000mg total). CKD-nondialysis: 200mg x 5 doses over 14 days.",
+        admin: "IV push (100mg over 2-5 min) or IV infusion (dilute in NS, infuse over 15+ min). No test dose required but observe for reactions. Give during dialysis for HD patients.",
+        nurse: "SAFER than iron dextran — no test dose required, but still monitor for reactions. Watch BP during infusion (hypotension common with fast infusion). Can be given during hemodialysis. Black box warning removed (lower risk than dextran). Still have resuscitation equipment available."
+    },
+    {
+        g: "Cyanocobalamin", b: "Nascobal, B12 injections", c: "Vitamin B12 Supplement", cat: "hem",
+        m: "Essential cofactor for DNA synthesis and myelin maintenance. Required for conversion of methylmalonyl-CoA to succinyl-CoA and homocysteine to methionine. Deficiency → megaloblastic anemia and neurological damage.",
+        ind: "Vitamin B12 deficiency. Pernicious anemia (intrinsic factor deficiency). Post-gastrectomy. Malabsorption syndromes. Strict vegetarian/vegan diet. Metformin-induced B12 deficiency.",
+        con: "Leber's hereditary optic neuropathy (can cause optic atrophy). Cobalt hypersensitivity.",
+        aec: "Injection site pain. Diarrhea. Itching. Hypokalemia (during initial treatment as RBCs are made). Flushing.",
+        aes: "Anaphylaxis (rare). Pulmonary edema. Heart failure (fluid retention). Hypokalemia (can be severe).",
+        inter: [
+            {d: "Metformin", m: "Decreases B12 absorption — monitor levels", s: "med"},
+            {d: "PPIs, H2 blockers", m: "Decrease B12 absorption (need acid for release from food)", s: "med"},
+            {d: "Colchicine", m: "Decreases B12 absorption", s: "low"}
+        ],
+        dosage: "Deficiency: 1000mcg IM daily x 7 days, then weekly x 4 weeks, then monthly for life (pernicious anemia). Oral: 1000-2000mcg daily.",
+        admin: "IM or deep SubQ for pernicious anemia (no intrinsic factor = no oral absorption). Oral supplements work for dietary deficiency only. Nasal spray available (Nascobal).",
+        nurse: "⚠️ PERNICIOUS ANEMIA = LIFELONG INJECTIONS (no intrinsic factor to absorb oral B12). Check potassium during initial treatment — hypokalemia can occur as new RBCs are made. Neurological symptoms (paresthesias, ataxia) may be permanent if treatment delayed. Assess for neuro changes. Reticulocyte count increases in 3-4 days."
+    },
+    {
+        g: "Folic Acid", b: "Folate, Folvite", c: "Vitamin B9 Supplement", cat: "hem",
+        m: "Essential for DNA/RNA synthesis and amino acid metabolism. Converted to tetrahydrofolate (active form). Critical during pregnancy for neural tube development. Deficiency → megaloblastic anemia.",
+        ind: "Folate deficiency anemia. Pregnancy (neural tube defect prevention). Methotrexate rescue (leucovorin). Alcoholism. Malabsorption. Hemolytic anemias. Dialysis patients.",
+        con: "Undiagnosed anemia (can mask B12 deficiency). Pernicious anemia (unless with B12 — folic acid alone worsens neuro symptoms).",
+        aec: "Rare: Nausea. Altered sleep patterns. Irritability. GI disturbances.",
+        aes: "Can mask B12 deficiency → irreversible neurological damage. Allergic reactions (rare).",
+        inter: [
+            {d: "Phenytoin", m: "Mutual decrease in levels", s: "high"},
+            {d: "Methotrexate", m: "Folic acid antagonizes methotrexate effect", s: "high"},
+            {d: "Sulfasalazine", m: "Decreases folate absorption", s: "med"}
+        ],
+        dosage: "Deficiency: 1mg daily. Pregnancy: 400-800mcg daily (4mg if previous neural tube defect). Dialysis: 1mg daily.",
+        admin: "Oral, can take with or without food. Begin folate supplementation BEFORE conception for neural tube defect prevention.",
+        nurse: "⚠️ CRITICAL PREGNANCY COUNSELING: Start folate BEFORE pregnancy — neural tube closes by day 28 (often before pregnancy known). Do NOT use folate alone for undiagnosed anemia — must rule out B12 deficiency first (folate corrects anemia but neuro damage progresses). High-risk pregnancies need 4mg daily."
+    },
+    {
+        g: "Epoetin Alfa", b: "Epogen, Procrit", c: "Erythropoiesis-Stimulating Agent (ESA)", cat: "hem",
+        m: "Recombinant human erythropoietin. Binds to erythropoietin receptors on erythroid progenitor cells in bone marrow → stimulates RBC production. Mimics natural kidney-produced erythropoietin.",
+        ind: "Anemia of chronic kidney disease (most common). Chemotherapy-induced anemia. Zidovudine-induced anemia in HIV. Reduce need for transfusion in surgical patients.",
+        con: "⚠️ Uncontrolled hypertension. Pure red cell aplasia (anti-erythropoietin antibodies). History of serious allergic reaction.",
+        aec: "Hypertension (very common). Headache. Arthralgia. Injection site reactions. Flu-like symptoms.",
+        aes: "⚠️ THROMBOEMBOLIC EVENTS (stroke, MI, DVT). Pure red cell aplasia. Hypertensive encephalopathy. Seizures. Tumor progression (in cancer).",
+        inter: [
+            {d: "Antihypertensives", m: "May need dose adjustment as BP rises", s: "med"}
+        ],
+        dosage: "CKD: 50-300 units/kg 3x/week IV or SubQ. Target Hgb 10-12 g/dL (not >12). Adjust dose to avoid rapid Hgb rise (>1g/dL in 2 weeks).",
+        admin: "SubQ or IV (IV preferred for dialysis patients). Do NOT shake vial (denatures protein). Single-use vials only.",
+        nurse: "⚠️ BLACK BOX: Increased mortality, MI, stroke, tumor progression. Target Hgb 10-12 g/dL — do NOT exceed 12 g/dL. Monitor BP closely — hypertension common (may need to start/adjust antihypertensives). Check iron stores — ESAs need adequate iron to work. Takes 2-6 weeks for effect."
+    },
+    {
+        g: "Darbepoetin Alfa", b: "Aranesp", c: "Erythropoiesis-Stimulating Agent (ESA)", cat: "hem",
+        m: "Modified erythropoietin with longer half-life than epoetin alfa (3x longer). Same mechanism: stimulates erythroid progenitor cells → increased RBC production.",
+        ind: "Anemia of chronic kidney disease. Chemotherapy-induced anemia in non-myeloid malignancies.",
+        con: "Same as epoetin: uncontrolled HTN, pure red cell aplasia, serious allergic reaction history.",
+        aec: "Same as epoetin: hypertension, headache, arthralgia, fatigue.",
+        aes: "Same as epoetin: thromboembolic events, PRCA, seizures, tumor progression.",
+        inter: [
+            {d: "Antihypertensives", m: "May need dose adjustment", s: "med"}
+        ],
+        dosage: "CKD: 0.45mcg/kg SubQ or IV once weekly or 0.75mcg/kg every 2 weeks. Chemotherapy: 2.25mcg/kg weekly or 500mcg every 3 weeks.",
+        admin: "Advantage: Less frequent dosing than epoetin. Do not shake. Use single-dose vials.",
+        nurse: "Same black box warnings as epoetin. Advantage: once weekly or every 2 weeks vs 3x/week (better for non-dialysis CKD patients). Same Hgb targets (10-12 g/dL). Same monitoring: BP, iron stores, H&H."
+    },
+    {
+        g: "Filgrastim", b: "Neupogen, Zarxio (biosimilar)", c: "Granulocyte Colony-Stimulating Factor (G-CSF)", cat: "hem",
+        m: "Recombinant human G-CSF. Stimulates neutrophil production in bone marrow. Reduces duration of neutropenia. Also mobilizes stem cells into peripheral blood for collection.",
+        ind: "⚠️ CHEMOTHERAPY-INDUCED NEUTROPENIA (most common). Bone marrow transplant. Severe chronic neutropenia. Peripheral blood stem cell mobilization.",
+        con: "Hypersensitivity to E. coli-derived proteins. Do not give 24 hours before or after chemotherapy.",
+        aec: "⚠️ BONE PAIN (very common — 30%). Injection site reactions. Headache. Fatigue. Nausea.",
+        aes: "Splenic rupture (rare but serious). ARDS. Allergic reactions. Capillary leak syndrome. Sickle cell crisis (in sickle cell patients).",
+        inter: [
+            {d: "Chemotherapy", m: "Do NOT give within 24 hours of chemo — kills rapidly dividing cells", s: "high"}
+        ],
+        dosage: "Chemo-induced neutropenia: 5mcg/kg/day SubQ starting 24-72 hours AFTER chemotherapy until ANC recovery. Stem cell mobilization: 10mcg/kg/day.",
+        admin: "SubQ preferred (IV also acceptable). Start 24-72 hours AFTER chemo, stop 24 hours BEFORE next cycle. Single-use vials. Can teach patient self-injection.",
+        nurse: "⚠️ TIMING IS CRITICAL: Give 24-72 hours AFTER chemo, stop 24 hours BEFORE next dose. Bone pain is very common — treat with acetaminophen/NSAIDs (not opioids first-line). Report left upper quadrant pain (splenic rupture). Monitor CBC/ANC. Discontinue once ANC recovers."
+    },
+    {
+        g: "Pegfilgrastim", b: "Neulasta, Udenyca (biosimilar)", c: "Pegylated G-CSF", cat: "hem",
+        m: "Pegylated form of filgrastim with extended half-life (15-80 hours vs 3-4 hours). Same mechanism: stimulates neutrophil production. PEGylation reduces renal clearance.",
+        ind: "Chemotherapy-induced neutropenia prevention. Given ONCE per chemotherapy cycle.",
+        con: "Same as filgrastim. Do not use in infants (benzyl alcohol preservative). Do not give 14 days before or 24 hours after chemotherapy.",
+        aec: "Bone pain (very common). Injection site reactions. Headache.",
+        aes: "Same as filgrastim: splenic rupture, ARDS, capillary leak, sickle cell crisis.",
+        inter: [
+            {d: "Chemotherapy", m: "Do NOT give within 14 days before or 24 hours after chemo", s: "high"}
+        ],
+        dosage: "6mg SubQ ONCE per chemotherapy cycle, given 24-72 hours after chemotherapy.",
+        admin: "Single 6mg dose per cycle (vs daily filgrastim). On-body injector (Neulasta Onpro) can be applied day of chemo and delivers drug next day. Do NOT administer to infants.",
+        nurse: "ADVANTAGE: Once per cycle vs daily injections. Same timing rules as filgrastim. On-body injector option improves compliance but teach patient about the device. Same bone pain issue — acetaminophen helps. Same splenic rupture warning. Check ANC before each chemo cycle."
+    },
+    {
+        g: "Oprelvekin", b: "Neumega", c: "Interleukin-11 (Thrombopoietic Agent)", cat: "hem",
+        m: "Recombinant human interleukin-11. Stimulates megakaryocyte proliferation and maturation → increases platelet production. Used for chemotherapy-induced thrombocytopenia.",
+        ind: "Prevention of severe thrombocytopenia following myelosuppressive chemotherapy in non-myeloid malignancies.",
+        con: "Hypersensitivity. Caution in heart failure, atrial arrhythmias, fluid retention states.",
+        aec: "⚠️ FLUID RETENTION (edema, pleural effusions). Dyspnea. Tachycardia. Atrial arrhythmias. Conjunctival redness.",
+        aes: "Atrial fibrillation/flutter. Pulmonary edema. Anaphylaxis. Papilledema (blurred vision).",
+        inter: [
+            {d: "Diuretics", m: "May need increased doses due to fluid retention", s: "med"}
+        ],
+        dosage: "50mcg/kg SubQ once daily. Start 6-24 hours after chemotherapy. Continue until platelets >50,000 (max 21 days).",
+        admin: "SubQ injection. Start 6-24 hours after chemo completion. Discontinue 2 days before next chemotherapy cycle.",
+        nurse: "⚠️ FLUID RETENTION is major issue — daily weights, monitor for edema, dyspnea, pleural effusions. Pre-existing heart disease is relative contraindication. Discontinue for papilledema (visual changes). Less commonly used now due to side effects — newer agents preferred."
+    },
+    {
+        g: "Vitamin K (Phytonadione)", b: "Mephyton, AquaMEPHYTON", c: "Fat-Soluble Vitamin / Coagulation Factor", cat: "hem",
+        m: "Essential cofactor for hepatic synthesis of clotting factors II, VII, IX, X and proteins C and S. Reverses vitamin K antagonist (warfarin) effect.",
+        ind: "Warfarin overdose/reversal. Vitamin K deficiency bleeding. Hemorrhagic disease of newborn (prophylaxis). Malabsorption syndromes. Prolonged antibiotic therapy.",
+        con: "Hypersensitivity.",
+        aec: "Injection site pain/swelling. Flushing. Altered taste. Transient hypotension.",
+        aes: "⚠️ ANAPHYLAXIS (IV route — black box). Warfarin resistance (if excessive doses given).",
+        inter: [
+            {d: "Warfarin", m: "Reverses warfarin effect — use only for reversal indication", s: "high"},
+            {d: "Broad-spectrum antibiotics", m: "Kill gut flora that produce vitamin K → may need supplementation", s: "low"}
+        ],
+        dosage: "Warfarin reversal: 1-10mg oral, SubQ, IM, or slow IV (based on INR and bleeding). Newborn prophylaxis: 0.5-1mg IM at birth.",
+        admin: "⚠️ IV route: ANAPHYLAXIS RISK — dilute in D5W or NS, infuse slowly (over 15-30 min). Oral preferred for non-emergent reversal. IM for newborns.",
+        nurse: "⚠️ IV VITAMIN K: Black box for anaphylaxis — use only when rapid reversal needed and oral not feasible. Have resuscitation equipment ready. For minor warfarin over-anticoagulation: hold warfarin, give oral vitamin K. Takes 6-24 hours for effect (faster IV). Too much = warfarin resistance for days."
+    },
+    {
+        g: "Aminocaproic Acid", b: "Amicar", c: "Antifibrinolytic Agent", cat: "hem",
+        m: "Inhibits plasminogen activators and, to a lesser degree, plasmin. Prevents breakdown of clots by blocking fibrinolysis. Does NOT promote clot formation — preserves existing clots.",
+        ind: "Excessive bleeding from hyperfibrinolysis. Post-surgical bleeding (cardiac, dental). Hemophilia-related bleeding. Subarachnoid hemorrhage (prevent rebleeding).",
+        con: "DIC (disseminated intravascular coagulation). Active intravascular clotting. Upper urinary tract bleeding (can form clots in ureters).",
+        aec: "Nausea, diarrhea, abdominal cramps. Dizziness. Headache. Nasal congestion.",
+        aes: "⚠️ THROMBOSIS (clots can form in blood vessels). Myopathy/rhabdomyolysis (with prolonged use). Renal failure (clots in ureters). Seizures (high doses).",
+        inter: [
+            {d: "Estrogens/oral contraceptives", m: "Increased thrombosis risk", s: "high"},
+            {d: "Clotting factor concentrates", m: "Additive thrombosis risk", s: "high"}
+        ],
+        dosage: "Loading: 4-5g IV or oral over 1 hour. Maintenance: 1-1.25g/hour or 1-1.25g oral every hour (max 30g/day).",
+        admin: "IV: Dilute in NS or D5W, infuse slowly. Monitor for hypotension with rapid infusion. Can give orally (syrup or tabs).",
+        nurse: "⚠️ CONTRAINDICATED IN DIC — will worsen organ damage. Monitor for thrombosis (DVT signs, PE symptoms). With prolonged use >1 week: monitor CK for myopathy. Avoid in upper urinary tract bleeding (clots block ureters → hydronephrosis). Used adjunctively with factor replacement in hemophilia."
+    },
+    {
+        g: "Tranexamic Acid", b: "Lysteda, Cyklokapron", c: "Antifibrinolytic Agent", cat: "hem",
+        m: "Competitive inhibitor of plasminogen activation. More potent than aminocaproic acid (10x). Prevents clot breakdown without promoting new clot formation.",
+        ind: "Heavy menstrual bleeding (oral). Prevention of bleeding in hemophilia (oral/IV). Trauma-associated hemorrhage. Post-surgical bleeding.",
+        con: "Active thromboembolic disease. Subarachnoid hemorrhage (some sources). History of convulsions. Color vision defects (relative).",
+        aec: "Headache. Nasal/sinus symptoms. Back pain. Abdominal pain. Nausea.",
+        aes: "Thromboembolic events (DVT, PE, stroke). Seizures (especially with renal impairment). Visual disturbances.",
+        inter: [
+            {d: "Hormonal contraceptives", m: "Increased thrombosis risk", s: "high"},
+            {d: "Factor IX concentrates", m: "Additive thrombosis risk", s: "high"}
+        ],
+        dosage: "Menorrhagia: 1300mg TID x 5 days during menstruation. IV (surgical): 10mg/kg before surgery, then 25mg/kg/day.",
+        admin: "Oral tablets (do not crush). IV: slow infusion (100mg/min max). Use for maximum 5 days per menstrual cycle.",
+        nurse: "POPULAR FOR MENORRHAGIA — first antifibrinolytic FDA-approved for heavy periods. Teach: Take during menstruation only (max 5 days/cycle). Do NOT use with hormonal birth control containing estrogen (thrombosis risk). Report vision changes, leg swelling, chest pain. Same thrombosis precautions as aminocaproic acid."
+    }
+];
+
+</script>
+    <script>
+/* SOURCE: data_emergency.js */
+/* Emergency & Critical Care Drugs - NCLEX Essential
+   Vasopressors, antidotes, reversal agents, code drugs */
+
+const data_emergency = [
+    {
+        g: "Epinephrine", b: "Adrenalin, EpiPen", c: "Catecholamine / Vasopressor", cat: "emerg",
+        m: "Endogenous catecholamine with alpha-1, beta-1, and beta-2 agonist activity. Alpha: vasoconstriction. Beta-1: increased HR, contractility, automaticity. Beta-2: bronchodilation.",
+        ind: "⚠️ CARDIAC ARREST (first-line). Anaphylaxis (first-line). Severe asthma/bronchospasm. Hypotension/shock. Adjunct to local anesthetics.",
+        con: "Relative: narrow-angle glaucoma, labor (relaxes uterus), sulfite allergy (in some formulations). In anaphylaxis: NO ABSOLUTE CONTRAINDICATIONS.",
+        aec: "Tachycardia. Palpitations. Anxiety. Tremor. Headache. Pallor. Hypertension.",
+        aes: "⚠️ ARRHYTHMIAS (ventricular). Hypertensive crisis. Cerebral hemorrhage. Pulmonary edema. Myocardial ischemia/infarction. Tissue necrosis (extravasation).",
+        inter: [
+            {d: "Beta-blockers", m: "Block beta effects, leaving unopposed alpha → severe HTN", s: "high"},
+            {d: "TCAs, MAOIs", m: "Potentiate cardiovascular effects", s: "high"},
+            {d: "Digoxin", m: "Increased arrhythmia risk", s: "med"}
+        ],
+        dosage: "CARDIAC ARREST: 1mg IV/IO every 3-5 min. ANAPHYLAXIS: 0.3-0.5mg IM (EpiPen 0.3mg adult). Infusion: 2-10 mcg/min.",
+        admin: "Cardiac arrest: IV/IO preferred, ET if no access (2-2.5mg diluted). Anaphylaxis: IM into lateral thigh (faster absorption than SubQ). NEVER give anaphylaxis dose IV (use infusion only).",
+        nurse: "⚠️ KNOW YOUR DOSES: Anaphylaxis = 0.3-0.5mg IM. Cardiac arrest = 1mg IV. NEVER give 1mg IV for anaphylaxis (causes arrest). EpiPen through clothes is OK. Monitor continuous ECG. Extravasation: treat with phentolamine. Teach patients: EpiPen, then ER — effects wear off in 15-20 min."
+    },
+    {
+        g: "Norepinephrine", b: "Levophed", c: "Catecholamine / Vasopressor", cat: "emerg",
+        m: "Potent alpha-1 agonist with some beta-1 activity. Primary effect: vasoconstriction → increased SVR and BP. Minimal beta-2 (no bronchodilation).",
+        ind: "⚠️ SEPTIC SHOCK (first-line vasopressor). Hypotension unresponsive to fluids. Neurogenic shock. Cardiogenic shock (with inotrope).",
+        con: "Hypovolemia (must correct first). Mesenteric/peripheral vascular thrombosis. Halothane/cyclopropane anesthesia.",
+        aec: "Bradycardia (reflex from HTN). Anxiety. Headache. Dyspnea. Pallor.",
+        aes: "⚠️ TISSUE NECROSIS (extravasation). Arrhythmias. Severe hypertension. Organ ischemia (kidney, mesentery, digits). Gangrene.",
+        inter: [
+            {d: "MAOIs", m: "Severe, prolonged hypertension", s: "high"},
+            {d: "TCAs", m: "Potentiated pressor effect", s: "high"},
+            {d: "Beta-blockers", m: "Unopposed alpha effects", s: "med"}
+        ],
+        dosage: "Start 8-12 mcg/min IV, titrate to BP goal (usually MAP >65). Typical range: 2-30 mcg/min. Mix 4mg in 250mL D5W.",
+        admin: "⚠️ CENTRAL LINE PREFERRED (vesicant). If peripheral: large vein, monitor closely for infiltration. Never stop abruptly — taper. Continuous infusion only.",
+        nurse: "⚠️ FIRST-LINE FOR SEPTIC SHOCK per Surviving Sepsis Guidelines. Central line preferred — extravasation causes tissue necrosis. If infiltration: STOP immediately, aspirate, inject phentolamine into area. Monitor MAP goal (usually >65). Ensure adequate fluid resuscitation FIRST. Fingers/toes ischemia = drug working but watch closely."
+    },
+    {
+        g: "Dopamine", b: "Intropin", c: "Catecholamine / Vasopressor", cat: "emerg",
+        m: "Dose-dependent effects: Low (1-5 mcg/kg/min): dopaminergic (renal vasodilation). Medium (5-10): beta-1 (↑HR, contractility). High (>10): alpha-1 (vasoconstriction).",
+        ind: "Shock (cardiogenic, septic — second-line). Bradycardia unresponsive to atropine. Symptomatic hypotension.",
+        con: "Pheochromocytoma. Uncorrected tachyarrhythmias. Ventricular fibrillation.",
+        aec: "Tachycardia. Nausea/vomiting. Headache. Angina. Palpitations. Dyspnea.",
+        aes: "Arrhythmias. Tissue necrosis (extravasation). Gangrene of extremities. Myocardial ischemia.",
+        inter: [
+            {d: "MAOIs", m: "Prolonged, severe hypertension — use 1/10th dose", s: "high"},
+            {d: "Phenytoin", m: "May cause hypotension and bradycardia", s: "med"},
+            {d: "Halogenated anesthetics", m: "Increased arrhythmia risk", s: "med"}
+        ],
+        dosage: "Start 2-5 mcg/kg/min, titrate to effect. Max ~20 mcg/kg/min (consider norepinephrine if higher doses needed).",
+        admin: "Central line preferred. Must use infusion pump — never bolus. Correct hypovolemia first. Taper gradually.",
+        nurse: "⚠️ 'RENAL DOSE' DOPAMINE (1-3 mcg/kg/min) NOT PROVEN to protect kidneys — don't order for this indication. Dose-dependent effects: low = renal, medium = cardiac, high = pressor. Less commonly used now (norepinephrine preferred for sepsis). Same extravasation precautions — phentolamine for infiltration."
+    },
+    {
+        g: "Vasopressin", b: "Pitressin, ADH", c: "Vasopressor (Non-Catecholamine)", cat: "emerg",
+        m: "Synthetic antidiuretic hormone. V1 receptors on blood vessels → vasoconstriction (independent of adrenergic receptors). V2 receptors in kidney → water reabsorption.",
+        ind: "Septic shock (adjunct to norepinephrine). Cardiac arrest (alternative to epinephrine). Variceal bleeding. Diabetes insipidus.",
+        con: "Chronic nephritis with nitrogen retention. Hypersensitivity. Coronary artery disease (relative).",
+        aec: "Hyponatremia. Headache. Abdominal cramps. Nausea. Pallor. Tremor.",
+        aes: "⚠️ MYOCARDIAL ISCHEMIA. Water intoxication. Severe hypertension. Mesenteric ischemia. Skin necrosis.",
+        inter: [
+            {d: "Carbamazepine, SSRIs", m: "Potentiate antidiuretic effect → hyponatremia", s: "med"},
+            {d: "Lithium, demeclocycline", m: "Decrease antidiuretic effect", s: "low"}
+        ],
+        dosage: "Septic shock: 0.03-0.04 units/min fixed dose (do NOT titrate). Cardiac arrest: 40 units IV x1 (can replace 1st or 2nd epi). DI: 5-10 units IM/SubQ BID-TID.",
+        admin: "Septic shock: Add to norepinephrine (not first-line alone). Fixed dose — do NOT titrate up. Cardiac arrest: single dose only.",
+        nurse: "⚠️ FOR SEPTIC SHOCK: Fixed dose 0.03-0.04 U/min — do NOT titrate (unlike catecholamines). Add when norepinephrine dose escalating. Advantage: works even in acidosis (catecholamine receptors impaired). Monitor for ischemia (coronary, mesenteric, skin). Splanchnic vasoconstriction — watch for bowel ischemia."
+    },
+    {
+        g: "Atropine", b: "AtroPen", c: "Anticholinergic / Antimuscarinic", cat: "emerg",
+        m: "Competitive antagonist at muscarinic acetylcholine receptors. Blocks parasympathetic (vagal) effects → increases HR, reduces secretions, dilates pupils, relaxes smooth muscle.",
+        ind: "⚠️ SYMPTOMATIC BRADYCARDIA. Organophosphate/nerve agent poisoning. Preoperative (reduce secretions). Cycloplegia/mydriasis.",
+        con: "Narrow-angle glaucoma. Obstructive GI disease. Obstructive uropathy. Myasthenia gravis. Tachyarrhythmias.",
+        aec: "Dry mouth. Blurred vision. Urinary retention. Constipation. Tachycardia. Flushing.",
+        aes: "Hyperthermia ('hot as a hare'). Delirium ('mad as a hatter'). Ventricular arrhythmias. Paralytic ileus.",
+        inter: [
+            {d: "Other anticholinergics", m: "Additive effects — increased toxicity risk", s: "high"},
+            {d: "Potassium chloride", m: "Atropine delays GI transit → increased ulcer risk from KCl", s: "med"}
+        ],
+        dosage: "Bradycardia: 0.5mg IV every 3-5 min (max 3mg). Organophosphate: 2-4mg IV, repeat as needed (may need massive doses). Pre-op: 0.4-0.6mg IM.",
+        admin: "IV push for bradycardia. Doses <0.5mg may cause paradoxical bradycardia. Organophosphate: titrate to clearing secretions (may need 10+ mg).",
+        nurse: "⚠️ FOR BRADYCARDIA: Does NOT work for infranodal block (below AV node) — prepare for pacing. Minimum dose 0.5mg (smaller doses = paradoxical bradycardia). Max 3mg. ORGANOPHOSPHATE POISONING: Atropinize until secretions clear — may need massive doses. Signs of atropine toxicity: 'Dry as a bone, blind as a bat, red as a beet, mad as a hatter, hot as a hare.'"
+    },
+    {
+        g: "Adenosine", b: "Adenocard", c: "Antiarrhythmic (Miscellaneous)", cat: "emerg",
+        m: "Endogenous nucleoside that slows conduction through AV node and interrupts reentry pathways. Very short half-life (<10 seconds). Causes transient asystole.",
+        ind: "⚠️ PSVT (paroxysmal supraventricular tachycardia) — drug of choice for conversion. Diagnostic: distinguish SVT from VT (won't terminate VT).",
+        con: "Second or third-degree AV block (without pacemaker). Sick sinus syndrome. Known hypersensitivity. Asthma (may cause bronchospasm).",
+        aec: "Facial flushing (very common). Chest discomfort/pressure. Dyspnea. Headache. Lightheadedness. Metallic taste.",
+        aes: "Asystole (transient, expected). Bronchospasm. Severe bradycardia. Atrial fibrillation (rare).",
+        inter: [
+            {d: "Dipyridamole", m: "Blocks adenosine uptake → potentiates effect (use lower dose)", s: "high"},
+            {d: "Carbamazepine", m: "Increased heart block", s: "high"},
+            {d: "Caffeine, theophylline", m: "Block adenosine receptors → need higher dose", s: "med"}
+        ],
+        dosage: "6mg rapid IV push, followed by 20mL NS flush. If no response in 1-2 min: 12mg, then 12mg again if needed.",
+        admin: "⚠️ RAPID IV PUSH — must give as fast as possible through IV closest to heart. Follow immediately with 20mL NS flush. Warn patient about feeling of 'impending doom.'",
+        nurse: "⚠️ EXPECT ASYSTOLE — it's supposed to happen (usually 3-5 seconds). Record rhythm strip during administration. Use port closest to heart. PUSH FAST, FLUSH FAST. Warn patient: 'You will feel very strange for a few seconds — chest pressure, flushing, like something bad is happening — it passes quickly.' If on dipyridamole: use 3mg. If on caffeine/theophylline: may need higher dose."
+    },
+    {
+        g: "Amiodarone", b: "Pacerone, Cordarone", c: "Antiarrhythmic (Class III)", cat: "emerg",
+        m: "Multichannel blocker: blocks potassium, sodium, and calcium channels + alpha/beta receptors. Prolongs action potential and refractory period. Most effective antiarrhythmic but most toxic.",
+        ind: "⚠️ VENTRICULAR ARRHYTHMIAS (VF/pulseless VT). A-fib rate control (second-line). Life-threatening arrhythmias when other drugs fail.",
+        con: "Cardiogenic shock. Severe sinus node dysfunction. Second/third-degree AV block (without pacemaker). Hypersensitivity to iodine.",
+        aec: "Bradycardia. Hypotension. Nausea. Phlebitis. Constipation. Photosensitivity. Blue-gray skin discoloration.",
+        aes: "⚠️ PULMONARY TOXICITY (fibrosis). Hepatotoxicity. Thyroid dysfunction (hypo or hyper — contains iodine). Corneal deposits. Torsades de pointes (paradoxically). Optic neuropathy.",
+        inter: [
+            {d: "Digoxin", m: "Increases digoxin levels 70-100% — reduce digoxin dose by half", s: "high"},
+            {d: "Warfarin", m: "Increases warfarin effect — reduce dose, monitor INR", s: "high"},
+            {d: "QT-prolonging drugs", m: "Additive QT prolongation → Torsades", s: "high"},
+            {d: "Simvastatin", m: "Increased myopathy risk — limit statin dose", s: "high"}
+        ],
+        dosage: "CARDIAC ARREST: 300mg IV push, then 150mg. STABLE VT: 150mg over 10 min, then 1mg/min x6h, then 0.5mg/min x18h. PO: 400-800mg/day loading, then 200-400mg daily.",
+        admin: "IV: central line preferred (phlebitis). Use in-line filter. Cardiac arrest: can give via peripheral rapidly. Oral: give with food (decreases GI upset).",
+        nurse: "⚠️ MOST TOXIC ANTIARRHYTHMIC — extensive monitoring required. Before starting: baseline PFTs, LFTs, TFTs, eye exam. Ongoing: PFTs every 6 months, LFTs/TFTs every 6 months. PULMONARY TOXICITY: Dry cough, dyspnea, fever — get CXR, stop drug. Half-life 40-55 DAYS — effects persist weeks after stopping. Blue skin = cosmetic (sun exposure). Photosensitivity: sunscreen, protective clothing."
+    },
+    {
+        g: "Lidocaine", b: "Xylocaine", c: "Antiarrhythmic (Class IB) / Local Anesthetic", cat: "emerg",
+        m: "Sodium channel blocker. Suppresses automaticity in ventricles. Shortens action potential duration. Also local anesthetic (blocks nerve conduction).",
+        ind: "Ventricular arrhythmias (VT, PVCs) — second-line to amiodarone. Local/regional anesthesia.",
+        con: "Severe heart block (without pacemaker). Wolff-Parkinson-White syndrome. Stokes-Adams syndrome. Known hypersensitivity.",
+        aec: "CNS: drowsiness, dizziness, paresthesias, confusion. CV: bradycardia, hypotension.",
+        aes: "Seizures. Respiratory arrest. Severe bradycardia/asystole. Anaphylaxis. CNS depression → coma.",
+        inter: [
+            {d: "Beta-blockers", m: "Increased lidocaine toxicity", s: "med"},
+            {d: "Cimetidine", m: "Increases lidocaine levels", s: "med"},
+            {d: "Other antiarrhythmics", m: "Additive cardiac depression", s: "med"}
+        ],
+        dosage: "VT: 1-1.5mg/kg IV bolus, may repeat 0.5-0.75mg/kg every 5-10 min (max 3mg/kg). Infusion: 1-4mg/min. Local: varies by block type.",
+        admin: "IV only for arrhythmias (not IM, not SubQ). Reduce dose in heart failure, liver disease, elderly (decreased clearance).",
+        nurse: "⚠️ SECOND-LINE to amiodarone for VF/VT arrest. CNS toxicity = early warning (perioral numbness, tinnitus, confusion) → if seen, reduce dose. Seizures = overdose — prepare to intubate. Reduce dose in CHF and liver disease. For local anesthesia: calculate max dose (4.5mg/kg without epi, 7mg/kg with epi)."
+    },
+    {
+        g: "Naloxone", b: "Narcan", c: "Opioid Antagonist / Antidote", cat: "emerg",
+        m: "Competitive antagonist at mu, kappa, and delta opioid receptors. Reverses all opioid effects: sedation, respiratory depression, analgesia, miosis. Rapid onset, short duration.",
+        ind: "⚠️ OPIOID OVERDOSE (respiratory depression). Reversal of opioid effects post-surgery. Neonatal opioid depression. Diagnosis of opioid dependence.",
+        con: "Hypersensitivity. Caution in opioid-dependent patients (precipitates withdrawal).",
+        aec: "⚠️ ACUTE OPIOID WITHDRAWAL (in dependent patients): agitation, vomiting, diaphoresis, tachycardia, hypertension, piloerection.",
+        aes: "Pulmonary edema (especially in cardiac patients). Seizures. Arrhythmias. Severe hypertension. Cardiac arrest (from withdrawal).",
+        inter: [],
+        dosage: "Overdose: 0.4-2mg IV/IM/SubQ/IN, repeat every 2-3 min as needed. Post-op: 0.1-0.2mg IV (titrate). Nasal spray: 4mg per nostril.",
+        admin: "IV preferred for fastest onset. IM/SubQ if no IV. Intranasal (Narcan spray) for community use. May need repeated doses (opioid half-life longer than naloxone).",
+        nurse: "⚠️ DURATION ~30-90 MIN (shorter than most opioids) — patient may re-sedate and stop breathing. Monitor for AT LEAST 2 hours after naloxone. In chronic opioid users: titrate to respiratory drive, NOT full alertness (prevents severe withdrawal). Community distribution programs: teach bystanders to use intranasal. After reversal: patient often hostile (reversed analgesia, in withdrawal)."
+    },
+    {
+        g: "Flumazenil", b: "Romazicon", c: "Benzodiazepine Antagonist / Antidote", cat: "emerg",
+        m: "Competitive antagonist at GABA-A benzodiazepine binding site. Reverses sedation, amnesia, and respiratory depression from benzodiazepines.",
+        ind: "Reversal of benzodiazepine sedation (procedural). Benzodiazepine overdose (selected cases). Diagnosis of benzodiazepine toxicity.",
+        con: "⚠️ CHRONIC BENZODIAZEPINE USE (precipitates seizures). TCA overdose (seizures). Known seizure disorder. Patients on benzos for seizure control. Mixed overdose with proconvulsants.",
+        aec: "Dizziness. Injection site pain. Agitation. Headache. Blurred vision. Nausea.",
+        aes: "⚠️ SEIZURES (especially in chronic benzo users, TCA overdose, or seizure patients). Arrhythmias. Resedation.",
+        inter: [
+            {d: "TCAs, other proconvulsants", m: "Unmasking of seizure-provoking effects when benzo reversed", s: "high"}
+        ],
+        dosage: "Procedural sedation: 0.2mg IV over 15 sec, repeat 0.2mg every 45 sec until awake (max 1mg). Overdose: Same, max 3-5mg total.",
+        admin: "IV only. Inject into running IV in large vein. Slow injection (over 15 sec) to minimize pain.",
+        nurse: "⚠️ DO NOT USE ROUTINELY IN OVERDOSE — seizure risk. Contraindicated if: chronic benzo use, seizure history, TCA co-ingestion, or unknown ingestion. Duration 45-90 min — may need repeat doses. Have seizure precautions and resuscitation equipment ready. Not used as often now — supportive care preferred for most benzo overdoses."
+    },
+    {
+        g: "N-Acetylcysteine", b: "Mucomyst, Acetadote", c: "Antidote (Acetaminophen) / Mucolytic", cat: "emerg",
+        m: "Provides cysteine for glutathione synthesis. Glutathione detoxifies toxic NAPQI metabolite from acetaminophen. Also mucolytic (breaks disulfide bonds in mucus).",
+        ind: "⚠️ ACETAMINOPHEN OVERDOSE (within 8-10 hours preferred, can give up to 24+ hours). Mucolytic for cystic fibrosis, COPD.",
+        con: "Hypersensitivity (rare but can occur).",
+        aec: "Nausea, vomiting (IV and oral). Rash. Flushing. Bronchospasm (inhaled). Unpleasant sulfur smell/taste.",
+        aes: "Anaphylactoid reaction (IV — infusion-related). Severe bronchospasm. Angioedema.",
+        inter: [
+            {d: "Activated charcoal", m: "May adsorb oral NAC — give charcoal first, then NAC", s: "low"}
+        ],
+        dosage: "ACETAMINOPHEN OVERDOSE: IV (Acetadote): 150mg/kg over 1h, then 50mg/kg over 4h, then 100mg/kg over 16h (21h total). Oral: 140mg/kg loading, then 70mg/kg q4h x 17 doses.",
+        admin: "IV: Dilute in D5W. Anaphylactoid reactions (flushing, pruritis) common at start — slow infusion, give antihistamine. Oral: Dilute in juice/soda (masks sulfur taste), may need anti-emetic.",
+        nurse: "⚠️ LIFE-SAVING FOR ACETAMINOPHEN OVERDOSE — most effective within 8 hours but give up to 24+ hours post-ingestion. Check Rumack-Matthew nomogram to determine need for treatment. IV preferred (better tolerated). Oral NAC smells terrible — mix with cola, use straw. Infusion reactions: stop IV, give diphenhydramine, restart slower. Monitor LFTs, PT/INR."
+    },
+    {
+        g: "Activated Charcoal", b: "Actidose, CharcoAid", c: "Adsorbent / Antidote", cat: "emerg",
+        m: "Porous carbon with large surface area that adsorbs ingested toxins in GI tract, preventing absorption. Does NOT work on all substances.",
+        ind: "⚠️ GI DECONTAMINATION for oral poisoning (most effective within 1 hour). Multiple-dose for some drugs (theophylline, carbamazepine, phenobarbital).",
+        con: "⚠️ CAUSTIC/CORROSIVE INGESTIONS (acids, alkalis). Hydrocarbon ingestion with aspiration risk. Unprotected airway (risk of aspiration). GI obstruction or ileus. NOT effective: iron, lithium, alcohols, cyanide, heavy metals, potassium.",
+        aec: "Black stools. Constipation. Vomiting. Abdominal distension.",
+        aes: "⚠️ ASPIRATION (charcoal pneumonitis — very serious). Bowel obstruction (multiple doses). Electrolyte imbalances (with cathartics).",
+        inter: [
+            {d: "Oral medications", m: "Charcoal binds and inactivates oral drugs — separate by 2h", s: "high"},
+            {d: "Ipecac", m: "Charcoal adsorbs ipecac — do not use together", s: "high"}
+        ],
+        dosage: "Single dose: Adults 25-100g, Children 1g/kg (max 50g). Multiple dose: 25-50g q2-6h. Mix with water to slurry consistency.",
+        admin: "Protect airway (intubate if needed before giving). Give within 1 hour of ingestion for best effect (can give later if large ingestion or slow-release). Can give via NG if patient refuses oral.",
+        nurse: "⚠️ AIRWAY FIRST — aspiration of charcoal is dangerous. Most effective within 1 HOUR of ingestion. NOT for: iron, lithium, alcohols, acids/bases, cyanide. Black stools are normal — warn patient. If vomiting occurs, may need to repeat dose. Does NOT require cathartic with every dose (avoid sorbitol in children). Position patient upright or left lateral to reduce aspiration risk."
+    },
+    {
+        g: "Dextrose 50%", b: "D50, D50W", c: "Hyperglycemic Agent / Antidote", cat: "emerg",
+        m: "Concentrated glucose solution providing rapid increase in blood glucose. Essential fuel for brain and cardiac function.",
+        ind: "⚠️ HYPOGLYCEMIA (symptomatic or severe). Altered mental status of unknown cause (with thiamine). Coma cocktail component. Insulin overdose.",
+        con: "Intracranial hemorrhage (hyperglycemia worsens outcomes). Delirium tremens (give thiamine first). Hyperglycemia.",
+        aec: "Phlebitis/thrombosis (very irritating to veins). Hyperglycemia. Fluid overload.",
+        aes: "Severe hyperglycemia. Hyperosmolar syndrome. Tissue necrosis (extravasation).",
+        inter: [],
+        dosage: "Adults: 25-50mL (12.5-25g glucose) IV push. Pediatrics: D25 or D10 preferred (less hypertonic). May repeat as needed.",
+        admin: "⚠️ GIVE THIAMINE FIRST in alcoholics/malnourished (D50 can precipitate Wernicke encephalopathy). Large vein preferred — very hypertonic (irritating). Recheck glucose in 15-20 min.",
+        nurse: "⚠️ 'COMA COCKTAIL': Thiamine, D50, Naloxone for altered mental status. Give THIAMINE BEFORE D50 in suspected alcoholism (Wernicke prevention). Very hypertonic — causes phlebitis. Check glucose before giving if possible, but don't delay if symptomatic hypoglycemia suspected. Pediatrics: use D10 or D25 (D50 too hypertonic for small veins)."
+    },
+    {
+        g: "Glucagon", b: "GlucaGen, Baqsimi", c: "Hyperglycemic Agent / Antidote", cat: "emerg",
+        m: "Pancreatic hormone that stimulates hepatic glycogenolysis and gluconeogenesis → raises blood glucose. Also positive inotrope and chronotrope (beta-blocker antidote).",
+        ind: "⚠️ SEVERE HYPOGLYCEMIA (when IV access unavailable). Beta-blocker overdose. Calcium channel blocker overdose. Diagnostic imaging (GI relaxation).",
+        con: "Pheochromocytoma. Insulinoma. Known hypersensitivity. Patients with depleted glycogen stores (starvation, adrenal insufficiency).",
+        aec: "Nausea, vomiting (common). Transient hyperglycemia. Injection site reactions.",
+        aes: "Severe hypertension (pheochromocytoma). Hypotension (dehydration from vomiting). Allergic reaction.",
+        inter: [
+            {d: "Warfarin", m: "May enhance anticoagulant effect at high doses", s: "med"},
+            {d: "Insulin", m: "Antagonizes glucose-lowering effect", s: "low"}
+        ],
+        dosage: "Hypoglycemia: 1mg IM/SubQ/IV (0.5mg if <25kg). Beta-blocker OD: 3-5mg IV bolus, then 3-5mg/hour infusion. Nasal spray: 3mg per nostril.",
+        admin: "IM or SubQ for hypoglycemia if no IV. Requires reconstitution before injection (mix powder + diluent). Nasal spray (Baqsimi) — no reconstitution needed.",
+        nurse: "⚠️ USE WHEN IV ACCESS NOT AVAILABLE for hypoglycemia — IM/SubQ works in 10-20 min. Teach family/caregivers to administer. DOES NOT WORK if glycogen depleted (chronic starvation, alcoholism, liver disease) — need IV dextrose. Nausea/vomiting common — position to prevent aspiration. Beta-blocker OD: much higher doses needed, may require infusion."
+    },
+    {
+        g: "Calcium Chloride/Gluconate", b: "Cal-Plus, various", c: "Electrolyte / Antidote", cat: "emerg",
+        m: "Provides ionized calcium for cardiac and neuromuscular function. Antagonizes potassium effects on myocardium. Reverses calcium channel blocker toxicity.",
+        ind: "⚠️ HYPERKALEMIA (cardiac protection). Calcium channel blocker overdose. Hypocalcemia (symptomatic). Magnesium toxicity. Black widow spider bite.",
+        con: "Digitalis toxicity (calcium increases digoxin effects). Hypercalcemia. VF.",
+        aec: "Bradycardia. Hypotension. Flushing. Nausea. Peripheral vasodilation.",
+        aes: "⚠️ TISSUE NECROSIS (extravasation of calcium chloride). Cardiac arrest (too rapid IV). Hypercalcemia.",
+        inter: [
+            {d: "Digoxin", m: "Calcium potentiates digoxin toxicity — use cautiously if at all", s: "high"},
+            {d: "Ceftriaxone", m: "Precipitates with calcium — fatal cases in neonates", s: "high"}
+        ],
+        dosage: "Hyperkalemia: CaCl 500-1000mg (5-10mL of 10%) or Ca gluconate 1-2g IV over 5-10 min. CCB overdose: 1-3g Ca gluconate IV, may repeat.",
+        admin: "⚠️ CALCIUM CHLORIDE: CENTRAL LINE ONLY (3x more calcium than gluconate, very caustic). Calcium gluconate: can give peripheral but still caustic. Slow IV push (5-10 min to avoid cardiac arrest).",
+        nurse: "⚠️ KNOW THE DIFFERENCE: Calcium CHLORIDE = central line only, 3x more elemental calcium. Calcium GLUCONATE = safer peripherally but still watch for infiltration. FOR HYPERKALEMIA: Calcium stabilizes heart IMMEDIATELY but does NOT lower K+ — still need insulin/glucose, bicarb, kayexalate. AVOID in digoxin toxicity unless life-threatening hyperkalemia. Ceftriaxone + calcium = fatal precipitation in neonates."
+    },
+    {
+        g: "Sodium Bicarbonate", b: "NaHCO3", c: "Alkalinizing Agent / Antidote", cat: "emerg",
+        m: "Provides bicarbonate to buffer acids. Raises serum and urine pH. In hyperkalemia: shifts potassium into cells. In TCA overdose: alkalinizes serum, reduces drug binding.",
+        ind: "⚠️ SEVERE METABOLIC ACIDOSIS. Hyperkalemia (adjunct). TCA overdose. Salicylate overdose (urinary alkalinization). Sodium channel blocker toxicity.",
+        con: "Metabolic/respiratory alkalosis. Hypocalcemia. Hypokalemia. Chloride-responsive alkalosis.",
+        aec: "Hypokalemia. Hypocalcemia. Metabolic alkalosis. Hypernatremia. Fluid overload.",
+        aes: "Severe metabolic alkalosis. Paradoxical CNS acidosis. Cardiac arrhythmias. Hypokalemic paralysis.",
+        inter: [
+            {d: "Acidic drugs (aspirin, phenobarbital)", m: "Urinary alkalinization increases excretion", s: "med"},
+            {d: "Basic drugs (amphetamines, quinidine)", m: "Urinary alkalinization decreases excretion", s: "med"}
+        ],
+        dosage: "Cardiac arrest: 1mEq/kg IV initially, then 0.5mEq/kg every 10 min based on ABG. Hyperkalemia: 50mEq IV over 5 min. TCA OD: 1-2mEq/kg boluses for QRS widening.",
+        admin: "IV: Give slowly (over 5 min, or faster in arrest). Incompatible with many drugs — flush line. Extravasation causes tissue necrosis.",
+        nurse: "⚠️ NOT ROUTINE IN CARDIAC ARREST — only for known severe acidosis, hyperkalemia, or TCA overdose. Causes hypokalemia — check K+ after giving. FOR TCA OVERDOSE: Goal is to narrow QRS and maintain serum pH 7.45-7.55. Can give multiple doses. Incompatible with calcium, catecholamines in same line — flush well. Monitor ABGs, electrolytes."
+    }
+];
+
+</script>
+    <script>
+/* SOURCE: data_electrolytes.js */
+/* Electrolytes & IV Fluids - NCLEX Essential
+   Replacement therapy, IV solutions, electrolyte management */
+
+const data_electrolytes = [
+    {
+        g: "Potassium Chloride", b: "K-Dur, Klor-Con, KCl", c: "Electrolyte Supplement (Potassium)", cat: "lytes",
+        m: "Essential intracellular cation. Required for nerve impulse conduction, muscle contraction (especially cardiac), acid-base balance, and enzyme function.",
+        ind: "⚠️ HYPOKALEMIA (K+ <3.5 mEq/L). Prevention of hypokalemia (diuretic therapy, digoxin therapy). Replacement in diabetic ketoacidosis.",
+        con: "Hyperkalemia. Severe renal impairment (cannot excrete potassium). Addison's disease. Acute dehydration. Tissue damage (crush injury, burns).",
+        aec: "GI upset: nausea, vomiting, diarrhea, abdominal pain. GI ulceration (tablets). Injection site pain (IV).",
+        aes: "⚠️ CARDIAC ARRHYTHMIAS (hyperkalemia). Cardiac arrest. GI bleeding/perforation (oral). Tissue necrosis (extravasation).",
+        inter: [
+            {d: "ACE inhibitors, ARBs", m: "Additive hyperkalemia — monitor closely", s: "high"},
+            {d: "Potassium-sparing diuretics", m: "Severe hyperkalemia risk", s: "high"},
+            {d: "NSAIDs", m: "Decreased potassium excretion", s: "med"}
+        ],
+        dosage: "Prevention: 20-40 mEq/day PO divided. Treatment: Based on deficit. IV: 10-20 mEq/hour (max 40 mEq/hour with cardiac monitoring). Never exceed 200 mEq/day.",
+        admin: "⚠️ IV: MUST dilute (max 40 mEq/L peripheral, 80 mEq/L central). Never IV push. Infuse slowly (10-20 mEq/hour). Oral: Take with food and full glass of water. Extended-release forms: do not crush.",
+        nurse: "⚠️ NEVER IV PUSH — causes fatal cardiac arrest. Must dilute and infuse slowly. Peripheral max concentration 40 mEq/L. Burning at IV site = too concentrated or too fast. Monitor ECG for severe hypokalemia or rapid replacement. Check renal function before IV replacement. Oral forms: take with food to reduce GI upset. Liquid KCl tastes terrible — mix with juice."
+    },
+    {
+        g: "Sodium Chloride (0.9% NS)", b: "Normal Saline, NS", c: "IV Crystalloid (Isotonic)", cat: "lytes",
+        m: "Isotonic solution (308 mOsm/L) matching plasma osmolality. Provides water and sodium/chloride for extracellular fluid expansion. Does not cause fluid shifts between compartments.",
+        ind: "⚠️ VOLUME RESUSCITATION. Dehydration. Maintenance fluids. Medication dilution. Wound irrigation. Hyponatremia (mild). DKA fluid replacement.",
+        con: "Hypernatremia. Fluid overload. Heart failure (use cautiously). Hyperchloremic acidosis (excessive use).",
+        aec: "Fluid overload. Peripheral edema. Pulmonary edema. Hypernatremia. Hyperchloremic metabolic acidosis.",
+        aes: "Congestive heart failure exacerbation. Pulmonary edema. Severe electrolyte imbalances.",
+        inter: [
+            {d: "Lithium", m: "Sodium load increases lithium excretion — may reduce efficacy", s: "med"}
+        ],
+        dosage: "Maintenance: 100-150 mL/hour adults. Resuscitation: 500-1000mL bolus, reassess. Children: Calculate based on weight (Holliday-Segar formula).",
+        admin: "IV infusion. For bolus: use pressure bag if rapid infusion needed. Warm fluids in hypothermia. Always check solution clarity before administration.",
+        nurse: "MOST COMMON IV FLUID. Isotonic — stays in vascular space (good for volume expansion). Monitor for fluid overload: lung sounds, edema, JVD. 3L of NS = ~3L stays intravascular. Watch for hyperchloremic acidosis with large volumes. Better than hypotonic fluids for most resuscitation."
+    },
+    {
+        g: "Lactated Ringer's (LR)", b: "Ringer's Lactate, Hartmann's Solution", c: "IV Crystalloid (Isotonic/Balanced)", cat: "lytes",
+        m: "Isotonic balanced crystalloid (273 mOsm/L). Contains sodium, potassium, calcium, chloride, and lactate (converts to bicarbonate in liver). More physiologic than NS.",
+        ind: "⚠️ TRAUMA RESUSCITATION. Burns. Surgery. GI losses. Preferred over NS for large-volume resuscitation (less acidosis).",
+        con: "Severe liver disease (cannot metabolize lactate). Hyperkalemia. Hypercalcemia. Head injury (controversial — slight hypotonicity).",
+        aec: "Fluid overload. Electrolyte imbalances. Lactic acidosis (if liver cannot convert).",
+        aes: "Same as NS. Additionally: hypercalcemia, hyperkalemia (contains both).",
+        inter: [
+            {d: "Blood products", m: "Calcium in LR can cause clotting in same line — use NS for blood", s: "high"},
+            {d: "Ceftriaxone", m: "Calcium-containing fluids cause precipitation", s: "high"}
+        ],
+        dosage: "Same as NS for resuscitation. Bolus and maintenance as clinically indicated.",
+        admin: "⚠️ DO NOT USE WITH BLOOD PRODUCTS (calcium causes clotting). Do not use with ceftriaxone. Otherwise similar to NS administration.",
+        nurse: "⚠️ INCOMPATIBLE WITH BLOOD — use NS for transfusions. Contains potassium (4 mEq/L) — consider in renal failure. Contains calcium — avoid with ceftriaxone. Better than NS for large-volume resuscitation (less acidosis). Lactate is NOT lactic acid — liver converts to bicarbonate. Preferred in trauma per guidelines."
+    },
+    {
+        g: "Dextrose 5% in Water (D5W)", b: "D5W", c: "IV Crystalloid (Isotonic→Hypotonic)", cat: "lytes",
+        m: "Isotonic when infused (252 mOsm/L) but becomes hypotonic as glucose is metabolized, providing free water. Provides 170 kcal/L. Not for volume resuscitation.",
+        ind: "Maintenance fluids in patients who need free water. Vehicle for IV medications. Mild hypoglycemia prevention. TPN component.",
+        con: "⚠️ NOT FOR VOLUME RESUSCITATION (becomes hypotonic). Hyperglycemia. Diabetes (monitor glucose). Head injury (cerebral edema risk).",
+        aec: "Hyperglycemia. Fluid shifts to cells. Hyponatremia (dilutional). Phlebitis.",
+        aes: "Cerebral edema (hypotonic effect). Severe hyperglycemia. Pulmonary edema.",
+        inter: [],
+        dosage: "Maintenance: 75-125 mL/hour. For medication dilution: as required by drug.",
+        admin: "Never use for volume resuscitation (won't stay intravascular). Monitor glucose in diabetics. Watch for hyponatremia with prolonged use.",
+        nurse: "⚠️ DO NOT USE FOR RESUSCITATION — becomes FREE WATER after glucose metabolized (goes into cells, not blood vessels). Best for: medication administration, free water replacement, patients needing glucose. Monitor glucose in diabetics. Can cause hyponatremia if used long-term. Not for head injury (increases cerebral edema)."
+    },
+    {
+        g: "Magnesium Sulfate", b: "MgSO4, Epsom Salt (topical)", c: "Electrolyte Supplement (Magnesium)", cat: "lytes",
+        m: "Essential cofactor for 300+ enzymes. Required for neuromuscular function, cardiac rhythm, protein synthesis. Blocks NMDA receptors (anticonvulsant). Smooth muscle relaxant (bronchodilator, tocolytic).",
+        ind: "⚠️ HYPOMAGNESEMIA. Eclampsia/pre-eclampsia (first-line). Torsades de pointes. Severe asthma. Arrhythmias (digoxin toxicity adjunct).",
+        con: "Heart block. Myocardial damage. Severe renal impairment (cannot excrete). Hypermagnesemia.",
+        aec: "Flushing. Hypotension. Nausea. Muscle weakness. Decreased reflexes. Bradycardia.",
+        aes: "⚠️ RESPIRATORY DEPRESSION. Cardiac arrest. Complete heart block. Paralysis (neuromuscular blockade).",
+        inter: [
+            {d: "Calcium channel blockers", m: "Additive hypotension and cardiac depression", s: "high"},
+            {d: "Neuromuscular blockers", m: "Prolonged paralysis", s: "high"},
+            {d: "CNS depressants", m: "Additive depression", s: "med"}
+        ],
+        dosage: "Hypomagnesemia: 1-2g IV over 1 hour. Eclampsia: 4-6g IV loading, then 1-2g/hour infusion. Torsades: 1-2g IV over 5-20 min.",
+        admin: "IV: Dilute and infuse slowly (risk of hypotension). IM: Deep IM injection (painful). Have calcium gluconate at bedside as antidote.",
+        nurse: "⚠️ ANTIDOTE = CALCIUM GLUCONATE (have at bedside). Monitor: DTRs (absent = toxicity), respiratory rate, urine output. Therapeutic level: 4-7 mEq/L for eclampsia. Toxic signs: Loss of DTRs (first sign), respiratory depression, cardiac arrest. Check renal function — excreted by kidneys. Essential for eclampsia prevention — give regardless of Mg level."
+    },
+    {
+        g: "Calcium Gluconate", b: "Calglucon", c: "Electrolyte Supplement (Calcium)", cat: "lytes",
+        m: "Provides ionized calcium for bone, cardiac, neuromuscular, and coagulation function. Antagonizes magnesium and potassium effects on heart. Contains 9% elemental calcium.",
+        ind: "⚠️ HYPOCALCEMIA. Magnesium toxicity antidote. Hyperkalemia (cardiac protection). Calcium channel blocker overdose. Hypermagnesemia. Black widow spider bite.",
+        con: "Hypercalcemia. Digitalis toxicity (relative). VF. Severe hypercalciuria.",
+        aec: "Flushing. Bradycardia. Peripheral vasodilation. Nausea. Constipation.",
+        aes: "Hypercalcemia. Cardiac arrhythmias. Tissue necrosis (extravasation — less than CaCl). Cardiac arrest.",
+        inter: [
+            {d: "Digoxin", m: "Increases digoxin toxicity — use cautiously", s: "high"},
+            {d: "Ceftriaxone", m: "Fatal precipitation in neonates — never co-administer", s: "high"},
+            {d: "Thiazide diuretics", m: "Additive hypercalcemia", s: "med"}
+        ],
+        dosage: "Hypocalcemia: 1-2g IV over 10-20 min. Hyperkalemia/Mg toxicity: 1-3g IV over 5-10 min, may repeat. Maintenance: 1-2g/day IV if unable to take oral.",
+        admin: "IV: Slow push or infusion (rapid = cardiac arrest). Peripheral vein acceptable (unlike CaCl). Do not mix with phosphate or bicarbonate (precipitates). Oral forms for chronic replacement.",
+        nurse: "⚠️ SAFER THAN CALCIUM CHLORIDE — can give peripherally. Contains less elemental calcium (need more for same effect). For Mg toxicity: 1g reverses effect. Monitor for infiltration (still caustic). Check ionized calcium levels. Incompatible with ceftriaxone — FATAL in neonates. Signs of hypocalcemia: Chvostek sign, Trousseau sign, tetany."
+    },
+    {
+        g: "Sodium Phosphate", b: "Phospha-Soda, Fleet Enema", c: "Electrolyte Supplement (Phosphorus) / Laxative", cat: "lytes",
+        m: "Provides phosphorus for ATP synthesis, bone mineralization, acid-base buffering, and cellular function. As enema: draws water into bowel via osmotic effect.",
+        ind: "Hypophosphatemia (refeeding syndrome, DKA recovery, alcoholism). Bowel preparation before procedures (oral/enema).",
+        con: "Hyperphosphatemia. Severe renal impairment. Hypocalcemia. Bowel obstruction (enema). Heart failure (sodium load).",
+        aec: "Nausea, diarrhea. Abdominal cramping. Hyperphosphatemia. Hypocalcemia (phosphorus binds calcium).",
+        aes: "⚠️ SEVERE ELECTROLYTE DISTURBANCES. Acute phosphate nephropathy (from oral bowel prep). Cardiac arrhythmias. Tetany (from hypocalcemia).",
+        inter: [
+            {d: "Calcium supplements", m: "Phosphorus binds calcium — reduced absorption of both", s: "med"},
+            {d: "ACE inhibitors", m: "Increased hyperkalemia risk (sodium phosphate contains potassium)", s: "med"}
+        ],
+        dosage: "IV replacement: Based on level and weight. Oral: 250-500mg phosphorus 2-4 times daily. Bowel prep: Follow specific protocol.",
+        admin: "IV: Must dilute, infuse over 4-6 hours (too fast = hypocalcemia, arrhythmias). Oral: Take with meals to reduce GI upset. Enema: As single dose for bowel prep.",
+        nurse: "⚠️ REFEEDING SYNDROME: Phosphorus drops when malnourished patient starts eating — can be fatal. Monitor phosphorus in: anorexia, alcoholism, DKA, TPN. IV replacement must be slow (hypocalcemia, arrhythmias if too fast). Monitor calcium when giving phosphorus. Fleet enemas: AVOID in renal impairment (acute phosphate nephropathy). Pediatric Fleet doses differ — check carefully."
+    },
+    {
+        g: "Sodium Polystyrene Sulfonate", b: "Kayexalate, SPS", c: "Potassium-Binding Resin", cat: "lytes",
+        m: "Cation exchange resin that exchanges sodium for potassium in GI tract. Each gram removes approximately 0.5-1 mEq of potassium. Slow onset (hours).",
+        ind: "⚠️ HYPERKALEMIA (non-emergent). Chronic hyperkalemia in CKD. Adjunct after acute hyperkalemia stabilized.",
+        con: "Bowel obstruction. Post-operative patients (ileus risk). Neonates (fatal intestinal necrosis reported). Hypokalemia.",
+        aec: "Constipation. Nausea, vomiting. Hypokalemia. Hypomagnesemia. Hypocalcemia. Sodium retention.",
+        aes: "⚠️ INTESTINAL NECROSIS (especially with sorbitol). Bowel perforation. Severe hypokalemia. Pulmonary edema (sodium load).",
+        inter: [
+            {d: "Sorbitol", m: "Increased risk of intestinal necrosis — avoid if possible", s: "high"},
+            {d: "Lithium, thyroxine", m: "Binds these drugs — separate administration", s: "med"},
+            {d: "Antacids (Mg, Al)", m: "Binds these cations instead of potassium — avoid", s: "med"}
+        ],
+        dosage: "Oral: 15-60g in water or sorbitol 1-4 times daily. Rectal (retention enema): 30-50g in water, retain 30-60 min.",
+        admin: "Give with water or low-sorbitol vehicle. Do NOT give with antacids. Rectal: warm to body temp, retain as long as possible, then evacuate.",
+        nurse: "⚠️ SLOW ONSET (hours) — not for acute/emergent hyperkalemia. FDA warning: intestinal necrosis, especially with sorbitol. Monitor K+ closely — can cause severe hypokalemia. Tastes terrible — mix with juice or use enema. Monitor for constipation/obstruction. Newer agents (patiromer, sodium zirconium) may be safer but more expensive."
+    },
+    {
+        g: "Albumin (Human)", b: "Albuminar, Albutein, Flexbumin", c: "Colloid / Plasma Expander", cat: "lytes",
+        m: "Human plasma protein that provides oncotic pressure. 5% is iso-oncotic (expands volume 1:1). 25% is hyper-oncotic (draws fluid from interstitium 1:4-5).",
+        ind: "Hypovolemic shock. Burns (after 24 hours). Paracentesis-induced hypotension. Hepatorenal syndrome. Hypoalbuminemia with edema.",
+        con: "Heart failure (volume expansion). Severe anemia (dilution). Hypersensitivity to albumin.",
+        aec: "Fluid overload. Flushing. Urticaria. Nausea. Fever. Chills.",
+        aes: "Pulmonary edema. Anaphylaxis (rare). Coagulation abnormalities (dilution).",
+        inter: [],
+        dosage: "5%: 250-500mL IV. 25%: 50-100mL IV (draws 4-5x volume from interstitium). Dose based on clinical indication.",
+        admin: "5% can give rapidly. 25%: give slowly (1-2 mL/min) — rapid infusion causes fluid shifts. Use filtered tubing. Do not mix with other drugs.",
+        nurse: "⚠️ 25% ALBUMIN: Draws fluid from tissues — can cause pulmonary edema if patient has total body fluid overload. Use 25% only if: hypovolemia with peripheral edema. Use 5% for: pure intravascular volume depletion. Very expensive — reserve for appropriate indications. No infection risk (heat-treated). Monitor for fluid overload."
+    },
+    {
+        g: "Hetastarch", b: "Hespan, Hextend", c: "Colloid / Plasma Expander", cat: "lytes",
+        m: "Synthetic colloid (hydroxyethyl starch) that provides oncotic pressure similar to albumin. Expands plasma volume 1:1. Longer duration than crystalloids.",
+        ind: "Hypovolemic shock (when crystalloids insufficient). Plasma volume expansion.",
+        con: "⚠️ RENAL IMPAIRMENT. Sepsis (increased mortality — FDA warning). Critically ill patients. Coagulopathy. Congestive heart failure.",
+        aec: "Coagulopathy (dilutional + direct effect). Pruritus (prolonged, severe). Anaphylactoid reactions.",
+        aes: "⚠️ ACUTE KIDNEY INJURY (FDA black box in critically ill). Increased mortality in sepsis. Severe bleeding. Anaphylaxis.",
+        inter: [
+            {d: "Anticoagulants", m: "Increased bleeding risk", s: "high"}
+        ],
+        dosage: "500-1000mL IV. Max 1500mL/day (20mL/kg/day). Limit total dose to prevent accumulation.",
+        admin: "IV infusion over 30-60 min. Monitor closely for fluid overload and coagulation changes. Avoid in sepsis and critically ill.",
+        nurse: "⚠️ FDA BLACK BOX WARNING: Increased mortality in critically ill, increased renal failure. AVOID IN SEPSIS — Surviving Sepsis Guidelines recommend against starches. Causes prolonged pruritus (weeks) in many patients. Monitor coagulation (PT, PTT). NOT first-line — use crystalloids (NS, LR) first. If used, limit duration and total dose."
+    },
+    {
+        g: "Desmopressin", b: "DDAVP, Stimate", c: "Synthetic ADH Analogue", cat: "lytes",
+        m: "Synthetic analogue of vasopressin (ADH) with enhanced antidiuretic effect and minimal pressor activity. Binds V2 receptors in kidney → increased water reabsorption. Also releases von Willebrand factor.",
+        ind: "⚠️ DIABETES INSIPIDUS (central). Primary nocturnal enuresis. Hemophilia A (mild). Von Willebrand disease (type 1). Uremic bleeding.",
+        con: "Type 2B von Willebrand disease (causes thrombocytopenia). Hyponatremia. Moderate-severe renal impairment. Conditions with risk of fluid overload.",
+        aec: "Headache. Nasal congestion (intranasal). Nausea. Flushing. Abdominal cramps.",
+        aes: "⚠️ HYPONATREMIA (water intoxication). Seizures. Thrombosis (rare).",
+        inter: [
+            {d: "NSAIDs, SSRIs, TCAs", m: "Increased hyponatremia risk", s: "high"},
+            {d: "Carbamazepine", m: "Potentiates antidiuretic effect", s: "med"},
+            {d: "Lithium, demeclocycline", m: "May reduce antidiuretic effect", s: "low"}
+        ],
+        dosage: "DI: 10-40mcg intranasally daily in 1-3 doses, or 0.05mg PO BID-TID, or 2-4mcg IV/SubQ daily. Hemophilia: 0.3mcg/kg IV over 15-30 min.",
+        admin: "Intranasal: Calibrated rhinal tube or nasal spray. Restrict fluids during therapy to prevent hyponatremia. Do not use nasal route if nasal congestion.",
+        nurse: "⚠️ HYPONATREMIA RISK: Restrict fluids during therapy. Monitor sodium, especially in children and elderly. For DI: Adjust dose based on urine output and specific gravity. For nocturnal enuresis: Give at bedtime, no fluids after administration. For bleeding disorders: Check factor levels to ensure response before procedures. Intranasal may not work if nasal congestion."
+    }
+];
+
+</script>
+<script>
 /* SOURCE: data_loader.js */
 // Master Data Aggregator - Globally Exposed
 window.drugDB = [];
@@ -7894,6 +8756,18 @@ if (typeof data_ophthalmic !== 'undefined') mergeData(data_ophthalmic);
 // Osteoporosis/MSK Atomic Loads
 if (typeof data_osteoporosis !== 'undefined') mergeData(data_osteoporosis);
 
+// Dermatology Atomic Loads
+if (typeof data_dermatology !== 'undefined') mergeData(data_dermatology);
+
+// Hematology Atomic Loads
+if (typeof data_hematology !== 'undefined') mergeData(data_hematology);
+
+// Emergency/Critical Care Atomic Loads
+if (typeof data_emergency !== 'undefined') mergeData(data_emergency);
+
+// Electrolytes/IV Fluids Atomic Loads
+if (typeof data_electrolytes !== 'undefined') mergeData(data_electrolytes);
+
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");
 
 </script>
@@ -7904,7 +8778,7 @@ console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.
 // - drugDB Object: { g: generic, b: brand, c: class, m: moa, ind: indic, con: contra, aec: common, aes: severe, inter: [], dosage: str, admin: str, nurse: str }
 // - Mission Object: { numerical_id: int, title: str, patient_profile: {}, exhibits: [], steps: [] }
 
-let filters = { cv: true, dm: true, pain: true, abx: true, resp: true, immun: true, cns: true, gi: true, endo: true, neuro: true, repro: true, uro: true, ophthal: true, msk: true, derm: true };
+let filters = { cv: true, dm: true, pain: true, abx: true, resp: true, immun: true, cns: true, gi: true, endo: true, neuro: true, repro: true, uro: true, ophthal: true, msk: true, derm: true, hem: true, emerg: true, lytes: true };
 let sortMode = 'az';
 let currentMission = null;
 let currentStepIndex = 0;
