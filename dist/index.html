@@ -4993,6 +4993,200 @@ const data_pain_opioid_agonists = [
 ];
 </script>
     <script>
+/* SOURCE: data_pain_partial_antagonists.js */
+/* Block 1c — Pain: Partial Agonists + Antagonists (5 drugs)
+   Source: pain_lecture_drjames.txt (Slides 56-65) */
+
+const data_pain_partial_antagonists = [
+    {
+        g: "Buprenorphine", b: "Buprenex (injection); Subutex (sublingual); Suboxone (with naloxone); Butrans (patch)", c: "Opioid Partial Agonist (Mu-receptor)", cat: "pain",
+        m: "PARTIAL AGONIST at mu-opioid receptors — produces analgesia but with a CEILING EFFECT (increasing dose beyond a point does not increase analgesia or respiratory depression). High receptor binding affinity means it can displace full agonists from receptors. Also used for opioid use disorder (OUD) treatment.",
+        ind: "Short-term pain relief (up to 3 weeks) of moderate to severe pain in OPIOID-NAÏVE patients. Opioid use disorder (OUD) — maintenance treatment to reduce cravings, prevent withdrawal, and block euphoric effects of other opioids. Potency similar to morphine.",
+        con: "Severe respiratory depression. Patients actively using full opioid agonists (can precipitate withdrawal). Severe hepatic impairment. Hypersensitivity. QT prolongation (Suboxone).",
+        aec: "Clamminess, dizziness, sedation, sweating. Nausea, vomiting, dry mouth. Constipation. Headache.",
+        aes: "Respiratory depression (ceiling effect limits this risk). Precipitated WITHDRAWAL (abstinence syndrome) in patients dependent on full opioid agonists. Mental status changes — confusion, disorientation, hallucinations. Hepatotoxicity (rare). QT prolongation.",
+        inter: [
+            {d: "Full Opioid Agonists (Morphine, Oxycodone)", m: "Buprenorphine can DISPLACE full agonists from receptors → precipitates acute withdrawal in opioid-dependent patients.", s: "high"},
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Additive respiratory depression and sedation.", s: "high"},
+            {d: "CYP3A4 Inhibitors (Ketoconazole, Ritonavir)", m: "Increased buprenorphine levels → enhanced effects.", s: "med"}
+        ],
+        dosage: "Pain (injection): 0.3mg IM/IV every 6 hours PRN. Transdermal patch (Butrans): 5-20mcg/hr every 7 days. OUD (sublingual): Subutex 2-8mg SL daily initially, maintenance 8-24mg daily. Suboxone: buprenorphine/naloxone 4/1 to 24/6mg SL daily.",
+        admin: "IM, IV, sublingual, transdermal. Sublingual tablets must dissolve under tongue — takes 5-10 minutes. Suboxone film placed under tongue or inside cheek. Transdermal patch applied every 7 days. For OUD: must wait until patient is in mild withdrawal before initiating (to avoid precipitated withdrawal).",
+        nurse: "For OUD treatment: patient must be in early withdrawal before starting (12-24h after last opioid use) — initiating too early precipitates severe withdrawal. Monitor for abstinence syndrome if patient has been using full agonists. Ceiling effect provides safety margin for respiratory depression. Partial agonist activity means it can both treat AND precipitate withdrawal depending on patient's opioid status. Monitor liver function periodically."
+    },
+    {
+        g: "Butorphanol", b: "Stadol (injection); Stadol NS (nasal spray)", c: "Opioid Partial Agonist-Antagonist (Kappa agonist, Mu antagonist)", cat: "pain",
+        m: "Mixed agonist-antagonist: AGONIST at kappa-opioid receptors (produces analgesia) and ANTAGONIST/partial agonist at mu-receptors. Has ceiling effect for analgesia and respiratory depression. Can precipitate withdrawal in patients dependent on mu-agonist opioids.",
+        ind: "Moderate to severe pain — short-term use (up to 3 weeks) in opioid-naïve patients. Migraine headaches (nasal spray is often used for acute migraine). Labor pain. Preoperative/postoperative analgesia. Potency similar to morphine.",
+        con: "Patients physically dependent on full mu-opioid agonists (will precipitate withdrawal). Severe respiratory depression. Avoid in patients with history of substance use disorder (still has abuse potential).",
+        aec: "Sedation, dizziness, nausea, vomiting, sweating, clamminess. Headache, confusion. Nasal congestion (nasal spray).",
+        aes: "Respiratory depression (ceiling effect limits severity). ABSTINENCE SYNDROME (precipitated withdrawal) in opioid-dependent patients. Hallucinations, psychotomimetic effects (more common with kappa agonists). Hypotension.",
+        inter: [
+            {d: "Full Opioid Agonists (Morphine, Fentanyl)", m: "Butorphanol's mu-antagonist activity can precipitate withdrawal and reduce effectiveness of full agonists.", s: "high"},
+            {d: "CNS Depressants", m: "Additive sedation and respiratory depression.", s: "high"},
+            {d: "MAOIs", m: "Unpredictable potentiation.", s: "high"}
+        ],
+        dosage: "IM: 1-4mg every 3-4 hours PRN. IV: 0.5-2mg every 3-4 hours PRN. Nasal spray: 1 spray (1mg) in one nostril; may repeat in 60-90 minutes. Maximum 4 sprays/day.",
+        admin: "IM, IV, nasal spray. Nasal spray is convenient for migraine treatment outside hospital. Rotate nostrils with nasal spray. IV push over 3-5 minutes.",
+        nurse: "⚠️ Can cause ABSTINENCE SYNDROME in opioid-dependent patients — assess opioid use history before administration. Has abuse potential despite partial agonist classification (Schedule IV). Monitor for psychotomimetic effects (hallucinations, dysphoria) — more common with kappa agonists. Useful alternative when mu-agonist abuse is a concern. Nasal spray useful for migraine patients who need rapid relief."
+    },
+    {
+        g: "Nalbuphine", b: "Nubain", c: "Opioid Partial Agonist-Antagonist (Kappa agonist, Mu antagonist)", cat: "pain",
+        m: "Mixed agonist-antagonist: AGONIST at kappa-opioid receptors and ANTAGONIST at mu-receptors. Has ceiling effect for both analgesia and respiratory depression. Unique among this class: NOT a controlled substance due to minimal physical dependence liability.",
+        ind: "Moderate to severe pain — often used for OBSTETRIC patients (labor analgesia) due to ceiling effect on respiratory depression (safer for mother and fetus). Postoperative pain. Preoperative sedation.",
+        con: "Patients physically dependent on mu-opioid agonists (precipitates withdrawal). Severe respiratory depression. Head injury with elevated ICP.",
+        aec: "Sedation, dizziness, sweating, clamminess. Nausea, vomiting, dry mouth. Headache.",
+        aes: "Respiratory depression (limited by ceiling effect — key safety feature for obstetrics). Precipitated WITHDRAWAL in opioid-dependent patients. Psychotomimetic effects (less common than butorphanol).",
+        inter: [
+            {d: "Full Opioid Agonists (Morphine)", m: "Mu-antagonist activity precipitates withdrawal in dependent patients and reduces full agonist effectiveness.", s: "high"},
+            {d: "CNS Depressants", m: "Additive sedation.", s: "med"},
+            {d: "MAOIs", m: "Unpredictable interactions.", s: "high"}
+        ],
+        dosage: "IM/SC/IV: 10mg every 3-6 hours PRN. Maximum single dose: 20mg. Maximum daily dose: 160mg.",
+        admin: "IM, SC, IV. IV push slowly. Can be given via PCA pump in some settings.",
+        nurse: "Preferred opioid for OBSTETRIC analgesia due to ceiling effect on respiratory depression — provides margin of safety for both mother and newborn. NOT a controlled substance (minimal dependence liability) — unique advantage. Monitor for withdrawal if patient has any opioid dependence history. Assess pain response — ceiling effect means higher doses won't provide additional analgesia."
+    },
+    {
+        g: "Naloxone", b: "Narcan (injection, nasal spray); Evzio (auto-injector)", c: "Opioid Antagonist (Pure)", cat: "pain",
+        m: "PURE COMPETITIVE ANTAGONIST at all opioid receptors (mu, kappa, delta). Displaces opioid agonists from receptors and REVERSES opioid effects including respiratory depression, sedation, and analgesia. Has higher receptor affinity than most opioids. NO analgesic or agonist activity — used only for REVERSAL.",
+        ind: "REVERSAL of opioid overdose — first-line treatment for opioid-induced respiratory depression. Diagnosis of suspected opioid overdose. Postoperative reversal of opioid effects. Available to first responders and for take-home naloxone programs.",
+        con: "Known hypersensitivity. Use with caution in opioid-dependent patients (will precipitate withdrawal). Cardiovascular disease (reversal can cause catecholamine surge).",
+        aec: "Nausea, vomiting. Sweating. Tachycardia, hypertension (reversal-related stress response).",
+        aes: "PRECIPITATED WITHDRAWAL in opioid-dependent patients — can be severe: nausea, vomiting, diarrhea, abdominal cramps, chills, myalgia, joint pain, piloerection, yawning, rhinorrhea, lacrimation, anxiety, irritability. Pulmonary edema (rare). Seizures (rare). Cardiac arrhythmias from catecholamine surge.",
+        inter: [
+            {d: "Opioid Agonists (Morphine, Heroin, Fentanyl)", m: "Naloxone competitively displaces opioids from receptors → reverses ALL opioid effects including analgesia and respiratory depression.", s: "high"},
+            {d: "Partial Agonists (Buprenorphine)", m: "High-affinity partial agonists may be harder to displace — higher naloxone doses may be needed.", s: "med"}
+        ],
+        dosage: "IV/IM/SC: 0.4-2mg every 2-3 minutes until response (max 10mg). Intranasal (Narcan spray): 4mg in one nostril, may repeat every 2-3 minutes. Auto-injector (Evzio): 0.4mg or 2mg IM/SC. Note: Duration is shorter than most opioids — repeat dosing often needed.",
+        admin: "IV (fastest onset), IM, SC, intranasal. IV onset: 1-2 minutes. IM/SC onset: 2-5 minutes. Intranasal onset: 3-5 minutes. Duration: 30-90 minutes — SHORTER than most opioids, so re-sedation/re-narcotization can occur. Repeat doses as needed.",
+        nurse: "⚠️ NALOXONE DURATION IS SHORTER THAN MOST OPIOIDS — patient may re-sedate when naloxone wears off. Continue monitoring for at least 2 hours after last dose; longer for long-acting opioids (methadone, fentanyl patches). Titrate dose to restore adequate respiration while minimizing withdrawal. In post-op patients, complete reversal eliminates analgesia — use small incremental doses. Have resuscitation equipment ready. Educate patients/families on take-home naloxone for opioid overdose prevention."
+    },
+    {
+        g: "Naltrexone", b: "Revia, Depade (oral); Vivitrol (IM extended-release)", c: "Opioid Antagonist (Pure)", cat: "pain",
+        m: "PURE COMPETITIVE ANTAGONIST at opioid receptors. Similar mechanism to naloxone but with ORAL bioavailability and MUCH LONGER duration of action (24-72 hours oral, 30 days IM). Blocks euphoric effects of opioids. Also has effects on endogenous opioid system related to alcohol reward pathways.",
+        ind: "MAINTENANCE of opioid-free state in formerly opioid-dependent patients (adjunct to psychosocial treatment). Adjunct treatment for ALCOHOL USE DISORDER — reduces craving and drinking. NOT for acute opioid reversal (use naloxone). Note: Methylnaltrexone (Relistor) is a peripherally-acting variant used for opioid-induced CONSTIPATION.",
+        con: "Current opioid use or acute opioid withdrawal (will precipitate severe withdrawal). Acute hepatitis or liver failure. Positive urine drug screen for opioids. Hypersensitivity.",
+        aec: "Nausea (common, especially initially), headache, dizziness, fatigue, anxiety, insomnia. Injection site reactions (Vivitrol).",
+        aes: "HEPATOTOXICITY — dose-related; monitor liver function. Precipitated WITHDRAWAL if opioids are in system. Depression, suicidal ideation (monitor mood). Injection site reactions with Vivitrol (induration, pain, nodules).",
+        inter: [
+            {d: "Opioid Agonists (All)", m: "Naltrexone blocks opioid effects — patients will NOT get analgesia or euphoria from opioids while on naltrexone. Attempting to override blockade with high opioid doses is DANGEROUS.", s: "high"},
+            {d: "Opioid-containing medications (cough syrups, antidiarrheals)", m: "Effects will be blocked; patient may not get expected therapeutic effect.", s: "med"},
+            {d: "Hepatotoxic drugs", m: "Additive liver toxicity risk.", s: "med"}
+        ],
+        dosage: "Oral (Revia): 50mg daily or 100mg every other day. IM (Vivitrol): 380mg deep gluteal IM every 4 weeks. Must be opioid-free for 7-10 days before starting (verified by urine screen and/or naloxone challenge).",
+        admin: "Oral daily or IM monthly. IM injection is deep gluteal only — do not inject IV or SC. Patient MUST be opioid-free for 7-10 days before initiation — consider naloxone challenge test to confirm. Supervised administration may improve adherence.",
+        nurse: "⚠️ Patient MUST be opioid-free for 7-10 days before starting — initiating in opioid-dependent patient causes severe precipitated withdrawal. Verify with urine drug screen. Monitor liver function (AST/ALT at baseline and periodically). Educate patient: opioids will NOT work for pain relief while on naltrexone — patient must inform all healthcare providers. Warn about overdose risk if patient attempts to override blockade with high opioid doses. For alcohol use disorder: reduces craving but works best with counseling. Vivitrol (monthly injection) improves adherence vs daily oral."
+    }
+];
+</script>
+    <script>
+/* SOURCE: data_pain_adjuvants.js */
+/* Block 1d — Pain: Adjuvants + Migraine + Muscle Relaxants (6 drugs)
+   Source: pain_lecture_drjames.txt (Slides 66-72) */
+
+const data_pain_adjuvants = [
+    {
+        g: "Gabapentin", b: "Neurontin, Gralise, Horizant", c: "Anticonvulsant / Adjuvant Analgesic", cat: "pain",
+        m: "Binds to alpha-2-delta subunit of voltage-gated calcium channels in the CNS, reducing excitatory neurotransmitter release. Originally developed as anticonvulsant but now widely used for NEUROPATHIC PAIN. Does NOT work through GABA receptors despite the name. Modulates pain signal transmission in dorsal horn.",
+        ind: "NEUROPATHIC PAIN — diabetic peripheral neuropathy, postherpetic neuralgia (shingles pain). Chronic pain syndromes. Fibromyalgia (off-label). Seizure disorders (partial seizures, adjunctive). Restless leg syndrome (Horizant formulation).",
+        con: "Hypersensitivity. Severe renal impairment (requires dose adjustment). Abrupt discontinuation (taper to avoid withdrawal seizures).",
+        aec: "Drowsiness, dizziness, fatigue. Peripheral edema. Weight gain. Ataxia, coordination problems. Blurred vision.",
+        aes: "CNS depression (especially when combined with opioids or CNS depressants). Respiratory depression (FDA warning when combined with opioids). Suicidal ideation (monitor mood). Angioedema (rare). Withdrawal seizures if stopped abruptly. Abuse potential (increasing concern).",
+        inter: [
+            {d: "Opioids", m: "Additive CNS and respiratory depression — FDA boxed warning. Increased overdose death risk.", s: "high"},
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Enhanced sedation and CNS depression.", s: "high"},
+            {d: "Antacids", m: "Reduce gabapentin absorption — separate by 2 hours.", s: "low"}
+        ],
+        dosage: "Neuropathic pain: Start 100-300mg at bedtime, titrate up to 300-600mg TID. Maximum 3600mg/day. Renal impairment: reduce dose based on CrCl. Seizures: 300-600mg TID.",
+        admin: "Oral. May take with or without food. Titrate slowly to minimize sedation. Do NOT stop abruptly — taper over at least 1 week. Gralise and Horizant are extended-release — not interchangeable with immediate-release.",
+        nurse: "Assess pain level before and after treatment. Monitor for CNS depression especially when combined with opioids — FDA warning about respiratory depression risk. Evaluate for suicidal ideation (all anticonvulsants carry this risk). Taper slowly when discontinuing — abrupt stop can cause seizures. Educate about drowsiness — avoid driving until effects known. Dose adjustment needed in renal impairment."
+    },
+    {
+        g: "Pregabalin", b: "Lyrica, Lyrica CR", c: "Anticonvulsant / Adjuvant Analgesic (Schedule V)", cat: "pain",
+        m: "Same mechanism as gabapentin — binds to alpha-2-delta subunit of voltage-gated calcium channels, reducing excitatory neurotransmitter release. More potent and more predictable absorption than gabapentin. SCHEDULE V controlled substance due to abuse potential (euphoria at high doses).",
+        ind: "NEUROPATHIC PAIN — diabetic peripheral neuropathy, postherpetic neuralgia, spinal cord injury pain. FIBROMYALGIA (FDA-approved). Seizure disorders (partial seizures, adjunctive). Generalized anxiety disorder (approved in Europe).",
+        con: "Hypersensitivity to pregabalin or gabapentin. Severe renal impairment (requires dose adjustment). Abrupt discontinuation.",
+        aec: "Dizziness, drowsiness, dry mouth. Peripheral edema, weight gain. Blurred vision. Difficulty concentrating.",
+        aes: "CNS/respiratory depression (especially with opioids — FDA boxed warning). Suicidal ideation. Angioedema. Withdrawal symptoms if stopped abruptly (insomnia, nausea, headache, diarrhea, seizures). ABUSE POTENTIAL (Schedule V) — reports of euphoria, especially at high doses.",
+        inter: [
+            {d: "Opioids", m: "Additive CNS and respiratory depression — FDA boxed warning. Associated with increased overdose deaths.", s: "high"},
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Enhanced sedation.", s: "high"},
+            {d: "Thiazolidinediones (Pioglitazone)", m: "Additive risk of peripheral edema and weight gain.", s: "med"}
+        ],
+        dosage: "Neuropathic pain: Start 50mg TID or 75mg BID, titrate to 150-300mg BID. Maximum 600mg/day. Fibromyalgia: 75mg BID initially, may increase to 150mg BID. Renal impairment: reduce dose.",
+        admin: "Oral. May take with or without food. Titrate gradually. Do NOT stop abruptly — taper over at least 1 week. Lyrica CR is once-daily extended-release.",
+        nurse: "CONTROLLED SUBSTANCE (Schedule V) — monitor for signs of misuse. Same CNS/respiratory depression warning as gabapentin when combined with opioids. Monitor for suicidal ideation. Assess for peripheral edema and weight gain. Do not discontinue abruptly — taper gradually. More predictable pharmacokinetics than gabapentin allows BID dosing. Renal dose adjustment required."
+    },
+    {
+        g: "Duloxetine", b: "Cymbalta, Irenka", c: "SNRI Antidepressant / Adjuvant Analgesic", cat: "pain",
+        m: "Serotonin-Norepinephrine Reuptake Inhibitor (SNRI) — inhibits reuptake of both serotonin and norepinephrine in the CNS. The dual mechanism enhances descending pain inhibitory pathways, making it effective for neuropathic and chronic pain independent of its antidepressant effects.",
+        ind: "NEUROPATHIC PAIN — diabetic peripheral neuropathy (FDA-approved). FIBROMYALGIA (FDA-approved). CHRONIC MUSCULOSKELETAL PAIN (FDA-approved). Major depressive disorder. Generalized anxiety disorder.",
+        con: "Concurrent use with MAOIs (or within 14 days). Uncontrolled narrow-angle glaucoma. Severe renal impairment (CrCl < 30). Severe hepatic impairment. Hypersensitivity.",
+        aec: "Nausea (common, often improves with time), dry mouth, constipation. Drowsiness, fatigue, dizziness. Decreased appetite. Sweating. Insomnia.",
+        aes: "SEROTONIN SYNDROME (with other serotonergic drugs) — agitation, hyperthermia, tachycardia, muscle rigidity. Suicidal ideation (FDA black box warning for all antidepressants in young adults). Hepatotoxicity (avoid in liver disease). Hypertension. Severe skin reactions (rare). Withdrawal syndrome if stopped abruptly (dizziness, nausea, headache, paresthesias).",
+        inter: [
+            {d: "MAOIs", m: "CONTRAINDICATED — risk of severe serotonin syndrome. Allow 14-day washout.", s: "high"},
+            {d: "Other Serotonergic Drugs (SSRIs, Tramadol, Triptans)", m: "Increased risk of serotonin syndrome.", s: "high"},
+            {d: "CYP1A2/CYP2D6 Inhibitors (Fluvoxamine, Quinidine)", m: "Increased duloxetine levels → enhanced effects and toxicity.", s: "med"},
+            {d: "Anticoagulants (Warfarin)", m: "SSRIs/SNRIs increase bleeding risk.", s: "med"}
+        ],
+        dosage: "Diabetic neuropathy: 60mg once daily. Fibromyalgia: Start 30mg daily × 1 week, then 60mg daily. Chronic pain: 30mg daily initially, may increase to 60mg. Maximum 120mg/day (some conditions). Depression/anxiety: 60-120mg daily.",
+        admin: "Oral. Take with or without food. Swallow whole — do NOT crush, chew, or open delayed-release capsules. Taper when discontinuing — do not stop abruptly.",
+        nurse: "Monitor for serotonin syndrome symptoms (agitation, hyperthermia, tachycardia, tremor, muscle rigidity). Assess suicidal ideation, especially in young adults starting treatment. Monitor blood pressure (SNRIs can increase BP). Do NOT give with MAOIs. Taper gradually when discontinuing to avoid withdrawal syndrome. Helpful for patients with comorbid depression/anxiety and chronic pain. Takes 1-2 weeks to see pain benefit."
+    },
+    {
+        g: "Sumatriptan", b: "Imitrex (injection, nasal, tablet); Onzetra Xsail (nasal); Sumavel (needle-free injection); Treximet (with naproxen)", c: "Serotonin Receptor Agonist (Triptan) / Antimigraine", cat: "pain",
+        m: "Selective agonist at serotonin 5-HT1B and 5-HT1D receptors. Causes vasoconstriction of dilated intracranial blood vessels and inhibits release of inflammatory neuropeptides. The prototype TRIPTAN — first-line ABORTIVE treatment for acute migraine attacks.",
+        ind: "ACUTE MIGRAINE attacks (abortive treatment — NOT for prevention). Cluster headaches. Most effective when taken early in migraine. Available in multiple formulations for rapid relief.",
+        con: "ISCHEMIC HEART DISEASE, coronary artery vasospasm, or uncontrolled hypertension (causes vasoconstriction). History of stroke or TIA. Peripheral vascular disease. Hemiplegic or basilar migraine. Concurrent use with MAOIs or within 2 weeks. Concurrent use with ergotamine derivatives.",
+        aec: "Chest pain/pressure/tightness (often NOT cardiac — 'triptan sensations'). Flushing, tingling, warm sensation. Dizziness, vertigo. Throat tightness. Fatigue. Injection site reactions.",
+        aes: "CORONARY ARTERY VASOSPASM → angina, myocardial ischemia, MI (rare but serious — avoid in CAD). Stroke. Arrhythmias. Serotonin syndrome (when combined with other serotonergics). Medication overuse headache with frequent use.",
+        inter: [
+            {d: "Ergotamine derivatives (Ergotamine, DHE)", m: "Additive vasoconstriction — wait 24 hours between use. Potentially serious vasospasm.", s: "high"},
+            {d: "MAOIs", m: "MAO-A inhibitors increase sumatriptan levels → enhanced vasoconstriction risk.", s: "high"},
+            {d: "Other Triptans", m: "Do not use within 24 hours of another triptan.", s: "high"},
+            {d: "SSRIs/SNRIs", m: "Risk of serotonin syndrome (monitor symptoms).", s: "med"}
+        ],
+        dosage: "Oral: 25-100mg at onset, may repeat after 2 hours (max 200mg/day). Nasal spray: 5-20mg in one nostril, may repeat after 2 hours (max 40mg/day). SC injection: 6mg, may repeat after 1 hour (max 12mg/day).",
+        admin: "Oral tablets, nasal spray, SC injection, intranasal powder. Take at first sign of migraine for best effect. SC injection provides fastest relief (10-15 min). Nasal spray: 15-20 min onset. Oral: 30-60 min onset. Do NOT use for migraine prevention — only acute attacks.",
+        nurse: "Assess for cardiovascular risk factors before prescribing — contraindicated in CAD. Educate that chest pain/tightness is often NOT cardiac (triptan sensation) but should be evaluated if severe or persistent. First dose may be given in clinic to monitor for cardiac effects in at-risk patients. Administer early in migraine for best results. Do not exceed recommended frequency — can cause medication overuse headache. Avoid in patients taking ergotamines or MAOIs."
+    },
+    {
+        g: "Cyclobenzaprine", b: "Flexeril, Amrix (ER)", c: "Skeletal Muscle Relaxant (Centrally Acting)", cat: "pain",
+        m: "Acts primarily within the CNS at the brainstem level to reduce skeletal muscle spasm. Structurally related to tricyclic antidepressants (TCAs) and shares their anticholinergic properties. Does NOT act directly on skeletal muscle. Reduces muscle hyperactivity associated with acute painful musculoskeletal conditions.",
+        ind: "ACUTE MUSCULOSKELETAL PAIN with muscle spasm — adjunct to rest, physical therapy, and other measures. Short-term use only (2-3 weeks). NOT effective for spasticity from CNS disorders (use baclofen instead).",
+        con: "Concurrent use with MAOIs or within 14 days. Hyperthyroidism. Cardiac conduction disturbances (arrhythmias, heart block, CHF). Acute recovery phase of MI.",
+        aec: "DROWSINESS/SEDATION (very common). Dry mouth. Dizziness. Fatigue. Constipation. Blurred vision (anticholinergic effects).",
+        aes: "Anticholinergic toxicity (confusion, urinary retention, tachycardia — especially in elderly). Serotonin syndrome (with serotonergics). Cardiac arrhythmias. Seizures (overdose).",
+        inter: [
+            {d: "MAOIs", m: "Risk of hyperpyretic crisis, seizures, and death — CONTRAINDICATED.", s: "high"},
+            {d: "CNS Depressants (Alcohol, Opioids, Benzodiazepines)", m: "Additive sedation — significant impairment.", s: "high"},
+            {d: "Serotonergic Drugs (SSRIs, SNRIs, Tramadol)", m: "Risk of serotonin syndrome.", s: "med"},
+            {d: "Anticholinergic Drugs", m: "Additive anticholinergic effects.", s: "med"}
+        ],
+        dosage: "Immediate-release: 5-10mg TID. Maximum 30mg/day. Extended-release (Amrix): 15-30mg once daily. Use lowest effective dose. Limit to 2-3 weeks.",
+        admin: "Oral. Usually given TID for immediate-release. Best taken at bedtime if sedation is problematic. Short-term use only — not intended for chronic therapy.",
+        nurse: "⚠️ CAUSES SIGNIFICANT SEDATION — counsel patient about drowsiness, avoid driving until effects known. Short-term use only (2-3 weeks). Avoid in elderly due to anticholinergic effects and sedation (Beers Criteria). Monitor for anticholinergic symptoms (dry mouth, constipation, urinary retention, confusion). Not effective for spasticity — only for acute muscle spasm. Do NOT use with MAOIs."
+    },
+    {
+        g: "Baclofen", b: "Lioresal, Gablofen (intrathecal)", c: "Skeletal Muscle Relaxant (GABA-B Agonist)", cat: "pain",
+        m: "Agonist at GABA-B receptors in the spinal cord. Inhibits release of excitatory neurotransmitters and reduces transmission of impulses from muscle spindles. Reduces spasticity by acting at the spinal cord level. Can also be given intrathecally for severe spasticity.",
+        ind: "SPASTICITY from CNS disorders — multiple sclerosis, spinal cord injury, cerebral palsy, stroke. NOT effective for acute musculoskeletal spasm (use cyclobenzaprine). Intrathecal baclofen for severe refractory spasticity.",
+        con: "Hypersensitivity. Abrupt withdrawal (risk of severe withdrawal syndrome). Use with caution in renal impairment, seizure disorders, psychiatric disorders.",
+        aec: "Drowsiness, sedation, dizziness. Weakness. Nausea. Headache. Hypotonia (excessive muscle relaxation).",
+        aes: "WITHDRAWAL SYNDROME if stopped abruptly — can be life-threatening: hyperthermia, altered mental status, seizures, rhabdomyolysis, multiple organ failure. Respiratory depression (high doses or intrathecal). CNS depression. Hallucinations, confusion. Urinary retention.",
+        inter: [
+            {d: "CNS Depressants (Alcohol, Opioids, Benzodiazepines)", m: "Additive sedation and respiratory depression.", s: "high"},
+            {d: "Antihypertensives", m: "Additive hypotension.", s: "med"},
+            {d: "TCAs", m: "Additive sedation and muscle weakness.", s: "med"}
+        ],
+        dosage: "Oral: Start 5mg TID, increase by 5mg/dose every 3 days. Usual dose: 40-80mg/day in divided doses. Maximum 80mg/day. Intrathecal (pump): Initial test dose 50mcg, maintenance varies widely.",
+        admin: "Oral or intrathecal pump. Oral given in 3-4 divided doses. NEVER stop abruptly — must taper slowly over 1-2 weeks minimum. Intrathecal pump requires surgical implantation and specialized management.",
+        nurse: "⚠️ NEVER DISCONTINUE ABRUPTLY — baclofen withdrawal is life-threatening (seizures, hyperthermia, rhabdomyolysis). Taper slowly over 1-2 weeks or longer. For intrathecal pumps: monitor for pump malfunction, infection, catheter issues — abrupt loss of intrathecal baclofen is a medical emergency. Monitor muscle tone — goal is reduction of spasticity without eliminating all tone (some tone is needed for function). Effective for CNS-related spasticity (MS, spinal cord injury, CP) but NOT for acute muscle spasm."
+    }
+];
+</script>
+    <script>
 /* SOURCE: data_loader.js */
 // Master Data Aggregator - Globally Exposed
 window.drugDB = [];
@@ -5041,6 +5235,8 @@ if (typeof data_diabetes_insulins_part2 !== 'undefined') mergeData(data_diabetes
 // Pain Management Atomic Loads
 if (typeof data_pain_nonopioid !== 'undefined') mergeData(data_pain_nonopioid);
 if (typeof data_pain_opioid_agonists !== 'undefined') mergeData(data_pain_opioid_agonists);
+if (typeof data_pain_partial_antagonists !== 'undefined') mergeData(data_pain_partial_antagonists);
+if (typeof data_pain_adjuvants !== 'undefined') mergeData(data_pain_adjuvants);
 
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");
 
