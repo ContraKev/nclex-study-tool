@@ -1,0 +1,81 @@
+/* Block 13 — Osteoporosis Medications (5 drugs)
+   Source: pharmacology_A_drjames.txt, pharmacology_B_drjames.txt */
+
+const data_osteoporosis = [
+    {
+        g: "Alendronate", b: "Fosamax, Binosto", c: "Bisphosphonate", cat: "msk",
+        m: "Binds to hydroxyapatite in BONE MATRIX, particularly at sites of active resorption. When osteoclasts attempt to resorb bone, they ingest the bisphosphonate → inhibits osteoclast function and promotes apoptosis. Net effect: DECREASED BONE RESORPTION → increased bone mineral density.",
+        ind: "OSTEOPOROSIS (postmenopausal, male, glucocorticoid-induced) — prevention and treatment. Paget's disease of bone.",
+        con: "Esophageal abnormalities (stricture, achalasia) that delay emptying. Inability to stand/sit upright for 30 minutes. Hypocalcemia (correct first). Severe renal impairment (CrCl <35 mL/min).",
+        aec: "GI effects: Dyspepsia, abdominal pain, nausea, diarrhea, constipation. Musculoskeletal pain (sometimes severe). Headache.",
+        aes: "⚠️ ESOPHAGEAL EROSION/ULCERATION — can be severe. Must take correctly. ⚠️ OSTEONECROSIS OF THE JAW (ONJ) — rare but serious, especially with dental procedures, cancer, IV bisphosphonates. ATYPICAL FEMUR FRACTURES — subtrochanteric, with minimal trauma, after prolonged use (>5 years). Severe musculoskeletal pain. Hypocalcemia. Ocular inflammation (uveitis, scleritis — rare).",
+        inter: [
+            {d: "Calcium, Antacids, Iron, Minerals", m: "MARKEDLY reduce absorption — separate by at least 30 minutes (take alendronate first).", s: "high"},
+            {d: "NSAIDs, Aspirin", m: "Additive GI irritation risk.", s: "med"},
+            {d: "PPIs, H2 blockers", m: "May reduce absorption.", s: "low"}
+        ],
+        dosage: "Osteoporosis treatment: 10mg PO daily OR 70mg PO weekly. Prevention: 5mg daily or 35mg weekly. Paget's: 40mg daily for 6 months. Binosto: effervescent tablet dissolved in water.",
+        admin: "⚠️ STRICT ADMINISTRATION: Take first thing in morning on EMPTY STOMACH with FULL GLASS (6-8 oz) of PLAIN WATER only. Remain UPRIGHT (sitting or standing) for at least 30 MINUTES. Do not lie down. Do not eat/drink anything else for 30 minutes. Do not chew or suck tablets.",
+        nurse: "⚠️ ADMINISTRATION IS CRITICAL — improper use causes esophageal damage. Patient teaching essential: (1) First thing AM, (2) Empty stomach, (3) Full glass plain water ONLY, (4) Stay upright 30 min, (5) No food/drink/other meds for 30 min. Dental exam before starting — ONJ risk with invasive dental procedures. Consider 'drug holiday' after 5 years — discuss with provider (atypical fracture risk). Report thigh/groin pain (atypical fracture warning). Calcium/vitamin D supplementation needed. Weekly dosing improves compliance."
+    },
+    {
+        g: "Risedronate", b: "Actonel, Atelvia", c: "Bisphosphonate", cat: "msk",
+        m: "Same mechanism as alendronate — binds to bone, inhibits osteoclast-mediated bone resorption. May have slightly less GI irritation than alendronate, but same class precautions apply.",
+        ind: "Osteoporosis (postmenopausal, male, glucocorticoid-induced). Paget's disease.",
+        con: "Same as alendronate: Esophageal abnormalities, inability to remain upright 30 min, hypocalcemia, severe renal impairment.",
+        aec: "Similar to alendronate: GI upset, musculoskeletal pain, headache. May be slightly better tolerated.",
+        aes: "Same as alendronate: Esophageal irritation, ONJ, atypical femur fractures, hypocalcemia, severe bone/muscle pain.",
+        inter: [
+            {d: "Same as alendronate", m: "Calcium, antacids, food decrease absorption.", s: "high"}
+        ],
+        dosage: "Osteoporosis treatment: 5mg daily, 35mg weekly, 75mg on 2 consecutive days monthly, or 150mg monthly. Paget's: 30mg daily for 2 months. Atelvia (delayed-release): 35mg weekly immediately after breakfast.",
+        admin: "Same strict requirements as alendronate for immediate-release. Atelvia (delayed-release) is EXCEPTION: take immediately AFTER breakfast with at least 4 oz water, still remain upright 30 min.",
+        nurse: "Same administration teaching as alendronate. Monthly dosing option (150mg) may improve compliance. Atelvia is unique — taken AFTER breakfast (delayed-release protects from stomach acid). All other forms: same fasting requirements. Dental screening, drug holiday considerations same as alendronate."
+    },
+    {
+        g: "Zoledronic Acid", b: "Reclast, Zometa", c: "Bisphosphonate (IV)", cat: "msk",
+        m: "Most potent bisphosphonate. Same mechanism — inhibits osteoclast bone resorption. Given IV, avoiding GI absorption issues. Reclast = osteoporosis indication (yearly). Zometa = cancer/hypercalcemia indication (more frequent dosing).",
+        ind: "OSTEOPOROSIS (Reclast — once yearly IV). Paget's disease. HYPERCALCEMIA of malignancy (Zometa). Bone metastases prevention (Zometa).",
+        con: "Hypocalcemia (correct first). Severe renal impairment (CrCl <35 mL/min for Reclast). Pregnancy.",
+        aec: "⚠️ ACUTE PHASE REACTION: Fever, myalgia, arthralgia, headache, flu-like symptoms 24-72 hours after infusion (up to 30% — usually lessens with subsequent doses). Hypocalcemia.",
+        aes: "Same class effects: ONJ (more common with cancer dosing), atypical femur fractures. ⚠️ RENAL TOXICITY (especially with Zometa, rapid infusion, dehydration). Hypocalcemia (symptomatic). Severe bone pain. Ocular inflammation. Atrial fibrillation (controversial).",
+        inter: [
+            {d: "Nephrotoxic drugs (aminoglycosides, NSAIDs)", m: "Additive renal toxicity risk.", s: "med"},
+            {d: "Loop diuretics", m: "Additive hypocalcemia.", s: "med"}
+        ],
+        dosage: "Osteoporosis (Reclast): 5mg IV once yearly. Paget's: 5mg IV single dose. Hypercalcemia of malignancy (Zometa): 4mg IV over 15 min, may repeat. Bone metastases (Zometa): 4mg IV every 3-4 weeks.",
+        admin: "IV infusion over at least 15 minutes (Reclast over at least 15 min; Zometa over at least 15 min — longer for renal protection). HYDRATION essential — ensure adequate fluid intake before/after. Do not mix with calcium-containing solutions.",
+        nurse: "⚠️ PRE-INFUSION: Check renal function (CrCl), calcium level. Ensure patient is well hydrated. ACUTE PHASE REACTION common after first dose — warn patient about fever, flu-like symptoms 1-3 days post-infusion. Acetaminophen may help. Calcium/vitamin D supplementation throughout treatment. Dental exam before starting. YEARLY dosing (Reclast) = excellent compliance. IV route bypasses GI issues of oral bisphosphonates. Monitor for renal decline, hypocalcemia."
+    },
+    {
+        g: "Raloxifene", b: "Evista", c: "Selective Estrogen Receptor Modulator (SERM)", cat: "msk",
+        m: "SERM with tissue-selective effects: ESTROGEN AGONIST in bone (maintains bone density) and lipids (favorable effects). ESTROGEN ANTAGONIST in breast and uterus (reduces breast cancer risk, no uterine stimulation). Does NOT help hot flashes (may worsen).",
+        ind: "OSTEOPOROSIS (postmenopausal women — prevention and treatment). Reduces invasive BREAST CANCER risk in high-risk postmenopausal women.",
+        con: "⚠️ History of or active VENOUS THROMBOEMBOLISM (DVT, PE). Pregnancy, breastfeeding. Prolonged immobilization (surgery, bedrest — discontinue 72 hours before).",
+        aec: "Hot flashes (estrogen antagonist effect — may worsen menopausal symptoms). Leg cramps. Peripheral edema. Flu syndrome.",
+        aes: "⚠️ VENOUS THROMBOEMBOLISM (DVT, PE) — increased risk similar to estrogen. Risk increases with immobilization. Stroke (increased risk). Retinal vein thrombosis. Fatal stroke risk may be higher in women with cardiovascular risk factors.",
+        inter: [
+            {d: "Cholestyramine", m: "Decreases raloxifene absorption by 60% — avoid.", s: "high"},
+            {d: "Warfarin", m: "May decrease warfarin effect — monitor INR.", s: "med"},
+            {d: "Estrogen", m: "Do not use together — no safety/efficacy data.", s: "high"}
+        ],
+        dosage: "60mg PO once daily. Take with or without food.",
+        admin: "Oral. No special timing or food requirements. Calcium and vitamin D supplementation recommended.",
+        nurse: "⚠️ VTE RISK: Screen for DVT/PE history — contraindicated. Discontinue 72 hours before prolonged immobilization (surgery, long travel). Teach warning signs: leg pain/swelling, chest pain, SOB. Does NOT improve hot flashes — may worsen. BENEFIT: Reduces breast cancer risk (additional benefit beyond bone). No uterine stimulation (unlike estrogen/tamoxifen). Good option for postmenopausal women wanting bone protection + breast cancer risk reduction. Weight-bearing exercise and calcium/vitamin D still important."
+    },
+    {
+        g: "Calcitonin (salmon)", b: "Miacalcin, Fortical", c: "Hormone / Bone Resorption Inhibitor", cat: "msk",
+        m: "Synthetic salmon calcitonin (more potent than human). Binds to osteoclast receptors → inhibits osteoclast activity → DECREASES BONE RESORPTION. Also has ANALGESIC effect on bone pain (mechanism unclear). Weaker effect on bone density than bisphosphonates.",
+        ind: "OSTEOPOROSIS in postmenopausal women (when other agents not suitable). PAGET'S disease. HYPERCALCEMIA (adjunct). ⚠️ Primarily used for BONE PAIN relief from vertebral fractures or Paget's.",
+        con: "Hypersensitivity to salmon calcitonin. Consider skin test before starting if allergy history.",
+        aec: "Nasal spray: Rhinitis, nasal irritation, epistaxis (nosebleed), nasal dryness. Injection: Nausea, flushing, injection site reactions. Headache.",
+        aes: "⚠️ MALIGNANCY: FDA warning — possible increased cancer risk with long-term use (meta-analysis data). Use only when benefit outweighs risk. Severe allergic reactions (salmon protein). Hypocalcemia.",
+        inter: [
+            {d: "Bisphosphonates", m: "Both inhibit bone resorption — typically not combined.", s: "low"},
+            {d: "Lithium", m: "Calcitonin may reduce lithium levels.", s: "low"}
+        ],
+        dosage: "Osteoporosis (nasal): 200 IU (one spray) in one nostril daily, alternating nostrils. Injection: 100 IU daily or every other day SC or IM. Paget's: 100 IU daily SC/IM. Hypercalcemia: 4 IU/kg every 12 hours SC/IM.",
+        admin: "Nasal spray (most common): Prime pump before first use. One spray per day, alternate nostrils. Store unopened in refrigerator; once opened, stable at room temperature for 30 days. Injection: SC or IM.",
+        nurse: "⚠️ CANCER RISK warning — use should be limited, primarily for bone pain relief or when other agents inappropriate. Not first-line for osteoporosis. ANALGESIC BENEFIT: Unique among osteoporosis drugs — helps with acute vertebral fracture pain. Nasal spray: teach proper technique, alternate nostrils, discard after 30 days. Tachyphylaxis (decreasing response) may occur with long-term use. Calcium/vitamin D supplementation. Consider skin test if salmon allergy suspected. Less effective at building bone than bisphosphonates."
+    }
+];

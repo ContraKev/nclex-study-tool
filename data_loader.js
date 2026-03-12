@@ -53,4 +53,41 @@ if (typeof data_antimicrobials_part1 !== 'undefined') mergeData(data_antimicrobi
 if (typeof data_antimicrobials_part2 !== 'undefined') mergeData(data_antimicrobials_part2);
 if (typeof data_antimicrobials_part3 !== 'undefined') mergeData(data_antimicrobials_part3);
 
+// Respiratory Atomic Loads
+if (typeof data_respiratory_part1 !== 'undefined') mergeData(data_respiratory_part1);
+if (typeof data_respiratory_part2 !== 'undefined') mergeData(data_respiratory_part2);
+
+// Corticosteroids & Immunity Atomic Loads
+if (typeof data_corticosteroids_immunity !== 'undefined') mergeData(data_corticosteroids_immunity);
+
+// CNS & Psych Atomic Loads
+if (typeof data_cns_psych !== 'undefined') mergeData(data_cns_psych);
+
+// GI Atomic Loads
+if (typeof data_gi !== 'undefined') mergeData(data_gi);
+
+// Thyroid Atomic Loads
+if (typeof data_thyroid !== 'undefined') mergeData(data_thyroid);
+
+// Neurology Atomic Loads
+if (typeof data_parkinsons !== 'undefined') mergeData(data_parkinsons);
+if (typeof data_alzheimers !== 'undefined') mergeData(data_alzheimers);
+
+// Reproductive & OB Atomic Loads
+if (typeof data_reproductive !== 'undefined') mergeData(data_reproductive);
+
+// STI & Sexual Health Atomic Loads
+if (typeof data_sti_drugs !== 'undefined') mergeData(data_sti_drugs);
+if (typeof data_womens_health !== 'undefined') mergeData(data_womens_health);
+if (typeof data_mens_health !== 'undefined') mergeData(data_mens_health);
+
+// Urology Atomic Loads
+if (typeof data_urology !== 'undefined') mergeData(data_urology);
+
+// Ophthalmic Atomic Loads
+if (typeof data_ophthalmic !== 'undefined') mergeData(data_ophthalmic);
+
+// Osteoporosis/MSK Atomic Loads
+if (typeof data_osteoporosis !== 'undefined') mergeData(data_osteoporosis);
+
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");
