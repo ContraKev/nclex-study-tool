@@ -12664,22 +12664,99 @@ console.log("Created exam module: Men's and Women's Health Exam with 40 question
                 </h6>
                 <div style="display:none;" class="ms-4 mt-2">`;
             steps.forEach((step, si) => {
-                let answer = step.answer;
-                if (Array.isArray(answer)) {
-                    if (answer.every(a => typeof a === 'number')) {
-                        const opts = step.options || [];
-                        answer = answer.map(a => opts[a] || `[${a}]`).join('; ');
+                let answerHtml = '';
+                const stepType = step.type || '?';
+                
+                // Handle different NGN question types
+                if (stepType === 'bowtie') {
+                    // Bowtie: center condition + left actions + right monitoring
+                    const center = step.center_condition?.answer || 'N/A';
+                    const left = step.left_actions?.answer || [];
+                    const right = step.right_monitor?.answer || [];
+                    answerHtml = `
+                        <div class="ms-3 mt-1">
+                            <div><span class="text-info">Center (Diagnosis):</span> ${center}</div>
+                            <div><span class="text-info">Left (Actions):</span> ${Array.isArray(left) ? left.join('; ') : left}</div>
+                            <div><span class="text-info">Right (Monitor):</span> ${Array.isArray(right) ? right.join('; ') : right}</div>
+                        </div>`;
+                } else if (stepType === 'matrix') {
+                    // Matrix: row → answer mapping
+                    const rows = step.rows || [];
+                    const answers = step.answer || {};
+                    answerHtml = '<div class="ms-3 mt-1">';
+                    rows.forEach(row => {
+                        answerHtml += `<div><span class="text-info">${row}:</span> ${answers[row] || 'N/A'}</div>`;
+                    });
+                    answerHtml += '</div>';
+                } else if (stepType === 'cloze' || stepType === 'dropdown_cloze') {
+                    // Cloze: multiple blanks with answers
+                    const blanks = step.blanks || step.answer || [];
+                    if (Array.isArray(blanks)) {
+                        answerHtml = '<div class="ms-3 mt-1">';
+                        blanks.forEach((b, bi) => {
+                            if (typeof b === 'object' && b.answer) {
+                                answerHtml += `<div><span class="text-info">Blank ${bi+1}:</span> ${b.answer}</div>`;
+                            } else {
+                                answerHtml += `<div><span class="text-info">Blank ${bi+1}:</span> ${b}</div>`;
+                            }
+                        });
+                        answerHtml += '</div>';
                     } else {
-                        answer = answer.join('; ');
+                        answerHtml = `<div class="text-success fw-bold ms-3">→ ${blanks}</div>`;
                     }
-                } else if (typeof answer === 'object') {
-                    answer = JSON.stringify(answer);
+                } else if (stepType === 'highlight' || stepType === 'highlight_text' || stepType === 'highlight_select') {
+                    // Highlight: text selections
+                    const highlights = step.highlights || [];
+                    const correctHighlights = highlights.filter(h => h.correct).map(h => h.text || h);
+                    if (correctHighlights.length > 0) {
+                        answerHtml = `<div class="text-success fw-bold ms-3">→ ${correctHighlights.join('; ')}</div>`;
+                    } else {
+                        const selections = step.answer || step.correct_highlights || [];
+                        answerHtml = `<div class="text-success fw-bold ms-3">→ ${Array.isArray(selections) ? selections.join('; ') : selections}</div>`;
+                    }
+                } else if (stepType === 'drag_drop' || stepType === 'drag_drop_cloze') {
+                    // Drag and drop cloze: blanks with correct answers
+                    const blanks = step.blanks || [];
+                    if (blanks.length > 0 && blanks[0]?.correct) {
+                        answerHtml = '<div class="ms-3 mt-1">';
+                        blanks.forEach((blank, bi) => {
+                            answerHtml += `<div><span class="text-info">Blank ${bi+1}:</span> ${blank.correct || blank.answer || 'N/A'}</div>`;
+                        });
+                        answerHtml += '</div>';
+                    } else {
+                        // Regular drag_drop with answer object
+                        const answer = step.answer || {};
+                        if (typeof answer === 'object' && !Array.isArray(answer)) {
+                            answerHtml = '<div class="ms-3 mt-1">';
+                            Object.entries(answer).forEach(([target, item]) => {
+                                answerHtml += `<div><span class="text-info">${target}:</span> ${item}</div>`;
+                            });
+                            answerHtml += '</div>';
+                        } else {
+                            answerHtml = `<div class="text-success fw-bold ms-3">→ ${Array.isArray(answer) ? answer.join('; ') : answer}</div>`;
+                        }
+                    }
+                } else {
+                    // Extended SATA, multiple choice, or other types
+                    let answer = step.answer;
+                    if (Array.isArray(answer)) {
+                        if (answer.every(a => typeof a === 'number')) {
+                            const opts = step.options || [];
+                            answer = answer.map(a => opts[a] || `[${a}]`).join('; ');
+                        } else {
+                            answer = answer.join('; ');
+                        }
+                    } else if (typeof answer === 'object' && answer !== null) {
+                        // Object answer (shouldn't happen for SATA but handle gracefully)
+                        answer = Object.entries(answer).map(([k,v]) => `${k}: ${v}`).join('; ');
+                    }
+                    answerHtml = `<div class="text-success fw-bold ms-3">→ ${String(answer || 'N/A')}</div>`;
                 }
-                const aStr = String(answer || '').substring(0, 150);
-                const prompt = (step.prompt || '').substring(0, 120);
-                html += `<div class="ak-row mb-2" style="font-size:0.75rem;">
-                    <div class="text-secondary">Step ${si+1} [${step.type || '?'}]: ${prompt}...</div>
-                    <div class="text-success fw-bold">→ ${aStr}</div>
+                
+                const prompt = step.prompt || step.question || 'N/A';
+                html += `<div class="ak-row mb-2" style="font-size:0.8rem;">
+                    <div class="text-secondary"><strong>Step ${si+1}</strong> [${stepType}]: ${prompt}</div>
+                    ${answerHtml}
                 </div>`;
             });
             html += `</div></div>`;
