@@ -118,6 +118,55 @@ window.missions_cardio_2 = [
                     answer: ["EKG for U-waves and arrhythmias", "Serum Potassium levels"]
                 },
                 rationale: "Aggressive loop diuretic therapy rapidly depletes potassium, which is critical for cardiac electrical stability. The onset of PVCs and 'heart flutters' in this patient strongly suggests severe hypokalemia. The nurse must act immediately to stop further potassium loss by holding the diuretic and must advocate for urgent potassium replacement (IV or PO depending on severity). Continuous EKG monitoring is the highest priority to detect lethal progression into Ventricular Tachycardia or the appearance of U-waves, while serial serum potassium checks are required to guide replacement therapy and ensure the patient returns to a safe range (3.5-5.0 mEq/L)."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is documenting the rationale for using Ethacrynic acid instead of Furosemide in this patient. Complete the documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Patient has documented [[BLANK1]] allergy to sulfonamides. Furosemide, Bumetanide, and Torsemide are all [[BLANK2]] derivatives and carry cross-reactivity risk. Ethacrynic acid is the only loop diuretic that is [[BLANK3]]-free. However, the nurse must monitor for [[BLANK4]], as Ethacrynic acid carries a [[BLANK5]] risk of this adverse effect compared to other loop diuretics. Signs include tinnitus and [[BLANK6]].",
+                drag_options: [
+                    "anaphylactic",
+                    "mild rash",
+                    "sulfonamide",
+                    "penicillin",
+                    "sulfa",
+                    "lactose",
+                    "ototoxicity",
+                    "nephrotoxicity",
+                    "higher",
+                    "lower",
+                    "hearing changes",
+                    "vision changes"
+                ],
+                answer: {
+                    "BLANK1": "anaphylactic",
+                    "BLANK2": "sulfonamide",
+                    "BLANK3": "sulfa",
+                    "BLANK4": "ototoxicity",
+                    "BLANK5": "higher",
+                    "BLANK6": "hearing changes"
+                },
+                rationale: "Documentation must reflect clinical reasoning: the patient's ANAPHYLACTIC (not mild) sulfa allergy necessitates avoidance of sulfonamide-derivative diuretics. Ethacrynic acid is the only sulfa-free loop diuretic. The trade-off is that Ethacrynic acid has a HIGHER (not lower) risk of permanent ototoxicity, especially in elderly patients and those with renal impairment. Tinnitus and hearing changes are early warning signs that must be reported immediately."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's Review of Systems (ROS) below. Highlight/select ALL findings that indicate acute decompensated heart failure (ADHF) with pulmonary edema.",
+                highlight_text: "Neuro: Highly anxious and restless. Oriented but unable to speak in full sentences due to dyspnea. Cardio: Palpitations. S3 gallop audible. 3+ pitting edema to bilateral lower extremities and presacral area. JVD noted at 90 degrees. Lung: Coarse crackles (rales) heard throughout all lung fields, including the apices. Productive cough with thin, pink, frothy sputum. GI: Reports nausea and abdominal bloating (ascites noted).",
+                highlight_options: [
+                    "Highly anxious and restless",
+                    "unable to speak in full sentences due to dyspnea",
+                    "Palpitations",
+                    "S3 gallop audible",
+                    "3+ pitting edema to bilateral lower extremities",
+                    "JVD noted at 90 degrees",
+                    "Coarse crackles (rales) heard throughout all lung fields",
+                    "pink, frothy sputum",
+                    "nausea and abdominal bloating",
+                    "ascites noted"
+                ],
+                answer: ["unable to speak in full sentences due to dyspnea", "S3 gallop audible", "3+ pitting edema to bilateral lower extremities", "JVD noted at 90 degrees", "Coarse crackles (rales) heard throughout all lung fields", "pink, frothy sputum", "ascites noted"],
+                rationale: "Classic findings of ADHF with pulmonary edema include: (1) Respiratory distress so severe patient cannot speak in full sentences; (2) S3 gallop — pathognomonic for volume overload/HF; (3) Bilateral pitting edema — systemic fluid retention; (4) JVD at 90 degrees — elevated right heart pressures; (5) Diffuse crackles including apices — fluid in alveoli; (6) Pink frothy sputum — blood-tinged pulmonary edema (severe); (7) Ascites — hepatic congestion from right heart failure. Anxiety/restlessness and palpitations are symptoms but not specific diagnostic findings."
             }
         ]
     },
@@ -228,6 +277,52 @@ window.missions_cardio_2 = [
                     answer: ["Repeat INR levels", "Hemoglobin and Hematocrit"]
                 },
                 rationale: "The patient is experiencing an acute bleeding event due to an excessively high INR (5.8), indicating Warfarin toxicity. The primary nursing action is to hold the medication to prevent further anticoagulation and administer Vitamin K, which is the specific antagonist that allows the liver to resume synthesis of clotting factors. While leafy greens contain Vitamin K, they are not used for acute reversal. Monitoring must focus on the INR to track the effectiveness of the reversal and the Hemoglobin/Hematocrit to assess the severity of blood loss from the epistaxis and hematuria."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is explaining anticoagulant bridging therapy to the patient. Complete the patient education by dragging the correct terms into the blanks.",
+                cloze_text: "You need two blood thinners because Warfarin takes [[BLANK1]] days to become fully effective. During this time, Heparin provides [[BLANK2]] protection. We monitor Heparin using the [[BLANK3]] test and Warfarin using the [[BLANK4]] test. Once your INR reaches [[BLANK5]], we can safely stop the Heparin. The antidote for Warfarin toxicity is [[BLANK6]], while the antidote for Heparin is Protamine Sulfate.",
+                drag_options: [
+                    "3 to 5",
+                    "12 to 24",
+                    "immediate",
+                    "delayed",
+                    "aPTT",
+                    "PT/INR",
+                    "CBC",
+                    "BMP",
+                    "2.0-3.0",
+                    "4.0-5.0",
+                    "Vitamin K",
+                    "Vitamin C"
+                ],
+                answer: {
+                    "BLANK1": "3 to 5",
+                    "BLANK2": "immediate",
+                    "BLANK3": "aPTT",
+                    "BLANK4": "PT/INR",
+                    "BLANK5": "2.0-3.0",
+                    "BLANK6": "Vitamin K"
+                },
+                rationale: "Patient education for bridging therapy: Warfarin has a delayed onset (3-5 days) because it inhibits synthesis of new clotting factors, not existing ones. Heparin provides immediate anticoagulation by inactivating thrombin. aPTT monitors Heparin; PT/INR monitors Warfarin. The therapeutic INR goal for DVT is 2.0-3.0. Once achieved, Heparin is discontinued. Vitamin K is the specific antidote for Warfarin (restores clotting factor synthesis)."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's History of Present Illness (HPI) below. Highlight/select ALL risk factors that contributed to this patient's Deep Vein Thrombosis (Virchow's Triad).",
+                highlight_text: "Ms. Rodriguez presented to the clinic following a 14-hour international flight. She reported her left leg felt 'heavy and tight.' An ultrasound confirmed an extensive Deep Vein Thrombosis (DVT) in the left popliteal vein. She was admitted and started on a continuous Unfractionated Heparin infusion. The provider is now initiating Warfarin (Coumadin) 5 mg PO daily, while continuing the Heparin drip. The patient is anxious and asks, 'Why do I need two different blood thinners? Isn't that dangerous?'",
+                highlight_options: [
+                    "14-hour international flight",
+                    "left leg felt 'heavy and tight'",
+                    "extensive Deep Vein Thrombosis",
+                    "left popliteal vein",
+                    "started on a continuous Unfractionated Heparin infusion",
+                    "initiating Warfarin (Coumadin) 5 mg PO daily",
+                    "patient is anxious"
+                ],
+                answer: ["14-hour international flight"],
+                rationale: "Virchow's Triad describes the three factors that contribute to DVT formation: (1) Venous stasis, (2) Endothelial injury, and (3) Hypercoagulability. The 14-hour flight represents prolonged immobility causing venous stasis — the primary identifiable risk factor in this HPI. The other phrases describe the diagnosis, treatment, or symptoms rather than risk factors. Additional risk factors from her PMH include PCOS (associated with hypercoagulability) and history of smoking, but these are not mentioned in the HPI excerpt provided."
             }
         ]
     }

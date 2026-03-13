@@ -60,7 +60,33 @@ window.missions_cardio_4 = [
                 prompt: "Address the acute active GI bleed.",
                 center_condition: { label: "Condition", options: ["Major GI Hemorrhage", "Normal Side Effect", "GERD Flare", "HIT"], answer: "Major GI Hemorrhage" },
                 left_actions: { label: "Actions", options: ["Administer Idarucizumab", "Hold Dabigatran", "Increase IV Heparin", "Give Vitamin K"], answer: ["Administer Idarucizumab", "Hold Dabigatran"] },
-                right_monitor: { label: "Monitor", options: ["Hgb / Hct levels", "Blood pressure", "INR", "Platelet count"], answer: ["Hgb / Hct levels", "Blood pressure"] }
+                right_monitor: { label: "Monitor", options: ["Hgb / Hct levels", "Blood pressure", "INR", "Platelet count"], answer: ["Hgb / Hct levels", "Blood pressure"] },
+                rationale: "Major GI hemorrhage on Dabigatran requires immediate drug discontinuation and administration of Idarucizumab (Praxbind) — the specific reversal agent. Hemoglobin and blood pressure monitoring guide resuscitation efforts."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is documenting the patient's medication error and its consequences. Complete the documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Dabigatran must NEVER be placed in a [[BLANK1]] because the drug is extremely [[BLANK2]]-sensitive. The capsules must remain in the [[BLANK3]] with the desiccant until immediately before use. The patient's error led to drug degradation and unpredictable [[BLANK4]]. The specific reversal agent is [[BLANK5]], NOT Vitamin K. Dabigatran also carries a [[BLANK6]] risk of GI bleeding compared to Warfarin.",
+                drag_options: ["pill organizer", "syringe", "moisture", "light", "original manufacturer bottle", "plastic bag", "absorption", "excretion", "Idarucizumab", "Protamine Sulfate", "higher", "lower"],
+                answer: {
+                    "BLANK1": "pill organizer",
+                    "BLANK2": "moisture",
+                    "BLANK3": "original manufacturer bottle",
+                    "BLANK4": "absorption",
+                    "BLANK5": "Idarucizumab",
+                    "BLANK6": "higher"
+                },
+                rationale: "Dabigatran storage is critical: must stay in original bottle with desiccant, never pill organizers or humid environments. Moisture causes degradation and unpredictable absorption. Idarucizumab (Praxbind) is the specific antidote. Dabigatran has higher GI bleeding risk than warfarin."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's history below. Highlight/select ALL findings that indicate active GI hemorrhage or its complications.",
+                highlight_text: "Patient has been taking Dabigatran (Pradaxa) 150mg BID for 2 months for AFib. He admits to taking his pills out of the original bottle and placing them in a weekly pill organizer. Chief Complaint: New onset of black, tarry stools and coffee-ground emesis. Reports 'burning' stomach pain. Lab: Hemoglobin 8.2 g/dL (CRITICAL LOW). Hematocrit 25% (CRITICAL LOW).",
+                highlight_options: ["Dabigatran 150mg BID for 2 months", "placing them in a weekly pill organizer", "black, tarry stools", "coffee-ground emesis", "burning stomach pain", "Hemoglobin 8.2 g/dL", "Hematocrit 25%"],
+                answer: ["black, tarry stools", "coffee-ground emesis", "Hemoglobin 8.2 g/dL", "Hematocrit 25%"],
+                rationale: "Signs of active GI hemorrhage: (1) Black, tarry stools (melena) - digested blood from upper GI tract; (2) Coffee-ground emesis - altered blood from stomach; (3) Critical anemia (Hgb 8.2, Hct 25%) - blood loss. The pill organizer error is the CAUSE but not a sign of bleeding. Burning stomach pain suggests ulcer but is not specific for active hemorrhage."
             }
         ]
     },
@@ -129,7 +155,33 @@ window.missions_cardio_4 = [
                 prompt: "The patient suddenly develops a severe headache and pupil changes during the infusion.",
                 center_condition: { label: "Condition", options: ["Intracranial Hemorrhage", "Expected Effect", "Re-perfusion", "Ischemic progression"], answer: "Intracranial Hemorrhage" },
                 left_actions: { label: "Actions", options: ["Stop tPA immediately", "Notify Provider", "Increase BP", "Give more tPA"], answer: ["Stop tPA immediately", "Notify Provider"] },
-                right_monitor: { label: "Monitor", options: ["Stat CT scan", "Level of consciousness", "Urine output", "Lung sounds"], answer: ["Stat CT scan", "Level of consciousness"] }
+                right_monitor: { label: "Monitor", options: ["Stat CT scan", "Level of consciousness", "Urine output", "Lung sounds"], answer: ["Stat CT scan", "Level of consciousness"] },
+                rationale: "Sudden severe headache and pupil changes during tPA infusion are hallmark signs of intracranial hemorrhage — the most feared complication. Immediate actions: stop tPA, notify provider/stroke team. Stat CT confirms the diagnosis. LOC monitoring detects deterioration."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is documenting the tPA protocol adherence. Complete the documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Alteplase (tPA) eligibility requires symptom onset within [[BLANK1]] hours and BP below [[BLANK2]] mmHg. CT scan was [[BLANK3]] for hemorrhage. The vial must be [[BLANK4]], never shaken, to preserve protein integrity. During the [[BLANK5]]-minute infusion, [[BLANK6]] procedures are strictly contraindicated. Neuro checks and BP are monitored every 15 minutes.",
+                drag_options: ["3-4.5", "12-24", "185/110", "220/140", "negative", "positive", "swirled gently", "shaken vigorously", "60", "10", "invasive", "oral"],
+                answer: {
+                    "BLANK1": "3-4.5",
+                    "BLANK2": "185/110",
+                    "BLANK3": "negative",
+                    "BLANK4": "swirled gently",
+                    "BLANK5": "60",
+                    "BLANK6": "invasive"
+                },
+                rationale: "Critical tPA protocol: (1) Window is 3-4.5 hours from symptom onset; (2) BP must be <185/110 before administration; (3) CT must be NEGATIVE for hemorrhage; (4) Swirl gently (shaking denatures the protein); (5) Standard infusion is 60 minutes; (6) Invasive procedures are contraindicated for 24 hours due to bleeding risk."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's presentation below. Highlight/select ALL findings that make this patient ELIGIBLE for tPA therapy.",
+                highlight_text: "Patient's husband reports symptoms began exactly 90 minutes ago. She has sudden left-sided facial droop and right-arm weakness. Unable to speak clearly (dysarthria). NIH Stroke Scale score of 14. BP 192/104 (to be lowered before tPA). Glucose 110 mg/dL (Normal). CT Head: Negative for intracranial hemorrhage. Ischemic stroke suspected.",
+                highlight_options: ["symptoms began exactly 90 minutes ago", "left-sided facial droop", "right-arm weakness", "dysarthria", "NIH Stroke Scale score of 14", "BP 192/104", "Glucose 110 mg/dL", "CT Head: Negative for intracranial hemorrhage"],
+                answer: ["symptoms began exactly 90 minutes ago", "Glucose 110 mg/dL", "CT Head: Negative for intracranial hemorrhage"],
+                rationale: "tPA eligibility criteria met: (1) Time window - 90 minutes is well within the 3-4.5 hour limit; (2) Normal glucose - rules out hypoglycemia as stroke mimic; (3) Negative CT - rules out hemorrhagic stroke (absolute contraindication). The neurological symptoms (droop, weakness, dysarthria) and NIHSS are indications FOR treatment but not eligibility criteria. The elevated BP must be lowered to <185/110 BEFORE tPA can be given."
             }
         ]
     },
@@ -193,7 +245,33 @@ window.missions_cardio_4 = [
                 prompt: "Manage the acute hypertensive rebound.",
                 center_condition: { label: "Condition", options: ["Rebound Hypertensive Crisis", "Stable HTN", "Stroke", "Renal Failure"], answer: "Rebound Hypertensive Crisis" },
                 left_actions: { label: "Actions", options: ["Resume Clonidine", "Notify Provider", "Give IV Bolus Fluid", "Increase salt intake"], answer: ["Resume Clonidine", "Notify Provider"] },
-                right_monitor: { label: "Monitor", options: ["Continuous BP", "Heart rate/rhythm", "Daily weights", "Blood glucose"], answer: ["Continuous BP", "Heart rate/rhythm"] }
+                right_monitor: { label: "Monitor", options: ["Continuous BP", "Heart rate/rhythm", "Daily weights", "Blood glucose"], answer: ["Continuous BP", "Heart rate/rhythm"] },
+                rationale: "Clonidine rebound requires immediate resumption of the medication and provider notification. Continuous BP and heart rate monitoring are essential as the sympathetic surge can cause dangerous arrhythmias and hypertensive emergency."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is documenting the clinical presentation and mechanism of Clonidine rebound. Complete the documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Patient presents with rebound hypertensive crisis after [[BLANK1]] discontinuation of Clonidine 2 days ago. Clonidine is a central [[BLANK2]] agonist that suppresses sympathetic outflow. Abrupt withdrawal causes a massive [[BLANK3]] surge, leading to severe hypertension (214/118), [[BLANK4]] (HR 122), and anxiety/tremors. Treatment requires [[BLANK5]] the Clonidine and gradual [[BLANK6]] over 2-4 days. Patients must NEVER stop this medication suddenly.",
+                drag_options: ["abrupt", "gradual", "alpha-2", "beta-1", "sympathetic", "parasympathetic", "tachycardia", "bradycardia", "resuming", "increasing", "tapering", "doubling"],
+                answer: {
+                    "BLANK1": "abrupt",
+                    "BLANK2": "alpha-2",
+                    "BLANK3": "sympathetic",
+                    "BLANK4": "tachycardia",
+                    "BLANK5": "resuming",
+                    "BLANK6": "tapering"
+                },
+                rationale: "Clonidine is a central alpha-2 agonist that decreases sympathetic outflow. Abrupt discontinuation causes rebound sympathetic surge with severe hypertension, tachycardia, and adrenergic symptoms. Treatment: resume the medication immediately, then taper gradually over 2-4 days."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's presentation below. Highlight/select ALL symptoms that are consistent with Clonidine rebound (sympathetic surge).",
+                highlight_text: "Patient reports he ran out of his Clonidine tablets 2 days ago. Chief Complaint: Severe anxiety, tremors, and 'pounding' headache. He feels 'like my heart is jumping out of my chest'. Vitals: BP 214/118 mmHg (CRITICAL HIGH). HR 122 bpm (TACHYCARDIA). PMH: Severe HTN, Alcohol Use Disorder.",
+                highlight_options: ["ran out of his Clonidine tablets 2 days ago", "Severe anxiety", "tremors", "pounding headache", "heart is jumping out of my chest", "BP 214/118 mmHg", "HR 122 bpm", "Alcohol Use Disorder"],
+                answer: ["Severe anxiety", "tremors", "pounding headache", "heart is jumping out of my chest", "BP 214/118 mmHg", "HR 122 bpm"],
+                rationale: "Sympathetic surge symptoms from Clonidine rebound: (1) Severe anxiety - adrenergic activation; (2) Tremors - catecholamine excess; (3) Pounding headache - severe hypertension; (4) Palpitations ('heart jumping') - awareness of tachycardia; (5) Critical BP - rebound hypertensive crisis; (6) Tachycardia - sympathetic activation. The 2-day gap is the CAUSE. Alcohol Use Disorder is relevant PMH but these symptoms are clearly Clonidine rebound given the timeline."
             }
         ]
     },
@@ -257,7 +335,33 @@ window.missions_cardio_4 = [
                 prompt: "Address the Rhabdomyolysis and AKI risk.",
                 center_condition: { label: "Condition", options: ["Rhabdomyolysis", "Flu", "Myasthenia Gravis", "DVT"], answer: "Rhabdomyolysis" },
                 left_actions: { label: "Actions", options: ["Initiate aggressive IV hydration", "Stop all lipid meds", "Increase Statin dose", "Give Ibuprofen"], answer: ["Initiate aggressive IV hydration", "Stop all lipid meds"] },
-                right_monitor: { label: "Monitor", options: ["Urine output and color", "Serum Creatinine", "aPTT", "TSH levels"], answer: ["Urine output and color", "Serum Creatinine"] }
+                right_monitor: { label: "Monitor", options: ["Urine output and color", "Serum Creatinine", "aPTT", "TSH levels"], answer: ["Urine output and color", "Serum Creatinine"] },
+                rationale: "Rhabdomyolysis requires immediate discontinuation of all offending agents and aggressive IV fluids to flush myoglobin and protect the kidneys. Monitoring urine output/color and creatinine assesses renal function."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is documenting the pathophysiology of this drug-drug interaction. Complete the documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Rhabdomyolysis occurred due to the dangerous combination of [[BLANK1]] and [[BLANK2]]. Gemfibrozil inhibits the [[BLANK3]] of statins, causing toxic accumulation. Muscle breakdown releases [[BLANK4]] into the bloodstream, which is toxic to the [[BLANK5]]. The pathognomonic sign is [[BLANK6]] urine. Treatment requires aggressive IV fluids and discontinuing both medications. Fenofibrate is generally safer than Gemfibrozil when combined with statins.",
+                drag_options: ["Atorvastatin", "Lisinopril", "Gemfibrozil", "Metformin", "glucuronidation", "absorption", "myoglobin", "hemoglobin", "kidneys", "liver", "cola-colored", "clear"],
+                answer: {
+                    "BLANK1": "Atorvastatin",
+                    "BLANK2": "Gemfibrozil",
+                    "BLANK3": "glucuronidation",
+                    "BLANK4": "myoglobin",
+                    "BLANK5": "kidneys",
+                    "BLANK6": "cola-colored"
+                },
+                rationale: "The Atorvastatin + Gemfibrozil combination is particularly dangerous. Gemfibrozil inhibits statin glucuronidation (liver metabolism), causing drug accumulation. Muscle destruction releases myoglobin, which is nephrotoxic, causing cola-colored urine and acute kidney injury."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's clinical findings below. Highlight/select ALL findings that are diagnostic of Rhabdomyolysis.",
+                highlight_text: "Patient was recently started on Gemfibrozil (Lopid) to add to her Atorvastatin (Lipitor) therapy. Chief Complaint: Severe muscle pain in thighs for 3 days. Dark, reddish-brown (cola-colored) urine. Labs: Creatine Kinase (CK) 15,000 U/L (CRITICAL HIGH, ref: 26-192). Creatinine 2.1 mg/dL (HIGH). Urine Myoglobin: POSITIVE.",
+                highlight_options: ["started on Gemfibrozil to add to Atorvastatin", "Severe muscle pain in thighs", "Dark, reddish-brown (cola-colored) urine", "CK 15,000 U/L", "Creatinine 2.1 mg/dL", "Urine Myoglobin: POSITIVE"],
+                answer: ["Severe muscle pain in thighs", "Dark, reddish-brown (cola-colored) urine", "CK 15,000 U/L", "Urine Myoglobin: POSITIVE"],
+                rationale: "Diagnostic findings of Rhabdomyolysis: (1) Severe muscle pain - myocyte destruction; (2) Cola-colored urine - myoglobin in urine; (3) Massively elevated CK (15,000 vs normal <200) - the definitive marker; (4) Positive urine myoglobin - confirms muscle breakdown. The drug combination is the CAUSE. Elevated creatinine indicates secondary AKI (a complication), not a diagnostic criterion for rhabdomyolysis itself."
             }
         ]
     },
@@ -318,7 +422,33 @@ window.missions_cardio_4 = [
                 prompt: "The patient's BP is 160/90 and ICP is 22. Urine output is 15 mL/hr.",
                 center_condition: { label: "Condition", options: ["Oliguric Renal Failure", "Expected Response", "Diabetes Insipidus", "SJS"], answer: "Oliguric Renal Failure" },
                 left_actions: { label: "Actions", options: ["Hold Mannitol", "Notify Provider", "Increase IV rate", "Give IV Furosemide"], answer: ["Hold Mannitol", "Notify Provider"] },
-                right_monitor: { label: "Monitor", options: ["BUN / Creatinine", "Serum Osmolality", "SpO2", "Neuro checks"], answer: ["BUN / Creatinine", "Serum Osmolality"] }
+                right_monitor: { label: "Monitor", options: ["BUN / Creatinine", "Serum Osmolality", "SpO2", "Neuro checks"], answer: ["BUN / Creatinine", "Serum Osmolality"] },
+                rationale: "Oliguria (15 mL/hr) during Mannitol therapy indicates renal failure — the drug is accumulating rather than being excreted. The medication must be held immediately and the provider notified. BUN/Creatinine and serum osmolality guide further management."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is documenting the Mannitol administration protocol and safety checks. Complete the documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Mannitol 25% is an [[BLANK1]] diuretic used to reduce [[BLANK2]]. Before administration, the nurse must inspect for [[BLANK3]] and use an [[BLANK4]] filter. The drug works by creating an osmotic gradient that pulls water from [[BLANK5]] tissue into the bloodstream. A critical contraindication is [[BLANK6]] — if the kidneys cannot excrete the fluid, pulmonary edema results. Expected urine output is 30-50 mL/hr or greater.",
+                drag_options: ["osmotic", "loop", "ICP", "blood pressure", "crystals", "air bubbles", "in-line", "charcoal", "brain", "cardiac", "anuria", "hypertension"],
+                answer: {
+                    "BLANK1": "osmotic",
+                    "BLANK2": "ICP",
+                    "BLANK3": "crystals",
+                    "BLANK4": "in-line",
+                    "BLANK5": "brain",
+                    "BLANK6": "anuria"
+                },
+                rationale: "Mannitol is an osmotic diuretic that reduces intracranial pressure (ICP) by pulling water from brain tissue. Crystallization is common and requires visual inspection and in-line filtration. Anuria is a critical contraindication because the drug cannot be excreted, causing dangerous fluid overload."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient assessment below. Highlight/select ALL findings that indicate the Mannitol is causing a COMPLICATION rather than the expected therapeutic response.",
+                highlight_text: "Patient received Mannitol 25% for elevated ICP (28 mmHg). Current Assessment: ICP now 22 mmHg (improved). BP 160/90 mmHg (stable). Urine output: 15 mL/hr for past 2 hours (LOW). Lung sounds: New crackles at bases bilaterally. Serum Osmolality: 320 mOsm/kg (HIGH, ref: 275-295). BUN: 32 mg/dL (rising).",
+                highlight_options: ["ICP now 22 mmHg", "BP 160/90 mmHg", "Urine output: 15 mL/hr", "New crackles at bases bilaterally", "Serum Osmolality: 320 mOsm/kg", "BUN: 32 mg/dL"],
+                answer: ["Urine output: 15 mL/hr", "New crackles at bases bilaterally", "Serum Osmolality: 320 mOsm/kg", "BUN: 32 mg/dL"],
+                rationale: "Complication indicators: (1) Low urine output (15 mL/hr) - indicates renal failure, drug not being excreted; (2) New crackles - pulmonary edema from fluid overload; (3) Elevated osmolality (320) - drug accumulation, hyperosmolar state; (4) Rising BUN - renal impairment. The ICP improvement (22 mmHg) and stable BP are EXPECTED therapeutic responses, not complications."
             }
         ]
     }

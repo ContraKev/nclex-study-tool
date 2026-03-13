@@ -117,6 +117,52 @@ window.missions_cardio_1 = [
                     answer: ["Blood Pressure every 2 minutes", "Level of consciousness"]
                 },
                 rationale: "The patient is experiencing profound, life-threatening hypotension, which is the most common and immediate adverse effect of Nitroprusside due to its potent vasodilatory action on both venous and arterial smooth muscle. The most urgent nursing priority is to stop the infusion immediately; since Nitroprusside has an extremely short half-life (1–10 minutes), blood pressure typically begins to recover very rapidly once the drug is discontinued. Placing the patient in the Trendelenburg position (head down, feet elevated) is a standard emergency maneuver to facilitate venous return to the heart and improve cerebral perfusion during the acute hypotensive state. Monitoring must transition to emergency frequency: blood pressure must be assessed every 2 minutes via the existing arterial line to guide recovery, and the level of consciousness must be evaluated continuously to ensure that cerebral oxygenation is improving as systemic pressure normalizes."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is preparing the Nitroprusside infusion for safe administration. Complete the preparation checklist by dragging the correct terms into the blanks.",
+                cloze_text: "Nitroprusside requires special handling because it is extremely [[BLANK1]]-sensitive. The IV bag and tubing must be wrapped in [[BLANK2]] or opaque covering. The drug must be administered via an [[BLANK3]] for precise titration — never by gravity drip. If the solution changes to a [[BLANK4]] color, it indicates chemical breakdown and must be [[BLANK5]]. The target is to reduce MAP by [[BLANK6]] in the first hour to prevent organ damage while avoiding excessive hypotension.",
+                drag_options: [
+                    "light",
+                    "heat",
+                    "aluminum foil",
+                    "clear plastic",
+                    "electronic infusion pump",
+                    "gravity drip set",
+                    "blue or green",
+                    "clear or yellow",
+                    "discarded immediately",
+                    "refrigerated",
+                    "25%",
+                    "50%"
+                ],
+                answer: {
+                    "BLANK1": "light",
+                    "BLANK2": "aluminum foil",
+                    "BLANK3": "electronic infusion pump",
+                    "BLANK4": "blue or green",
+                    "BLANK5": "discarded immediately",
+                    "BLANK6": "25%"
+                },
+                rationale: "Nitroprusside is a potent vasodilator that requires meticulous preparation. It is highly light-sensitive — UV exposure causes it to decompose into cyanide, so aluminum foil wrapping is mandatory. An electronic infusion pump is required for precise mcg/kg/min titration. Color change (blue, green, or bright red) indicates chemical breakdown and toxicity — the solution must be discarded. The BP reduction goal is 25% in the first hour to balance organ perfusion with hypertensive emergency management."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's History of Present Illness (HPI) below. Highlight/select ALL phrases that indicate this is a hypertensive EMERGENCY rather than hypertensive urgency.",
+                highlight_text: "Mr. Vance was brought to the Emergency Department by his spouse. She reports he became suddenly 'dizzy and sick' while working in the garage. Upon further questioning, the patient admits he stopped taking his Lisinopril and Amlodipine 2 weeks ago because he 'felt fine' and ran out of refills. He currently rates his headache as a 10/10 and states, 'I feel like my head is going to explode.'",
+                highlight_options: [
+                    "brought to the Emergency Department by his spouse",
+                    "suddenly 'dizzy and sick'",
+                    "stopped taking his Lisinopril and Amlodipine 2 weeks ago",
+                    "felt fine",
+                    "ran out of refills",
+                    "headache as a 10/10",
+                    "I feel like my head is going to explode"
+                ],
+                answer: ["suddenly 'dizzy and sick'", "headache as a 10/10", "I feel like my head is going to explode"],
+                rationale: "Hypertensive EMERGENCY is distinguished from urgency by the presence of acute end-organ damage or symptoms indicating impending damage. The sudden onset of dizziness (neurological symptom), severe 10/10 headache, and the patient's description of explosive head pressure all indicate acute neurological compromise — potentially impending stroke or hypertensive encephalopathy. These findings, combined with a BP of 238/124, classify this as an emergency requiring IV medication and ICU admission. Medication non-compliance is important history but does not itself indicate emergency status."
             }
         ]
     },
@@ -237,6 +283,53 @@ window.missions_cardio_1 = [
                     answer: ["Continuous EKG rhythm", "Blood pressure stability"]
                 },
                 rationale: "The patient is presenting with symptomatic bradycardia (pulse < 50 bpm accompanied by weakness), likely due to toxic accumulation or an excessive physiological response to the Metoprolol Succinate. The primary nursing action is to immediately hold further doses of the offending agent to prevent cardiac standstill. Instructing the patient to come to the Emergency Department is critical because she requires an acute evaluation for potential AV block and may need temporary pacing or pharmacological support (e.g., Atropine). In the acute setting, continuous EKG rhythm monitoring is the highest priority to detect lethal arrhythmias, while frequent blood pressure assessment is required to ensure that systemic perfusion is maintained despite the low heart rate."
+            },
+            {
+                id: 4,
+                type: "cloze_drag_drop",
+                prompt: "The nurse is providing discharge teaching about beta-blocker therapy to this post-MI diabetic patient. Complete the teaching documentation by dragging the correct terms into the blanks.",
+                cloze_text: "Beta-blockers must never be stopped [[BLANK1]] due to risk of rebound hypertension and myocardial ischemia. Before each dose, check your [[BLANK2]] for one full minute — hold and call if below [[BLANK3]] bpm. Because you have diabetes, be aware that beta-blockers can [[BLANK4]] the usual warning signs of low blood sugar such as shakiness and rapid heartbeat. Report any new [[BLANK5]] or shortness of breath immediately, as this may indicate worsening heart function or [[BLANK6]].",
+                drag_options: [
+                    "abruptly",
+                    "gradually",
+                    "radial pulse",
+                    "blood pressure",
+                    "50-60",
+                    "80-90",
+                    "mask",
+                    "enhance",
+                    "wheezing",
+                    "hunger",
+                    "bronchospasm",
+                    "hyperglycemia"
+                ],
+                answer: {
+                    "BLANK1": "abruptly",
+                    "BLANK2": "radial pulse",
+                    "BLANK3": "50-60",
+                    "BLANK4": "mask",
+                    "BLANK5": "wheezing",
+                    "BLANK6": "bronchospasm"
+                },
+                rationale: "Critical beta-blocker teaching points: (1) Never stop abruptly — can cause rebound tachycardia, hypertension, and MI; (2) Check pulse before each dose, hold if < 50-60 bpm; (3) In diabetic patients, beta-blockers mask hypoglycemia symptoms (tachycardia, tremor) because these are adrenergic responses that beta-blockers block; (4) New wheezing or SOB may indicate bronchospasm — even cardioselective beta-blockers can affect bronchial Beta-2 receptors at higher doses, or may indicate worsening heart failure."
+            },
+            {
+                id: 5,
+                type: "highlight",
+                prompt: "Review the patient's Review of Systems (ROS) below. Highlight/select ALL findings that are clinically significant for a diabetic patient starting beta-blocker therapy.",
+                highlight_text: "Neuro: No dizziness or lightheadedness when standing. Reports 'vivid dreams' last night. Cardio: Denies chest pain or pressure. No palpitations. Peripheral pulses 2+ and equal. Lung: Lungs clear to auscultation bilaterally. Denies shortness of breath at rest; reports slight dyspnea when walking long distances in the hall. GI: Appetite is good. No nausea or constipation.",
+                highlight_options: [
+                    "No dizziness or lightheadedness when standing",
+                    "Reports 'vivid dreams' last night",
+                    "Denies chest pain or pressure",
+                    "No palpitations",
+                    "Peripheral pulses 2+ and equal",
+                    "Lungs clear to auscultation bilaterally",
+                    "slight dyspnea when walking long distances",
+                    "Appetite is good"
+                ],
+                answer: ["Reports 'vivid dreams' last night", "slight dyspnea when walking long distances"],
+                rationale: "Two findings require attention in this diabetic post-MI patient on beta-blockers: (1) 'Vivid dreams' are a known CNS side effect of lipophilic beta-blockers like metoprolol that cross the blood-brain barrier — while not dangerous, this is important to document and monitor; (2) 'Slight dyspnea when walking' could indicate early heart failure exacerbation (beta-blockers reduce cardiac contractility) OR could be normal post-MI deconditioning. This requires ongoing monitoring. The other findings are either normal/reassuring or not specifically related to beta-blocker-diabetic interactions."
             }
         ]
     }

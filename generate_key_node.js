@@ -15,6 +15,8 @@ try {
     loadFile('mission_prototype.js');
     loadFile('missions_cardio_1.js');
     loadFile('missions_cardio_2.js');
+    loadFile('missions_cardio_3.js');
+    loadFile('missions_cardio_4.js');
 } catch (e) {
     console.error("Error loading JS files:", e);
 }
@@ -30,6 +32,8 @@ let allMissions = [];
 if (window.mission_prototype) allMissions.push(window.mission_prototype);
 if (window.missions_cardio_1) allMissions = allMissions.concat(window.missions_cardio_1);
 if (window.missions_cardio_2) allMissions = allMissions.concat(window.missions_cardio_2);
+if (window.missions_cardio_3) allMissions = allMissions.concat(window.missions_cardio_3);
+if (window.missions_cardio_4) allMissions = allMissions.concat(window.missions_cardio_4);
 
 // 2. JSON Missions
 if (jsonData.modules) {
@@ -65,12 +69,23 @@ allMissions.forEach(m => {
 
             if (step.type === "matrix") {
                 md += "| Row | Correct Column |\n|---|---|\n";
-                // Handle answer object
-                if (typeof step.answer === 'object') {
-                    for (const [row, col] of Object.entries(step.answer)) {
-                        md += `| ${row} | **${col}** |\n`;
+                // Handle both string rows and object rows with correct_col_idx
+                const rows = step.rows || [];
+                const columns = step.columns || [];
+                const answers = step.answer || {};
+                
+                rows.forEach(row => {
+                    const rowText = typeof row === 'string' ? row : (row.text || row.label || 'Unknown');
+                    let answerText;
+                    if (typeof row === 'object' && row.correct_col_idx !== undefined && columns.length > 0) {
+                        // Object format with correct_col_idx
+                        answerText = columns[row.correct_col_idx] || 'N/A';
+                    } else {
+                        // String format with answer object lookup
+                        answerText = answers[rowText] || 'N/A';
                     }
-                }
+                    md += `| ${rowText} | **${answerText}** |\n`;
+                });
             } else if (step.type === "extended_sata") {
                 if (Array.isArray(step.answer)) {
                     step.answer.forEach(a => {
@@ -78,10 +93,6 @@ allMissions.forEach(m => {
                     });
                 }
             } else if (step.type === "bowtie") {
-                // Bowtie structure might vary between JS and JSON slightly?
-                // JS: center_condition.answer
-                // JSON: same
-
                 let centerA = step.center_condition ? step.center_condition.answer : "N/A";
                 let leftA = step.left_actions ? step.left_actions.answer : [];
                 let rightA = step.right_monitor ? step.right_monitor.answer : [];
@@ -94,6 +105,20 @@ allMissions.forEach(m => {
                 md += "- **Parameters to Monitor**:\n";
                 if (Array.isArray(rightA)) {
                     rightA.forEach(r => md += `  - ${r}\n`);
+                }
+            } else if (step.type === "cloze_drag_drop") {
+                // Cloze drag-drop: answer is object { BLANK1: "value1", BLANK2: "value2", ... }
+                if (typeof step.answer === 'object' && !Array.isArray(step.answer)) {
+                    for (const [blank, value] of Object.entries(step.answer)) {
+                        md += `- **${blank}**: ${value}\n`;
+                    }
+                }
+            } else if (step.type === "highlight") {
+                // Highlight: answer is array of correct selections
+                if (Array.isArray(step.answer)) {
+                    step.answer.forEach(a => {
+                        md += `- [x] ${a}\n`;
+                    });
                 }
             }
 

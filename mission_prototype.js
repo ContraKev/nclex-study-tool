@@ -131,6 +131,51 @@ window.mission_prototype = {
                 answer: ["Continuous EKG monitoring", "Serum Potassium levels"]
             },
             rationale: "The definitive diagnosis is Digoxin Toxicity, confirmed by the toxic serum level of 2.8 ng/mL and the patient's neurological and cardiac symptoms. Primary nursing interventions must focus on stabilization and reversal: holding the medication prevents further toxic accumulation, while Digoxin Immune Fab (Digibind) acts as the specific antidote by binding to and inactivating the drug molecules. Monitoring must prioritize cardiac and metabolic stability; continuous EKG is mandatory to identify lethal dysrhythmias (like PVCs or AV block) that occur in digitalis toxicity. Tracking serum potassium is equally vital, as hypokalemia exacerbates toxicity, and rapid changes in potassium can occur during the reversal process."
+        },
+        {
+            id: 4,
+            type: "cloze_drag_drop",
+            prompt: "The nurse is documenting the priority interventions for this patient with Digoxin toxicity. Complete the nursing documentation by dragging the correct terms into the blanks.",
+            cloze_text: "Patient presenting with signs of [[BLANK1]] toxicity including bradycardia (HR 48), visual disturbances, and GI symptoms. Serum digoxin level critically elevated at [[BLANK2]] ng/mL. Contributing factor identified as [[BLANK3]] (K+ 3.1 mEq/L) secondary to loop diuretic therapy. Priority interventions: [[BLANK4]] all cardiac glycosides and prepare to administer [[BLANK5]] as the specific antidote. Continuous [[BLANK6]] monitoring initiated for dysrhythmia detection.",
+            drag_options: [
+                "Digoxin",
+                "Furosemide",
+                "2.8",
+                "0.8",
+                "hypokalemia",
+                "hyperkalemia",
+                "Hold",
+                "Continue",
+                "Digoxin Immune Fab (Digibind)",
+                "Protamine Sulfate",
+                "EKG",
+                "SpO2"
+            ],
+            answer: {
+                "BLANK1": "Digoxin",
+                "BLANK2": "2.8",
+                "BLANK3": "hypokalemia",
+                "BLANK4": "Hold",
+                "BLANK5": "Digoxin Immune Fab (Digibind)",
+                "BLANK6": "EKG"
+            },
+            rationale: "Accurate nursing documentation must identify the toxicity (Digoxin), include the critical lab value (2.8 ng/mL - above therapeutic range of 0.8-2.0), recognize the contributing electrolyte imbalance (hypokalemia potentiates digoxin toxicity), and document the priority interventions: holding the offending medication, preparing the antidote (Digibind), and initiating continuous cardiac monitoring to detect life-threatening arrhythmias."
+        },
+        {
+            id: 5,
+            type: "highlight",
+            prompt: "Review the patient's History of Present Illness (HPI) below. Highlight/select ALL phrases that represent classic manifestations of Digoxin toxicity.",
+            highlight_text: "Patient reports a 2-day history of worsening nausea, loss of appetite, and significant malaise. He describes his vision as having 'yellow rings or halos' around lights. He was recently seen in the clinic 5 days ago for increased pedal edema and was started on a higher dose of Furosemide.",
+            highlight_options: [
+                "worsening nausea",
+                "loss of appetite",
+                "significant malaise",
+                "yellow rings or halos",
+                "increased pedal edema",
+                "higher dose of Furosemide"
+            ],
+            answer: ["worsening nausea", "loss of appetite", "significant malaise", "yellow rings or halos"],
+            rationale: "The classic triad of Digoxin toxicity includes: (1) GI symptoms - nausea, vomiting, anorexia (loss of appetite); (2) Neurological symptoms - fatigue, malaise, confusion, weakness; and (3) Visual disturbances - yellow-green halos around lights (xanthopsia), blurred vision, or photophobia. The increased pedal edema and Furosemide dose change are relevant history but represent the heart failure and its treatment, not direct manifestations of digoxin toxicity. However, the Furosemide-induced hypokalemia is the precipitating factor that triggered the toxicity."
         }
     ]
 };

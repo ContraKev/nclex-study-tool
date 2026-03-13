@@ -12680,12 +12680,23 @@ console.log("Created exam module: Men's and Women's Health Exam with 40 question
                             <div><span class="text-info">Right (Monitor):</span> ${Array.isArray(right) ? right.join('; ') : right}</div>
                         </div>`;
                 } else if (stepType === 'matrix') {
-                    // Matrix: row → answer mapping
+                    // Matrix: row → answer mapping (handles both string rows and object rows)
                     const rows = step.rows || [];
                     const answers = step.answer || {};
+                    const columns = step.columns || [];
                     answerHtml = '<div class="ms-3 mt-1">';
                     rows.forEach(row => {
-                        answerHtml += `<div><span class="text-info">${row}:</span> ${answers[row] || 'N/A'}</div>`;
+                        // Handle both string format and object format {text: "...", correct_col_idx: N}
+                        const rowText = typeof row === 'string' ? row : (row.text || row.label || 'Unknown');
+                        let answerText;
+                        if (typeof row === 'object' && row.correct_col_idx !== undefined && columns.length > 0) {
+                            // Object format with correct_col_idx
+                            answerText = columns[row.correct_col_idx] || 'N/A';
+                        } else {
+                            // String format with answer object lookup
+                            answerText = answers[rowText] || 'N/A';
+                        }
+                        answerHtml += `<div><span class="text-info">${rowText}:</span> ${answerText}</div>`;
                     });
                     answerHtml += '</div>';
                 } else if (stepType === 'cloze' || stepType === 'dropdown_cloze') {
@@ -12714,7 +12725,7 @@ console.log("Created exam module: Men's and Women's Health Exam with 40 question
                         const selections = step.answer || step.correct_highlights || [];
                         answerHtml = `<div class="text-success fw-bold ms-3">→ ${Array.isArray(selections) ? selections.join('; ') : selections}</div>`;
                     }
-                } else if (stepType === 'drag_drop' || stepType === 'drag_drop_cloze') {
+                } else if (stepType === 'drag_drop' || stepType === 'drag_drop_cloze' || stepType === 'cloze_drag_drop') {
                     // Drag and drop cloze: blanks with correct answers
                     const blanks = step.blanks || [];
                     if (blanks.length > 0 && blanks[0]?.correct) {
