@@ -9412,7 +9412,7 @@ function renderMissionStep() {
         optsHtml = `<div class="table-responsive"><table class="matrix-table"><thead><tr><th>Finding</th>${step.columns.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${step.rows.map((r, rowIndex) => `<tr><td class="text-white">${typeof r === 'string' ? r : (r.text || 'Unknown')}</td>${step.columns.map(c => `<td class="radio-cell text-center"><input type="radio" name="matrix-row-${rowIndex}" value="${c}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     } else if (step.type === 'bowtie') {
         optsHtml = `<div class="bowtie-container"><div class="bowtie-wing"><div class="bowtie-label">Actions (2)</div>${step.left_actions.options.map(o => `<div class="form-check small"><input class="form-check-input" type="checkbox" name="bw-l" value="${o}">${o}</div>`).join('')}</div><div class="bowtie-center"><div class="bowtie-label text-warning">Condition</div><select id="bw-c" class="form-select form-select-sm"><option value="">Select condition...</option>${step.center_condition.options.map(o => `<option value="${o}">${o}</option>`).join('')}</select></div><div class="bowtie-wing"><div class="bowtie-label">Monitor (2)</div>${step.right_monitor.options.map(o => `<div class="form-check small"><input class="form-check-input" type="checkbox" name="bw-r" value="${o}">${o}</div>`).join('')}</div></div>`;
-    } else if (step.type === 'drag_drop_cloze') {
+    } else if (step.type === 'drag_drop_cloze' || step.type === 'cloze_drag_drop') {
         // Drag-and-drop cloze question
         const text = step.text || '';
         const blanks = step.blanks || [];
@@ -9436,7 +9436,7 @@ function renderMissionStep() {
                 <div class="cloze-instructions">Drag options into the blanks</div>
             </div>
         `;
-    } else if (step.type === 'highlight_select') {
+    } else if (step.type === 'highlight_select' || step.type === 'highlight') {
         // Highlighted text selection question
         const text = step.text || '';
         const highlights = step.highlights || [];
@@ -9481,7 +9481,7 @@ function renderMissionStep() {
     btn.className = "btn btn-warning btn-lg px-5 fw-bold shadow";
 
     // Add event listeners for drag-and-drop cloze questions
-    if (step.type === 'drag_drop_cloze') {
+    if (step.type === 'drag_drop_cloze' || step.type === 'cloze_drag_drop') {
         // Add drag event listeners to draggable options
         document.querySelectorAll('.draggable-option').forEach(option => {
             option.ondragstart = handleDragStart;
@@ -9679,7 +9679,7 @@ function evaluateMissionStep() {
             const rowKey = typeof r === 'string' ? r : (r.text || '');
             return document.querySelector(`input[name="matrix-row-${rowIndex}"]:checked`)?.value === step.answer[rowKey];
         });
-    } else if (step.type === 'drag_drop_cloze') {
+    } else if (step.type === 'drag_drop_cloze' || step.type === 'cloze_drag_drop') {
         // Check if all blanks are filled correctly
         const blanks = step.blanks || [];
         isCorrect = blanks.every((blank, idx) => {
@@ -9688,7 +9688,7 @@ function evaluateMissionStep() {
             const droppedText = dropZone.textContent.trim();
             return droppedText === blank.correct;
         });
-    } else if (step.type === 'highlight_select') {
+    } else if (step.type === 'highlight_select' || step.type === 'highlight') {
         // Check selected highlights
         const selected = JSON.parse(document.getElementById('highlight-selection').value || '[]');
         const correctHighlights = step.highlights.filter(h => h.correct).map(h => step.highlights.indexOf(h));
