@@ -9461,7 +9461,7 @@ function renderMissionStep() {
             </div>
         `;
     } else if (step.type === 'highlight_select' || step.type === 'highlight') {
-        // Highlighted text selection question
+        // Highlighted text selection: phrases are clickable spans INSIDE the passage (select in text, not from a list)
         // Supports two data formats:
         //   New: highlight_text + highlight_options[] + answer[]
         //   Legacy: text + highlights[{text, correct}]
@@ -9473,14 +9473,12 @@ function renderMissionStep() {
 
         let optionItems = [];
         if (hlOptions.length > 0) {
-            // New format: highlight_options + answer array
             optionItems = hlOptions.map((opt, idx) => ({
                 text: opt,
                 correct: correctAnswers.includes(opt),
                 idx: idx
             }));
         } else if (highlights.length > 0) {
-            // Legacy format: highlights[{text, correct}]
             optionItems = highlights.map((h, idx) => ({
                 text: h.text || h,
                 correct: !!h.correct,
@@ -9489,34 +9487,32 @@ function renderMissionStep() {
         }
 
         const instruction = step.instruction || (selectionMode === 'single' ?
-            'Click on the most significant finding:' :
-            'Select all findings that apply:');
+            'Click on the most significant finding in the text below:' :
+            'Click on each finding in the text to highlight it. Click again to deselect.');
 
-        // Render: passage as context, then clickable option items below
-        const optionItemsHtml = optionItems.map(item => {
+        // Build passage with inline clickable spans (replace each phrase in text with a span)
+        let processedText = hlText;
+        const escapeHtml = (s) => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        const escapeAttr = (s) => String(s).replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/&/g,'&amp;');
+        // Replace longer phrases first so substrings don't get partially wrapped
+        const sorted = optionItems.slice().sort((a,b) => (b.text.length - a.text.length));
+        sorted.forEach(item => {
             const clickHandler = selectionMode === 'single' ?
                 `onclick="selectHighlight(this, ${item.idx}, 'single')"` :
                 `onclick="toggleHighlight(this, ${item.idx})"`;
-            return `<div class="highlight-option p-3 mb-2 rounded" ${clickHandler}
-                data-highlight-id="${item.idx}" data-correct="${item.correct}"
-                data-option-text="${item.text.replace(/"/g, '&quot;')}"
-                style="border:2px solid rgba(255,255,255,0.15);cursor:pointer;transition:all 0.2s;background:rgba(255,255,255,0.03);">
-                <i class="fas fa-circle me-2 text-secondary" style="font-size:0.6rem;"></i>${item.text}
-            </div>`;
-        }).join('');
+            const span = `<span class="text-highlight" data-highlight-id="${item.idx}" data-correct="${item.correct}" data-option-text="${escapeAttr(item.text)}" ${clickHandler} style="cursor:pointer;border-radius:2px;transition:background 0.2s;">${escapeHtml(item.text)}</span>`;
+            processedText = processedText.replace(item.text, span);
+        });
 
         optsHtml = `
             <div class="highlight-select">
                 <div class="highlight-instruction mb-3"><i class="fas fa-highlighter me-2 text-warning"></i>${instruction}</div>
-                <div class="highlight-passage p-4 rounded mb-4" style="background:rgba(255,255,255,0.05);font-size:1.05rem;line-height:1.8;border-left:4px solid var(--accent);">
+                <div class="highlight-passage p-4 rounded mb-4 user-select-text" style="background:rgba(255,255,255,0.05);font-size:1.05rem;line-height:1.8;border-left:4px solid var(--accent);">
                     <div class="text-secondary small mb-2"><i class="fas fa-file-medical me-1"></i>Clinical Findings:</div>
-                    ${hlText}
-                </div>
-                <div class="highlight-options-list">
-                    ${optionItemsHtml}
+                    <div class="highlight-text">${processedText}</div>
                 </div>
                 <input type="hidden" id="highlight-selection" value="">
-                <div class="mt-2 text-secondary small"><i class="fas fa-info-circle me-1"></i>Tap each finding to select or deselect it</div>
+                <div class="mt-2 text-secondary small"><i class="fas fa-info-circle me-1"></i>Click phrases in the text above to highlight your answer</div>
             </div>
         `;
     } else if (step.options && step.options.length > 0) {
@@ -9698,34 +9694,38 @@ function initTouchDrag() {
 // Highlight selection functions
 function toggleHighlight(element, highlightId) {
     element.classList.toggle('selected');
-    if (element.classList.contains('selected')) {
-        element.style.borderColor = 'var(--accent)';
-        element.style.background = 'rgba(0, 212, 170, 0.15)';
-        element.querySelector('.fa-circle').className = 'fas fa-check-circle me-2 text-accent';
-    } else {
-        element.style.borderColor = 'rgba(255,255,255,0.15)';
-        element.style.background = 'rgba(255,255,255,0.03)';
-        element.querySelector('.fa-check-circle, .fa-circle').className = 'fas fa-circle me-2 text-secondary';
+    const icon = element.querySelector('.fa-circle, .fa-check-circle');
+    if (icon) {
+        if (element.classList.contains('selected')) {
+            element.style.borderColor = 'var(--accent)';
+            element.style.background = 'rgba(0, 212, 170, 0.15)';
+            icon.className = 'fas fa-check-circle me-2 text-accent';
+        } else {
+            element.style.borderColor = 'rgba(255,255,255,0.15)';
+            element.style.background = 'rgba(255,255,255,0.03)';
+            icon.className = 'fas fa-circle me-2 text-secondary';
+        }
     }
     updateHighlightSelection();
 }
 
 function selectHighlight(element, highlightId, mode) {
     if (mode === 'single') {
-        // Remove selection from all highlights
         document.querySelectorAll('.highlight-option, .text-highlight').forEach(el => {
             el.classList.remove('selected');
-            el.style.borderColor = 'rgba(255,255,255,0.15)';
-            el.style.background = 'rgba(255,255,255,0.03)';
-            const icon = el.querySelector('.fa-check-circle');
-            if (icon) icon.className = 'fas fa-circle me-2 text-secondary';
+            el.style.borderColor = '';
+            el.style.background = '';
+            const ic = el.querySelector('.fa-check-circle, .fa-circle');
+            if (ic) ic.className = 'fas fa-circle me-2 text-secondary';
         });
     }
     element.classList.add('selected');
-    element.style.borderColor = 'var(--accent)';
-    element.style.background = 'rgba(0, 212, 170, 0.15)';
     const icon = element.querySelector('.fa-circle, .fa-check-circle');
-    if (icon) icon.className = 'fas fa-check-circle me-2 text-accent';
+    if (icon) {
+        element.style.borderColor = 'var(--accent)';
+        element.style.background = 'rgba(0, 212, 170, 0.15)';
+        icon.className = 'fas fa-check-circle me-2 text-accent';
+    }
     updateHighlightSelection();
 }
 
@@ -9840,17 +9840,16 @@ function evaluateMissionStep() {
         const correctAnswers = step.answer || [];
         const highlights = step.highlights || [];
         if (hlOptions.length > 0 && Array.isArray(correctAnswers)) {
-            // New format: compare option text
-            const selectedTexts = selected.map(el => el.dataset.optionText || el.textContent.trim());
+            const selectedTexts = [...new Set(selected.map(el => (el.dataset.optionText || el.textContent.trim())))];
             isCorrect = selectedTexts.length === correctAnswers.length &&
                        selectedTexts.every(t => correctAnswers.includes(t)) &&
                        correctAnswers.every(t => selectedTexts.includes(t));
         } else if (highlights.length > 0) {
-            // Legacy format: highlights[{text, correct}]
-            const selectedIds = selected.map(el => parseInt(el.dataset.highlightId));
             const correctIds = highlights.map((h, i) => h.correct ? i : -1).filter(i => i >= 0);
+            const selectedIds = [...new Set(selected.map(el => parseInt(el.dataset.highlightId)))];
             isCorrect = selectedIds.length === correctIds.length &&
-                       selectedIds.every(id => correctIds.includes(id));
+                       selectedIds.every(id => correctIds.includes(id)) &&
+                       correctIds.every(id => selectedIds.includes(id));
         }
 
     } else if (step.type === 'bowtie') {
