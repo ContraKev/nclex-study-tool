@@ -9738,48 +9738,109 @@ function updateHighlightSelection() {
 
 function evaluateMissionStep() {
     const step = currentMission.steps[currentStepIndex];
+
+    // ── Validation: require answers before allowing submission ──
+    let hasAnswer = false;
+    if (step.type === 'extended_sata' || step.type === 'standard' || (!step.type && step.options)) {
+        hasAnswer = document.querySelectorAll('input[name="m-opt"]:checked').length > 0;
+    } else if (step.type === 'matrix') {
+        const totalRows = step.rows ? step.rows.length : 0;
+        const answeredRows = new Set();
+        document.querySelectorAll('input[type="radio"]:checked').forEach(r => {
+            const m = r.name.match(/matrix-row-(\d+)/);
+            if (m) answeredRows.add(m[1]);
+        });
+        hasAnswer = answeredRows.size === totalRows;
+    } else if (step.type === 'bowtie') {
+        const diag = document.getElementById('bw-c')?.value;
+        const l = document.querySelectorAll('input[name="bw-l"]:checked').length;
+        const r = document.querySelectorAll('input[name="bw-r"]:checked').length;
+        hasAnswer = diag && l > 0 && r > 0;
+    } else if (step.type === 'drag_drop_cloze' || step.type === 'cloze_drag_drop') {
+        const zones = document.querySelectorAll('.drop-zone');
+        hasAnswer = zones.length > 0 && Array.from(zones).every(z => z.classList.contains('filled'));
+    } else if (step.type === 'highlight_select' || step.type === 'highlight') {
+        hasAnswer = document.querySelectorAll('.highlight-option.selected, .text-highlight.selected').length > 0;
+    } else {
+        hasAnswer = true; // Unknown type — allow through
+    }
+
+    if (!hasAnswer) {
+        const fb = document.getElementById('mission-feedback');
+        fb.innerHTML = `<div class="p-3 rounded-4 border border-warning" style="background:rgba(234,179,8,0.15);">
+            <h5 class="text-warning fw-bold"><i class="fas fa-exclamation-triangle me-2"></i>Please select an answer before submitting.</h5>
+        </div>`;
+        return;
+    }
+
+    // ── Evaluate answer ──
     let isCorrect = false;
+
     if (step.type === 'extended_sata') {
-        const sel = Array.from(document.querySelectorAll('input[name="m-opt"]:checked')).map(i => parseInt(i.value));
-        isCorrect = sel.length === step.answer.length && sel.every(v => step.answer.includes(v));
+        const checkedInputs = Array.from(document.querySelectorAll('input[name="m-opt"]:checked'));
+        if (Array.isArray(step.answer) && step.answer.length > 0 && typeof step.answer[0] === 'string') {
+            // String-based answers: compare option text
+            const selectedTexts = checkedInputs.map(inp => {
+                const label = inp.closest('label');
+                return label ? label.textContent.trim() : '';
+            });
+            isCorrect = selectedTexts.length === step.answer.length &&
+                       selectedTexts.every(t => step.answer.includes(t)) &&
+                       step.answer.every(a => selectedTexts.includes(a));
+        } else {
+            // Index-based answers: compare numeric indices
+            const sel = checkedInputs.map(i => parseInt(i.value));
+            isCorrect = sel.length === step.answer.length && sel.every(v => step.answer.includes(v));
+        }
+
     } else if (step.type === 'standard' || (!step.type && step.options)) {
-        // Regular multiple choice or exam questions
         const sel = Array.from(document.querySelectorAll('input[name="m-opt"]:checked')).map(i => parseInt(i.value));
-        isCorrect = sel.length === step.answer.length && sel.every(v => step.answer.includes(v));
+        const ans = Array.isArray(step.answer) ? step.answer : [step.answer];
+        isCorrect = sel.length === ans.length && sel.every(v => ans.includes(v));
+
     } else if (step.type === 'matrix') {
         isCorrect = step.rows.every((r, rowIndex) => {
-            const rowKey = typeof r === 'string' ? r : (r.text || '');
-            return document.querySelector(`input[name="matrix-row-${rowIndex}"]:checked`)?.value === step.answer[rowKey];
+            const checked = document.querySelector(`input[name="matrix-row-${rowIndex}"]:checked`);
+            if (!checked) return false;
+            const selectedCol = checked.value;
+            // Format 1: answer object {rowText: "columnText"}
+            if (step.answer && typeof step.answer === 'object') {
+                const rowKey = typeof r === 'string' ? r : (r.text || '');
+                return selectedCol === step.answer[rowKey];
+            }
+            // Format 2: correct_col_idx on row objects
+            if (typeof r === 'object' && r.correct_col_idx !== undefined) {
+                return selectedCol === step.columns[r.correct_col_idx];
+            }
+            return false;
         });
+
     } else if (step.type === 'drag_drop_cloze' || step.type === 'cloze_drag_drop') {
-        // Check if all blanks are filled correctly
         const answerObj = step.answer || {};
         const blankKeys = Object.keys(answerObj);
         if (blankKeys.length > 0 && typeof answerObj === 'object' && !Array.isArray(answerObj)) {
-            // New format: answer is {BLANK1: "correct_value", BLANK2: "correct_value", ...}
+            // New format: answer is {BLANK1: "correct_value", ...}
             isCorrect = blankKeys.every((key, idx) => {
                 const dropZone = document.querySelector(`.drop-zone[data-blank-id="${idx}"]`);
                 if (!dropZone || !dropZone.classList.contains('filled')) return false;
-                const droppedText = dropZone.textContent.trim();
-                return droppedText === answerObj[key];
+                return dropZone.textContent.trim() === answerObj[key];
             });
         } else if (step.blanks && step.blanks.length > 0) {
             // Legacy format: blanks[].correct
             isCorrect = step.blanks.every((blank, idx) => {
                 const dropZone = document.querySelector(`.drop-zone[data-blank-id="${idx}"]`);
                 if (!dropZone || !dropZone.classList.contains('filled')) return false;
-                const droppedText = dropZone.textContent.trim();
-                return droppedText === blank.correct;
+                return dropZone.textContent.trim() === blank.correct;
             });
         }
+
     } else if (step.type === 'highlight_select' || step.type === 'highlight') {
-        // Check selected highlights (works with both .highlight-option and .text-highlight)
         const selected = Array.from(document.querySelectorAll('.highlight-option.selected, .text-highlight.selected'));
         const hlOptions = step.highlight_options || [];
         const correctAnswers = step.answer || [];
         const highlights = step.highlights || [];
         if (hlOptions.length > 0 && Array.isArray(correctAnswers)) {
-            // New format: compare selected option text against answer array
+            // New format: compare option text
             const selectedTexts = selected.map(el => el.dataset.optionText || el.textContent.trim());
             isCorrect = selectedTexts.length === correctAnswers.length &&
                        selectedTexts.every(t => correctAnswers.includes(t)) &&
@@ -9791,11 +9852,14 @@ function evaluateMissionStep() {
             isCorrect = selectedIds.length === correctIds.length &&
                        selectedIds.every(id => correctIds.includes(id));
         }
+
     } else if (step.type === 'bowtie') {
         const diag = document.getElementById('bw-c').value;
         const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
         const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
-        isCorrect = diag === step.center_condition.answer && l.length === 2 && l.every(v => step.left_actions.answer.includes(v)) && r.length === 2 && r.every(v => step.right_monitor.answer.includes(v));
+        isCorrect = diag === step.center_condition.answer &&
+                   l.length === 2 && l.every(v => step.left_actions.answer.includes(v)) &&
+                   r.length === 2 && r.every(v => step.right_monitor.answer.includes(v));
     }
     // Log step result for progress tracking (update if re-answered, don't duplicate)
     const existingStepIdx = window.missionStepLog.findIndex(s => s.step === currentStepIndex);
