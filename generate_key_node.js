@@ -1,52 +1,50 @@
 const fs = require('fs');
 const path = require('path');
 
-// Mock window
-global.window = {};
+// ── Extract ALL missions from dist/index.html (single source of truth) ──
 
-// Load helper to process files
-function loadFile(filename) {
-    const content = fs.readFileSync(filename, 'utf8');
-    eval(content);
-}
-
-// Load all legacy JS files
-try {
-    loadFile('mission_prototype.js');
-    loadFile('missions_cardio_1.js');
-    loadFile('missions_cardio_2.js');
-    loadFile('missions_cardio_3.js');
-    loadFile('missions_cardio_4.js');
-} catch (e) {
-    console.error("Error loading JS files:", e);
-}
-
-// Load JSON data
-const jsonContent = fs.readFileSync('scenarios.json', 'utf8');
-const jsonData = JSON.parse(jsonContent);
-
-// Aggregate all missions
+const html = fs.readFileSync('dist/index.html', 'utf8');
 let allMissions = [];
 
-// 1. Legacy JS Missions
-if (window.mission_prototype) allMissions.push(window.mission_prototype);
-if (window.missions_cardio_1) allMissions = allMissions.concat(window.missions_cardio_1);
-if (window.missions_cardio_2) allMissions = allMissions.concat(window.missions_cardio_2);
-if (window.missions_cardio_3) allMissions = allMissions.concat(window.missions_cardio_3);
-if (window.missions_cardio_4) allMissions = allMissions.concat(window.missions_cardio_4);
+// 1. Legacy JS missions (formatted script blocks)
+const scriptBlocks = html.match(/<script>([\s\S]*?)<\/script>/g) || [];
+for (const block of scriptBlocks) {
+    const code = block.replace(/<\/?script>/g, '');
 
-// 2. JSON Missions
-if (jsonData.modules) {
-    jsonData.modules.forEach(mod => {
-        if (mod.scenarios) {
-            mod.scenarios.forEach(sc => {
-                if (sc.type === 'mission') {
-                    allMissions.push(sc);
-                }
-            });
-        }
-    });
+    // mission_prototype (single object)
+    const protoMatch = code.match(/window\.mission_prototype\s*=\s*(\{[\s\S]*?\});\s*$/m);
+    if (protoMatch) {
+        try { allMissions.push(eval('(' + protoMatch[1] + ')')); } catch(e) {}
+    }
+
+    // missions_cardio_N arrays
+    const cardioMatch = code.match(/window\.(missions_cardio_\d+)\s*=\s*(\[[\s\S]*?\]);\s*$/m);
+    if (cardioMatch) {
+        try {
+            const arr = eval('(' + cardioMatch[2] + ')');
+            if (Array.isArray(arr)) allMissions.push(...arr);
+        } catch(e) {}
+    }
 }
+
+// 2. Compact JSON missions (concat blocks)
+const concatRegex = /\.concat\(\s*(\[[\s\S]*?\])\s*\)/g;
+let match;
+while ((match = concatRegex.exec(html)) !== null) {
+    try {
+        const arr = eval('(' + match[1] + ')');
+        if (Array.isArray(arr)) allMissions.push(...arr);
+    } catch(e) {}
+}
+
+// Deduplicate by mission id
+const seen = new Set();
+allMissions = allMissions.filter(m => {
+    if (!m.id || !m.steps) return false;
+    if (seen.has(m.id)) return false;
+    seen.add(m.id);
+    return true;
+});
 
 // Sort
 allMissions.sort((a, b) => (a.numerical_id || 0) - (b.numerical_id || 0));

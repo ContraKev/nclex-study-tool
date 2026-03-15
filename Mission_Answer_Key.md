@@ -49,32 +49,6 @@
 **Rationale**:
 > The definitive diagnosis is Digoxin Toxicity, confirmed by the toxic serum level of 2.8 ng/mL and the patient's neurological and cardiac symptoms. Primary nursing interventions must focus on stabilization and reversal: holding the medication prevents further toxic accumulation, while Digoxin Immune Fab (Digibind) acts as the specific antidote by binding to and inactivating the drug molecules. Monitoring must prioritize cardiac and metabolic stability; continuous EKG is mandatory to identify lethal dysrhythmias (like PVCs or AV block) that occur in digitalis toxicity. Tracking serum potassium is equally vital, as hypokalemia exacerbates toxicity, and rapid changes in potassium can occur during the reversal process.
 
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the priority interventions for this patient with Digoxin toxicity. Complete the nursing documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: Digoxin
-- **BLANK2**: 2.8
-- **BLANK3**: hypokalemia
-- **BLANK4**: Hold
-- **BLANK5**: Digoxin Immune Fab (Digibind)
-- **BLANK6**: EKG
-
-**Rationale**:
-> Accurate nursing documentation must identify the toxicity (Digoxin), include the critical lab value (2.8 ng/mL - above therapeutic range of 0.8-2.0), recognize the contributing electrolyte imbalance (hypokalemia potentiates digoxin toxicity), and document the priority interventions: holding the offending medication, preparing the antidote (Digibind), and initiating continuous cardiac monitoring to detect life-threatening arrhythmias.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's History of Present Illness (HPI) below. Highlight/select ALL phrases that represent classic manifestations of Digoxin toxicity.
-
-**Correct Answer**:
-- [x] worsening nausea
-- [x] loss of appetite
-- [x] significant malaise
-- [x] yellow rings or halos
-
-**Rationale**:
-> The classic triad of Digoxin toxicity includes: (1) GI symptoms - nausea, vomiting, anorexia (loss of appetite); (2) Neurological symptoms - fatigue, malaise, confusion, weakness; and (3) Visual disturbances - yellow-green halos around lights (xanthopsia), blurred vision, or photophobia. The increased pedal edema and Furosemide dose change are relevant history but represent the heart failure and its treatment, not direct manifestations of digoxin toxicity. However, the Furosemide-induced hypokalemia is the precipitating factor that triggered the toxicity.
-
 ---
 
 ## Mission 2: The Silent Crisis: Nitroprusside Titration (M-002)
@@ -119,31 +93,6 @@
 
 **Rationale**:
 > The patient is experiencing profound, life-threatening hypotension, which is the most common and immediate adverse effect of Nitroprusside due to its potent vasodilatory action on both venous and arterial smooth muscle. The most urgent nursing priority is to stop the infusion immediately; since Nitroprusside has an extremely short half-life (1–10 minutes), blood pressure typically begins to recover very rapidly once the drug is discontinued. Placing the patient in the Trendelenburg position (head down, feet elevated) is a standard emergency maneuver to facilitate venous return to the heart and improve cerebral perfusion during the acute hypotensive state. Monitoring must transition to emergency frequency: blood pressure must be assessed every 2 minutes via the existing arterial line to guide recovery, and the level of consciousness must be evaluated continuously to ensure that cerebral oxygenation is improving as systemic pressure normalizes.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is preparing the Nitroprusside infusion for safe administration. Complete the preparation checklist by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: light
-- **BLANK2**: aluminum foil
-- **BLANK3**: electronic infusion pump
-- **BLANK4**: blue or green
-- **BLANK5**: discarded immediately
-- **BLANK6**: 25%
-
-**Rationale**:
-> Nitroprusside is a potent vasodilator that requires meticulous preparation. It is highly light-sensitive — UV exposure causes it to decompose into cyanide, so aluminum foil wrapping is mandatory. An electronic infusion pump is required for precise mcg/kg/min titration. Color change (blue, green, or bright red) indicates chemical breakdown and toxicity — the solution must be discarded. The BP reduction goal is 25% in the first hour to balance organ perfusion with hypertensive emergency management.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's History of Present Illness (HPI) below. Highlight/select ALL phrases that indicate this is a hypertensive EMERGENCY rather than hypertensive urgency.
-
-**Correct Answer**:
-- [x] suddenly 'dizzy and sick'
-- [x] headache as a 10/10
-- [x] I feel like my head is going to explode
-
-**Rationale**:
-> Hypertensive EMERGENCY is distinguished from urgency by the presence of acute end-organ damage or symptoms indicating impending damage. The sudden onset of dizziness (neurological symptom), severe 10/10 headache, and the patient's description of explosive head pressure all indicate acute neurological compromise — potentially impending stroke or hypertensive encephalopathy. These findings, combined with a BP of 238/124, classify this as an emergency requiring IV medication and ICU admission. Medication non-compliance is important history but does not itself indicate emergency status.
 
 ---
 
@@ -192,117 +141,6 @@
 **Rationale**:
 > The patient is presenting with symptomatic bradycardia (pulse < 50 bpm accompanied by weakness), likely due to toxic accumulation or an excessive physiological response to the Metoprolol Succinate. The primary nursing action is to immediately hold further doses of the offending agent to prevent cardiac standstill. Instructing the patient to come to the Emergency Department is critical because she requires an acute evaluation for potential AV block and may need temporary pacing or pharmacological support (e.g., Atropine). In the acute setting, continuous EKG rhythm monitoring is the highest priority to detect lethal arrhythmias, while frequent blood pressure assessment is required to ensure that systemic perfusion is maintained despite the low heart rate.
 
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is providing discharge teaching about beta-blocker therapy to this post-MI diabetic patient. Complete the teaching documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: abruptly
-- **BLANK2**: radial pulse
-- **BLANK3**: 50-60
-- **BLANK4**: mask
-- **BLANK5**: wheezing
-- **BLANK6**: bronchospasm
-
-**Rationale**:
-> Critical beta-blocker teaching points: (1) Never stop abruptly — can cause rebound tachycardia, hypertension, and MI; (2) Check pulse before each dose, hold if < 50-60 bpm; (3) In diabetic patients, beta-blockers mask hypoglycemia symptoms (tachycardia, tremor) because these are adrenergic responses that beta-blockers block; (4) New wheezing or SOB may indicate bronchospasm — even cardioselective beta-blockers can affect bronchial Beta-2 receptors at higher doses, or may indicate worsening heart failure.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's Review of Systems (ROS) below. Highlight/select ALL findings that are clinically significant for a diabetic patient starting beta-blocker therapy.
-
-**Correct Answer**:
-- [x] Reports 'vivid dreams' last night
-- [x] slight dyspnea when walking long distances
-
-**Rationale**:
-> Two findings require attention in this diabetic post-MI patient on beta-blockers: (1) 'Vivid dreams' are a known CNS side effect of lipophilic beta-blockers like metoprolol that cross the blood-brain barrier — while not dangerous, this is important to document and monitor; (2) 'Slight dyspnea when walking' could indicate early heart failure exacerbation (beta-blockers reduce cardiac contractility) OR could be normal post-MI deconditioning. This requires ongoing monitoring. The other findings are either normal/reassuring or not specifically related to beta-blocker-diabetic interactions.
-
----
-
-## Mission 4: The Irregular Pulse: AFib Management (M-004)
-
-### Step 1: EXTENDED SATA
-**Prompt**: The nurse admits Mr. O'Connell. Which assessment findings are consistent with Atrial Fibrillation with RVR? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> AFib is characterized by chaotic atrial activity (no P waves) and an irregular ventricular response. RVR implies a rate > 100. A pulse deficit is common as not all beats generate enough pressure to be palpable peripherally. QRS is typically narrow unless there is aberrant conduction.
-
-### Step 2: MATRIX
-**Prompt**: The provider orders medications. For each drug, indicate the primary purpose in this scenario.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Diltiazem (Cardizem) IV | **Rate Control** |
-| Heparin IV Drip | **Anticoagulation** |
-| Metoprolol PO | **Rate Control** |
-| Amiodarone IV | **Rhythm Control** |
-
-**Rationale**:
-> Diltiazem and Metoprolol are rate control agents (slowing AV conduction). Heparin prevents thrombus formation (stroke prevention). Amiodarone is an antiarrhythmic used to restore/maintain sinus rhythm (rhythm control).
-
-### Step 3: BOWTIE
-**Prompt**: The patient suddenly develops slurred speech and right-sided weakness. Prioritize the immediate response.
-
-**Correct Answer**:
-- **Condition**: Ischemic Stroke (Embolic)
-- **Actions to Take**:
-  - Activate Stroke Team/Code Stroke
-  - Obtain Non-contrast CT Head
-- **Parameters to Monitor**:
-  - NIHSS Stroke Scale
-  - Serum Glucose
-
-**Rationale**:
-> The greatest risk in AFib is embolic stroke (clot leaving the LA appendage). Slurred speech and weakness are classic signs. Immediate action is to call a Stroke Code and get a CT to rule out hemorrhage. Glucose is checked to rule out hypoglycemia mimics. tPA is NOT given until hemorrhage is ruled out.
-
----
-
-## Mission 5: The Silent Killer: Hypertensive Urgency (M-005)
-
-### Step 1: MATRIX
-**Prompt**: The nurse assesses Ms. Jenkins. Determine which findings indicate 'Target Organ Damage' vs 'No Target Organ Damage'.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Creatinine 0.9 mg/dL | **No Evidence of Organ Damage** |
-| Severe Headache | **No Evidence of Organ Damage** |
-| Proteinuria (Negative) | **No Evidence of Organ Damage** |
-| Chest Pain / Troponin elevation | **Evidence of Organ Damage** |
-| Epistaxis (Nosebleed) | **No Evidence of Organ Damage** |
-
-**Rationale**:
-> Urgency is defined by BP > 180/120 WITHOUT organ damage. Headache and epistaxis are symptoms but not organ 'damage' like MI (chest pain), renal failure (high Cr), or stroke.
-
-### Step 2: BOWTIE
-**Prompt**: Based on the assessment (High BP, No Organ Damage), prioritize the care plan.
-
-**Correct Answer**:
-- **Condition**: Hypertensive Urgency
-- **Actions to Take**:
-  - Administer Oral Clonidine
-  - Place in quiet, dark room
-- **Parameters to Monitor**:
-  - BP every 15-30 mins
-  - Neuro checks q1h
-
-**Rationale**:
-> The diagnosis is Urgency. Treatment involves ORAL agents (Clonidine/Captopril) to lower BP gradually over 24-48h. IV agents are for Emergency. Reducing stimuli assists in lowering BP. Neuro checks ensure no progression to stroke.
-
-### Step 3: EXTENDED SATA
-**Prompt**: Ms. Jenkins is discharged. Which statements require further teaching? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Hypertension is a silent, lifelong condition. Medication adherence is crucial even when asymptomatic. Doubling doses can cause dangerous hypotension.
-
 ---
 
 ## Mission 6: Drowning from Within: Acute Pulmonary Edema (M-006)
@@ -347,35 +185,6 @@
 
 **Rationale**:
 > Aggressive loop diuretic therapy rapidly depletes potassium, which is critical for cardiac electrical stability. The onset of PVCs and 'heart flutters' in this patient strongly suggests severe hypokalemia. The nurse must act immediately to stop further potassium loss by holding the diuretic and must advocate for urgent potassium replacement (IV or PO depending on severity). Continuous EKG monitoring is the highest priority to detect lethal progression into Ventricular Tachycardia or the appearance of U-waves, while serial serum potassium checks are required to guide replacement therapy and ensure the patient returns to a safe range (3.5-5.0 mEq/L).
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the rationale for using Ethacrynic acid instead of Furosemide in this patient. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: anaphylactic
-- **BLANK2**: sulfonamide
-- **BLANK3**: sulfa
-- **BLANK4**: ototoxicity
-- **BLANK5**: higher
-- **BLANK6**: hearing changes
-
-**Rationale**:
-> Documentation must reflect clinical reasoning: the patient's ANAPHYLACTIC (not mild) sulfa allergy necessitates avoidance of sulfonamide-derivative diuretics. Ethacrynic acid is the only sulfa-free loop diuretic. The trade-off is that Ethacrynic acid has a HIGHER (not lower) risk of permanent ototoxicity, especially in elderly patients and those with renal impairment. Tinnitus and hearing changes are early warning signs that must be reported immediately.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's Review of Systems (ROS) below. Highlight/select ALL findings that indicate acute decompensated heart failure (ADHF) with pulmonary edema.
-
-**Correct Answer**:
-- [x] unable to speak in full sentences due to dyspnea
-- [x] S3 gallop audible
-- [x] 3+ pitting edema to bilateral lower extremities
-- [x] JVD noted at 90 degrees
-- [x] Coarse crackles (rales) heard throughout all lung fields
-- [x] pink, frothy sputum
-- [x] ascites noted
-
-**Rationale**:
-> Classic findings of ADHF with pulmonary edema include: (1) Respiratory distress so severe patient cannot speak in full sentences; (2) S3 gallop — pathognomonic for volume overload/HF; (3) Bilateral pitting edema — systemic fluid retention; (4) JVD at 90 degrees — elevated right heart pressures; (5) Diffuse crackles including apices — fluid in alveoli; (6) Pink frothy sputum — blood-tinged pulmonary edema (severe); (7) Ascites — hepatic congestion from right heart failure. Anxiety/restlessness and palpitations are symptoms but not specific diagnostic findings.
 
 ---
 
@@ -422,160 +231,6 @@
 **Rationale**:
 > The patient is experiencing an acute bleeding event due to an excessively high INR (5.8), indicating Warfarin toxicity. The primary nursing action is to hold the medication to prevent further anticoagulation and administer Vitamin K, which is the specific antagonist that allows the liver to resume synthesis of clotting factors. While leafy greens contain Vitamin K, they are not used for acute reversal. Monitoring must focus on the INR to track the effectiveness of the reversal and the Hemoglobin/Hematocrit to assess the severity of blood loss from the epistaxis and hematuria.
 
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is explaining anticoagulant bridging therapy to the patient. Complete the patient education by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: 3 to 5
-- **BLANK2**: immediate
-- **BLANK3**: aPTT
-- **BLANK4**: PT/INR
-- **BLANK5**: 2.0-3.0
-- **BLANK6**: Vitamin K
-
-**Rationale**:
-> Patient education for bridging therapy: Warfarin has a delayed onset (3-5 days) because it inhibits synthesis of new clotting factors, not existing ones. Heparin provides immediate anticoagulation by inactivating thrombin. aPTT monitors Heparin; PT/INR monitors Warfarin. The therapeutic INR goal for DVT is 2.0-3.0. Once achieved, Heparin is discontinued. Vitamin K is the specific antidote for Warfarin (restores clotting factor synthesis).
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's History of Present Illness (HPI) below. Highlight/select ALL risk factors that contributed to this patient's Deep Vein Thrombosis (Virchow's Triad).
-
-**Correct Answer**:
-- [x] 14-hour international flight
-
-**Rationale**:
-> Virchow's Triad describes the three factors that contribute to DVT formation: (1) Venous stasis, (2) Endothelial injury, and (3) Hypercoagulability. The 14-hour flight represents prolonged immobility causing venous stasis — the primary identifiable risk factor in this HPI. The other phrases describe the diagnosis, treatment, or symptoms rather than risk factors. Additional risk factors from her PMH include PCOS (associated with hypercoagulability) and history of smoking, but these are not mentioned in the HPI excerpt provided.
-
----
-
-## Mission 8: Fluid Overload: CHF Management (M-008)
-
-### Step 1: MATRIX
-**Prompt**: Differentiate the patient's symptoms between Right-Sided and Left-Sided Heart Failure.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Jugular Venous Distention (JVD) | **Right-Sided HF** |
-| Crackles / Pulmonary Edema | **Left-Sided HF** |
-| Peripheral Edema (Legs) | **Right-Sided HF** |
-| Orthopnea (SOB lying flat) | **Left-Sided HF** |
-| Ascites / Hepatosplenomegaly | **Right-Sided HF** |
-
-**Rationale**:
-> Left HF backs up into the Lungs (Crackles, Orthopnea). Right HF backs up into the Rest of the body (JVD, Ascites, Edema). This patient has biventricular failure.
-
-### Step 2: BOWTIE
-**Prompt**: The patient becomes increasingly dyspneic, SpO2 drops to 85%, and he starts coughing pink frothy sputum. Take immediate action.
-
-**Correct Answer**:
-- **Condition**: Flash Pulmonary Edema
-- **Actions to Take**:
-  - Administer IV Furosemide
-  - Place High Flow Oxygen / BiPAP
-- **Parameters to Monitor**:
-  - Urine Output
-  - SpO2 and Respiratory Effort
-
-**Rationale**:
-> Pink frothy sputum is pathognomonic for Flash Pulmonary Edema. This is an AIRWAY emergency. Diuretics (Lasix) remove fluid. Positive pressure ventilation (BiPAP) pushes fluid out of alveoli. Laying flat kills the patient.
-
-### Step 3: EXTENDED SATA
-**Prompt**: The patient stabilizes. Which discharge instructions are appropriate? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Daily weights are the best indicator of fluid status. NSAIDs (Ibuprofen) cause sodium retention and are contraindicated in HF.
-
----
-
-## Mission 9: The Fainting Gardener: Aortic Stenosis (M-009)
-
-### Step 1: MATRIX
-**Prompt**: The nurse auscultates the patient's heart sounds. Differentiate the murmurs based on location and timing.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Systolic Murmur at Right 2nd ICS | **Aortic Stenosis** |
-| Systolic Murmur at Apex (radiation to axilla) | **Mitral Regurgitation** |
-| Diastolic Murmur at Left Sternal Border | **Aortic Regurgitation** |
-| Continuous machine-like murmur | **Patent Ductus Arteriosus** |
-
-**Rationale**:
-> Aortic Stenosis is a systolic ejection murmur heard best at the aortic area (R 2nd ICS). Mitral Regurgitation is a pansystolic murmur at the apex. Aortic Regurgitation is a diastolic decrescendo murmur.
-
-### Step 2: EXTENDED SATA
-**Prompt**: Ms. Stewart is admitted for TAVR workup. Which nursing interventions are appropriate for her safety? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Patients with fixed outlet obstruction (AS) are preload dependent. Nitroglycerin causes vasodilation, dropping preload and potentially causing fatal hypotension/syncope. Vigorous exercise increases demand that the heart cannot meet. Valsalva reduces preload.
-
-### Step 3: BOWTIE
-**Prompt**: The patient reports chest pressure (Angina). The nurse prepares to act.
-
-**Correct Answer**:
-- **Condition**: Aortic Stenosis Demand Ischemia
-- **Actions to Take**:
-  - Administer Oxygen
-  - Place in Semi-Fowlers
-- **Parameters to Monitor**:
-  - Blood Pressure
-  - ST segments
-
-**Rationale**:
-> In AS, the hypertrophied muscle needs more oxygen, but the valve limits flow. Nitro is risky! Oxygen increases supply. Rest (Semi-Fowlers) decreases demand. BP must be preserved to push blood through the stenotic valve.
-
----
-
-## Mission 10: The Friction Rub: Acute Pericarditis (M-010)
-
-### Step 1: MATRIX
-**Prompt**: Differentiate Pericarditis from Myocardial Infarction based on clinical presentation.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Pain relieved by Nitroglycerin | **Myocardial Infarction** |
-| Pain relieved by Leaning Forward | **Pericarditis** |
-| ST Elevation is diffuse (all leads) | **Pericarditis** |
-| ST Elevation is localized (Coronary territory) | **Myocardial Infarction** |
-| Radiation to left arm/jaw | **Myocardial Infarction** |
-
-**Rationale**:
-> Pericarditis pain is positional and pleuritic (inflammatory). MI pain is ischemic and often radiates. Diffuse vs Localized ST elevation is the key EKG discriminator.
-
-### Step 2: EXTENDED SATA
-**Prompt**: Which medications does the nurse anticipate administering? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> High dose NSAIDs (Ibuprofen/Aspirin) are first line. Colchicine is added to reduce recurrence. Steroids (Prednisone) are second-line as they increase recurrence risk. Anticoagulants (Heparin) are contraindicated due to risk of hemopericardium (bleeding into the sac).
-
-### Step 3: BOWTIE
-**Prompt**: The patient suddenly develops jugular venous distention, muffled heart sounds, and hypotension. Prioritize the complication.
-
-**Correct Answer**:
-- **Condition**: Cardiac Tamponade
-- **Actions to Take**:
-  - Prepare for Pericardiocentesis
-  - Administer IV Fluid Bolus
-- **Parameters to Monitor**:
-  - Pulsus Paradoxus
-  - Urine Output
-
-**Rationale**:
-> Beck's Triad (JVD, Muffled Sounds, Hypotension) confirms Tamponade. The fluid compresses the heart. Pericardiocentesis (draining the fluid) is the cure. IV fluids maximize preload to maintain output temporarily. Pulsus Paradoxus (drop in SBP > 10 during inspiration) is the classic sign.
-
 ---
 
 ## Mission 11: Nightmare and Nightfalls: Prazosin Initiation (M-011)
@@ -618,76 +273,7 @@
   - Neuro checks
 
 **Rationale**:
-> First-Dose Syncope is a well-known risk of alpha-1 blockers like Prazosin. The sudden drop in blood pressure upon standing causes cerebral hypoperfusion. Trendelenburg position improves venous return, and immediate BP assessment guides further intervention.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting patient education about Prazosin first-dose precautions. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: first-dose
-- **BLANK2**: 30-90
-- **BLANK3**: bedtime
-- **BLANK4**: supine/in bed
-- **BLANK5**: orthostatic
-- **BLANK6**: hazardous
-
-**Rationale**:
-> First-dose syncope typically occurs 30-90 minutes after the initial dose of alpha-1 blockers. Bedtime administration and remaining supine minimizes fall risk. Orthostatic hypotension is the mechanism. Hazardous activities must be avoided until the patient's response to the drug is known.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's medical history below. Highlight/select ALL conditions for which Prazosin provides therapeutic benefit.
-
-**Correct Answer**:
-- [x] PTSD
-- [x] Hypertension
-- [x] BPH
-
-**Rationale**:
-> Prazosin (alpha-1 blocker) has three approved/off-label uses in this patient: (1) PTSD-related nightmares (off-label but well-established), (2) Hypertension (vasodilation), and (3) BPH (relaxes prostatic smooth muscle). 'Vivid nightmares' is a symptom of PTSD that Prazosin treats, but it's not itself a condition. The BP reading and veteran status are relevant history but not indications.
-
----
-
-## Mission 11: The Silent Squeeze: NSTEMI (M-011)
-
-### Step 1: MATRIX
-**Prompt**: Differentiate NSTEMI from STEMI and Unstable Angina based on the findings.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Elevated Troponin | **NSTEMI** |
-| ST-Segment Elevation | **STEMI** |
-| ST-Segment Depression / T-wave Inversion | **NSTEMI** |
-| Chest Pain at Rest | **NSTEMI** |
-| Full Thickness Myocardial Damage | **STEMI** |
-
-**Rationale**:
-> NSTEMI and STEMI both have positive troponins (cell death). STEMI has ST Elevation (full thickness blockage). NSTEMI has Depression/Inversion (partial blockage). Unstable Angina has pain but NEGATIVE troponins.
-
-### Step 2: EXTENDED SATA
-**Prompt**: The patient has an allergy to Aspirin (GI Upset). Which actions are appropriate? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> GI Upset is an intolerance, not anaphylaxis, but typically if severe, we switch to Plavix (Clopidogrel). Heparin prevents clot growth. Nitro dilates coronaries. We generally don't force Aspirin if the patient reports bad reactions unless the provider overrides.
-
-### Step 3: BOWTIE
-**Prompt**: The patient's pain increases to 10/10 despite 3 nitroglycerins. BP drops to 88/50. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Right Ventricular Infarction
-- **Actions to Take**:
-  - Administer IV Fluid Bolus
-  - Obtain Right-Sided ECG
-- **Parameters to Monitor**:
-  - BP Response to Fluids
-  - Jugular Venous Distention
-
-**Rationale**:
-> Inferior/Posterior mis (leads II, III, aVF) often involve the Right Ventricle. RV infarcts are PRELOAD DEPENDENT. Nitro drops preload and causes hypotension. The treatment is FLUIDS to push blood through the right side.
+> No rationale provided.
 
 ---
 
@@ -732,78 +318,7 @@
   - SpO2 levels
 
 **Rationale**:
-> Ticagrelor-induced dyspnea is benign and transient. The critical nursing action is to reassure the patient and continue the vital antiplatelet therapy to prevent stent thrombosis. Monitoring for symptom persistence and oxygen saturation ensures safety.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is explaining Ticagrelor-induced dyspnea to the patient. Complete the education by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: 15
-- **BLANK2**: harmless
-- **BLANK3**: clear
-- **BLANK4**: BNP
-- **BLANK5**: SpO2
-- **BLANK6**: few weeks
-
-**Rationale**:
-> Ticagrelor-induced dyspnea occurs in ~15% of patients and is thought to be related to adenosine reuptake inhibition. It is distinguished from heart failure by clear lungs, normal BNP, and normal oxygen saturation. Symptoms typically resolve within weeks of therapy. The medication should NOT be stopped as this dramatically increases stent thrombosis risk.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's assessment findings below. Highlight/select ALL findings that support the diagnosis of Ticagrelor side effect rather than heart failure.
-
-**Correct Answer**:
-- [x] started on Ticagrelor 3 days ago
-- [x] denies leg swelling
-- [x] SpO2: 98%
-- [x] BNP: 85 pg/mL
-- [x] CXR: Clear lung fields
-
-**Rationale**:
-> Findings supporting Ticagrelor side effect (not HF): (1) Temporal relationship - started 3 days ago; (2) No leg swelling - absent peripheral edema; (3) Normal SpO2 - adequate oxygenation; (4) Normal BNP - rules out ventricular strain; (5) Clear CXR - no pulmonary congestion. 'Short of breath' is the symptom being evaluated, not supporting evidence. Denial of chest pain is reassuring but not specific to this differentiation.
-
----
-
-## Mission 12: Disconnected: Complete Heart Block (M-012)
-
-### Step 1: MATRIX
-**Prompt**: Identify the type of AV Block based on the description.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| PR interval constant, dropping QRS occasionally | **2nd Degree Type II** |
-| PR interval lengthens until QRS drops | **2nd Degree Type I (Wenckebach)** |
-| Complete dissociation of P and QRS | **3rd Degree (Complete)** |
-| PR interval > 0.20s, no dropped beats | **1st Degree** |
-| Ventricular rate approx 20-40 bpm | **3rd Degree (Complete)** |
-
-**Rationale**:
-> 3rd degree block is a complete divorce between Atria and Ventricles. The ventricles rely on a slow escape rhythm (20-40 bpm). Wenckebach gives a warning (lengthening PR). Type II drops without warning.
-
-### Step 2: EXTENDED SATA
-**Prompt**: The nurse acts on the bradycardia. Which interventions are indicated? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Pacing is the definitive treatment for 3rd degree block. Atropine *may* be tried but often fails in high blocks. Dopamine increases heart rate/BP. Adenosine/Metoprolol slow the heart further and are CONTRAINDICATED.
-
-### Step 3: BOWTIE
-**Prompt**: Ms. Rigby becomes unresponsive. No palpable pulse. Monitor shows the same rhythm (PEA). Prioritize.
-
-**Correct Answer**:
-- **Condition**: Pulseless Electrical Activity (PEA)
-- **Actions to Take**:
-  - Start CPR
-  - Administer Epinephrine 1mg
-- **Parameters to Monitor**:
-  - Rhythm Check q2 mins
-  - End-Tidal CO2
-
-**Rationale**:
-> PEA is a rhythm on the monitor but NO pulse. You CANNOT shock PEA. You must do CPR and give Epi. H's and T's (Hypovolemia, Hypoxia, etc.) must be ruled out.
+> No rationale provided.
 
 ---
 
@@ -848,77 +363,7 @@
   - Hgb / Hct
 
 **Rationale**:
-> Abciximab-induced thrombocytopenia is a serious complication that can occur rapidly. Immediate discontinuation and pressure to bleeding sites are critical. Serial platelet counts and hemoglobin monitoring guide transfusion decisions.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the emergency response to GP IIb/IIIa inhibitor complications. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: monoclonal
-- **BLANK2**: low protein-binding
-- **BLANK3**: shaken
-- **BLANK4**: platelets
-- **BLANK5**: thrombocytopenia
-- **BLANK6**: hematoma
-
-**Rationale**:
-> Abciximab is a monoclonal antibody (chimeric mouse/human). It requires a low protein-binding filter to prevent drug loss. Shaking denatures the antibody and must be avoided. Baseline platelets >100,000 are required. This patient developed thrombocytopenia and a groin hematoma - the two major complications of GP IIb/IIIa inhibitors.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the post-procedure findings below. Highlight/select ALL findings that indicate a complication requiring immediate intervention.
-
-**Correct Answer**:
-- [x] BP: 90/52 mmHg
-- [x] HR: 110 bpm
-- [x] 6cm hematoma noted
-- [x] Platelets: 42,000
-- [x] feeling lightheaded
-
-**Rationale**:
-> Critical findings requiring immediate intervention: (1) Hypotension (90/52) - indicates hypovolemia from bleeding; (2) Tachycardia (110 bpm) - compensatory response to blood loss; (3) Expanding hematoma - active bleeding; (4) Critical thrombocytopenia (42,000) - major drug complication; (5) Lightheadedness - symptom of hypoperfusion. Anxiety, while important, is expected and not independently a critical finding.
-
----
-
-## Mission 13: The Leaky Valve: Mitral Regurgitation (M-013)
-
-### Step 1: MATRIX
-**Prompt**: Correlate the pathophysiology of Mitral Regurgitation with the clinical findings.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Blood flows backward from LV to LA | **Cause of Murmur** |
-| Increased pressure in Pulmonary Veins | **Cause of Dyspnea/Crackles** |
-| Dilation of Left Atrium | **Risk for AFib** |
-| Decreased Cardiac Output | **Cause of Fatigue** |
-
-**Rationale**:
-> The leak (murmur) causes backflow into the LA, which backs up into lungs (dyspnea). The stretched LA disrupts electrical pathways (AFib). The forward flow is reduced (Fatigue).
-
-### Step 2: EXTENDED SATA
-**Prompt**: Mr. Jones is scheduled for Mitral Valve Repair. Which pre-op orders are appropriate? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Diuretics manage the heart failure symptoms. Anticoagulation prevents stroke from AFib. Dental clearance is MANDATORY before valve surgery to prevent Endocarditis from oral bacteria. Antibiotics are given *intra-op*, not days before.
-
-### Step 3: BOWTIE
-**Prompt**: Post-op, Mr. Jones has a mechanical valve. He asks about his lifestyle. Prioritize the education.
-
-**Correct Answer**:
-- **Condition**: Mechanical Valve Management
-- **Actions to Take**:
-  - Lifelong Warfarin Therapy
-  - Antibiotic Prophylaxis for dental work
-- **Parameters to Monitor**:
-  - INR 2.5 - 3.5
-  - Clicking sound (Normal)
-
-**Rationale**:
-> Mechanical valves last forever but clot easily. They require LIFELONG Warfarin with a higher INR target (2.5-3.5). The valve makes a distinct 'clicking' sound. Antibiotic prophylaxis is needed for invasive procedures.
+> No rationale provided.
 
 ---
 
@@ -962,76 +407,7 @@
   - BP / Pulse
 
 **Rationale**:
-> Symptomatic bradycardia from beta-blocker toxicity requires holding the medication and potentially administering Atropine to increase heart rate. Continuous cardiac monitoring and BP assessment are essential.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the clinical reasoning for this patient's drug toxicity. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: unchanged
-- **BLANK2**: 18
-- **BLANK3**: accumulates
-- **BLANK4**: bradycardia
-- **BLANK5**: lethargy
-- **BLANK6**: dose reduction
-
-**Rationale**:
-> Atenolol is unique among beta-blockers because it is excreted UNCHANGED by the kidneys (not metabolized by the liver like Metoprolol). With GFR of 18 mL/min (Stage 4 CKD), the drug accumulates significantly. Classic toxicity symptoms include profound bradycardia and CNS depression (lethargy). Dose reduction is mandatory in renal impairment.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient information below. Highlight/select ALL factors that contributed to this patient's drug toxicity.
-
-**Correct Answer**:
-- [x] Stage 4 CKD
-- [x] Creatinine: 3.2 mg/dL
-- [x] GFR: 18 mL/min
-
-**Rationale**:
-> Contributing factors to toxicity: (1) Stage 4 CKD - impaired renal function; (2) Elevated creatinine (3.2) - marker of worsening renal function; (3) Critical GFR (18 mL/min) - severely reduced drug clearance. The 2-year history of Atenolol use is relevant context but not a toxicity factor. 'Nearly impossible to wake up' is a symptom of toxicity, not a cause. Normal potassium is reassuring but not contributory.
-
----
-
-## Mission 14: The Ticking Time Bomb: AAA (M-014)
-
-### Step 1: MATRIX
-**Prompt**: The nurse assesses the patient. Identify signs of Rupture vs Stable Aneurysm.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Pulsatile abdominal mass | **Stable / Intact AAA** |
-| Sudden severe back/flank pain | **Ruptured AAA / Emergency** |
-| Hypotension / Tachycardia | **Ruptured AAA / Emergency** |
-| Systolic Bruit | **Stable / Intact AAA** |
-| Grey Turner's Sign (Flank Ecchymosis) | **Ruptured AAA / Emergency** |
-
-**Rationale**:
-> A stable AAA presents with a mass and bruit. Rupture causes massive internal bleeding -> Shock (Low BP, High HR), severe tearing pain, and bruising on the flanks (Grey Turner's).
-
-### Step 2: EXTENDED SATA
-**Prompt**: The AAA is 5.8 cm (surgical threshold). Mr. Eastwood is pre-op. What are the priority actions? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Priority #1: Prevent rupture by lowering BP (Anti-impulse therapy). DEEP PALPATION IS CONTRAINDICATED (can rupture it). Pulses establish a baseline. Renal function is key as the repair involves clamping above renal arteries.
-
-### Step 3: BOWTIE
-**Prompt**: Post-EVAR (Endovascular Repair), the patient's urine output drops to 10ml/hr and BP rises to 190/100. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Graft Migration / Renal Occlusion
-- **Actions to Take**:
-  - Notify Surgeon Immediately
-  - Administer IV Labetalol
-- **Parameters to Monitor**:
-  - Serum Creatinine
-  - Pedal Pulses
-
-**Rationale**:
-> A sudden drop in urine output post-AAA repair suggests the stent graft may have migrated and covered the renal arteries. This is a SURGICAL EMERGENCY. High BP puts stress on the graft site and must be controlled (Labetalol). Creatinine confirms renal hit.
+> No rationale provided.
 
 ---
 
@@ -1075,74 +451,7 @@
   - BP
 
 **Rationale**:
-> Nitrate tolerance develops when continuous nitrate exposure depletes sulfhydryl groups needed for drug activation. The solution is implementing an 8-12 hour nitrate-free interval (usually overnight). Monitoring anginal episodes and blood pressure assesses effectiveness.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is correcting the patient's understanding of her nitrate medications. Complete the patient education by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: prophylaxis
-- **BLANK2**: slow
-- **BLANK3**: acute rescue
-- **BLANK4**: seconds to minutes
-- **BLANK5**: 8-12 hour
-- **BLANK6**: contraindicated
-
-**Rationale**:
-> Critical nitrate teaching: Imdur is for prevention (prophylaxis) with slow onset. SL Nitroglycerin is for acute rescue with immediate onset (1-3 minutes). An 8-12 hour nitrate-free interval prevents tolerance. ALL nitrates are absolutely contraindicated with PDE-5 inhibitors (Viagra, Cialis, Levitra) due to life-threatening hypotension.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's question and prescriptions below. Highlight/select ALL misconceptions or errors that the nurse must correct.
-
-**Correct Answer**:
-- [x] So I take this when my chest starts hurting, right?
-
-**Rationale**:
-> The ONLY misconception is the patient's question — she incorrectly believes Imdur is for acute chest pain (rescue), when it's actually for daily prophylaxis. All other items are correct: Imdur 30mg daily in the MORNING (allows nitrate-free interval at night), and Nitroglycerin SL PRN for chest pain (correct rescue medication). The nurse must clarify that Imdur prevents attacks; Nitroglycerin treats them.
-
----
-
-## Mission 15: The Spiked T-Wave: Hyperkalemia (M-015)
-
-### Step 1: MATRIX
-**Prompt**: Prioritize the medications for Hyperkalemia based on their mechanism of action.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Calcium Gluconate | **Stabilize Cardiac Membrane (Immediate Protection)** |
-| Regular Insulin IV + Dextrose | **Shift K+ Into Cells (Temporary)** |
-| Albuterol Nebulizer | **Shift K+ Into Cells (Temporary)** |
-| Sodium Polystyrene Sulfonate (Kayexalate) | **Excrete K+ from Body (Permanent)** |
-| Furosemide (Lasix) | **Excrete K+ from Body (Permanent)** |
-
-**Rationale**:
-> Remember 'C Big K Drop'. Calcium protects the heart (FIRST priority if EKG changes). Insulin/Albuterol hide K+ in the cell. Kayexalate/Lasix/Dialysis actually remove it.
-
-### Step 2: EXTENDED SATA
-**Prompt**: The nurse prepares the Insulin/Dextrose cocktail. Which safety checks are required? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Only Regular insulin can be given IV. Dextrose is given WITH insulin to prevent hypoglycemia. Vein irritation is common with D50. Hypoglycemia is the main risk, so hourly checks are mandatory.
-
-### Step 3: BOWTIE
-**Prompt**: Despite meds, the QRS widens to 0.20s and heart rate drops to 30. Patient loses consciousness. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Cardiac Arrest (V-Fib/Asystole)
-- **Actions to Take**:
-  - Start CPR
-  - Emergency Dialysis
-- **Parameters to Monitor**:
-  - Pulse Check
-  - Potassium Level
-
-**Rationale**:
-> Widening QRS signals impending sine-wave and asystole. Meds failed. CRP keeps him alive until Dialysis (the only thing that will pull the K+ fast enough) can be started. This is a Code Blue situation.
+> No rationale provided.
 
 ---
 
@@ -1185,77 +494,7 @@
   - Blood pressure
 
 **Rationale**:
-> Major GI hemorrhage on Dabigatran requires immediate drug discontinuation and administration of Idarucizumab (Praxbind) — the specific reversal agent. Hemoglobin and blood pressure monitoring guide resuscitation efforts.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the patient's medication error and its consequences. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: pill organizer
-- **BLANK2**: moisture
-- **BLANK3**: original manufacturer bottle
-- **BLANK4**: absorption
-- **BLANK5**: Idarucizumab
-- **BLANK6**: higher
-
-**Rationale**:
-> Dabigatran storage is critical: must stay in original bottle with desiccant, never pill organizers or humid environments. Moisture causes degradation and unpredictable absorption. Idarucizumab (Praxbind) is the specific antidote. Dabigatran has higher GI bleeding risk than warfarin.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's history below. Highlight/select ALL findings that indicate active GI hemorrhage or its complications.
-
-**Correct Answer**:
-- [x] black, tarry stools
-- [x] coffee-ground emesis
-- [x] Hemoglobin 8.2 g/dL
-- [x] Hematocrit 25%
-
-**Rationale**:
-> Signs of active GI hemorrhage: (1) Black, tarry stools (melena) - digested blood from upper GI tract; (2) Coffee-ground emesis - altered blood from stomach; (3) Critical anemia (Hgb 8.2, Hct 25%) - blood loss. The pill organizer error is the CAUSE but not a sign of bleeding. Burning stomach pain suggests ulcer but is not specific for active hemorrhage.
-
----
-
-## Mission 16: The Failing Pump: Cardiogenic Shock (M-016)
-
-### Step 1: MATRIX
-**Prompt**: Distinguish Cardiogenic Shock from Hypovolemic Shock based on the findings.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Low Blood Pressure | **Both** |
-| High Heart Rate | **Both** |
-| Pulmonary Crackles / High PCWP | **Cardiogenic Shock** |
-| Flat Jugular Veins | **Hypovolemic Shock** |
-| Cold/Clammy Skin | **Both** |
-
-**Rationale**:
-> Both shocks cause low BP/high HR/cold skin. The differentiator is FLUID STATUS. Cardiogenic is WET (Crackles, High Wedge). Hypovolemic is DRY (Flat veins, Low Wedge).
-
-### Step 2: EXTENDED SATA
-**Prompt**: The provider orders Dobutamine. Which actions are consistent with this therapy? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Dobutamine is an inotrope (squeuzer). It INCREASES contractility but can irritate the heart (arrhythmias). It is a vesicant (central line preferred). Beta blockers would oppose its effect.
-
-### Step 3: BOWTIE
-**Prompt**: Despite Dobutamine, BP drops to 70/40. The patient is obtunded. Prioritize the next level of support.
-
-**Correct Answer**:
-- **Condition**: Refractory Cardiogenic Shock
-- **Actions to Take**:
-  - Prepare for Intra-Aortic Balloon Pump (IABP)
-  - Administer Epinephrine
-- **Parameters to Monitor**:
-  - Pedal Pulses (Limb Ischemia)
-  - Bowel Sounds
-
-**Rationale**:
-> Medical management failed. The heart needs mechanical help. IABP reduces afterload and increases coronary perfusion. Fluids kill this patient (lungs are full). Epi (Levophed preferred) may be needed for severe hypotension. IABP carries risk of limb ischemia.
+> No rationale provided.
 
 ---
 
@@ -1300,75 +539,7 @@
   - Level of consciousness
 
 **Rationale**:
-> Sudden severe headache and pupil changes during tPA infusion are hallmark signs of intracranial hemorrhage — the most feared complication. Immediate actions: stop tPA, notify provider/stroke team. Stat CT confirms the diagnosis. LOC monitoring detects deterioration.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the tPA protocol adherence. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: 3-4.5
-- **BLANK2**: 185/110
-- **BLANK3**: negative
-- **BLANK4**: swirled gently
-- **BLANK5**: 60
-- **BLANK6**: invasive
-
-**Rationale**:
-> Critical tPA protocol: (1) Window is 3-4.5 hours from symptom onset; (2) BP must be <185/110 before administration; (3) CT must be NEGATIVE for hemorrhage; (4) Swirl gently (shaking denatures the protein); (5) Standard infusion is 60 minutes; (6) Invasive procedures are contraindicated for 24 hours due to bleeding risk.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's presentation below. Highlight/select ALL findings that make this patient ELIGIBLE for tPA therapy.
-
-**Correct Answer**:
-- [x] symptoms began exactly 90 minutes ago
-- [x] Glucose 110 mg/dL
-- [x] CT Head: Negative for intracranial hemorrhage
-
-**Rationale**:
-> tPA eligibility criteria met: (1) Time window - 90 minutes is well within the 3-4.5 hour limit; (2) Normal glucose - rules out hypoglycemia as stroke mimic; (3) Negative CT - rules out hemorrhagic stroke (absolute contraindication). The neurological symptoms (droop, weakness, dysarthria) and NIHSS are indications FOR treatment but not eligibility criteria. The elevated BP must be lowered to <185/110 BEFORE tPA can be given.
-
----
-
-## Mission 17: The Painful Walk: PAD (M-017)
-
-### Step 1: MATRIX
-**Prompt**: Detailed assessment of the legs. Classify findings as Arterial (PAD) or Venous (PVD).
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Pain worsens with elevation | **Peripheral Arterial Disease (PAD)** |
-| Pain improves with elevation | **Peripheral Venous Disease (PVD)** |
-| Skin is cool/pale | **Peripheral Arterial Disease (PAD)** |
-| Skin is warm/brown/edematous | **Peripheral Venous Disease (PVD)** |
-| Ulcers on toes (punched out) | **Peripheral Arterial Disease (PAD)** |
-| Ulcers on ankles (irregular borders) | **Peripheral Venous Disease (PVD)** |
-
-**Rationale**:
-> Arterial = Problem getting blood DOWN (Gravity helps, Elevation hurts). Venous = Problem getting blood UP (Elevation helps, Gravity hurts).
-
-### Step 2: EXTENDED SATA
-**Prompt**: Which instructions are appropriate for Mr. Ranger? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> Heating pads are dangerous due to decreased sensation (burn risk). Compression stockings constrict arteries further (contraindicated in PAD, good for Venous). Walking builds collateral circulation. Crossing legs obstructs flow.
-
-### Step 3: BOWTIE
-**Prompt**: Mr. Ranger calls reporting his right foot is suddenly cold, numb, and 'white'. He cannot move his toes. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Acute Arterial Occlusion
-- **Actions to Take**:
-  - Prepare for Embolectomy/Thrombolysis
-- **Parameters to Monitor**:
-  - The 6 P's (Pain, Pallor, Pulselessness...)
-
-**Rationale**:
-> This is the '6 P's' emergency. A clot has completely blocked the artery. The limb will die in hours without blood. Immediate surgical (embolectomy) or medical (TPA) intervention is needed. Elevation makes ischemia WORSE.
+> No rationale provided.
 
 ---
 
@@ -1414,78 +585,7 @@
   - Heart rate/rhythm
 
 **Rationale**:
-> Clonidine rebound requires immediate resumption of the medication and provider notification. Continuous BP and heart rate monitoring are essential as the sympathetic surge can cause dangerous arrhythmias and hypertensive emergency.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the clinical presentation and mechanism of Clonidine rebound. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: abrupt
-- **BLANK2**: alpha-2
-- **BLANK3**: sympathetic
-- **BLANK4**: tachycardia
-- **BLANK5**: resuming
-- **BLANK6**: tapering
-
-**Rationale**:
-> Clonidine is a central alpha-2 agonist that decreases sympathetic outflow. Abrupt discontinuation causes rebound sympathetic surge with severe hypertension, tachycardia, and adrenergic symptoms. Treatment: resume the medication immediately, then taper gradually over 2-4 days.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's presentation below. Highlight/select ALL symptoms that are consistent with Clonidine rebound (sympathetic surge).
-
-**Correct Answer**:
-- [x] Severe anxiety
-- [x] tremors
-- [x] pounding headache
-- [x] heart is jumping out of my chest
-- [x] BP 214/118 mmHg
-- [x] HR 122 bpm
-
-**Rationale**:
-> Sympathetic surge symptoms from Clonidine rebound: (1) Severe anxiety - adrenergic activation; (2) Tremors - catecholamine excess; (3) Pounding headache - severe hypertension; (4) Palpitations ('heart jumping') - awareness of tachycardia; (5) Critical BP - rebound hypertensive crisis; (6) Tachycardia - sympathetic activation. The 2-day gap is the CAUSE. Alcohol Use Disorder is relevant PMH but these symptoms are clearly Clonidine rebound given the timeline.
-
----
-
-## Mission 18: Cold Hands: Buerger's & Raynaud's (M-018)
-
-### Step 1: MATRIX
-**Prompt**: Compare Raynaud's Phenomenon vs Buerger's Disease (Thromboangiitis Obliterans).
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Review of Systems: Vasospasm triggered by cold/stress | **Both** |
-| Review of Systems: Inflammation/Clotting of small vessels | **Buerger's** |
-| Strongly associated with Autoimmune (Lupus) | **Raynaud's** |
-| Strongly associated with Smoking | **Buerger's** |
-| Can lead to amputation | **Buerger's** |
-
-**Rationale**:
-> Raynaud's is a functional spasm (rarely causes tissue loss unless severe). Buerger's is an inflammatory clotting disease EXCLUSIVELY linked to smoking that destroys distal vessels.
-
-### Step 2: EXTENDED SATA
-**Prompt**: The patient asks how to save his fingers. Which instructions are valid? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> For Buerger's, total nicotine cessation is the ONLY cure. Even NRT (patches) can perpetuate it. Caffeine is a vasoconstrictor (avoid!). CCBs prevent vasospasm.
-
-### Step 3: BOWTIE
-**Prompt**: Mr. Snow presents with throbbing pain in his hand. The finger is black and smells foul. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Wet Gangrene
-- **Actions to Take**:
-  - Prepare for Amputation
-  - Administer IV Antibiotics
-- **Parameters to Monitor**:
-  - Sepsis signs (Fever, BP)
-
-**Rationale**:
-> Wet gangrene (foul smell, black) implies infection on top of dead tissue. This is a sepsis risk. The dead tissue must be removed (amputation). Antibiotics cover the infection.
+> No rationale provided.
 
 ---
 
@@ -1528,75 +628,7 @@
   - Serum Creatinine
 
 **Rationale**:
-> Rhabdomyolysis requires immediate discontinuation of all offending agents and aggressive IV fluids to flush myoglobin and protect the kidneys. Monitoring urine output/color and creatinine assesses renal function.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the pathophysiology of this drug-drug interaction. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: Atorvastatin
-- **BLANK2**: Gemfibrozil
-- **BLANK3**: glucuronidation
-- **BLANK4**: myoglobin
-- **BLANK5**: kidneys
-- **BLANK6**: cola-colored
-
-**Rationale**:
-> The Atorvastatin + Gemfibrozil combination is particularly dangerous. Gemfibrozil inhibits statin glucuronidation (liver metabolism), causing drug accumulation. Muscle destruction releases myoglobin, which is nephrotoxic, causing cola-colored urine and acute kidney injury.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient's clinical findings below. Highlight/select ALL findings that are diagnostic of Rhabdomyolysis.
-
-**Correct Answer**:
-- [x] Severe muscle pain in thighs
-- [x] Dark, reddish-brown (cola-colored) urine
-- [x] CK 15,000 U/L
-- [x] Urine Myoglobin: POSITIVE
-
-**Rationale**:
-> Diagnostic findings of Rhabdomyolysis: (1) Severe muscle pain - myocyte destruction; (2) Cola-colored urine - myoglobin in urine; (3) Massively elevated CK (15,000 vs normal <200) - the definitive marker; (4) Positive urine myoglobin - confirms muscle breakdown. The drug combination is the CAUSE. Elevated creatinine indicates secondary AKI (a complication), not a diagnostic criterion for rhabdomyolysis itself.
-
----
-
-## Mission 19: The Tearing Pain: Aortic Dissection (M-019)
-
-### Step 1: MATRIX
-**Prompt**: Compare Myocardial Infarction vs Aortic Dissection presentation.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Pain Description: 'Crushing / Elephant on chest' | **Myocardial Infarction** |
-| Pain Description: 'Tearing / Ripping / Shearing' | **Aortic Dissection** |
-| Radiation to Jaw/Arm | **Myocardial Infarction** |
-| Radiation to Back/Scapula | **Aortic Dissection** |
-| BP asymmetry (>20mmHg difference between arms) | **Aortic Dissection** |
-
-**Rationale**:
-> The hallmark of dissection is 'tearing' pain to the back and unequal BPs (because the tear blocks flow to one subclavian artery).
-
-### Step 2: EXTENDED SATA
-**Prompt**: The diagnosis is Type A Dissection (Surgical Emergency). While waiting for the OR, what are the nursing priorities? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> We must reduce shear stress (dP/dt). Beta blockers (Esmolol) are given FIRST to lower heart rate. Then Vasodilators (Nitroprusside) to lower BP. If you give Nitro first, reflex tachycardia will tear the aorta further. Heparin causes fatal bleeding.
-
-### Step 3: BOWTIE
-**Prompt**: Suddenly, BP drops to 60/40, JVD appears, and heart sounds become muffled. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Cardiac Tamponade (Rupture)
-- **Actions to Take**:
-  - Immediate Thoracotomy / Pericardiocentesis
-- **Parameters to Monitor**:
-  - ECG voltage (Electrical Alternans)
-
-**Rationale**:
-> The dissection has ruptured retrograde into the pericardium (Tamponade). This is usually fatal without instant drainage/repair. Beck's triad (JVD, Hypotension, Muffled sounds) is the key.
+> No rationale provided.
 
 ---
 
@@ -1641,74 +673,7 @@
   - Serum Osmolality
 
 **Rationale**:
-> Oliguria (15 mL/hr) during Mannitol therapy indicates renal failure — the drug is accumulating rather than being excreted. The medication must be held immediately and the provider notified. BUN/Creatinine and serum osmolality guide further management.
-
-### Step 4: CLOZE DRAG_DROP
-**Prompt**: The nurse is documenting the Mannitol administration protocol and safety checks. Complete the documentation by dragging the correct terms into the blanks.
-
-**Correct Answer**:
-- **BLANK1**: osmotic
-- **BLANK2**: ICP
-- **BLANK3**: crystals
-- **BLANK4**: in-line
-- **BLANK5**: brain
-- **BLANK6**: anuria
-
-**Rationale**:
-> Mannitol is an osmotic diuretic that reduces intracranial pressure (ICP) by pulling water from brain tissue. Crystallization is common and requires visual inspection and in-line filtration. Anuria is a critical contraindication because the drug cannot be excreted, causing dangerous fluid overload.
-
-### Step 5: HIGHLIGHT
-**Prompt**: Review the patient assessment below. Highlight/select ALL findings that indicate the Mannitol is causing a COMPLICATION rather than the expected therapeutic response.
-
-**Correct Answer**:
-- [x] Urine output: 15 mL/hr
-- [x] New crackles at bases bilaterally
-- [x] Serum Osmolality: 320 mOsm/kg
-- [x] BUN: 32 mg/dL
-
-**Rationale**:
-> Complication indicators: (1) Low urine output (15 mL/hr) - indicates renal failure, drug not being excreted; (2) New crackles - pulmonary edema from fluid overload; (3) Elevated osmolality (320) - drug accumulation, hyperosmolar state; (4) Rising BUN - renal impairment. The ICP improvement (22 mmHg) and stable BP are EXPECTED therapeutic responses, not complications.
-
----
-
-## Mission 20: The Vegetation: Infective Endocarditis (M-020)
-
-### Step 1: MATRIX
-**Prompt**: Match the dermatological sign to its description.
-
-**Correct Answer**:
-| Row | Correct Column |
-|---|---|
-| Painful, raised red nodes on finger pads | **Osler's Nodes** |
-| Painless flat red spots on palms/soles | **Janeway Lesions** |
-| Linear dark streaks under fingernails | **Splinter Hemorrhages** |
-| Retinal hemorrhages with pale centers | **Roth Spots** |
-
-**Rationale**:
-> Oslers = Ouch (Painful/Immune complex). Janeway = Painless (Embolic). Splinter = Embolic. Roth = Embolic/Immunologic.
-
-### Step 2: EXTENDED SATA
-**Prompt**: Which orders are priority for this patient? Select all that apply.
-
-**Correct Answer**:
-- [x] 0
-- [x] 1
-
-**Rationale**:
-> MRSA requires Vancomycin. Tricuspid vegetations embolize to the LUNGS (PE), not the brain (Stroke), because it's on the right side. Surgery consult is needed for large vegetations. Treatment is 4-6 weeks, so a PICC is needed (though risky in IVDA, it's necessary).
-
-### Step 3: BOWTIE
-**Prompt**: Patient develops sudden shortness of breath and pleuritic chest pain. SpO2 drops to 88%. Prioritize.
-
-**Correct Answer**:
-- **Condition**: Septic Emboli to Lungs (PE)
-- **Actions to Take**:
-  - Administer Oxygen
-- **Parameters to Monitor**:
-  - Respiratory Rate
-
-**Rationale**:
-> Right-sided endocarditis (Tricuspid, common in IVDA) shoots emboli to the lungs. This causes septic pulmonary emboli. Oxygen is priority. Anticoagulation (Heparin) is controversial/contraindicated in infective endocarditis due to cerebral bleed risk (mycotic aneurysm).
+> No rationale provided.
 
 ---
 
@@ -1745,14 +710,33 @@
 **Correct Answer**:
 - **Condition**: Hypokalemia
 - **Actions to Take**:
-  - Hold Insulin Infusion
-  - Add Potassium Chloride to IV Fluids
+  - Hold IV Insulin
+  - Administer IV Potassium
 - **Parameters to Monitor**:
   - Continuous EKG
   - Fingerstick Glucose
 
 **Rationale**:
 > Insulin drives Potassium into the cell. If K+ drops below 3.3, insulin MUST be held to prevent life-threatening arrhythmias (VT/VF). Repletion (IV KCl) is urgent. EKG provides real-time monitoring of cardiac stability.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: HHS.
+
+**Correct Answer**:
+- **BLANK1**: Type 2
+
+**Rationale**:
+> Type 2 DM.
+
+### Step 5: HIGHLIGHT
+**Prompt**: HHS indicators.
+
+**Correct Answer**:
+- [x] Glucose 1100
+- [x] No Kussmaul
+
+**Rationale**:
+> HHS characteristics.
 
 ---
 
@@ -1798,6 +782,26 @@
 **Rationale**:
 > An unconscious patient is an aspiration risk; NEVER put anything in their mouth. IM Glucagon mobilizes liver glycogen. 911 is needed. Monitoring airway (side-lying position) is critical due to vomiting risk from Glucagon.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Rule of 15.
+
+**Correct Answer**:
+- **BLANK1**: 15
+
+**Rationale**:
+> 15g rule.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Fast-acting carbs.
+
+**Correct Answer**:
+- [x] Juice
+- [x] Honey
+- [x] Glucose tabs
+
+**Rationale**:
+> Simple sugars.
+
 ---
 
 ## Mission 23: Tech Failure: Insulin Pump Malfunction (M-023)
@@ -1842,6 +846,25 @@
 **Rationale**:
 > Only Short-acting insulin is in the pump. When disconnected, the patient has NO basal insulin. They need manual Long-Acting (Basal) and Rapid-Acting (Bolus) to survive until the pump is replaced. Monitoring for ketone clearance is vital.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Pump failure.
+
+**Correct Answer**:
+- **BLANK1**: 2-4
+
+**Rationale**:
+> Rapid DKA.
+
+### Step 5: HIGHLIGHT
+**Prompt**: DKA signs.
+
+**Correct Answer**:
+- [x] Kussmaul
+- [x] Fruity breath
+
+**Rationale**:
+> DKA indicators.
+
 ---
 
 ## Mission 24: Morning Highs: Somogyi vs Dawn (M-024)
@@ -1878,12 +901,32 @@
 - **Condition**: Dawn Phenomenon
 - **Actions to Take**:
   - Increase Bedtime NPH
+  - Notify provider of glucose pattern
 - **Parameters to Monitor**:
   - Fasting Morning Glucose
   - 3AM Glucose
 
 **Rationale**:
 > If the 3AM blood sugar is normal/high, and morning is high, it is Dawn Phenomenon (not enough insulin to cover the GH surge). The treatment is to INCREASE the insulin to cover the dawn rise.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Somogyi vs Dawn.
+
+**Correct Answer**:
+- **BLANK1**: 3am
+
+**Rationale**:
+> 3am differentiates.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Somogyi.
+
+**Correct Answer**:
+- [x] 3am LOW
+- [x] Nightmares
+
+**Rationale**:
+> Somogyi indicators.
 
 ---
 
@@ -1921,11 +964,32 @@
 - **Condition**: Diabetic Ketoacidosis (DKA)
 - **Actions to Take**:
   - Advise to go to ER immediately
+  - Emphasize to continue taking insulin
 - **Parameters to Monitor**:
   - Anion Gap / ABG
+  - Serial Blood Glucose
 
 **Rationale**:
 > Persistent vomiting + Breathlessness (Kussmaul) + T1DM = DKA until proven otherwise. Home management has failed. She needs IV fluids and insulin. We monitor the Anion Gap to gauge acidosis severity.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Sick day.
+
+**Correct Answer**:
+- **BLANK1**: Never
+
+**Rationale**:
+> Never stop insulin.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Call triggers.
+
+**Correct Answer**:
+- [x] Mod ketones
+- [x] Vomiting
+
+**Rationale**:
+> Provider needed.
 
 ---
 
@@ -1971,6 +1035,31 @@
 **Rationale**:
 > The baby's pancreas is pumping out insulin to handle Mom's sugar. Now that the cord is cut, the sugar supply is gone, but the insulin remains. Result: Crash. Feed immediately to neutralize the insulin.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document gestational diabetes management.
+
+**Correct Answer**:
+- **BLANK1**: 24-28
+- **BLANK2**: 95
+- **BLANK3**: diet/exercise
+- **BLANK4**: insulin
+
+**Rationale**:
+> GDM screening 24-28 weeks. Fasting <95, 1hr <140, 2hr <120. Diet first, then insulin (metformin controversial in pregnancy).
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight GDM risk factors.
+
+**Correct Answer**:
+- [x] BMI 34
+- [x] Previous 9 lb baby
+- [x] Family history of T2DM
+- [x] African American
+- [x] Prior GDM
+
+**Rationale**:
+> GDM risks: obesity, macrosomic baby history, family DM history, high-risk ethnicity, prior GDM. Age 32 and first pregnancy are not specific risks.
+
 ---
 
 ## Mission 27: Recess Emergency: Pediatric T1DM (M-027)
@@ -2007,11 +1096,39 @@
 - **Condition**: Exercise-Induced Hypoglycemia
 - **Actions to Take**:
   - Give 4oz Juice
+  - Follow with protein/complex carb snack
 - **Parameters to Monitor**:
   - Recheck BG in 15 mins
+  - Monitor for return of symptoms
 
 **Rationale**:
 > Exercise increases insulin sensitivity + Cake bolus = Mismatch. Consuming simple sugar (Juice) is the Rule of 15. Glucagon is only if unconscious. Recheck in 15 mins.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document pediatric T1DM emergency.
+
+**Correct Answer**:
+- **BLANK1**: 6-12
+- **BLANK2**: never
+- **BLANK3**: 240
+- **BLANK4**: glucagon
+
+**Rationale**:
+> Honeymoon = partial remission 6-12 months. Never stop insulin during illness. Ketones >240. Glucagon for severe hypo.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight signs of DKA in a child.
+
+**Correct Answer**:
+- [x] Fruity breath
+- [x] Kussmaul respirations
+- [x] Lethargy
+- [x] Blood glucose 380
+- [x] Nausea/vomiting
+- [x] Abdominal pain
+
+**Rationale**:
+> DKA: fruity breath (ketones), Kussmaul (acidosis compensation), altered mental status, hyperglycemia, GI symptoms. Hunger/tremors = hypoglycemia.
 
 ---
 
@@ -2057,6 +1174,30 @@
 **Rationale**:
 > Ascending redness + Fever = Systemic Infection (Sepsis). Osteomyelitis is hard to cure. Antibiotics and Debridement are key. Lactate tracks sepsis severity.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document diabetic neuropathy assessment.
+
+**Correct Answer**:
+- **BLANK1**: 10g
+- **BLANK2**: ankle
+- **BLANK3**: gabapentin
+- **BLANK4**: daily
+
+**Rationale**:
+> 10g monofilament standard test. Lost ankle reflex = neuropathy. Gabapentin/pregabalin/duloxetine for neuropathic pain. Daily foot inspection.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight neuropathy warning signs.
+
+**Correct Answer**:
+- [x] Burning feet
+- [x] Numbness in stocking pattern
+- [x] Lost protective sensation
+- [x] Sharp pain with light touch
+
+**Rationale**:
+> Neuropathy: burning/tingling, stocking-glove numbness, lost sensation, allodynia. Intact strength/proprioception are reassuring findings.
+
 ---
 
 ## Mission 29: Blurred Lines: Retinopathy (M-029)
@@ -2096,9 +1237,32 @@
   - Keep head of bed elevated
 - **Parameters to Monitor**:
   - Intraocular Pressure
+  - Pupil Shape
 
 **Rationale**:
 > Severe pain + Nausea + 'Rock Hard' Eye = Acute Angle Closure Glaucoma. The drainage is blocked. Mannitol draws fluid out. Elevation helps drain. This causes permanent blindness if not fixed.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document diabetic retinopathy management.
+
+**Correct Answer**:
+- **BLANK1**: 5
+- **BLANK2**: Background
+- **BLANK3**: Proliferative
+- **BLANK4**: photocoagulation
+
+**Rationale**:
+> Screen T1DM 5 yrs post-diagnosis (T2DM at diagnosis). Background = microaneurysms, dot hemorrhages. Proliferative = new vessels, needs laser.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight proliferative retinopathy findings.
+
+**Correct Answer**:
+- [x] Neovascularization
+- [x] Vitreous hemorrhage
+
+**Rationale**:
+> Proliferative = new vessel growth (neovascularization), which bleeds into vitreous. Other findings occur in nonproliferative or both.
 
 ---
 
@@ -2143,6 +1307,32 @@
 **Rationale**:
 > Severe acidosis stops the heart (denatures proteins/enzymes). Dialysis is the only fix. Hyperventilation (mechanical) helps blow off CO2 to compensate for the metabolic acid.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document metformin and lactic acidosis.
+
+**Correct Answer**:
+- **BLANK1**: 24-48
+- **BLANK2**: 48
+- **BLANK3**: renal
+- **BLANK4**: abdominal pain
+
+**Rationale**:
+> Hold metformin 24-48h pre-contrast, restart 48h post if renal function OK. Renal impairment increases lactic acidosis risk. GI symptoms early warning.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight lactic acidosis signs.
+
+**Correct Answer**:
+- [x] Severe abdominal pain
+- [x] Kussmaul breathing
+- [x] Hypotension
+- [x] Hypothermia
+- [x] Elevated lactate 8 mmol/L
+- [x] Confusion
+
+**Rationale**:
+> Lactic acidosis: severe abdominal pain, acidotic breathing, shock, hypothermia, elevated lactate (>4), altered mental status. Nausea is nonspecific.
+
 ---
 
 ## Mission 31: The Fluid War: CHF vs Kidney (M-031)
@@ -2178,12 +1368,39 @@
 - **Condition**: Cardiorenal Syndrome
 - **Actions to Take**:
   - Prepare for Dialysis (CRRT)
+  - Restrict fluid intake
 - **Parameters to Monitor**:
   - Oxygen Saturation
   - Foley Catheter
 
 **Rationale**:
 > The kidneys have shut down (Anuria) despite/because of heart treatment. Diuretics won't work if kidneys can't filter. CRRT (Continuous Dialysis) is needed to pull fluid without crashing BP.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document CHF/CKD fluid management.
+
+**Correct Answer**:
+- **BLANK1**: renal
+- **BLANK2**: potassium
+- **BLANK3**: 1500-2000
+- **BLANK4**: perfusion
+
+**Rationale**:
+> Cardiorenal syndrome: diuresis helps lungs but may worsen kidneys. Monitor K+ (diuretic loss). 1.5-2L fluid limit. Balance perfusion vs decongestion.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight findings requiring intervention.
+
+**Correct Answer**:
+- [x] Creatinine rising from 1.5 to 2.8
+- [x] Weight +4 lbs
+- [x] K+ 5.8
+- [x] Bilateral crackles
+- [x] SpO2 88%
+- [x] BP 90/60
+
+**Rationale**:
+> All need intervention: worsening renal, fluid overload, hyperkalemia, pulmonary congestion, hypoxia, hypotension. BNP confirms HF but doesn't change management acutely.
 
 ---
 
@@ -2221,12 +1438,37 @@
 - **Condition**: Severe Hypoglycemia with Bradycardia
 - **Actions to Take**:
   - Administer IV D50W / Oral Glucose
+  - Administer Glucagon (IV)
 - **Parameters to Monitor**:
   - Blood Glucose Re-check
   - Heart Rate Recovery
 
 **Rationale**:
 > Hypoglycemia must be treated first. Unlike non-BB patients, his HR won't spike to compensate. Glucagon *might* ensure sugar release but IV D50 is definitive if available. Glucagon is also the antidote for Beta Blocker overdose (increases contractility).
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document beta blocker masking of hypoglycemia.
+
+**Correct Answer**:
+- **BLANK1**: adrenergic
+- **BLANK2**: sweating
+- **BLANK3**: carvedilol
+- **BLANK4**: glucose
+
+**Rationale**:
+> Beta blockers block adrenergic symptoms (tachy, tremor). Sweating persists (cholinergic). Carvedilol is cardioselective with less metabolic effects. Monitor BG closely.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight hypoglycemia symptoms NOT masked by beta blockers.
+
+**Correct Answer**:
+- [x] Sweating
+- [x] Confusion
+- [x] Hunger
+- [x] Irritability
+
+**Rationale**:
+> Beta blockers mask: tachycardia, tremors, anxiety, pallor (adrenergic). NOT masked: sweating (cholinergic), confusion, hunger, irritability (neuroglycopenic).
 
 ---
 
@@ -2271,6 +1513,30 @@
 **Rationale**:
 > High sugar + Confusion + Trace Ketones (not large) favors HHS, though DKA is possible. Steroids push T2DM into HHS territory. Hydration and Insulin are the fix.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document steroid-induced hyperglycemia.
+
+**Correct Answer**:
+- **BLANK1**: insulin
+- **BLANK2**: 4-8
+- **BLANK3**: sliding scale
+- **BLANK4**: steroid-induced
+
+**Rationale**:
+> Steroids cause insulin resistance. Hyperglycemia peaks 4-8h after morning dose. Sliding scale or NPH coverage for steroid peak.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight factors increasing steroid diabetes risk.
+
+**Correct Answer**:
+- [x] High-dose prednisone >7.5mg
+- [x] Duration >3 months
+- [x] Pre-existing prediabetes
+- [x] BMI 35
+
+**Rationale**:
+> Risks: high dose, prolonged use, prediabetes, obesity. Young age and first-time use are not specific risk factors.
+
 ---
 
 ## Mission 34: Cheap & Effective: Thiazide Risks (M-034)
@@ -2307,12 +1573,37 @@
 - **Condition**: Hypokalemia
 - **Actions to Take**:
   - Oral Potassium Replacement
+  - Magnesium Sulfate
 - **Parameters to Monitor**:
   - Telemetry / EKG
   - Serum Potassium
 
 **Rationale**:
 > Leg cramps + U waves = Hypokalemia (Low K). Thiazides waste potassium. Oral replacement is preferred if stable; IV if unstable/critical.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document thiazide metabolic effects.
+
+**Correct Answer**:
+- **BLANK1**: hypokalemia
+- **BLANK2**: hyperglycemia
+- **BLANK3**: potassium
+- **BLANK4**: glycemic
+
+**Rationale**:
+> Thiazides: hypoK, hyperglycemia, hyperuricemia, hyperlipidemia. Monitor K+. Can worsen diabetes control.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight thiazide adverse effects.
+
+**Correct Answer**:
+- [x] Hypokalemia
+- [x] Hyperglycemia
+- [x] Hyperuricemia
+- [x] Photosensitivity
+
+**Rationale**:
+> Thiazide effects: hypoK (not hyperK), hyperglycemia (not hypo), hyperuricemia (gout), photosensitivity. Hypotension is therapeutic effect.
 
 ---
 
@@ -2352,9 +1643,34 @@
   - Start Insulin Drip + Dextrose
 - **Parameters to Monitor**:
   - Anion Gap closure
+  - Serial Blood Glucose and Ketones
 
 **Rationale**:
 > We must turn off the ketosis with Insulin. But since sugar is already low (180), we MUST give Dextrose (Sugar) WITH the insulin to prevent hypoglycemia. This is counter-intuitive but life-saving.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document SGLT2 inhibitor risks.
+
+**Correct Answer**:
+- **BLANK1**: glucosuria
+- **BLANK2**: genital
+- **BLANK3**: Fournier's gangrene
+- **BLANK4**: DKA
+
+**Rationale**:
+> SGLT2: glucose in urine, genital yeast infections, rare Fournier's gangrene, euglycemic DKA (normal glucose but acidosis).
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight SGLT2 benefits beyond glucose.
+
+**Correct Answer**:
+- [x] Weight loss
+- [x] Blood pressure reduction
+- [x] Cardiovascular protection
+- [x] Renal protection
+
+**Rationale**:
+> SGLT2 benefits: weight loss (calorie loss in urine), BP reduction (natriuresis), CV/renal protection. They don't increase insulin or decrease glucagon.
 
 ---
 
@@ -2392,12 +1708,40 @@
 - **Condition**: Septic Shock
 - **Actions to Take**:
   - Start Norepinephrine (Levophed)
+  - Give Albumin
 - **Parameters to Monitor**:
   - MAP > 65
   - Urine Output
 
 **Rationale**:
 > Fluid refractory hypotension = Septic Shock. The drug of choice is Norepinephrine (Levophed). The goal is Mean Arterial Pressure (MAP) > 65 to perfuse organs (Kidneys/Brain).
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document sepsis management.
+
+**Correct Answer**:
+- **BLANK1**: 1
+- **BLANK2**: 65
+- **BLANK3**: 30
+- **BLANK4**: lactate
+
+**Rationale**:
+> Sepsis bundle: antibiotics <1 hour, MAP >65, 30 mL/kg crystalloid, lactate clearance monitoring.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight sepsis criteria.
+
+**Correct Answer**:
+- [x] Temp 101.5
+- [x] HR 110
+- [x] RR 24
+- [x] WBC 15,000
+- [x] Lactate 4.2
+- [x] BP 85/50
+- [x] Altered mental status
+
+**Rationale**:
+> Sepsis criteria: fever, tachycardia, tachypnea, abnormal WBC, elevated lactate, hypotension, altered mental status. Source is diagnostic, not criteria.
 
 ---
 
@@ -2442,6 +1786,31 @@
 **Rationale**:
 > Proning recruits the posterior lung fields (where most alveoli are). Paralysis (Nimbex) reduces oxygen consumption by muscles. Train of Four ensures they are paralyzed enough but not overdosed.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document ARDS management.
+
+**Correct Answer**:
+- **BLANK1**: 300
+- **BLANK2**: low
+- **BLANK3**: Prone
+- **BLANK4**: 88-95
+
+**Rationale**:
+> ARDS: P/F <300 (mild), <200 (moderate), <100 (severe). Low tidal volume (6 mL/kg) prevents VILI. Prone positioning. Permissive hypoxemia 88-95%.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight ARDS findings.
+
+**Correct Answer**:
+- [x] Bilateral infiltrates
+- [x] P/F ratio 120
+- [x] Acute onset <7 days
+- [x] Refractory hypoxemia
+- [x] Ground glass
+
+**Rationale**:
+> ARDS: bilateral infiltrates, low P/F, acute onset, refractory hypoxia, not cardiogenic (PCWP should be <18, not 24).
+
 ---
 
 ## Mission 38: The Headache: Pediatric DKA (M-038)
@@ -2484,6 +1853,33 @@
 
 **Rationale**:
 > Cushing's Triad confirmed. The brain is herniating. We must shrink the brain NOW. Mannitol or 3% Saline draws water out. Elevate head to drain venous blood. Reduce maintenance fluids.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document pediatric DKA management.
+
+**Correct Answer**:
+- **BLANK1**: 10-20
+- **BLANK2**: after
+- **BLANK3**: cerebral
+- **BLANK4**: dextrose
+
+**Rationale**:
+> Peds DKA: 10-20 mL/kg cautious fluids, insulin AFTER fluid resuscitation, watch for cerebral edema, add dextrose when BG <250.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight cerebral edema warning signs.
+
+**Correct Answer**:
+- [x] Headache
+- [x] Vomiting
+- [x] Altered mental status
+- [x] Bradycardia
+- [x] Hypertension
+- [x] Posturing
+- [x] Seizures
+
+**Rationale**:
+> Cerebral edema signs: headache, vomiting, AMS, Cushing's triad (brady, HTN), posturing, seizures. Rapid correction is a risk factor, not a sign.
 
 ---
 
@@ -2529,6 +1925,31 @@
 **Rationale**:
 > Bitter almonds + Acidosis on Nitroprusside = Cyanide Poisoning. Stop the drug. Give Thiosulfate (antidote).
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document hypertensive crisis.
+
+**Correct Answer**:
+- **BLANK1**: acute
+- **BLANK2**: 25
+- **BLANK3**: IV
+- **BLANK4**: rapid
+
+**Rationale**:
+> HTN Emergency = acute organ damage. Reduce BP 25% first hour (not >50%). IV meds for control. Avoid rapid drop (stroke risk).
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight end-organ damage signs.
+
+**Correct Answer**:
+- [x] Papilledema
+- [x] Chest pain
+- [x] Elevated troponin
+- [x] Hematuria
+- [x] Confusion
+
+**Rationale**:
+> End-organ damage: papilledema (brain), chest pain/troponin (heart), hematuria (kidneys), confusion (encephalopathy). BP and headache alone = urgency. Epistaxis nonspecific.
+
 ---
 
 ## Mission 40: Flatline: Code Blue (M-040)
@@ -2572,6 +1993,35 @@
 **Rationale**:
 > If the patient doesn't wake up after ROSC, we cool them (Therapeutic Hypothermia) to preserve brain function. Shivering fights the cooling and must be stopped. 12-Lead is also crucial to look for STEMI.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document ACLS algorithm.
+
+**Correct Answer**:
+- **BLANK1**: VFib
+- **BLANK2**: asystole
+- **BLANK3**: 3-5
+- **BLANK4**: 30:2
+
+**Rationale**:
+> Shockable: VFib, pulseless VT. Non-shockable: asystole, PEA. Epi q3-5 min. Adult CPR 30:2 (15:2 for 2-rescuer peds).
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight reversible causes (H's and T's).
+
+**Correct Answer**:
+- [x] Hypovolemia
+- [x] Hypoxia
+- [x] Hydrogen ion (acidosis)
+- [x] Hypokalemia
+- [x] Hypothermia
+- [x] Tension pneumo
+- [x] Tamponade
+- [x] Toxins
+- [x] Thrombosis PE
+
+**Rationale**:
+> All are H's and T's - reversible causes of cardiac arrest. HyperKALEMIA is also an H (not hypokalemia - that's a common error, but both K+ abnormalities count).
+
 ---
 
 ## Mission 41: The Fever: Community-Acquired Pneumonia (M-041)
@@ -2607,15 +2057,39 @@
 - **Condition**: Respiratory Failure
 - **Actions to Take**:
   - Apply oxygen via non-rebreather mask
-  - Prepare for intubation
   - Call rapid response
 - **Parameters to Monitor**:
   - ABG analysis
   - Respiratory rate and pattern
-  - Level of consciousness
 
 **Rationale**:
 > Acute respiratory failure requires immediate oxygenation, preparation for advanced airway management, and continuous monitoring of respiratory status and mental status changes.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document CAP management.
+
+**Correct Answer**:
+- **BLANK1**: severity
+- **BLANK2**: S. pneumoniae
+- **BLANK3**: azithromycin
+- **BLANK4**: respiratory fluoroquinolone
+
+**Rationale**:
+> CURB-65 determines admit vs outpatient. S. pneumoniae most common CAP. Azithromycin outpatient. Fluoroquinolone or beta-lactam + macrolide inpatient.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight findings indicating severe CAP.
+
+**Correct Answer**:
+- [x] RR 32
+- [x] BP 85/55
+- [x] Confusion
+- [x] BUN 25
+- [x] SpO2 88%
+- [x] Multilobar infiltrates
+
+**Rationale**:
+> Severe CAP: RR>30, hypotension, confusion, elevated BUN, hypoxia, multilobar disease. Age 72 and HR 110 are concerning but not severity criteria alone.
 
 ---
 
@@ -2660,6 +2134,28 @@
 **Rationale**:
 > No rationale provided.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document acute bronchitis management.
+
+**Correct Answer**:
+- **BLANK1**: viral
+- **BLANK2**: rarely
+- **BLANK3**: supportive care
+- **BLANK4**: 2-3
+
+**Rationale**:
+> Bronchitis 90% viral. Antibiotics rarely needed. Supportive care: hydration, rest, cough suppressants PRN. Cough resolves in 2-3 weeks.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight findings suggesting bacterial vs viral.
+
+**Correct Answer**:
+- [x] WBC 18,000
+- [x] Purulent sputum for 10+ days
+
+**Rationale**:
+> Green/colored sputum doesn't indicate bacteria. Prolonged purulent sputum (>10 days) and elevated WBC suggest bacterial. No infiltrates helps rule out pneumonia.
+
 ---
 
 ## Mission 43: The Wheezing Patient: Asthma Exacerbation (M-043)
@@ -2702,6 +2198,31 @@
 
 **Rationale**:
 > No rationale provided.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document asthma exacerbation.
+
+**Correct Answer**:
+- **BLANK1**: albuterol
+- **BLANK2**: ipratropium
+- **BLANK3**: 50
+- **BLANK4**: worsening obstruction
+
+**Rationale**:
+> Albuterol SABA first. Add ipratropium for severe. PEF <50% = severe. Silent chest = critical (no air movement).
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight severe/critical asthma signs.
+
+**Correct Answer**:
+- [x] Using accessory muscles
+- [x] Peak flow 40%
+- [x] Silent chest
+- [x] SpO2 89%
+- [x] Tripod position
+
+**Rationale**:
+> Severe/critical: accessory muscle use, low PEF, silent chest (ominous), hypoxia, tripod positioning. Wheezing may improve as attack worsens (less air). Full sentences = mild.
 
 ---
 
@@ -2746,6 +2267,30 @@
 **Rationale**:
 > No rationale provided.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document COPD exacerbation.
+
+**Correct Answer**:
+- **BLANK1**: infection
+- **BLANK2**: low-flow O2
+- **BLANK3**: steroids
+- **BLANK4**: BiPAP
+
+**Rationale**:
+> COPD exacerbations often triggered by infection. Low-flow O2 (88-92% target) to maintain hypoxic drive. Steroids reduce inflammation. BiPAP for respiratory failure.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight COPD exacerbation findings.
+
+**Correct Answer**:
+- [x] Increased dyspnea
+- [x] Increased sputum
+- [x] Purulent sputum
+- [x] SpO2 86%
+
+**Rationale**:
+> Exacerbation = increased symptoms from baseline: more dyspnea, more/purulent sputum, worsened O2. Barrel chest and pursed lip breathing are chronic COPD findings.
+
 ---
 
 ## Mission 45: The Sudden Shortness: Pulmonary Embolism (M-045)
@@ -2788,6 +2333,33 @@
 
 **Rationale**:
 > No rationale provided.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document PE assessment and treatment.
+
+**Correct Answer**:
+- **BLANK1**: pretest probability
+- **BLANK2**: low
+- **BLANK3**: anticoagulation
+- **BLANK4**: thrombolytics
+
+**Rationale**:
+> Wells = pretest probability. Negative D-dimer rules out PE in low-probability patients. Anticoagulation standard. Massive PE = thrombolytics.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight classic PE findings.
+
+**Correct Answer**:
+- [x] Sudden dyspnea
+- [x] Pleuritic chest pain
+- [x] Tachycardia
+- [x] Tachypnea
+- [x] Hemoptysis
+- [x] Clear lungs
+- [x] Leg swelling
+
+**Rationale**:
+> PE classic: sudden dyspnea, pleuritic pain, tachy, hemoptysis, clear lungs (out of proportion to symptoms), DVT signs. Recent surgery is risk factor, not finding.
 
 ---
 
@@ -2832,6 +2404,31 @@
 **Rationale**:
 > No rationale provided.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document pleural effusion management.
+
+**Correct Answer**:
+- **BLANK1**: Light's
+- **BLANK2**: Transudative
+- **BLANK3**: 1-1.5
+- **BLANK4**: reexpansion pulmonary edema
+
+**Rationale**:
+> Light's criteria differentiates (protein/LDH ratios). Transudative = CHF, cirrhosis. Remove 1-1.5L max to prevent reexpansion pulmonary edema.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight exudative effusion causes.
+
+**Correct Answer**:
+- [x] Pneumonia
+- [x] Malignancy
+- [x] TB
+- [x] Pancreatitis
+- [x] Empyema
+
+**Rationale**:
+> Exudative (high protein/LDH): infection, malignancy, inflammation. Transudative: CHF, cirrhosis, nephrotic syndrome (low oncotic pressure).
+
 ---
 
 ## Mission 47: The Failing Lungs: Acute Respiratory Distress Syndrome (M-047)
@@ -2874,6 +2471,29 @@
 
 **Rationale**:
 > No rationale provided.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document ARDS management.
+
+**Correct Answer**:
+- **BLANK1**: 7
+- **BLANK2**: low (6 mL/kg)
+- **BLANK3**: Higher
+- **BLANK4**: 88-95
+
+**Rationale**:
+> Berlin: acute onset <7 days. Low tidal volume (6 mL/kg) prevents VILI. Higher PEEP keeps alveoli open. Permissive hypoxemia 88-95%.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight ARDS vs cardiogenic pulmonary edema.
+
+**Correct Answer**:
+- [x] P/F ratio 180
+- [x] Acute onset post-sepsis
+- [x] Ground glass
+
+**Rationale**:
+> ARDS: low P/F ratio, non-cardiac trigger (sepsis, trauma), ground glass. High PCWP, elevated BNP, known CHF suggest cardiogenic edema. Bilateral infiltrates occur in both.
 
 ---
 
@@ -2918,6 +2538,31 @@
 **Rationale**:
 > No rationale provided.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document pneumothorax management.
+
+**Correct Answer**:
+- **BLANK1**: trachea
+- **BLANK2**: needle decompression
+- **BLANK3**: observation
+- **BLANK4**: chest tube
+
+**Rationale**:
+> Tension: tracheal deviation AWAY, emergency needle decompression 2nd ICS MCL. Small primary spontaneous: observe. Larger needs chest tube.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight tension pneumothorax signs.
+
+**Correct Answer**:
+- [x] Tracheal deviation
+- [x] JVD
+- [x] Hypotension
+- [x] Absent breath sounds
+- [x] Hyperresonance
+
+**Rationale**:
+> Tension: tracheal shift, JVD (obstructed venous return), hypotension (decreased cardiac output), absent sounds, hyperresonance. Subcutaneous emphysema and anxiety can occur in simple pneumo too.
+
 ---
 
 ## Mission 49: The Silent Aspiration: Aspiration Pneumonia (M-049)
@@ -2961,6 +2606,32 @@
 **Rationale**:
 > No rationale provided.
 
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document aspiration pneumonia.
+
+**Correct Answer**:
+- **BLANK1**: dysphagic/altered mental status
+- **BLANK2**: dependent/posterior
+- **BLANK3**: anaerobic
+- **BLANK4**: 30-45
+
+**Rationale**:
+> Risk: dysphagia, stroke, altered consciousness. Aspiration goes to dependent segments. Cover anaerobes. HOB 30-45° during/after feeding.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight aspiration risk factors.
+
+**Correct Answer**:
+- [x] Stroke
+- [x] Sedation
+- [x] NG tube
+- [x] Dysphagia
+- [x] GERD
+- [x] Tracheostomy
+
+**Rationale**:
+> Aspiration risks: neurological impairment, sedation, tubes (bypass protective reflexes), dysphagia, GERD, trach. Intact gag is protective. NPO alone doesn't increase risk.
+
 ---
 
 ## Mission 50: The Ventilated Infection: VAP (M-050)
@@ -3003,6 +2674,31 @@
 
 **Rationale**:
 > No rationale provided.
+
+### Step 4: CLOZE DRAG_DROP
+**Prompt**: Document VAP prevention.
+
+**Correct Answer**:
+- **BLANK1**: 30-45
+- **BLANK2**: chlorhexidine
+- **BLANK3**: extubation
+- **BLANK4**: before and after
+
+**Rationale**:
+> VAP bundle: HOB 30-45°, chlorhexidine oral care, daily extubation assessment, strict hand hygiene, DVT/stress ulcer prophylaxis.
+
+### Step 5: HIGHLIGHT
+**Prompt**: Highlight VAP indicators.
+
+**Correct Answer**:
+- [x] New infiltrate
+- [x] Temp 101.5
+- [x] Purulent secretions
+- [x] WBC 15,000
+- [x] Increased FiO2
+
+**Rationale**:
+> VAP criteria: new/progressive infiltrate + 2 of: fever, purulent secretions, leukocytosis, worsening oxygenation. Vent day 5 is risk factor. Improving O2 is reassuring.
 
 ---
 
@@ -3283,7 +2979,7 @@
 | Pulmonary exacerbation | **FEV1, sputum culture, and oxygen saturation** |
 | Malnutrition | **Weight, BMI, and nutritional intake** |
 | CF-related diabetes | **Fasting blood glucose and HbA1c** |
-| Liver disease | **Liver function tests and abdominal ultrasound** |
+| Active liver disease | **Liver function tests and abdominal ultrasound** |
 | Infertility | **Semen analysis and hormone levels** |
 
 **Rationale**:
@@ -3297,12 +2993,9 @@
 - **Actions to Take**:
   - Stop airway clearance immediately
   - Position patient on affected side
-  - Prepare for bronchoscopy
 - **Parameters to Monitor**:
   - Amount and color of blood expectorated
-  - Vital signs every 15 minutes
   - Oxygen saturation continuously
-  - Signs of airway obstruction
 
 **Rationale**:
 > Moderate hemoptysis in CF requires immediate cessation of airway clearance, positioning on affected side to protect unaffected lung, and preparation for bronchoscopy. Close monitoring of bleeding amount, vital signs, oxygenation, and airway patency is essential.
@@ -3427,7 +3120,6 @@
 - **Actions to Take**:
   - Administer supplemental oxygen
   - Obtain urgent chest X-ray
-  - Prepare for needle decompression if tension pneumothorax
 - **Parameters to Monitor**:
   - Respiratory rate and oxygen saturation
   - Chest pain severity and location
@@ -3642,4 +3334,3039 @@
 
 **Rationale**:
 > Increased mortality risk in silicosis from: progressive massive fibrosis, reduced lung function (low FEV1/DLCO), oxygen dependence, and smoking history. Absence of TB, lung cancer, or autoimmune disease does not increase risk.
+
+---
+
+## Mission 61: The Ascending Infection: PID Management (M-061)
+
+### Step 1: EXTENDED SATA
+**Prompt**: Based on the assessment findings, which nursing diagnoses are priority for Maria Santos?
+
+**Correct Answer**:
+- [x] 0
+- [x] 2
+- [x] 3
+
+**Rationale**:
+> Priority nursing diagnoses include acute pain (she is in significant discomfort), risk for sepsis (ascending infection with rising fever/HR), and knowledge deficit regarding STI prevention (multiple partners, inconsistent condom use). Risk for infertility is a long-term concern but not an immediate nursing priority. Altered body image and fluid volume deficit are lower priority.
+
+### Step 2: MATRIX
+**Prompt**: Match each assessment finding with its clinical significance in PID:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Cervical motion tenderness (chandelier sign) | **Inflammation of cervix and uterus** |
+| Mucopurulent cervical discharge | **Active cervical infection with purulent drainage** |
+| Rising temperature and heart rate | **Possible progression to systemic infection** |
+| Bilateral adnexal tenderness | **Inflammation extending to fallopian tubes and ovaries** |
+
+**Rationale**:
+> Each PID finding indicates the extent of infection: chandelier sign = cervical/uterine inflammation, mucopurulent discharge = active cervical infection, rising vitals = possible sepsis, adnexal tenderness = tubes/ovaries involved. PID ascends from cervix → uterus → tubes → ovaries → peritoneum.
+
+### Step 3: EXTENDED SATA
+**Prompt**: The provider orders treatment for PID. Which nursing interventions should be implemented?
+
+**Correct Answer**:
+- [x] 0
+- [x] 1
+- [x] 2
+- [x] 3
+- [x] 4
+
+**Rationale**:
+> PID nursing care includes: semi-Fowler's position (gravity drainage), heat to lower abdomen (comfort), IV antibiotics (treat infection), no intercourse during treatment (prevent reinfection/worsening), and partner treatment (essential — even asymptomatic partners). Douching is NEVER recommended — it can push bacteria further upward.
+
+### Step 4: BOWTIE
+**Prompt**: Maria's temperature rises to 103°F and she develops severe bilateral lower abdominal pain with rebound tenderness. Identify the complication.
+
+**Correct Answer**:
+- **Condition**: Tubo-ovarian abscess
+- **Actions to Take**:
+  - Increase IV antibiotics
+  - Prepare for possible surgical drainage
+- **Parameters to Monitor**:
+  - Temperature and vital signs every 2 hours
+  - Abdominal assessment for peritoneal signs
+
+**Rationale**:
+> Worsening fever with rebound tenderness in PID suggests tubo-ovarian abscess — a serious complication requiring aggressive IV antibiotics and possible surgical drainage. Monitor vitals frequently and assess for peritoneal signs (guarding, rigidity, rebound) indicating possible rupture.
+
+### Step 5: EXTENDED SATA
+**Prompt**: Before discharge, which teaching points are essential for Maria to prevent PID recurrence?
+
+**Correct Answer**:
+- [x] 0
+- [x] 1
+- [x] 2
+- [x] 3
+- [x] 5
+
+**Rationale**:
+> Discharge teaching for PID: complete antibiotics (stopping early → resistant bacteria), consistent condom use, limit partners, follow-up exam, and recognize recurrence symptoms. Douching is NEVER recommended — it disrupts normal flora and can push bacteria upward. Consequences of untreated/recurrent PID include infertility, ectopic pregnancy, and chronic pelvic pain.
+
+### Step 6: CLOZE DRAG_DROP
+**Prompt**: Document PID management.
+
+**Correct Answer**:
+- **BLANK1**: chlamydia/gonorrhea
+- **BLANK2**: dual
+- **BLANK3**: infertility/ectopic pregnancy
+- **BLANK4**: treatment
+
+**Rationale**:
+> PID caused by ascending STIs. Dual antibiotic coverage. Risk of tubal scarring (infertility/ectopic). Partner treatment essential.
+
+### Step 7: HIGHLIGHT
+**Prompt**: Highlight PID findings.
+
+**Correct Answer**:
+- [x] Lower abdominal pain
+- [x] Cervical motion tenderness
+- [x] Adnexal tenderness
+- [x] Fever
+- [x] Purulent discharge
+
+**Rationale**:
+> PID criteria: lower abdominal pain + cervical motion/adnexal tenderness. Supporting: fever, purulent discharge. Right upper quadrant pain = Fitz-Hugh-Curtis (complication to recognize but not a core PID finding to highlight).
+
+---
+
+## Mission 62: Post-Mastectomy: Lymphedema Prevention & Recovery (M-062)
+
+### Step 1: EXTENDED SATA
+**Prompt**: The nurse is planning care for Dorothy on POD 1. Which interventions are priority?
+
+**Correct Answer**:
+- [x] 0
+- [x] 1
+- [x] 2
+
+**Rationale**:
+> Priority POD 1 interventions: assess surgical site and drain (monitor for bleeding/infection), medicate for pain before exercises (promotes participation), and elevate the left arm (prevents lymphedema). NO BP on the affected arm (lymphedema risk). The client should be encouraged but not forced to view the incision — she needs time. Strenuous exercises are delayed until drains are removed.
+
+### Step 2: MATRIX
+**Prompt**: Match each lymphedema prevention instruction with its rationale:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| No BP measurements on the left arm | **Compression can damage lymphatic vessels and obstruct flow** |
+| No venipunctures or IV access in the left arm | **Puncture sites create infection risk with impaired lymphatic drainage** |
+| Elevate the arm above heart level | **Gravity assists lymphatic fluid return and reduces swelling** |
+| Wear compression sleeve during air travel | **Cabin pressure changes can worsen lymphatic fluid accumulation** |
+
+**Rationale**:
+> Each lymphedema prevention measure has a specific rationale: BP cuffs compress lymphatics, needle sticks create infection risk in an arm with impaired drainage, elevation uses gravity to reduce swelling, and compression sleeves counteract pressure changes during air travel.
+
+### Step 3: EXTENDED SATA
+**Prompt**: Dorothy states, 'I don't feel like a woman anymore. My husband won't want to look at me.' Which nursing responses are therapeutic?
+
+**Correct Answer**:
+- [x] 0
+- [x] 2
+- [x] 3
+- [x] 5
+
+**Rationale**:
+> Therapeutic responses: acknowledge feelings (validate the loss), offer reconstruction information when ready, refer to peer support (ACS Reach for Recovery), and normalize the grieving process. Dismissive responses ('be grateful,' 'he'll get used to it') minimize the client's feelings and are NOT therapeutic. The nurse should be accepting, non-judgmental, and give the client time.
+
+### Step 4: EXTENDED SATA
+**Prompt**: On POD 3, the nurse is teaching Dorothy about arm exercises. Which exercises should be included?
+
+**Correct Answer**:
+- [x] 0
+- [x] 1
+- [x] 2
+- [x] 4
+- [x] 5
+
+**Rationale**:
+> Post-mastectomy arm exercises include: wall-reaching (restore ROM), rope pulley (alternating pull), rubber ball squeezing (grip/forearm strength), performed 3-5 times daily. Analgesics should be offered 30 minutes before exercise. Heavy weightlifting is NOT appropriate — no lifting >10 lbs until cleared by the provider.
+
+### Step 5: EXTENDED SATA
+**Prompt**: Before discharge, which instructions should the nurse include in Dorothy's teaching plan?
+
+**Correct Answer**:
+- [x] 0
+- [x] 1
+- [x] 2
+- [x] 3
+- [x] 5
+
+**Rationale**:
+> Discharge teaching after mastectomy: wound care technique, infection signs to report, weight restriction (<10 lbs), lymphedema monitoring (arm circumference), and follow-up plan. The client should NOT resume heavy activities immediately — gradual return to activity as tolerated. Written instructions and return demonstration ensure understanding.
+
+### Step 6: BOWTIE
+**Prompt**: Prioritize lymphedema management post-mastectomy.
+
+**Correct Answer**:
+- **Condition**: Lymphedema
+- **Actions to Take**:
+  - Elevate affected arm
+  - Compression garments
+- **Parameters to Monitor**:
+  - Arm circumference
+  - Signs of infection
+
+**Rationale**:
+> Lymphedema management: elevation, compression, MLD. Avoid BP/blood draws on affected side. Monitor circumference, encourage ROM, watch for cellulitis.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document post-mastectomy care.
+
+**Correct Answer**:
+- **BLANK1**: BP/blood draws
+- **BLANK2**: ROM
+- **BLANK3**: 2
+
+**Rationale**:
+> Protect surgical arm: no BP, needles, constrictive items. Early ROM prevents frozen shoulder. >2cm difference = lymphedema.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight lymphedema warning signs.
+
+**Correct Answer**:
+- [x] Arm swelling
+- [x] Heaviness
+- [x] Tight skin
+- [x] Decreased ROM
+- [x] Jewelry fitting tighter
+
+**Rationale**:
+> Lymphedema: swelling, heaviness, skin tightness, decreased ROM, items fitting tighter. Warmth/redness suggests infection (cellulitis).
+
+---
+
+## Mission 63: The Blocked Stream: BPH & Post-TURP Care (M-063)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on Mr. Bennett's symptoms and DRE findings, the nurse recognizes this presentation is most consistent with:
+
+**Correct Answer**:
+
+**Rationale**:
+> The symmetrically enlarged, smooth, firm, non-tender prostate without nodules is consistent with BPH. Prostate cancer typically presents with a firm, irregular, hard nodule. Prostatitis presents with a tender, boggy prostate. The mildly elevated PSA can occur with BPH.
+
+### Step 2: EXTENDED SATA
+**Prompt**: Mr. Bennett is started on tamsulosin (Flomax) and finasteride (Proscar). Which teaching points should the nurse include?
+
+**Correct Answer**:
+- [x] Take tamsulosin at bedtime to minimize dizziness
+- [x] Rise slowly from sitting/lying positions
+- [x] Finasteride may take 3-6 months to show full effect
+- [x] Pregnant women in the household must not handle finasteride tablets
+- [x] Inform your ophthalmologist about tamsulosin before any eye surgery
+- [x] PSA results will need to be doubled for accurate interpretation
+
+**Rationale**:
+> All statements except the last are correct. These medications are typically lifelong — they should NOT be stopped when symptoms improve. Tamsulosin causes orthostatic hypotension. Finasteride is teratogenic and lowers PSA by 50%. IFIS risk requires ophthalmologist notification.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Mr. Bennett undergoes TURP. Post-operatively, the nurse notes the CBI output is dark red with clots. The PRIORITY nursing action is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Post-TURP, the nurse should increase CBI flow rate to flush clots and prevent catheter obstruction. Dark red drainage with clots is common initially but should lighten to pink. If irrigation fails to clear clots or output remains bright red, the surgeon should be notified. Clamping the catheter could cause bladder distension.
+
+### Step 4: EXTENDED SATA
+**Prompt**: Before discharge after TURP, the nurse includes which instructions?
+
+**Correct Answer**:
+- [x] Drink at least 3 liters of fluids daily
+- [x] Eat a high-fiber diet to prevent constipation
+- [x] Avoid straining during bowel movements
+- [x] Heavy lifting is restricted for 4-6 weeks
+- [x] Retrograde ejaculation may occur — semen enters bladder during intercourse
+- [x] Report any bright red bleeding or inability to void
+
+**Rationale**:
+> All are correct TURP discharge instructions. Adequate fluids decrease UTI risk. High fiber prevents constipation/straining which can cause bleeding. Retrograde ejaculation is the most common complication. The patient should report bright red bleeding or inability to void as complications.
+
+### Step 5: MATRIX
+**Prompt**: Match BPH symptoms with their cause:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Hesitancy and weak stream | **Obstructive symptoms** |
+| Frequency and nocturia | **Irritative symptoms** |
+
+**Rationale**:
+> Obstructive: hesitancy, weak stream. Irritative: frequency, nocturia.
+
+### Step 6: BOWTIE
+**Prompt**: Patient confused 30 min post-TURP. Na+ 118.
+
+**Correct Answer**:
+- **Condition**: TURP syndrome
+- **Actions to Take**:
+  - Stop irrigation
+  - Hypertonic saline
+- **Parameters to Monitor**:
+  - Sodium level
+  - Mental status
+
+**Rationale**:
+> TURP syndrome = dilutional hyponatremia. Stop irrigation, monitor Na+.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document post-TURP care.
+
+**Correct Answer**:
+- **BLANK1**: continuous bladder
+- **BLANK2**: pink
+- **BLANK3**: straining
+
+**Rationale**:
+> CBI keeps bladder clear. Pink urine normal. Avoid straining.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight post-TURP complications.
+
+**Correct Answer**:
+- [x] Frank red bleeding
+- [x] Confusion
+- [x] Na+ 120
+
+**Rationale**:
+> Concerning: bright red blood, confusion with low Na+.
+
+---
+
+## Mission 64: The Twisted Cord: Testicular Torsion Emergency (M-064)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the assessment findings, the nurse's PRIORITY action is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Testicular torsion is a SURGICAL EMERGENCY. The absent blood flow on Doppler, high-riding testicle, negative Prehn's sign, and absent cremasteric reflex confirm torsion. Detorsion within 4-6 hours achieves 90% salvage. Every minute of delay increases the risk of testicular loss.
+
+### Step 2: EXTENDED SATA
+**Prompt**: While preparing Marcus for emergency surgery, which nursing interventions are appropriate?
+
+**Correct Answer**:
+- [x] Keep the patient NPO
+- [x] Establish IV access
+- [x] Administer IV analgesics as ordered for pain
+- [x] Obtain informed consent from parent/guardian (patient is a minor)
+- [x] Apply ice pack to scrotum for comfort
+- [x] Document the exact time of symptom onset
+
+**Rationale**:
+> NPO status, IV access, pain management, and parental consent (minor) are essential pre-operative steps. Documenting symptom onset time is critical for surgical decision-making. Ice can provide comfort. HOB elevation for anxiety is reasonable but not a priority surgical prep action.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Marcus undergoes successful bilateral orchiopexy. His mother asks why BOTH testicles were fixed when only the left one was affected. The nurse explains:
+
+**Correct Answer**:
+
+**Rationale**:
+> The bell-clapper deformity (anatomical variant allowing twisting) is usually bilateral. Orchiopexy sutures BOTH testicles to the scrotal wall to prevent future torsion. Orchiopexy is fixation, not removal (that would be orchiectomy). This is standard surgical practice for testicular torsion.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Post-operatively, the nurse should teach Marcus and his family that:
+
+**Correct Answer**:
+
+**Rationale**:
+> TSE should begin at age 15 (Marcus is 17) and continue monthly through age 40. After successful orchiopexy, he can return to normal activities including sports once healed. Fertility is preserved when detorsion is performed within the salvage window. Recurrence is rare after bilateral orchiopexy.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate torsion from epididymitis:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Sudden severe pain | **Torsion** |
+| Gradual onset with fever | **Epididymitis** |
+| Negative Prehn sign | **Torsion** |
+
+**Rationale**:
+> Torsion: sudden, Prehn negative. Epididymitis: gradual, fever.
+
+### Step 6: BOWTIE
+**Prompt**: Teen with sudden scrotal pain, high-riding testis.
+
+**Correct Answer**:
+- **Condition**: Testicular torsion
+- **Actions to Take**:
+  - Emergency surgery
+  - Manual detorsion
+- **Parameters to Monitor**:
+  - Testicular viability
+  - Time since onset
+
+**Rationale**:
+> Torsion = surgical emergency. 6-hour window.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document torsion assessment.
+
+**Correct Answer**:
+- **BLANK1**: high-riding
+- **BLANK2**: absent
+- **BLANK3**: 6
+
+**Rationale**:
+> High-riding testis, absent reflex. 6-hour salvage window.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight torsion findings.
+
+**Correct Answer**:
+- [x] Sudden severe pain
+- [x] High-riding testis
+- [x] Absent cremasteric reflex
+
+**Rationale**:
+> Torsion: sudden, high-riding, absent reflex.
+
+---
+
+## Mission 65: The Rising PSA: Prostate Cancer Workup (M-065)
+
+### Step 1: EXTENDED SATA
+**Prompt**: Mr. Carter has several risk factors for prostate cancer. Which apply to him?
+
+**Correct Answer**:
+- [x] African American race — highest incidence and mortality
+- [x] Age over 60
+- [x] Family history — father with prostate cancer before 65
+- [x] Rapidly rising PSA (PSA velocity)
+
+**Rationale**:
+> Key prostate cancer risk factors include: African American race (highest incidence/mortality), age >50, family history (first-degree relative), and rapidly rising PSA. Hypertension and diabetes are not direct risk factors for prostate cancer (though they affect overall health and treatment options).
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: Mr. Carter's Gleason score is 7 (3+4). The nurse explains this means:
+
+**Correct Answer**:
+
+**Rationale**:
+> Gleason 7 (3+4) is intermediate-grade — the primary pattern is 3 (moderately differentiated) and the secondary is 4 (poorly differentiated). Gleason 6 or below = low-grade. Gleason 8-10 = high-grade. The score reflects tumor aggressiveness and guides treatment decisions.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Mr. Carter elects to undergo robotic-assisted radical prostatectomy. Post-operatively, the nurse should expect:
+
+**Correct Answer**:
+
+**Rationale**:
+> After radical prostatectomy, an indwelling catheter typically remains for 7-14 days to allow the urethrovesical anastomosis to heal. The nurse should monitor output, assess for hematuria, and begin teaching Kegel exercises for when the catheter is removed.
+
+### Step 4: EXTENDED SATA
+**Prompt**: Discharge teaching after radical prostatectomy should include:
+
+**Correct Answer**:
+- [x] Begin Kegel exercises once the catheter is removed
+- [x] Urinary incontinence is common initially but usually improves over weeks to months
+- [x] Erectile dysfunction may occur — nerve-sparing technique helps preserve function
+- [x] Report fever, wound redness, or inability to void
+- [x] Discuss ED treatment options including PDE5 inhibitors
+- [x] Avoid heavy lifting for 4-6 weeks
+
+**Rationale**:
+> All are appropriate post-prostatectomy discharge teachings. Kegel exercises strengthen pelvic floor muscles. Incontinence and ED are common post-surgical complications. PSA should be monitored regularly post-surgery (should be undetectable if all cancer was removed). PDE5 inhibitors remain contraindicated with nitrates.
+
+### Step 5: MATRIX
+**Prompt**: Match PSA findings:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| PSA 2.5 age 55 | **Low cancer risk** |
+| PSA 8.5 rapid rise | **High cancer risk** |
+| Free PSA <15% | **High cancer risk** |
+
+**Rationale**:
+> Normal varies by age. Rapid rise and low free ratio suggest cancer.
+
+### Step 6: BOWTIE
+**Prompt**: PSA 12, abnormal DRE nodule.
+
+**Correct Answer**:
+- **Condition**: Prostate cancer workup
+- **Actions to Take**:
+  - TRUS biopsy
+  - Refer to urologist
+- **Parameters to Monitor**:
+  - Gleason score
+  - Bone scan
+
+**Rationale**:
+> Elevated PSA + abnormal DRE = biopsy. Gleason grades, bone scan stages.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document prostate cancer teaching.
+
+**Correct Answer**:
+- **BLANK1**: 6
+- **BLANK2**: surgery/radiation/watchful waiting
+- **BLANK3**: incontinence/ED
+
+**Rationale**:
+> Gleason 6-10. Options vary. Common: incontinence, ED.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight cancer warning signs.
+
+**Correct Answer**:
+- [x] Rising PSA
+- [x] Hard nodule
+- [x] Low free PSA
+- [x] Bone pain
+
+**Rationale**:
+> Cancer: rising PSA, nodule, low free PSA, bone pain.
+
+---
+
+## Mission 66: The Burning Question: Acute Prostatitis (M-066)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The DRE reveals a boggy, warm, exquisitely tender prostate. Which action is CONTRAINDICATED?
+
+**Correct Answer**:
+
+**Rationale**:
+> In acute bacterial prostatitis, vigorous prostate massage is CONTRAINDICATED because it can force bacteria into the bloodstream, causing bacteremia or sepsis. Gentle DRE for assessment is acceptable, but aggressive manipulation must be avoided.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse is developing a care plan for Mr. Thompson. Which interventions are appropriate?
+
+**Correct Answer**:
+- [x] Administer ciprofloxacin as prescribed for the full 4-6 week course
+- [x] Encourage increased fluid intake (2-3L daily)
+- [x] Provide sitz baths 3 times daily for comfort
+- [x] Instruct to avoid caffeine, alcohol, and spicy foods
+- [x] Monitor temperature and WBC trends
+- [x] Administer stool softener to prevent straining
+
+**Rationale**:
+> All interventions are appropriate for acute prostatitis. The full antibiotic course (4-6 weeks) is essential to prevent chronic prostatitis. Fluids help flush bacteria. Sitz baths provide comfort. Caffeine/alcohol/spicy foods irritate the prostate. Stool softeners prevent straining which can worsen pain.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Mr. Thompson's PSA is 12.4 ng/mL. He is anxious about prostate cancer. The nurse's BEST response is:
+
+**Correct Answer**:
+
+**Rationale**:
+> PSA is commonly elevated during prostatitis, BPH, and other inflammatory conditions — not just cancer. In acute prostatitis, PSA can be significantly elevated due to inflammation and will typically return to normal after treatment. PSA should be rechecked after the infection resolves.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Mr. Thompson asks why he needs antibiotics for 4-6 weeks when most infections clear in 7-10 days. The nurse explains:
+
+**Correct Answer**:
+
+**Rationale**:
+> The prostate gland has poor antibiotic penetration due to its anatomical structure and blood-prostate barrier. Prolonged therapy (4-6 weeks for acute; up to 16 weeks for chronic) is necessary to achieve adequate drug levels in prostatic tissue and fully eradicate the infection. Incomplete treatment leads to chronic bacterial prostatitis.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate acute vs chronic prostatitis:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| High fever and chills | **Acute** |
+| Tender prostate | **Acute** |
+| Pelvic pain >3 months | **Chronic** |
+
+**Rationale**:
+> Acute: fever, tender. Chronic: prolonged pain.
+
+### Step 6: BOWTIE
+**Prompt**: Fever 103F, boggy tender prostate.
+
+**Correct Answer**:
+- **Condition**: Acute prostatitis
+- **Actions to Take**:
+  - IV antibiotics
+  - Obtain urine and blood cultures
+- **Parameters to Monitor**:
+  - Fever curve
+  - Urinary retention
+
+**Rationale**:
+> IV antibiotics. NO massage. Monitor retention.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document prostatitis care.
+
+**Correct Answer**:
+- **BLANK1**: E. coli
+- **BLANK2**: massage
+- **BLANK3**: 4-6
+
+**Rationale**:
+> E. coli common. No massage. 4-6 weeks antibiotics.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight acute prostatitis findings.
+
+**Correct Answer**:
+- [x] Fever 103F
+- [x] Chills
+- [x] Tender prostate
+- [x] Dysuria
+
+**Rationale**:
+> Acute: fever, chills, tender, dysuria.
+
+---
+
+## Mission 67: The Dangerous Combination: ED Meds & Nitrates (M-067)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Mr. Morrison is requesting sildenafil (Viagra). Given his medication list, what is the nurse's MOST critical concern?
+
+**Correct Answer**:
+
+**Rationale**:
+> Mr. Morrison takes BOTH nitroglycerin SL (PRN) and isosorbide mononitrate (daily) — these are organic nitrates. PDE5 inhibitors combined with ANY nitrate can cause severe, potentially fatal hypotension. This is an ABSOLUTE contraindication that cannot be overcome by dose adjustment.
+
+### Step 2: EXTENDED SATA
+**Prompt**: Which factors are contributing to Mr. Morrison's erectile dysfunction?
+
+**Correct Answer**:
+- [x] Atherosclerotic vascular disease (most common physiological cause of ED)
+- [x] Diabetic neuropathy and vascular damage
+- [x] Metoprolol — beta-blocker known to cause ED
+- [x] Age-related decreased testosterone
+- [x] Psychological fear of cardiac event during intercourse
+
+**Rationale**:
+> All of these contribute to Mr. Morrison's ED. Vascular disease is the #1 physiological cause. Diabetes causes both neuropathy and vascular damage. Beta-blockers are a known medication cause of ED. Age-related testosterone decline and performance anxiety also play roles.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Since PDE5 inhibitors are contraindicated, the provider discusses alternative ED treatments with Mr. Morrison. Which option is appropriate?
+
+**Correct Answer**:
+
+**Rationale**:
+> Alprostadil (intracavernosal injection or intraurethral suppository/MUSE) works by a different mechanism than PDE5 inhibitors and does NOT interact with nitrates. Vacuum erection devices are also safe. Penile prosthesis is a surgical option. The PDE5-nitrate contraindication cannot be overcome by dose adjustment.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The nurse provides education to Mr. and Mrs. Morrison. Which statements are accurate?
+
+**Correct Answer**:
+- [x] ED is common in men with cardiovascular disease and diabetes
+- [x] Many medications can contribute to ED — the provider may adjust some
+- [x] Lifestyle changes (exercise, weight loss, smoking cessation) can improve ED
+- [x] Sexual activity is generally safe after cardiac clearance
+- [x] ED can affect quality of life and relationships — counseling is available
+
+**Rationale**:
+> All statements except the last are correct. NEVER stop cardiac medications to try PDE5 inhibitors — this is dangerous. ED is multifactorial and treatment should address all contributing factors. Involving the partner in discussions is encouraged. Counseling referrals address the psychological component.
+
+### Step 5: MATRIX
+**Prompt**: Match ED medication concerns:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| All PDE5 inhibitors | **Nitrate contraindication** |
+| Tadalafil | **Long half-life** |
+
+**Rationale**:
+> All PDE5 contraindicated with nitrates. Tadalafil longest half-life.
+
+### Step 6: BOWTIE
+**Prompt**: Took sildenafil 4h ago, now chest pain.
+
+**Correct Answer**:
+- **Condition**: PDE5-nitrate interaction
+- **Actions to Take**:
+  - NO nitrates 24-48h
+  - IV fluids
+- **Parameters to Monitor**:
+  - Blood pressure
+  - Heart rate
+
+**Rationale**:
+> No nitrates. Supportive care, BP monitoring.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document ED med teaching.
+
+**Correct Answer**:
+- **BLANK1**: nitrates
+- **BLANK2**: 24
+- **BLANK3**: 4
+
+**Rationale**:
+> No nitrates. 24h wait. Priapism >4h = emergency.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight PDE5 contraindications.
+
+**Correct Answer**:
+- [x] Concurrent nitrates
+- [x] Recent MI
+- [x] Retinitis pigmentosa
+
+**Rationale**:
+> Contraindications: nitrates, recent MI, retinitis pigmentosa.
+
+---
+
+## Mission 68: The Scrotal Distinction: Epididymitis vs. Torsion (M-068)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the gradual onset, positive Prehn's sign, fever, and urethral discharge, the nurse recognizes this presentation as:
+
+**Correct Answer**:
+
+**Rationale**:
+> Key findings pointing to epididymitis: GRADUAL onset, POSITIVE Prehn's sign (relief with elevation), fever, urethral discharge, and intact cremasteric reflex. In men under 35, the most common cause is STI (Chlamydia or gonorrhea). His history of prior Chlamydia and new unprotected sexual contact supports this.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse develops a care plan for Jordan. Which interventions are appropriate?
+
+**Correct Answer**:
+- [x] Bed rest with scrotal elevation and support
+- [x] Ice packs to scrotum (20 minutes on/off)
+- [x] Administer antibiotics — treat for both Chlamydia AND gonorrhea per CDC guidelines
+- [x] Educate that his sexual partner MUST also be treated
+- [x] Administer analgesics and anti-inflammatory medications
+
+**Rationale**:
+> All except heavy activity are appropriate. Bed rest, scrotal elevation/support, and ice packs reduce swelling. In sexually active men <35, treat empirically for both Chlamydia and gonorrhea. The partner MUST be treated to prevent reinfection. Heavy activity should be AVOIDED — no lifting.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Jordan asks why his partner needs treatment if she has no symptoms. The nurse's BEST response is:
+
+**Correct Answer**:
+
+**Rationale**:
+> STIs, especially Chlamydia, are frequently asymptomatic in women. Untreated infections can ascend to cause PID, leading to fallopian tube scarring, infertility, and ectopic pregnancy. Partner treatment is essential, not optional. Both partners should abstain from intercourse until treatment is complete.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: The nurse teaches Jordan about preventing recurrence. Which complication of untreated epididymitis is MOST concerning?
+
+**Correct Answer**:
+
+**Rationale**:
+> Untreated epididymitis can progress to orchitis (infection of the testes), which can cause testicular atrophy and permanent infertility. This emphasizes the importance of completing the full antibiotic course and ensuring partner treatment. Epididymitis does not convert to torsion or cause BPH/cancer.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate epididymitis from torsion:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Prehn sign positive | **Epididymitis** |
+| Absent cremasteric reflex | **Torsion** |
+| Gradual with fever | **Epididymitis** |
+
+**Rationale**:
+> Epididymitis: Prehn positive, gradual, fever. Torsion: absent reflex.
+
+### Step 6: BOWTIE
+**Prompt**: Gradual scrotal pain, fever, positive Prehn.
+
+**Correct Answer**:
+- **Condition**: Epididymitis
+- **Actions to Take**:
+  - Antibiotics
+  - Scrotal elevation
+- **Parameters to Monitor**:
+  - STI testing
+  - Fever curve
+
+**Rationale**:
+> Epididymitis = antibiotics, supportive care.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document epididymitis management.
+
+**Correct Answer**:
+- **BLANK1**: STIs
+- **BLANK2**: dual
+- **BLANK3**: treatment
+
+**Rationale**:
+> STIs in young men. Dual antibiotics, partner treatment.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight epididymitis findings.
+
+**Correct Answer**:
+- [x] Gradual onset
+- [x] Fever
+- [x] Positive Prehn
+- [x] Discharge
+
+**Rationale**:
+> Epididymitis: gradual, fever, Prehn positive, discharge.
+
+---
+
+## Mission 69: The Silent Lump: Testicular Cancer & TSE Teaching (M-069)
+
+### Step 1: EXTENDED SATA
+**Prompt**: Which of Tyler's findings are concerning for testicular cancer?
+
+**Correct Answer**:
+- [x] Painless, firm, fixed mass on the testis
+- [x] History of cryptorchidism — #1 risk factor for testicular cancer
+- [x] Age 24 — within the peak incidence group (15-35)
+- [x] Elevated AFP and beta-HCG tumor markers
+- [x] Sensation of scrotal heaviness
+
+**Rationale**:
+> A painless testicular mass is the hallmark presenting symptom. Cryptorchidism is the #1 risk factor (10-30x increased risk even after correction). Age 15-35 is peak incidence. Elevated AFP/HCG confirm tumor markers. Heaviness is a common associated symptom. A normal contralateral testis is expected, not concerning.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: Tyler is scheduled for radical orchiectomy. Before the procedure, the nurse should discuss:
+
+**Correct Answer**:
+
+**Rationale**:
+> Sperm banking should be discussed BEFORE treatment begins, as radiation and chemotherapy can cause sterility. Only the affected testis is removed (unilateral radical orchiectomy via inguinal approach). Testicular cancer has a >90% cure rate with early detection — it is NOT always fatal. Testosterone from the remaining testis is usually sufficient.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Tyler's pathology returns as non-seminomatous germ cell tumor. Which treatment plan does the nurse anticipate?
+
+**Correct Answer**:
+
+**Rationale**:
+> Non-seminomatous germ cell tumors are treated with orchiectomy + retroperitoneal lymph node dissection ± chemotherapy (BEP: bleomycin, etoposide, cisplatin). Seminomas are radiosensitive — non-seminomas are not. Only the affected testis is removed. The remaining testis typically provides adequate testosterone.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The nurse teaches Tyler about monthly testicular self-examination (TSE) for monitoring his remaining testicle. Which instructions are correct?
+
+**Correct Answer**:
+- [x] Perform TSE monthly after a warm shower when the scrotum is relaxed
+- [x] Gently roll each testicle between thumb and fingers feeling for lumps
+- [x] Report any painless firm lump or change in size immediately
+- [x] The left testicle normally hangs lower than the right
+- [x] Continue TSE through age 40
+- [x] Prior testicular cancer increases risk in the remaining testicle
+
+**Rationale**:
+> All are correct TSE instructions. Monthly examination after warm shower when scrotum is relaxed. Any painless mass should be reported immediately. The left testicle normally hangs lower. TSE continues through age 40. Prior testicular cancer in one testis is a risk factor for the contralateral testis.
+
+### Step 5: MATRIX
+**Prompt**: Match testicular cancer types:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Seminoma | **Better prognosis** |
+| Non-seminoma | **More aggressive** |
+| AFP elevated | **More aggressive** |
+
+**Rationale**:
+> Seminoma: radiosensitive, better prognosis. Non-seminoma: more aggressive.
+
+### Step 6: BOWTIE
+**Prompt**: Painless testicular mass, solid on ultrasound.
+
+**Correct Answer**:
+- **Condition**: Testicular cancer
+- **Actions to Take**:
+  - Radical orchiectomy
+  - Obtain tumor markers (AFP, hCG, LDH)
+- **Parameters to Monitor**:
+  - Tumor markers
+  - CT staging
+
+**Rationale**:
+> Painless mass = cancer until proven otherwise. Orchiectomy, not biopsy.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document TSE teaching.
+
+**Correct Answer**:
+- **BLANK1**: monthly
+- **BLANK2**: painless lumps
+- **BLANK3**: 15-35
+
+**Rationale**:
+> Monthly TSE, report any lump (painless classic). Peak 15-35.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight testicular cancer signs.
+
+**Correct Answer**:
+- [x] Painless mass
+- [x] Heavy feeling
+- [x] Dull abdominal ache
+- [x] Gynecomastia
+
+**Rationale**:
+> Cancer: painless mass, heaviness, ache, gynecomastia.
+
+---
+
+## Mission 70: The Retracted Foreskin: Paraphimosis Emergency (M-070)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The nurse recognizes this presentation as:
+
+**Correct Answer**:
+
+**Rationale**:
+> Paraphimosis occurs when the foreskin is retracted behind the glans and cannot be returned to its natural position. The constricting band traps blood in the glans, causing progressive edema. This is the OPPOSITE of phimosis (where foreskin cannot retract). It is a urologic emergency — untreated paraphimosis can cause ischemia, necrosis, and gangrene.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The dusky color of the glans indicates:
+
+**Correct Answer**:
+
+**Rationale**:
+> Dusky/dark red discoloration of the glans indicates developing vascular compromise. The constricting band of foreskin is impeding venous return and potentially arterial flow. Immediate reduction is needed to restore circulation and prevent tissue necrosis. This is an emergency that cannot wait.
+
+### Step 3: EXTENDED SATA
+**Prompt**: Manual reduction is attempted. Which steps are appropriate?
+
+**Correct Answer**:
+- [x] Apply ice or cold compress to reduce edema before attempting reduction
+- [x] Use generous lubrication
+- [x] Apply gentle, steady pressure to the glans to push it back through the foreskin ring
+- [x] If manual reduction fails, prepare for dorsal slit procedure or emergency circumcision
+
+**Rationale**:
+> Ice reduces edema, lubrication facilitates reduction, and gentle steady pressure is the correct technique. Aggressive force can cause further tissue injury and is NOT appropriate. If manual reduction fails, surgical intervention (dorsal slit or emergency circumcision) is required.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: After successful reduction, the nurse should include which teaching to prevent recurrence?
+
+**Correct Answer**:
+
+**Rationale**:
+> The KEY teaching point: ALWAYS restore the foreskin to its natural position after catheterization, cleaning, or examination. Leaving the foreskin retracted is the most common cause of paraphimosis. Circumcision may be recommended for recurrent episodes but is not mandatory after a single episode. Recurrence IS possible if the foreskin is left retracted again.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate phimosis from paraphimosis:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Cannot retract foreskin | **Phimosis** |
+| Cannot return foreskin | **Paraphimosis** |
+| Emergency | **Paraphimosis** |
+
+**Rationale**:
+> Phimosis: can't retract. Paraphimosis: can't return (emergency).
+
+### Step 6: BOWTIE
+**Prompt**: Foreskin stuck, glans swollen and dusky.
+
+**Correct Answer**:
+- **Condition**: Paraphimosis
+- **Actions to Take**:
+  - Manual reduction with ice
+  - Administer analgesic for pain
+- **Parameters to Monitor**:
+  - Glans color
+  - Blood flow
+
+**Rationale**:
+> Paraphimosis = emergency. Ice, manual reduction. Monitor perfusion.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document paraphimosis management.
+
+**Correct Answer**:
+- **BLANK1**: ice
+- **BLANK2**: dorsal slit
+- **BLANK3**: gangrene
+
+**Rationale**:
+> Ice reduces edema. Dorsal slit if manual fails. Untreated = gangrene.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight paraphimosis emergency signs.
+
+**Correct Answer**:
+- [x] Retracted foreskin stuck
+- [x] Swollen glans
+- [x] Dusky color
+- [x] Unable to void
+
+**Rationale**:
+> Emergency: stuck foreskin, swollen dusky glans, obstruction.
+
+---
+
+## Mission 71: The Three Shunts: Fetal Circulation Assessment (M-071)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The student nurse asks how oxygenated blood gets from the placenta to the fetus. The correct answer is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Oxygenated, nutrient-rich blood travels from the placenta to the fetus through the single umbilical vein. The two umbilical arteries carry deoxygenated blood and waste products in the opposite direction — from the fetus back to the placenta. Remember: in fetal circulation, the vein carries oxygenated blood (opposite of postnatal circulation).
+
+### Step 2: EXTENDED SATA
+**Prompt**: The instructor asks students to identify which fetal structures bypass the lungs. Which are correct?
+
+**Correct Answer**:
+- [x] Foramen ovale
+- [x] Ductus arteriosus
+
+**Rationale**:
+> Two shunts bypass the lungs: (1) Foramen ovale — diverts blood from right atrium directly to left atrium, skipping the pulmonary circuit. (2) Ductus arteriosus — diverts blood from the pulmonary artery directly to the aorta. The ductus venosus bypasses the LIVER, not the lungs. The umbilical vein and Wharton jelly are cord structures, not shunts.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: A student asks what happens if the ductus arteriosus fails to close after birth. The instructor explains this results in:
+
+**Correct Answer**:
+
+**Rationale**:
+> If the ductus arteriosus fails to close after birth, it results in patent ductus arteriosus (PDA) — a congenital heart defect where blood continues to shunt from the aorta to the pulmonary artery, causing oxygenated blood to recirculate through the lungs. Normally it closes within 15 hours and becomes a ligament by 3 weeks.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The instructor reviews placental hormones. Which statements are correct?
+
+**Correct Answer**:
+- [x] hCG is the hormone detected by pregnancy tests
+- [x] hPL decreases maternal insulin sensitivity, making more glucose available to the fetus
+- [x] Progesterone reduces uterine contractions to prevent spontaneous abortion
+- [x] The placenta produces four hormones: progesterone, estrogen, hCG, and hPL
+
+**Rationale**:
+> All are correct except the estrogen statement. Estrogen STIMULATES uterine growth (not reduces it) and increases blood flow to uterine vessels. hCG signals conception and is detectable by pregnancy tests. hPL creates a 'diabetogenic' effect ensuring adequate fetal glucose. Progesterone prevents contractions.
+
+### Step 5: MATRIX
+**Prompt**: Match fetal shunt with function:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Ductus arteriosus | **Bypasses pulmonary circulation** |
+| Foramen ovale | **Bypasses right side of heart** |
+| Ductus venosus | **Bypasses liver** |
+
+**Rationale**:
+> DA: pulmonary bypass (PA to aorta). FO: RA to LA bypass. DV: liver bypass (UV to IVC).
+
+### Step 6: BOWTIE
+**Prompt**: Premature infant with continuous machinery murmur.
+
+**Correct Answer**:
+- **Condition**: Patent ductus arteriosus
+- **Actions to Take**:
+  - Indomethacin to close
+  - Monitor for signs of heart failure
+- **Parameters to Monitor**:
+  - Heart murmur
+  - O2 saturation
+
+**Rationale**:
+> PDA in preemie: indomethacin promotes closure. Monitor murmur resolution and oxygenation.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document fetal circulation.
+
+**Correct Answer**:
+- **BLANK1**: Umbilical vein
+- **BLANK2**: Foramen ovale
+- **BLANK3**: Ductus arteriosus
+
+**Rationale**:
+> UV brings O2 blood from placenta. FO closes with increased LA pressure. DA closes and becomes ligamentum arteriosum.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight structures that close after birth.
+
+**Correct Answer**:
+- [x] Foramen ovale
+- [x] Ductus arteriosus
+- [x] Ductus venosus
+- [x] Umbilical arteries
+- [x] Umbilical vein
+
+**Rationale**:
+> All fetal shunts close: FO, DA, DV, umbilical vessels. Aorta remains patent.
+
+---
+
+## Mission 72: The Prenatal Counseling: Teratogens & Placental Transfer (M-072)
+
+### Step 1: EXTENDED SATA
+**Prompt**: At 6 weeks gestation, the nurse identifies which teratogenic exposures in Jessica's history?
+
+**Correct Answer**:
+- [x] Cigarette smoking — associated with IUGR and low birth weight
+- [x] Alcohol use — #1 preventable cause of intellectual disability
+- [x] Ibuprofen use — can cause premature closure of ductus arteriosus
+- [x] Secondhand marijuana exposure
+
+**Rationale**:
+> All listed substances except moderate caffeine are teratogenic concerns. Smoking causes IUGR and complications. Alcohol causes FAS — there is NO safe amount during pregnancy. Ibuprofen (NSAID) can cause premature closure of the ductus arteriosus. Marijuana crosses the placenta. Moderate caffeine (under 200mg/day) is generally considered acceptable, but 3 cups may exceed this.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: Jessica states, 'I'm only 6 weeks — the baby isn't really formed yet, so it should be fine.' The nurse's BEST response is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Weeks 3-8 of gestation are the MOST critical period for teratogenic effects because all major organ systems are forming (organogenesis). Exposure during this time carries the highest risk of major structural birth defects. At 6 weeks, the heart is beating, the brain is developing rapidly, and limb buds are forming. The placenta does NOT filter out harmful substances.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: The nurse explains why ibuprofen must be discontinued during pregnancy. Which complication is the primary concern?
+
+**Correct Answer**:
+
+**Rationale**:
+> NSAIDs like ibuprofen can cause premature closure of the ductus arteriosus — a fetal shunt that diverts blood from the pulmonary artery to the aorta, bypassing the lungs. This shunt must remain open until birth. Premature closure can cause pulmonary hypertension in the fetus. Acetaminophen (Tylenol) is the recommended alternative for pain during pregnancy.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The nurse develops a teaching plan for Jessica. Which counseling points should be included?
+
+**Correct Answer**:
+- [x] Stop smoking completely — there is no safe level during pregnancy
+- [x] Stop ALL alcohol consumption — no safe amount during pregnancy
+- [x] Switch from ibuprofen to acetaminophen (Tylenol) for headaches
+- [x] The placenta does NOT act as a complete barrier to harmful substances
+- [x] Ask boyfriend to smoke marijuana outside and away from her
+- [x] Begin taking prenatal vitamins with folic acid daily
+
+**Rationale**:
+> All are appropriate counseling points. Complete cessation of smoking and alcohol is the goal. Acetaminophen replaces NSAIDs. The placenta is not a complete barrier — this corrects a common misconception. Reducing secondhand marijuana exposure is important. Prenatal vitamins with folic acid (400-800mcg) help prevent neural tube defects.
+
+### Step 5: MATRIX
+**Prompt**: Match teratogen with effect:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Alcohol | **Facial abnormalities/intellectual disability** |
+| Warfarin | **Bone and nasal abnormalities** |
+| Isotretinoin | **CNS and cardiac defects** |
+
+**Rationale**:
+> Alcohol: FAS. Warfarin: nasal hypoplasia, bone issues. Isotretinoin: CNS, cardiac, facial defects.
+
+### Step 6: BOWTIE
+**Prompt**: First prenatal visit, patient on category X medication.
+
+**Correct Answer**:
+- **Condition**: Teratogen counseling
+- **Actions to Take**:
+  - Review all medications
+  - Assess occupational exposures
+- **Parameters to Monitor**:
+  - Adherence to safe alternatives
+  - Ultrasound for anomalies
+
+**Rationale**:
+> Category X = contraindicated. Review all meds, occupational exposures. Monitor compliance, screen for defects.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document teratogen exposure.
+
+**Correct Answer**:
+- **BLANK1**: 3-8
+- **BLANK2**: Folic
+- **BLANK3**: X
+
+**Rationale**:
+> Organogenesis 3-8 weeks = highest risk. Folic acid prevents NTDs. Category X = never use in pregnancy.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight category X medications.
+
+**Correct Answer**:
+- [x] Isotretinoin
+- [x] Warfarin
+- [x] Methotrexate
+- [x] Thalidomide
+
+**Rationale**:
+> Category X: isotretinoin, warfarin, methotrexate, thalidomide. Penicillin and acetaminophen are safe.
+
+---
+
+## Mission 73: The First Visit: Comprehensive Prenatal Assessment (M-073)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Using Nägele's rule with LMP of January 15, the nurse calculates the EDD as:
+
+**Correct Answer**:
+
+**Rationale**:
+> Nägele's rule: (1) LMP = January 15, (2) Count backward 3 months = October 15, (3) Add 7 days = October 22. The EDD is October 22. The average pregnancy is 40 weeks (280 days) from the first day of the LMP.
+
+### Step 2: EXTENDED SATA
+**Prompt**: Aaliyah reports amenorrhea, nausea, and breast tenderness. These are classified as:
+
+**Correct Answer**:
+- [x] Presumptive signs — subjective, experienced by the woman
+- [x] Signs that could have causes other than pregnancy
+
+**Rationale**:
+> Amenorrhea, nausea, and breast tenderness are PRESUMPTIVE signs — they are subjective and can have other causes (stress, GI illness, hormonal changes). A positive pregnancy test is a PROBABLE sign. Only FHTs, examiner-felt fetal movement, and ultrasound visualization are POSITIVE signs that confirm pregnancy.
+
+### Step 3: EXTENDED SATA
+**Prompt**: The nurse reviews Aaliyah's first trimester lab panel. Which tests specifically screen for infections that could affect the fetus?
+
+**Correct Answer**:
+- [x] RPR — screens for syphilis
+- [x] Rubella titer — checks immunity to rubella (German measles)
+- [x] Hepatitis B surface antigen
+- [x] HIV screening
+- [x] Chlamydia and gonorrhea NAAT
+
+**Rationale**:
+> RPR (syphilis), rubella titer, Hep B, HIV, and Chlamydia/gonorrhea all screen for infections that can be transmitted to or affect the fetus. Syphilis causes congenital syphilis; rubella causes congenital rubella syndrome; Hep B and HIV can transmit vertically; Chlamydia/gonorrhea can cause neonatal eye infections. HgbA1C screens for diabetes, not infection.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Given Aaliyah's history of iron deficiency anemia in her prior pregnancy, which nutritional counseling is MOST important?
+
+**Correct Answer**:
+
+**Rationale**:
+> With a history of iron deficiency anemia, adequate iron intake (30mg/day — double the nonpregnant requirement) is essential. Prenatal vitamins with folic acid (400-800mcg) prevent neural tube defects. Normal hemoglobin in pregnancy is 11-12 g/dL. Iron-rich foods (lean meat, beans, fortified cereals) and Vitamin C (enhances iron absorption) should be encouraged.
+
+### Step 5: MATRIX
+**Prompt**: Match prenatal test with timing:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| First trimester screening | **11-14 weeks** |
+| Anatomy scan | **18-22 weeks** |
+| GBS screening | **35-37 weeks** |
+
+**Rationale**:
+> First trimester: 11-14 wks (NT, PAPP-A, hCG). Anatomy: 18-22 wks. GBS: 35-37 wks.
+
+### Step 6: BOWTIE
+**Prompt**: 35-year-old G1P0 with chronic hypertension.
+
+**Correct Answer**:
+- **Condition**: High-risk pregnancy
+- **Actions to Take**:
+  - More frequent visits
+  - NST/BPP monitoring
+- **Parameters to Monitor**:
+  - Fetal growth
+  - Blood pressure
+
+**Rationale**:
+> AMA + chronic HTN = high risk. More visits, fetal surveillance, MFM referral. Monitor growth and BP.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document prenatal visit.
+
+**Correct Answer**:
+- **BLANK1**: gestational age
+- **BLANK2**: 10-12
+- **BLANK3**: 16-20
+
+**Rationale**:
+> FH = GA in cm after 20 weeks. FHT by doppler 10-12 weeks. Quickening (first movement felt) 16-20 weeks.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight warning signs in pregnancy.
+
+**Correct Answer**:
+- [x] Vaginal bleeding
+- [x] Severe headache
+- [x] Visual changes
+- [x] Decreased fetal movement
+
+**Rationale**:
+> Warning signs: bleeding, headache/visual changes (preeclampsia), decreased movement. Mild nausea and urinary frequency are normal.
+
+---
+
+## Mission 74: The Dizzy Spell: Supine Hypotension in Pregnancy (M-074)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The nurse recognizes Rachel's symptoms are caused by:
+
+**Correct Answer**:
+
+**Rationale**:
+> The sudden onset of hypotension, tachycardia, dizziness, and fetal bradycardia after lying supine for 10 minutes at 34 weeks is classic supine hypotension syndrome. The heavy uterus compresses the IVC, reducing venous return and cardiac output. This directly reduces uteroplacental perfusion, causing fetal bradycardia.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The PRIORITY nursing action is:
+
+**Correct Answer**:
+
+**Rationale**:
+> The IMMEDIATE intervention for supine hypotension is to turn the mother to her LEFT LATERAL side. This rolls the uterus off the IVC, restoring venous return and cardiac output. Both maternal BP and fetal heart rate should improve rapidly. This is a position-related problem, not a cardiac emergency.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: After repositioning to left lateral, Rachel's BP improves to 122/76 and the FHR returns to 138 bpm with moderate variability. This response confirms:
+
+**Correct Answer**:
+
+**Rationale**:
+> The rapid resolution of maternal hypotension and fetal bradycardia with position change confirms supine hypotension syndrome. No further emergency intervention is needed. This is a teachable moment — the nurse should educate Rachel about avoiding the supine position.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The nurse teaches Rachel about preventing supine hypotension for the remainder of her pregnancy. Which instructions are appropriate?
+
+**Correct Answer**:
+- [x] Avoid lying flat on your back, especially after 20 weeks
+- [x] Sleep on your left side — this optimizes blood flow to the uterus
+- [x] Use a pillow behind your back if you tend to roll onto your back while sleeping
+- [x] If you feel dizzy while lying down, immediately turn to your left side
+
+**Rationale**:
+> All are correct except bed rest — supine hypotension does NOT require bed rest. Left lateral position is optimal for uteroplacental perfusion. A pillow behind the back prevents rolling supine during sleep. The client should immediately reposition to the left side if symptoms occur. This education should be reinforced at every subsequent visit.
+
+### Step 5: MATRIX
+**Prompt**: Match pregnancy position with effect:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Supine position | **Decreases venous return** |
+| Left lateral position | **Optimizes placental perfusion** |
+
+**Rationale**:
+> Supine: vena cava compression reduces venous return. Left lateral: relieves compression, optimizes perfusion.
+
+### Step 6: BOWTIE
+**Prompt**: Pregnant woman dizzy and pale lying on back for procedure.
+
+**Correct Answer**:
+- **Condition**: Supine hypotension syndrome
+- **Actions to Take**:
+  - Turn to left side
+  - Elevate legs
+- **Parameters to Monitor**:
+  - Blood pressure
+  - Fetal heart rate
+
+**Rationale**:
+> Supine hypotension: turn left side immediately. Compression relieves, BP and FHR should normalize.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document supine hypotension.
+
+**Correct Answer**:
+- **BLANK1**: vena cava
+- **BLANK2**: second/third
+- **BLANK3**: dizziness/pallor
+- **BLANK4**: left lateral position
+
+**Rationale**:
+> Vena cava compression by gravid uterus in 2nd/3rd trimester. Symptoms: dizziness, pallor, nausea. Turn left side.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight supine hypotension symptoms.
+
+**Correct Answer**:
+- [x] Dizziness
+- [x] Pallor
+- [x] Diaphoresis
+- [x] Hypotension
+- [x] Fetal bradycardia
+
+**Rationale**:
+> Supine hypotension: dizziness, pallor, sweating, low BP, fetal distress. Hypertension and seizures suggest preeclampsia/eclampsia.
+
+---
+
+## Mission 75: The Painless Bleed: Placenta Previa Management (M-075)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the painless bright red bleeding at 32 weeks with known low-lying placenta, the nurse suspects:
+
+**Correct Answer**:
+
+**Rationale**:
+> Painless bright red vaginal bleeding is the hallmark of placenta previa. The ultrasound confirms complete (total) previa — the placenta completely covers the cervical os. This is NOT abruption (which would be painful with a rigid uterus). Vaginal delivery is not possible with complete previa; cesarean delivery is required.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The nurse knows that which action is CONTRAINDICATED with suspected placenta previa?
+
+**Correct Answer**:
+
+**Rationale**:
+> A digital vaginal/cervical examination is CONTRAINDICATED in placenta previa because inserting fingers through the cervix could disrupt the placenta covering the os, causing massive, life-threatening hemorrhage. Diagnosis is made by ultrasound, NOT vaginal exam. All other listed interventions are appropriate.
+
+### Step 3: EXTENDED SATA
+**Prompt**: The nurse implements the following interventions for Carmen. Which are appropriate?
+
+**Correct Answer**:
+- [x] Continuous fetal monitoring
+- [x] Establish large-bore IV access
+- [x] Type and crossmatch for 2 units packed RBCs
+- [x] Strict bed rest with bathroom privileges only
+- [x] Monitor vital signs every 15 minutes
+- [x] Prepare for possible emergency cesarean delivery
+
+**Rationale**:
+> All interventions are appropriate: continuous FHR monitoring for fetal status, large-bore IV for fluid/blood replacement, type and crossmatch in case transfusion is needed, bed rest to minimize bleeding, frequent vital signs to detect hemorrhage, and cesarean preparation since vaginal delivery is impossible with complete previa.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Carmen's bleeding stabilizes. She asks why she cannot have a vaginal delivery. The nurse explains:
+
+**Correct Answer**:
+
+**Rationale**:
+> With complete placenta previa, the placenta covers the entire cervical os. During vaginal delivery, cervical dilation would tear the placenta away from the uterine wall, causing massive hemorrhage that could be fatal for both mother and baby. Cesarean delivery is the ONLY safe delivery option for complete previa.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate placenta previa vs abruption:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Painless bright red bleeding | **Placenta previa** |
+| Painful dark bleeding with rigid abdomen | **Placental abruption** |
+
+**Rationale**:
+> Previa: painless bright red bleeding. Abruption: painful dark bleeding, rigid uterus.
+
+### Step 6: BOWTIE
+**Prompt**: 28-week pregnant woman with sudden painless vaginal bleeding.
+
+**Correct Answer**:
+- **Condition**: Placenta previa
+- **Actions to Take**:
+  - Bed rest/pelvic rest
+  - NO vaginal exam
+- **Parameters to Monitor**:
+  - Bleeding amount
+  - Fetal heart rate
+
+**Rationale**:
+> Previa: NO vaginal exam (can cause hemorrhage). Bed rest, pelvic rest. Monitor bleeding, FHR, H/H.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document placenta previa management.
+
+**Correct Answer**:
+- **BLANK1**: ultrasound
+- **BLANK2**: Vaginal
+- **BLANK3**: cesarean
+- **BLANK4**: RhoGAM
+
+**Rationale**:
+> US diagnoses previa. NO vaginal exam. Complete previa = cesarean. RhoGAM for Rh negative with bleeding.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight placenta previa management.
+
+**Correct Answer**:
+- [x] Bed rest
+- [x] Pelvic rest
+- [x] NO vaginal exam
+- [x] Cesarean delivery
+
+**Rationale**:
+> Previa: bed rest, pelvic rest, NO vaginal exam, cesarean if complete.
+
+---
+
+## Mission 76: The Rising Pressure: Preeclampsia Assessment (M-076)
+
+### Step 1: EXTENDED SATA
+**Prompt**: The nurse identifies which SEVERE features of preeclampsia in Brittany's presentation?
+
+**Correct Answer**:
+- [x] BP 168/110 (≥160 systolic or ≥110 diastolic)
+- [x] Severe headache unrelieved by acetaminophen
+- [x] Visual disturbances (seeing spots)
+- [x] Epigastric pain
+- [x] Proteinuria +3
+- [x] Hyperreflexia with clonus
+
+**Rationale**:
+> All except weight gain alone are SEVERE features of preeclampsia. Weight gain of 5 lbs/week suggests fluid retention but is not by itself a severe feature. The combination of severely elevated BP, CNS symptoms (headache, visual changes, hyperreflexia/clonus), epigastric pain (liver involvement), and heavy proteinuria indicates severe preeclampsia with possible developing HELLP syndrome.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The nurse anticipates which PRIORITY medication order?
+
+**Correct Answer**:
+
+**Rationale**:
+> IV magnesium sulfate is the PRIORITY — it prevents seizures (eclampsia) in severe preeclampsia. Seizure prevention is more important than BP control. IV labetalol or hydralazine will be given for BP management, but magnesium sulfate comes first. NSAIDs are contraindicated in pregnancy. Narcotics mask neurological assessment.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Brittany's labs show elevated LDH, elevated liver enzymes, and low platelets. The nurse recognizes this as:
+
+**Correct Answer**:
+
+**Rationale**:
+> HELLP = Hemolysis (elevated LDH), Elevated Liver enzymes (AST/ALT), Low Platelet count. This is a severe, life-threatening complication of preeclampsia. RUQ/epigastric pain, nausea, and malaise are warning signs. Treatment requires magnesium sulfate, antihypertensives, and expedient delivery. Most patients improve after delivery.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: The provider decides to proceed with delivery. The nurse understands that the definitive cure for preeclampsia is:
+
+**Correct Answer**:
+
+**Rationale**:
+> BIRTH is the only cure for preeclampsia. At 36 weeks with severe features and developing HELLP, delivery is indicated. The fetus is viable and the BPP is reassuring. Magnesium sulfate is continued during labor and for 24-48 hours postpartum to prevent eclamptic seizures. Most patients improve rapidly after delivery.
+
+### Step 5: MATRIX
+**Prompt**: Classify preeclampsia severity:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| BP 145/95, proteinuria, no symptoms | **Preeclampsia without severe features** |
+| BP 165/110, headache, elevated LFTs | **Preeclampsia with severe features** |
+
+**Rationale**:
+> Without severe: BP <160/110, no symptoms. With severe: BP ≥160/110, symptoms, labs abnormal.
+
+### Step 6: BOWTIE
+**Prompt**: BP 170/115, 3+ protein, headache at 35 weeks.
+
+**Correct Answer**:
+- **Condition**: Preeclampsia with severe features
+- **Actions to Take**:
+  - IV magnesium sulfate
+  - Antihypertensive (labetalol/hydralazine)
+- **Parameters to Monitor**:
+  - DTRs (reflexes)
+  - Respiratory rate
+
+**Rationale**:
+> Severe preeclampsia: magnesium for seizure prophylaxis, antihypertensives, plan delivery. Monitor for mag toxicity: DTRs, UOP, RR.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document magnesium sulfate administration.
+
+**Correct Answer**:
+- **BLANK1**: absent
+- **BLANK2**: 25
+- **BLANK3**: 12
+- **BLANK4**: calcium gluconate
+
+**Rationale**:
+> Mag toxicity: absent reflexes, oliguria <25mL/hr, resp depression <12. Calcium gluconate is antidote.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight severe preeclampsia features.
+
+**Correct Answer**:
+- [x] BP 170/115
+- [x] Headache
+- [x] Visual changes
+- [x] RUQ pain
+- [x] Platelets 85,000
+
+**Rationale**:
+> Severe features: BP ≥160/110, CNS symptoms, RUQ pain (liver), thrombocytopenia. Normal creatinine and moderate proteinuria alone are not severe.
+
+---
+
+## Mission 77: The Active Labor: FHR Monitoring & Stage Assessment (M-077)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the cervical exam (6cm, 80% effaced, -1 station), the nurse identifies Danielle is in which stage and phase of labor?
+
+**Correct Answer**:
+
+**Rationale**:
+> At 6cm dilation with progressive effacement and descent, Danielle is in the first stage of labor, active phase (typically 4-7cm). The latent phase is 0-3cm. Transition is 8-10cm. The second stage begins at complete dilation (10cm) and ends with delivery. The first stage is the longest stage.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The FHR tracing shows occasional early decelerations that mirror contractions. The nurse interprets this as:
+
+**Correct Answer**:
+
+**Rationale**:
+> Early decelerations mirror contractions (start with the contraction, recover with the contraction). They are caused by fetal head compression as the head descends through the birth canal. This is a NORMAL, BENIGN finding. VEAL CHOP: Early = Head compression. Late decelerations (delayed onset/recovery) would indicate uteroplacental insufficiency and require intervention.
+
+### Step 3: EXTENDED SATA
+**Prompt**: The nurse's ongoing assessments during active labor should include:
+
+**Correct Answer**:
+- [x] FHR every 30 minutes (no risk factors present)
+- [x] Contraction frequency, duration, and intensity
+- [x] Vital signs per protocol
+- [x] Assess progress of cervical dilation
+- [x] Monitor color and amount of amniotic fluid
+- [x] Assess maternal coping and pain level
+
+**Rationale**:
+> All are appropriate ongoing assessments during active labor: FHR q30min (q15min with risk factors), contraction assessment, vital signs, cervical progress, amniotic fluid monitoring (green/foul-smelling = concern), and maternal coping/pain assessment. Comprehensive monitoring ensures both maternal and fetal well-being.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Danielle delivers a healthy baby boy. The 1-minute Apgar score is: HR 140, strong cry, active movement, grimace with stimulation, body pink with blue extremities. The score is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Apgar scoring: HR >100 = 2, Strong cry (good respiratory effort) = 2, Active movement (good muscle tone) = 2, Grimace (reflex response) = 2, Body pink with blue extremities (acrocyanosis) = 1. Total = 9/10. Acrocyanosis (blue hands/feet) is common in the first minutes and typically receives a score of 1 for color. A perfect 10 is rare at 1 minute.
+
+### Step 5: MATRIX
+**Prompt**: Classify FHR patterns:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Gradual decrease and return with contraction | **Early deceleration** |
+| Abrupt decrease unrelated to contraction | **Variable deceleration** |
+| Decrease beginning after contraction peak | **Late deceleration** |
+
+**Rationale**:
+> Early: head compression, mirrors contraction. Variable: cord compression, abrupt. Late: uteroplacental insufficiency, after peak.
+
+### Step 6: BOWTIE
+**Prompt**: FHR 140s, moderate variability, occasional variable decelerations.
+
+**Correct Answer**:
+- **Condition**: Category II FHR tracing
+- **Actions to Take**:
+  - Position changes
+  - O2 and IV fluids
+- **Parameters to Monitor**:
+  - FHR variability
+  - Presence of accelerations
+
+**Rationale**:
+> Category II: not normal, not pathologic. Intrauterine resuscitation: position, O2, fluids. Continue monitoring.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document FHR assessment.
+
+**Correct Answer**:
+- **BLANK1**: 110-160
+- **BLANK2**: 6-25
+- **BLANK3**: 15
+
+**Rationale**:
+> Normal: 110-160 bpm baseline, moderate variability 6-25 bpm, accelerations 15 bpm x 15 sec (10x10 if <32 wks).
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight reassuring FHR findings.
+
+**Correct Answer**:
+- [x] Baseline 145
+- [x] Moderate variability
+- [x] Accelerations
+- [x] Early decelerations
+
+**Rationale**:
+> Reassuring: normal baseline, moderate variability, accelerations, early decels (benign). Late decels and minimal variability are concerning.
+
+---
+
+## Mission 78: The Late Deceleration: Nonreassuring FHR Response (M-078)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The nurse recognizes recurrent late decelerations indicate:
+
+**Correct Answer**:
+
+**Rationale**:
+> Late decelerations indicate uteroplacental insufficiency — inadequate oxygen delivery to the fetus during contractions. They begin AFTER the contraction peaks and return to baseline AFTER the contraction ends. Recurrent late decelerations with decreasing variability is an ominous pattern requiring immediate intervention. VEAL CHOP: Late = Placental insufficiency.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse implements which IMMEDIATE interventions? (Select all that apply)
+
+**Correct Answer**:
+- [x] Turn the client to her LEFT LATERAL side
+- [x] Administer oxygen via face mask at 8-10 L/min
+- [x] STOP the Pitocin infusion immediately
+- [x] Increase IV fluid rate (bolus)
+- [x] Notify the provider immediately
+
+**Rationale**:
+> Interventions for late decelerations: LEFT side (improve placental perfusion), oxygen 8-10 L/min (increase O2 to fetus), STOP Pitocin (reduce uterine hyperstimulation — the contractions are too frequent with inadequate rest), IV fluid bolus (improve maternal volume), and notify the provider. NEVER increase Pitocin with late decelerations — this would worsen the problem.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: The Pitocin is stopped and the client is repositioned to left lateral. After 10 minutes, the FHR tracing shows baseline 140, moderate variability returns, and no late decelerations. This indicates:
+
+**Correct Answer**:
+
+**Rationale**:
+> The return of moderate variability, normal baseline, and resolution of late decelerations after stopping Pitocin and repositioning indicates improved uteroplacental perfusion. The interventions were effective. Pitocin may be cautiously restarted at a lower dose after discussion with the provider, with close monitoring.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: The contractions were occurring every 2 minutes with only 45 seconds of rest between them. This pattern is called:
+
+**Correct Answer**:
+
+**Rationale**:
+> Uterine tachysystole is defined as contractions occurring too frequently (>5 in 10 minutes) with inadequate relaxation intervals. Normal contraction spacing should be >2 minutes apart with duration <90 seconds and relaxation ≥60 seconds. Tachysystole reduces placental perfusion time between contractions, contributing to late decelerations. Pitocin dose should be reduced or stopped.
+
+### Step 5: MATRIX
+**Prompt**: Match FHR pattern with intervention:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Late decelerations | **Turn to side, O2, stop oxytocin** |
+| Variable decelerations | **Position change, amnioinfusion** |
+| Prolonged deceleration | **Prepare for emergency delivery** |
+
+**Rationale**:
+> Late: placental issue - position, O2, stop pit. Variable: cord - position change, amnioinfusion. Prolonged: emergency.
+
+### Step 6: BOWTIE
+**Prompt**: FHR 80 bpm, absent variability, recurrent late decelerations.
+
+**Correct Answer**:
+- **Condition**: Category III FHR tracing
+- **Actions to Take**:
+  - Immediate intrauterine resuscitation
+  - Prepare for cesarean
+- **Parameters to Monitor**:
+  - FHR response to interventions
+  - Time to delivery
+
+**Rationale**:
+> Category III: sinusoidal, absent variability with recurrent lates/variables, bradycardia. Emergent delivery if no improvement.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document FHR emergency response.
+
+**Correct Answer**:
+- **BLANK1**: emergent
+- **BLANK2**: intrauterine resuscitation
+- **BLANK3**: discontinue immediately
+
+**Rationale**:
+> Category III = emergent delivery if interventions fail. First: position, O2, fluids. Stop Pitocin immediately.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight Category III findings.
+
+**Correct Answer**:
+- [x] Absent variability
+- [x] Recurrent late decelerations
+- [x] Sinusoidal pattern
+- [x] Bradycardia 70
+
+**Rationale**:
+> Category III: absent variability + recurrent lates/variables, sinusoidal, bradycardia. Normal baseline and accelerations are reassuring.
+
+---
+
+## Mission 79: The Prolapsed Cord: Obstetric Emergency (M-079)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Upon palpating a pulsating umbilical cord in the vagina, the nurse's IMMEDIATE action is:
+
+**Correct Answer**:
+
+**Rationale**:
+> The nurse must keep the hand in the vagina to lift the presenting part (fetal head) off the compressed cord — this restores blood flow to the fetus. Simultaneously call for emergency help. DO NOT remove the hand, push the cord back, or clamp it. The nurse may need to maintain this position during transport to the OR for emergency cesarean.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: While maintaining pressure off the cord, the nurse should position Keisha in:
+
+**Correct Answer**:
+
+**Rationale**:
+> Knee-chest (face down, buttocks elevated) or Trendelenburg (head lower than hips) uses gravity to move the fetus up and away from the prolapsed cord, reducing compression. This is maintained during transport to the OR. Supine or upright positions would increase pressure on the cord.
+
+### Step 3: EXTENDED SATA
+**Prompt**: Additional emergency interventions include:
+
+**Correct Answer**:
+- [x] Keep the exposed cord warm and moist with sterile saline-soaked towels
+- [x] Administer tocolytic (terbutaline) if ordered to stop contractions
+- [x] Prepare for emergency cesarean delivery
+- [x] Continuous fetal heart rate monitoring
+
+**Rationale**:
+> Keep the cord moist and warm (prevents vasospasm), tocolytics stop contractions (reduces intermittent cord compression), emergency cesarean is the definitive treatment, and continuous FHR monitoring tracks fetal status. Oxytocin would be CONTRAINDICATED — it would increase contractions and worsen cord compression.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: The FHR recovers to 130 bpm after elevating the presenting part. This indicates:
+
+**Correct Answer**:
+
+**Rationale**:
+> FHR recovery confirms that elevating the head off the cord restored blood flow — the intervention is working. However, the cord is still prolapsed and will be recompressed if the hand is removed or contractions push the head down. Emergency cesarean remains necessary. The nurse must maintain the position until the baby is delivered surgically.
+
+### Step 5: MATRIX
+**Prompt**: Match cord prolapse intervention:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Elevate presenting part | **Appropriate action** |
+| Trendelenburg or knee-chest | **Appropriate action** |
+| Push cord back in | **Contraindicated** |
+
+**Rationale**:
+> Elevate presenting part, position change to relieve pressure. Never push cord back in.
+
+### Step 6: BOWTIE
+**Prompt**: Visible cord at introitus after ROM, FHR dropping.
+
+**Correct Answer**:
+- **Condition**: Cord prolapse
+- **Actions to Take**:
+  - Elevate presenting part manually
+  - Emergency cesarean
+- **Parameters to Monitor**:
+  - FHR continuously
+  - Cord pulsation
+
+**Rationale**:
+> Emergency: elevate presenting part, position, emergency cesarean. Monitor FHR and cord pulse.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document cord prolapse.
+
+**Correct Answer**:
+- **BLANK1**: knee-chest/Trendelenburg
+- **BLANK2**: moist/warm
+- **BLANK3**: emergency cesarean
+
+**Rationale**:
+> Knee-chest/Trendelenburg reduces pressure. Keep cord moist. Emergency cesarean needed.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight cord prolapse management.
+
+**Correct Answer**:
+- [x] Elevate presenting part
+- [x] Knee-chest position
+- [x] Keep cord moist
+- [x] Immediate cesarean
+
+**Rationale**:
+> Correct: elevate, position, keep moist, cesarean. Never push cord back.
+
+---
+
+## Mission 80: The Early Arrival: Preterm Labor Management (M-080)
+
+### Step 1: EXTENDED SATA
+**Prompt**: Which of Stephanie's risk factors increase her likelihood of preterm labor?
+
+**Correct Answer**:
+- [x] Previous preterm birth at 34 weeks
+- [x] Smoking during pregnancy
+- [x] History of UTI during pregnancy
+- [x] Physically demanding job with prolonged standing
+- [x] Positive fetal fibronectin test
+- [x] Cervical change from closed to 2cm dilated
+
+**Rationale**:
+> All are significant risk factors. Previous preterm birth is the strongest predictor. Smoking, infection (UTI), prolonged standing, positive fFN, and progressive cervical change all increase preterm labor risk. The combination of multiple risk factors makes Stephanie very high-risk for preterm delivery.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The PRIMARY reason betamethasone is ordered is to:
+
+**Correct Answer**:
+
+**Rationale**:
+> Betamethasone (corticosteroid) accelerates fetal lung maturity by stimulating surfactant production. At 30 weeks, the fetal lungs are immature — surfactant deficiency causes respiratory distress syndrome (RDS). Two doses are given 24 hours apart; ideally 48 hours before delivery. Tocolytics buy time for the steroids to work.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: The nurse monitors Stephanie on magnesium sulfate. Which finding would require IMMEDIATE action?
+
+**Correct Answer**:
+
+**Rationale**:
+> Magnesium sulfate toxicity signs: respiratory depression (RR <12), absent DTRs, decreased urine output (<30 mL/hr), and cardiac arrest. RR 10 with absent DTRs indicates magnesium toxicity — STOP the infusion immediately and prepare to administer the antidote: calcium gluconate. Normal findings include RR ≥12, DTRs present (1-2+), and urine output ≥30 mL/hr.
+
+### Step 4: EXTENDED SATA
+**Prompt**: Discharge teaching for Stephanie should include:
+
+**Correct Answer**:
+- [x] Complete smoking cessation — smoking increases preterm labor risk
+- [x] Recognize and report signs of preterm labor (contractions, back pain, pelvic pressure, discharge changes)
+- [x] Stay well-hydrated — dehydration can trigger contractions
+- [x] Avoid prolonged standing — discuss work modifications
+- [x] Attend all follow-up prenatal appointments
+- [x] Signs that you should return immediately: regular contractions, fluid gush, bleeding, decreased fetal movement
+
+**Rationale**:
+> All are appropriate discharge teachings. Smoking cessation is critical. Recognizing preterm labor signs enables early intervention. Hydration prevents dehydration-triggered contractions. Work modifications reduce physical strain. Consistent prenatal care allows monitoring. Return precautions ensure timely re-evaluation if symptoms recur.
+
+### Step 5: MATRIX
+**Prompt**: Match preterm labor intervention:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Tocolytics | **Stop contractions temporarily** |
+| Betamethasone | **Fetal lung maturity** |
+| Magnesium sulfate | **Neuroprotection** |
+
+**Rationale**:
+> Tocolytics delay delivery 48h. Steroids mature lungs. Mag sulfate protects fetal brain.
+
+### Step 6: BOWTIE
+**Prompt**: 28-week pregnant, contractions q5min, cervix 3cm dilated.
+
+**Correct Answer**:
+- **Condition**: Preterm labor
+- **Actions to Take**:
+  - IV tocolytics
+  - Betamethasone x2 doses
+- **Parameters to Monitor**:
+  - Cervical change
+  - FHR
+
+**Rationale**:
+> True preterm labor: tocolytics to delay, steroids for lung maturity. Monitor cervical change and fetal status.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document preterm labor management.
+
+**Correct Answer**:
+- **BLANK1**: 48
+- **BLANK2**: 24
+- **BLANK3**: neuroprotection
+
+**Rationale**:
+> Tocolytics for 48h. Two steroid doses 24h apart. Mag protects fetal brain.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight preterm labor criteria.
+
+**Correct Answer**:
+- [x] Regular contractions
+- [x] Cervical change
+- [x] Gestational age 28 weeks
+
+**Rationale**:
+> Preterm labor: regular contractions with cervical change before 37 weeks.
+
+---
+
+## Mission 81: The Boggy Fundus: Postpartum Hemorrhage Prevention (M-081)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The nurse finds the fundus boggy, above the umbilicus, and displaced to the right. The MOST likely cause is:
+
+**Correct Answer**:
+
+**Rationale**:
+> A fundus that is above the expected level AND displaced to one side (usually the right) strongly suggests a full/distended bladder pushing the uterus up and over. The full bladder prevents the uterus from contracting, causing it to remain boggy and increasing hemorrhage risk. The FIRST intervention is to empty the bladder.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse's PRIORITY interventions include: (Select all that apply)
+
+**Correct Answer**:
+- [x] Assist the client to void or catheterize if unable
+- [x] Massage the fundus firmly until it becomes firm
+- [x] Assess vital signs for signs of hemorrhage
+- [x] Monitor lochia amount and character
+- [x] Notify the provider if the fundus remains boggy after voiding and massage
+- [x] Administer oxytocin as ordered if uterus remains atonic
+
+**Rationale**:
+> All are appropriate: empty the bladder FIRST (allows uterus to contract), massage the fundus until firm, monitor vital signs for hemorrhage (HR trending up, BP trending down are early signs), monitor lochia, and notify the provider if interventions fail. Oxytocin (Pitocin) or methylergonovine may be ordered for persistent atony.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: After voiding 600 mL of urine and fundal massage, the fundus is now firm, midline, and at the umbilicus. Lochia decreases to moderate. This indicates:
+
+**Correct Answer**:
+
+**Rationale**:
+> Resolution of the boggy fundus after bladder emptying and massage confirms that the distended bladder was preventing uterine contraction. The fundus is now firm, midline, at the expected level, and bleeding has decreased. Continue monitoring vital signs, fundal tone, and lochia closely.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The nurse teaches Andrea about postpartum self-monitoring at home. Which instructions are important?
+
+**Correct Answer**:
+- [x] Monitor lochia — it should progress from red to pink to white over 3 weeks
+- [x] Report any return to bright red bleeding after it had changed to pink or white
+- [x] Report foul-smelling discharge or fever above 100.4°F
+- [x] Lochia should gradually decrease — soaking a pad in less than 1 hour is abnormal
+- [x] Report passage of large clots (bigger than a quarter)
+
+**Rationale**:
+> All are important discharge teachings. Lochia should progress rubra→serosa→alba over 3 weeks. Reverting to red suggests retained fragments or overexertion. Foul odor/fever suggests infection. Saturating a pad in <1 hour or passing large clots indicates excessive bleeding requiring evaluation.
+
+### Step 5: MATRIX
+**Prompt**: Match fundal assessment:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Firm fundus at umbilicus | **Normal finding** |
+| Boggy fundus above umbilicus | **Intervention needed** |
+
+**Rationale**:
+> Firm at umbilicus = normal. Boggy above umbilicus = atony, massage needed.
+
+### Step 6: BOWTIE
+**Prompt**: 2 hours postpartum, boggy fundus, heavy bleeding.
+
+**Correct Answer**:
+- **Condition**: Uterine atony
+- **Actions to Take**:
+  - Fundal massage
+  - Oxytocin infusion
+- **Parameters to Monitor**:
+  - Fundal tone
+  - Lochia amount
+
+**Rationale**:
+> Atony: massage fundus, empty bladder, oxytocin. Monitor tone and bleeding.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document PPH prevention.
+
+**Correct Answer**:
+- **BLANK1**: firm at umbilicus
+- **BLANK2**: support lower segment
+- **BLANK3**: oxytocin
+
+**Rationale**:
+> Firm fundus at umbilicus normal. Massage with lower segment support. Oxytocin first-line.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight PPH risk factors.
+
+**Correct Answer**:
+- [x] Uterine atony
+- [x] Overdistended uterus
+- [x] Prolonged labor
+- [x] Oxytocin augmentation
+
+**Rationale**:
+> PPH risks: atony, overdistension (multiples, polyhydramnios), prolonged labor, prolonged oxytocin. Primiparity less risk than grand multiparity.
+
+---
+
+## Mission 82: The New Latch: Breastfeeding Assessment & Support (M-082)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The nurse observes the baby latching onto only the nipple with lips curled inward. This incorrect latch is the most likely cause of:
+
+**Correct Answer**:
+
+**Rationale**:
+> Latching onto only the nipple (not the areola) is the #1 cause of nipple soreness and cracking. Correct latch: baby's mouth should be wide open, covering most of the areola (not just the nipple), with lips flanged outward (like fish lips). This compresses the milk sinuses behind the areola for effective milk transfer.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse assists Taylor with improving the breastfeeding technique. Which interventions are appropriate?
+
+**Correct Answer**:
+- [x] Demonstrate how to position the baby with mouth wide open covering the areola
+- [x] Show how the baby's lips should be flanged outward, not curled in
+- [x] Encourage feeding for 15-30 minutes per breast, alternating which breast starts
+- [x] Listen for audible swallowing as a sign of milk transfer
+- [x] Apply lanolin cream to cracked nipples after feeding
+
+**Rationale**:
+> All except restricting feedings are appropriate. Correct latch (wide mouth, areola coverage, flanged lips), adequate feeding duration (15-30 min), audible swallowing, and lanolin cream for healing are all correct. Feeding should be every 2-3 HOURS (not 4-6) — frequent feeding stimulates prolactin and builds milk supply. Restricting feeds would decrease supply.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Taylor states, 'My milk hasn't come in yet — I'm only making colostrum. Maybe I should supplement with formula.' The nurse's BEST response is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Colostrum is the perfect first food — rich in immunoglobulins (IgA), nutrients, and has a laxative effect to eliminate meconium. The small volume is appropriate for the newborn's tiny stomach. Mature milk comes in around day 3-5 (engorgement signals this transition). Frequent feeding (every 2-3 hours) is the best way to stimulate milk production via prolactin release.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: By day 3, Taylor reports her breasts feel very full, hard, and warm. This is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Breast engorgement around day 3 is expected as blood flow increases and milk production ramps up. Management: frequent feeding (every 2-3 hours), warm compresses BEFORE feeding (stimulates let-down), cold compresses AFTER feeding (reduces swelling), and gentle massage. Engorgement ≠ mastitis (which presents with localized redness, fever, and flu-like symptoms).
+
+### Step 5: MATRIX
+**Prompt**: Assess breastfeeding latch:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Wide open mouth, flanged lips | **Good latch** |
+| Clicking sounds, pinched nipple | **Poor latch** |
+
+**Rationale**:
+> Good: wide mouth, lips flanged, no clicking. Poor: narrow, tucked lips, clicking.
+
+### Step 6: BOWTIE
+**Prompt**: Infant clicking during feeds, sore cracked nipples.
+
+**Correct Answer**:
+- **Condition**: Poor latch
+- **Actions to Take**:
+  - Break suction and relatch
+  - Proper positioning
+- **Parameters to Monitor**:
+  - Weight gain
+  - Wet/dirty diapers
+
+**Rationale**:
+> Poor latch: break suction, reposition, ensure wide gape. Monitor output and weight.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document breastfeeding assessment.
+
+**Correct Answer**:
+- **BLANK1**: 6-8
+- **BLANK2**: 7-10
+- **BLANK3**: 8-12
+
+**Rationale**:
+> Day 5+: 6-8 wet diapers. Up to 7-10% weight loss normal. Feed 8-12 times/day.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight good latch signs.
+
+**Correct Answer**:
+- [x] Wide open mouth
+- [x] Flanged lips
+- [x] Audible swallowing
+- [x] Pain-free nursing
+
+**Rationale**:
+> Good latch: wide mouth, flanged lips, swallowing heard, no pain. Clicking and pinching = poor latch.
+
+---
+
+## Mission 83: The Heavy Bleed: Postpartum Hemorrhage Emergency (M-083)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the vital sign trend (HR 80→96→112, BP 128/78→108/68→92/58), the nurse recognizes:
+
+**Correct Answer**:
+
+**Rationale**:
+> The progressive pattern of increasing heart rate and falling blood pressure indicates hypovolemic shock from hemorrhage. Tachycardia is the EARLIEST sign — the body increases HR to compensate for decreasing blood volume. Falling BP occurs later when compensation fails. This is an emergency requiring immediate intervention.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse's IMMEDIATE interventions include:
+
+**Correct Answer**:
+- [x] Massage the boggy fundus firmly until it becomes firm
+- [x] Notify the provider STAT
+- [x] Establish or verify large-bore IV access
+- [x] Administer oxytocin (Pitocin) as ordered to contract the uterus
+- [x] Prepare methylergonovine (Methergine) as a second-line uterotonic
+- [x] Monitor vital signs every 5-15 minutes
+- [x] Type and crossmatch for blood transfusion
+
+**Rationale**:
+> All are appropriate emergency interventions for PPH with hemodynamic instability: fundal massage (immediate first action), provider notification, IV access for fluids/medications/blood, oxytocin to contract the uterus, Methergine as backup, frequent vital signs, and blood typing for possible transfusion.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: After vigorous fundal massage and IV oxytocin, the fundus firms and bleeding slows. The nurse understands the cause was:
+
+**Correct Answer**:
+
+**Rationale**:
+> The fundus responding to massage and oxytocin by becoming firm with decreased bleeding confirms uterine atony as the cause. If the fundus were firm but bleeding continued, laceration would be suspected. If bleeding continued despite a firm fundus and no laceration, retained tissue or coagulopathy would be investigated.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: The 4 Ts help identify the cause of PPH. In Lisa's case, which 'T' was the primary cause?
+
+**Correct Answer**:
+
+**Rationale**:
+> Tone (uterine atony) is the #1 cause of PPH and was the primary cause here: boggy fundus + risk factors (grand multiparity, macrosomia, prolonged oxytocin, prolonged third stage). The fundus responded to massage and uterotonics, confirming atony. The 4 Ts (Tone, Trauma, Tissue, Thrombin) provide a systematic approach to identifying and treating PPH causes.
+
+### Step 5: MATRIX
+**Prompt**: Match PPH cause with intervention:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Tone (atony) | **Fundal massage and uterotonics** |
+| Tissue (retained) | **Manual exploration/D&C** |
+| Trauma (laceration) | **Repair laceration** |
+
+**Rationale**:
+> 4 T's: Tone = massage/meds. Tissue = remove retained. Trauma = surgical repair.
+
+### Step 6: BOWTIE
+**Prompt**: Sudden gush of blood 1 hour postpartum, boggy fundus.
+
+**Correct Answer**:
+- **Condition**: Postpartum hemorrhage
+- **Actions to Take**:
+  - Fundal massage
+  - Notify provider stat
+- **Parameters to Monitor**:
+  - Blood loss estimation
+  - Vital signs
+
+**Rationale**:
+> PPH emergency: massage, oxytocin, notify provider. Monitor vitals and estimate blood loss.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document PPH management.
+
+**Correct Answer**:
+- **BLANK1**: 500
+- **BLANK2**: Tissue
+- **BLANK3**: Thrombin
+
+**Rationale**:
+> PPH: >500mL vaginal, >1000mL cesarean. 4 T's: Tone, Tissue, Trauma, Thrombin.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight PPH emergency actions.
+
+**Correct Answer**:
+- [x] Fundal massage
+- [x] IV oxytocin
+- [x] Type and crossmatch
+- [x] Quantify blood loss
+- [x] MTP activation
+
+**Rationale**:
+> Emergency: massage, meds, prepare for transfusion, quantify loss, activate MTP if massive. Don't just reassess later.
+
+---
+
+## Mission 84: The Dark Cloud: Postpartum Depression Screening (M-084)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Megan's symptoms have persisted for 4 weeks and are worsening. This presentation is most consistent with:
+
+**Correct Answer**:
+
+**Rationale**:
+> Baby blues typically resolve within 2 weeks. Megan's symptoms have persisted for 4+ weeks and are worsening: crying, sleep disturbance, loss of interest, poor appetite, flat affect, and a concerning statement about the baby being 'better off without me.' This is postpartum depression requiring treatment. PP psychosis involves loss of touch with reality (hallucinations, delusions) — not present here.
+
+### Step 2: EXTENDED SATA
+**Prompt**: Which of Megan's risk factors increase her likelihood of PPD?
+
+**Correct Answer**:
+- [x] History of anxiety disorder
+- [x] Unplanned pregnancy
+- [x] Limited social support in new city
+- [x] Partner works long hours
+- [x] First-time mother
+- [x] Statement suggesting passive suicidal ideation
+
+**Rationale**:
+> All are significant risk factors/red flags. History of mental health disorders is one of the strongest predictors. Unplanned pregnancy, inadequate social support, limited partner involvement, and primiparity all increase risk. The statement about the baby being 'better off without me' suggests passive suicidal ideation — this elevates the urgency and requires direct assessment.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Megan's EPDS score is 18 with a score of 2 on the self-harm question. The nurse's PRIORITY action is:
+
+**Correct Answer**:
+
+**Rationale**:
+> An EPDS score of 18 indicates significant depression. A score >0 on the self-harm question requires DIRECT assessment of suicidal ideation. The nurse should ask compassionately and without judgment: 'Have you had thoughts of harming yourself or your baby?' Asking does NOT plant the idea — it opens the door for the patient to seek help. This is the priority before any other intervention.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The nurse's care plan for Megan should include:
+
+**Correct Answer**:
+- [x] Immediate referral to a mental health provider experienced in perinatal mood disorders
+- [x] Discuss treatment options including therapy and medication (SSRIs are first-line for PPD)
+- [x] Develop a safety plan if any suicidal ideation is present
+- [x] Involve the husband in the support plan with his consent
+- [x] Provide resources: postpartum support hotline, local PPD support groups
+- [x] Reassure her that PPD is treatable and she is not a bad mother
+
+**Rationale**:
+> All are appropriate: mental health referral (PPD requires professional treatment), discuss treatment options (CBT, SSRIs), safety planning if SI is present, involve support persons, provide resources, and reassure — PPD is a medical condition, NOT a character flaw. Validate her feelings, reduce shame, and emphasize that treatment works.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate baby blues vs PPD:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Symptoms resolve within 2 weeks | **Baby blues** |
+| Symptoms persist beyond 2 weeks | **Postpartum depression** |
+| Thoughts of harming self or baby | **Emergency** |
+
+**Rationale**:
+> Blues: transient, <2 weeks. PPD: persistent >2 weeks. Harm thoughts = emergency.
+
+### Step 6: BOWTIE
+**Prompt**: 6 weeks postpartum, persistent sadness, difficulty bonding.
+
+**Correct Answer**:
+- **Condition**: Postpartum depression
+- **Actions to Take**:
+  - Screen with validated tool
+  - Assess safety/suicidality
+- **Parameters to Monitor**:
+  - Mood symptoms
+  - Bonding with infant
+
+**Rationale**:
+> PPD: screen (EPDS), assess safety, refer for treatment. Monitor mood and bonding.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document PPD screening.
+
+**Correct Answer**:
+- **BLANK1**: prenatal
+- **BLANK2**: EPDS/PHQ-9
+- **BLANK3**: 10
+
+**Rationale**:
+> Screen prenatal and postpartum. Use validated tools. EPDS >10 or PHQ-9 >10 needs evaluation.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight PPD warning signs.
+
+**Correct Answer**:
+- [x] Persistent sadness >2 weeks
+- [x] Difficulty bonding
+- [x] Sleep disturbance
+- [x] Thoughts of harming
+
+**Rationale**:
+> PPD: persistent symptoms, bonding difficulty, sleep issues, harm thoughts. Mild mood swings and early tearfulness = normal blues.
+
+---
+
+## Mission 85: The First Assessment: Term Newborn Head-to-Toe (M-085)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The student notes acrocyanosis (blue hands and feet). The instructor explains this is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Acrocyanosis is a NORMAL finding in newborns — bluish discoloration of the hands and feet caused by sluggish peripheral circulation. It resolves within 24-48 hours. CENTRAL cyanosis (blue trunk, lips, tongue) would be abnormal and require immediate evaluation for cardiac or respiratory problems.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The student assesses the fontanelles. Which findings would require IMMEDIATE reporting?
+
+**Correct Answer**:
+- [x] Bulging fontanelle — indicates increased intracranial pressure
+- [x] Depressed fontanelle — indicates dehydration
+
+**Rationale**:
+> Both bulging and depressed fontanelles require immediate reporting. Bulging = increased ICP (meningitis, hydrocephalus). Depressed = dehydration. Flat fontanelles and slight molding are NORMAL findings. The posterior fontanelle being small and triangular is also normal (it closes by 2-3 months; anterior closes by 12-18 months).
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: The student asks about the difference between caput succedaneum and cephalohematoma. The key distinguishing feature is:
+
+**Correct Answer**:
+
+**Rationale**:
+> The KEY distinction: Caput succedaneum = soft tissue edema that CROSSES suture lines (can span multiple skull bones), resolves in days. Cephalohematoma = blood collection UNDER the periosteum, confined to ONE bone (does NOT cross suture lines), resolves in weeks. Cephalohematoma increases jaundice risk as blood is reabsorbed.
+
+### Step 4: EXTENDED SATA
+**Prompt**: The student verifies normal newborn reflexes. Which reflexes should be present in a term newborn?
+
+**Correct Answer**:
+- [x] Moro (startle) reflex — symmetric arm extension then flexion
+- [x] Rooting reflex — turns toward stimulus on cheek
+- [x] Strong sucking reflex
+- [x] Palmar grasp — grips examiner's finger
+- [x] Babinski — toes fan outward when sole is stroked
+- [x] Tonic neck (fencing) — arm extends when head is turned
+
+**Rationale**:
+> All listed reflexes should be present in a normal term newborn. Absent or asymmetric reflexes may indicate neurological problems or birth injury. Key disappearance times: Moro ~4 months, rooting ~4 months, grasp ~3 months, tonic neck ~4 months, Babinski ~12-24 months, sucking ~12 months.
+
+### Step 5: MATRIX
+**Prompt**: Match newborn assessment:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| APGAR 7-10 | **Normal** |
+| APGAR 4-6 | **Needs intervention** |
+| APGAR 0-3 | **Severe distress** |
+
+**Rationale**:
+> APGAR: 7-10 normal, 4-6 moderate (stimulation/O2), 0-3 severe (resuscitation).
+
+### Step 6: BOWTIE
+**Prompt**: Vigorous term newborn immediately after delivery.
+
+**Correct Answer**:
+- **Condition**: Term newborn assessment
+- **Actions to Take**:
+  - Dry and stimulate
+  - Assess APGAR at 1 and 5 min
+- **Parameters to Monitor**:
+  - Temperature
+  - Respiratory effort
+
+**Rationale**:
+> Term vigorous newborn: dry, stimulate, APGAR, skin-to-skin. Monitor temp and breathing.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document newborn assessment.
+
+**Correct Answer**:
+- **BLANK1**: 5
+- **BLANK2**: 100
+- **BLANK3**: 97.7-99.5F
+
+**Rationale**:
+> APGAR: 5 areas (Appearance, Pulse, Grimace, Activity, Respiration). HR >100. Temp 97.7-99.5F.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight newborn assessment priorities.
+
+**Correct Answer**:
+- [x] Airway patency
+- [x] Temperature regulation
+- [x] Blood glucose
+- [x] Heart rate
+- [x] Respiratory effort
+
+**Rationale**:
+> Priorities: airway, temp, glucose (if at risk), HR, breathing. Eye color is not immediate priority.
+
+---
+
+## Mission 86: The Cold Baby: Neonatal Thermoregulation Crisis (M-086)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: The baby's temperature of 35.8°C (96.4°F) indicates:
+
+**Correct Answer**:
+
+**Rationale**:
+> Normal newborn temperature is 36.2-37.7°C (97.1-99.8°F). A temperature of 35.8°C is below normal, indicating hypothermia. Newborns are extremely susceptible to heat loss due to their large surface area-to-body mass ratio, thin skin, and inability to shiver. They rely on brown fat metabolism for heat production.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The baby lost heat primarily through which mechanisms during the prolonged exposed assessment?
+
+**Correct Answer**:
+
+**Rationale**:
+> During a prolonged assessment with the baby unwrapped, heat was lost through convection (room air currents cooling exposed skin) and radiation (heat radiating from the baby's body to cooler nearby surfaces). Evaporation occurs with wet skin (mainly right after birth). Conduction occurs with contact on cold surfaces.
+
+### Step 3: EXTENDED SATA
+**Prompt**: The nurse's IMMEDIATE rewarming interventions include:
+
+**Correct Answer**:
+- [x] Place the baby skin-to-skin with the mother under warm blankets
+- [x] Place under a radiant warmer
+- [x] Dress the baby in warm clothes and a hat (head is a major source of heat loss)
+- [x] Monitor temperature every 15-30 minutes until stable
+- [x] Check blood glucose — hypothermia increases hypoglycemia risk
+
+**Rationale**:
+> Rewarming: skin-to-skin contact (kangaroo care), radiant warmer, warm clothing with hat (the head accounts for significant heat loss), frequent temperature monitoring, and blood glucose check (cold stress increases glucose consumption, risking hypoglycemia). Do NOT bathe a hypothermic newborn — this would cause further heat loss through evaporation.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: The nurse checks the baby's blood glucose and finds it is 38 mg/dL. In a term newborn, this indicates:
+
+**Correct Answer**:
+
+**Rationale**:
+> A blood glucose below 45 mg/dL in a term newborn indicates hypoglycemia. Cold stress triggers increased metabolic rate and glucose consumption as the baby tries to generate heat through brown fat metabolism. The nurse should feed the baby (breast or formula) and recheck glucose in 30 minutes. If unable to feed or glucose remains low, IV dextrose may be needed.
+
+### Step 5: MATRIX
+**Prompt**: Match thermoregulation issue:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Cold stress | **Causes hypoglycemia and acidosis** |
+| Hyperthermia | **Causes tachycardia and dehydration** |
+
+**Rationale**:
+> Cold stress: uses glucose for heat, causes acidosis. Hyperthermia: tachy, fluid loss.
+
+### Step 6: BOWTIE
+**Prompt**: Newborn temp 96.5F, jittery, poor feeding.
+
+**Correct Answer**:
+- **Condition**: Neonatal hypothermia
+- **Actions to Take**:
+  - Skin-to-skin warming
+  - Check blood glucose
+- **Parameters to Monitor**:
+  - Temperature q15-30min
+  - Blood glucose
+
+**Rationale**:
+> Hypothermia: warm baby, check glucose (cold stress causes hypoglycemia). Monitor temp frequently.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document thermoregulation.
+
+**Correct Answer**:
+- **BLANK1**: 97.7-99.5F
+- **BLANK2**: hypoglycemia
+- **BLANK3**: skin-to-skin/radiant warmer
+
+**Rationale**:
+> Normal: 97.7-99.5F. Cold stress depletes glucose. Skin-to-skin or radiant warmer most effective.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight cold stress signs.
+
+**Correct Answer**:
+- [x] Jitteriness
+- [x] Hypoglycemia
+- [x] Respiratory distress
+- [x] Metabolic acidosis
+
+**Rationale**:
+> Cold stress: jittery, low glucose, respiratory issues, acidosis. Warm pink skin and normal HR are reassuring.
+
+---
+
+## Mission 87: The Three Discharges: Vaginitis Differentiation (M-087)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the thick, white, cottage cheese-like discharge with intense itching and NO odor, the nurse suspects:
+
+**Correct Answer**:
+
+**Rationale**:
+> The classic presentation of Candida: white, thick, cottage cheese-like discharge with intense itching/burning and NO odor. BV has thin gray discharge with fishy odor. Trichomonas has yellow-green frothy discharge with foul smell and 'strawberry cervix.' Each type has a distinctive presentation that aids clinical identification.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The most likely precipitating factor for Priya's yeast infection is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Antibiotics (especially broad-spectrum like amoxicillin) are the #1 preventable cause of yeast infections. They kill protective Lactobacillus bacteria in the vagina, disrupting the normal acidic pH and allowing Candida overgrowth. Teaching patients about this risk when prescribing antibiotics helps with early recognition.
+
+### Step 3: EXTENDED SATA
+**Prompt**: The nurse teaches Priya about preventing recurrent yeast infections. Which instructions are appropriate?
+
+**Correct Answer**:
+- [x] Wear cotton underwear and avoid tight-fitting clothing
+- [x] Avoid unnecessary antibiotic use
+- [x] Eat yogurt with live cultures to help restore vaginal flora
+- [x] Keep the vulvar area clean and dry
+- [x] Complete the full course of antifungal treatment
+
+**Rationale**:
+> Prevention: cotton underwear (breathable), avoid unnecessary antibiotics, probiotics/yogurt (restore Lactobacillus), keep area clean and dry, and complete antifungal treatment. Douching is NEVER recommended — it disrupts normal vaginal flora and increases infection risk. If infections recur, the partner should be evaluated.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: If Priya's discharge had been yellow-green, frothy, and foul-smelling with a 'strawberry cervix,' the nurse would suspect Trichomonas. The MOST important teaching point for Trichomonas treatment with metronidazole (Flagyl) is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Metronidazole (Flagyl) + alcohol = disulfiram-like reaction: severe nausea, vomiting, flushing, headache, and abdominal cramps. Alcohol must be avoided during treatment and for at least 48 hours after. BOTH partners must be treated simultaneously. The full course must be completed even if symptoms resolve early.
+
+### Step 5: MATRIX
+**Prompt**: Differentiate vaginitis types:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| White cottage cheese discharge | **Candidiasis** |
+| Gray fishy discharge | **Bacterial vaginosis** |
+| Yellow-green frothy discharge | **Trichomoniasis** |
+
+**Rationale**:
+> Candida: white, thick, odorless. BV: gray, fishy. Trich: yellow-green, frothy.
+
+### Step 6: BOWTIE
+**Prompt**: Gray discharge, fishy odor, pH 5.0, clue cells.
+
+**Correct Answer**:
+- **Condition**: Bacterial vaginosis
+- **Actions to Take**:
+  - Metronidazole
+  - Educate on completing full antibiotic course
+- **Parameters to Monitor**:
+  - Symptom resolution
+  - Recurrence
+
+**Rationale**:
+> BV: metronidazole. Not STI, no partner treatment needed. Monitor for recurrence.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document vaginitis assessment.
+
+**Correct Answer**:
+- **BLANK1**: 3.8-4.5
+- **BLANK2**: elevated
+- **BLANK3**: fluconazole
+
+**Rationale**:
+> Normal pH 3.8-4.5. BV raises pH >4.5. Candida: fluconazole or topical azoles.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight candidiasis findings.
+
+**Correct Answer**:
+- [x] White cottage cheese
+- [x] Itching
+- [x] pH 4.0
+- [x] Pseudohyphae on KOH
+
+**Rationale**:
+> Candida: white discharge, itching, normal pH, pseudohyphae. Fishy odor and clue cells = BV.
+
+---
+
+## Mission 88: The Invisible Pain: Endometriosis Management (M-088)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Lauren's hallmark symptom — severe dysmenorrhea that has progressively worsened — is most characteristic of:
+
+**Correct Answer**:
+
+**Rationale**:
+> Severe, progressive dysmenorrhea is the HALLMARK symptom of endometriosis. The pain is caused by ectopic endometrial tissue bleeding with each menstrual cycle, causing inflammation, adhesions, and irritation of surrounding structures. Other key symptoms include dyspareunia, dyschezia (painful defecation during menses), and infertility.
+
+### Step 2: EXTENDED SATA
+**Prompt**: Lauren has multiple symptoms consistent with endometriosis. Which are present?
+
+**Correct Answer**:
+- [x] Severe progressive dysmenorrhea
+- [x] Dyspareunia (painful intercourse)
+- [x] Pain with defecation during menstruation
+- [x] Infertility (14 months trying to conceive)
+- [x] Intermenstrual spotting
+- [x] Family history (mother with endometriosis)
+
+**Rationale**:
+> All are consistent with endometriosis. The ectopic endometrial tissue on the ovaries, tubes, bowel, and peritoneum causes pain with menstruation, intercourse, and defecation. Adhesions and tube blockage cause infertility. Endometriosis has a genetic component — first-degree relatives have increased risk.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: The ONLY way to definitively diagnose and stage endometriosis is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Laparoscopy is the ONLY definitive diagnostic method — it allows direct visualization of endometrial implants and simultaneous treatment (excision/ablation). Ultrasound can detect endometriomas (chocolate cysts) but cannot see small peritoneal implants. CA-125 may be elevated but is not specific. MRI can help but is not definitive.
+
+### Step 4: EXTENDED SATA
+**Prompt**: Lauren wishes to preserve fertility. Which treatment options are appropriate? (Select all that apply)
+
+**Correct Answer**:
+- [x] NSAIDs for pain management
+- [x] Combined oral contraceptives to suppress menstrual cycling
+- [x] GnRH agonist (Lupron) to induce temporary medical menopause
+- [x] Laparoscopic excision of endometrial implants and adhesions
+- [x] Fertility referral if pregnancy is desired
+
+**Rationale**:
+> All except hysterectomy are appropriate for a 29-year-old who wants to conceive. Hysterectomy with oophorectomy is definitive but eliminates fertility — it is a LAST RESORT. Conservative approaches include pain management, hormonal suppression (OCs, progestins, GnRH agonists), laparoscopic surgery to remove implants, and fertility consultation. There is no permanent cure — recurrence is common.
+
+### Step 5: MATRIX
+**Prompt**: Match endometriosis management:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| NSAIDs | **Pain management** |
+| Hormonal suppression | **Prevent progression** |
+| Laparoscopy | **Definitive diagnosis** |
+
+**Rationale**:
+> NSAIDs for pain. Hormones suppress growth. Laparoscopy confirms diagnosis.
+
+### Step 6: BOWTIE
+**Prompt**: Dysmenorrhea, dyspareunia, infertility, cyclic pelvic pain.
+
+**Correct Answer**:
+- **Condition**: Endometriosis
+- **Actions to Take**:
+  - NSAIDs for pain
+  - Hormonal therapy
+- **Parameters to Monitor**:
+  - Pain level
+  - Fertility status
+
+**Rationale**:
+> Endometriosis: pain management, hormonal suppression. Monitor symptoms and fertility concerns.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document endometriosis.
+
+**Correct Answer**:
+- **BLANK1**: dysmenorrhea
+- **BLANK2**: laparoscopy
+- **BLANK3**: NSAIDs and OCPs
+
+**Rationale**:
+> Triad: painful periods, painful sex, infertility. Laparoscopy confirms. NSAIDs and hormones first.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight endometriosis symptoms.
+
+**Correct Answer**:
+- [x] Dysmenorrhea
+- [x] Dyspareunia
+- [x] Chronic pelvic pain
+- [x] Infertility
+
+**Rationale**:
+> Endometriosis: painful periods, painful sex, chronic pain, infertility. Painless periods and discharge not typical.
+
+---
+
+## Mission 89: The Falling Feeling: Pelvic Organ Prolapse Assessment (M-089)
+
+### Step 1: EXTENDED SATA
+**Prompt**: Gloria presents with multiple types of pelvic organ prolapse. Based on the exam, which are present?
+
+**Correct Answer**:
+- [x] Cystocele — bladder bulging into anterior vaginal wall
+- [x] Rectocele — rectum bulging into posterior vaginal wall
+- [x] 2nd degree uterine prolapse — cervix visible at vaginal opening
+
+**Rationale**:
+> Gloria has three types of prolapse: cystocele (causes stress incontinence and incomplete bladder emptying), rectocele (causes difficulty expelling stool and constipation), and 2nd degree uterine prolapse (cervix at the introitus — visible at the opening when straining). Fistulas and abscesses are different conditions.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The nurse teaches Gloria about Kegel exercises. The correct technique is:
+
+**Correct Answer**:
+
+**Rationale**:
+> Kegel technique: contract pelvic floor muscles for 10 seconds, relax for 10 seconds, repeat 10 times, perform 3 sets per day. Can be done in any position (sitting, standing, lying). Breathe normally during exercises — do not hold breath. Kegel exercises strengthen the pubococcygeus muscle and are first-line for mild prolapse and stress incontinence.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: Gloria is fitted with a pessary. The nurse explains that a pessary:
+
+**Correct Answer**:
+
+**Rationale**:
+> A pessary is a removable device inserted into the vagina to mechanically support pelvic organs. It requires proper fitting, regular follow-up, and periodic removal for cleaning. It does not cure prolapse — it manages symptoms. Kegel exercises should continue alongside pessary use. If conservative measures fail, surgical repair may be needed.
+
+### Step 4: EXTENDED SATA
+**Prompt**: Which lifestyle modifications should the nurse recommend to reduce prolapse symptoms?
+
+**Correct Answer**:
+- [x] Lose weight to decrease abdominal pressure on pelvic floor
+- [x] Increase fiber and fluids to prevent constipation and straining
+- [x] Avoid heavy lifting which increases intra-abdominal pressure
+- [x] Continue Kegel exercises daily to strengthen pelvic floor
+- [x] Apply topical vaginal estrogen as prescribed
+
+**Rationale**:
+> All except caffeine are appropriate. Weight loss reduces abdominal pressure. Fiber/fluids prevent straining. Avoiding heavy lifting decreases intra-abdominal pressure. Kegel exercises strengthen pelvic muscles. Topical estrogen improves tissue integrity post-menopause. Caffeine is a bladder irritant that can worsen incontinence — should be REDUCED, not increased.
+
+### Step 5: MATRIX
+**Prompt**: Match prolapse type:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Bladder into vagina | **Cystocele** |
+| Rectum into vagina | **Rectocele** |
+| Uterus descending | **Uterine prolapse** |
+
+**Rationale**:
+> Cystocele: bladder. Rectocele: rectum. Uterine: uterus descends into vaginal canal.
+
+### Step 6: BOWTIE
+**Prompt**: Sensation of bulge, urinary symptoms, after multiple vaginal deliveries.
+
+**Correct Answer**:
+- **Condition**: Pelvic organ prolapse
+- **Actions to Take**:
+  - Pelvic floor exercises
+  - Pessary fitting
+- **Parameters to Monitor**:
+  - Symptom improvement
+  - Pessary complications
+
+**Rationale**:
+> Prolapse: Kegels, pessary for support. Surgery for severe cases. Monitor symptoms and pessary fit.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document prolapse management.
+
+**Correct Answer**:
+- **BLANK1**: multiparity/obesity
+- **BLANK2**: Kegels and pessary
+- **BLANK3**: cleaned regularly
+
+**Rationale**:
+> Risks: vaginal deliveries, obesity, menopause. Kegels strengthen muscles, pessary supports. Regular pessary care needed.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight prolapse symptoms.
+
+**Correct Answer**:
+- [x] Vaginal bulge
+- [x] Urinary incontinence
+- [x] Difficulty with bowel movements
+- [x] Constipation
+- [x] Dyspareunia
+
+**Rationale**:
+> Prolapse: bulge, urinary/bowel issues, constipation, painful sex. Normal voiding doesn't fit.
+
+---
+
+## Mission 90: The Abnormal Pap: Cervical Cancer Screening Follow-Up (M-090)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Diana asks if HSIL means she has cervical cancer. The nurse's BEST response is:
+
+**Correct Answer**:
+
+**Rationale**:
+> HSIL is a PRE-CANCEROUS finding — abnormal cells that have the potential to become cancer if untreated, but it is NOT cancer yet. Cervical cancer grows slowly, and HSIL is caught early through screening. The next step is colposcopy with directed biopsies to determine the extent of the abnormality and guide treatment.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: The provider orders a colposcopy. The nurse explains that during this procedure:
+
+**Correct Answer**:
+
+**Rationale**:
+> Colposcopy uses a colposcope (magnifying instrument) positioned outside the vagina. Acetic acid (vinegar) is applied to the cervix — abnormal areas turn white (acetowhite lesions). Directed biopsies are taken from these areas. The procedure is done in the office without general anesthesia. Mild cramping and spotting are expected afterward.
+
+### Step 3: EXTENDED SATA
+**Prompt**: Post-colposcopy instructions should include:
+
+**Correct Answer**:
+- [x] Expect mild spotting and cramping for 24-48 hours
+- [x] No intercourse for 24-48 hours after biopsy
+- [x] No tampons for 24-48 hours
+- [x] Report heavy bleeding, fever, or foul-smelling discharge
+- [x] Results will determine if further treatment is needed
+
+**Rationale**:
+> Post-colposcopy: expect mild spotting/cramping, avoid intercourse/tampons/douching for 24-48 hours, report abnormal findings (heavy bleeding, fever, foul discharge), and understand that biopsy results will guide further treatment. Douching is NEVER recommended — it can introduce bacteria and disrupt healing.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Diana asks how she got HPV despite being vaccinated. The nurse explains:
+
+**Correct Answer**:
+
+**Rationale**:
+> The HPV vaccine protects against the highest-risk types (16 and 18 cause 70% of cervical cancers) but doesn't cover all HPV strains. Diana is positive for HPV 16 despite vaccination, which may reflect vaccine timing (she received it at 14 but may have been exposed before full immunity, or to a strain not covered by her vaccine version). Regular Pap screening remains essential even after vaccination.
+
+### Step 5: MATRIX
+**Prompt**: Match Pap result with follow-up:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| ASCUS | **HPV testing or repeat Pap** |
+| LSIL | **Colposcopy** |
+| HSIL | **Immediate colposcopy** |
+
+**Rationale**:
+> ASCUS: HPV reflex or repeat. LSIL: colposcopy. HSIL: immediate colposcopy.
+
+### Step 6: BOWTIE
+**Prompt**: HSIL on Pap smear, needs further evaluation.
+
+**Correct Answer**:
+- **Condition**: Abnormal Pap follow-up
+- **Actions to Take**:
+  - Colposcopy with biopsy
+  - Explain procedure
+- **Parameters to Monitor**:
+  - Biopsy results
+  - Compliance with follow-up
+
+**Rationale**:
+> HSIL: colposcopy with biopsy. Explain procedure, ensure follow-up compliance.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document cervical screening.
+
+**Correct Answer**:
+- **BLANK1**: 21
+- **BLANK2**: 3
+- **BLANK3**: immediate colposcopy
+
+**Rationale**:
+> Screen at 21. ASCUS HPV negative: repeat in 3 years. HSIL: immediate colposcopy.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight cervical cancer risk factors.
+
+**Correct Answer**:
+- [x] HPV infection
+- [x] Multiple partners
+- [x] Smoking
+- [x] Early first intercourse
+
+**Rationale**:
+> Risks: HPV, multiple partners, smoking, early sexual activity. Nulliparity not a risk. Screening is protective.
+
+---
+
+## Mission 91: The Change: Menopause Symptom Management (M-091)
+
+### Step 1: EXTENDED SATA
+**Prompt**: Sandra's symptoms are caused by declining estrogen levels. Which symptoms are present?
+
+**Correct Answer**:
+- [x] Hot flashes (vasomotor instability)
+- [x] Night sweats disrupting sleep
+- [x] Vaginal dryness and dyspareunia
+- [x] Mood swings and irritability
+- [x] Insomnia and fatigue
+
+**Rationale**:
+> All except fever/chills are classic menopause symptoms caused by declining estrogen: hot flashes (vasomotor instability), night sweats, vaginal dryness/atrophy, mood changes, insomnia, difficulty concentrating, and fatigue. Fever and chills suggest infection, not menopause.
+
+### Step 2: MULTIPLE CHOICE
+**Prompt**: Sandra asks about hormone replacement therapy (HRT). Given her family history of breast cancer, the nurse's BEST response is:
+
+**Correct Answer**:
+
+**Rationale**:
+> A family history of breast cancer is a significant risk factor. HRT (especially combined estrogen + progestin >5 years) increases breast cancer risk. For Sandra, non-hormonal alternatives should be strongly considered. The decision should be individualized through shared decision-making between the patient and provider, weighing risks vs benefits.
+
+### Step 3: EXTENDED SATA
+**Prompt**: Non-hormonal options for managing Sandra's symptoms include:
+
+**Correct Answer**:
+- [x] SSRIs (paroxetine) for hot flashes — FDA-approved
+- [x] Layered clothing and cool environment
+- [x] Avoid triggers: caffeine, alcohol, spicy foods
+- [x] Topical vaginal estrogen for dryness (low systemic absorption)
+- [x] Water-based vaginal lubricants
+- [x] Calcium and Vitamin D for bone health
+
+**Rationale**:
+> All are appropriate non-hormonal options. Paroxetine is the only FDA-approved non-hormonal for hot flashes. Lifestyle measures help. Topical vaginal estrogen has minimal systemic absorption and may be safer than systemic HRT even with breast cancer history (discuss with provider). Calcium (1200mg) + Vitamin D (600-800 IU) and weight-bearing exercise protect bone health.
+
+### Step 4: MULTIPLE CHOICE
+**Prompt**: Sandra's DEXA scan shows osteopenia (T-score -1.8). The nurse teaches that this finding means:
+
+**Correct Answer**:
+
+**Rationale**:
+> Osteopenia (T-score -1.0 to -2.5) means bone density is lower than normal but not yet osteoporosis (T-score ≤ -2.5). Preventive measures are crucial NOW to prevent progression: calcium + vitamin D, weight-bearing exercise, fall prevention, and DEXA monitoring. Estrogen loss after menopause accelerates bone density loss, making post-menopausal women particularly vulnerable.
+
+### Step 5: MATRIX
+**Prompt**: Match menopause symptom management:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Hot flashes | **Systemic HRT or SSRIs** |
+| Vaginal dryness | **Local estrogen** |
+| Osteoporosis prevention | **Calcium, vitamin D, bisphosphonates** |
+
+**Rationale**:
+> Hot flashes: systemic therapy. Vaginal: local estrogen. Bones: calcium/D/bisphosphonates.
+
+### Step 6: BOWTIE
+**Prompt**: 52-year-old with hot flashes, night sweats, irregular periods.
+
+**Correct Answer**:
+- **Condition**: Menopause management
+- **Actions to Take**:
+  - Discuss HRT risks/benefits
+  - Lifestyle modifications
+- **Parameters to Monitor**:
+  - Symptom relief
+  - Bone density
+
+**Rationale**:
+> Menopause: HRT discussion, lifestyle changes, DEXA screening. Monitor symptoms and bones.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document menopause management.
+
+**Correct Answer**:
+- **BLANK1**: 12
+- **BLANK2**: breast cancer
+- **BLANK3**: SSRIs/gabapentin
+
+**Rationale**:
+> Menopause: 12 months amenorrhea. HRT contraindicated: breast cancer, clots, CVD. SSRIs and gabapentin for vasomotor symptoms.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight HRT contraindications.
+
+**Correct Answer**:
+- [x] Breast cancer
+- [x] Active liver disease
+- [x] Thromboembolic history
+
+**Rationale**:
+> HRT contraindicated: breast cancer, liver disease, clot history. Hot flashes and vaginal dryness are indications. Osteopenia can benefit.
+
+---
+
+## Mission 92: The Swollen Gland: Bartholin Abscess Management (M-092)
+
+### Step 1: MULTIPLE CHOICE
+**Prompt**: Based on the unilateral, erythematous, warm, fluctuant mass at the vaginal introitus, the nurse suspects:
+
+**Correct Answer**:
+
+**Rationale**:
+> A unilateral, erythematous, warm, tender, fluctuant mass at the vaginal introitus (5 or 7 o'clock position) is classic for a Bartholin gland abscess. Bartholin glands are located on each side of the vaginal opening — normally not palpable. When the duct becomes obstructed and infected, an abscess forms. It causes significant pain with sitting, walking, and intercourse.
+
+### Step 2: EXTENDED SATA
+**Prompt**: The nurse's care plan includes which interventions?
+
+**Correct Answer**:
+- [x] Sitz baths 3-4 times daily to promote drainage and comfort
+- [x] Administer oral analgesics for pain management
+- [x] Prepare the client for possible incision and drainage (I&D)
+- [x] Obtain cultures from abscess fluid
+- [x] Teach front-to-back perineal hygiene
+
+**Rationale**:
+> Sitz baths provide comfort and promote drainage. Analgesics manage pain. I&D is the most common procedural treatment. Cultures guide antibiotic selection. Front-to-back wiping prevents fecal contamination. COLD compresses would not be appropriate for an abscess — WARM moist heat (sitz baths) promotes blood flow and drainage.
+
+### Step 3: MULTIPLE CHOICE
+**Prompt**: After I&D, the provider places a Word catheter. The nurse explains that the purpose of this catheter is to:
+
+**Correct Answer**:
+
+**Rationale**:
+> A Word catheter is a small balloon-tipped catheter inserted into the abscess cavity after I&D. It stays in place for 4-6 weeks, allowing a new drainage tract (fistula) to form so the gland can drain properly in the future. This reduces recurrence. The catheter balloon is inflated with saline to keep it in place. The client can resume normal activities with the catheter in place.
+
+### Step 4: EXTENDED SATA
+**Prompt**: Discharge teaching after Bartholin abscess I&D should include:
+
+**Correct Answer**:
+- [x] Continue sitz baths 3-4 times daily
+- [x] Complete the full course of antibiotics if prescribed
+- [x] Report fever, increasing redness/swelling, or foul-smelling drainage
+- [x] The Word catheter will stay in place for 4-6 weeks — this is normal
+- [x] Keep follow-up appointments to monitor healing
+
+**Rationale**:
+> All except douching are correct. Continue sitz baths, complete antibiotics, report infection signs, understand the Word catheter purpose and timeline, and follow up. Douching is NEVER recommended — it disrupts normal vaginal flora and can introduce bacteria. Recurrence is possible; marsupialization may be considered for repeated episodes.
+
+### Step 5: MATRIX
+**Prompt**: Match Bartholin gland issue:
+
+**Correct Answer**:
+| Row | Correct Column |
+|---|---|
+| Cyst (painless) | **Observation or marsupialization** |
+| Abscess (painful) | **Incision and drainage** |
+
+**Rationale**:
+> Cyst: may observe or marsupialization. Abscess: I&D needed.
+
+### Step 6: BOWTIE
+**Prompt**: Painful vulvar swelling, erythema, unable to sit comfortably.
+
+**Correct Answer**:
+- **Condition**: Bartholin abscess
+- **Actions to Take**:
+  - Incision and drainage
+  - Word catheter placement
+- **Parameters to Monitor**:
+  - Infection resolution
+  - Recurrence
+
+**Rationale**:
+> Abscess: I&D, Word catheter to prevent recurrence. Monitor healing and recurrence.
+
+### Step 7: CLOZE DRAG_DROP
+**Prompt**: Document Bartholin gland management.
+
+**Correct Answer**:
+- **BLANK1**: 4 and 8 o'clock
+- **BLANK2**: I&D
+- **BLANK3**: 4-6
+
+**Rationale**:
+> Bartholin glands: 4 and 8 o'clock positions. Abscess needs I&D. Word catheter 4-6 weeks for tract formation.
+
+### Step 8: HIGHLIGHT
+**Prompt**: Highlight Bartholin abscess findings.
+
+**Correct Answer**:
+- [x] Painful vulvar mass
+- [x] Erythema and warmth
+- [x] Difficulty sitting
+- [x] Fever
+- [x] Purulent drainage
+
+**Rationale**:
+> Abscess: painful mass, red/warm, difficulty sitting, may have fever and drainage. Painless = cyst, not abscess.
 
