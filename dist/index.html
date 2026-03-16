@@ -10777,6 +10777,13 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <div class="pharm-mode-card" onclick="startIndicationDrill()">
+                                <div class="text-center mb-3"><i class="fas fa-notes-medical fa-3x" style="color:#06b6d4;"></i></div>
+                                <h4 class="text-white fw-bold text-center">Indication Drill</h4>
+                                <p class="text-secondary text-center mb-0">Given a clinical indication, identify which drug is used to treat it. 10 questions per round.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="pharm-mode-card" onclick="startPrototypeMode()">
                                 <div class="text-center mb-3"><i class="fas fa-star fa-3x" style="color:#10b981;"></i></div>
                                 <h4 class="text-white fw-bold text-center">Prototype Focus</h4>
@@ -11122,6 +11129,149 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     <p class="text-secondary mb-5">${pct >= 90 ? 'Excellent! You can spot adverse effects like a pro.' : pct >= 70 ? 'Solid work. Keep drilling to lock in safety knowledge.' : 'This is critical content — adverse effects save lives. Keep at it!'}</p>
                     <div class="d-flex justify-content-center gap-3">
                         <button class="btn btn-lg fw-bold" style="background:#ef4444;color:#fff;" onclick="startSideEffectDrill()"><i class="fas fa-redo me-2"></i>Try Again</button>
+                        <button class="btn btn-outline-secondary btn-lg" onclick="showPharmStudy()"><i class="fas fa-th me-2"></i>All Modes</button>
+                    </div>
+                </div>`;
+        }
+
+        /* ── MODE 5: INDICATION DRILL ── */
+        let indDrillState = { questions:[], current:0, score:0 };
+
+        function startIndicationDrill() {
+            indDrillState = { questions: buildIndQuestions(10), current: 0, score: 0 };
+            renderIndQuestion();
+        }
+
+        function buildIndQuestions(count) {
+            const pool = shuffleArray(getPharmPool().filter(d => d.ind && d.ind.length > 15));
+            const questions = [];
+            const used = new Set();
+            for (let i = 0; i < pool.length && questions.length < count; i++) {
+                const drug = pool[i];
+                if (used.has(drug.g)) continue;
+                used.add(drug.g);
+
+                // Extract a focused indication snippet
+                const indication = extractIndication(drug.ind);
+                if (!indication || indication.length < 10) continue;
+
+                // Build 3 wrong answers from different drug classes to avoid ambiguity
+                const wrongDrugs = shuffleArray(pool.filter(d => d.g !== drug.g && d.c !== drug.c)).slice(0,3);
+                if (wrongDrugs.length < 3) continue;
+
+                const options = shuffleArray([
+                    { text: drug.g + ' (' + drug.b.split(',')[0].trim() + ')', correct: true, cls: drug.c },
+                    ...wrongDrugs.map(d => ({ text: d.g + ' (' + d.b.split(',')[0].trim() + ')', correct: false, cls: d.c }))
+                ]);
+
+                questions.push({
+                    indication,
+                    correctDrug: drug.g,
+                    correctBrand: drug.b.split(',')[0].trim(),
+                    correctClass: drug.c,
+                    mechanism: drug.m ? drug.m.substring(0, 180) + (drug.m.length > 180 ? '...' : '') : '',
+                    nursing: drug.nurse ? drug.nurse.substring(0, 200) + (drug.nurse.length > 200 ? '...' : '') : '',
+                    options
+                });
+            }
+            return questions;
+        }
+
+        function extractIndication(indStr) {
+            // Split on common delimiters and pick one indication at random for variety
+            const parts = indStr.split(/[.,;]/).map(s => s.trim()).filter(s => s.length > 10 && s.length < 200);
+            if (parts.length === 0) return indStr.substring(0, 150);
+            return parts[Math.floor(Math.random() * parts.length)];
+        }
+
+        function renderIndQuestion() {
+            const q = indDrillState.questions[indDrillState.current];
+            const modal = document.getElementById('pharmStudyModal');
+            const progress = (indDrillState.current / indDrillState.questions.length) * 100;
+
+            modal.innerHTML = `
+                <div class="container" style="max-width:700px;">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold" style="color:#06b6d4;"><i class="fas fa-notes-medical me-2"></i>Indication Drill</h3>
+                        <div>
+                            <span class="badge bg-info me-2">Q${indDrillState.current+1}/${indDrillState.questions.length}</span>
+                            <span class="badge bg-success me-2">Score: ${indDrillState.score}</span>
+                            <button class="btn btn-outline-secondary btn-sm" onclick="showPharmStudy()"><i class="fas fa-arrow-left me-1"></i>Modes</button>
+                        </div>
+                    </div>
+                    <div class="pharm-score-bar mb-4"><div class="pharm-score-fill" style="width:${progress}%; background:#06b6d4;"></div></div>
+
+                    <div class="text-center mb-4">
+                        <p class="text-secondary mb-2">A patient presents with the following indication:</p>
+                        <div class="p-4 mb-3" style="background:rgba(6,182,212,0.1); border:2px solid rgba(6,182,212,0.3); border-radius:16px;">
+                            <h4 class="text-white mb-0 fw-bold" style="line-height:1.5;">${q.indication}</h4>
+                        </div>
+                        <p class="text-secondary">Which drug would be used?</p>
+                    </div>
+
+                    <div class="d-flex flex-column gap-3" id="indOptions">
+                        ${q.options.map((opt,i) => `<div class="quiz-option" onclick="checkInd(this, ${opt.correct})">${opt.text}</div>`).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function checkInd(el, isCorrect) {
+            if (el.classList.contains('disabled')) return;
+            document.querySelectorAll('#indOptions .quiz-option').forEach(o => o.classList.add('disabled'));
+
+            const q = indDrillState.questions[indDrillState.current];
+            if (isCorrect) {
+                el.classList.add('correct');
+                indDrillState.score++;
+                el.innerHTML += ` <i class="fas fa-check ms-2"></i>`;
+            } else {
+                el.classList.add('incorrect');
+                el.innerHTML += ` <i class="fas fa-times ms-2"></i>`;
+                document.querySelectorAll('#indOptions .quiz-option').forEach(o => {
+                    const idx = [...document.querySelectorAll('#indOptions .quiz-option')].indexOf(o);
+                    if (q.options[idx] && q.options[idx].correct) { o.classList.add('correct'); o.innerHTML += ` <i class="fas fa-check ms-2"></i>`; }
+                });
+            }
+
+            // Show rationale: class + mechanism
+            const rationale = document.createElement('div');
+            rationale.className = 'mt-4';
+            rationale.innerHTML = `
+                <div class="p-3 mb-2" style="background:rgba(6,182,212,0.08); border:1px solid rgba(6,182,212,0.25); border-radius:12px;">
+                    <p class="mb-1"><strong class="text-white">${q.correctDrug}</strong> <span class="text-white-50">(${q.correctBrand})</span></p>
+                    <div class="badge bg-secondary mb-2">${q.correctClass}</div>
+                    ${q.mechanism ? `<p class="text-white-50 mb-0" style="font-size:0.85rem;"><strong style="color:#06b6d4; font-size:0.75rem;">MECHANISM:</strong> ${q.mechanism}</p>` : ''}
+                </div>
+                ${q.nursing ? `<div class="p-3" style="background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:12px;">
+                    <p class="mb-0"><strong class="text-accent" style="font-size:0.8rem;"><i class="fas fa-user-nurse me-1"></i> NURSING TIP</strong></p>
+                    <p class="text-white-50 mb-0" style="font-size:0.85rem;">${q.nursing}</p>
+                </div>` : ''}`;
+            document.getElementById('indOptions').after(rationale);
+
+            setTimeout(() => {
+                indDrillState.current++;
+                if (indDrillState.current < indDrillState.questions.length) {
+                    renderIndQuestion();
+                } else {
+                    showIndResults();
+                }
+            }, 2800);
+        }
+
+        function showIndResults() {
+            const pct = Math.round((indDrillState.score / indDrillState.questions.length) * 100);
+            const modal = document.getElementById('pharmStudyModal');
+            modal.innerHTML = `
+                <div class="container text-center" style="max-width:600px; margin-top: 80px;">
+                    <i class="fas fa-notes-medical fa-5x mb-4" style="color:#06b6d4;"></i>
+                    <h2 class="text-white fw-bold mb-3">Indication Drill Complete!</h2>
+                    <h3 class="mb-4" style="color:#06b6d4;">${indDrillState.score} / ${indDrillState.questions.length}</h3>
+                    <div class="pharm-score-bar mb-4" style="max-width:300px; margin:0 auto;">
+                        <div class="pharm-score-fill" style="width:${pct}%; background:${pct>=70?'var(--success)':'#06b6d4'};"></div>
+                    </div>
+                    <p class="text-secondary mb-5">${pct >= 90 ? 'Outstanding! You know exactly which drug to reach for.' : pct >= 70 ? 'Strong work! Keep drilling to build automatic recall.' : 'Matching indications to drugs is a core NCLEX skill — keep at it!'}</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button class="btn btn-lg fw-bold" style="background:#06b6d4;color:#fff;" onclick="startIndicationDrill()"><i class="fas fa-redo me-2"></i>Try Again</button>
                         <button class="btn btn-outline-secondary btn-lg" onclick="showPharmStudy()"><i class="fas fa-th me-2"></i>All Modes</button>
                     </div>
                 </div>`;
