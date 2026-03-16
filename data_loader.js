@@ -90,4 +90,16 @@ if (typeof data_ophthalmic !== 'undefined') mergeData(data_ophthalmic);
 // Osteoporosis/MSK Atomic Loads
 if (typeof data_osteoporosis !== 'undefined') mergeData(data_osteoporosis);
 
+// Dermatology Atomic Loads
+if (typeof data_dermatology !== 'undefined') mergeData(data_dermatology);
+
+// Hematology Atomic Loads
+if (typeof data_hematology !== 'undefined') mergeData(data_hematology);
+
+// Emergency Atomic Loads
+if (typeof data_emergency !== 'undefined') mergeData(data_emergency);
+
+// Electrolytes/IV Fluids Atomic Loads
+if (typeof data_electrolytes !== 'undefined') mergeData(data_electrolytes);
+
 console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");

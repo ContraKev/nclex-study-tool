@@ -1141,6 +1141,61 @@
         .weak-area-fill { height: 100%; border-radius: 4px; transition: width 0.5s ease; }
         .streak-badge { background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 8px; padding: 4px 10px; }
 
+        /* ── PHARM STUDY MODES ── */
+        .pharm-study-modal {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;
+        }
+        .pharm-mode-card {
+            background: var(--secondary); border: 2px solid var(--border);
+            border-radius: 16px; padding: 24px; cursor: pointer;
+            transition: all 0.25s ease;
+        }
+        .pharm-mode-card:hover {
+            border-color: var(--accent); transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(59,130,246,0.2);
+        }
+        .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 700px; margin: 0 auto; }
+        .match-col { display: flex; flex-direction: column; gap: 10px; }
+        .match-card {
+            background: var(--secondary); border: 2px solid var(--border);
+            border-radius: 12px; padding: 14px 18px; cursor: pointer;
+            transition: all 0.2s; text-align: center; font-weight: 600;
+            color: var(--text); font-size: 0.95rem; user-select: none;
+        }
+        .match-card:hover { border-color: var(--accent); }
+        .match-card.selected { border-color: var(--accent); background: rgba(59,130,246,0.15); box-shadow: 0 0 15px rgba(59,130,246,0.3); }
+        .match-card.matched { border-color: var(--success); background: rgba(16,185,129,0.15); opacity: 0.6; pointer-events: none; }
+        .match-card.wrong { animation: shake 0.4s ease; border-color: var(--danger); }
+        @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-8px)} 75%{transform:translateX(8px)} }
+
+        .quiz-option {
+            background: var(--secondary); border: 2px solid var(--border);
+            border-radius: 12px; padding: 16px 20px; cursor: pointer;
+            transition: all 0.2s; font-size: 1rem; color: var(--text);
+        }
+        .quiz-option:hover { border-color: var(--accent); background: rgba(59,130,246,0.08); }
+        .quiz-option.correct { border-color: var(--success); background: rgba(16,185,129,0.15); }
+        .quiz-option.incorrect { border-color: var(--danger); background: rgba(239,68,68,0.15); }
+        .quiz-option.disabled { pointer-events: none; opacity: 0.7; }
+
+        .suffix-highlight { color: var(--accent); font-weight: 800; font-size: 1.1em; }
+        .pharm-score-bar { height: 8px; border-radius: 4px; background: rgba(255,255,255,0.1); overflow: hidden; }
+        .pharm-score-fill { height: 100%; border-radius: 4px; background: var(--success); transition: width 0.4s ease; }
+        .proto-drug-card {
+            background: var(--secondary); border: 2px solid var(--accent);
+            border-radius: 16px; padding: 24px;
+        }
+        .proto-field-label { font-size: 0.7rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-top: 12px; }
+        .proto-field-value { color: var(--text); font-size: 0.95rem; margin-top: 2px; }
+
+        @media (max-width: 768px) {
+            .pharm-study-modal { padding: 15px; }
+            .match-grid { grid-template-columns: 1fr; gap: 10px; }
+            .match-card { font-size: 0.85rem; padding: 12px; }
+            .quiz-option { font-size: 0.9rem; padding: 12px 16px; }
+        }
+
         /* Safe area for iPhones with notch/Dynamic Island */
         @supports (padding-top: env(safe-area-inset-top)) {
             .nexus-nav {
@@ -10535,6 +10590,21 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                                 </div>
                             </div>
 
+                                <div class="col-md-4">
+                                    <div class="nexus-card p-4 text-center h-100" onclick="showPharmStudy()">
+                                        <div class="card-icon mb-3">
+                                            <i class="fas fa-capsules fa-3x" style="color: #a855f7;"></i>
+                                        </div>
+                                        <h3 class="h4 fw-bold mb-3">Pharm Study</h3>
+                                        <p class="text-secondary mb-3">Active recall games: Match Game, Suffix Quiz, Side Effect Drills, and Prototype Focus Mode.</p>
+                                        <button class="btn w-100 fw-bold" style="background: #a855f7; color: white;">
+                                            <i class="fas fa-gamepad me-2"></i>
+                                            Study Drugs
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="text-center mt-5">
                                 <div class="row g-3 justify-content-center">
                                     <div class="col-auto">
@@ -10608,9 +10678,546 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 <button class="btn btn-outline-secondary" onclick="showHomeScreen()">
                     <i class="fas fa-home me-2"></i>Home
                 </button>
+                <button class="btn fw-bold" style="background:#a855f7;color:#fff;border:none;" onclick="showPharmStudy()">
+                    <i class="fas fa-gamepad me-2"></i>PHARM STUDY
+                </button>
                 <button class="btn btn-outline-info fw-bold" onclick="startMission()">CLINICAL MISSIONS</button>
                 <button class="btn btn-warning fw-bold" onclick="startExam()">TAKE SLIDE EXAM</button>
             `;
+        }
+
+        /* ═══════════════════════════════════════════════════════════
+           PHARM STUDY — 4 Interactive Active-Recall Study Modes
+           ═══════════════════════════════════════════════════════════ */
+
+        const PHARM_CAT_LABELS = {
+            cv:'Cardiovascular', dm:'Diabetes', pain:'Pain Management', abx:'Antimicrobials',
+            resp:'Respiratory', immun:'Immunity/Steroids', cns:'CNS/Psych', gi:'GI',
+            endo:'Endocrine/Thyroid', neuro:'Neurology', repro:'Reproductive/OB',
+            uro:'Urology', ophthal:'Ophthalmic', msk:'Musculoskeletal',
+            derm:'Dermatology', hem:'Hematology', emerg:'Emergency', lytes:'Electrolytes'
+        };
+
+        const SUFFIX_MAP = [
+            {suffix:'-olol', cls:'Beta Blocker', example:'Metoprolol'},
+            {suffix:'-pril', cls:'ACE Inhibitor', example:'Lisinopril'},
+            {suffix:'-sartan', cls:'ARB', example:'Losartan'},
+            {suffix:'-dipine', cls:'Calcium Channel Blocker (DHP)', example:'Amlodipine'},
+            {suffix:'-statin', cls:'HMG-CoA Reductase Inhibitor', example:'Atorvastatin'},
+            {suffix:'-prazole', cls:'Proton Pump Inhibitor', example:'Omeprazole'},
+            {suffix:'-tidine', cls:'H2 Receptor Blocker', example:'Famotidine'},
+            {suffix:'-azepam', cls:'Benzodiazepine', example:'Lorazepam'},
+            {suffix:'-floxacin', cls:'Fluoroquinolone', example:'Ciprofloxacin'},
+            {suffix:'-cillin', cls:'Penicillin', example:'Amoxicillin'},
+            {suffix:'-gliptin', cls:'DPP-4 Inhibitor', example:'Sitagliptin'},
+            {suffix:'-glutide', cls:'GLP-1 Receptor Agonist', example:'Semaglutide'},
+            {suffix:'-gliflozin', cls:'SGLT2 Inhibitor', example:'Empagliflozin'},
+            {suffix:'-semide', cls:'Loop Diuretic', example:'Furosemide'},
+            {suffix:'-thiazide', cls:'Thiazide Diuretic', example:'Hydrochlorothiazide'},
+            {suffix:'-zosin', cls:'Alpha-1 Blocker', example:'Prazosin'},
+            {suffix:'-parin', cls:'Anticoagulant (Heparin-based)', example:'Enoxaparin'},
+            {suffix:'-mycin', cls:'Macrolide / Aminoglycoside', example:'Azithromycin'},
+            {suffix:'-caine', cls:'Local Anesthetic', example:'Lidocaine'},
+            {suffix:'-done', cls:'Opioid Agonist', example:'Methadone'},
+            {suffix:'-triptan', cls:'Serotonin (5-HT1) Agonist', example:'Sumatriptan'},
+            {suffix:'-pam', cls:'Benzodiazepine', example:'Diazepam'},
+            {suffix:'-lukast', cls:'Leukotriene Receptor Antagonist', example:'Montelukast'},
+            {suffix:'-mab', cls:'Monoclonal Antibody', example:'Evolocumab'},
+            {suffix:'-navir', cls:'Protease Inhibitor', example:'Ritonavir'},
+        ];
+
+        let pharmStudyState = { mode: null, score: 0, total: 0, round: 0, currentDrugs: [], matchState: {} };
+
+        function shuffleArray(arr) { const a = [...arr]; for (let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+
+        function getPharmPool() {
+            return (window.drugDB || []).filter(d => d.g && d.b && d.c);
+        }
+
+        function showPharmStudy() {
+            document.getElementById('pharmStudyModal')?.remove();
+            const modal = document.createElement('div');
+            modal.id = 'pharmStudyModal';
+            modal.className = 'pharm-study-modal';
+            const pool = getPharmPool();
+            modal.innerHTML = `
+                <div class="container" style="max-width:1000px;">
+                    <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
+                        <h2 class="fw-bold" style="color:#a855f7;">
+                            <i class="fas fa-capsules me-3"></i>PHARM STUDY
+                        </h2>
+                        <div>
+                            <span class="badge bg-secondary me-2">${pool.length} Drugs Loaded</span>
+                            <button class="btn btn-outline-danger" onclick="closePharmStudy()">
+                                <i class="fas fa-times me-1"></i>Close
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text-secondary mb-4">Choose a study mode. All modes pull from your full ${pool.length}-drug database for active recall practice.</p>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="pharm-mode-card" onclick="startMatchGame()">
+                                <div class="text-center mb-3"><i class="fas fa-random fa-3x" style="color:#3b82f6;"></i></div>
+                                <h4 class="text-white fw-bold text-center">Match Game</h4>
+                                <p class="text-secondary text-center mb-0">Match generic drug names to their brand names. 6 pairs per round — tap one, then tap its match.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pharm-mode-card" onclick="startSuffixQuiz()">
+                                <div class="text-center mb-3"><i class="fas fa-spell-check fa-3x" style="color:#f59e0b;"></i></div>
+                                <h4 class="text-white fw-bold text-center">Suffix Quiz</h4>
+                                <p class="text-secondary text-center mb-0">Identify the drug class from its suffix (e.g. <span class="suffix-highlight">-olol</span> = Beta Blocker). 10 questions per round.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pharm-mode-card" onclick="startSideEffectDrill()">
+                                <div class="text-center mb-3"><i class="fas fa-exclamation-triangle fa-3x" style="color:#ef4444;"></i></div>
+                                <h4 class="text-white fw-bold text-center">Side Effect Drill</h4>
+                                <p class="text-secondary text-center mb-0">Given a drug, pick the correct serious adverse effect — or identify which drug causes a given side effect.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pharm-mode-card" onclick="startPrototypeMode()">
+                                <div class="text-center mb-3"><i class="fas fa-star fa-3x" style="color:#10b981;"></i></div>
+                                <h4 class="text-white fw-bold text-center">Prototype Focus</h4>
+                                <p class="text-secondary text-center mb-0">Deep-dive the prototype drug for each class. Full monograph card with mechanism, nursing considerations, and interactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            document.body.appendChild(modal);
+        }
+
+        function closePharmStudy() {
+            document.getElementById('pharmStudyModal')?.remove();
+        }
+
+        /* ── MODE 1: MATCH GAME ── */
+        function startMatchGame() {
+            const pool = getPharmPool();
+            if (pool.length < 6) { alert('Not enough drugs loaded.'); return; }
+            pharmStudyState = { mode:'match', score:0, total:0, round:0, currentDrugs:[], matchState:{selected:null, matched:0, wrong:0} };
+            loadMatchRound(pool);
+        }
+
+        function loadMatchRound(pool) {
+            pool = pool || getPharmPool();
+            const picks = shuffleArray(pool).slice(0, 6);
+            pharmStudyState.currentDrugs = picks;
+            pharmStudyState.matchState = { selected: null, matched: 0, wrong: 0 };
+            pharmStudyState.round++;
+
+            const leftCards = picks.map((d,i) => ({ id:'L'+i, text:d.g, pairIdx:i, side:'left' }));
+            const rightCards = shuffleArray(picks.map((d,i) => ({ id:'R'+i, text: d.b.split(',')[0].trim(), pairIdx:i, side:'right' })));
+
+            const modal = document.getElementById('pharmStudyModal');
+            modal.innerHTML = `
+                <div class="container" style="max-width:800px;">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold" style="color:#3b82f6;"><i class="fas fa-random me-2"></i>Match Game — Round ${pharmStudyState.round}</h3>
+                        <div>
+                            <span class="badge bg-success me-2" id="matchScore">Matched: 0/6</span>
+                            <span class="badge bg-danger me-2" id="matchMisses">Misses: 0</span>
+                            <button class="btn btn-outline-secondary btn-sm" onclick="showPharmStudy()"><i class="fas fa-arrow-left me-1"></i>Modes</button>
+                        </div>
+                    </div>
+                    <p class="text-secondary mb-4">Tap a <strong>generic name</strong> on the left, then tap its <strong>brand name</strong> on the right.</p>
+                    <div class="match-grid">
+                        <div class="match-col" id="matchLeft">
+                            ${leftCards.map(c => `<div class="match-card" id="${c.id}" data-pair="${c.pairIdx}" data-side="left" onclick="matchCardClick(this)">${c.text}</div>`).join('')}
+                        </div>
+                        <div class="match-col" id="matchRight">
+                            ${rightCards.map(c => `<div class="match-card" id="${c.id}" data-pair="${c.pairIdx}" data-side="right" onclick="matchCardClick(this)">${c.text}</div>`).join('')}
+                        </div>
+                    </div>
+                </div>`;
+        }
+
+        function matchCardClick(el) {
+            const st = pharmStudyState.matchState;
+            if (el.classList.contains('matched')) return;
+
+            const side = el.dataset.side;
+            const pair = parseInt(el.dataset.pair);
+
+            if (!st.selected) {
+                // First pick
+                document.querySelectorAll('.match-card.selected').forEach(c => c.classList.remove('selected'));
+                el.classList.add('selected');
+                st.selected = { el, side, pair };
+            } else {
+                // Second pick — same side? Just re-select
+                if (side === st.selected.side) {
+                    st.selected.el.classList.remove('selected');
+                    el.classList.add('selected');
+                    st.selected = { el, side, pair };
+                    return;
+                }
+                // Check match
+                if (pair === st.selected.pair) {
+                    // Correct!
+                    el.classList.add('matched');
+                    el.classList.remove('selected');
+                    st.selected.el.classList.add('matched');
+                    st.selected.el.classList.remove('selected');
+                    st.matched++;
+                    pharmStudyState.score++;
+                    pharmStudyState.total++;
+                    document.getElementById('matchScore').textContent = `Matched: ${st.matched}/6`;
+                    st.selected = null;
+                    if (st.matched >= 6) {
+                        setTimeout(() => matchRoundComplete(), 600);
+                    }
+                } else {
+                    // Wrong
+                    el.classList.add('wrong');
+                    st.selected.el.classList.add('wrong');
+                    st.wrong++;
+                    pharmStudyState.total++;
+                    document.getElementById('matchMisses').textContent = `Misses: ${st.wrong}`;
+                    const prevEl = st.selected.el;
+                    st.selected = null;
+                    setTimeout(() => {
+                        el.classList.remove('wrong','selected');
+                        prevEl.classList.remove('wrong','selected');
+                    }, 500);
+                }
+            }
+        }
+
+        function matchRoundComplete() {
+            const st = pharmStudyState.matchState;
+            const modal = document.getElementById('pharmStudyModal');
+            const pct = Math.round((6 / (6 + st.wrong)) * 100);
+            modal.innerHTML = `
+                <div class="container text-center" style="max-width:600px; margin-top: 80px;">
+                    <i class="fas fa-check-circle fa-5x mb-4" style="color:#10b981;"></i>
+                    <h2 class="text-white fw-bold mb-3">Round ${pharmStudyState.round} Complete!</h2>
+                    <p class="text-secondary mb-4">You matched all 6 pairs${st.wrong > 0 ? ` with ${st.wrong} miss${st.wrong>1?'es':''}` : ' perfectly'}!</p>
+                    <div class="pharm-score-bar mb-4" style="max-width:300px; margin:0 auto;">
+                        <div class="pharm-score-fill" style="width:${pct}%;"></div>
+                    </div>
+                    <p class="text-accent fw-bold mb-5">${pct}% Accuracy</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button class="btn btn-lg fw-bold" style="background:#3b82f6;color:#fff;" onclick="loadMatchRound()"><i class="fas fa-redo me-2"></i>Next Round</button>
+                        <button class="btn btn-outline-secondary btn-lg" onclick="showPharmStudy()"><i class="fas fa-th me-2"></i>All Modes</button>
+                    </div>
+                </div>`;
+        }
+
+        /* ── MODE 2: SUFFIX QUIZ ── */
+        let suffixQuizState = { questions:[], current:0, score:0 };
+
+        function startSuffixQuiz() {
+            suffixQuizState = { questions: buildSuffixQuestions(10), current: 0, score: 0 };
+            renderSuffixQuestion();
+        }
+
+        function buildSuffixQuestions(count) {
+            const questions = [];
+            const available = shuffleArray([...SUFFIX_MAP]);
+            for (let i = 0; i < Math.min(count, available.length); i++) {
+                const correct = available[i];
+                const wrongs = shuffleArray(SUFFIX_MAP.filter(s => s.cls !== correct.cls)).slice(0,3);
+                const options = shuffleArray([correct, ...wrongs].map(s => s.cls));
+                questions.push({ suffix: correct.suffix, answer: correct.cls, example: correct.example, options });
+            }
+            return questions;
+        }
+
+        function renderSuffixQuestion() {
+            const q = suffixQuizState.questions[suffixQuizState.current];
+            const modal = document.getElementById('pharmStudyModal');
+            const progress = ((suffixQuizState.current) / suffixQuizState.questions.length) * 100;
+            modal.innerHTML = `
+                <div class="container" style="max-width:700px;">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold" style="color:#f59e0b;"><i class="fas fa-spell-check me-2"></i>Suffix Quiz</h3>
+                        <div>
+                            <span class="badge bg-info me-2">Q${suffixQuizState.current+1}/${suffixQuizState.questions.length}</span>
+                            <span class="badge bg-success me-2">Score: ${suffixQuizState.score}</span>
+                            <button class="btn btn-outline-secondary btn-sm" onclick="showPharmStudy()"><i class="fas fa-arrow-left me-1"></i>Modes</button>
+                        </div>
+                    </div>
+                    <div class="pharm-score-bar mb-4"><div class="pharm-score-fill" style="width:${progress}%;"></div></div>
+                    <div class="text-center mb-5">
+                        <p class="text-secondary mb-2">What drug class uses the suffix:</p>
+                        <h1 class="fw-bold" style="font-size:3.5rem;"><span class="suffix-highlight">${q.suffix}</span></h1>
+                    </div>
+                    <div class="d-flex flex-column gap-3" id="suffixOptions">
+                        ${q.options.map((opt,i) => `<div class="quiz-option" onclick="checkSuffix(this, '${opt.replace(/'/g,"\\'")}', '${q.answer.replace(/'/g,"\\'")}')">${opt}</div>`).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function checkSuffix(el, picked, answer) {
+            if (el.classList.contains('disabled')) return;
+            document.querySelectorAll('#suffixOptions .quiz-option').forEach(o => o.classList.add('disabled'));
+
+            const q = suffixQuizState.questions[suffixQuizState.current];
+            if (picked === answer) {
+                el.classList.add('correct');
+                suffixQuizState.score++;
+                el.innerHTML += ` <i class="fas fa-check ms-2"></i>`;
+            } else {
+                el.classList.add('incorrect');
+                el.innerHTML += ` <i class="fas fa-times ms-2"></i>`;
+                document.querySelectorAll('#suffixOptions .quiz-option').forEach(o => {
+                    if (o.textContent.trim().replace(/ $/, '') === answer) { o.classList.add('correct'); o.innerHTML += ` <i class="fas fa-check ms-2"></i>`; }
+                });
+            }
+            // Show example drug
+            const hint = document.createElement('div');
+            hint.className = 'text-center mt-4';
+            hint.innerHTML = `<p class="text-secondary">Example: <strong class="text-white">${q.example}</strong> — <span class="suffix-highlight">${q.suffix}</span></p>`;
+            document.getElementById('suffixOptions').after(hint);
+
+            setTimeout(() => {
+                suffixQuizState.current++;
+                if (suffixQuizState.current < suffixQuizState.questions.length) {
+                    renderSuffixQuestion();
+                } else {
+                    showSuffixResults();
+                }
+            }, 1800);
+        }
+
+        function showSuffixResults() {
+            const pct = Math.round((suffixQuizState.score / suffixQuizState.questions.length) * 100);
+            const modal = document.getElementById('pharmStudyModal');
+            modal.innerHTML = `
+                <div class="container text-center" style="max-width:600px; margin-top: 80px;">
+                    <i class="fas fa-spell-check fa-5x mb-4" style="color:#f59e0b;"></i>
+                    <h2 class="text-white fw-bold mb-3">Suffix Quiz Complete!</h2>
+                    <h3 class="mb-4" style="color:#f59e0b;">${suffixQuizState.score} / ${suffixQuizState.questions.length}</h3>
+                    <div class="pharm-score-bar mb-4" style="max-width:300px; margin:0 auto;">
+                        <div class="pharm-score-fill" style="width:${pct}%; background:${pct>=70?'var(--success)':'var(--danger)'};"></div>
+                    </div>
+                    <p class="text-secondary mb-5">${pct >= 90 ? 'Outstanding! You know your suffixes cold.' : pct >= 70 ? 'Great job! A few more reps and you\'ll master them.' : 'Keep studying — suffix recognition is critical for NCLEX.'}</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button class="btn btn-lg fw-bold" style="background:#f59e0b;color:#000;" onclick="startSuffixQuiz()"><i class="fas fa-redo me-2"></i>Try Again</button>
+                        <button class="btn btn-outline-secondary btn-lg" onclick="showPharmStudy()"><i class="fas fa-th me-2"></i>All Modes</button>
+                    </div>
+                </div>`;
+        }
+
+        /* ── MODE 3: SIDE EFFECT DRILL ── */
+        let seDrillState = { questions:[], current:0, score:0 };
+
+        function startSideEffectDrill() {
+            seDrillState = { questions: buildSEQuestions(10), current: 0, score: 0 };
+            renderSEQuestion();
+        }
+
+        function buildSEQuestions(count) {
+            const pool = shuffleArray(getPharmPool().filter(d => d.aes && d.aes.length > 10));
+            const questions = [];
+            for (let i = 0; i < Math.min(count, pool.length); i++) {
+                const drug = pool[i];
+                // Alternate question direction
+                if (i % 2 === 0) {
+                    // Given drug → pick correct side effect
+                    const wrongDrugs = shuffleArray(pool.filter(d => d.g !== drug.g)).slice(0,3);
+                    const options = shuffleArray([
+                        { text: drug.aes.substring(0,120) + (drug.aes.length>120?'...':''), correct: true },
+                        ...wrongDrugs.map(d => ({ text: d.aes.substring(0,120) + (d.aes.length>120?'...':''), correct: false }))
+                    ]);
+                    questions.push({ type:'drug2se', drug: drug.g, brand: drug.b.split(',')[0].trim(), cls: drug.c, options, nursing: drug.nurse ? drug.nurse.substring(0,200) : '' });
+                } else {
+                    // Given side effect → pick correct drug
+                    const wrongDrugs = shuffleArray(pool.filter(d => d.g !== drug.g)).slice(0,3);
+                    const options = shuffleArray([
+                        { text: drug.g + ' (' + drug.b.split(',')[0].trim() + ')', correct: true },
+                        ...wrongDrugs.map(d => ({ text: d.g + ' (' + d.b.split(',')[0].trim() + ')', correct: false }))
+                    ]);
+                    questions.push({ type:'se2drug', sideEffect: drug.aes.substring(0,150) + (drug.aes.length>150?'...':''), drug: drug.g, cls: drug.c, options, nursing: drug.nurse ? drug.nurse.substring(0,200) : '' });
+                }
+            }
+            return questions;
+        }
+
+        function renderSEQuestion() {
+            const q = seDrillState.questions[seDrillState.current];
+            const modal = document.getElementById('pharmStudyModal');
+            const progress = (seDrillState.current / seDrillState.questions.length) * 100;
+
+            let prompt = '';
+            if (q.type === 'drug2se') {
+                prompt = `<p class="text-secondary mb-2">Which <strong style="color:#ef4444;">serious adverse effect</strong> belongs to:</p>
+                          <h3 class="text-white fw-bold">${q.drug} <span class="text-white-50 fw-normal">(${q.brand})</span></h3>
+                          <div class="badge bg-secondary mb-4">${q.cls}</div>`;
+            } else {
+                prompt = `<p class="text-secondary mb-2">Which drug causes this <strong style="color:#ef4444;">serious adverse effect</strong>?</p>
+                          <div class="p-3 mb-4" style="background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.3); border-radius:12px;">
+                            <p class="text-white mb-0" style="font-size:0.95rem;">${q.sideEffect}</p>
+                          </div>`;
+            }
+
+            modal.innerHTML = `
+                <div class="container" style="max-width:700px;">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold" style="color:#ef4444;"><i class="fas fa-exclamation-triangle me-2"></i>Side Effect Drill</h3>
+                        <div>
+                            <span class="badge bg-info me-2">Q${seDrillState.current+1}/${seDrillState.questions.length}</span>
+                            <span class="badge bg-success me-2">Score: ${seDrillState.score}</span>
+                            <button class="btn btn-outline-secondary btn-sm" onclick="showPharmStudy()"><i class="fas fa-arrow-left me-1"></i>Modes</button>
+                        </div>
+                    </div>
+                    <div class="pharm-score-bar mb-4"><div class="pharm-score-fill" style="width:${progress}%; background:#ef4444;"></div></div>
+                    <div class="text-center mb-4">${prompt}</div>
+                    <div class="d-flex flex-column gap-3" id="seOptions">
+                        ${q.options.map((opt,i) => `<div class="quiz-option" onclick="checkSE(this, ${opt.correct})">${opt.text}</div>`).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function checkSE(el, isCorrect) {
+            if (el.classList.contains('disabled')) return;
+            document.querySelectorAll('#seOptions .quiz-option').forEach(o => o.classList.add('disabled'));
+
+            const q = seDrillState.questions[seDrillState.current];
+            if (isCorrect) {
+                el.classList.add('correct');
+                seDrillState.score++;
+                el.innerHTML += ` <i class="fas fa-check ms-2"></i>`;
+            } else {
+                el.classList.add('incorrect');
+                el.innerHTML += ` <i class="fas fa-times ms-2"></i>`;
+                document.querySelectorAll('#seOptions .quiz-option').forEach(o => {
+                    const idx = [...document.querySelectorAll('#seOptions .quiz-option')].indexOf(o);
+                    if (q.options[idx] && q.options[idx].correct) { o.classList.add('correct'); o.innerHTML += ` <i class="fas fa-check ms-2"></i>`; }
+                });
+            }
+
+            // Show nursing tip
+            if (q.nursing) {
+                const tip = document.createElement('div');
+                tip.className = 'mt-4 p-3';
+                tip.style.cssText = 'background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:12px;';
+                tip.innerHTML = `<p class="mb-0"><strong class="text-accent" style="font-size:0.8rem;"><i class="fas fa-user-nurse me-1"></i> NURSING TIP</strong></p><p class="text-white-50 mb-0" style="font-size:0.85rem;">${q.nursing}...</p>`;
+                document.getElementById('seOptions').after(tip);
+            }
+
+            setTimeout(() => {
+                seDrillState.current++;
+                if (seDrillState.current < seDrillState.questions.length) {
+                    renderSEQuestion();
+                } else {
+                    showSEResults();
+                }
+            }, 2200);
+        }
+
+        function showSEResults() {
+            const pct = Math.round((seDrillState.score / seDrillState.questions.length) * 100);
+            const modal = document.getElementById('pharmStudyModal');
+            modal.innerHTML = `
+                <div class="container text-center" style="max-width:600px; margin-top: 80px;">
+                    <i class="fas fa-exclamation-triangle fa-5x mb-4" style="color:#ef4444;"></i>
+                    <h2 class="text-white fw-bold mb-3">Side Effect Drill Complete!</h2>
+                    <h3 class="mb-4" style="color:#ef4444;">${seDrillState.score} / ${seDrillState.questions.length}</h3>
+                    <div class="pharm-score-bar mb-4" style="max-width:300px; margin:0 auto;">
+                        <div class="pharm-score-fill" style="width:${pct}%; background:${pct>=70?'var(--success)':'#ef4444'};"></div>
+                    </div>
+                    <p class="text-secondary mb-5">${pct >= 90 ? 'Excellent! You can spot adverse effects like a pro.' : pct >= 70 ? 'Solid work. Keep drilling to lock in safety knowledge.' : 'This is critical content — adverse effects save lives. Keep at it!'}</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button class="btn btn-lg fw-bold" style="background:#ef4444;color:#fff;" onclick="startSideEffectDrill()"><i class="fas fa-redo me-2"></i>Try Again</button>
+                        <button class="btn btn-outline-secondary btn-lg" onclick="showPharmStudy()"><i class="fas fa-th me-2"></i>All Modes</button>
+                    </div>
+                </div>`;
+        }
+
+        /* ── MODE 4: PROTOTYPE FOCUS ── */
+        let protoState = { classes:[], current:0 };
+
+        function startPrototypeMode() {
+            const pool = getPharmPool();
+            // Group by class, pick first drug as prototype
+            const classMap = {};
+            pool.forEach(d => {
+                if (!classMap[d.c]) classMap[d.c] = { cls: d.c, cat: d.cat, drug: d, count: 0 };
+                classMap[d.c].count++;
+            });
+            protoState = { classes: Object.values(classMap).sort((a,b) => a.cls.localeCompare(b.cls)), current: 0 };
+            renderPrototypeCard();
+        }
+
+        function renderPrototypeCard() {
+            const entry = protoState.classes[protoState.current];
+            const d = entry.drug;
+            const catLabel = PHARM_CAT_LABELS[d.cat] || d.cat;
+            const modal = document.getElementById('pharmStudyModal');
+
+            modal.innerHTML = `
+                <div class="container" style="max-width:800px;">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold" style="color:#10b981;"><i class="fas fa-star me-2"></i>Prototype Focus</h3>
+                        <div>
+                            <span class="badge bg-secondary me-2">${protoState.current+1} / ${protoState.classes.length} Classes</span>
+                            <button class="btn btn-outline-secondary btn-sm" onclick="showPharmStudy()"><i class="fas fa-arrow-left me-1"></i>Modes</button>
+                        </div>
+                    </div>
+                    <div class="pharm-score-bar mb-4"><div class="pharm-score-fill" style="width:${((protoState.current+1)/protoState.classes.length)*100}%; background:#10b981;"></div></div>
+
+                    <div class="proto-drug-card">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <div>
+                                <h2 class="text-white fw-bold mb-1">${d.g}</h2>
+                                <h5 class="text-white-50 mb-2">${d.b}</h5>
+                            </div>
+                            <div class="text-end">
+                                <span class="badge" style="background:#a855f7; font-size:0.8rem;">${catLabel}</span>
+                                <br><span class="badge bg-secondary mt-1">${entry.count} drug${entry.count>1?'s':''} in class</span>
+                            </div>
+                        </div>
+                        <div class="badge bg-info mb-3">${d.c}</div>
+
+                        <div class="proto-field-label">Mechanism of Action</div>
+                        <div class="proto-field-value">${d.m}</div>
+
+                        <div class="proto-field-label">Indications</div>
+                        <div class="proto-field-value">${d.ind}</div>
+
+                        <div class="proto-field-label" style="color:#ef4444;">Contraindications</div>
+                        <div class="proto-field-value">${d.con}</div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="proto-field-label">Common Adverse Effects</div>
+                                <div class="proto-field-value">${d.aec}</div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="proto-field-label" style="color:#ef4444;">Serious Adverse Effects</div>
+                                <div class="proto-field-value" style="color:#fca5a5;">${d.aes}</div>
+                            </div>
+                        </div>
+
+                        ${d.inter && d.inter.length ? `
+                            <div class="proto-field-label" style="color:#f59e0b;">Drug Interactions</div>
+                            <div class="proto-field-value">${d.inter.map(i => `<span class="badge ${i.s==='high'||i.s==='critical'?'bg-danger':'bg-warning text-dark'} me-1 mb-1">${i.s.toUpperCase()}</span> <strong>${i.d}</strong>: ${i.m}`).join('<br>')}</div>
+                        ` : ''}
+
+                        <div class="proto-field-label">Dosage</div>
+                        <div class="proto-field-value">${d.dosage || 'See prescribing info'}</div>
+
+                        <div class="proto-field-label">Administration</div>
+                        <div class="proto-field-value">${d.admin || 'Standard'}</div>
+
+                        <div class="proto-field-label" style="color:#3b82f6;"><i class="fas fa-user-nurse me-1"></i> Nursing Considerations</div>
+                        <div class="proto-field-value" style="color:#93c5fd;">${d.nurse}</div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <button class="btn btn-outline-secondary ${protoState.current===0?'disabled':''}" onclick="protoNav(-1)"><i class="fas fa-chevron-left me-2"></i>Previous Class</button>
+                        <button class="btn fw-bold ${protoState.current>=protoState.classes.length-1?'disabled':''}" style="background:#10b981;color:#fff;" onclick="protoNav(1)">Next Class<i class="fas fa-chevron-right ms-2"></i></button>
+                    </div>
+                </div>`;
+        }
+
+        function protoNav(dir) {
+            protoState.current = Math.max(0, Math.min(protoState.classes.length - 1, protoState.current + dir));
+            renderPrototypeCard();
+            window.scrollTo(0, 0);
         }
 
         function showCaseStudies() {
