@@ -10973,20 +10973,21 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     if (o.textContent.trim().replace(/ $/, '') === answer) { o.classList.add('correct'); o.innerHTML += ` <i class="fas fa-check ms-2"></i>`; }
                 });
             }
-            // Show example drug
+            // Show example drug + continue button
             const hint = document.createElement('div');
             hint.className = 'text-center mt-4';
-            hint.innerHTML = `<p class="text-secondary">Example: <strong class="text-white">${q.example}</strong> — <span class="suffix-highlight">${q.suffix}</span></p>`;
+            hint.innerHTML = `<p class="text-secondary">Example: <strong class="text-white">${q.example}</strong> — <span class="suffix-highlight">${q.suffix}</span></p>
+                <button class="btn btn-lg fw-bold mt-3" style="background:#f59e0b;color:#000;" onclick="advanceSuffix()"><i class="fas fa-arrow-right me-2"></i>Continue</button>`;
             document.getElementById('suffixOptions').after(hint);
+        }
 
-            setTimeout(() => {
-                suffixQuizState.current++;
-                if (suffixQuizState.current < suffixQuizState.questions.length) {
-                    renderSuffixQuestion();
-                } else {
-                    showSuffixResults();
-                }
-            }, 1800);
+        function advanceSuffix() {
+            suffixQuizState.current++;
+            if (suffixQuizState.current < suffixQuizState.questions.length) {
+                renderSuffixQuestion();
+            } else {
+                showSuffixResults();
+            }
         }
 
         function showSuffixResults() {
@@ -11026,10 +11027,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     // Given drug → pick correct side effect
                     const wrongDrugs = shuffleArray(pool.filter(d => d.g !== drug.g)).slice(0,3);
                     const options = shuffleArray([
-                        { text: drug.aes.substring(0,120) + (drug.aes.length>120?'...':''), correct: true },
-                        ...wrongDrugs.map(d => ({ text: d.aes.substring(0,120) + (d.aes.length>120?'...':''), correct: false }))
+                        { text: drug.aes, correct: true },
+                        ...wrongDrugs.map(d => ({ text: d.aes, correct: false }))
                     ]);
-                    questions.push({ type:'drug2se', drug: drug.g, brand: drug.b.split(',')[0].trim(), cls: drug.c, options, nursing: drug.nurse ? drug.nurse.substring(0,200) : '' });
+                    questions.push({ type:'drug2se', drug: drug.g, brand: drug.b.split(',')[0].trim(), cls: drug.c, options, nursing: drug.nurse || '' });
                 } else {
                     // Given side effect → pick correct drug
                     const wrongDrugs = shuffleArray(pool.filter(d => d.g !== drug.g)).slice(0,3);
@@ -11037,7 +11038,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                         { text: drug.g + ' (' + drug.b.split(',')[0].trim() + ')', correct: true },
                         ...wrongDrugs.map(d => ({ text: d.g + ' (' + d.b.split(',')[0].trim() + ')', correct: false }))
                     ]);
-                    questions.push({ type:'se2drug', sideEffect: drug.aes.substring(0,150) + (drug.aes.length>150?'...':''), drug: drug.g, cls: drug.c, options, nursing: drug.nurse ? drug.nurse.substring(0,200) : '' });
+                    questions.push({ type:'se2drug', sideEffect: drug.aes, drug: drug.g, cls: drug.c, options, nursing: drug.nurse || '' });
                 }
             }
             return questions;
@@ -11096,23 +11097,27 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 });
             }
 
-            // Show nursing tip
-            if (q.nursing) {
-                const tip = document.createElement('div');
-                tip.className = 'mt-4 p-3';
-                tip.style.cssText = 'background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:12px;';
-                tip.innerHTML = `<p class="mb-0"><strong class="text-accent" style="font-size:0.8rem;"><i class="fas fa-user-nurse me-1"></i> NURSING TIP</strong></p><p class="text-white-50 mb-0" style="font-size:0.85rem;">${q.nursing}...</p>`;
-                document.getElementById('seOptions').after(tip);
-            }
+            // Show nursing tip + continue button
+            const feedback = document.createElement('div');
+            feedback.className = 'mt-4';
+            feedback.innerHTML = `
+                ${q.nursing ? `<div class="p-3 mb-3" style="background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:12px;">
+                    <p class="mb-1"><strong class="text-accent" style="font-size:0.8rem;"><i class="fas fa-user-nurse me-1"></i> NURSING TIP</strong></p>
+                    <p class="text-white-50 mb-0" style="font-size:0.85rem;">${q.nursing}</p>
+                </div>` : ''}
+                <div class="text-center">
+                    <button class="btn btn-lg fw-bold" style="background:#ef4444;color:#fff;" onclick="advanceSE()"><i class="fas fa-arrow-right me-2"></i>Continue</button>
+                </div>`;
+            document.getElementById('seOptions').after(feedback);
+        }
 
-            setTimeout(() => {
-                seDrillState.current++;
-                if (seDrillState.current < seDrillState.questions.length) {
-                    renderSEQuestion();
-                } else {
-                    showSEResults();
-                }
-            }, 2200);
+        function advanceSE() {
+            seDrillState.current++;
+            if (seDrillState.current < seDrillState.questions.length) {
+                renderSEQuestion();
+            } else {
+                showSEResults();
+            }
         }
 
         function showSEResults() {
@@ -11169,8 +11174,8 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     correctDrug: drug.g,
                     correctBrand: drug.b.split(',')[0].trim(),
                     correctClass: drug.c,
-                    mechanism: drug.m ? drug.m.substring(0, 180) + (drug.m.length > 180 ? '...' : '') : '',
-                    nursing: drug.nurse ? drug.nurse.substring(0, 200) + (drug.nurse.length > 200 ? '...' : '') : '',
+                    mechanism: drug.m || '',
+                    nursing: drug.nurse || '',
                     options
                 });
             }
@@ -11233,29 +11238,32 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 });
             }
 
-            // Show rationale: class + mechanism
+            // Show rationale: class + mechanism + nursing + continue button
             const rationale = document.createElement('div');
             rationale.className = 'mt-4';
             rationale.innerHTML = `
-                <div class="p-3 mb-2" style="background:rgba(6,182,212,0.08); border:1px solid rgba(6,182,212,0.25); border-radius:12px;">
+                <div class="p-3 mb-3" style="background:rgba(6,182,212,0.08); border:1px solid rgba(6,182,212,0.25); border-radius:12px;">
                     <p class="mb-1"><strong class="text-white">${q.correctDrug}</strong> <span class="text-white-50">(${q.correctBrand})</span></p>
                     <div class="badge bg-secondary mb-2">${q.correctClass}</div>
                     ${q.mechanism ? `<p class="text-white-50 mb-0" style="font-size:0.85rem;"><strong style="color:#06b6d4; font-size:0.75rem;">MECHANISM:</strong> ${q.mechanism}</p>` : ''}
                 </div>
-                ${q.nursing ? `<div class="p-3" style="background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:12px;">
-                    <p class="mb-0"><strong class="text-accent" style="font-size:0.8rem;"><i class="fas fa-user-nurse me-1"></i> NURSING TIP</strong></p>
+                ${q.nursing ? `<div class="p-3 mb-3" style="background:rgba(59,130,246,0.1); border:1px solid rgba(59,130,246,0.3); border-radius:12px;">
+                    <p class="mb-1"><strong class="text-accent" style="font-size:0.8rem;"><i class="fas fa-user-nurse me-1"></i> NURSING TIP</strong></p>
                     <p class="text-white-50 mb-0" style="font-size:0.85rem;">${q.nursing}</p>
-                </div>` : ''}`;
+                </div>` : ''}
+                <div class="text-center">
+                    <button class="btn btn-lg fw-bold" style="background:#06b6d4;color:#fff;" onclick="advanceInd()"><i class="fas fa-arrow-right me-2"></i>Continue</button>
+                </div>`;
             document.getElementById('indOptions').after(rationale);
+        }
 
-            setTimeout(() => {
-                indDrillState.current++;
-                if (indDrillState.current < indDrillState.questions.length) {
-                    renderIndQuestion();
-                } else {
-                    showIndResults();
-                }
-            }, 2800);
+        function advanceInd() {
+            indDrillState.current++;
+            if (indDrillState.current < indDrillState.questions.length) {
+                renderIndQuestion();
+            } else {
+                showIndResults();
+            }
         }
 
         function showIndResults() {
