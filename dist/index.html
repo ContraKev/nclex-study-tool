@@ -11147,6 +11147,126 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             renderIndQuestion();
         }
 
+        /* Clinical vignette templates — keyed by regex patterns matched against ind + class fields.
+           Each entry: { pattern (RegExp), vignettes (array of scenario strings) }.
+           Vignettes use {drug_class} placeholder replaced at runtime. */
+        const CLINICAL_VIGNETTES = [
+            // ─── CARDIOVASCULAR ───
+            { pattern: /\bhypertension\b/i, vignettes: [
+                "A 58-year-old male presents for a routine visit. BP is 162/98 mmHg (confirmed on two readings 5 min apart). HR 78, RR 16. PMH: Type 2 Diabetes. Reports occasional headaches and blurred vision. No chest pain. Labs: BMP within normal limits, eGFR 72 mL/min.",
+                "A 64-year-old female with a history of Stage 2 HTN presents with BP 174/102 mmHg. She reports compliance with low-sodium diet but admits missing medications. HR 82, O2 sat 97%. Fundoscopic exam shows AV nicking.",
+                "A 52-year-old male is found to have a BP of 158/96 mmHg at a pre-employment physical. He is asymptomatic. BMI 31. Family history of stroke. Lipid panel: LDL 142 mg/dL. The provider wants to start antihypertensive therapy."
+            ]},
+            { pattern: /\bheart failure\b|\bHF\b|\bHFrEF\b|\bventricular dysfunction\b/i, vignettes: [
+                "A 72-year-old male presents with progressive dyspnea on exertion, orthopnea (uses 3 pillows), and bilateral pitting edema (2+). BP 132/84, HR 92, RR 22, O2 sat 93% on RA. Echocardiogram shows EF 30%. BNP 890 pg/mL. Lungs: bibasilar crackles.",
+                "A 68-year-old female with a history of MI presents with weight gain of 5 lbs in 3 days, JVD, and bilateral ankle swelling. BP 118/76, HR 88, RR 24. Chest X-ray shows cardiomegaly and pulmonary congestion. EF 25%.",
+                "A 75-year-old male with NYHA Class III HF reports worsening fatigue and inability to walk more than one block. BP 124/78, HR 96, RR 20, O2 sat 94%. BNP 1,200 pg/mL. Current meds include a diuretic and digoxin."
+            ]},
+            { pattern: /\bangina\b/i, vignettes: [
+                "A 62-year-old male reports substernal chest pressure with exertion (climbing stairs) that resolves with rest within 5 minutes. BP 138/86, HR 74, RR 16. ECG: ST-segment depression during stress test. Troponins negative. He has a 30-year smoking history.",
+                "A 55-year-old female presents with episodes of squeezing chest pain during her morning walk, rated 6/10, radiating to the left jaw. Pain resolves after sitting for 3-4 minutes. BP 142/88, HR 80. Lipid panel: Total cholesterol 268 mg/dL.",
+            ]},
+            { pattern: /\barrhythmi|atrial fibrillation\b|\bAFib\b|\btachycardia\b|\bantiarrhythmic\b/i, vignettes: [
+                "A 70-year-old presents with palpitations, lightheadedness, and an irregular pulse. HR 142 (irregularly irregular), BP 110/70, RR 18, O2 sat 96%. ECG: absent P waves with irregular R-R intervals. No chest pain.",
+                "A 65-year-old male presents with recurrent episodes of rapid heart rate, dizziness, and near-syncope. ECG shows ventricular tachycardia at a rate of 180 bpm. BP 98/64. He has a history of prior MI with EF 35%."
+            ]},
+            { pattern: /\bhyperlipidemia\b|\bhypercholesterolemia\b|\bLDL\b|\btriglycerid/i, vignettes: [
+                "A 48-year-old male presents for an annual physical. Fasting lipid panel: Total cholesterol 282 mg/dL, LDL 188 mg/dL, HDL 38 mg/dL, Triglycerides 210 mg/dL. BMI 29. Family history: father had MI at age 52. BP 128/82.",
+                "A 55-year-old female post-MI has a fasting LDL of 162 mg/dL despite 3 months of dietary modification. Total cholesterol 248 mg/dL. PMH: Type 2 Diabetes, HTN. Her cardiologist recommends pharmacologic lipid-lowering therapy.",
+                "A 60-year-old male with coronary artery disease presents with a fasting lipid panel showing triglycerides 620 mg/dL. He reports abdominal discomfort after fatty meals. The provider is concerned about pancreatitis risk."
+            ]},
+            { pattern: /\bDVT\b|\bPE\b|\bthrombo|embol|\banticoagul|\bclot\b|\batrial fibrillation\b.*stroke/i, vignettes: [
+                "A 58-year-old female post-knee replacement surgery develops unilateral left calf swelling, warmth, and tenderness. Positive Homans' sign. D-dimer: elevated at 1,200 ng/mL. Duplex ultrasound confirms DVT in the popliteal vein.",
+                "A 72-year-old male with a history of AFib (CHA₂DS₂-VASc score of 4) presents for initiation of stroke prophylaxis. HR 82 (irregularly irregular), BP 136/82. No prior bleeding history. Cr 1.1, eGFR 68."
+            ]},
+            // ─── DIABETES ───
+            { pattern: /\bdiabet|\bType 2\b|\bhyperglycemia\b|\bglycemic\b|\bType 1\b.*diabet|\bDKA\b|\bHHS\b|\binsulin\b/i, vignettes: [
+                "A 54-year-old male with newly diagnosed Type 2 Diabetes presents with a HbA1c of 8.2%. Fasting blood glucose 186 mg/dL. BMI 32. He reports increased thirst, frequent urination, and fatigue for the past 2 months. Renal function: eGFR 85 mL/min.",
+                "A 62-year-old female with Type 2 DM has a HbA1c of 9.1% despite metformin 1000 mg BID. FBG 212 mg/dL. BMI 28. She reports numbness in both feet. The provider considers adding a second agent.",
+                "A 45-year-old female with Type 2 DM, CHF (EF 35%), and BMI 34 presents for medication adjustment. HbA1c 7.8%. The provider wants an agent that provides cardiovascular and weight-loss benefits.",
+                "A 28-year-old male with Type 1 Diabetes is admitted with blood glucose 42 mg/dL, diaphoresis, tremors, and confusion. He reports taking his usual insulin dose but skipped lunch."
+            ]},
+            // ─── PAIN ───
+            { pattern: /\bpain\b|\banalges|\bopioid\b|\bmigraine\b|\bneuropath/i, vignettes: [
+                "A 45-year-old male is post-op Day 1 following an open cholecystectomy. He rates his pain 8/10, described as sharp and constant at the surgical site. BP 148/92, HR 96, RR 20. He is unable to deep breathe or use the incentive spirometer due to pain.",
+                "A 67-year-old female with metastatic bone cancer rates her chronic pain at 7/10 despite scheduled acetaminophen. She reports the pain is constant, aching, and worse with movement. Current weight: 110 lbs. She needs around-the-clock pain management.",
+                "A 35-year-old female presents to the ED with a severe unilateral throbbing headache rated 9/10, photophobia, phonophobia, and nausea for 6 hours. She reports visual aura (zigzag lines) preceding the headache. PMH: 2-3 similar episodes per month.",
+                "A 58-year-old male with diabetic peripheral neuropathy reports burning, tingling pain in both feet rated 6/10, worse at night. The provider wants a non-opioid adjuvant for neuropathic pain."
+            ]},
+            // ─── ANTIMICROBIALS ───
+            { pattern: /\binfect|\bbacter|\bantibiotic\b|\bantimicrob|\bpneumonia\b|\bcellulitis\b|\bUTI\b|\btuberculosis\b|\bTB\b|\bfung|\bviral\b|\bantiviral\b/i, vignettes: [
+                "A 42-year-old female presents with dysuria, urinary frequency, urgency, and suprapubic tenderness for 2 days. Temp 100.4°F, HR 82. UA: positive nitrites, positive leukocyte esterase, WBC >50/hpf. Urine culture pending.",
+                "A 68-year-old male presents with productive cough (green sputum), fever 102.6°F, chills, and pleuritic chest pain for 3 days. RR 24, O2 sat 91% on RA. Chest X-ray: right lower lobe consolidation. WBC 18,200.",
+                "A 35-year-old male presents with a warm, erythematous, edematous area on his right lower leg with well-defined borders. Temp 101.2°F. He reports it started as a small cut 4 days ago. Spreading red streaks noted proximal to the lesion."
+            ]},
+            // ─── RESPIRATORY ───
+            { pattern: /\basthma\b|\bbroncho|\bCOPD\b|\bwheezing\b|\brhinitis\b|\bcough\b|\brespiratory\b.*(?:congest|inflam)/i, vignettes: [
+                "A 22-year-old female with a history of asthma presents with acute wheezing, dyspnea, and chest tightness after exposure to cold air. RR 28, HR 110, O2 sat 92% on RA. Accessory muscle use noted. She used her rescue inhaler twice without relief.",
+                "A 65-year-old male with COPD (GOLD Stage III) presents with increased dyspnea, purulent sputum, and barrel chest. RR 22, O2 sat 88% on RA. FEV1 40% predicted. He uses a short-acting bronchodilator PRN but needs long-term maintenance therapy.",
+                "A 30-year-old presents with persistent nasal congestion, sneezing, watery eyes, and clear rhinorrhea for the past 3 weeks. Symptoms worsen outdoors. No fever. She wants relief from her allergic symptoms."
+            ]},
+            // ─── GI ───
+            { pattern: /\bGERD\b|\breflux\b|\bulcer\b|\bnausea\b|\bvomit|\bantiemetic\b|\bconstipat|\bdiarrhea\b|\bH\.\s*pylori\b/i, vignettes: [
+                "A 50-year-old male reports burning epigastric pain that worsens after meals and when lying down, occurring 4-5 times per week for 2 months. He uses antacids daily with partial relief. EGD shows esophageal erosions (LA Grade B). H. pylori negative.",
+                "A 38-year-old female post-chemotherapy reports persistent nausea and vomiting rated 8/10 for 24 hours. She is unable to tolerate oral intake. BP 100/62, HR 98. Mucous membranes dry. She has already received ondansetron without adequate relief.",
+                "A 55-year-old male presents with epigastric pain that improves with eating and returns 2-3 hours later. Positive H. pylori stool antigen test. He takes ibuprofen daily for arthritis pain."
+            ]},
+            // ─── CNS / PSYCH ───
+            { pattern: /\banxiety\b|\bseizure\b|\bepilepsy\b|\bdepression\b|\bbipolar\b|\bpsych|\bschizo|\binsomnia\b|\bagitation\b|\bstatus epilepticus\b/i, vignettes: [
+                "A 28-year-old female presents with persistent worry, restlessness, difficulty concentrating, and insomnia for 6 months. She reports heart pounding and muscle tension. GAD-7 score: 16 (severe). She tried counseling alone without adequate improvement.",
+                "A 34-year-old male is brought to the ED actively seizing for >5 minutes. No known seizure history. Temp 98.6°F, HR 120, BP 160/100, O2 sat 88%. IV access is established. The team needs to stop the seizure immediately.",
+                "A 42-year-old female reports persistent sadness, loss of interest in activities, sleep disturbance (early morning awakening), poor appetite with 10 lb weight loss, and difficulty concentrating for 8 weeks. PHQ-9 score: 18."
+            ]},
+            // ─── THYROID / ENDOCRINE ───
+            { pattern: /\bhypothyroid|\bhyperthyroid|\bthyroid\b|\bGoiter\b|\bGraves\b|\bmyxedema\b/i, vignettes: [
+                "A 45-year-old female presents with fatigue, cold intolerance, constipation, weight gain of 15 lbs in 3 months, and dry skin. HR 54, BP 108/72. TSH: 12.4 mIU/L (elevated), Free T4: 0.4 ng/dL (low). She has a non-tender, diffusely enlarged thyroid.",
+                "A 32-year-old female presents with unintentional weight loss (20 lbs in 2 months), heat intolerance, tremors, palpitations, and exophthalmos. HR 112, BP 148/72. TSH: <0.01 mIU/L (suppressed), Free T4: 4.8 ng/dL (elevated). Diagnosis: Graves' disease."
+            ]},
+            // ─── NEUROLOGY ───
+            { pattern: /\bParkinson|\btremor\b.*resting|\bbradykinesia\b|\bAlzheimer|\bdementia\b|\bcognitive decline\b/i, vignettes: [
+                "A 68-year-old male presents with a progressive resting tremor in his right hand ('pill-rolling'), shuffling gait, bradykinesia, and cogwheel rigidity for 8 months. He has difficulty buttoning his shirt and his handwriting has become small (micrographia). MMSE 28/30.",
+                "A 76-year-old female is brought by her family for progressive memory loss over 2 years. She repeats questions, gets lost driving to familiar places, and left the stove on twice last week. MMSE: 18/30. MRI shows hippocampal atrophy."
+            ]},
+            // ─── REPRODUCTIVE / OB ───
+            { pattern: /\bcontracepti|\bpostpartum hemorrh|\buterine\b|\boxytocin\b|\blabor\b|\bpreterm\b|\beclampsia\b|\binfertility\b|\bendometrios/i, vignettes: [
+                "A 28-year-old G2P1 is in active labor and progressing to delivery. After delivery of the placenta, the uterus is boggy and the patient has heavy vaginal bleeding estimated at 800 mL. BP 96/58, HR 118. The provider orders a uterotonic agent.",
+                "A 30-year-old G1P0 at 32 weeks gestation presents with regular contractions every 4 minutes and cervical dilation of 2 cm. Fetal heart rate is reassuring. The provider wants to stop preterm labor."
+            ]},
+            // ─── OSTEOPOROSIS / MSK ───
+            { pattern: /\bosteoporos|\bbone density\b|\bbisphosphonate\b|\bfracture.*prevent/i, vignettes: [
+                "A 68-year-old postmenopausal female had a DEXA scan showing a T-score of -2.8 at the lumbar spine. She had a Colles fracture (distal radius) from a fall last year. Calcium and Vitamin D levels are adequate. The provider wants to start pharmacologic therapy to reduce fracture risk."
+            ]},
+            // ─── UROLOGY ───
+            { pattern: /\bBPH\b|\burinary retention\b|\boveractive bladder\b|\bincontinence\b|\b5-alpha\b/i, vignettes: [
+                "A 70-year-old male presents with urinary hesitancy, weak stream, nocturia ×4, sensation of incomplete emptying, and post-void dribbling for 6 months. DRE: uniformly enlarged, non-tender prostate. PSA: 3.2 ng/mL. Post-void residual: 120 mL.",
+                "A 62-year-old female reports urinary urgency, frequency (voiding 12 times/day), and occasional urge incontinence. UA is negative for infection. She has tried behavioral strategies without adequate improvement."
+            ]},
+            // ─── OPHTHALMIC / GLAUCOMA ───
+            { pattern: /\bglaucoma\b|\bintraocular pressure\b|\bIOP\b/i, vignettes: [
+                "A 58-year-old presents for a routine eye exam. Tonometry shows IOP of 28 mmHg (normal <21). Visual field testing shows early peripheral vision loss. Optic disc examination reveals cupping. Diagnosis: primary open-angle glaucoma."
+            ]},
+            // ─── GOUT / IMMUNITY ───
+            { pattern: /\bgout\b|\buric acid\b|\brheumatoid\b|\bautoimmune\b|\bDMARD\b|\bimmunosuppress/i, vignettes: [
+                "A 55-year-old male presents with sudden onset of excruciating pain, redness, and swelling of the right great toe (1st MTP joint) that started overnight. He cannot bear weight. Temp 100.2°F. Serum uric acid: 9.8 mg/dL. Synovial fluid: negatively birefringent needle-shaped crystals.",
+                "A 40-year-old female with rheumatoid arthritis reports persistent joint pain, morning stiffness >1 hour, and symmetric swelling of the MCP and PIP joints for 4 months despite NSAIDs. ESR 48, CRP 3.2. RF and anti-CCP positive."
+            ]},
+            // ─── ELECTROLYTES ───
+            { pattern: /\bhypokalemia\b|\bhyperkalemia\b|\bhyponatremia\b|\bhypocalcemia\b|\bhypomagnesemia\b|\belectrolyte\b/i, vignettes: [
+                "A 64-year-old on furosemide presents with muscle weakness, leg cramps, and fatigue. ECG shows flattened T waves, ST depression, and prominent U waves. Labs: K+ 2.8 mEq/L, Mg²+ 1.4 mEq/L.",
+                "A 58-year-old with CKD Stage 4 presents with muscle weakness and tingling. ECG shows peaked T waves and widened QRS. Labs: K+ 6.4 mEq/L, Cr 4.2 mg/dL."
+            ]},
+            // ─── STI ───
+            { pattern: /\bchlamydia\b|\bgonorrhea\b|\bsyphilis\b|\bherpes\b|\bHIV\b|\bSTI\b|\bSTD\b|\btrichomon/i, vignettes: [
+                "A 22-year-old female presents with mucopurulent vaginal discharge, dysuria, and lower abdominal pain for 5 days. Cervical motion tenderness on exam. NAAT is positive for Chlamydia trachomatis. She is sexually active with a new partner.",
+                "A 28-year-old male presents with painful clusters of vesicles on the penile shaft for 3 days, preceded by tingling and burning. Inguinal lymphadenopathy noted. This is his first outbreak. HSV-2 PCR is positive."
+            ]},
+            // ─── EMERGENCY ───
+            { pattern: /\banaphylax|\bcardiac arrest\b|\bvasopressor\b|\bshock\b|\bcode blue\b|\bsympath/i, vignettes: [
+                "A 30-year-old is stung by a bee and within minutes develops generalized urticaria, lip/tongue swelling, wheezing, and hypotension (BP 72/40). HR 130, RR 28, O2 sat 85%. This is a life-threatening allergic reaction requiring immediate intervention.",
+                "A 68-year-old in the ICU develops septic shock. Despite 2L NS bolus, BP remains 74/42, HR 118, lactate 5.2 mmol/L. Central line is in place. The team needs a vasopressor to maintain MAP >65 mmHg."
+            ]},
+        ];
+
         function buildIndQuestions(count) {
             const pool = shuffleArray(getPharmPool().filter(d => d.ind && d.ind.length > 15));
             const questions = [];
@@ -11156,9 +11276,9 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 if (used.has(drug.g)) continue;
                 used.add(drug.g);
 
-                // Extract a focused indication snippet
-                const indication = extractIndication(drug.ind);
-                if (!indication || indication.length < 10) continue;
+                // Build a clinical vignette from the drug's indication
+                const vignette = buildVignette(drug);
+                if (!vignette) continue;
 
                 // Build 3 wrong answers from different drug classes to avoid ambiguity
                 const wrongDrugs = shuffleArray(pool.filter(d => d.g !== drug.g && d.c !== drug.c)).slice(0,3);
@@ -11170,7 +11290,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 ]);
 
                 questions.push({
-                    indication,
+                    indication: vignette,
                     correctDrug: drug.g,
                     correctBrand: drug.b.split(',')[0].trim(),
                     correctClass: drug.c,
@@ -11182,11 +11302,17 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             return questions;
         }
 
-        function extractIndication(indStr) {
-            // Split on common delimiters and pick one indication at random for variety
-            const parts = indStr.split(/[.,;]/).map(s => s.trim()).filter(s => s.length > 10 && s.length < 200);
-            if (parts.length === 0) return indStr.substring(0, 150);
-            return parts[Math.floor(Math.random() * parts.length)];
+        function buildVignette(drug) {
+            const searchText = drug.ind + ' ' + drug.c;
+            for (const entry of CLINICAL_VIGNETTES) {
+                if (entry.pattern.test(searchText)) {
+                    const picks = entry.vignettes;
+                    return picks[Math.floor(Math.random() * picks.length)];
+                }
+            }
+            // Fallback: wrap the raw indication in a minimal clinical frame
+            const ind = drug.ind.length > 250 ? drug.ind.substring(0, 250) + '...' : drug.ind;
+            return `A patient is being evaluated for pharmacologic management. Chart review indicates: ${ind}. The provider wants to initiate appropriate drug therapy.`;
         }
 
         function renderIndQuestion() {
@@ -11206,12 +11332,11 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     </div>
                     <div class="pharm-score-bar mb-4"><div class="pharm-score-fill" style="width:${progress}%; background:#06b6d4;"></div></div>
 
-                    <div class="text-center mb-4">
-                        <p class="text-secondary mb-2">A patient presents with the following indication:</p>
+                    <div class="mb-4">
                         <div class="p-4 mb-3" style="background:rgba(6,182,212,0.1); border:2px solid rgba(6,182,212,0.3); border-radius:16px;">
-                            <h4 class="text-white mb-0 fw-bold" style="line-height:1.5;">${q.indication}</h4>
+                            <p class="text-white mb-0" style="line-height:1.7; font-size:0.95rem;">${q.indication}</p>
                         </div>
-                        <p class="text-secondary">Which drug would be used?</p>
+                        <p class="text-center fw-bold" style="color:#06b6d4;">Which drug would be most appropriate?</p>
                     </div>
 
                     <div class="d-flex flex-column gap-3" id="indOptions">
