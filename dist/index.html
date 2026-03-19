@@ -10251,15 +10251,17 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             try {
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
                 const column = type === 'exam' ? 'exam_name' : 'category';
+                console.log('About to delete from ' + table + ' where ' + column + ' = "' + name + '" and user_id = "' + nmUser.id + '"');
                 const result = await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
                     .eq(column, name);
+                console.log('Delete result:', result);
                 if (result.error) {
                     alert('Delete failed: ' + result.error.message);
                 } else {
-                    alert('Results deleted successfully');
-                    window.location.reload();
+                    alert('Results deleted successfully (check console for details)');
+                    // window.location.reload(); // Temporarily disabled for debugging
                 }
             } catch (e) { console.warn('Bulk delete failed:', e); alert('Failed to delete results'); }
         }
