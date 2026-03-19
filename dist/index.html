@@ -10251,6 +10251,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             try {
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
                 const column = type === 'exam' ? 'exam_name' : 'category';
+                // Debug: check existing records
+                const existing = await sb.from(table).select('*').eq('user_id', nmUser.id);
+                console.log('Existing records for user:', existing.data?.map(r => ({ id: r.id, name: r[column], type: table })));
+                console.log('Trying to delete where', column, '=', name);
                 const result = await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
