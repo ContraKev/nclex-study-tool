@@ -10262,7 +10262,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 console.log('Delete result:', result);
                 alert(`Deleted ${result.count || 0} results`);
                 // Refresh dashboard
-                window.location.reload();
+                // window.location.reload();
             } catch (e) { console.warn('Bulk delete failed:', e); alert('Failed to delete results'); }
         }
 
