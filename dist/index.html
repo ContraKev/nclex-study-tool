@@ -10442,7 +10442,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                                 <span class="text-white small">${a.name}</span>
                                 <div class="d-flex align-items-center">
                                     <span class="text-danger fw-bold me-2">${a.avg}%</span>
-                                    '' // Delete feature temporarily disabled
+                                    ''
                                 </div>
                             </div>
                             <div class="weak-area-bar"><div class="weak-area-fill" style="width:${a.avg}%; background: var(--danger);"></div></div>
@@ -10462,7 +10462,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                                 <span class="text-white small">${a.name}</span>
                                 <div class="d-flex align-items-center">
                                     <span class="text-success fw-bold me-2">${a.avg}%</span>
-                                    '' // Delete feature temporarily disabled
+                                    ''
                                 </div>
                             </div>
                             <div class="weak-area-bar"><div class="weak-area-fill" style="width:${a.avg}%; background: var(--success);"></div></div>
@@ -10482,7 +10482,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     const color = pct >= 80 ? 'success' : pct >= 60 ? 'warning' : 'danger';
                     const name = r._type === 'Exam' ? r.exam_name : r.mission_title;
                     const ago = getTimeAgo(r.completed_at);
-                    const deleteBtn = ''; // Delete feature temporarily disabled
+                    const deleteBtn = '';
                     return `<div class="d-flex justify-content-between align-items-center py-2 border-bottom border-secondary">
                         <div><span class="badge bg-${r._type === 'Exam' ? 'info' : 'success'} me-2" style="font-size:0.65rem;">${r._type}</span><span class="text-white small">${name.length > 35 ? name.slice(0, 35) + '...' : name}</span></div>
                         <div class="d-flex align-items-center">
