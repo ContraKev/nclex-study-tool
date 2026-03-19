@@ -10246,7 +10246,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             if (!confirm(`Are you sure you want to delete all ${type} results for "${name}"? This cannot be undone.`)) return;
             try {
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
-                const column = type === 'exam' ? 'exam_name' : 'mission_title';
+                const column = type === 'exam' ? 'exam_name' : 'category';
                 await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
