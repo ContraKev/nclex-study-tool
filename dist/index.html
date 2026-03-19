@@ -10215,6 +10215,32 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             } catch (e) { console.warn('Mission session delete failed:', e); }
         }
 
+        async function deleteExamResult(resultId) {
+            if (!sb || !nmUser) return;
+            if (!confirm('Are you sure you want to delete this exam result? This cannot be undone.')) return;
+            try {
+                await sb.from('exam_results')
+                    .delete()
+                    .eq('id', resultId)
+                    .eq('user_id', nmUser.id);
+                // Refresh dashboard
+                await showHomeScreen();
+            } catch (e) { console.warn('Exam result delete failed:', e); alert('Failed to delete result'); }
+        }
+
+        async function deleteMissionResult(resultId) {
+            if (!sb || !nmUser) return;
+            if (!confirm('Are you sure you want to delete this mission result? This cannot be undone.')) return;
+            try {
+                await sb.from('mission_results')
+                    .delete()
+                    .eq('id', resultId)
+                    .eq('user_id', nmUser.id);
+                // Refresh dashboard
+                await showHomeScreen();
+            } catch (e) { console.warn('Mission result delete failed:', e); alert('Failed to delete result'); }
+        }
+
         async function loadActiveSessions() {
             if (!sb || !nmUser) return [];
             try {
@@ -10415,9 +10441,13 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     const color = pct >= 80 ? 'success' : pct >= 60 ? 'warning' : 'danger';
                     const name = r._type === 'Exam' ? r.exam_name : r.mission_title;
                     const ago = getTimeAgo(r.completed_at);
+                    const deleteBtn = nmUser && nmUser.email === 'kevin.c.s.mcandrews@gmail.com' ? `<button class="btn btn-sm btn-outline-danger ms-2" onclick="${r._type === 'Exam' ? 'deleteExamResult' : 'deleteMissionResult'}(${r.id})" title="Delete this result"><i class="fas fa-trash"></i></button>` : '';
                     return `<div class="d-flex justify-content-between align-items-center py-2 border-bottom border-secondary">
                         <div><span class="badge bg-${r._type === 'Exam' ? 'info' : 'success'} me-2" style="font-size:0.65rem;">${r._type}</span><span class="text-white small">${name.length > 35 ? name.slice(0, 35) + '...' : name}</span></div>
-                        <span class="fw-bold text-${color}">${r.score}/${r.total} (${Math.round(pct)}%)</span>
+                        <div class="d-flex align-items-center">
+                            <span class="fw-bold text-${color} me-2">${r.score}/${r.total} (${Math.round(pct)}%)</span>
+                            ${deleteBtn}
+                        </div>
                     </div>`;
                 }).join('')}
             </div>` : '';
