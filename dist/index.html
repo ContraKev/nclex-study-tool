@@ -10260,9 +10260,9 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     .eq('user_id', nmUser.id)
                     .eq(column, name);
                 console.log('Delete result:', result);
-                alert(`Deleted ${result.count || 0} results`);
+                alert(`Deleted ${result.status === 204 ? 'successfully' : '0'} results`);
                 // Refresh dashboard
-                // window.location.reload();
+                window.location.reload();
             } catch (e) { console.warn('Bulk delete failed:', e); alert('Failed to delete results'); }
         }
 
