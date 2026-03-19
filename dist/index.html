@@ -10242,7 +10242,11 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         }
 
         async function deleteAllResults(type, name) {
-            if (!sb || !nmUser || nmUser.email !== 'kevin.c.s.mcandrews@gmail.com') return;
+            console.log('deleteAllResults called with', type, name);
+            if (!sb || !nmUser || nmUser.email !== 'kevin.c.s.mcandrews@gmail.com') {
+                console.log('Check failed: sb=', !!sb, 'nmUser=', !!nmUser, 'email=', nmUser?.email);
+                return;
+            }
             if (!confirm(`Are you sure you want to delete all ${type} results for "${name}"? This cannot be undone.`)) return;
             try {
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
