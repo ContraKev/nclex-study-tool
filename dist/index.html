@@ -10224,7 +10224,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     .eq('id', resultId)
                     .eq('user_id', nmUser.id);
                 // Refresh dashboard
-                await showHomeScreen();
+                window.location.reload();
             } catch (e) { console.warn('Exam result delete failed:', e); alert('Failed to delete result'); }
         }
 
@@ -10237,7 +10237,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     .eq('id', resultId)
                     .eq('user_id', nmUser.id);
                 // Refresh dashboard
-                await showHomeScreen();
+                window.location.reload();
             } catch (e) { console.warn('Mission result delete failed:', e); alert('Failed to delete result'); }
         }
 
@@ -10252,7 +10252,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                     .eq('user_id', nmUser.id)
                     .eq(column, name);
                 // Refresh dashboard
-                await showHomeScreen();
+                window.location.reload();
             } catch (e) { console.warn('Bulk delete failed:', e); alert('Failed to delete results'); }
         }
 
