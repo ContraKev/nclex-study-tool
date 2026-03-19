@@ -10256,10 +10256,11 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
                 const column = type === 'exam' ? 'exam_name' : 'category';
 
+                alert('Attempting to delete from ' + table + ' where ' + column + ' = "' + queryName + '" and user_id matches');
                 const result = await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
-                    .eq(column, name);
+                    .eq(column, queryName);
                 if (result.error) {
                     alert('Delete failed: ' + result.error.message);
                 } else {
