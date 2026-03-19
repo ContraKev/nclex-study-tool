@@ -10254,7 +10254,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 const result = await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
-                    .eq(column, queryName);
+                    .eq(column, name);
                 if (result.error) {
                     alert('Delete failed: ' + result.error.message);
                 } else {
