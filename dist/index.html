@@ -10241,6 +10241,26 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             } catch (e) { console.warn('Mission result delete failed:', e); alert('Failed to delete result'); }
         }
 
+        async function deleteAllResults(type, name) {
+            if (!sb || !nmUser || nmUser.email !== 'kevin.c.s.mcandrews@gmail.com') return;
+            if (!confirm(`Are you sure you want to delete all ${type} results for "${name}"? This cannot be undone.`)) return;
+            try {
+                const table = type === 'exam' ? 'exam_results' : 'mission_results';
+                const column = type === 'exam' ? 'exam_name' : 'mission_title';
+                await sb.from(table)
+                    .delete()
+                    .eq('user_id', nmUser.id)
+                    .eq(column, name);
+                // Refresh dashboard
+                await showHomeScreen();
+            } catch (e) { console.warn('Bulk delete failed:', e); alert('Failed to delete results'); }
+        }
+
+        // Make functions globally accessible
+        window.deleteExamResult = deleteExamResult;
+        window.deleteMissionResult = deleteMissionResult;
+        window.deleteAllResults = deleteAllResults;
+
         async function loadActiveSessions() {
             if (!sb || !nmUser) return [];
             try {
@@ -10375,23 +10395,24 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             // Per-exam breakdown for weak areas
             const examBreakdown = {};
             data.exams.forEach(e => {
-                if (!examBreakdown[e.exam_name]) examBreakdown[e.exam_name] = { scores: [], type: 'exam' };
-                examBreakdown[e.exam_name].scores.push(parseFloat(e.percentage));
+                if (!examBreakdown[e.exam_name]) examBreakdown[e.exam_name] = { results: [], type: 'exam' };
+                examBreakdown[e.exam_name].results.push(e);
             });
 
             // Per-category mission breakdown
             const missionBreakdown = {};
             data.missions.forEach(m => {
                 const cat = m.category || 'Uncategorized';
-                if (!missionBreakdown[cat]) missionBreakdown[cat] = { scores: [], type: 'mission' };
-                missionBreakdown[cat].scores.push(parseFloat(m.percentage));
+                if (!missionBreakdown[cat]) missionBreakdown[cat] = { results: [], type: 'mission' };
+                missionBreakdown[cat].results.push(m);
             });
 
             // Combine and sort by average score (weakest first)
             const allAreas = { ...examBreakdown, ...missionBreakdown };
             const areaList = Object.entries(allAreas).map(([name, data]) => {
-                const avg = Math.round(data.scores.reduce((a, b) => a + b, 0) / data.scores.length);
-                return { name, avg, attempts: data.scores.length, type: data.type, best: Math.max(...data.scores) };
+                const scores = data.results.map(r => parseFloat(r.percentage));
+                const avg = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
+                return { name, avg, attempts: scores.length, type: data.type, best: Math.max(...scores), results: data.results };
             }).sort((a, b) => a.avg - b.avg);
 
             const weakAreas = areaList.filter(a => a.avg < 75);
@@ -10405,7 +10426,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                         <div class="mb-3">
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="text-white small">${a.name}</span>
-                                <span class="text-danger fw-bold">${a.avg}%</span>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-danger fw-bold me-2">${a.avg}%</span>
+                                    ${nmUser && nmUser.email === 'kevin.c.s.mcandrews@gmail.com' ? `<button class="btn btn-sm btn-outline-danger" onclick="deleteAllResults('${a.type}', '${a.name.replace(/'/g, "\\'")}')" title="Delete all ${a.type} results for this area"><i class="fas fa-trash"></i></button>` : ''}
+                                </div>
                             </div>
                             <div class="weak-area-bar"><div class="weak-area-fill" style="width:${a.avg}%; background: var(--danger);"></div></div>
                             <small class="text-secondary">${a.attempts} attempt${a.attempts > 1 ? 's' : ''} · Best: ${a.best}%</small>
@@ -10422,7 +10446,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                         <div class="mb-3">
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="text-white small">${a.name}</span>
-                                <span class="text-success fw-bold">${a.avg}%</span>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-success fw-bold me-2">${a.avg}%</span>
+                                    ${nmUser && nmUser.email === 'kevin.c.s.mcandrews@gmail.com' ? `<button class="btn btn-sm btn-outline-danger" onclick="deleteAllResults('${a.type}', '${a.name.replace(/'/g, "\\'")}')" title="Delete all ${a.type} results for this area"><i class="fas fa-trash"></i></button>` : ''}
+                                </div>
                             </div>
                             <div class="weak-area-bar"><div class="weak-area-fill" style="width:${a.avg}%; background: var(--success);"></div></div>
                             <small class="text-secondary">${a.attempts} attempt${a.attempts > 1 ? 's' : ''} · Best: ${a.best}%</small>
