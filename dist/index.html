@@ -10249,12 +10249,16 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             }
             if (!confirm(`Are you sure you want to delete all ${type} results for "${name}"? This cannot be undone.`)) return;
             try {
+                let queryName = name;
+                if (type === 'exam') {
+                    queryName = name.replace(' Exam', ''); // Remove ' Exam' suffix if present
+                }
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
                 const column = type === 'exam' ? 'exam_name' : 'category';
                 // Debug: check existing records
                 const existing = await sb.from(table).select('*').eq('user_id', nmUser.id);
                 alert('Existing records for user: ' + JSON.stringify(existing.data?.map(r => ({ id: r.id, name: r[column], type: table }))));
-                alert('Trying to delete where ' + column + ' = ' + name);
+                alert('Trying to delete where ' + column + ' = ' + queryName);
                 const result = await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
