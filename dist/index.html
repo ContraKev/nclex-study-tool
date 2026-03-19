@@ -10247,10 +10247,12 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             try {
                 const table = type === 'exam' ? 'exam_results' : 'mission_results';
                 const column = type === 'exam' ? 'exam_name' : 'category';
-                await sb.from(table)
+                const result = await sb.from(table)
                     .delete()
                     .eq('user_id', nmUser.id)
                     .eq(column, name);
+                console.log('Delete result:', result);
+                alert(`Deleted ${result.count || 0} results`);
                 // Refresh dashboard
                 window.location.reload();
             } catch (e) { console.warn('Bulk delete failed:', e); alert('Failed to delete results'); }
