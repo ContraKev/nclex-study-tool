@@ -75,14 +75,20 @@ There is **no single “exam registry” file**. The list of exams is the order 
 - **Common:** `id`, `question`, `options` (array of strings), `answer` (single value or array for SATA), `rationale`.
 - **Optional:** `slide`, `type` (e.g. `"sata"`, `"matrix"`). Matrix questions use `columns`, `rows` (with `text`, `correct_col_idx`), and `answer` as object mapping row text → column.
 
-### Adding a new exam (current state)
+### Adding a new exam (standard process)
 
-1. **Create the question set** in a new file:
-   - Either **JS:** `window.<moduleId>ExamData = [ ... ];` (same shape as above), or
-   - **JSON:** array of questions (if you later add a build step that converts JSON → JS and registers the exam).
-2. **Register the exam** where the bundle is built:
-   - If you keep editing `dist/index.html` by hand: inline the array and add one `window.availableExams.push({ id, name, data });`.
-   - If you introduce a build: add this exam source to the build (and a registry or manifest so the build knows to emit the push).
+1. **Create the question set** in a new JS file (e.g., `exam_<topic>.js`):
+   - Use format: `window.<moduleId>ExamData = [ ... ];`
+   - **REQUIRED:** Include `slide: <number>` for each question, referencing the PPTX slide where the information comes from
+   - **REQUIRED:** After creating, run `node auto_add_slides.js exam_<topic>.js` to automatically append slide numbers to all rationales (e.g., " (Slide 15)")
+   - Question object shape: `id`, `slide`, `question`, `options`, `answer`, `rationale` (+ optional `type`)
+
+2. **Register and deploy the exam**:
+   - Add the file to the `examFiles` list in `build_index.js`
+   - Run `node build_index.js` to inline the exam into `dist/index.html`
+   - Commit and push to deploy via GitHub Pages
+
+**Slide Reference Standard:** All rationales MUST include slide numbers in the format " (Slide X)" at the end. This is enforced automatically by the `auto_add_slides.js` script. If creating questions from PPTX files, ensure the `slide` field matches the source slide number.
 
 ### Scaling recommendation
 
