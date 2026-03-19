@@ -10247,6 +10247,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 console.log('Check failed: sb=', !!sb, 'nmUser=', !!nmUser, 'email=', nmUser?.email);
                 return;
             }
+            alert('User ID: ' + nmUser.id);
             if (!confirm(`Are you sure you want to delete all ${type} results for "${name}"? This cannot be undone.`)) return;
             try {
                 let queryName = name;
