@@ -384,13 +384,26 @@ These warrant **immediate** notification of the healthcare provider:
 - Painful urination or reduced urine output
 
 ### Hyperemesis Gravidarum
-Excessive nausea and vomiting beyond normal "morning sickness." Can lead to dehydration (which impairs placental perfusion), weight loss >5% of pre-pregnancy weight, electrolyte imbalances, and ketonuria. Treatment: IV fluids, antiemetics, small frequent meals, emotional support.
+
+This goes beyond normal morning sickness. Hyperemesis gravidarum involves excessive, persistent nausea and vomiting leading to dehydration (which impairs placental perfusion), weight loss greater than 5% of pre-pregnancy weight, electrolyte and acid-base imbalances, and ketonuria. Signs of dehydration include dry tongue and mucous membranes, decreased skin turgor, scant concentrated urine, and elevated hematocrit. Treatment involves IV fluid resuscitation, electrolyte replacement, antiemetics, and small frequent meals once tolerated.
+
+### Types of Miscarriage (Abortion)
+
+Understanding the different types is important for nursing assessment and communication:
+
+- **Threatened**: Vaginal bleeding but cervix remains closed. Pregnancy may continue. Nursing care includes bed rest and monitoring.
+- **Inevitable**: Cervix is dilating. Pregnancy cannot be saved. Bleeding and cramping increase.
+- **Incomplete**: Some products of conception expelled but tissue remains. May require D&C.
+- **Complete**: All products of conception expelled spontaneously. Bleeding subsides.
+- **Missed**: Fetus dies but is retained in the uterus. May require medical or surgical intervention.
+
+Post-miscarriage teaching: report increased bleeding, no tampons (infection risk), take temperature every 8 hours for 3 days, report fever 100.4 or above or foul-smelling discharge, avoid sexual activity until cleared. Use the term "miscarriage" rather than "abortion" with families. Provide emotional support, offer mementos if appropriate, chaplain referral, and support group information.
 
 ### Bleeding Disorders
 
-**Ectopic pregnancy**: Implantation outside the uterus, most commonly in the fallopian tube. If tube ruptures: sudden severe lower abdominal pain, vaginal bleeding, signs of shock, possible shoulder pain. Treatment: methotrexate (inhibits cell division) or surgical removal.
+**Ectopic pregnancy**: Implantation outside the uterus, most commonly in the fallopian tube. If tube ruptures: sudden severe lower abdominal pain, vaginal bleeding, signs of hypovolemic shock, and possible shoulder pain (from blood irritating the diaphragm). Treatment: observation if very early, methotrexate (inhibits cell division), or surgical removal. Priority is always to control bleeding.
 
-**Hydatidiform mole** (molar pregnancy): Abnormal growth of trophoblastic tissue creating grape-like vesicles. Signs: bleeding, rapid uterine growth, no fetal heart tones, "snowstorm" ultrasound pattern, very high hCG levels, early preeclampsia symptoms. hCG levels followed for at least 1 year after evacuation (risk of choriocarcinoma).
+**Hydatidiform mole** (molar pregnancy): Abnormal trophoblastic growth creating sac-like vesicles resembling tiny grapes. Signs: vaginal bleeding, rapid uterine growth, no fetal heart activity, hyperemesis, unusually early preeclampsia, very high hCG, and "snowstorm" ultrasound pattern. Treatment is uterine evacuation. hCG must be followed until undetectable and monitored for at least 1 year due to choriocarcinoma risk.
 
 **Placenta previa vs. placental abruption**:
 | Feature | Placenta Previa | Placental Abruption |
@@ -457,6 +470,32 @@ These infections are particularly dangerous during pregnancy:
 **Folic acid deficiency anemia**: Treatment with 1 mg/day folic acid (higher dose if history of neural tube defect in previous child).
 
 **DIC (Disseminated Intravascular Coagulation)**: Life-threatening emergency where clot formation and destruction co-occur, depleting clotting factors. Signs: bleeding from nose, gums, incisions, venipuncture sites; increasing uterine size (blood accumulation); tender, hard uterus. Treatment: clotting factors and blood products.
+
+### Hypovolemic Shock
+
+Hypovolemic shock is the major risk of hemorrhage during pregnancy. It interrupts blood flow to body cells, preventing oxygenation and nutrient delivery. The body initially compensates by increasing heart rate and respiratory rate to speed circulation of remaining blood. As shock progresses, blood flow to non-essential organs decreases and eventually stops.
+
+Signs and symptoms in order of progression: fetal heart rate changes (earliest fetal sign), rising weak pulse (tachycardia — the earliest maternal sign), rising respiratory rate with shallow irregular respirations, falling blood pressure (a late sign), decreased or absent urinary output (less than 30 mL/hr), pale cold clammy skin, faintness, and thirst. Nursing interventions focus on fluid resuscitation, blood replacement, and treating the underlying cause.
+
+### Heart Disease in Pregnancy
+
+The dramatic cardiovascular changes of pregnancy (40-50% blood volume increase, elevated clotting factors) can overwhelm a compromised heart. If the heart cannot handle the increased workload, congestive heart failure results, and the fetus suffers from reduced placental blood flow. Increased clotting factors also raise the risk of thrombosis. Signs of CHF during pregnancy must be monitored carefully and managed with the obstetric and cardiology teams collaboratively.
+
+### Anemias in Pregnancy
+
+**Iron-deficiency anemia** is the most common nutritional anemia in pregnancy. Symptoms include easy fatigue, pale skin and mucous membranes, shortness of breath, pounding heart, and rapid pulse with severe anemia. Treatment involves oral iron supplementation, which should continue for approximately 3 months after the anemia has been corrected. Iron should be taken with vitamin C for better absorption.
+
+**Folic acid deficiency anemia** is treated with 1 mg/day of folic acid — over twice the preventive supplement dose. Women who have had a previous child with a neural tube defect may need an even higher dose.
+
+**Sickle cell disease** is an autosomal recessive disorder where abnormal hemoglobin causes red blood cells to become sickle-shaped during hypoxic or acidotic episodes. Pregnancy can trigger a sickle cell crisis with massive red blood cell destruction and vessel occlusion. Risk to the fetus includes placental vessel occlusion leading to preterm birth, growth restriction, and fetal demise. Oxygen and fluids should be given continuously throughout labor. Patients must be taught to prevent dehydration and avoid activities that cause hypoxia.
+
+### Urinary Tract Infections
+
+UTIs are more common during pregnancy due to hormonal changes that cause urinary stasis. Simple UTIs can progress to pyelonephritis, which presents with high fever, chills, flank pain or tenderness, nausea, and vomiting. Pyelonephritis is serious because it can trigger preterm labor. Treatment includes antibiotics (full course must be completed), increased fluid intake, and monitoring for preterm contractions.
+
+### Environmental Hazards and Substance Use
+
+Multiple substances are harmful to the developing fetus: alcohol (fetal alcohol spectrum disorders), cocaine (placental abruption, preterm birth), marijuana, tobacco (IUGR, low birth weight), heroin (neonatal abstinence syndrome), amphetamines, and certain anticoagulants. The nurse should assess for substance use in a nonjudgmental manner during prenatal care and provide education about the risks to fetal development.
 
 ---
 

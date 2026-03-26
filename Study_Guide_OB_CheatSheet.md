@@ -162,8 +162,31 @@ Vital signs + weight, urinalysis (glucose/protein), fundal height, FHR, Leopold 
 ### Hyperemesis Gravidarum
 Excessive N/V → dehydration → ↓ placental perfusion → >5% weight loss, electrolyte imbalance, ketonuria
 
+### Hyperemesis vs. Normal Morning Sickness
+| Normal N/V | Hyperemesis Gravidarum |
+|-----------|----------------------|
+| Mild, manageable | Excessive, persistent |
+| No weight loss | **>5% weight loss** |
+| Adequate hydration | Dehydration, ketonuria, electrolyte imbalance |
+
+### Types of Miscarriage/Abortion
+| Type | Description |
+|------|------------|
+| **Threatened** | Bleeding but cervix closed; pregnancy may continue |
+| **Inevitable** | Cervix dilating; pregnancy cannot be saved |
+| **Incomplete** | Some tissue passed, some retained |
+| **Complete** | All products of conception expelled |
+| **Missed** | Fetus dies but is retained |
+
+> Post-miscarriage teaching: Report increased bleeding, no tampons, temp q8h x 3 days, report fever ≥100.4°F, no sex until cleared
+
 ### Ectopic Pregnancy
 Implantation outside uterus (usually fallopian tube). **Rupture = emergency** → sharp pain, shoulder pain, shock signs. Tx: methotrexate or surgery.
+
+### Hydatidiform Mole (Molar Pregnancy)
+- Grape-like vesicles, "snowstorm" on ultrasound, no FHTs
+- Very high hCG, rapid uterine growth, early preeclampsia signs
+- Follow hCG for **1 year** after evacuation (choriocarcinoma risk)
 
 ### Placenta Previa vs. Abruption
 
@@ -199,6 +222,39 @@ Implantation outside uterus (usually fallopian tube). **Rupture = emergency** �
 | **R** | Rubella | Cataracts, deafness, cardiac defects, IUGR; vaccine BEFORE pregnancy |
 | **C** | CMV | Most common congenital viral infection |
 | **H** | Herpes | C-section if active lesions at delivery |
+
+### DIC (Disseminated Intravascular Coagulation)
+- Clot formation AND clot destruction co-occur → depletes clotting factors
+- Signs: bleeding from nose, gums, incisions, venipuncture sites; rising uterine size; tender hard uterus
+- **Life-threatening emergency** → clotting factors + blood products
+
+### Hypovolemic Shock Signs ⭐
+- Fetal heart rate changes
+- Rising weak pulse (**tachycardia = earliest sign**)
+- Rising respiratory rate, shallow respirations
+- **Falling BP** (late sign)
+- ↓ Urine output (<30 mL/hr), pale/cold/clammy skin, faintness, thirst
+
+### Anemias in Pregnancy
+| Type | Key Facts |
+|------|----------|
+| **Iron-deficiency** | Most common; fatigue, pallor, tachycardia; Tx: oral iron x 3 months after correction |
+| **Folic acid deficiency** | Tx: 1 mg/day (higher if prior NTD baby) |
+| **Sickle cell** | Autosomal recessive; pregnancy can trigger crisis → vessel occlusion → preterm birth, IUGR; O2 + fluids throughout labor |
+
+### Heart Disease in Pregnancy
+- Blood volume ↑ 40-50% → can overwhelm compromised heart → **CHF**
+- Increased clotting factors → **thrombosis risk**
+- Fetus suffers from reduced placental blood flow
+
+### UTIs in Pregnancy
+- Increased UTI risk due to urinary stasis and hormonal changes
+- **Pyelonephritis**: high fever, chills, flank pain, N/V → can trigger preterm labor
+- Tx: antibiotics; encourage fluids, complete full course
+
+### Harmful Substances in Pregnancy
+Alcohol, cocaine, marijuana, tobacco, heroin, amphetamines, certain anticoagulants
+> ⚠️ See Table 5.9 in textbook for complete substance/effect list
 
 ---
 
