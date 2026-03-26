@@ -11687,7 +11687,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             const sel = Array.from(document.querySelectorAll('input[name="qOption"]:checked')).map(input => q.options[parseInt(input.value)]);
             if (sel.length === 0) return;
             window.feedbackMode = true;
-            const correct = Array.isArray(q.answer) ? q.answer : [q.answer];
+            let correct = Array.isArray(q.answer) ? q.answer : [q.answer];
+            if (correct.length > 0 && typeof correct[0] === 'number') {
+                correct = correct.map(idx => q.options[idx]);
+            }
             const isCorrect = sel.length === correct.length && sel.every(v => correct.includes(v));
             // Log answer for progress tracking (update if already answered, don't duplicate)
             const qKey = q.id || `q${window.currentQuestionIndex}`;
