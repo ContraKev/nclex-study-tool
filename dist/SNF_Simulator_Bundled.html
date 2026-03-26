@@ -5210,7 +5210,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             const q = window.examData[window.currentQuestionIndex];
             document.getElementById('examProgress').innerText = `(${window.currentQuestionIndex + 1} / ${window.examData.length})`;
             document.getElementById('feedbackContainer').classList.add('d-none');
-            document.getElementById('questionContainer').innerHTML = `<h2 class="text-white mb-4">${window.currentQuestionIndex + 1}. ${q.question}</h2><div class="list-group">${q.options.map((opt, i) => `<label class="list-group-item list-group-item-action bg-secondary text-white border-secondary mb-3 py-3 px-4 rounded-4"><input class="form-check-input me-3" type="${Array.isArray(q.answer) ? 'checkbox' : 'radio'}" name="qOption" value="${i}"><span class="fs-5">${opt}</span></label>`).join('')}</div>`;
+            // Shuffle option display order (Fisher-Yates) — value still stores original index
+            const order = q.options.map((_, i) => i);
+            for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+            document.getElementById('questionContainer').innerHTML = `<h2 class="text-white mb-4">${window.currentQuestionIndex + 1}. ${q.question}</h2><div class="list-group">${order.map(i => `<label class="list-group-item list-group-item-action bg-secondary text-white border-secondary mb-3 py-3 px-4 rounded-4"><input class="form-check-input me-3" type="${Array.isArray(q.answer) ? 'checkbox' : 'radio'}" name="qOption" value="${i}"><span class="fs-5">${q.options[i]}</span></label>`).join('')}</div>`;
             const btn = document.getElementById('actionBtn'); btn.innerText = "SUBMIT"; window.feedbackMode = false;
         }
         function handleAction() { if (!window.feedbackMode) checkAnswer(); else nextQuestion(); }
