@@ -109,13 +109,19 @@ Vital signs + weight, urinalysis (glucose/protein), fundal height, FHR, Leopold 
 | **Protein** | 60 g/day | Meat, fish, poultry, dairy |
 | **Calcium** | 1000 mg | Dairy, leafy greens; needs Vit D |
 | **Iron** | 30 mg/day | 2x non-pregnant; prevents anemia |
-| **Folic acid** | 400-800 mcg | Prevents **neural tube defects** (B vitamin) |
+| **Folic acid** | 400 mcg daily | Prevents **neural tube defects** (B vitamin) |
 
+> 💊 **Ferrous sulfate (iron)**: Take with **orange juice** (vitamin C enhances absorption). Causes dark stools and constipation. Do NOT take with milk, antacids, or calcium.
 > ⚠️ **Excess Vitamin A = teratogenic** (fetal anomalies/cardiac defects)
 > 💡 **Vitamin B6 + ginger** = recommended for pregnancy nausea
 > 🚫 **PICA** = craving/eating non-food substances (clay, starch, ice)
 
 ### Normal Weight Gain: ~25-35 lbs (normal BMI)
+
+### Fundal Height Landmarks ⭐
+- At **20 weeks**: fundus at **umbilicus**
+- **After delivery**: fundus at umbilicus, then descends 1-2 cm/day
+- Fundal height (in cm) ≈ gestational age (weeks) from 20-36 weeks
 
 ### Pregnancy Blood Values (vs. Non-Pregnant)
 | Lab | Pregnant | Non-Pregnant |
@@ -142,9 +148,34 @@ Vital signs + weight, urinalysis (glucose/protein), fundal height, FHR, Leopold 
 |-----------|--------------|
 | Nausea | Small frequent meals, crackers before rising, B6 + ginger |
 | Heartburn | Small meals, avoid lying down after eating, antacids if approved |
-| Constipation | Fluids, fiber, exercise |
+| Constipation | Fluids, fiber, exercise (normal in pregnancy — progesterone slows GI) |
 | Leg cramps | Dorsiflex foot, calcium/magnesium |
 | Fatigue | Rest, balanced nutrition |
+| **Lordosis** (low back pain) | Caused by shifting center of gravity; pelvic tilts, supportive shoes |
+| **Leukorrhea** | Increased vaginal discharge — **normal** during pregnancy |
+| **Urinary frequency** | Normal in **1st and 3rd trimesters** (uterine pressure on bladder) |
+
+### Key Pregnancy Tests ⭐
+| Test | What It Detects | When |
+|------|----------------|------|
+| **AFP (alpha-fetoprotein)** | **Neural tube defects** (elevated) / Down syndrome (low) | 2nd trimester (part of quad screen) |
+| **Amniocentesis** | Genetic disorders, lung maturity | US-guided to **avoid fetus and placenta** |
+| **GBS culture** | Group B Strep colonization | **35-37 weeks** |
+| **Glucose challenge** | Gestational diabetes | **24-28 weeks** |
+
+### Key Medications in Pregnancy ⭐
+| Medication | Use | Key Nursing Points |
+|-----------|-----|-------------------|
+| **RhoGAM** | Rh incompatibility prevention | Given at 28 wk + within 72 hrs postpartum if baby Rh+ |
+| **Magnesium sulfate** | Seizure prevention (preeclampsia) + tocolytic | **Monitor respiratory rate** (hold if RR <12); check DTRs; antidote = **calcium gluconate** |
+| **Terbutaline** | Tocolytic (stops preterm contractions) | Side effects: **tachycardia, tremors, hyperglycemia, hypokalemia**; monitor FHR and maternal HR |
+| **Betamethasone** | Fetal lung maturity | Give **48 hrs before** anticipated preterm delivery; 2 doses 24 hrs apart |
+| **Rubella vaccine** | MMR — prevent rubella | **NEVER during pregnancy** (live vaccine); give **after delivery** |
+| **Ferrous sulfate** | Iron supplementation | Take with **OJ** (vitamin C); avoid milk/antacids; causes dark stools |
+
+### Quickening & Smoking
+- **Quickening**: first fetal movement felt by mother at **4-5 months** (16-20 weeks)
+- **Smoking**: increases risk of **preterm birth** and **low birth weight**
 
 ### FDA Drug Categories in Pregnancy
 **A** (safe) → **B** → **C** → **D** (evidence of risk) → **X** (contraindicated)

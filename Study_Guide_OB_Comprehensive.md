@@ -313,7 +313,7 @@ There is a **high correlation between maternal diet and fetal health**. Four nut
 
 **Calcium** (1000 mg DRI): Essential for fetal skeletal development. Requires adequate Vitamin D for absorption. Sources: dairy, enriched cereals, legumes, nuts, dried fruits, broccoli, leafy greens, canned salmon/sardines.
 
-**Iron** (30 mg/day — double the non-pregnant requirement): Prevents iron-deficiency anemia. May require supplementation. Take with vitamin C for better absorption. Can cause constipation and dark stools.
+**Iron** (30 mg/day — double the non-pregnant requirement): Prevents iron-deficiency anemia. **Ferrous sulfate** should be taken with **orange juice or vitamin C** to enhance absorption. Do NOT take with milk, antacids, or calcium (they inhibit absorption). Side effects include dark/black stools and constipation.
 
 **Folic acid** (400 mcg pre-conception through early pregnancy, then 600-800 mcg/day): A water-soluble B vitamin that significantly reduces the incidence of **neural tube defects** (spina bifida, anencephaly). Should ideally be started before conception.
 
@@ -352,6 +352,34 @@ There is a **high correlation between maternal diet and fetal health**. Four nut
 | **Leg cramps** | Pressure on nerves, calcium/phosphorus imbalance | Dorsiflex the foot (point toes up); calcium and magnesium supplementation; avoid pointing toes |
 | **Fatigue** | Hormonal changes, increased metabolic demands | Rest periods; balanced nutrition; iron supplementation if anemic |
 | **Back pain** | Postural changes, shifting center of gravity | Good body mechanics; pelvic tilt exercises; supportive shoes; avoid high heels |
+
+### Additional Clinical Details from Instructor Review
+
+**Lordosis** — the increased lumbar spinal curve that develops as the center of gravity shifts forward with the growing uterus. This causes the characteristic low back pain of pregnancy. Management includes pelvic tilt exercises and supportive footwear.
+
+**Leukorrhea** — increased vaginal discharge during pregnancy is normal and results from hormonal changes and increased blood flow to the pelvic area.
+
+**Urinary frequency** — normal in both the first trimester (hormonal changes) and third trimester (uterine pressure on the bladder). Report burning or pain, which could indicate UTI.
+
+**Quickening** — first fetal movement felt by the mother at approximately 4-5 months (16-20 weeks). It is classified as a presumptive sign of pregnancy.
+
+**Fundal height landmarks**: At 20 weeks, the fundus reaches the umbilicus. From 20-36 weeks, fundal height in centimeters roughly equals gestational age in weeks. Immediately after delivery, the fundus is at the umbilicus and then descends 1-2 cm per day.
+
+**Smoking in pregnancy** significantly increases the risk of preterm birth, low birth weight, IUGR, and placental complications. Assess tobacco use at every visit and provide cessation resources.
+
+### Key Medications for Chapters 3-5
+
+**Magnesium sulfate**: Used for seizure prevention in preeclampsia and as a tocolytic. Critical nursing point: monitor respiratory rate and hold if RR drops below 12. Also assess deep tendon reflexes (absent DTRs = toxicity) and urine output (must be at least 30 mL/hr). Antidote: calcium gluconate.
+
+**Terbutaline**: Beta-adrenergic tocolytic. Side effects include tachycardia (maternal and fetal), tremors, hyperglycemia, and hypokalemia. Monitor maternal HR, FHR, blood glucose, and potassium.
+
+**Betamethasone**: Corticosteroid for fetal lung maturity. Give 48 hours before anticipated preterm delivery, two doses 24 hours apart.
+
+**Rubella vaccine** (MMR): Live vaccine — NEVER give during pregnancy. If prenatal rubella titer shows non-immunity, vaccinate after delivery. Avoid pregnancy for at least one month after vaccination.
+
+**Amniocentesis**: Performed under ultrasound guidance to avoid the fetus and placenta. Detects genetic disorders and assesses fetal lung maturity. Give RhoGAM afterward in Rh-negative mothers.
+
+**Alpha-fetoprotein (AFP)**: Second trimester screening. Elevated AFP suggests neural tube defects. Low AFP may indicate Down syndrome. Part of the quad screen (AFP, hCG, estriol, inhibin-A).
 
 ### 11. Medications and Immunizations in Pregnancy
 
