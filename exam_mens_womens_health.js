@@ -16,7 +16,7 @@ window.mensWomensHealthExamData = [
             "A sexually transmitted infection requiring antibiotic therapy"
         ],
         answer: "An abnormal vaginal discharge that is a symptom of an underlying disorder",
-        rationale: "Leukorrhea is an abnormal, usually whitish, vaginal discharge that can occur at any age. It is not a disease itself but a SYMPTOM of an underlying disorder, most commonly infection of the lower reproductive tract."
+        rationale: "Leukorrhea is an abnormal, usually whitish, vaginal discharge that can occur at any age. It is not a disease itself but a SYMPTOM of an underlying disorder, most commonly infection of the lower reproductive tract. (Slide 2)"
     },
     {
         id: "vaginitis_organisms_2",
@@ -32,7 +32,7 @@ window.mensWomensHealthExamData = [
             "Staphylococcus aureus"
         ],
         answer: [0, 1, 2],
-        rationale: "The most common organisms causing vaginitis are: Candida albicans (causing yeast infections), Trichomonas vaginalis (causing trichomoniasis), and Gardnerella vaginalis (causing bacterial vaginosis). The other organisms listed are not typical causes of vaginitis."
+        rationale: "The most common organisms causing vaginitis are: Candida albicans (causing yeast infections), Trichomonas vaginalis (causing trichomoniasis), and Gardnerella vaginalis (causing bacterial vaginosis). The other organisms listed are not typical causes of vaginitis. (Slide 2)"
     },
     {
         id: "vaginitis_treatment_3",
@@ -45,7 +45,7 @@ window.mensWomensHealthExamData = [
             "Ceftriaxone and azithromycin"
         ],
         answer: "Miconazole (Monistat) and metronidazole (Flagyl)",
-        rationale: "Miconazole (Monistat) is an antifungal used for Candida infections (yeast), while metronidazole (Flagyl) is used for Trichomonas and bacterial vaginosis. The other medications are used for different infections (bacterial infections, herpes, and STIs respectively)."
+        rationale: "Miconazole (Monistat) is an antifungal used for Candida infections (yeast), while metronidazole (Flagyl) is used for Trichomonas and bacterial vaginosis. The other medications are used for different infections (bacterial infections, herpes, and STIs respectively). (Slide 2)"
     },
     {
         id: "candida_vs_bv_matrix_4",
@@ -61,7 +61,7 @@ window.mensWomensHealthExamData = [
             {"text": "Treated with metronidazole", "correct_col_idx": 1},
             {"text": "Odor worsens after intercourse", "correct_col_idx": 1}
         ],
-        rationale: "Candidiasis presents with thick, white cottage cheese discharge, intense itching, and is treated with antifungals. Bacterial vaginosis presents with thin, gray, fishy-smelling discharge (worse after sex) and is treated with metronidazole or clindamycin."
+        rationale: "Candidiasis presents with thick, white cottage cheese discharge, intense itching, and is treated with antifungals. Bacterial vaginosis presents with thin, gray, fishy-smelling discharge (worse after sex) and is treated with metronidazole or clindamycin. (Slide 2)"
     },
     {
         id: "sitz_bath_5",
@@ -74,7 +74,7 @@ window.mensWomensHealthExamData = [
             "Applying alcohol-based products to the genital area"
         ],
         answer: "Warm sitz baths to help relieve irritation",
-        rationale: "Warm sitz baths can help relieve vaginal irritation. Patients should refrain from using irritating vaginal substances including douches and scented products, which can disrupt normal vaginal flora and worsen symptoms."
+        rationale: "Warm sitz baths can help relieve vaginal irritation. Patients should refrain from using irritating vaginal substances including douches and scented products, which can disrupt normal vaginal flora and worsen symptoms. (Slide 10)"
     },
 
     // === ORAL CONTRACEPTIVES (6-12) ===
@@ -89,7 +89,7 @@ window.mensWomensHealthExamData = [
             "They stimulate the production of progesterone to maintain pregnancy"
         ],
         answer: "Estrogens block pituitary release of FSH, and progestins inhibit pituitary release of LH, preventing ovulation",
-        rationale: "Combination oral contraceptives work by: (1) Estrogen blocking FSH release, which prevents follicle maturation, and (2) Progestin inhibiting LH release, which prevents ovulation. They also thicken cervical mucus and thin the endometrium."
+        rationale: "Combination oral contraceptives work by: (1) Estrogen blocking FSH release, which prevents follicle maturation, and (2) Progestin inhibiting LH release, which prevents ovulation. They also thicken cervical mucus and thin the endometrium. (Slide 12)"
     },
     {
         id: "oc_types_7",
@@ -102,7 +102,7 @@ window.mensWomensHealthExamData = [
             "Contains a higher dose of estrogen than combination pills"
         ],
         answer: "Contains only progestin and is taken every day",
-        rationale: "The minipill (progestin-only pill) contains only progestin and must be taken every day at the same time without a placebo week. It's an option for women who cannot take estrogen (e.g., breastfeeding mothers, those with history of blood clots)."
+        rationale: "The minipill (progestin-only pill) contains only progestin and must be taken every day at the same time without a placebo week. It's an option for women who cannot take estrogen (e.g., breastfeeding mothers, those with history of blood clots). (Slide 13)"
     },
     {
         id: "oc_adverse_effects_8",
@@ -118,7 +118,7 @@ window.mensWomensHealthExamData = [
             "Slight weight gain"
         ],
         answer: [0, 1, 2, 3],
-        rationale: "Severe headaches, leg pain, chest pain, shortness of breath, and visual changes can indicate serious complications like blood clots, stroke, or pulmonary embolism. These require immediate medical evaluation. Mild nausea and slight weight gain are common side effects that typically resolve."
+        rationale: "Severe headaches, leg pain, chest pain, shortness of breath, and visual changes can indicate serious complications like blood clots, stroke, or pulmonary embolism. These require immediate medical evaluation. Mild nausea and slight weight gain are common side effects that typically resolve. (Slide 12)"
     },
     {
         id: "oc_aches_9",
@@ -131,7 +131,7 @@ window.mensWomensHealthExamData = [
             "Acne, Cramps, Headache, Exhaustion, Skin changes"
         ],
         answer: "Abdominal pain (severe), Chest pain, Headache (severe), Eye problems, Severe leg pain",
-        rationale: "ACHES is a critical teaching tool for oral contraceptive users: Abdominal pain (severe), Chest pain, Headaches (severe/different), Eye problems (vision changes), Severe leg pain. These symptoms may indicate thrombosis, stroke, or other serious complications."
+        rationale: "ACHES is a critical teaching tool for oral contraceptive users: Abdominal pain (severe), Chest pain, Headaches (severe/different), Eye problems (vision changes), Severe leg pain. These symptoms may indicate thrombosis, stroke, or other serious complications. (Slide 12)"
     },
     {
         id: "oc_missed_pill_10",
@@ -144,7 +144,7 @@ window.mensWomensHealthExamData = [
             "Use only backup contraception for the remainder of this cycle"
         ],
         answer: "Take the missed pill as soon as remembered, and take today's pill at the regular time",
-        rationale: "If one pill is missed, take it as soon as remembered (even if it means taking two pills in one day). No backup contraception is needed for one missed pill in most cases. However, missing multiple pills, especially in week 1 or extending the hormone-free interval, requires backup methods."
+        rationale: "If one pill is missed, take it as soon as remembered (even if it means taking two pills in one day). No backup contraception is needed for one missed pill in most cases. However, missing multiple pills, especially in week 1 or extending the hormone-free interval, requires backup methods. (Slide 13)"
     },
     {
         id: "oc_contraindications_11",
@@ -160,7 +160,7 @@ window.mensWomensHealthExamData = [
             "Seasonal allergies"
         ],
         answer: [0, 1, 2, 3, 4],
-        rationale: "Contraindications to combination oral contraceptives include: thromboembolic disorders, smoking + age >35 (significantly increases clot risk), breast cancer, uncontrolled hypertension, and liver disease. Seasonal allergies are not a contraindication."
+        rationale: "Contraindications to combination oral contraceptives include: thromboembolic disorders, smoking + age >35 (significantly increases clot risk), breast cancer, uncontrolled hypertension, and liver disease. Seasonal allergies are not a contraindication. (Slide 5)"
     },
     {
         id: "oc_phases_12",
@@ -173,7 +173,7 @@ window.mensWomensHealthExamData = [
             "The pill contains three active ingredients"
         ],
         answer: "The pill contains three different dose levels of hormones throughout the cycle",
-        rationale: "Triphasic oral contraceptives contain three different hormone dose levels that change throughout the cycle, mimicking natural hormone fluctuations. This may help reduce side effects. Monophasic pills have the same hormone dose throughout."
+        rationale: "Triphasic oral contraceptives contain three different hormone dose levels that change throughout the cycle, mimicking natural hormone fluctuations. This may help reduce side effects. Monophasic pills have the same hormone dose throughout. (Slide 13)"
     },
 
     // === TRANSDERMAL AND INTRAVAGINAL CONTRACEPTIVES (13-17) ===
@@ -188,7 +188,7 @@ window.mensWomensHealthExamData = [
             "Apply two patches at a time for increased effectiveness"
         ],
         answer: "Apply a new patch weekly for 3 weeks, then have a patch-free week",
-        rationale: "The contraceptive patch is applied weekly for 3 weeks (21 days total), followed by a patch-free week during which withdrawal bleeding occurs. The patch should NOT be applied to the breasts - approved sites include buttock, abdomen, upper arm, or upper torso."
+        rationale: "The contraceptive patch is applied weekly for 3 weeks (21 days total), followed by a patch-free week during which withdrawal bleeding occurs. The patch should NOT be applied to the breasts - approved sites include buttock, abdomen, upper arm, or upper torso. (Slide 14)"
     },
     {
         id: "patch_adverse_14",
@@ -201,7 +201,7 @@ window.mensWomensHealthExamData = [
             "Tell the patient to take the patch off at night"
         ],
         answer: "Reassure the patient these are common side effects that often improve with continued use",
-        rationale: "Breast tenderness, nausea, weight gain, and depression are common side effects of hormonal contraceptives including the patch. These often improve after the first few cycles. Serious side effects (chest pain, leg pain, severe headache) require immediate evaluation."
+        rationale: "Breast tenderness, nausea, weight gain, and depression are common side effects of hormonal contraceptives including the patch. These often improve after the first few cycles. Serious side effects (chest pain, leg pain, severe headache) require immediate evaluation. (Slide 14)"
     },
     {
         id: "nuvaring_15",
@@ -214,7 +214,7 @@ window.mensWomensHealthExamData = [
             "The ring provides protection against sexually transmitted infections"
         ],
         answer: "The ring is inserted vaginally and left in place for 3 weeks, then removed for 1 week",
-        rationale: "NuvaRing is inserted into the vagina and left in place for 3 weeks, then removed for 1 week (during which withdrawal bleeding occurs). The ring does NOT need to be removed for intercourse and does NOT protect against STIs."
+        rationale: "NuvaRing is inserted into the vagina and left in place for 3 weeks, then removed for 1 week (during which withdrawal bleeding occurs). The ring does NOT need to be removed for intercourse and does NOT protect against STIs. (Slide 16)"
     },
     {
         id: "ring_teaching_16",
@@ -227,7 +227,7 @@ window.mensWomensHealthExamData = [
             "The ring should be felt by the partner during intercourse to confirm placement"
         ],
         answer: "Squeeze the ring and insert into the vagina - exact position doesn't matter",
-        rationale: "The vaginal ring is squeezed and inserted into the vagina. The exact position doesn't matter as the vaginal muscles will hold it in place. It does not need to be placed on the cervix. Most partners do not feel the ring during intercourse."
+        rationale: "The vaginal ring is squeezed and inserted into the vagina. The exact position doesn't matter as the vaginal muscles will hold it in place. It does not need to be placed on the cervix. Most partners do not feel the ring during intercourse. (Slide 16)"
     },
     {
         id: "hormonal_sti_17",
@@ -240,7 +240,7 @@ window.mensWomensHealthExamData = [
             "The hormonal effects prevent all types of infections"
         ],
         answer: "Hormonal and surgical contraceptive methods do NOT protect against STIs - condoms should still be used for STI prevention",
-        rationale: "This is critical patient education: hormonal contraceptives prevent pregnancy but do NOT prevent STIs. Condoms (male or female) should be used in addition to hormonal contraception for STI protection, especially with new or multiple partners."
+        rationale: "This is critical patient education: hormonal contraceptives prevent pregnancy but do NOT prevent STIs. Condoms (male or female) should be used in addition to hormonal contraception for STI protection, especially with new or multiple partners. (Slide 10)"
     },
 
     // === OSTEOPOROSIS (18-24) ===
@@ -255,7 +255,7 @@ window.mensWomensHealthExamData = [
             "A form of bone cancer"
         ],
         answer: "The most common bone disease characterized by low bone mineral density",
-        rationale: "Osteoporosis is the most common bone disease, characterized by decreased bone mineral density leading to increased fracture risk. Over 50 million men and women in the United States have osteoporosis or osteopenia (precursor to osteoporosis)."
+        rationale: "Osteoporosis is the most common bone disease, characterized by decreased bone mineral density leading to increased fracture risk. Over 50 million men and women in the United States have osteoporosis or osteopenia (precursor to osteoporosis). (Slide 18)"
     },
     {
         id: "osteo_risk_factors_19",
@@ -271,7 +271,7 @@ window.mensWomensHealthExamData = [
             "Young male athletes"
         ],
         answer: [0, 1, 2, 3, 4],
-        rationale: "Risk factors for osteoporosis include: female sex, postmenopausal status, hypogonadism, low body weight, family history (parental hip fracture), white ethnicity, rheumatoid arthritis, smoking, alcohol intake, and low calcium intake. Young male athletes typically have higher bone density."
+        rationale: "Risk factors for osteoporosis include: female sex, postmenopausal status, hypogonadism, low body weight, family history (parental hip fracture), white ethnicity, rheumatoid arthritis, smoking, alcohol intake, and low calcium intake. Young male athletes typically have higher bone density. (Slide 18)"
     },
     {
         id: "bisphosphonate_action_20",
@@ -284,7 +284,7 @@ window.mensWomensHealthExamData = [
             "They enhance vitamin D synthesis in the kidneys"
         ],
         answer: "They inhibit bone resorption by acting on osteoclasts",
-        rationale: "Bisphosphonates work by inhibiting osteoclast activity, thereby reducing bone resorption (breakdown). This allows bone formation to catch up, increasing bone density. They do NOT stimulate osteoblasts or bone formation directly."
+        rationale: "Bisphosphonates work by inhibiting osteoclast activity, thereby reducing bone resorption (breakdown). This allows bone formation to catch up, increasing bone density. They do NOT stimulate osteoblasts or bone formation directly. (Slide 21)"
     },
     {
         id: "alendronate_admin_21",
@@ -297,7 +297,7 @@ window.mensWomensHealthExamData = [
             "Take whenever convenient during the day"
         ],
         answer: "Take first thing in the morning on an empty stomach with a full glass of water, then remain upright for at least 30 minutes",
-        rationale: "Bisphosphonates have specific administration requirements: Take first thing in the morning, on an empty stomach, with a FULL glass of plain water (not other beverages). Remain UPRIGHT (sitting or standing) for at least 30 minutes to prevent esophageal irritation/ulceration. Do not eat or take other medications for 30-60 minutes."
+        rationale: "Bisphosphonates have specific administration requirements: Take first thing in the morning, on an empty stomach, with a FULL glass of plain water (not other beverages). Remain UPRIGHT (sitting or standing) for at least 30 minutes to prevent esophageal irritation/ulceration. Do not eat or take other medications for 30-60 minutes. (Slide 21)"
     },
     {
         id: "denosumab_22",
@@ -310,7 +310,7 @@ window.mensWomensHealthExamData = [
             "Is an IV infusion given weekly"
         ],
         answer: "Is given as a subcutaneous injection every 6 months and requires calcium/vitamin D supplementation",
-        rationale: "Denosumab (Prolia) is a RANKL inhibitor given as a subcutaneous injection every 6 months. All patients taking denosumab must supplement with calcium and vitamin D to prevent hypocalcemia. This is a critical safety consideration."
+        rationale: "Denosumab (Prolia) is a RANKL inhibitor given as a subcutaneous injection every 6 months. All patients taking denosumab must supplement with calcium and vitamin D to prevent hypocalcemia. This is a critical safety consideration. (Slide 22)"
     },
     {
         id: "denosumab_action_23",
@@ -323,7 +323,7 @@ window.mensWomensHealthExamData = [
             "Replace estrogen in postmenopausal women"
         ],
         answer: "Prevent osteoclast formation, leading to decreased bone resorption and increased bone mass",
-        rationale: "Denosumab is a monoclonal antibody that binds to RANK ligand (RANKL), preventing it from activating RANK on osteoclast precursors. This inhibits osteoclast formation and function, reducing bone resorption and increasing bone density."
+        rationale: "Denosumab is a monoclonal antibody that binds to RANK ligand (RANKL), preventing it from activating RANK on osteoclast precursors. This inhibits osteoclast formation and function, reducing bone resorption and increasing bone density. (Slide 22)"
     },
     {
         id: "osteo_lifestyle_24",
@@ -339,7 +339,7 @@ window.mensWomensHealthExamData = [
             "Eliminate all dairy products"
         ],
         answer: [0, 1, 2, 3],
-        rationale: "Osteoporosis prevention includes: smoking cessation, adequate calcium/vitamin D intake, weight-bearing exercise (walking, jogging), and limiting alcohol. Physical activity is encouraged (not avoided) to maintain bone strength. Dairy products are a good calcium source unless contraindicated."
+        rationale: "Osteoporosis prevention includes: smoking cessation, adequate calcium/vitamin D intake, weight-bearing exercise (walking, jogging), and limiting alcohol. Physical activity is encouraged (not avoided) to maintain bone strength. Dairy products are a good calcium source unless contraindicated. (Slide 20)"
     },
 
     // === BENIGN PROSTATIC HYPERPLASIA (25-31) ===
@@ -354,7 +354,7 @@ window.mensWomensHealthExamData = [
             "A sexually transmitted infection"
         ],
         answer: "An enlarged prostate that is common in older men and causes urinary symptoms",
-        rationale: "Benign prostatic hyperplasia (BPH) is a non-cancerous enlargement of the prostate gland that becomes more common with age. It causes urinary obstruction symptoms like difficulty urinating, weak stream, frequency, nocturia, and incomplete bladder emptying."
+        rationale: "Benign prostatic hyperplasia (BPH) is a non-cancerous enlargement of the prostate gland that becomes more common with age. It causes urinary obstruction symptoms like difficulty urinating, weak stream, frequency, nocturia, and incomplete bladder emptying. (Slide 23)"
     },
     {
         id: "bph_symptoms_26",
@@ -370,7 +370,7 @@ window.mensWomensHealthExamData = [
             "Hematuria and flank pain"
         ],
         answer: [0, 1, 2, 3, 4],
-        rationale: "BPH causes obstructive symptoms (difficulty starting stream, weak stream, straining) and irritative symptoms (frequency, urgency, nocturia, incontinence, dribbling). Hematuria and flank pain are more suggestive of other urologic conditions and warrant further evaluation."
+        rationale: "BPH causes obstructive symptoms (difficulty starting stream, weak stream, straining) and irritative symptoms (frequency, urgency, nocturia, incontinence, dribbling). Hematuria and flank pain are more suggestive of other urologic conditions and warrant further evaluation. (Slide 23)"
     },
     {
         id: "alpha_blocker_27",
@@ -383,7 +383,7 @@ window.mensWomensHealthExamData = [
             "Stimulating the bladder to contract more forcefully"
         ],
         answer: "Blocking alpha-1 receptors on the prostate to relax smooth muscle and improve urinary flow",
-        rationale: "Alpha-1 blockers like tamsulosin relax smooth muscle in the prostate and bladder neck by blocking alpha-1 adrenergic receptors. This reduces urinary obstruction and improves urine flow. They provide rapid symptom relief but do NOT shrink the prostate."
+        rationale: "Alpha-1 blockers like tamsulosin relax smooth muscle in the prostate and bladder neck by blocking alpha-1 adrenergic receptors. This reduces urinary obstruction and improves urine flow. They provide rapid symptom relief but do NOT shrink the prostate. (Slide 24)"
     },
     {
         id: "alpha_blocker_adverse_28",
@@ -396,7 +396,7 @@ window.mensWomensHealthExamData = [
             "Hair growth and voice changes"
         ],
         answer: "Dizziness, orthostatic hypotension, and drowsiness",
-        rationale: "Alpha-1 blockers can cause dizziness, drowsiness, weakness, headache, and orthostatic hypotension (especially with first dose). Patients should rise slowly from sitting/lying positions and avoid driving until they know how the medication affects them."
+        rationale: "Alpha-1 blockers can cause dizziness, drowsiness, weakness, headache, and orthostatic hypotension (especially with first dose). Patients should rise slowly from sitting/lying positions and avoid driving until they know how the medication affects them. (Slide 25)"
     },
     {
         id: "finasteride_29",
@@ -409,7 +409,7 @@ window.mensWomensHealthExamData = [
             "It should be discontinued as soon as symptoms improve"
         ],
         answer: "It works by shrinking the prostate over 6-12 months by reducing DHT levels",
-        rationale: "Finasteride is a 5-alpha reductase inhibitor that blocks conversion of testosterone to DHT (dihydrotestosterone). This gradually shrinks the prostate over 6-12 months. It does NOT provide immediate relief - alpha-blockers work faster for symptom relief."
+        rationale: "Finasteride is a 5-alpha reductase inhibitor that blocks conversion of testosterone to DHT (dihydrotestosterone). This gradually shrinks the prostate over 6-12 months. It does NOT provide immediate relief - alpha-blockers work faster for symptom relief. (Slide 27)"
     },
     {
         id: "finasteride_adverse_30",
@@ -422,7 +422,7 @@ window.mensWomensHealthExamData = [
             "Tachycardia and hypertension"
         ],
         answer: "Impotence, decreased libido, and decreased volume of ejaculate",
-        rationale: "5-alpha reductase inhibitors reduce DHT levels, which can cause sexual side effects including erectile dysfunction (impotence), decreased libido (sex drive), and decreased volume of ejaculate. These effects are dose-related and reversible upon discontinuation."
+        rationale: "5-alpha reductase inhibitors reduce DHT levels, which can cause sexual side effects including erectile dysfunction (impotence), decreased libido (sex drive), and decreased volume of ejaculate. These effects are dose-related and reversible upon discontinuation. (Slide 27)"
     },
     {
         id: "bph_combination_31",
@@ -435,7 +435,7 @@ window.mensWomensHealthExamData = [
             "Watchful waiting without medication"
         ],
         answer: "Combination therapy with an alpha-blocker AND a 5-alpha reductase inhibitor",
-        rationale: "Studies show that combination therapy (alpha-blocker + 5-alpha reductase inhibitor) is more effective at slowing BPH progression and reducing the risk of urinary retention and need for surgery than either medication alone."
+        rationale: "Studies show that combination therapy (alpha-blocker + 5-alpha reductase inhibitor) is more effective at slowing BPH progression and reducing the risk of urinary retention and need for surgery than either medication alone. (Slide 24)"
     },
 
     // === ERECTILE DYSFUNCTION (32-38) ===
@@ -450,7 +450,7 @@ window.mensWomensHealthExamData = [
             "Premature ejaculation"
         ],
         answer: "Consistent inability to achieve or maintain an erection sufficient for satisfactory sexual activity",
-        rationale: "Erectile dysfunction is the consistent inability to achieve or maintain an erection sufficient for satisfactory sexual activity. Diagnosis is based on medical/sexual history, physical examination, and laboratory studies. It affects physical, emotional, and relationship aspects of life."
+        rationale: "Erectile dysfunction is the consistent inability to achieve or maintain an erection sufficient for satisfactory sexual activity. Diagnosis is based on medical/sexual history, physical examination, and laboratory studies. It affects physical, emotional, and relationship aspects of life. (Slide 28)"
     },
     {
         id: "ed_risk_factors_33",
@@ -466,7 +466,7 @@ window.mensWomensHealthExamData = [
             "Regular exercise"
         ],
         answer: [0, 1, 2, 3, 4],
-        rationale: "ED risk factors include: smoking, diabetes, hypertension, hyperlipidemia, coronary artery disease, and peripheral vascular disease - all conditions that affect blood flow. Regular exercise is actually protective and NOT a risk factor for ED."
+        rationale: "ED risk factors include: smoking, diabetes, hypertension, hyperlipidemia, coronary artery disease, and peripheral vascular disease - all conditions that affect blood flow. Regular exercise is actually protective and NOT a risk factor for ED. (Slide 28)"
     },
     {
         id: "pde5_mechanism_34",
@@ -479,7 +479,7 @@ window.mensWomensHealthExamData = [
             "Relaxing the bladder smooth muscle"
         ],
         answer: "Selectively inhibiting phosphodiesterase-5 enzyme, allowing increased blood flow to the penis",
-        rationale: "PDE-5 inhibitors block the enzyme that breaks down cGMP in the corpus cavernosum. Increased cGMP causes smooth muscle relaxation and increased blood flow, facilitating erection. They require sexual stimulation to work."
+        rationale: "PDE-5 inhibitors block the enzyme that breaks down cGMP in the corpus cavernosum. Increased cGMP causes smooth muscle relaxation and increased blood flow, facilitating erection. They require sexual stimulation to work. (Slide 29)"
     },
     {
         id: "sildenafil_nitrates_35",
@@ -492,7 +492,7 @@ window.mensWomensHealthExamData = [
             "This is an expected side effect and requires no intervention"
         ],
         answer: "Nitrates (nitroglycerin) are CONTRAINDICATED - this combination can cause severe, life-threatening hypotension",
-        rationale: "⚠️ CRITICAL SAFETY: PDE-5 inhibitors + nitrates = SEVERE HYPOTENSION that can be fatal. If a patient taking Viagra/Cialis develops chest pain, nitroglycerin CANNOT be given for at least 24 hours (48 hours for tadalafil). This is a life-threatening drug interaction."
+        rationale: "⚠️ CRITICAL SAFETY: PDE-5 inhibitors + nitrates = SEVERE HYPOTENSION that can be fatal. If a patient taking Viagra/Cialis develops chest pain, nitroglycerin CANNOT be given for at least 24 hours (48 hours for tadalafil). This is a life-threatening drug interaction. (Slide 29)"
     },
     {
         id: "pde5_adverse_36",
@@ -505,7 +505,7 @@ window.mensWomensHealthExamData = [
             "Increased appetite"
         ],
         answer: "Headache, flushing, and color vision impairment (blue tinge)",
-        rationale: "Common side effects of PDE-5 inhibitors include headache, flushing of face/neck, nasal congestion, dyspepsia, and transient visual disturbances (blue-tinted vision with sildenafil). Serious effects include hypotension, priapism, and sudden hearing/vision loss."
+        rationale: "Common side effects of PDE-5 inhibitors include headache, flushing of face/neck, nasal congestion, dyspepsia, and transient visual disturbances (blue-tinted vision with sildenafil). Serious effects include hypotension, priapism, and sudden hearing/vision loss. (Slide 29)"
     },
     {
         id: "tadalafil_duration_37",
@@ -518,7 +518,7 @@ window.mensWomensHealthExamData = [
             "Does not interact with nitrates"
         ],
         answer: "Has a much longer duration of action (up to 36 hours) and can be taken daily for BPH",
-        rationale: "Tadalafil (Cialis) has a much longer half-life than sildenafil, providing effects for up to 36 hours ('the weekend pill'). It's the only PDE-5 inhibitor also approved for BPH. However, this also means nitrates must be avoided for 48 hours (vs 24 hours for sildenafil)."
+        rationale: "Tadalafil (Cialis) has a much longer half-life than sildenafil, providing effects for up to 36 hours ('the weekend pill'). It's the only PDE-5 inhibitor also approved for BPH. However, this also means nitrates must be avoided for 48 hours (vs 24 hours for sildenafil). (Slide 29)"
     },
     {
         id: "pde5_priapism_38",
@@ -531,7 +531,7 @@ window.mensWomensHealthExamData = [
             "Apply ice to the genital area and go to sleep"
         ],
         answer: "Seek emergency medical care immediately - priapism can cause permanent damage",
-        rationale: "Priapism (erection lasting >4 hours) is a medical emergency. Without treatment, it can cause permanent erectile tissue damage and impotence. The patient should seek immediate emergency care. This is a serious but rare adverse effect of PDE-5 inhibitors."
+        rationale: "Priapism (erection lasting >4 hours) is a medical emergency. Without treatment, it can cause permanent erectile tissue damage and impotence. The patient should seek immediate emergency care. This is a serious but rare adverse effect of PDE-5 inhibitors. (Slide 29)"
     },
 
     // === ASSESSMENT AND TEACHING (39-40) ===
@@ -549,7 +549,7 @@ window.mensWomensHealthExamData = [
             "Favorite leisure activities"
         ],
         answer: [0, 1, 2, 3, 4],
-        rationale: "A complete female reproductive history includes: menarche age, menstrual pattern, obstetric history (pregnancies/outcomes), contraceptive use, STI history, and Pap test history. This information guides appropriate care and screening recommendations."
+        rationale: "A complete female reproductive history includes: menarche age, menstrual pattern, obstetric history (pregnancies/outcomes), contraceptive use, STI history, and Pap test history. This information guides appropriate care and screening recommendations. (Slide 4)"
     },
     {
         id: "male_history_40",
@@ -565,7 +565,7 @@ window.mensWomensHealthExamData = [
             "Improved athletic performance"
         ],
         answer: [0, 1, 2, 3, 4],
-        rationale: "Prostate problems (BPH or prostate cancer) can cause: difficulty starting urination, straining, nocturia, frequency, urgency, incontinence, dribbling, urinary retention, and pelvic/lower back pain. These symptoms require evaluation to differentiate between benign and malignant conditions."
+        rationale: "Prostate problems (BPH or prostate cancer) can cause: difficulty starting urination, straining, nocturia, frequency, urgency, incontinence, dribbling, urinary retention, and pelvic/lower back pain. These symptoms require evaluation to differentiate between benign and malignant conditions. (Slide 6)"
     }
 ];
 

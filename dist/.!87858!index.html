@@ -3,8 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NGN MASTERY HUB v3.2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>NCLEX Study Tool</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔬</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" async></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -97,6 +102,47 @@
         .border-purple {
             border-color: #8b5cf6 !important;
         }
+
+        .text-purple { color: #8b5cf6 !important; }
+        .bg-purple { background-color: #8b5cf6 !important; }
+
+        .text-pink { color: #ec4899 !important; }
+        .bg-pink { background-color: #ec4899 !important; }
+        .border-pink { border-color: #ec4899 !important; }
+
+        /* Custom button colors for drug filters */
+        .btn-outline-orange { color: #f97316; border-color: #f97316; }
+        .btn-outline-orange:hover, .btn-outline-orange.active-gi { color: #fff; background-color: #f97316; border-color: #f97316; }
+        .bg-orange { background-color: #f97316 !important; }
+
+        .btn-outline-pink { color: #ec4899; border-color: #ec4899; }
+        .btn-outline-pink:hover, .btn-outline-pink.active-endo, .btn-outline-pink.active-repro { color: #fff; background-color: #ec4899; border-color: #ec4899; }
+
+        .btn-outline-cyan { color: #06b6d4; border-color: #06b6d4; }
+        .btn-outline-cyan:hover, .btn-outline-cyan.active-neuro { color: #fff; background-color: #06b6d4; border-color: #06b6d4; }
+        .bg-cyan { background-color: #06b6d4 !important; }
+
+        .btn-outline-teal { color: #14b8a6; border-color: #14b8a6; }
+        .btn-outline-teal:hover, .btn-outline-teal.active-immun { color: #fff; background-color: #14b8a6; border-color: #14b8a6; }
+        .bg-teal { background-color: #14b8a6 !important; }
+
+        .btn-outline-purple:hover, .btn-outline-purple.active-cns { color: #fff; background-color: #8b5cf6; border-color: #8b5cf6; }
+
+        /* Active states for all filter buttons */
+        .btn-outline-primary.active-cv { color: #fff; background-color: #0d6efd; border-color: #0d6efd; }
+        .btn-outline-success.active-dm { color: #fff; background-color: #198754; border-color: #198754; }
+        .btn-outline-warning.active-pain, .btn-outline-warning.active-msk { color: #000; background-color: #ffc107; border-color: #ffc107; }
+        .btn-outline-danger.active-abx { color: #fff; background-color: #dc3545; border-color: #dc3545; }
+        .btn-outline-info.active-resp { color: #fff; background-color: #0dcaf0; border-color: #0dcaf0; }
+        .btn-outline-secondary.active-uro { color: #fff; background-color: #6c757d; border-color: #6c757d; }
+        .btn-outline-light.active-ophthal, .btn-outline-light.active-derm { color: #000; background-color: #f8f9fa; border-color: #f8f9fa; }
+        .btn-outline-danger.active-hem { color: #fff; background-color: #dc3545; border-color: #dc3545; }
+        .btn-outline-warning.active-emerg { color: #000; background-color: #ffc107; border-color: #ffc107; }
+        .btn-outline-info.active-lytes { color: #fff; background-color: #0dcaf0; border-color: #0dcaf0; }
+
+        .text-orange { color: #f97316 !important; }
+        .bg-orange { background-color: #f97316 !important; }
+        .border-orange { border-color: #f97316 !important; }
 
         .mission-title-display {
             background: rgba(59, 130, 246, 0.1);
@@ -248,6 +294,23 @@
 
         .text-highlight.highlight-distractor {
             border-bottom: 2px solid var(--danger);
+        }
+
+        .highlight-option {
+            color: #e0e0e0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .highlight-option:hover {
+            border-color: rgba(255,255,255,0.4) !important;
+            background: rgba(255,255,255,0.08) !important;
+        }
+
+        .highlight-option.selected {
+            border-color: var(--accent) !important;
+            background: rgba(0, 212, 170, 0.15) !important;
+            color: white;
         }
 
         .point-label {
@@ -501,27 +564,165 @@
             border: none;
         }
 
-        /* MOBILE RESPONSIVE MISSION MODAL */
+        /* ============================================
+           MOBILE RESPONSIVE - TABLET (max-width: 768px)
+           ============================================ */
         @media (max-width: 768px) {
+            /* --- NAV BAR --- */
+            .nexus-nav {
+                padding: 0.6rem 0;
+            }
+
+            .nexus-nav h3 {
+                font-size: 1.1rem !important;
+            }
+
+            .nexus-nav p {
+                display: none;
+            }
+
+            .nexus-nav .container-fluid {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .nav-buttons {
+                width: 100%;
+                justify-content: center !important;
+                flex-wrap: wrap;
+                gap: 6px !important;
+            }
+
+            .nav-buttons .btn {
+                font-size: 0.75rem !important;
+                padding: 0.35rem 0.7rem !important;
+            }
+
+            .nav-buttons > span {
+                width: 100%;
+                text-align: center;
+                font-size: 0.8rem;
+            }
+
+            /* --- CONTROL PANEL (Drug Filters) --- */
+            .control-panel {
+                top: 62px;
+                padding: 10px 0;
+            }
+
+            .control-panel .row {
+                flex-direction: column;
+                gap: 8px !important;
+            }
+
+            .control-panel .col-md-4 {
+                text-align: center !important;
+            }
+
+            .control-panel .btn-group {
+                width: 100% !important;
+            }
+
+            .control-panel .btn {
+                font-size: 0.8rem;
+                padding: 0.4rem 0.6rem;
+            }
+
+            /* --- HOME SCREEN --- */
+            .display-4 {
+                font-size: 1.6rem !important;
+            }
+
+            .display-4 .me-3 {
+                margin-right: 0.5rem !important;
+            }
+
+            .col-md-4 .nexus-card {
+                margin-bottom: 0;
+            }
+
+            /* --- DRUG REFERENCE CARDS --- */
+            .col-md-6.mb-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .nexus-card {
+                padding: 18px;
+                border-radius: 12px;
+            }
+
+            .nexus-card h4 {
+                font-size: 1.1rem;
+            }
+
+            .point-label {
+                font-size: 0.6rem;
+            }
+
+            .point-value {
+                font-size: 0.85rem;
+            }
+
+            .nexus-card .row .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .data-strip {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .inter-table {
+                font-size: 0.78rem;
+            }
+
+            .inter-table td {
+                padding: 6px 8px;
+            }
+
+            .ae-common, .ae-severe {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+
+            /* --- MISSION MODAL --- */
             .mission-container {
                 flex-direction: column;
                 height: 100vh;
+                height: 100dvh;
                 overflow-y: auto;
             }
 
             .chart-pane {
                 width: 100% !important;
-                height: 50vh;
+                height: auto;
+                min-height: 35vh;
+                max-height: 45vh;
                 border-right: none;
-                border-bottom: 4px solid var(--border);
+                border-bottom: 3px solid var(--border);
                 overflow-y: auto;
             }
 
             .work-pane {
                 width: 100% !important;
-                height: 50vh;
-                padding: 20px;
+                height: auto;
+                min-height: 55vh;
+                padding: 20px 15px;
                 overflow-y: auto;
+            }
+
+            .chart-header {
+                padding: 10px 12px !important;
+            }
+
+            .chart-header h5 {
+                font-size: 0.95rem !important;
+            }
+
+            .chart-header span {
+                font-size: 0.7rem !important;
             }
 
             .chart-tabs {
@@ -530,30 +731,34 @@
 
             .chart-tab {
                 padding: 8px 12px;
-                font-size: 0.75rem;
+                font-size: 0.72rem;
                 white-space: nowrap;
             }
 
+            .chart-content {
+                padding: 15px;
+                font-size: 0.88rem;
+            }
+
             .mission-container .btn {
-                font-size: 0.9rem !important;
-                padding: 0.5rem 1rem !important;
+                font-size: 0.85rem !important;
+                padding: 0.45rem 0.9rem !important;
             }
 
             .step-badge {
-                font-size: 0.8rem !important;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .work-pane {
-                padding: 15px;
+                font-size: 0.75rem !important;
             }
 
-            .mission-container .btn {
-                font-size: 0.8rem !important;
-                padding: 0.4rem 0.8rem !important;
+            .work-pane h3 {
+                font-size: 1.15rem !important;
             }
 
+            .mission-title-display {
+                font-size: 0.8rem;
+                padding: 6px 10px;
+            }
+
+            /* --- BOWTIE --- */
             .bowtie-container {
                 flex-direction: column;
                 gap: 15px;
@@ -561,6 +766,452 @@
 
             .bowtie-center {
                 width: 100%;
+            }
+
+            .bowtie-wing {
+                padding: 15px;
+            }
+
+            .bw-option {
+                font-size: 0.88rem;
+                padding: 10px 8px;
+            }
+
+            /* --- DRAG-AND-DROP CLOZE --- */
+            .cloze-text {
+                font-size: 0.95rem;
+                padding: 15px;
+                line-height: 1.8;
+            }
+
+            .drop-zone {
+                min-width: 60px;
+                padding: 4px 6px;
+                font-size: 0.85rem;
+            }
+
+            .draggable-option {
+                padding: 8px 12px;
+                font-size: 0.85rem;
+                touch-action: none;
+            }
+
+            .options-pool {
+                padding: 12px;
+            }
+
+            /* --- HIGHLIGHT SELECT --- */
+            .highlight-text {
+                font-size: 0.95rem;
+                padding: 15px;
+            }
+
+            .text-highlight {
+                padding: 3px 5px;
+            }
+
+            /* --- SIDECAR (Drug Reference Panel) --- */
+            .pharma-sidecar {
+                width: 85vw;
+                right: -85vw;
+            }
+
+            .sidecar-toggle {
+                width: 50px;
+                height: 50px;
+                right: 12px;
+                bottom: 80px;
+            }
+
+            .sidecar-toggle i {
+                font-size: 1.2rem !important;
+            }
+
+            /* --- EXAM VIEW --- */
+            #examModal, #examSelectionModal {
+                padding: 15px !important;
+            }
+
+            #examModal .container,
+            #examSelectionModal .container {
+                padding: 0;
+            }
+
+            #examModal h2, #examModal h3 {
+                font-size: 1.1rem !important;
+            }
+
+            #examModal .fs-5 {
+                font-size: 0.95rem !important;
+            }
+
+            #examModal label {
+                padding: 12px 14px !important;
+                font-size: 0.9rem;
+            }
+
+            #examModal .d-flex.justify-content-between.align-items-center {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            #examModal .btn-lg {
+                font-size: 0.9rem !important;
+                padding: 0.5rem 1.2rem !important;
+            }
+
+            #examSelectionModal h2 {
+                font-size: 1.2rem !important;
+            }
+
+            #examSelectionModal .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            /* --- MISSION SELECTOR --- */
+            #missionSelectorModal {
+                padding: 15px !important;
+            }
+
+            #missionSelectorModal h2 {
+                font-size: 1.2rem !important;
+            }
+
+            #missionSelectorModal h4 {
+                font-size: 1rem !important;
+            }
+
+            #missionSelectorModal .col-md-4,
+            #missionSelectorModal .col-md-6 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .mission-btn {
+                font-size: 0.85rem;
+            }
+        }
+
+        /* ============================================
+           MOBILE RESPONSIVE - PHONE (max-width: 480px)
+           ============================================ */
+        @media (max-width: 480px) {
+            /* --- NAV BAR --- */
+            .nexus-nav h3 {
+                font-size: 0.95rem !important;
+            }
+
+            .nexus-nav .badge {
+                font-size: 0.55rem !important;
+                padding: 0.2rem 0.4rem !important;
+            }
+
+            .nav-buttons .btn {
+                font-size: 0.7rem !important;
+                padding: 0.3rem 0.5rem !important;
+            }
+
+            /* --- CONTROL PANEL --- */
+            .control-panel {
+                top: 52px;
+            }
+
+            /* --- HOME SCREEN --- */
+            .display-4 {
+                font-size: 1.3rem !important;
+            }
+
+            .lead {
+                font-size: 0.9rem !important;
+            }
+
+            body {
+                padding-bottom: 60px;
+            }
+
+            /* --- DRUG CARDS --- */
+            .nexus-card {
+                padding: 14px;
+                margin-bottom: 15px;
+            }
+
+            .nexus-card h4 {
+                font-size: 1rem;
+                word-break: break-word;
+            }
+
+            .point-value {
+                font-size: 0.82rem;
+            }
+
+            .logistics-box {
+                font-size: 0.78rem;
+                padding: 10px;
+            }
+
+            /* --- MISSION WORK PANE --- */
+            .work-pane {
+                padding: 15px 12px !important;
+            }
+
+            .work-pane h3 {
+                font-size: 1.05rem !important;
+                line-height: 1.4;
+            }
+
+            /* Mission action buttons at bottom */
+            .work-pane .mt-5 {
+                margin-top: 1.5rem !important;
+                position: sticky;
+                bottom: 0;
+                background: var(--primary);
+                padding: 12px 0;
+                z-index: 10;
+            }
+
+            .mission-container .btn {
+                font-size: 0.8rem !important;
+                padding: 0.4rem 0.8rem !important;
+            }
+
+            /* --- BOWTIE --- */
+            .bowtie-wing, .bowtie-center {
+                padding: 12px;
+                border-radius: 12px;
+            }
+
+            .bowtie-label {
+                font-size: 0.65rem;
+            }
+
+            .bw-option {
+                font-size: 0.82rem;
+                padding: 8px;
+            }
+
+            /* --- DRAG-AND-DROP --- */
+            .cloze-text {
+                font-size: 0.88rem;
+                padding: 12px;
+            }
+
+            .draggable-option {
+                padding: 6px 10px;
+                font-size: 0.82rem;
+            }
+
+            /* --- EXAM --- */
+            #examModal {
+                padding: 10px !important;
+            }
+
+            #examModal h2 {
+                font-size: 1rem !important;
+                line-height: 1.4;
+            }
+
+            #examModal .fs-5 {
+                font-size: 0.88rem !important;
+            }
+
+            #examModal label {
+                padding: 10px 12px !important;
+                margin-bottom: 8px !important;
+            }
+
+            #feedbackContainer {
+                font-size: 0.9rem;
+            }
+
+            #feedbackContainer h4 {
+                font-size: 1rem;
+            }
+
+            /* --- SIDECAR --- */
+            .pharma-sidecar {
+                width: 92vw;
+                right: -92vw;
+            }
+
+            .sidecar-toggle {
+                width: 44px;
+                height: 44px;
+                right: 8px;
+                bottom: 70px;
+            }
+
+            .sidecar-toggle i {
+                font-size: 1rem !important;
+            }
+        }
+
+        /* ============================================
+           TOUCH DEVICE ENHANCEMENTS
+           ============================================ */
+        @media (hover: none) and (pointer: coarse) {
+            /* Larger tap targets for touch */
+            .btn {
+                min-height: 44px;
+                min-width: 44px;
+            }
+
+            .chart-tab {
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+            }
+
+            .bw-option {
+                min-height: 48px;
+            }
+
+            .text-highlight {
+                padding: 4px 6px;
+                line-height: 2;
+            }
+
+            /* Disable hover effects that don't work on touch */
+            .nexus-card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+
+            .draggable-option:hover {
+                transform: none;
+            }
+
+            /* Active states for touch feedback */
+            .nexus-card:active {
+                border-color: var(--accent);
+                transform: scale(0.98);
+            }
+
+            .btn:active {
+                transform: scale(0.96);
+            }
+
+            .draggable-option:active {
+                background: var(--accent);
+                transform: scale(0.95);
+            }
+
+            .text-highlight:active {
+                background: rgba(59, 130, 246, 0.4);
+            }
+        }
+
+        /* AUTH & DASHBOARD STYLES */
+        .auth-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--primary); z-index: 9999;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .auth-card {
+            background: var(--secondary); border: 1px solid var(--border);
+            border-radius: 20px; padding: 40px; max-width: 420px; width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        .auth-card input {
+            background: var(--primary); border: 1px solid var(--border);
+            color: var(--text); border-radius: 10px; padding: 12px 16px;
+            width: 100%; margin-bottom: 12px; font-size: 1rem;
+        }
+        .auth-card input:focus { border-color: var(--accent); outline: none; }
+        .auth-card .btn-auth {
+            background: var(--accent); color: white; border: none;
+            border-radius: 10px; padding: 12px; width: 100%;
+            font-weight: 700; font-size: 1rem; cursor: pointer;
+            transition: 0.2s;
+        }
+        .auth-card .btn-auth:hover { background: #2563eb; }
+        .auth-toggle { color: var(--accent); cursor: pointer; text-decoration: underline; }
+        .auth-error { color: var(--danger); font-size: 0.85rem; margin-top: 8px; }
+        .user-badge {
+            background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 8px; padding: 4px 12px; font-size: 0.8rem; color: var(--accent);
+        }
+        .dashboard-card {
+            background: var(--secondary); border: 1px solid var(--border);
+            border-radius: 16px; padding: 20px;
+        }
+        .stat-number { font-size: 2rem; font-weight: 800; line-height: 1; }
+        .stat-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-top: 4px; }
+        .weak-area-bar { height: 8px; border-radius: 4px; background: rgba(255,255,255,0.1); overflow: hidden; margin-top: 6px; }
+        .weak-area-fill { height: 100%; border-radius: 4px; transition: width 0.5s ease; }
+        .streak-badge { background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 8px; padding: 4px 10px; }
+
+        /* ── PHARM STUDY MODES ── */
+        .pharm-study-modal {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;
+        }
+        .pharm-mode-card {
+            background: var(--secondary); border: 2px solid var(--border);
+            border-radius: 16px; padding: 24px; cursor: pointer;
+            transition: all 0.25s ease;
+        }
+        .pharm-mode-card:hover {
+            border-color: var(--accent); transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(59,130,246,0.2);
+        }
+        .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 700px; margin: 0 auto; }
+        .match-col { display: flex; flex-direction: column; gap: 10px; }
+        .match-card {
+            background: var(--secondary); border: 2px solid var(--border);
+            border-radius: 12px; padding: 14px 18px; cursor: pointer;
+            transition: all 0.2s; text-align: center; font-weight: 600;
+            color: var(--text); font-size: 0.95rem; user-select: none;
+        }
+        .match-card:hover { border-color: var(--accent); }
+        .match-card.selected { border-color: var(--accent); background: rgba(59,130,246,0.15); box-shadow: 0 0 15px rgba(59,130,246,0.3); }
+        .match-card.matched { border-color: var(--success); background: rgba(16,185,129,0.15); opacity: 0.6; pointer-events: none; }
+        .match-card.wrong { animation: shake 0.4s ease; border-color: var(--danger); }
+        @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-8px)} 75%{transform:translateX(8px)} }
+
+        .quiz-option {
+            background: var(--secondary); border: 2px solid var(--border);
+            border-radius: 12px; padding: 16px 20px; cursor: pointer;
+            transition: all 0.2s; font-size: 1rem; color: var(--text);
+        }
+        .quiz-option:hover { border-color: var(--accent); background: rgba(59,130,246,0.08); }
+        .quiz-option.correct { border-color: var(--success); background: rgba(16,185,129,0.15); }
+        .quiz-option.incorrect { border-color: var(--danger); background: rgba(239,68,68,0.15); }
+        .quiz-option.disabled { pointer-events: none; opacity: 0.7; }
+
+        .suffix-highlight { color: var(--accent); font-weight: 800; font-size: 1.1em; }
+        .pharm-score-bar { height: 8px; border-radius: 4px; background: rgba(255,255,255,0.1); overflow: hidden; }
+        .pharm-score-fill { height: 100%; border-radius: 4px; background: var(--success); transition: width 0.4s ease; }
+        .proto-drug-card {
+            background: var(--secondary); border: 2px solid var(--accent);
+            border-radius: 16px; padding: 24px;
+        }
+        .proto-field-label { font-size: 0.7rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-top: 12px; }
+        .proto-field-value { color: var(--text); font-size: 0.95rem; margin-top: 2px; }
+
+        @media (max-width: 768px) {
+            .pharm-study-modal { padding: 15px; }
+            .match-grid { grid-template-columns: 1fr; gap: 10px; }
+            .match-card { font-size: 0.85rem; padding: 12px; }
+            .quiz-option { font-size: 0.9rem; padding: 12px 16px; }
+        }
+
+        /* Safe area for iPhones with notch/Dynamic Island */
+        @supports (padding-top: env(safe-area-inset-top)) {
+            .nexus-nav {
+                padding-top: calc(0.6rem + env(safe-area-inset-top));
+            }
+
+            .mission-container {
+                padding-top: env(safe-area-inset-top);
+            }
+
+            #examModal, #examSelectionModal, #missionSelectorModal {
+                padding-top: calc(15px + env(safe-area-inset-top)) !important;
+            }
+
+            body {
+                padding-bottom: calc(80px + env(safe-area-inset-bottom));
             }
         }
     </style>
@@ -571,12 +1222,12 @@
     <nav class="nexus-nav">
         <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
             <div>
-                <h3 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-3"></i>NGN MASTERY HUB <span
-                        class="badge bg-primary ms-2" style="font-size: 0.7rem">v3.2</span></h3>
-                <p class="small text-secondary mb-0">High-Fidelity Clinical Simulation Platform</p>
+                <h3 class="mb-0 fw-bold"><i class="fas fa-microscope text-accent me-3"></i>NCLEX Study Tool <span
+                        class="badge bg-primary ms-2" style="font-size: 0.7rem">v4.0</span></h3>
+                <p class="small text-secondary mb-0">High-Fidelity Clinical Study Platform</p>
             </div>
             <div class="d-flex align-items-center gap-3 nav-buttons">
-                <span class="text-secondary">Welcome to NGN Mastery Hub</span>
+                <span class="text-secondary">Welcome to NCLEX Study Tool</span>
             </div>
         </div>
     </nav>
@@ -588,11 +1239,37 @@
                         class="form-control bg-dark text-white border-secondary" placeholder="Search..."
                         onkeyup="renderDrugs()"></div>
                 <div class="col-md-4 text-center">
-                    <div class="btn-group w-100 shadow">
-                        <button id="btn-cv" class="btn btn-outline-primary active-cv"
-                            onclick="toggleFilter('cv')">Cardio</button>
-                        <button id="btn-dm" class="btn btn-outline-success active-dm"
-                            onclick="toggleFilter('dm')">Diabetes</button>
+                    <div class="position-relative w-100">
+                        <button class="btn btn-outline-accent w-100" type="button" onclick="toggleFilterPanel()">
+                            <i class="fas fa-filter me-2"></i>Filter Categories <i class="fas fa-chevron-down ms-2" id="filterChevron"></i>
+                        </button>
+                        <div id="filterPanel" class="position-absolute w-100 mt-1 p-3 rounded shadow-lg" style="display: none; background: #1a1a2e; border: 1px solid var(--accent); z-index: 1050; min-width: 320px; left: 50%; transform: translateX(-50%);">
+                            <div class="d-flex justify-content-between mb-2">
+                                <button class="btn btn-sm btn-outline-success" onclick="selectAllFilters()">Select All</button>
+                                <button class="btn btn-sm btn-outline-danger" onclick="clearAllFilters()">Clear All</button>
+                            </div>
+                            <hr class="my-2 border-secondary">
+                            <div class="row g-2">
+                                <div class="col-6"><button id="btn-cv" class="btn btn-sm btn-outline-primary w-100 active-cv" onclick="toggleFilter('cv')"><i class="fas fa-heartbeat me-1"></i>Cardio <span class="badge bg-primary" id="count-cv">0</span></button></div>
+                                <div class="col-6"><button id="btn-dm" class="btn btn-sm btn-outline-success w-100 active-dm" onclick="toggleFilter('dm')"><i class="fas fa-tint me-1"></i>Diabetes <span class="badge bg-success" id="count-dm">0</span></button></div>
+                                <div class="col-6"><button id="btn-pain" class="btn btn-sm btn-outline-warning w-100 active-pain" onclick="toggleFilter('pain')"><i class="fas fa-pills me-1"></i>Pain <span class="badge bg-warning text-dark" id="count-pain">0</span></button></div>
+                                <div class="col-6"><button id="btn-abx" class="btn btn-sm btn-outline-danger w-100 active-abx" onclick="toggleFilter('abx')"><i class="fas fa-virus me-1"></i>Antimicro <span class="badge bg-danger" id="count-abx">0</span></button></div>
+                                <div class="col-6"><button id="btn-resp" class="btn btn-sm btn-outline-info w-100 active-resp" onclick="toggleFilter('resp')"><i class="fas fa-lungs me-1"></i>Resp <span class="badge bg-info" id="count-resp">0</span></button></div>
+                                <div class="col-6"><button id="btn-cns" class="btn btn-sm btn-outline-purple w-100 active-cns" onclick="toggleFilter('cns')"><i class="fas fa-brain me-1"></i>CNS/Psych <span class="badge bg-purple" id="count-cns">0</span></button></div>
+                                <div class="col-6"><button id="btn-gi" class="btn btn-sm btn-outline-orange w-100 active-gi" onclick="toggleFilter('gi')"><i class="fas fa-stomach me-1"></i>GI <span class="badge bg-orange" id="count-gi">0</span></button></div>
+                                <div class="col-6"><button id="btn-endo" class="btn btn-sm btn-outline-pink w-100 active-endo" onclick="toggleFilter('endo')"><i class="fas fa-shield-virus me-1"></i>Endocrine <span class="badge bg-pink" id="count-endo">0</span></button></div>
+                                <div class="col-6"><button id="btn-neuro" class="btn btn-sm btn-outline-cyan w-100 active-neuro" onclick="toggleFilter('neuro')"><i class="fas fa-head-side-brain me-1"></i>Neuro <span class="badge bg-cyan" id="count-neuro">0</span></button></div>
+                                <div class="col-6"><button id="btn-repro" class="btn btn-sm btn-outline-pink w-100 active-repro" onclick="toggleFilter('repro')"><i class="fas fa-venus-mars me-1"></i>Repro <span class="badge bg-pink" id="count-repro">0</span></button></div>
+                                <div class="col-6"><button id="btn-immun" class="btn btn-sm btn-outline-teal w-100 active-immun" onclick="toggleFilter('immun')"><i class="fas fa-shield-alt me-1"></i>Immune <span class="badge bg-teal" id="count-immun">0</span></button></div>
+                                <div class="col-6"><button id="btn-uro" class="btn btn-sm btn-outline-secondary w-100 active-uro" onclick="toggleFilter('uro')"><i class="fas fa-toilet me-1"></i>Urology <span class="badge bg-secondary" id="count-uro">0</span></button></div>
+                                <div class="col-6"><button id="btn-ophthal" class="btn btn-sm btn-outline-light w-100 active-ophthal" onclick="toggleFilter('ophthal')"><i class="fas fa-eye me-1"></i>Eye <span class="badge bg-light text-dark" id="count-ophthal">0</span></button></div>
+                                <div class="col-6"><button id="btn-msk" class="btn btn-sm btn-outline-warning w-100 active-msk" onclick="toggleFilter('msk')"><i class="fas fa-bone me-1"></i>MSK <span class="badge bg-warning text-dark" id="count-msk">0</span></button></div>
+                                <div class="col-6"><button id="btn-derm" class="btn btn-sm btn-outline-light w-100 active-derm" onclick="toggleFilter('derm')"><i class="fas fa-hand-dots me-1"></i>Derm <span class="badge bg-light text-dark" id="count-derm">0</span></button></div>
+                                <div class="col-6"><button id="btn-hem" class="btn btn-sm btn-outline-danger w-100 active-hem" onclick="toggleFilter('hem')"><i class="fas fa-droplet me-1"></i>Heme <span class="badge bg-danger" id="count-hem">0</span></button></div>
+                                <div class="col-6"><button id="btn-emerg" class="btn btn-sm btn-outline-warning w-100 active-emerg" onclick="toggleFilter('emerg')"><i class="fas fa-bolt me-1"></i>Emerg <span class="badge bg-warning text-dark" id="count-emerg">0</span></button></div>
+                                <div class="col-6"><button id="btn-lytes" class="btn btn-sm btn-outline-info w-100 active-lytes" onclick="toggleFilter('lytes')"><i class="fas fa-flask me-1"></i>Lytes/IV <span class="badge bg-info" id="count-lytes">0</span></button></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-end">
@@ -3546,1074 +4223,822 @@ window.missions_cardio_2 = [
 
 </script>
     <script>
-/* SOURCE: data_loader.js */
-// Master Data Aggregator - Globally Exposed
-window.drugDB = [];
-
-function mergeData(groupData) {
-    if (Array.isArray(groupData)) {
-        window.drugDB = window.drugDB.concat(groupData);
+/* SOURCE: missions_cardio_3.js */
+// Missions 11-15: Clinical Reasoning in Cardiovascular Pharma
+window.missions_cardio_3 = [
+    {
+        id: "M-011",
+        numerical_id: 11,
+        title: "Nightmare and Nightfalls: Prazosin Initiation",
+        category: "Cardiovascular / Adrenergics",
+        difficulty: "Intermediate",
+        patient_profile: {
+            demographics: { name: "Henry Miller", age: 48, gender: "Male", mrn: "1192-HM", weight: "92 kg", height: "180 cm", allergies: "NKDA" },
+            chief_complaint: "Readiness for first dose of Prazosin.",
+            hpi: "Patient is prescribed Prazosin (Minipress) for both resistant hypertension and PTSD-related nightmares. He is receiving his first 1mg dose today.",
+            pmh: "PTSD, Hypertension, BPH.",
+            sh: "Iraq War veteran. Lives alone.",
+            ros: { neuro: "Reports vivid nightmares. Cardio: BP 158/94." }
+        },
+        exhibits: [
+            {
+                title: "Provider Orders",
+                type: "text",
+                content: "1. Prazosin (Minipress) 1 mg PO once daily.<br>2. Monitor BP q30min for 2 hours after initial dose."
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "extended_sata",
+                prompt: "The nurse prepares to administer the first dose. Which safety interventions are mandatory? Select all that apply.",
+                options: [
+                    "Administer the dose at bedtime",
+                    "Instruct patient to remain in bed for 3 hours after dose",
+                    "Warn patient about the risk of sudden fainting (syncope)",
+                    "Check BP only if the patient feels dizzy",
+                    "Administer with a high-protein meal",
+                    "Advise avoiding hazardous tasks for 24 hours"
+                ],
+                answer: ["Administer the dose at bedtime", "Instruct patient to remain in bed for 3 hours after dose", "Warn patient about the risk of sudden fainting (syncope)", "Advise avoiding hazardous tasks for 24 hours"],
+                rationale: "Prazosin is notorious for 'First-Dose Syncope,' a profound orthostatic drop occurring 30-90 minutes after the initial dose. Bedtime administration and staying supine/in bed are the primary safety rules to prevent injury."
+            },
+            {
+                id: 2,
+                type: "matrix",
+                prompt: "Identify the therapeutic target for each indication of Prazosin in this patient.",
+                rows: ["PTSD Nightmares", "Hypertension", "BPH Symptoms"],
+                columns: ["CNS Alpha-1 Blockade", "Peripheral Alpha-1 Blockade", "Urethral Smooth Muscle Relaxation"],
+                answer: {
+                    "PTSD Nightmares": "CNS Alpha-1 Blockade",
+                    "Hypertension": "Peripheral Alpha-1 Blockade",
+                    "BPH Symptoms": "Urethral Smooth Muscle Relaxation"
+                },
+                rationale: "Prazosin acts on alpha-1 receptors in three locations: the brain (PTSD), vascular smooth muscle (HTN), and the bladder neck/prostate (BPH)."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "The patient stands up to use the bathroom 45 minutes after the dose and collapses.",
+                center_condition: { label: "Condition", options: ["First-Dose Syncope", "Acute MI", "Stroke", "Seizure"], answer: "First-Dose Syncope" },
+                left_actions: { label: "Actions", options: ["Place in Trendelenburg", "Assess BP immediately", "Give Epinephrine", "Call a Code Blue"], answer: ["Place in Trendelenburg", "Assess BP immediately"] },
+                right_monitor: { label: "Monitor", options: ["Orthostatic BP levels", "Neuro checks", "Urine output", "Blood glucose"], answer: ["Orthostatic BP levels", "Neuro checks"] }
+            }
+        ]
+    },
+    {
+        id: "M-012",
+        numerical_id: 12,
+        title: "Breathless on Brilinta: Ticagrelor Dyspnea",
+        category: "Cardiovascular / Antiplatelets",
+        difficulty: "Advanced",
+        patient_profile: {
+            demographics: { name: "Sarah Jenkins", age: 62, gender: "Female", mrn: "8821-SJ", weight: "70 kg", height: "162 cm", allergies: "Aspirin (GI upset)" },
+            chief_complaint: "Sudden onset of shortness of breath at rest.",
+            hpi: "Patient was started on Ticagrelor (Brilinta) 90mg BID 3 days ago following a coronary stent. She reports feeling 'short of breath' even when sitting still. She denies chest pain or leg swelling.",
+            pmh: "CAD, Post-PCI, HTN.",
+            sh: "Retired. Lives with daughter.",
+            ros: { cardio: "No chest pain. HR 72.", lung: "Lungs clear. Reports dyspnea." }
+        },
+        exhibits: [
+            {
+                title: "Vitals & Labs",
+                type: "table",
+                data: [
+                    { param: "SpO2", val: "98%", note: "Normal" },
+                    { param: "BNP", val: "85 pg/mL", status: "NORMAL", ref: "< 100" },
+                    { param: "CXR", val: "Clear lung fields", status: "NORMAL" }
+                ]
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "matrix",
+                prompt: "The nurse distinguishes between heart failure and Ticagrelor-induced dyspnea. Link the finding to the likely cause.",
+                rows: ["Elevated BNP (>400)", "Clear Lung Sounds / Normal SpO2", "Crackles on Auscultation", "Onset 3 days after starting Brilinta"],
+                columns: ["Likely Heart Failure", "Likely Ticagrelor Side Effect"],
+                answer: {
+                    "Elevated BNP (>400)": "Likely Heart Failure",
+                    "Clear Lung Sounds / Normal SpO2": "Likely Ticagrelor Side Effect",
+                    "Crackles on Auscultation": "Likely Heart Failure",
+                    "Onset 3 days after starting Brilinta": "Likely Ticagrelor Side Effect"
+                },
+                rationale: "Ticagrelor causes a unique, harmless dyspnea in ~15% of patients. It is distinguished from HF by clear lungs, normal BNP, and normal oxygen saturation."
+            },
+            {
+                id: 2,
+                type: "extended_sata",
+                prompt: "Which information should the nurse provide to the patient regarding this dyspnea? Select all that apply.",
+                options: [
+                    "This is a known side effect of Brilinta",
+                    "It is usually self-limiting and transient",
+                    "You must stop the drug immediately",
+                    "It does not mean your heart failure is worsening",
+                    "We will need to switch you back to Clopidogrel today",
+                    "Report if the breathlessness becomes disabling"
+                ],
+                answer: ["This is a known side effect of Brilinta", "It is usually self-limiting and transient", "It does not mean your heart failure is worsening", "Report if the breathlessness becomes disabling"],
+                rationale: "The dyspnea is common and usually resolves. It is not an emergency and does not typically require drug discontinuation unless severe."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "Manage the ongoing antiplatelet therapy.",
+                center_condition: { label: "Condition", options: ["Transient Dyspnea", "Pulmonary Edema", "Pneumonia", "Stent Thrombosis"], answer: "Transient Dyspnea" },
+                left_actions: { label: "Actions", options: ["Reassure patient", "Continue Ticagrelor", "Give Furosemide", "Hold all meds"], answer: ["Reassure patient", "Continue Ticagrelor"] },
+                right_monitor: { label: "Monitor", options: ["Persistence of symptoms", "SpO2 levels", "BUN", "Platelets"], answer: ["Persistence of symptoms", "SpO2 levels"] }
+            }
+        ]
+    },
+    {
+        id: "M-013",
+        numerical_id: 13,
+        title: "The Potent Guard: Abciximab in PCI",
+        category: "Cardiovascular / Antiplatelets",
+        difficulty: "Advanced",
+        patient_profile: {
+            demographics: { name: "David Ross", age: 55, gender: "Male", mrn: "7732-DR", weight: "105 kg", height: "185 cm", allergies: "NKDA" },
+            chief_complaint: "Acute Chest Pain - Scheduled for PCI.",
+            hpi: "Patient is in the Cath Lab for a balloon angioplasty. The provider has ordered an Abciximab (ReoPro) drip to prevent re-occlusion.",
+            pmh: "Unstable Angina, Smoking, T2DM.",
+            sh: "Active. Owns a trucking company.",
+            ros: { cardio: "Chest pain 8/10. ST depression on EKG." }
+        },
+        exhibits: [
+            {
+                title: "Procedural Orders",
+                type: "text",
+                content: "1. Abciximab 0.25 mg/kg IV bolus.<br>2. Abciximab infusion 0.125 mcg/kg/min for 12 hours.<br>3. Maintain bedrest."
+            },
+            {
+                title: "Post-Procedure Vitals (1400)",
+                type: "table",
+                data: [
+                    { param: "BP", val: "90/52 mmHg", status: "LOW" },
+                    { param: "Groin Site", val: "6cm hematoma noted", status: "CRITICAL" },
+                    { param: "Platelets", val: "42,000", status: "CRITICAL LOW", ref: "150k-400k" }
+                ]
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "matrix",
+                prompt: "Which handling rules are required for Abciximab? Indicate True or False.",
+                rows: ["Use a low protein-binding in-line filter", "Shake the vial vigorously to mix", "Verify patient has platelets > 100k", "Administer through a dedicated IV line"],
+                columns: ["True", "False"],
+                answer: {
+                    "Use a low protein-binding in-line filter": "True",
+                    "Shake the vial vigorously to mix": "False",
+                    "Verify patient has platelets > 100k": "True",
+                    "Administer through a dedicated IV line": "True"
+                },
+                rationale: "Abciximab requires a filter and dedicated line. Shaking the vial can denature the monoclonal antibodies. Baseline platelets must be checked as it can cause profound thrombocytopenia."
+            },
+            {
+                id: 2,
+                type: "extended_sata",
+                prompt: "The nurse notes the groin hematoma and low platelets. Which actions are appropriate? Select all that apply.",
+                options: [
+                    "Stop the Abciximab infusion",
+                    "Apply manual pressure to the groin site",
+                    "Notify the interventional cardiologist",
+                    "Give 325mg Aspirin immediately",
+                    "Increase the IV rate to maintain BP",
+                    "Prepare for potential platelet transfusion"
+                ],
+                answer: ["Stop the Abciximab infusion", "Apply manual pressure to the groin site", "Notify the interventional cardiologist", "Prepare for potential platelet transfusion"],
+                rationale: "Bleeding and severe thrombocytopenia are the main risks. Stopping the drug and applying pressure are immediate nursing priorities."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "Complete the bowtie for the platelet findings.",
+                center_condition: { label: "Condition", options: ["Severe Thrombocytopenia", "Normal response", "HIT", "DIC"], answer: "Severe Thrombocytopenia" },
+                left_actions: { label: "Actions", options: ["Stop Abciximab", "Apply pressure", "Give Heparin", "Administer Vit K"], answer: ["Stop Abciximab", "Apply pressure"] },
+                right_monitor: { label: "Monitor", options: ["Serial Platelet counts", "Hgb / Hct", "aPTT", "INR"], answer: ["Serial Platelet counts", "Hgb / Hct"] }
+            }
+        ]
+    },
+    {
+        id: "M-014",
+        numerical_id: 14,
+        title: "The Renal Rhythm: Atenolol in CKD",
+        category: "Cardiovascular / Beta Blockers",
+        difficulty: "Intermediate",
+        patient_profile: {
+            demographics: { name: "Frank Gomez", age: 74, gender: "Male", mrn: "3321-FG", weight: "80 kg", height: "175 cm", allergies: "NKDA" },
+            chief_complaint: "Extreme lethargy and slow heart rate.",
+            hpi: "Patient has been taking Atenolol 50mg daily for 2 years. He has Stage 4 CKD. Over the last week, his daughter noticed he is 'nearly impossible to wake up'.",
+            pmh: "HTN, CKD (Stage 4), Heart Failure.",
+            sh: "Retired tailor.",
+            ros: { neuro: "Somnolent. Slow speech. Cardio: HR 38." }
+        },
+        exhibits: [
+            {
+                title: "Laboratory Results",
+                type: "table",
+                data: [
+                    { lab: "Creatinine", val: "3.2 mg/dL", status: "CRITICAL HIGH" },
+                    { lab: "GFR", val: "18 mL/min", status: "CRITICAL LOW" },
+                    { lab: "Potassium", val: "4.8 mEq/L", status: "NORMAL" }
+                ]
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "extended_sata",
+                prompt: "Why is Frank experiencing toxicity from a dose he has taken for 2 years? Select all that apply.",
+                options: [
+                    "Atenolol is excreted unchanged by the kidneys",
+                    "Worsening GFR leads to accumulation of the drug",
+                    "Atenolol is primarily metabolized by the liver",
+                    "Frank's age increases the half-life of beta blockers",
+                    "Atenolol is highly lipid soluble",
+                    "The drug has a low therapeutic index"
+                ],
+                answer: ["Atenolol is excreted unchanged by the kidneys", "Worsening GFR leads to accumulation of the drug", "Frank's age increases the half-life of beta blockers"],
+                rationale: "Unlike Metoprolol (liver), Atenolol is renally excreted. In CKD, it accumulates rapidly, leading to profound bradycardia and sedation."
+            },
+            {
+                id: 2,
+                type: "matrix",
+                prompt: "Compare Atenolol and Propranolol for this patient.",
+                rows: ["Safe for Asthmatics", "Renally Excreted", "Crosses Blood-Brain Barrier Easily", "Requires dose reduction in CKD"],
+                columns: ["Atenolol", "Propranolol", "Neither"],
+                answer: {
+                    "Safe for Asthmatics": "Neither",
+                    "Renally Excreted": "Atenolol",
+                    "Crosses Blood-Brain Barrier Easily": "Propranolol",
+                    "Requires dose reduction in CKD": "Atenolol"
+                },
+                rationale: "Both can cause bronchospasm (neither safe). Atenolol is renal; Propranolol is liver and lipid-soluble (BBB)."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "Manage the profound bradycardia.",
+                center_condition: { label: "Condition", options: ["Symptomatic Bradycardia", "Heart Block", "Normal aging", "Metabolic Acidosis"], answer: "Symptomatic Bradycardia" },
+                left_actions: { label: "Actions", options: ["Hold Atenolol", "Administer Atropine", "Give IV Fluids", "Increase dose"], answer: ["Hold Atenolol", "Administer Atropine"] },
+                right_monitor: { label: "Monitor", options: ["Continuous EKG", "BP / Pulse", "Liver Enzymes", "Urine Color"], answer: ["Continuous EKG", "BP / Pulse"] }
+            }
+        ]
+    },
+    {
+        id: "M-015",
+        numerical_id: 15,
+        title: "The Mononitrate Mistake: Rescue vs. Prophylaxis",
+        category: "Cardiovascular / Nitrates",
+        difficulty: "Intermediate",
+        patient_profile: {
+            demographics: { name: "Irene Adler", age: 68, gender: "Female", mrn: "2219-IA", weight: "65 kg", height: "160 cm", allergies: "NKDA" },
+            chief_complaint: "Instruction on new 'heart pill'.",
+            hpi: "Patient is prescribed Isosorbide Mononitrate (Imdur) 30mg daily for stable angina. She asks the nurse, 'So I take this when my chest starts hurting, right?'",
+            pmh: "Stable Angina, Hyperlipidemia.",
+            sh: "Very active. Walks 2 miles daily.",
+            ros: { cardio: "Chest pain during exercise only." }
+        },
+        exhibits: [
+            {
+                title: "Discharge Prescriptions",
+                type: "text",
+                content: "1. Isosorbide Mononitrate 30 mg PO Daily (Morning).<br>2. Nitroglycerin 0.4 mg SL PRN for Chest Pain."
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "matrix",
+                prompt: "Correct the patient's understanding of her nitrates.",
+                rows: ["Isosorbide Mononitrate (Imdur)", "Nitroglycerin SL (Nitrostat)"],
+                columns: ["Acute Rescue Only", "Long-term Prophylaxis Only", "Both"],
+                answer: {
+                    "Isosorbide Mononitrate (Imdur)": "Long-term Prophylaxis Only",
+                    "Nitroglycerin SL (Nitrostat)": "Acute Rescue Only"
+                },
+                rationale: "Mononitrate has a slow onset and is for prevention. SL Nitroglycerin is for immediate rescue. They are never swapped."
+            },
+            {
+                id: 2,
+                type: "extended_sata",
+                prompt: "Which teaching points are critical for Isosorbide Mononitrate? Select all that apply.",
+                options: [
+                    "Take in the morning upon awakening",
+                    "Do not crush or chew the tablet",
+                    "Expect a headache during the first week",
+                    "Take only when chest pain occurs",
+                    "Maintain an 8-12 hour nitrate-free interval",
+                    "Notify provider if you use Viagra (PDE-5)"
+                ],
+                answer: ["Take in the morning upon awakening", "Do not crush or chew the tablet", "Expect a headache during the first week", "Maintain an 8-12 hour nitrate-free interval", "Notify provider if you use Viagra (PDE-5)"],
+                rationale: "Imdur is an extended-release prophylactic. Nitrate-free intervals prevent tolerance. PDE-5 inhibitors are strictly contraindicated."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "The patient reports the medication isn't working after 2 months of TID dosing.",
+                center_condition: { label: "Condition", options: ["Nitrate Tolerance", "Drug Allergy", "Acute MI", "Rebound HTN"], answer: "Nitrate Tolerance" },
+                left_actions: { label: "Actions", options: ["Implement Nitrate-free period", "Consult MD for dose adjust", "Increase frequency", "Switch to Aspirin"], answer: ["Implement Nitrate-free period", "Consult MD for dose adjust"] },
+                right_monitor: { label: "Monitor", options: ["Anginal frequency", "BP", "Liver Enzymes", "Hgb"], answer: ["Anginal frequency", "BP"] }
+            }
+        ]
     }
-}
-
-// Atomic Loads
-if (typeof data_lipids_statins !== 'undefined') mergeData(data_lipids_statins);
-if (typeof data_lipids_resins !== 'undefined') mergeData(data_lipids_resins);
-if (typeof data_lipids_fibrates_misc !== 'undefined') mergeData(data_lipids_fibrates_misc);
-
-// RAAS Atomic Loads
-if (typeof data_raas_ace !== 'undefined') mergeData(data_raas_ace);
-if (typeof data_raas_arb_dri !== 'undefined') mergeData(data_raas_arb_dri);
-
-// CCB & Beta Atomic Loads
-if (typeof data_ccb !== 'undefined') mergeData(data_ccb);
-if (typeof data_beta_blockers !== 'undefined') mergeData(data_beta_blockers);
-
-// Adrenergics & Vasodilators Atomic Loads
-if (typeof data_adrenergics !== 'undefined') mergeData(data_adrenergics);
-if (typeof data_vasodilators !== 'undefined') mergeData(data_vasodilators);
-
-// Diuretics Atomic Loads
-if (typeof data_diuretics_loop_thiazide !== 'undefined') mergeData(data_diuretics_loop_thiazide);
-if (typeof data_diuretics_ksparing_misc !== 'undefined') mergeData(data_diuretics_ksparing_misc);
-
-// CV Specific Atomic Loads
-if (typeof data_angina_hf !== 'undefined') mergeData(data_angina_hf);
-if (typeof data_antiplatelets !== 'undefined') mergeData(data_antiplatelets);
-if (typeof data_anticoagulants !== 'undefined') mergeData(data_anticoagulants);
-if (typeof data_antiarrhythmics !== 'undefined') mergeData(data_antiarrhythmics);
-
-// Diabetes Atomic Loads
-if (typeof data_diabetes_sensitizers !== 'undefined') mergeData(data_diabetes_sensitizers);
-if (typeof data_diabetes_secretagogues !== 'undefined') mergeData(data_diabetes_secretagogues);
-if (typeof data_diabetes_alpha_sglt2 !== 'undefined') mergeData(data_diabetes_alpha_sglt2);
-if (typeof data_diabetes_gliptin_glp1a !== 'undefined') mergeData(data_diabetes_gliptin_glp1a);
-if (typeof data_diabetes_insulins_part1 !== 'undefined') mergeData(data_diabetes_insulins_part1);
-if (typeof data_diabetes_insulins_part2 !== 'undefined') mergeData(data_diabetes_insulins_part2);
-
-console.log("Global Pharma Database Initialized:", window.drugDB.length, "drugs.");
+];
 
 </script>
     <script>
-/* SOURCE: mastery_logic.js */
-// TITANIUM MASTER ENGINE - V3.3 (ENGINEERING GRADE)
-// Documentation: 
-// - drugDB Object: { g: generic, b: brand, c: class, m: moa, ind: indic, con: contra, aec: common, aes: severe, inter: [], dosage: str, admin: str, nurse: str }
-// - Mission Object: { numerical_id: int, title: str, patient_profile: {}, exhibits: [], steps: [] }
-
-let filters = { cv: true, dm: true };
-let sortMode = 'az';
-let currentMission = null;
-let currentStepIndex = 0;
-let missionFeedbackMode = false;
-let allMissions = [];
-
-/**
- * CENTRALIZED LOGGING & ERROR HANDLING
- */
-const Logger = {
-    info: (msg, data = "") => console.log(`%c[INFO] ${msg}`, "color: #3b82f6; font-weight: bold", data),
-    warn: (msg, data = "") => console.warn(`[WARN] ${msg}`, data),
-    error: (msg, err = "") => {
-        console.error(`[CRITICAL ERROR] ${msg}`, err);
-        // Visual feedback for critical failure
-        const indicator = document.getElementById('status-indicator');
-        if (indicator) { indicator.innerText = "System Offline"; indicator.className = "text-danger small fw-bold"; }
-    }
-};
-
-/**
- * SYSTEM AUDIT TOOL (Run TitaniumAudit.verify() in console)
- */
-window.TitaniumAudit = {
-    verify: function () {
-        Logger.info("Commencing System Audit...");
-        const drugCount = window.drugDB ? window.drugDB.length : 0;
-        const missionCount = allMissions.length;
-
-        Logger.info(`Pharma Database: ${drugCount}/122 items.`);
-        if (drugCount < 122) Logger.warn("Drug database is incomplete.");
-
-        allMissions.forEach(m => {
-            if (!m.numerical_id || !m.steps || m.steps.length === 0) {
-                Logger.error(`Mission Integrity Failure: ID ${m.id}`);
+/* SOURCE: missions_cardio_4.js */
+// Missions 16-20: High-Alert Cardiovascular Emergencies
+window.missions_cardio_4 = [
+    {
+        id: "M-016",
+        numerical_id: 16,
+        title: "The Moisture Mistake: Dabigatran Hazards",
+        category: "Cardiovascular / Coagulation",
+        difficulty: "Intermediate",
+        patient_profile: {
+            demographics: { name: "Thomas Miller", age: 71, gender: "Male", mrn: "8821-TM", weight: "85 kg", height: "178 cm", allergies: "NKDA" },
+            chief_complaint: "New onset of black, tarry stools and coffee-ground emesis.",
+            hpi: "Patient has been taking Dabigatran (Pradaxa) 150mg BID for 2 months for AFib. He admits to taking his pills out of the original bottle and placing them in a weekly pill organizer to 'save time'.",
+            pmh: "Atrial Fibrillation, GERD, Osteoarthritis.",
+            sh: "Lives alone. Independent.",
+            ros: { cardio: "Stable.", gi: "Reports 'burning' stomach pain. Melena noted." }
+        },
+        exhibits: [
+            {
+                title: "Laboratory Values",
+                type: "table",
+                data: [
+                    { lab: "Hemoglobin", val: "8.2 g/dL", status: "CRITICAL LOW", ref: "14-18" },
+                    { lab: "Hematocrit", val: "25%", status: "CRITICAL LOW", ref: "42-52%" },
+                    { lab: "aPTT", val: "42 seconds", status: "STABLE", ref: "30-40" }
+                ]
             }
-        });
-        Logger.info("Audit Complete. System stable.");
-        return "Audit Pass";
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "extended_sata",
+                prompt: "The nurse identifies several errors in the patient's Dabigatran management. Which factors contributed to this GI hemorrhage? Select all that apply.",
+                options: [
+                    "Placing Dabigatran in a weekly pill organizer",
+                    "Exposure of the drug to moisture",
+                    "Opening or crushing the capsules",
+                    "Dabigatran's inherently high risk for GI bleed",
+                    "Missing two doses last week",
+                    "Taking with a full glass of water"
+                ],
+                answer: ["Placing Dabigatran in a weekly pill organizer", "Exposure of the drug to moisture", "Dabigatran's inherently high risk for GI bleed"],
+                rationale: "Dabigatran is exceptionally sensitive to moisture and MUST be kept in its original manufacturer bottle with the desiccant cap. Exposure to humidity causes the drug to breakdown or absorb unpredictably. It also carries a higher risk of GI hemorrhage than warfarin."
+            },
+            {
+                id: 2,
+                type: "matrix",
+                prompt: "Classify the appropriate reversal/safety rules for these anticoagulants.",
+                rows: ["Warfarin (Coumadin)", "Dabigatran (Pradaxa)", "Heparin IV"],
+                columns: ["Vitamin K", "Idarucizumab (Praxbind)", "Protamine Sulfate"],
+                answer: {
+                    "Warfarin (Coumadin)": "Vitamin K",
+                    "Dabigatran (Pradaxa)": "Idarucizumab (Praxbind)",
+                    "Heparin IV": "Protamine Sulfate"
+                },
+                rationale: "Each anticoagulant has a specific antidote. Idarucizumab is the specific monoclonal antibody reversal agent for Dabigatran."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "Address the acute active GI bleed.",
+                center_condition: { label: "Condition", options: ["Major GI Hemorrhage", "Normal Side Effect", "GERD Flare", "HIT"], answer: "Major GI Hemorrhage" },
+                left_actions: { label: "Actions", options: ["Administer Idarucizumab", "Hold Dabigatran", "Increase IV Heparin", "Give Vitamin K"], answer: ["Administer Idarucizumab", "Hold Dabigatran"] },
+                right_monitor: { label: "Monitor", options: ["Hgb / Hct levels", "Blood pressure", "INR", "Platelet count"], answer: ["Hgb / Hct levels", "Blood pressure"] }
+            }
+        ]
+    },
+    {
+        id: "M-017",
+        numerical_id: 17,
+        title: "The Stroke Clock: Alteplase Protocol",
+        category: "Cardiovascular / Thrombolytic",
+        difficulty: "Advanced",
+        patient_profile: {
+            demographics: { name: "Esther Williams", age: 66, gender: "Female", mrn: "4412-EW", weight: "60 kg", height: "160 cm", allergies: "NKDA" },
+            chief_complaint: "Sudden onset of left-sided facial droop and right-arm weakness.",
+            hpi: "Patient's husband reports symptoms began exactly 90 minutes ago. She is unable to speak clearly (dysarthria).",
+            pmh: "HTN, Hyperlipidemia.",
+            sh: "Non-smoker.",
+            ros: { neuro: "NIH Stroke Scale score of 14." }
+        },
+        exhibits: [
+            {
+                title: "Triage Vitals",
+                type: "table",
+                data: [
+                    { param: "BP", val: "192/104 mmHg", status: "CRITICAL HIGH" },
+                    { param: "Glucose", val: "110 mg/dL", status: "NORMAL" }
+                ]
+            },
+            {
+                title: "Diagnostic Results",
+                type: "text",
+                content: "Non-contrast CT Head: Negative for intracranial hemorrhage. Ischemic stroke suspected."
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "extended_sata",
+                prompt: "The nurse prepares for Alteplase (tPA) administration. Which criteria must be met before starting the infusion? Select all that apply.",
+                options: [
+                    "BP must be lowered below 185/110 mmHg",
+                    "CT scan must rule out hemorrhage",
+                    "Symptom onset must be within 3-4.5 hours",
+                    "Wait for INR results (no history of anticoagulation)",
+                    "Verify baseline Platelets > 100,000",
+                    "Administer via standard gravity drip"
+                ],
+                answer: ["BP must be lowered below 185/110 mmHg", "CT scan must rule out hemorrhage", "Symptom onset must be within 3-4.5 hours", "Verify baseline Platelets > 100,000"],
+                rationale: "tPA protocol requires strict BP control (<185/110), a negative CT for bleed, and a strict time window. It must be on a pump, and baseline labs (platelets) are required."
+            },
+            {
+                id: 2,
+                type: "matrix",
+                prompt: "Identify the required nursing action during the 60-minute Alteplase infusion.",
+                rows: ["Neuro checks and BP monitoring", "Invasive procedures (Foley/Sticks)", "Manual swirl of the vial (do not shake)", "Bedrest"],
+                columns: ["Mandatory", "Strictly Contraindicated"],
+                answer: {
+                    "Neuro checks and BP monitoring": "Mandatory",
+                    "Invasive procedures (Foley/Sticks)": "Strictly Contraindicated",
+                    "Manual swirl of the vial (do not shake)": "Mandatory",
+                    "Bedrest": "Mandatory"
+                },
+                rationale: "Neuro/BP checks q15min are required. Invasive procedures are banned for 24h due to bleeding risk. Shaking tPA destroys the protein; swirling is required."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "The patient suddenly develops a severe headache and pupil changes during the infusion.",
+                center_condition: { label: "Condition", options: ["Intracranial Hemorrhage", "Expected Effect", "Re-perfusion", "Ischemic progression"], answer: "Intracranial Hemorrhage" },
+                left_actions: { label: "Actions", options: ["Stop tPA immediately", "Notify Provider", "Increase BP", "Give more tPA"], answer: ["Stop tPA immediately", "Notify Provider"] },
+                right_monitor: { label: "Monitor", options: ["Stat CT scan", "Level of consciousness", "Urine output", "Lung sounds"], answer: ["Stat CT scan", "Level of consciousness"] }
+            }
+        ]
+    },
+    {
+        id: "M-018",
+        numerical_id: 18,
+        title: "The Abrupt Stop: Clonidine Rebound",
+        category: "Cardiovascular / Adrenergics",
+        difficulty: "Intermediate",
+        patient_profile: {
+            demographics: { name: "Larry Jenkins", age: 55, gender: "Male", mrn: "2291-LJ", weight: "90 kg", height: "175 cm", allergies: "NKDA" },
+            chief_complaint: "Severe anxiety, tremors, and 'pounding' headache.",
+            hpi: "Patient reports he ran out of his Clonidine (Catapres) tablets 2 days ago and hasn't had time to pick up the refill. He feels 'like my heart is jumping out of my chest'.",
+            pmh: "Severe HTN, Alcohol Use Disorder.",
+            sh: "Truck driver.",
+            ros: { neuro: "Agitated, tremors. Cardio: BP 210/115." }
+        },
+        exhibits: [
+            {
+                title: "Vital Signs",
+                type: "table",
+                data: [
+                    { param: "BP", val: "214/118 mmHg", status: "CRITICAL HIGH" },
+                    { param: "HR", val: "122 bpm", status: "TACHYCARDIA" }
+                ]
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "matrix",
+                prompt: "The nurse analyzes the physiological cause. Is this rebound HTN or alcohol withdrawal?",
+                rows: ["Cause: Sudden withdrawal of central alpha-2 agonism", "Cause: Decreased GABA activity", "Symptom: Severe hypertensive crisis", "Correct Action: Resume Clonidine and taper slowly"],
+                columns: ["Likely Clonidine Rebound", "Likely Alcohol Withdrawal"],
+                answer: {
+                    "Cause: Sudden withdrawal of central alpha-2 agonism": "Likely Clonidine Rebound",
+                    "Cause: Decreased GABA activity": "Likely Alcohol Withdrawal",
+                    "Symptom: Severe hypertensive crisis": "Likely Clonidine Rebound",
+                    "Correct Action: Resume Clonidine and taper slowly": "Likely Clonidine Rebound"
+                },
+                rationale: "Abrupt cessation of Clonidine leads to a massive surge in sympathetic outflow, causing rebound hypertensive crisis. It is a medical emergency."
+            },
+            {
+                id: 2,
+                type: "extended_sata",
+                prompt: "Which teaching points are essential for a patient starting a Clonidine Transdermal Patch? Select all that apply.",
+                options: [
+                    "Change the patch every 7 days",
+                    "Apply to a hairless area of upper arm or chest",
+                    "Rotate the application site each week",
+                    "Do not stop abruptly even if BP is normal",
+                    "Take a hot sauna immediately after applying",
+                    "The patch is waterproof and can stay on during bathing"
+                ],
+                answer: ["Change the patch every 7 days", "Apply to a hairless area of upper arm or chest", "Rotate the application site each week", "Do not stop abruptly even if BP is normal", "The patch is waterproof and can stay on during bathing"],
+                rationale: "Clonidine patches last 7 days. Rotating sites prevents irritation. Heat (sauna) increases absorption dangerously. It is waterproof."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "Manage the acute hypertensive rebound.",
+                center_condition: { label: "Condition", options: ["Rebound Hypertensive Crisis", "Stable HTN", "Stroke", "Renal Failure"], answer: "Rebound Hypertensive Crisis" },
+                left_actions: { label: "Actions", options: ["Resume Clonidine", "Notify Provider", "Give IV Bolus Fluid", "Increase salt intake"], answer: ["Resume Clonidine", "Notify Provider"] },
+                right_monitor: { label: "Monitor", options: ["Continuous BP", "Heart rate/rhythm", "Daily weights", "Blood glucose"], answer: ["Continuous BP", "Heart rate/rhythm"] }
+            }
+        ]
+    },
+    {
+        id: "M-019",
+        numerical_id: 19,
+        title: "Lethal Leg Pain: The Fibrate-Statin Trap",
+        category: "Cardiovascular / Lipids",
+        difficulty: "Advanced",
+        patient_profile: {
+            demographics: { name: "Alice Thorne", age: 62, gender: "Female", mrn: "3312-AT", weight: "70 kg", height: "165 cm", allergies: "NKDA" },
+            chief_complaint: "Severe muscle pain and 'cola-colored' urine.",
+            hpi: "Patient was recently started on Gemfibrozil (Lopid) to add to her Atorvastatin (Lipitor) therapy. For 3 days, she has had disabling thigh pain and malaise.",
+            pmh: "Hyperlipidemia, Type 2 DM.",
+            sh: "Retired librarian.",
+            ros: { ms: "Extreme muscle tenderness.", gu: "Dark, reddish-brown urine." }
+        },
+        exhibits: [
+            {
+                title: "Lab Results",
+                type: "table",
+                data: [
+                    { lab: "Creatine Kinase (CK)", val: "15,000 U/L", status: "CRITICAL HIGH", ref: "26-192" },
+                    { lab: "Creatinine", val: "2.1 mg/dL", status: "HIGH", ref: "0.7-1.3" },
+                    { lab: "Urine Myoglobin", val: "POSITIVE", status: "CRITICAL" }
+                ]
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "extended_sata",
+                prompt: "Which physiological mechanisms contributed to this crisis? Select all that apply.",
+                options: [
+                    "Gemfibrozil inhibits the metabolism of Atorvastatin",
+                    "Synergistic muscle toxicity between fibrates and statins",
+                    "Statin-induced myopathy is dose-dependent",
+                    "Excessive exercise in the morning",
+                    "Low Vitamin K intake",
+                    "Gemfibrozil directly damages skeletal muscle"
+                ],
+                answer: ["Gemfibrozil inhibits the metabolism of Atorvastatin", "Synergistic muscle toxicity between fibrates and statins", "Statin-induced myopathy is dose-dependent"],
+                rationale: "Fibrates (especially Gemfibrozil) interfere with statin glucuronidation, leading to massive increases in statin levels and synergistic muscle destruction (Rhabdomyolysis)."
+            },
+            {
+                id: 2,
+                type: "matrix",
+                prompt: "Identify the primary adverse effect risk for each lipid drug class.",
+                rows: ["HMG-CoA Reductase Inhibitors (Statins)", "Fibric Acid Derivatives (Fibrates)", "Bile Acid Sequestrants"],
+                columns: ["Rhabdomyolysis", "Gallstones", "Constipation/Vitamin Deficiency"],
+                answer: {
+                    "HMG-CoA Reductase Inhibitors (Statins)": "Rhabdomyolysis",
+                    "Fibric Acid Derivatives (Fibrates)": "Gallstones",
+                    "Bile Acid Sequestrants": "Constipation/Vitamin Deficiency"
+                },
+                rationale: "Statins target muscles (Rhabdo); Fibrates increase cholesterol in bile (Gallstones); Resins stay in the gut (Constipation)."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "Address the Rhabdomyolysis and AKI risk.",
+                center_condition: { label: "Condition", options: ["Rhabdomyolysis", "Flu", "Myasthenia Gravis", "DVT"], answer: "Rhabdomyolysis" },
+                left_actions: { label: "Actions", options: ["Initiate aggressive IV hydration", "Stop all lipid meds", "Increase Statin dose", "Give Ibuprofen"], answer: ["Initiate aggressive IV hydration", "Stop all lipid meds"] },
+                right_monitor: { label: "Monitor", options: ["Urine output and color", "Serum Creatinine", "aPTT", "TSH levels"], answer: ["Urine output and color", "Serum Creatinine"] }
+            }
+        ]
+    },
+    {
+        id: "M-020",
+        numerical_id: 20,
+        title: "Pressure Point: Mannitol Neuro-Safety",
+        category: "Cardiovascular / Diuretics",
+        difficulty: "Advanced",
+        patient_profile: {
+            demographics: { name: "Officer John Blake", age: 44, gender: "Male", mrn: "7742-JB", weight: "95 kg", height: "188 cm", allergies: "NKDA" },
+            chief_complaint: "Decreased level of consciousness following MVA.",
+            hpi: "Patient sustained a closed head injury. ICP is currently 28 mmHg (Normal < 15). The nurse is preparing a Mannitol 25% infusion.",
+            pmh: "Healthy, active.",
+            sh: "Police officer.",
+            ros: { neuro: "GCS score of 9. Pupil response sluggish." }
+        },
+        exhibits: [
+            {
+                title: "EHR Notes",
+                type: "text",
+                content: "1. Mannitol 25% IV 1g/kg over 30 minutes.<br>2. Use in-line filter.<br>3. Monitor hourly urine output."
+            }
+        ],
+        steps: [
+            {
+                id: 1,
+                type: "extended_sata",
+                prompt: "The nurse retrieves the Mannitol bag from the medication room. Which safety steps are mandatory? Select all that apply.",
+                options: [
+                    "Inspect the bag for white crystals",
+                    "If crystals are present, warm the bag to dissolve them",
+                    "Use a filter needle to draw up and filtered tubing to give",
+                    "Check for pulmonary crackles before administration",
+                    "Shake the bag vigorously to dissolve crystals",
+                    "Administer via small 24g peripheral IV"
+                ],
+                answer: ["Inspect the bag for white crystals", "If crystals are present, warm the bag to dissolve them", "Use a filter needle to draw up and filtered tubing to give", "Check for pulmonary crackles before administration"],
+                rationale: "Mannitol crystallizes easily; heating and filtering are mandatory. It shifts fluid rapidly, so the nurse must check for pulmonary edema (crackles) before giving."
+            },
+            {
+                id: 2,
+                type: "matrix",
+                prompt: "Link the physiological effect of Mannitol to the assessment finding.",
+                rows: ["Osmotic pull from brain tissue", "Rapid intravascular volume expansion", "Potent diuretic effect", "Crystallization in renal tubules"],
+                columns: ["Decreased ICP / Improved Neuro", "Crackles in Lungs / HF", "Large volume of urine", "Acute Kidney Injury"],
+                answer: {
+                    "Osmotic pull from brain tissue": "Decreased ICP / Improved Neuro",
+                    "Rapid intravascular volume expansion": "Crackles in Lungs / HF",
+                    "Potent diuretic effect": "Large volume of urine",
+                    "Crystallization in renal tubules": "Acute Kidney Injury"
+                },
+                rationale: "Mannitol pulls water into the blood (reducing ICP but risking HF) and then out through the kidneys (causing high UO but risking AKI from crystals)."
+            },
+            {
+                id: 3,
+                type: "bowtie",
+                prompt: "The patient's BP is 160/90 and ICP is 22. Urine output is 15 mL/hr.",
+                center_condition: { label: "Condition", options: ["Oliguric Renal Failure", "Expected Response", "Diabetes Insipidus", "SJS"], answer: "Oliguric Renal Failure" },
+                left_actions: { label: "Actions", options: ["Hold Mannitol", "Notify Provider", "Increase IV rate", "Give IV Furosemide"], answer: ["Hold Mannitol", "Notify Provider"] },
+                right_monitor: { label: "Monitor", options: ["BUN / Creatinine", "Serum Osmolality", "SpO2", "Neuro checks"], answer: ["BUN / Creatinine", "Serum Osmolality"] }
+            }
+        ]
     }
-};
-
-/**
- * PERFORMANCE OPTIMIZED RENDERING
- */
-function renderDrugs() {
-    try {
-        const grid = document.getElementById('drug-grid');
-        const search = document.getElementById('drugSearch').value.toLowerCase();
-        if (!window.drugDB) throw new Error("Data module missing: drugDB");
-
-        const filtered = window.drugDB.filter(d => {
-            const catMatch = filters[d.cat];
-            const searchMatch = !search || d.g.toLowerCase().includes(search) || d.b.toLowerCase().includes(search) || d.c.toLowerCase().includes(search);
-            return catMatch && searchMatch;
-        });
-
-        if (sortMode === 'az') filtered.sort((a, b) => a.g.localeCompare(b.g));
-        else filtered.sort((a, b) => a.c.localeCompare(b.c));
-
-        grid.innerHTML = filtered.map(d => `
-            <div class="col-md-6 mb-4">
-                <div class="nexus-card shadow-lg">
-                    <div class="d-flex justify-content-between align-items-start mb-3" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px;">
-                        <div><h4 class="fw-bold text-white mb-0">${d.g}</h4><div class="small text-accent fw-bold">Brand: ${d.b}</div></div>
-                        <span class="badge ${d.cat === 'cv' ? 'badge-cv' : 'badge-dm'}">${d.c}</span>
-                    </div>
-                    <span class="point-label">1. Mechanism of Action</span><div class="point-value">${d.m}</div>
-                    <div class="row">
-                        <div class="col-md-6"><span class="point-label">2. Clinical Indications</span><div class="point-value">${d.ind}</div></div>
-                        <div class="col-md-6"><span class="point-label">3. Contraindications</span><div class="point-value">${d.con}</div></div>
-                    </div>
-                    <span class="point-label">4. Common Side Effects</span><div class="ae-common">${d.aec}</div>
-                    <span class="point-label" style="color: var(--danger);">5. Severe Adverse Effects</span><div class="ae-severe">${d.aes}</div>
-                    <span class="point-label">6. Pharmacological Interactions</span>
-                    <table class="inter-table">${d.inter && d.inter.length ? d.inter.map(i => `<tr class="${i.s}"><td style="font-weight:700; color:#fff; width:35%;">${i.d}</td><td style="color:#cbd5e1;">${i.m}</td></tr>`).join('') : '<tr><td class="text-white-50 small italic">Verified Profile.</td></tr>'}</table>
-                    <div class="data-strip">
-                        <div class="logistics-box box-dosage"><span class="box-title">7. Adult Dosage</span>${d.dosage}</div>
-                        <div class="logistics-box box-admin"><span class="box-title">8. Admin & Timing</span>${d.admin}</div>
-                    </div>
-                    <span class="point-label">9. Nursing Considerations</span><div class="point-value text-info">${d.nurse}</div>
-                </div>
-            </div>
-        `).join('');
-        document.getElementById('counter').innerText = `${filtered.length} Unique Generics`;
-    } catch (e) { Logger.error("Drug Grid Render Failed", e); }
-}
-
-/**
- * INPUT VALIDATION & MISSION LOGIC
- */
-function handleMissionAction() {
-    if (missionFeedbackMode) {
-        nextMissionStep();
-        return;
-    }
-
-    const step = currentMission.steps[currentStepIndex];
-    let isValidInput = false;
-
-    // VALIDATION LAYER
-    if (step.type === 'extended_sata') {
-        isValidInput = document.querySelectorAll('input[name="m-opt"]:checked').length > 0;
-    } else if (step.type === 'matrix') {
-        isValidInput = step.rows.every(r => document.querySelector(`input[name="row-${r}"]:checked`));
-    } else if (step.type === 'bowtie') {
-        const l = document.querySelectorAll('input[name="bw-l"]:checked').length;
-        const r = document.querySelectorAll('input[name="bw-r"]:checked').length;
-        const c = document.getElementById('bw-c').value;
-        isValidInput = (l === 2 && r === 2 && c !== "");
-    }
-
-    if (!isValidInput) {
-        alert("Please complete all required selections before submitting.");
-        return;
-    }
-
-    evaluateMissionStep();
-}
-
-function evaluateMissionStep() {
-    const step = currentMission.steps[currentStepIndex];
-    let isCorrect = false;
-
-    try {
-        if (step.type === 'extended_sata') {
-            const sel = Array.from(document.querySelectorAll('input[name="m-opt"]:checked')).map(i => i.value);
-            isCorrect = sel.length === step.answer.length && sel.every(v => step.answer.includes(v));
-        } else if (step.type === 'matrix') {
-            isCorrect = step.rows.every(r => document.querySelector(`input[name="row-${r}"]:checked`)?.value === step.answer[r]);
-        } else if (step.type === 'bowtie') {
-            const diag = document.getElementById('bw-c').value;
-            const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
-            const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
-            isCorrect = (diag === step.center_condition.answer &&
-                l.length === 2 && l.every(v => step.left_actions.answer.includes(v)) &&
-                r.length === 2 && r.every(v => step.right_monitor.answer.includes(v)));
-        }
-
-        const fb = document.getElementById('mission-feedback');
-        fb.innerHTML = `
-            <div class="p-4 rounded-4 border-2 ${isCorrect ? 'border-success' : 'border-danger'}" 
-                 style="background: ${isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)'};">
-                <h4 class="fw-bold ${isCorrect ? 'text-success' : 'text-danger'}">${isCorrect ? 'CORRECT' : 'INCORRECT'}</h4>
-                <p class="text-white mt-2">${step.rationale || "Verify clinical cues."}</p>
-            </div>`;
-
-        missionFeedbackMode = true;
-        document.getElementById('m-action-btn').innerText = (currentStepIndex === currentMission.steps.length - 1) ? "FINISH MISSION" : "NEXT STEP";
-    } catch (e) { Logger.error("Step Evaluation Failed", e); }
-}
-
-// NAVIGATION WRAPPERS
-function startMission() {
-    allMissions = [
-        ...(typeof window.mission_prototype !== 'undefined' ? [window.mission_prototype] : []),
-        ...(typeof window.missions_cardio_1 !== 'undefined' ? window.missions_cardio_1 : []),
-        ...(typeof window.missions_cardio_2 !== 'undefined' ? window.missions_cardio_2 : []),
-        ...(typeof window.missions_cardio_3 !== 'undefined' ? window.missions_cardio_3 : []),
-        ...(typeof window.missions_cardio_4 !== 'undefined' ? window.missions_cardio_4 : []),
-        ...(window.customMissions || [])
-    ];
-    console.log('allMissions loaded:', allMissions.length, 'missions');
-    console.log('Missions with IDs:', allMissions.map(m => m.numerical_id).sort());
-    console.log('M-051 found:', allMissions.find(m => m.numerical_id === 51));
-    showMissionSelector();
-}
-
-function showMissionSelector() {
-    const modalHtml = `
-    <div id="missionSelectorModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2050; overflow-y: auto; padding: 40px;">
-        <div class="container" style="max-width: 1200px;">
-            <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
-                <h2 class="text-accent fw-bold">CLINICAL MISSION CONTROL</h2>
-                <button class="btn btn-outline-danger" onclick="closeMissionSelector()">Exit</button>
-            </div>
-            
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-info ps-3">CARDIOVASCULAR (1-20)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 20 }).map((_, i) => renderMissionButton(i + 1, 'cv')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-success ps-3">DIABETES MELLITUS (21-30)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 21, 'dm')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-warning ps-3">COMBINED / COMORBIDITIES (31-40)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 31, 'combined')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-danger ps-3">ACUTE RESPIRATORY / PNEUMONIA (41-50)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 41, 'acute_resp')).join('')}
-                </div>
-            </div>
-
-            <div class="mb-5">
-                <h4 class="text-white mb-3 border-start border-4 border-purple ps-3">ADVANCED NGN MISSIONS (51-60)</h4>
-                <div class="row row-cols-5 g-3">
-                    ${Array.from({ length: 10 }).map((_, i) => renderMissionButton(i + 51, 'advanced')).join('')}
-                </div>
-            </div>
-        </div>
-    </div>`;
-    document.body.insertAdjacentHTML('beforeend', modalHtml);
-}
-
-function renderMissionButton(id, category) {
-    const mission = allMissions.find(m => m.numerical_id === id);
-    const locked = !mission;
-    let colorClass;
-    if (category === 'cv') colorClass = 'btn-outline-info';
-    else if (category === 'dm') colorClass = 'btn-outline-success';
-    else if (category === 'acute_resp') colorClass = 'btn-outline-danger';
-    else if (category === 'advanced') colorClass = 'btn-outline-purple';
-    else colorClass = 'btn-outline-warning'; // combined
-    const activeClass = mission ? `bg-opacity-10 ${colorClass.replace('btn-outline', 'bg')} text-white border-${colorClass.split('-')[2]}` : 'btn-outline-secondary opacity-25';
-
-    return `
-    <div class="col">
-        <button class="btn ${activeClass} w-100 p-2 fw-bold text-start position-relative" style="height: 100px; overflow: hidden;" ${mission ? `onclick="launchSpecificMission(${id})"` : 'disabled'}>
-            <div class="fs-4 opacity-50 mb-1">#${id}</div>
-            <div style="font-size: 0.65rem; text-transform: uppercase; line-height: 1.2;">${mission ? mission.title : 'LOCKED'}</div>
-        </button>
-    </div>`;
-}
-
-function launchSpecificMission(id) {
-    currentMission = allMissions.find(m => m.numerical_id === id);
-    currentStepIndex = 0; missionFeedbackMode = false;
-    document.getElementById('missionSelectorModal')?.remove();
-    showMissionUI();
-}
-
-function showMissionUI() {
-    document.body.style.overflow = 'hidden';
-    const html = `<div id="missionModal" class="mission-container">
-        <button class="sidecar-toggle" onclick="toggleSidecar()"><i class="fas fa-pills fs-3"></i></button>
-        <div id="pharmaSidecar" class="pharma-sidecar"><div class="sidecar-header"><div class="d-flex justify-content-between align-items-center mb-3"><h5 class="text-white mb-0">REFERENCE</h5><button class="btn btn-sm btn-outline-light" onclick="toggleSidecar()">X</button></div><input type="text" id="sidecarSearch" class="form-control form-control-sm bg-dark text-white" placeholder="Search..." onkeyup="renderSidecar()"></div><div id="sidecarContent" class="sidecar-content"></div></div>
-        <div class="chart-pane"><div class="chart-header d-flex justify-content-between p-3"><div><h6 class="text-warning mb-1" style="font-size: 0.8rem; letter-spacing: 1px;">MISSION ${currentMission.numerical_id}: ${currentMission.title.toUpperCase()}</h6><h5 class="mb-0 text-white">${currentMission.patient_profile.demographics.name}</h5><span class="small text-white-50">MRN: ${currentMission.patient_profile.demographics.mrn}</span></div><button class="btn btn-outline-light btn-sm" onclick="closeMission()">Exit</button></div><div class="chart-tabs" id="mission-tabs"></div><div id="mission-content" class="chart-content"></div></div>
-        <div class="work-pane"><div id="step-area"></div><div id="mission-feedback"></div><div class="mt-5 d-flex justify-content-between"><button class="btn btn-outline-secondary" id="m-back-btn" onclick="prevMissionStep()">BACK</button><button id="m-action-btn" class="btn btn-warning btn-lg px-5 fw-bold" onclick="handleMissionAction()">SUBMIT</button></div></div>
-    </div>`;
-    document.body.insertAdjacentHTML('beforeend', html);
-    setTimeout(() => { renderMissionExhibits(); renderMissionStep(); }, 200);
-}
-
-function renderMissionExhibits() {
-    const tabs = document.getElementById('mission-tabs');
-    let html = `<div class="chart-tab active" onclick="showMissionExhibit('history', this)">History</div>`;
-    currentMission.exhibits.forEach((ex, idx) => { html += `<div class="chart-tab" onclick="showMissionExhibit(${idx}, this)">${ex.title}</div>`; });
-    tabs.innerHTML = html; showMissionExhibit('history');
-}
-
-function showMissionExhibit(type, el) {
-    if (el) { document.querySelectorAll('#missionModal .chart-tab').forEach(t => t.classList.remove('active')); el.classList.add('active'); }
-    const content = document.getElementById('mission-content');
-    if (type === 'history') {
-        const p = currentMission.patient_profile;
-        content.innerHTML = `<h5 class="fw-bold text-primary mb-3">Admission H&P</h5><div class="mb-3"><h6 class="fw-bold text-secondary small">CHIEF COMPLAINT</h6><p>${p.chief_complaint}</p></div><div class="mb-3"><h6 class="fw-bold text-secondary small">HPI</h6><p>${p.hpi}</p></div><div class="mb-3"><h6 class="fw-bold text-secondary small">PMH</h6><p>${p.pmh}</p></div><div class="mb-3"><h6 class="fw-bold text-secondary small">REVIEW OF SYSTEMS</h6><ul class="small"><li><strong>Cardio:</strong> ${p.ros.cardio}</li><li><strong>Neuro:</strong> ${p.ros.neuro}</li><li><strong>GI:</strong> ${p.ros.gi}</li><li><strong>GU:</strong> ${p.ros.gu}</li></ul></div>`;
-    } else {
-        const ex = currentMission.exhibits[type];
-        if (ex.type === 'table') {
-            content.innerHTML = `<h5 class="fw-bold text-primary mb-3">${ex.title}</h5><table class="table table-bordered table-sm small mt-2"><thead><tr>${Object.keys(ex.data[0]).map(k => `<th>${k.toUpperCase()}</th>`).join('')}</tr></thead><tbody>${ex.data.map(row => `<tr>${Object.values(row).map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
-        } else { content.innerHTML = `<h5 class="fw-bold text-primary mb-3">${ex.title}</h5><div class="fs-6 mt-3 text-dark">${ex.content}</div>`; }
-    }
-}
-
-function renderMissionStep() {
-    missionFeedbackMode = false; const step = currentMission.steps[currentStepIndex];
-    const area = document.getElementById('step-area'); document.getElementById('mission-feedback').innerHTML = '';
-    let optsHtml = '';
-    if (step.type === 'extended_sata') {
-        optsHtml = `<div class="list-group">${step.options.map(o => `<label class="list-group-item list-group-item-action p-3 mb-2"><input class="form-check-input me-3" type="checkbox" name="m-opt" value="${o}">${o}</label>`).join('')}</div>`;
-    } else if (step.type === 'matrix') {
-        optsHtml = `<div class="table-responsive"><table class="matrix-table"><thead><tr><th>Finding</th>${step.columns.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${step.rows.map(r => `<tr><td class="text-white">${r}</td>${step.columns.map(c => `<td class="radio-cell text-center"><input type="radio" name="row-${r}" value="${c}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-    } else if (step.type === 'bowtie') {
-        optsHtml = `<div class="bowtie-container"><div class="bowtie-wing left"><div class="bowtie-label">Actions (2)</div>${step.left_actions.options.map(o => `<label class="bw-option"><input type="checkbox" name="bw-l" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div><div class="bowtie-center"><div class="bowtie-label">Condition</div><select id="bw-c" class="form-select form-select-lg bg-dark text-white border-warning"><option value="" disabled selected>Select Condition...</option>${step.center_condition.options.map(o => `<option value="${o}">${o}</option>`).join('')}</select></div><div class="bowtie-wing right"><div class="bowtie-label">Monitor (2)</div>${step.right_monitor.options.map(o => `<label class="bw-option"><input type="checkbox" name="bw-r" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div></div>`;
-    }
-    area.innerHTML = `<div class="step-badge">${step.type.toUpperCase()}</div><h3 class="text-white mb-4 fw-bold">${step.prompt}</h3><div>${optsHtml}</div>`;
-    document.getElementById('m-action-btn').innerText = "SUBMIT";
-    document.getElementById('m-back-btn').disabled = currentStepIndex === 0;
-}
-
-function closeMission() {
-    document.body.style.overflow = 'auto';
-    document.getElementById('missionModal')?.remove();
-    if (typeof showMissionSelectorNew === 'function') {
-        showMissionSelectorNew();
-    } else {
-        showMissionSelector();
-    }
-}
-function nextMissionStep() { if (currentStepIndex < currentMission.steps.length - 1) { currentStepIndex++; renderMissionStep(); } else { closeMission(); } }
-function prevMissionStep() { if (currentStepIndex > 0) { currentStepIndex--; renderMissionStep(); } }
-function toggleSidecar() { document.getElementById('pharmaSidecar').classList.toggle('active'); }
-
-function renderSidecar() {
-    const q = document.getElementById('sidecarSearch').value.toLowerCase();
-    const content = document.getElementById('sidecarContent');
-    if (q.length < 2) { content.innerHTML = '<div class="text-white-50 text-center mt-5 small">Search for drug cues...</div>'; return; }
-    const matches = window.drugDB.filter(d => d.g.toLowerCase().includes(q) || d.b.toLowerCase().includes(q) || d.c.toLowerCase().includes(q));
-    content.innerHTML = matches.map(d => `
-        <div class="sidecar-drug-card p-3 mb-3" style="border-left: 4px solid var(--accent); background: rgba(0,0,0,0.2);">
-            <h6 class="text-white fw-bold mb-1">${d.g} <span class="text-white-50 fw-normal">(${d.b})</span></h6>
-            <div class="badge bg-secondary mb-2">${d.c}</div>
-            
-            <div class="mb-2">
-                <strong class="text-accent" style="font-size: 0.75rem;">MECHANISM</strong>
-                <div class="text-white-50" style="font-size: 0.75rem;">${d.m}</div>
-            </div>
-
-            <div class="mb-2">
-                <strong class="text-danger" style="font-size: 0.75rem;">CONTRAINDICATIONS</strong>
-                <div class="text-white-50" style="font-size: 0.75rem;">${d.con}</div>
-            </div>
-
-            <div class="mb-2">
-                <strong class="text-warning" style="font-size: 0.75rem;">SEVERE ADVERSE EFFECTS</strong>
-                <div class="ae-severe small">${d.aes}</div>
-            </div>
-            
-            <div class="mb-2">
-                <strong class="text-info" style="font-size: 0.75rem;">NURSING CONSIDERATIONS</strong>
-                <div class="text-info" style="font-size: 0.75rem;">${d.nurse}</div>
-            </div>
-        </div>
-    `).join('') || '<div class="text-white-50 text-center mt-5">No matches found.</div>';
-}
-
-function toggleFilter(cat) { filters[cat] = !filters[cat]; document.getElementById(`btn-${cat}`).classList.toggle(`active-${cat}`, filters[cat]); renderDrugs(); }
-function setSort(mode) { sortMode = mode; document.getElementById('sort-az').classList.toggle('active', mode === 'az'); document.getElementById('sort-class').classList.toggle('active', mode === 'class'); renderDrugs(); }
+];
 
 </script>
     <script>
-/* SOURCE: mission_logic_fixed.js */
-// MASTER HUB REFACTORED MISSIONS LOGIC
-// currentMission, currentStepIndex, missionFeedbackMode, and allMissions are declared in mastery_logic.js
-let missionsUnlocked = false;
-
-function startMission() {
-    allMissions = [
-        ...(typeof mission_prototype !== 'undefined' ? [mission_prototype] : []),
-        ...(typeof missions_cardio_1 !== 'undefined' ? missions_cardio_1 : []),
-        ...(typeof missions_cardio_2 !== 'undefined' ? missions_cardio_2 : []),
-        ...(typeof missions_dm_1 !== 'undefined' ? missions_dm_1 : []),
-        ...(window.customMissions || []) // Include dynamically loaded missions
-    ];
-    showMissionSelectorNew();
-}
-
-function unlockAllMissions() {
-    missionsUnlocked = true;
-    showMissionSelectorNew();
-}
-
-function showMissionSelectorNew() {
-    // Hide home screen content when showing mission selector
-    const homeContent = document.querySelector('.container-fluid.px-4.mt-4');
-    if (homeContent) {
-        homeContent.style.display = 'none';
+/* SOURCE: data_pain_nonopioid.js */
+const data_pain_nonopioid = [
+    {
+        g: "Acetaminophen", b: "Tylenol", c: "Non-Opioid Analgesic / Antipyretic", cat: "pain",
+        m: "Weak inhibitor of peripheral prostaglandins. Mechanism is unclear but analgesic effect is primarily within the CNS. Has antipyretic effect by acting on the hypothalamic heat-regulating center. Unlike NSAIDs, it has NO anti-inflammatory or antiplatelet activity.",
+        ind: "Mild to moderate pain (headache, musculoskeletal pain, dental pain). Antipyretic for fever reduction. Good substitute for patients who cannot take aspirin or NSAIDs.",
+        con: "Severe hepatic impairment. Known hypersensitivity. Use with caution in patients with alcohol use (3-4+ drinks/day) or concurrent hepatotoxic medications.",
+        aec: "Nausea, vomiting. Generally well-tolerated at therapeutic doses.",
+        aes: "HEPATOTOXICITY — the major serious adverse effect. Can cause fatal hepatic necrosis in overdose. Long-term high-dose use may cause bone marrow suppression (anemia, leukopenia, thrombocytopenia — rare).",
+        inter: [
+            {d: "Warfarin", m: "Slows metabolism of warfarin → increased bleeding risk with regular use.", s: "high"},
+            {d: "Alcohol", m: "Concurrent alcohol use significantly increases hepatotoxicity risk.", s: "high"},
+            {d: "Hepatotoxic drugs (Rifampin, INH, Carbamazepine)", m: "Additive hepatotoxicity risk.", s: "med"}
+        ],
+        dosage: "Adults: 325-1000mg PO every 4-6 hours PRN. Maximum 3000-4000mg/day (3g/day for chronic use or elderly). Available: oral, rectal, IV.",
+        admin: "Oral (regular 325mg, extra strength 500-650mg), rectal suppository, and IV formulations. Take as directed — do not exceed maximum daily dose.",
+        nurse: "Monitor liver function (AST/ALT). Be aware of OTC combination products containing acetaminophen (Vicodin, Percocet, NyQuil, etc.) — patients may inadvertently exceed max dose. Antidote for overdose: Acetylcysteine (Mucomyst). Teach patient to avoid alcohol and read ALL medication labels for acetaminophen content."
+    },
+    {
+        g: "Ibuprofen", b: "Advil, Motrin", c: "NSAID (Nonselective COX-1/COX-2 Inhibitor)", cat: "pain",
+        m: "Inhibits both cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2) enzymes, reducing prostaglandin synthesis. This produces analgesic, anti-inflammatory, and antipyretic effects. COX-1 inhibition reduces the protective prostaglandins in the GI mucosa and affects platelet aggregation.",
+        ind: "Mild to moderate inflammatory pain, fever reduction, dysmenorrhea, headache, musculoskeletal pain, arthritis (osteoarthritis, rheumatoid arthritis).",
+        con: "Active GI bleeding or peptic ulcer disease. Third trimester of pregnancy (risk of premature closure of ductus arteriosus). Patients with aspirin-sensitive asthma. Severe renal impairment. Post-CABG surgery.",
+        aec: "GI upset (dyspepsia, nausea, abdominal pain, heartburn). Dizziness. Fluid retention/edema.",
+        aes: "GI BLEEDING and peptic ulcers. Nephrotoxicity (elevated BUN/Cr, decreased urine output). Cardiovascular risk — can increase risk of MI and stroke. Hepatotoxicity (rare). Hematologic — increased bleeding from antiplatelet activity.",
+        inter: [
+            {d: "Warfarin/Anticoagulants", m: "Increased bleeding risk due to antiplatelet effect + anticoagulant effect.", s: "high"},
+            {d: "ACE Inhibitors/ARBs", m: "NSAIDs reduce antihypertensive effect and increase nephrotoxicity risk.", s: "med"},
+            {d: "Lithium", m: "NSAIDs decrease renal lithium excretion → lithium toxicity.", s: "high"},
+            {d: "Methotrexate", m: "NSAIDs decrease renal clearance of methotrexate → toxicity.", s: "high"}
+        ],
+        dosage: "Adults: 200-800mg PO every 4-8 hours. Maximum 3200mg/day (prescription) or 1200mg/day (OTC). Pediatric: 5-10mg/kg/dose every 6-8 hours.",
+        admin: "Take with food or milk to minimize GI upset. May be prescribed with a proton pump inhibitor (omeprazole) for GI protection. Do not crush or chew enteric-coated formulations.",
+        nurse: "Check for history of GI bleeding, peptic ulcers, kidney disease, cardiovascular disease, and bleeding disorders. Monitor renal function (BUN/Cr). Assess for GI bleeding (dark stools, abdominal pain). Contraindicated in 3rd trimester of pregnancy — can cause premature closure of ductus arteriosus."
+    },
+    {
+        g: "Naproxen", b: "Aleve, Naprosyn", c: "NSAID (Nonselective COX-1/COX-2 Inhibitor)", cat: "pain",
+        m: "Same mechanism as ibuprofen — inhibits COX-1 and COX-2 to reduce prostaglandin synthesis. Longer half-life than ibuprofen allows for twice-daily dosing. Provides analgesic, anti-inflammatory, and antipyretic effects.",
+        ind: "Mild to moderate pain, inflammatory conditions (arthritis, tendinitis, bursitis), dysmenorrhea, gout, fever. Often preferred for chronic inflammatory conditions due to longer duration.",
+        con: "Same as ibuprofen: active GI bleed, 3rd trimester pregnancy, aspirin-sensitive asthma, severe renal impairment, post-CABG.",
+        aec: "GI upset, headache, dizziness, drowsiness, fluid retention.",
+        aes: "GI bleeding, nephrotoxicity, cardiovascular events (MI/stroke risk), hepatotoxicity (rare), serious skin reactions (SJS — rare).",
+        inter: [
+            {d: "Warfarin/Anticoagulants", m: "Increased bleeding risk.", s: "high"},
+            {d: "ACE Inhibitors/ARBs/Diuretics", m: "Reduced antihypertensive effect; increased nephrotoxicity risk.", s: "med"},
+            {d: "Lithium", m: "Decreased renal excretion → lithium toxicity.", s: "high"}
+        ],
+        dosage: "Adults: 250-500mg PO twice daily. Maximum 1500mg/day (prescription) or 660mg/day (OTC). Available: tablets, liquid gels, suspension.",
+        admin: "Take with food or milk. Longer half-life allows BID dosing (compared to ibuprofen's QID). Do not combine with other NSAIDs.",
+        nurse: "Same monitoring as all NSAIDs: renal function, GI bleeding, cardiovascular status. Educate that OTC Aleve and prescription naproxen are the same drug — do not take both. Avoid in pregnancy, especially 3rd trimester."
+    },
+    {
+        g: "Ketorolac", b: "Toradol", c: "NSAID (Nonselective COX-1/COX-2 Inhibitor)", cat: "pain",
+        m: "Potent NSAID with powerful analgesic effects — often compared to morphine for acute pain relief. Inhibits COX-1 and COX-2. Primary action is analgesic rather than anti-inflammatory. Available as IM injection making it useful for acute pain management.",
+        ind: "Short-term management of moderate to severe ACUTE pain. Often given IM for acute inflammatory pain including severe headaches, renal colic, and postoperative pain. NOT for chronic pain.",
+        con: "Use limited to 5 DAYS maximum (high risk of GI bleeding with longer use). Active GI bleed, peptic ulcer disease. Pre-operative use (bleeding risk). Renal impairment. Labor and delivery. Concurrent NSAID use.",
+        aec: "GI upset, headache, drowsiness, dizziness, injection site pain (IM).",
+        aes: "GI BLEEDING (risk increases significantly after 5 days). Nephrotoxicity. Wound bleeding (inhibits platelet function). Bronchospasm in aspirin-sensitive patients.",
+        inter: [
+            {d: "Anticoagulants", m: "Significantly increased bleeding risk.", s: "high"},
+            {d: "Other NSAIDs/Aspirin", m: "Do NOT combine — additive GI and bleeding risk.", s: "high"},
+            {d: "ACE Inhibitors", m: "Reduced antihypertensive effect; nephrotoxicity.", s: "med"}
+        ],
+        dosage: "IM/IV: 15-30mg every 6 hours. Oral: 10mg every 4-6 hours. MAXIMUM 5 DAYS of therapy (combined IM/IV and oral).",
+        admin: "IM injection is most common route for acute pain. Can transition to oral. Total duration must NOT exceed 5 days. IV given over at least 15 seconds.",
+        nurse: "Strict 5-day maximum — document start date clearly. Monitor for GI bleeding. Assess renal function. Often used as an opioid-sparing strategy in acute pain. Not appropriate for chronic pain or outpatient long-term use."
+    },
+    {
+        g: "Celecoxib", b: "Celebrex", c: "NSAID (Selective COX-2 Inhibitor)", cat: "pain",
+        m: "Selectively inhibits COX-2 while sparing COX-1. This targeted inhibition reduces inflammation and pain while preserving the protective prostaglandins in the GI mucosa (produced by COX-1). Result: LESS GI side effects compared to nonselective NSAIDs but INCREASED cardiovascular risk.",
+        ind: "Osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, acute pain, primary dysmenorrhea. Preferred when GI protection is a priority.",
+        con: "Allergy to SULFONAMIDES (celecoxib contains a sulfonamide moiety). History of MI or stroke. Severe cardiovascular disease. Third trimester pregnancy. Post-CABG surgery.",
+        aec: "Headache, dizziness, abdominal pain, diarrhea, dyspepsia (but LESS GI effects than nonselective NSAIDs).",
+        aes: "CARDIOVASCULAR: increased risk of MI and stroke — particularly with prolonged use or in patients with cardiovascular risk factors. Nephrotoxicity. Hepatotoxicity (rare). Serious skin reactions (rare).",
+        inter: [
+            {d: "Warfarin", m: "May increase INR and bleeding risk.", s: "high"},
+            {d: "ACE Inhibitors/ARBs", m: "Reduced antihypertensive effect.", s: "med"},
+            {d: "Fluconazole", m: "Inhibits celecoxib metabolism → increased levels.", s: "med"}
+        ],
+        dosage: "OA: 200mg daily or 100mg BID. RA: 100-200mg BID. Acute pain: 400mg initially, then 200mg on day 1, then 200mg BID.",
+        admin: "Oral. Can be taken with or without food (better GI tolerance than other NSAIDs). Capsules can be opened and sprinkled on applesauce for patients with difficulty swallowing.",
+        nurse: "CONTRAINDICATED in sulfonamide allergy. Monitor for cardiovascular events — use lowest effective dose for shortest duration. Despite better GI profile, still monitor for GI bleeding. Assess renal function. Educate about cardiovascular warning signs (chest pain, SOB, weakness on one side)."
     }
-    document.getElementById('missionSelectorModal')?.remove();
-
-    // Group missions by main category (before the " / ")
-    const missionGroups = {};
-    allMissions.forEach(mission => {
-        const fullCategory = mission.category || 'Other';
-        const mainCategory = fullCategory.split(' / ')[0] || fullCategory;
-        if (!missionGroups[mainCategory]) {
-            missionGroups[mainCategory] = [];
-        }
-        missionGroups[mainCategory].push(mission);
-    });
-
-    // Create HTML for each category
-    let categoryHtml = '';
-    const colors = ['border-info', 'border-success', 'border-warning', 'border-danger', 'border-primary'];
-    let colorIndex = 0;
-
-    Object.keys(missionGroups).forEach(category => {
-        const missions = missionGroups[category];
-        const color = colors[colorIndex % colors.length];
-        colorIndex++;
-
-        categoryHtml += `
-            <div class="col-md-6 mb-4">
-                <h4 class="text-white border-start ${color} border-4 ps-3 mb-4">${category.toUpperCase()} (${missions.length})</h4>
-                <div class="row g-3">
-                    ${missions.map(mission => renderMissionButton(mission.numerical_id, category.toLowerCase().replace(/\s+/g, ''))).join('')}
-                </div>
-            </div>
-        `;
-    });
-
-    const modalHtml = `
-        <div id="missionSelectorModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2050; overflow-y: auto; padding: 40px;">
-            <div class="container" style="max-width: 1100px;">
-                <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
-                    <h2 class="text-accent fw-bold">
-                        <i class="fas fa-map-marked-alt me-3"></i>
-                        <span onclick="unlockAllMissions()" style="cursor: default;">C</span>LINICAL MISSION CONTROL
-                    </h2>
-                    <button class="btn btn-outline-danger" onclick="closeMissionSelector()">Return to Hub</button>
-                </div>
-                <div class="row">
-                    ${categoryHtml}
-                </div>
-            </div>
-        </div>
-    `;
-    document.body.insertAdjacentHTML('beforeend', modalHtml);
-}
-
-function renderMissionButton(id, category) {
-    const mission = allMissions.find(m => m.numerical_id === id);
-    const isAvailable = !!mission || missionsUnlocked;
-    const color = category === 'cv' ? 'btn-outline-info' : 'btn-outline-success';
-    const activeColor = category === 'cv' ? 'bg-info text-primary' : 'bg-success text-white';
-    
-    let title = 'LOCKED';
-    if (mission) title = mission.title;
-    else if (missionsUnlocked) title = 'DATA PENDING';
-
-    return `
-        <div class="col-3">
-            <button class="btn ${isAvailable ? activeColor : color} w-100 p-1 fw-bold shadow-sm ${!isAvailable ? 'opacity-25' : ''}" 
-                    style="height: 80px; display: flex; flex-direction: column; justify-content: center; align-items: center; border-width: 2px; overflow: hidden;" 
-                    ${isAvailable ? `onclick="launchSpecificMission(${id})"` : 'disabled'}>
-                <div class="fs-6" style="line-height: 1;">${id}</div>
-                <div style="font-size: 0.5rem; line-height: 1; text-transform: uppercase; margin-top: 3px; white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; padding: 0 2px;">
-                    ${title}
-                </div>
-            </button>
-        </div>
-    `;
-}
-
-function closeMissionSelector() {
-    document.getElementById('missionSelectorModal')?.remove();
-    // Show home screen content again
-    const homeContent = document.querySelector('.container-fluid.px-4.mt-4');
-    if (homeContent) {
-        homeContent.style.display = 'block';
-    }
-    // Navigate back to home screen
-    if (typeof showHomeScreen === 'function') {
-        showHomeScreen();
-    }
-}
-
-function launchSpecificMission(id) {
-    const mission = allMissions.find(m => m.numerical_id === id);
-    if (!mission) {
-        alert("Mission data pending for slot: " + id);
-        return;
-    }
-    currentMission = mission;
-    currentStepIndex = 0;
-    missionFeedbackMode = false;
-    closeMissionSelector();
-    showMissionUI();
-}
-
-function showMissionUI() {
-    document.body.style.overflow = 'hidden';
-    const html = `<div id="missionModal" class="mission-container"><div class="chart-pane"><div class="chart-header d-flex justify-content-between align-items-center"><div><h5 class="mb-0 fw-bold" style="color:white !important;">${currentMission.patient_profile.demographics.name}</h5><span class="small opacity-75" style="color:white !important;">MRN: ${currentMission.patient_profile.demographics.mrn} | AGE: ${currentMission.patient_profile.demographics.age}</span></div><button class="btn btn-outline-light btn-sm" onclick="closeMission()">Exit Mission</button></div><div class="chart-tabs" id="mission-tabs"></div><div id="mission-content" class="chart-content"></div></div><div class="work-pane"><div id="step-area"></div><div id="mission-feedback" class="mt-4"></div><div class="mt-5 border-top border-secondary pt-4 d-flex justify-content-between align-items-center"><button id="mission-prev-btn" class="btn btn-outline-secondary btn-lg px-4" onclick="prevMissionStep()">BACK</button><div id="step-counter" class="text-white-50 fw-bold">STEP 1 OF 3</div><button id="mission-action-btn" class="btn btn-warning btn-lg px-5 fw-bold shadow" onclick="handleMissionAction()">SUBMIT ANSWER</button></div></div></div>`;
-    document.body.insertAdjacentHTML('beforeend', html);
-    setTimeout(() => {
-        renderMissionExhibits();
-        renderMissionStep();
-    }, 100);
-}
-
-function closeMission() { document.body.style.overflow = 'auto'; document.getElementById('missionModal')?.remove(); }
-
-function renderMissionExhibits() {
-    const tabs = document.getElementById('mission-tabs');
-    if (!tabs) return;
-    let html = `<div class="chart-tab active" onclick="showMissionExhibit('history', this)">History</div>`;
-    currentMission.exhibits.forEach((ex, idx) => {
-        html += `<div class="chart-tab" onclick="showMissionExhibit(${idx}, this)">${ex.title}</div>`;
-    });
-    tabs.innerHTML = html;
-    showMissionExhibit('history');
-}
-
-function showMissionExhibit(type, el) {
-    if (el) { document.querySelectorAll('#missionModal .chart-tab').forEach(t => t.classList.remove('active')); el.classList.add('active'); }
-    const content = document.getElementById('mission-content');
-    if (!content) return;
-    if (type === 'history') {
-        const p = currentMission.patient_profile;
-        content.innerHTML = `<h5 class="fw-bold text-primary mb-3">Admission H&P</h5><div class="mb-3"><h6 class="fw-bold text-secondary small text-uppercase">Chief Complaint</h6><p>${p.chief_complaint}</p></div><div class="mb-3"><h6 class="fw-bold text-secondary small text-uppercase">HPI</h6><p>${p.hpi}</p></div><div class="mb-3"><h6 class="fw-bold text-secondary small text-uppercase">PMH</h6><p>${p.pmh}</p></div><div class="mb-3"><h6 class="fw-bold text-secondary small text-uppercase">Review of Systems</h6><ul class="small"><li><strong>Cardio:</strong> ${p.ros.cardio}</li><li><strong>Neuro:</strong> ${p.ros.neuro}</li><li><strong>GI:</strong> ${p.ros.gi}</li><li><strong>GU:</strong> ${p.ros.gu}</li></ul></div>`;
-    } else {
-        const ex = currentMission.exhibits[type];
-        if (ex.type === 'table') {
-            content.innerHTML = `<h5 class="fw-bold text-primary mb-3">${ex.title}</h5><table class="table table-bordered table-sm small mt-3"><thead class="table-light"><tr>${Object.keys(ex.data[0]).map(k => `<th>${k.toUpperCase()}</th>`).join('')}</tr></thead><tbody>${ex.data.map(row => `<tr>${Object.values(row).map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
-        } else { content.innerHTML = `<h5 class="fw-bold text-primary mb-3">${ex.title}</h5><div class="fs-6 mt-3 text-dark">${ex.content}</div>`; }
-    }
-}
-
-function prevMissionStep() { if (currentStepIndex > 0) { currentStepIndex--; renderMissionStep(); } }
-
-function renderMissionStep() {
-    missionFeedbackMode = false;
-    const step = currentMission.steps[currentStepIndex];
-    const area = document.getElementById('step-area');
-    if (!area) return;
-    document.getElementById('mission-feedback').innerHTML = '';
-    document.getElementById('step-counter').innerText = `STEP ${currentStepIndex + 1} OF ${currentMission.steps.length}`;
-    document.getElementById('mission-prev-btn').disabled = currentStepIndex === 0;
-    let optsHtml = '';
-    if (step.type === 'extended_sata') {
-        optsHtml = `<div class="list-group">${step.options.map((o, i) => `<label class="list-group-item list-group-item-action p-3 mb-2"><input class="form-check-input me-3" type="checkbox" name="m-opt" value="${i}"> ${o}</label>`).join('')}</div>`;
-    } else if (step.type === 'matrix') {
-        optsHtml = `<div class="table-responsive"><table class="matrix-table"><thead><tr><th>Finding</th>${step.columns.map(c => `<th>${c}</th>`).join('')}</tr></thead><tbody>${step.rows.map((r, rowIndex) => `<tr><td class="text-white">${typeof r === 'string' ? r : (r.text || 'Unknown')}</td>${step.columns.map(c => `<td class="radio-cell text-center"><input type="radio" name="matrix-row-${rowIndex}" value="${c}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-    } else if (step.type === 'bowtie') {
-        optsHtml = `<div class="bowtie-container"><div class="bowtie-wing"><div class="bowtie-label">Actions (2)</div>${step.left_actions.options.map(o => `<div class="form-check small"><input class="form-check-input" type="checkbox" name="bw-l" value="${o}">${o}</div>`).join('')}</div><div class="bowtie-center"><div class="bowtie-label text-warning">Condition</div><select id="bw-c" class="form-select form-select-sm"><option value="">Select condition...</option>${step.center_condition.options.map(o => `<option value="${o}">${o}</option>`).join('')}</select></div><div class="bowtie-wing"><div class="bowtie-label">Monitor (2)</div>${step.right_monitor.options.map(o => `<div class="form-check small"><input class="form-check-input" type="checkbox" name="bw-r" value="${o}">${o}</div>`).join('')}</div></div>`;
-    } else if (step.type === 'drag_drop_cloze') {
-        // Drag-and-drop cloze question
-        const text = step.text || '';
-        const blanks = step.blanks || [];
-        const options = step.options || [];
-
-        // Replace [BLANK_X] placeholders with drop zones
-        let processedText = text;
-        blanks.forEach((blank, idx) => {
-            processedText = processedText.replace(`[BLANK_${idx + 1}]`, `<span class="drop-zone" data-blank-id="${idx}" data-correct="${blank.correct}">_____</span>`);
-        });
-
-        const optionsHtml = options.map(opt => `<span class="draggable-option" draggable="true" data-option="${opt}">${opt}</span>`).join('');
-
-        optsHtml = `
-            <div class="drag-drop-cloze">
-                <div class="cloze-text mb-4">${processedText}</div>
-                <div class="options-pool mb-3">
-                    <div class="options-label">Available options:</div>
-                    <div class="options-container">${optionsHtml}</div>
-                </div>
-                <div class="cloze-instructions">Drag options into the blanks</div>
-            </div>
-        `;
-    } else if (step.type === 'highlight_select') {
-        // Highlighted text selection question
-        const text = step.text || '';
-        const highlights = step.highlights || [];
-        const selectionMode = step.selection_mode || 'multiple'; // 'single' or 'multiple'
-
-        // Create text with clickable highlights
-        let processedText = text;
-        highlights.forEach((highlight, idx) => {
-            const highlightClass = highlight.correct ? 'highlight-correct' : 'highlight-distractor';
-            const clickHandler = selectionMode === 'single' ?
-                `onclick="selectHighlight(this, ${idx}, 'single')"` :
-                `onclick="toggleHighlight(this, ${idx})"`;
-            processedText = processedText.replace(
-                highlight.text,
-                `<span class="text-highlight ${highlightClass}" ${clickHandler} data-highlight-id="${idx}" data-correct="${highlight.correct}">${highlight.text}</span>`
-            );
-        });
-
-        const inputType = selectionMode === 'single' ? 'radio' : 'checkbox';
-        const instruction = step.instruction || (selectionMode === 'single' ?
-            'Click on the most significant finding requiring nursing intervention:' :
-            'Click on all sections requiring nursing intervention:');
-
-        optsHtml = `
-            <div class="highlight-select">
-                <div class="highlight-instruction mb-3">${instruction}</div>
-                <div class="highlight-text">${processedText}</div>
-                <input type="hidden" id="highlight-selection" value="">
-            </div>
-        `;
-    }
-    area.innerHTML = `<div class="mission-title-display mb-3"><small class="text-accent">MISSION ${currentMission.numerical_id}: ${currentMission.title}</small></div><div class="step-badge">STEP ${currentStepIndex + 1}: ${step.type.toUpperCase()}</div><h3 class="text-white mb-4 fw-bold">${step.prompt}</h3><div>${optsHtml}</div>`;
-    const btn = document.getElementById('mission-action-btn');
-    btn.innerText = "SUBMIT ANSWER";
-    btn.className = "btn btn-warning btn-lg px-5 fw-bold shadow";
-
-    // Add event listeners for drag-and-drop cloze questions
-    if (step.type === 'drag_drop_cloze') {
-        // Add drag event listeners to draggable options
-        document.querySelectorAll('.draggable-option').forEach(option => {
-            option.ondragstart = handleDragStart;
-            option.ondragend = handleDragEnd;
-        });
-
-        // Add drop event listeners to drop zones
-        document.querySelectorAll('.drop-zone').forEach(zone => {
-            zone.ondragover = handleDragOver;
-            zone.ondrop = handleDrop;
-        });
-    }
-}
-
-function handleMissionAction() { if (!missionFeedbackMode) evaluateMissionStep(); else nextMissionStep(); }
-
-// Drag and drop functionality for cloze questions
-let draggedElement = null;
-
-function handleDragStart(e) {
-    draggedElement = e.target;
-    e.dataTransfer.effectAllowed = 'move';
-    e.dataTransfer.setData('text/html', e.target.outerHTML);
-    e.target.classList.add('dragging');
-}
-
-function handleDragEnd(e) {
-    e.target.classList.remove('dragging');
-    draggedElement = null;
-}
-
-function handleDragOver(e) {
-    e.preventDefault();
-    e.dataTransfer.dropEffect = 'move';
-    return false;
-}
-
-function handleDrop(e) {
-    e.preventDefault();
-    const dropZone = e.target.closest('.drop-zone');
-    if (!dropZone || !draggedElement) return;
-
-    // Remove existing content from drop zone
-    dropZone.innerHTML = '';
-
-    // Clone the dragged element and place it in the drop zone
-    const clone = draggedElement.cloneNode(true);
-    clone.draggable = false;
-    clone.classList.remove('dragging');
-    clone.classList.add('dropped-option');
-    clone.onclick = () => removeFromDropZone(clone, dropZone);
-
-    dropZone.appendChild(clone);
-    dropZone.classList.add('filled');
-
-    // Remove from options pool
-    draggedElement.remove();
-
-    return false;
-}
-
-function removeFromDropZone(element, dropZone) {
-    // Return option to pool
-    const optionText = element.textContent;
-    const optionsContainer = document.querySelector('.options-container');
-    const newOption = document.createElement('span');
-    newOption.className = 'draggable-option';
-    newOption.draggable = true;
-    newOption.textContent = optionText;
-    newOption.ondragstart = handleDragStart;
-    newOption.ondragend = handleDragEnd;
-
-    optionsContainer.appendChild(newOption);
-
-    // Clear drop zone
-    dropZone.innerHTML = '_____';
-    dropZone.classList.remove('filled');
-}
-
-// Highlight selection functions
-function toggleHighlight(element, highlightId) {
-    element.classList.toggle('selected');
-    updateHighlightSelection();
-}
-
-function selectHighlight(element, highlightId, mode) {
-    if (mode === 'single') {
-        // Remove selection from all highlights
-        document.querySelectorAll('.text-highlight').forEach(el => el.classList.remove('selected'));
-    }
-    element.classList.add('selected');
-    updateHighlightSelection();
-}
-
-function updateHighlightSelection() {
-    const selected = Array.from(document.querySelectorAll('.text-highlight.selected'))
-        .map(el => parseInt(el.dataset.highlightId));
-    document.getElementById('highlight-selection').value = JSON.stringify(selected);
-}
-
-function evaluateMissionStep() {
-    const step = currentMission.steps[currentStepIndex];
-    let isCorrect = false;
-    if (step.type === 'extended_sata') {
-        const sel = Array.from(document.querySelectorAll('input[name="m-opt"]:checked')).map(i => parseInt(i.value));
-        isCorrect = sel.length === step.answer.length && sel.every(v => step.answer.includes(v));
-    } else if (step.type === 'matrix') {
-        isCorrect = step.rows.every((r, rowIndex) => {
-            const rowKey = typeof r === 'string' ? r : (r.text || '');
-            return document.querySelector(`input[name="matrix-row-${rowIndex}"]:checked`)?.value === step.answer[rowKey];
-        });
-    } else if (step.type === 'drag_drop_cloze') {
-        // Check if all blanks are filled correctly
-        const blanks = step.blanks || [];
-        isCorrect = blanks.every((blank, idx) => {
-            const dropZone = document.querySelector(`.drop-zone[data-blank-id="${idx}"]`);
-            if (!dropZone || !dropZone.classList.contains('filled')) return false;
-            const droppedText = dropZone.textContent.trim();
-            return droppedText === blank.correct;
-        });
-    } else if (step.type === 'highlight_select') {
-        // Check selected highlights
-        const selected = JSON.parse(document.getElementById('highlight-selection').value || '[]');
-        const correctHighlights = step.highlights.filter(h => h.correct).map(h => step.highlights.indexOf(h));
-        isCorrect = selected.length === correctHighlights.length &&
-                   selected.every(id => correctHighlights.includes(id));
-    } else if (step.type === 'bowtie') {
-        const diag = document.getElementById('bw-c').value;
-        const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
-        const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
-        isCorrect = diag === step.center_condition.answer && l.length === 2 && l.every(v => step.left_actions.answer.includes(v)) && r.length === 2 && r.every(v => step.right_monitor.answer.includes(v));
-    }
-    document.getElementById('mission-feedback').innerHTML = `<div class="p-4 rounded-4 border-2 ${isCorrect ? 'border-success' : 'border-danger'}" style="background: ${isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)'}; backdrop-filter: blur(10px);"><h4 class="fw-bold ${isCorrect ? 'text-success' : 'text-danger'}"><i class="fas ${isCorrect ? 'fa-check-circle' : 'fa-times-circle'} me-2"></i>${isCorrect ? 'CORRECT' : 'INCORRECT'}</h4><p class="text-white mb-0 mt-2 fs-5">${step.rationale || "Review clues and pharmacology interaction."}</p></div>`;
-    missionFeedbackMode = true;
-    const btn = document.getElementById('mission-action-btn');
-    btn.innerText = currentStepIndex === currentMission.steps.length - 1 ? "FINISH MISSION" : "NEXT STEP";
-    btn.className = "btn btn-info btn-lg px-5 fw-bold shadow pulse-button text-primary";
-}
-
-function nextMissionStep() { if (currentStepIndex < currentMission.steps.length - 1) { currentStepIndex++; renderMissionStep(); } else { closeMission(); } }
-
+];
 </script>
-
     <script>
-        let currentSection = 'home';
+/* SOURCE: data_pain_opioid_agonists.js */
+/* Block 1b — Pain: Opioid Agonists (9 drugs)
+   Source: pain_lecture_drjames.txt (Slides 39-55) */
 
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                showHomeScreen();
-            }, 100);
-        });
-
-        function showHomeScreen() {
-            currentSection = 'home';
-            document.querySelector('.control-panel').style.display = 'none';
-            document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
-
-            const homeHtml = `
-                <div class="container-fluid px-4 mt-5">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="text-center mb-5">
-                                <h1 class="display-4 fw-bold text-accent mb-3">
-                                    <i class="fas fa-microscope me-3"></i>
-                                    NGN MASTERY HUB
-                                </h1>
-                                <p class="lead text-secondary mb-4">High-Fidelity Clinical Simulation Platform</p>
-                                <div class="badge bg-primary fs-6 px-3 py-2">Version 3.2</div>
-                            </div>
-
-                            <div class="row g-4">
-                                <div class="col-md-4">
-                                    <div class="nexus-card p-4 text-center h-100" onclick="showDrugReferences()">
-                                        <div class="card-icon mb-3">
-                                            <i class="fas fa-pills fa-3x text-accent"></i>
-                                        </div>
-                                        <h3 class="h4 fw-bold mb-3">Drug References</h3>
-                                        <p class="text-secondary mb-3">Comprehensive pharmacology database with detailed drug information, interactions, and clinical applications.</p>
-                                        <button class="btn btn-accent w-100 fw-bold">
-                                            <i class="fas fa-search me-2"></i>
-                                            Browse Drugs
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="nexus-card p-4 text-center h-100" onclick="showCaseStudies()">
-                                        <div class="card-icon mb-3">
-                                            <i class="fas fa-stethoscope fa-3x text-success"></i>
-                                        </div>
-                                        <h3 class="h4 fw-bold mb-3">Case Studies</h3>
-                                        <p class="text-secondary mb-3">Interactive clinical scenarios with NGN-style questions testing critical thinking and clinical decision-making.</p>
-                                        <button class="btn btn-success w-100 fw-bold">
-                                            <i class="fas fa-play me-2"></i>
-                                            Start Mission
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="nexus-card p-4 text-center h-100" onclick="showExams()">
-                                        <div class="card-icon mb-3">
-                                            <i class="fas fa-graduation-cap fa-3x text-warning"></i>
-                                        </div>
-                                        <h3 class="h4 fw-bold mb-3">Exams</h3>
-                                        <p class="text-secondary mb-3">Comprehensive assessment modules covering pharmacology, pathophysiology, and clinical applications.</p>
-                                        <button class="btn btn-warning w-100 fw-bold">
-                                            <i class="fas fa-clipboard-check me-2"></i>
-                                            Take Exam
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="text-center mt-5">
-                                <div class="row g-3 justify-content-center">
-                                    <div class="col-auto">
-                                        <div class="d-flex align-items-center text-secondary">
-                                            <i class="fas fa-heartbeat me-2"></i>
-                                            <span>Acute Respiratory Focus</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <div class="d-flex align-items-center text-secondary">
-                                            <i class="fas fa-brain me-2"></i>
-                                            <span>NGN-Style Questions</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <div class="d-flex align-items-center text-secondary">
-                                            <i class="fas fa-chart-line me-2"></i>
-                                            <span>Evidence-Based Content</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-            document.querySelector('.container-fluid.px-4.mt-4').innerHTML = homeHtml;
-            document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
-
-            // Update nav bar for home screen
-            const navButtons = document.querySelector('.nav-buttons');
-            navButtons.innerHTML = `
-                <span class="text-secondary">Welcome to NGN Mastery Hub</span>
-            `;
-        }
-
-        function showDrugReferences() {
-            currentSection = 'drugs';
-            document.querySelector('.control-panel').style.display = 'block';
-            document.querySelector('.container-fluid.px-4.mt-4').innerHTML = '<div class="row" id="drug-grid"></div>';
-            document.querySelector('.container-fluid.px-4.mt-4').style.display = 'block';
-            renderDrugs();
-
-            // Update nav bar
-            const navButtons = document.querySelector('.nav-buttons');
-            navButtons.innerHTML = `
-                <button class="btn btn-outline-secondary" onclick="showHomeScreen()">
-                    <i class="fas fa-home me-2"></i>Home
-                </button>
-                <button class="btn btn-outline-info fw-bold" onclick="startMission()">CLINICAL MISSIONS</button>
-                <button class="btn btn-warning fw-bold" onclick="startExam()">TAKE SLIDE EXAM</button>
-            `;
-        }
-
-        function showCaseStudies() {
-            currentSection = 'missions';
-            startMission();
-        }
-
-        function showExams() {
-            currentSection = 'exams';
-            startExam();
-        }
-
-        // EXAM LOGIC WRAPPER
-        function startExam() {
-            showExamSelectionModal();
-        }
-
-        function showExamSelectionModal() {
-            if (!window.availableExams || window.availableExams.length === 0) {
-                alert('No exams available. Please check that exam modules have been properly configured.');
-                return;
-            }
-
-            const modalHtml = `<div id="examSelectionModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;">
-                <div class="container" style="max-width: 900px;">
-                    <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
-                        <h2 class="text-accent fw-bold">
-                            <i class="fas fa-graduation-cap me-3"></i>
-                            SELECT EXAM MODULE
-                        </h2>
-                        <button class="btn btn-outline-danger" onclick="closeExamSelection()">Cancel</button>
-                    </div>
-
-                    <div class="row">
-                        ${window.availableExams.map(exam => `
-                            <div class="col-md-6 mb-4">
-                                <div class="nexus-card" style="cursor: pointer;" onclick="selectExam('${exam.id}')">
-                                    <div class="point-label">EXAM MODULE</div>
-                                    <h4 class="text-white mb-3">${exam.name}</h4>
-                                    <p class="text-white-50 mb-3">${exam.data.length} Questions Available</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span class="badge bg-info text-primary">${exam.data.length} Questions</span>
-                                        <i class="fas fa-arrow-right text-accent"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            </div>`;
-            document.body.insertAdjacentHTML('beforeend', modalHtml);
-        }
-
-        function selectExam(examId) {
-            const exam = window.availableExams.find(e => e.id === examId);
-            if (!exam) {
-                alert('Exam not found!');
-                return;
-            }
-
-            closeExamSelection();
-            window.examData = exam.data;
-            window.currentQuestionIndex = 0;
-            window.userAnswers = [];
-            window.feedbackMode = false;
-            window.currentExamName = exam.name;
-            showExamModal();
-            renderQuestion();
-        }
-
-        function closeExamSelection() {
-            document.getElementById('examSelectionModal')?.remove();
-        }
-        function closeExam() { document.getElementById('examModal')?.remove(); showExamSelectionModal(); }
-        function showExamModal() {
-            const examName = window.currentExamName || 'SLIDE EXAM';
-            const modalHtml = `<div id="examModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;">
-                <button class="sidecar-toggle" onclick="toggleSidecar()" style="z-index: 2060;"><i class="fas fa-pills fs-3"></i></button>
-                <div id="pharmaSidecar" class="pharma-sidecar" style="z-index: 2070;"><div class="sidecar-header"><div class="d-flex justify-content-between align-items-center mb-3"><h5 class="text-white mb-0">REFERENCE</h5><button class="btn btn-sm btn-outline-light" onclick="toggleSidecar()">X</button></div><input type="text" id="sidecarSearch" class="form-control form-control-sm bg-dark text-white" placeholder="Search..." onkeyup="renderSidecar()"></div><div id="sidecarContent" class="sidecar-content"></div></div>
-                <div class="container" style="max-width: 900px;"><div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3 border-secondary"><h3 class="text-accent fw-bold">${examName} <span id="examProgress" class="ms-3 fs-5 text-white-50"></span></h3><div class="d-flex align-items-center gap-2"><input type="number" id="jumpQuestionInput" class="form-control form-control-sm" placeholder="Question #" min="1" max="${window.examData.length}" style="width: 80px;"><button class="btn btn-outline-info btn-sm" onclick="jumpToQuestion()">Jump</button><button class="btn btn-outline-danger btn-sm" onclick="closeExam()">Exit</button></div></div><div id="questionContainer"></div><div id="feedbackContainer" class="mt-4 p-4 rounded d-none" style="border: 2px solid var(--border);"></div><div class="mt-5 d-flex justify-content-between"><button class="btn btn-outline-secondary btn-lg" onclick="prevQuestion()">Back</button><button id="actionBtn" class="btn btn-warning btn-lg" onclick="handleAction()">SUBMIT</button></div></div></div>`;
-            document.body.insertAdjacentHTML('beforeend', modalHtml);
-        }
-        function renderQuestion() {
-            const q = window.examData[window.currentQuestionIndex];
-            document.getElementById('examProgress').innerText = `(${window.currentQuestionIndex + 1} / ${window.examData.length})`;
-            document.getElementById('feedbackContainer').classList.add('d-none');
-            let qHtml = `<h2 class="text-white mb-4">${window.currentQuestionIndex + 1}. ${q.question}</h2>`;
-            if (q.type === 'matrix') {
-                qHtml += `<div class="table-responsive"><table class="table table-dark table-bordered align-middle"><thead><tr><th class="text-white-50">Finding</th>${q.columns.map(c => `<th class="text-center text-warning">${c}</th>`).join('')}</tr></thead><tbody>${q.rows.map((r, ri) => `<tr><td class="text-white">${r.text}</td>${q.columns.map((c, ci) => `<td class="text-center"><input type="radio" name="matrix-row-${ri}" value="${ci}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-            } else {
-                const order = q.options.map((_, i) => i);
-                for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
-                qHtml += `<div class="list-group">${order.map(i => `<label class="list-group-item list-group-item-action bg-secondary text-white border-secondary mb-3 py-3 px-4 rounded-4"><input class="form-check-input me-3" type="${Array.isArray(q.answer) ? 'checkbox' : 'radio'}" name="qOption" value="${i}"><span class="fs-5">${q.options[i]}</span></label>`).join('')}</div>`;
-            }
-            document.getElementById('questionContainer').innerHTML = qHtml;
-            const btn = document.getElementById('actionBtn'); btn.innerText = "SUBMIT"; window.feedbackMode = false;
-        }
-        function handleAction() { if (!window.feedbackMode) checkAnswer(); else nextQuestion(); }
-        function checkAnswer() {
-            const q = window.examData[window.currentQuestionIndex];
-            let isCorrect = false;
-            let sel;
-            if (q.type === 'matrix') {
-                const allAnswered = q.rows.every((_, ri) => document.querySelector(`input[name="matrix-row-${ri}"]:checked`));
-                if (!allAnswered) return;
-                isCorrect = q.rows.every((r, ri) => parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value) === r.correct_col_idx);
-                sel = q.rows.map((r, ri) => ({ row: r.text, selected: q.columns[parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value)] }));
-            } else {
-                sel = Array.from(document.querySelectorAll('input[name="qOption"]:checked')).map(input => q.options[parseInt(input.value)]);
-                if (sel.length === 0) return;
-                let correct = Array.isArray(q.answer) ? q.answer : [q.answer];
-                if (correct.length > 0 && typeof correct[0] === 'number') { correct = correct.map(idx => q.options[idx]); }
-                isCorrect = sel.length === correct.length && sel.every(v => correct.includes(v));
-            }
-            window.feedbackMode = true;
-            const fb = document.getElementById('feedbackContainer');
-            fb.className = `mt-4 p-4 rounded-4 border-2 d-block ${isCorrect ? 'border-success' : 'border-danger'}`;
-            fb.style.backgroundColor = isCorrect ? 'rgba(22, 101, 52, 0.3)' : 'rgba(153, 27, 27, 0.3)';
-            fb.innerHTML = `<h4 class="fw-bold ${isCorrect ? 'text-success' : 'text-danger'}">${isCorrect ? 'CORRECT' : 'INCORRECT'}</h4><p class="text-white mt-2">${q.rationale || ""}</p>`;
-            document.getElementById('actionBtn').innerText = "NEXT";
-        }
-        function nextQuestion() { if (window.currentQuestionIndex < window.examData.length - 1) { window.currentQuestionIndex++; renderQuestion(); } else { closeExam(); } }
-        function prevQuestion() { if (window.currentQuestionIndex > 0) { window.currentQuestionIndex--; renderQuestion(); } }
-        function jumpToQuestion() {
-            const input = document.getElementById('jumpQuestionInput');
-            const questionNum = parseInt(input.value);
-            if (questionNum >= 1 && questionNum <= window.examData.length) {
-                window.currentQuestionIndex = questionNum - 1;
-                renderQuestion();
-                input.value = '';
-            } else {
-                alert(`Please enter a valid question number between 1 and ${window.examData.length}`);
-            }
-        }
-    </script>
-
-<script>
-/* INJECTED SCENARIOS.JSON DATA */
-console.log('Initializing JSON Data Injection...');
-window.acuterespiratoryExamData = [{"id": "epistaxis_nasal_packing", "slide": 999, "question": "A client with epistaxis has nasal packing. Frequent swallowing after nasal packing indicates that:", "options": ["The packing is effective and bleeding has stopped", "Blood may be moving posteriorly rather than externally", "The client should begin oral intake", "Antibiotic therapy should be initiated"], "answer": [1], "rationale": "Frequent swallowing after nasal packing indicates that blood may be moving posteriorly rather than externally-continuous bleeding. The nurse recognizes this as a complication requiring immediate assessment."}, {"id": "acute_bronchitis_antimicrobials", "slide": 999, "question": "Regarding antimicrobial therapy for acute bronchitis, the nurse understands that:", "options": ["The goal is complete eradication of the pathogen", "Stopping therapy early prevents drug resistance", "Client teaching focuses on symptom relief", "Antibiotics are always prescribed for viral causes"], "answer": [0], "rationale": "The goal of therapy is complete eradication of the pathogen. Stopping therapy early contributes to drug resistance and recurrence of infection. Client teaching focuses on adherence, not symptom relief."}, {"id": "hypoxia_progression", "slide": 999, "question": "Early neurological and compensatory cues of progressing hypoxia include:", "options": ["Visible color changes and decreased consciousness", "Restlessness, agitation, increased heart rate", "Bradycardia and hypotension", "Confusion and disorientation"], "answer": [1], "rationale": "Early neurological and compensatory cues: restlessness, agitation, increased heart rate, increased respiratory rate. Late oxygenation failure cues include visible color changes and decreased level of consciousness."}, {"id": "osa_diagnosis", "slide": 999, "question": "Diagnosis of obstructive sleep apnea requires:", "options": ["Overnight pulse oximetry only", "A sleep study called polysomnography", "Self-reported snoring assessment", "Daytime sleepiness questionnaire alone"], "answer": [1], "rationale": "Diagnosis requires a sleep study called polysomnography that evaluates breathing patterns, oxygen saturation, and sleep stages overnight."}, {"id": "allergic_rhinitis_pharma", "slide": 999, "question": "Primary medications for allergic rhinitis target:", "options": ["The histamine-mediated inflammatory response", "Bacterial infection prevention", "Mucosal thickening", "Airway constriction"], "answer": [0], "rationale": "The primary medications target the histamine-mediated inflammatory response aka anti-histamines. Antihistamines can be oral or nasal. Anti-infectives are not effective for allergen-triggered conditions."}, {"id": "post_procedure_airway", "slide": 999, "question": "After procedures that suppress the gag reflex:", "options": ["Oral intake should begin immediately", "Oral intake is withheld until protective airway reflex returns", "Nutrition takes priority over airway safety", "Comfort measures are most important"], "answer": [1], "rationale": "After procedures that suppress the gag reflex: Oral intake is withheld until the nurse verifies the return of the protective airway reflex. Airway safety takes priority over nutrition and comfort."}, {"id": "cough_medications", "slide": 999, "question": "Cough medications that suppress the cough reflex are called:", "options": ["Mucolytics", "Expectorants", "Antitussives", "Bronchodilators"], "answer": [2], "rationale": "Some medications suppress the cough reflex - antitussives. Some increase secretion production to make the cough more productive - mucolytics or expectorants."}, {"id": "pneumothorax_assessment", "slide": 999, "question": "Assessment findings in pneumothorax include:", "options": ["Crackles in both lung fields", "Increased breath sounds bilaterally", "Reduced or absent breath sounds on affected side", "Normal breath sounds throughout"], "answer": [2], "rationale": "Pneumothorax causes reduced or absent breath sounds on the affected side due to air in the pleural space preventing lung expansion."}, {"id": "hemothorax_vs_pneumothorax", "slide": 999, "question": "Which finding differentiates hemothorax from pneumothorax?", "options": ["Absent breath sounds", "Chest pain", "Tracheal deviation", "Blood in pleural space"], "answer": [3], "rationale": "Hemothorax involves blood in the pleural space, while pneumothorax involves air. Both can cause absent breath sounds and chest pain."}, {"id": "chest_tube_air_leak", "slide": 999, "question": "Continuous bubbling in the water seal chamber of a chest tube system indicates:", "options": ["Normal function", "Air leak in the system", "Proper seal integrity", "Tube obstruction"], "answer": [1], "rationale": "Continuous bubbling in the water seal chamber indicates an air leak in the system that needs immediate attention."}, {"id": "rib_fracture_pain", "slide": 999, "question": "A client with rib fractures experiences most pain with:", "options": ["Deep inspiration", "Quiet breathing", "Expiration", "Speaking softly"], "answer": [0], "rationale": "Rib fracture pain is most severe with deep inspiration, coughing, or movement. Pain management and breathing exercises are essential."}, {"id": "flail_chest_signs", "slide": 999, "question": "Signs of flail chest include:", "options": ["Paradoxical chest wall movement", "Unilateral chest expansion", "Decreased respiratory rate", "Normal breath sounds"], "answer": [0], "rationale": "Flail chest is characterized by paradoxical chest wall movement where a portion of the chest wall moves inward during inspiration."}, {"id": "pulmonary_embolism_sudden", "slide": 999, "question": "A client suddenly develops severe dyspnea, tachycardia, and chest pain. The nurse suspects:", "options": ["Acute myocardial infarction", "Pulmonary embolism", "Pneumothorax", "Acute bronchitis"], "answer": [1], "rationale": "Sudden onset of severe dyspnea, tachycardia, and chest pain suggests pulmonary embolism, requiring immediate intervention."}, {"id": "asthma_acute_attack", "slide": 999, "question": "During an acute asthma attack, the nurse should first:", "options": ["Administer oral corticosteroids", "Assess respiratory status and administer bronchodilators", "Obtain sputum culture", "Start IV antibiotics"], "answer": [1], "rationale": "During an acute asthma attack, immediate assessment of respiratory status and administration of bronchodilators takes priority."}, {"id": "hypoxia_early_signs", "slide": 999, "question": "Early signs of hypoxia include:", "options": ["Bradycardia and hypotension", "Restlessness and tachycardia", "Cyanosis and confusion", "Apnea and respiratory arrest"], "answer": [1], "rationale": "Early signs of hypoxia include restlessness, agitation, tachycardia, and increased respiratory rate."}];
-window.availableExams = window.availableExams || [];
-window.availableExams.push({id: 'acute_respiratory_quiz', name: 'Acute Respiratory Disorders and Medications Quiz', data: window.acuterespiratoryExamData});
-console.log('Created exam module: Acute Respiratory Disorders and Medications Quiz with 15 questions');
-window.chronicrespiratoryexamExamData = [{"id": "copd_assessment", "slide": 999, "question": "A client with COPD exhibits a barrel chest, dyspnea, clubbing, and shallow rapid respirations. These findings indicate which complication of COPD?", "options": ["Acute respiratory failure", "Chronic hypoxia manifestations", "Pulmonary hypertension", "Right heart failure"], "answer": [1], "rationale": "Barrel chest, dyspnea, clubbing, and shallow rapid respirations are hallmark physical findings in advanced COPD as described in Quiz Review #19 under 'COPD \u2013 Expected Findings & Nursing Interventions.' These manifestations result from chronic hypoxia and hyperinflation of the lungs. Acute respiratory failure would present with more acute changes like confusion or severe tachycardia. Pulmonary hypertension is a complication but not the primary expected finding. Right heart failure (cor pulmonale) can occur but is not listed among the basic expected findings in the quiz material."}, {"id": "copd_breathing", "slide": 999, "question": "Which breathing technique should the nurse teach a client with COPD to prolong exhalation and prevent airway collapse?", "options": ["Diaphragmatic breathing", "Pursed-lip breathing", "Abdominal breathing", "4-7-8 breathing"], "answer": [1], "rationale": "Pursed-lip breathing is specifically taught to COPD patients as outlined in Quiz Review #19 under 'COPD \u2013 Expected Findings & Nursing Interventions' and 'Emphysema \u2013 Gas Exchange Strategies.' This technique prolongs exhalation to prevent airway collapse, reduces air trapping in the lungs, and improves gas exchange. Diaphragmatic breathing, while helpful for some respiratory conditions, is not specifically mentioned for COPD management in the quiz materials. Abdominal breathing refers to diaphragmatic breathing. 4-7-8 breathing is a general relaxation technique but not specific to COPD airway management."}, {"id": "copd_vs_asthma", "slide": 999, "question": "Which characteristic differentiates COPD from asthma?", "options": ["Progressive disease course", "Reversible airway obstruction", "Episodic symptoms", "Often begins in childhood"], "answer": [1], "rationale": "As clearly differentiated in Quiz Review #19 under 'COPD vs. Asthma,' COPD is characterized by progressive, persistent symptoms with irreversible airflow limitation, often associated with smoking history. Asthma presents with episodic, trigger-related symptoms and reversible airway obstruction that often begins earlier in life. Progressive disease course is correct for COPD but not the distinguishing feature asked. Reversible airway obstruction describes asthma, not COPD. Episodic symptoms characterize asthma's pattern."}, {"id": "copd_nutrition", "slide": 999, "question": "The nurse is teaching a client with COPD about nutrition. Which dietary recommendations are appropriate?", "options": ["High-calorie, high-protein diet", "Low-sodium, fluid-restricted diet", "High-fiber, low-fat diet", "Calorie-restricted, ketogenic diet"], "answer": [0], "rationale": "According to Quiz Review #19 under 'COPD \u2013 Expected Findings & Nursing Interventions' and 'Nutrition & hydration,' COPD patients require a high-calorie, high-protein diet due to increased work of breathing and metabolic demands. This helps maintain muscle mass and respiratory function. A low-sodium diet is important for hypertension but not specifically for COPD. High-fiber diets are generally healthy but don't address COPD's specific nutritional needs. Calorie-restricted diets would be inappropriate for patients already at risk for malnutrition from their respiratory condition."}, {"id": "asthma_therapy", "slide": 999, "question": "A client with asthma is prescribed both a bronchodilator and an inhaled corticosteroid. In what order should these medications be administered?", "options": ["Bronchodilator first, then corticosteroid", "Corticosteroid first, then bronchodilator", "Simultaneously", "Based on patient preference"], "answer": [0], "rationale": "As specified in Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers,' bronchodilators must be administered before inhaled corticosteroids to open airways and enhance penetration of the steroid medication into the lung tissue. Administering corticosteroids first would be ineffective since the airways are constricted. Simultaneous administration is not recommended in the quiz materials. Patient preference is not a valid medical reason for changing evidence-based medication sequencing."}, {"id": "mdi_technique", "slide": 999, "question": "When teaching proper metered-dose inhaler (MDI) technique, which instruction is essential for effective medication delivery?", "options": ["Shake the inhaler vigorously before each use", "Inhale rapidly and forcefully", "Hold breath for at least 10 seconds after inhalation", "Rinse mouth only if taste is unpleasant"], "answer": [2], "rationale": "Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers' specifies that proper MDI technique includes slow deep inhalation, breath held for at least 10 seconds, and waiting between puffs. This ensures optimal medication deposition deep in the lung tissue. Shaking is important but not the critical step for effective delivery. Rapid forceful inhalation would cause medication to deposit in the mouth/throat. Breath holding for less than 10 seconds allows medication to be exhaled before absorption. Rinse mouth is important after corticosteroids but not the primary technique for effective delivery."}, {"id": "cystic_fibrosis_patho", "slide": 999, "question": "A client with cystic fibrosis experiences dysfunction of the exocrine glands and production of thick, tenacious mucus. Which symptom is typically the first pulmonary manifestation?", "options": ["Hemoptysis", "Dyspnea on exertion", "Chronic productive cough", "Clubbing of the fingers"], "answer": [2], "rationale": "According to Lower Respiratory MS1 slide 34, 'Cough is the first pulmonary symptom' in cystic fibrosis due to dysfunction of exocrine glands producing thick mucus and impaired mucociliary clearance. Hemoptysis occurs later in disease progression. Dyspnea on exertion develops as lung function declines. Digital clubbing is a late sign of chronic hypoxemia. While all these can occur in CF, cough is specifically identified as the initial pulmonary manifestation in the lecture material."}, {"id": "cystic_fibrosis_treatment", "slide": 999, "question": "A client with cystic fibrosis is prescribed pancreatic enzyme replacement. When should these medications be administered?", "options": ["On an empty stomach, 30 minutes before meals", "With meals and snacks", "At bedtime only", "Once daily in the morning"], "answer": [1], "rationale": "Lower Respiratory MS1 slide 36 specifies that 'pancreatic enzyme replacement' should be administered 'with meals and snacks' for CF patients with pancreatic insufficiency to properly digest nutrients. Taking enzymes on an empty stomach would provide no benefit since there are no nutrients to digest. Taking them at bedtime is not indicated. Once daily dosing would be insufficient for proper nutrient absorption throughout the day."}, {"id": "emphysema_technique", "slide": 999, "question": "For a client with emphysema, which breathing technique promotes gas exchange and reduces work of breathing?", "options": ["Breathing in through pursed lips and out through the nose", "Breathing in through the nose and out through pursed lips", "Rapid shallow breathing", "Holding breath for 20 seconds between breaths"], "answer": [1], "rationale": "Quiz Review #19 under 'Emphysema \u2013 Gas Exchange Strategies' specifies 'breathing in through the nose and out through pursed lips' to prolong exhalation and improve gas exchange in emphysema patients. Pursed-lip breathing in reverse (in through pursed lips) is not described in the materials. Abdominal breathing focuses on diaphragmatic movement but doesn't address the specific nose/pursed-lip technique. Holding breath prevents normal gas exchange and would be harmful."}, {"id": "home_oxygen_safety", "slide": 999, "question": "A client is prescribed home oxygen therapy. Which safety measure is most important?", "options": ["Keep oxygen at least 10 feet from heat sources", "Avoid using petroleum-based lotions", "Ensure proper equipment fitting", "All of the above"], "answer": [3], "rationale": "Quiz Review #19 under 'Home Oxygen Therapy \u2013 Safety & Skin Care' identifies that oxygen 'increases fire risk' and patients must 'avoid petroleum-based products (more flammable),' 'assess skin breakdown at pressure points,' and ensure 'equipment must be clean and properly fitted.' Keeping oxygen away from outlets is good practice but not the most critical safety measure mentioned. Using extension cords is unsafe with oxygen equipment. Storing cylinders in the garage increases fire risk and is not recommended."}, {"id": "tb_manifestations", "slide": 999, "question": "Which clinical manifestations are characteristic of tuberculosis?", "options": ["Fatigue, hemoptysis, night sweats", "Productive cough, fever, weight gain", "Dyspnea, wheezing, chest tightness", "Sore throat, nasal congestion, rhinorrhea"], "answer": [0], "rationale": "Quiz Review #19 under 'Tuberculosis (TB) Expected clinical manifestations' lists: fatigue, hemoptysis, night sweats, weight loss, anorexia, and low-grade afternoon fever as characteristic symptoms. Productive cough with fever suggests bacterial pneumonia. Dyspnea with wheezing indicates asthma or COPD exacerbation. Sore throat with congestion suggests viral upper respiratory infection rather than TB."}, {"id": "pneumonia_oxygenation", "slide": 999, "question": "When caring for a client with pneumonia and low oxygen saturation, which positioning maximizes lung expansion?", "options": ["Supine position", "Trendelenburg position", "High Fowler position", "Left lateral position"], "answer": [2], "rationale": "Quiz Review #19 under 'Pneumonia \u2013 Oxygenation & Secretion Management' states that 'positioning that maximizes lung expansion' is priority for low oxygen saturation in pneumonia. High Fowler position accomplishes this by allowing maximum chest expansion and lung inflation. Supine position would decrease lung expansion. Trendelenburg position is contraindicated as it can cause respiratory distress. Left lateral position may help with specific lung segments but is not the primary position for oxygenation."}, {"id": "airway_clearance", "slide": 999, "question": "Before performing airway clearance therapies like percussion and postural drainage, the nurse should first:", "options": ["Administer pain medication", "Assess lung fields to identify target areas", "Apply supplemental oxygen", "Have suction equipment ready"], "answer": [1], "rationale": "Quiz Review #19 under 'Pneumonia \u2013 Oxygenation & Secretion Management' specifies that 'first action is always assessment of lung fields to identify target areas' before airway clearance therapies like percussion and postural drainage. Pain medication may be needed but assessment comes first. Supplemental oxygen may be indicated but doesn't replace the need for assessment. Suction equipment should be ready but assessment determines if it's needed."}, {"id": "resp_acidosis", "slide": 999, "question": "A client with COPD has ABG results showing low pH and elevated PaCO2. This indicates:", "options": ["Metabolic alkalosis", "Respiratory acidosis", "Metabolic acidosis", "Respiratory alkalosis"], "answer": [1], "rationale": "Quiz Review #19 under 'Acid\u2013Base Balance (ABGs)' defines respiratory acidosis as 'low pH, elevated PaCO\u2082, normal bicarbonate in uncompensated states, caused by hypoventilation or airway obstruction.' Metabolic alkalosis would show high pH with metabolic changes. Respiratory alkalosis would show high pH with low PaCO2. Metabolic acidosis would show low pH with low bicarbonate."}, {"id": "aspiration_risk", "slide": 999, "question": "Which finding in a client indicates risk for aspiration and requires immediate follow-up?", "options": ["Clear speech after drinking water", "Coughing with eating", "Normal oxygen saturation", "Ability to swallow pills easily"], "answer": [1], "rationale": "Quiz Review #19 under 'Dysphagia & Aspiration Risk' lists 'coughing with eating' as a finding requiring 'immediate follow-up' for aspiration risk. Clear speech after drinking water indicates no current aspiration risk. Hoarse voice after swallowing is also listed as a concerning sign. Normal oxygen saturation doesn't rule out aspiration risk. Ability to swallow pills easily is not a reliable indicator of swallowing safety."}, {"id": "bronchodilator_outcomes", "slide": 999, "question": "Following effective bronchodilator therapy, the nurse would expect to observe:", "options": ["Increased wheezing and accessory muscle use", "Decreased oxygen saturation", "Improved breathing effort and reduced respiratory rate", "Increased sputum production and cough"], "answer": [2], "rationale": "Quiz Review #19 under 'Client Outcomes \u2013 Effective Bronchodilator Therapy' lists: decreased wheezing, reduced accessory muscle use, improved oxygen saturation, decreased respiratory rate, easier breathing effort. Increased wheezing would indicate ineffective therapy. Decreased oxygen saturation would suggest worsening respiratory status. Increased sputum suggests infection or inadequate clearance. No change in respiratory rate would indicate lack of improvement."}, {"id": "acute_bronchitis", "slide": 999, "question": "A client is diagnosed with acute bronchitis. Which medication is most appropriate for symptom management?", "options": ["Antitussive agents like dextromethorphan", "Expectorant agents like guaifenesin", "Antibiotics for 7-10 days", "Inhaled corticosteroids"], "answer": [1], "rationale": "Lower Respiratory MS1 slide 5 states that acute bronchitis treatment includes antitussive agents like dextromethorphan or expectorant guaifenesin, with broad-spectrum antibiotics for 7-10 days if bacterial. Since most cases are viral, expectorants are often the first-line treatment. Antitussives suppress cough but don't address the underlying cause. Antibiotics are not routinely prescribed for viral bronchitis. Inhaled corticosteroids are used for asthma/COPD, not acute bronchitis."}, {"id": "influenza_spread", "slide": 999, "question": "How is influenza primarily spread?", "options": ["Through contaminated food and water", "Through droplet infection", "Through direct skin contact", "Through insect vectors"], "answer": [1], "rationale": "Lower Respiratory MS1 slide 6 states that influenza spreads through droplet infection, similar to the common cold but with different symptoms. Food/water contamination would indicate a gastrointestinal pathogen. Direct skin contact is not the primary transmission route. Insect vectors are not involved in influenza transmission."}, {"id": "respiratory_anatomy", "slide": 999, "question": "The respiratory center that controls breathing is located in the:", "options": ["Cerebellum", "Medulla oblongata", "Pons", "Cerebral cortex"], "answer": [1], "rationale": "Upper Respiratory MS1 slide 4 states that the respiratory center is located in the medulla oblongata and stimulated by changing CO2 and O2 levels in arterial blood. The cerebellum controls coordination and balance. The pons assists with respiratory control but is not the primary center. The cerebral cortex controls voluntary functions and consciousness."}, {"id": "thorax_assessment", "slide": 999, "question": "When assessing the thorax, the nurse should auscultate the lungs:", "options": ["Only on the anterior chest", "Only on the posterior chest", "Bilaterally in a systematic manner", "Only if crackles are heard"], "answer": [2], "rationale": "Upper Respiratory MS1 slide 7 states that lung auscultation should be performed bilaterally in a systematic manner. Anterior chest assessment alone misses posterior lung fields. Posterior assessment alone misses anterior fields. Systematic bilateral assessment ensures complete evaluation. Auscultation only when crackles are heard would miss other important findings."}, {"id": "coarse_crackles", "slide": 999, "question": "Coarse crackles heard during lung auscultation are typically caused by:", "options": ["Fluid in the alveoli", "Narrowing of small airways", "Secretions in larger airways", "Fibrotic changes in lung tissue"], "answer": [2], "rationale": "Upper Respiratory MS1 slide 7 describes coarse crackles as caused by secretions accumulating in larger airways, usually cleared with coughing. Fine crackles are caused by fluid in alveoli. Narrowing of small airways causes wheezes. Fibrotic changes in lung tissue cause crackles but are typically fine, not coarse."}, {"id": "rifampin_tb", "slide": 999, "question": "A client prescribed rifampin for tuberculosis develops reddish-orange colored secretions. The nurse understands this is:", "options": ["An allergic reaction requiring immediate discontinuation", "A harmless side effect of the medication", "A sign of treatment failure", "An indication to increase the dose"], "answer": [1], "rationale": "In Class Quiz 19 review states 'Rifampin - TB drug, REDDISH/ORAGNE SECRETIONS' indicating this is a harmless side effect. An allergic reaction would require immediate discontinuation and show different symptoms like rash or anaphylaxis. A sign of treatment failure would show worsening clinical symptoms. Increasing the dose would not address discoloration and could cause toxicity."}, {"id": "tb_diagnosis", "slide": 999, "question": "A client has a positive TB skin test but no active disease. Which diagnostic test should be used to confirm latent TB?", "options": ["Repeat tuberculin skin test in 3 months", "QuantiFERON-TB Gold blood test", "Chest X-ray only", "Sputum culture for acid-fast bacilli"], "answer": [1], "rationale": "In Class Quiz 19 review states 'If you have +TB test intradermally, you will always test positive. Must use QuantiFERON or Chest x-ray.' Repeat skin testing is not useful due to persistent positivity. Chest X-ray alone cannot confirm latent TB. Sputum culture is for active TB diagnosis, not latent."}, {"id": "antitussive_action", "slide": 999, "question": "An antitussive medication works by:", "options": ["Thinning respiratory secretions", "Suppressing the cough reflex in the brain", "Relaxing bronchial smooth muscle", "Reducing airway inflammation"], "answer": [1], "rationale": "In Class Quiz 19 review states 'What does an anti-tussive: SUPPRESSES COUGH REFLEX.' Expectorants thin secretions rather than suppress cough. Bronchodilators relax smooth muscle but don't affect cough reflex. Anti-inflammatory agents reduce inflammation but don't directly suppress cough."}, {"id": "codeine_side_effects", "slide": 999, "question": "A client prescribed codeine for cough suppression should be monitored for which side effects?", "options": ["Hypertension and tachycardia", "Drowsiness and sedation", "Nausea and vomiting", "Increased respiratory rate"], "answer": [1], "rationale": "In Class Quiz 19 review states 'Side effect of codeine: DROWSINESS AND SEDATION.' Hypertension and tachycardia are not typical opioid side effects. Nausea/vomiting can occur but sedation is the primary CNS effect. Increased respiratory rate would be paradoxical and not expected with opioids."}, {"id": "isoniazid_duration", "slide": 999, "question": "Isoniazid (INH) for latent tuberculosis infection is typically prescribed for:", "options": ["2 weeks", "1 month", "6 months", "9 months"], "answer": [3], "rationale": "In Class Quiz 19 review states 'How long Isoniazid, how long to prescribe? 9 MONTHS.' 2 weeks would be inadequate for LTBI treatment. 1 month is insufficient duration. 6 months is shorter than recommended for full protection."}, {"id": "mdi_purpose", "slide": 999, "question": "The primary purpose of using a metered-dose inhaler (MDI) is to:", "options": ["Reduce medication side effects", "Increase medication delivery to the lungs", "Decrease treatment frequency", "Eliminate the need for spacers"], "answer": [1], "rationale": "In Class Quiz 19 review states 'Why use a metered dose inhaler? TO INCREASE THE INTAKE OF THE MEDICATION REACHING THE LUNGS.' MDIs create a fine mist for optimal lung deposition. Reducing dosage would not address delivery issues. Decreasing frequency would not improve delivery. Eliminating spacers would worsen delivery in patients who need them."}, {"id": "mdi_spacer", "slide": 999, "question": "A spacer is used with a metered-dose inhaler (MDI) to:", "options": ["Reduce medication dosage requirements", "Improve delivery of medication into the lungs", "Prevent medication interactions", "Decrease treatment cost"], "answer": [1], "rationale": "Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers' states 'A spacer is used to improve delivery of medication into the lungs.' This provides time for proper aerosolization. Reducing dosage requirements is not the primary purpose. Spacers don't prevent interactions. Treatment cost is not affected by spacer use."}, {"id": "inhaled_corticosteroid_rinse", "slide": 999, "question": "After using inhaled corticosteroids, the client should rinse their mouth to prevent:", "options": ["Dry mouth and throat irritation", "Oral thrush and candidiasis", "Bad taste and nausea", "Increased heart rate"], "answer": [1], "rationale": "Quiz Review #19 under 'Metered-Dose Inhalers (MDIs) & Spacers' states 'After inhaled corticosteroids, the client should rinse the mouth to prevent oral complications such as thrush or oral candidiasis.' Dry mouth is not the primary concern. Oral thrush is the specific complication mentioned. Bad taste is possible but not the main reason. Heart rate changes are not associated with inhaled corticosteroids."}, {"id": "rapid_relief_medications", "slide": 999, "question": "Rapid relief bronchodilator medications are primarily used for:", "options": ["Long-term inflammation prevention", "Acute dyspnea, wheezing, and accessory muscle use", "Daily maintenance therapy", "Prevention of asthma attacks"], "answer": [1], "rationale": "Quiz Review #19 under 'Bronchodilators vs. Anti-inflammatory Therapy' states rapid relief medications are 'used for acute dyspnea, wheezing, and accessory muscle use' by 'relaxing bronchial smooth muscle.' Long-term control medications are for inflammation prevention. Daily maintenance therapy describes controller medications. Prevention of attacks is a goal but not the immediate use."}, {"id": "opioid_cough_monitoring", "slide": 999, "question": "A client prescribed codeine for cough suppression should be monitored for opioid-related side effects including:", "options": ["Hypertension and tachycardia", "Sedation, constipation, and urinary retention", "Nausea, vomiting, and diarrhea", "Increased respiratory rate and wheezing"], "answer": [1], "rationale": "Quiz Review #19 under 'Antitussives & Cough Management' states opioid-based cough medications require monitoring for 'sedation, constipation, urinary retention.' These are classic opioid side effects. Hypertension and tachycardia are not typical opioid effects. Nausea/vomiting occur but sedation is the primary concern. Increased respiratory rate would be unexpected with opioid use."}, {"id": "tb_medication_timing", "slide": 999, "question": "Rifampin for tuberculosis treatment should be taken:", "options": ["With meals to improve absorption", "On an empty stomach", "With antacids to prevent stomach upset", "At bedtime to minimize side effects"], "answer": [1], "rationale": "Quiz Review #19 under 'Tuberculosis (TB) Expected clinical manifestations' states rifampin should be taken 'on an empty stomach' for proper absorption. Taking with meals reduces effectiveness. Antacids don't affect rifampin timing. Bedtime dosing doesn't address the absorption requirement."}, {"id": "pneumonia_fluids", "slide": 999, "question": "To thin respiratory secretions in pneumonia, the nurse should encourage:", "options": ["Increased fluid intake", "Decreased fluid intake to reduce sputum volume", "Thickened liquids only", "Carbonated beverages"], "answer": [0], "rationale": "Quiz Review #19 under 'Pneumonia \u2013 Oxygenation & Secretion Management' emphasizes that 'thinning secretions requires adequate fluid intake' to facilitate clearance in pneumonia patients. Dehydration thickens secretions and impairs ciliary function. Decreased fluid intake would worsen secretion viscosity. Thickened liquids are prescribed for dysphagia, not to thin secretions. Carbonated beverages don't provide the sustained hydration needed for secretion management."}, {"id": "copd_upright_positioning", "slide": 999, "question": "Upright positioning in COPD improves:", "options": ["Diaphragmatic excursion and lung expansion", "Blood pressure and cardiac output", "Urine output and kidney function", "Sleep quality and duration"], "answer": [0], "rationale": "Upright positioning allows better diaphragmatic excursion and lung expansion, improving ventilation and gas exchange in COPD."}, {"id": "tracheostomy_suctioning_priority", "slide": 999, "question": "Before performing tracheostomy suctioning, the nurse's first action should be to:", "options": ["Hyperoxygenate the patient", "Collect respiratory assessment data", "Prepare suction equipment", "Administer pain medication"], "answer": [1], "rationale": "Collecting respiratory data first ensures suctioning is indicated and helps determine the appropriate timing for hyperoxygenation."}, {"id": "home_oxygen_fire_safety", "slide": 999, "question": "Home oxygen therapy increases fire risk. Which precaution is most important?", "options": ["Keep oxygen at least 10 feet from electrical outlets", "Avoid petroleum-based products and open flames", "Use extension cords for oxygen concentrators", "Store oxygen cylinders in the garage"], "answer": [1], "rationale": "Oxygen supports combustion, so avoiding petroleum-based products (which are flammable) and open flames is critical for fire safety."}, {"id": "respiratory_acidosis_details", "slide": 999, "question": "In uncompensated respiratory acidosis, which ABG findings are expected?", "options": ["pH elevated, PaCO2 decreased, HCO3 normal", "pH decreased, PaCO2 elevated, HCO3 normal", "pH decreased, PaCO2 normal, HCO3 elevated", "pH elevated, PaCO2 elevated, HCO3 decreased"], "answer": [1], "rationale": "Respiratory acidosis shows decreased pH and elevated PaCO2. In uncompensated states, bicarbonate remains normal initially."}, {"id": "aspiration_hoarse_voice", "slide": 999, "question": "A client with hoarse voice after swallowing should be evaluated for:", "options": ["Gastroesophageal reflux disease", "Aspiration risk requiring immediate follow-up", "Laryngitis that will resolve spontaneously", "Allergic reaction to food"], "answer": [1], "rationale": "Hoarse voice after swallowing indicates possible aspiration and requires immediate evaluation to prevent complications."}];
-window.availableExams = window.availableExams || [];
-window.availableExams.push({id: 'chronic_respiratory_exam', name: 'Chronic Respiratory Diseases Exam', data: window.chronicrespiratoryexamExamData});
-console.log('Created exam module: Chronic Respiratory Diseases Exam with 38 questions');
-window.customMissions = window.customMissions || [];
-window.customMissions = window.customMissions.concat([{"id": "placeholder_mission", "numerical_id": 51, "steps": [{"type": "patient_info", "content": "Placeholder patient info for advanced missions"}]}]);
-console.log('Injected 1 NGN missions from advanced_missions');
-window.availableExams = window.availableExams || [];
-if(window.lectureExamData && window.lectureExamData.length > 0) {
-    window.availableExams.push({id: 'original_cardiac', name: 'Cardiovascular & Diabetes Pharmacology Exam (Original)', data: window.lectureExamData});
-    console.log('Included original cardiac exam with ' + window.lectureExamData.length + ' questions');
-}
-</script>
-</body>
-
-</html>
+const data_pain_opioid_agonists = [
+    {
+        g: "Morphine", b: "MS Contin, Kadian (ER); Roxanol (oral solution)", c: "Opioid Agonist (Mu-receptor)", cat: "pain",
+        m: "Binds to mu-opioid receptors in the CNS and peripheral tissues, inhibiting ascending pain pathways and altering perception of and emotional response to pain. Produces analgesia, euphoria, sedation, and respiratory depression. Prototype opioid against which all others are compared.",
+        ind: "Severe acute and chronic pain. Post-surgical pain. Cancer pain. Myocardial infarction pain. Used in patient-controlled analgesia (PCA) pumps. Available oral, parenteral, rectal, and epidural.",
+        con: "Respiratory insufficiency or depression. Head injuries with elevated intracranial pressure (masks neurological signs). Paralytic ileus. Severe hepatic or renal disease (toxic metabolites accumulate in kidneys). Obesity and obstructive sleep apnea. Myasthenia gravis. Pregnancy (neonatal withdrawal).",
+        aec: "Nausea, vomiting, constipation, pruritus (itching), sweating, dizziness, sedation.",
+        aes: "RESPIRATORY DEPRESSION — most dangerous effect. Hypotension, bradycardia. CNS depression (disorientation, dysphoria, euphoria). Urinary retention. Biliary tract spasm (avoid in biliary colic). OPIOID TOXICITY TRIAD: respiratory depression + coma + pinpoint pupils (miosis).",
+        inter: [
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Cumulative sedation and respiratory depression — potentially fatal.", s: "high"},
+            {d: "Tricyclic Antidepressants", m: "Additive CNS depression and sedation.", s: "med"},
+            {d: "Antihistamines", m: "Additive sedation and CNS depression.", s: "med"},
+            {d: "MAOIs", m: "Severe, unpredictable potentiation of opioid effects.", s: "high"}
+        ],
+        dosage: "Oral IR: 15-30mg every 4 hours PRN. Oral ER (MS Contin): 15-200mg every 8-12 hours. IV: 2-10mg every 2-4 hours (titrate). PCA: 1-2mg demand dose with lockout interval. Rectal: 10-20mg every 4 hours.",
+        admin: "Oral immediate-release and extended-release (ER) formulations available. ER tablets (MS Contin, Kadian) must NOT be crushed, chewed, or dissolved — risk of fatal dose dumping. IV push over 4-5 minutes. Rectal and epidural routes also available.",
+        nurse: "MONITOR RESPIRATORY RATE — hold medication if RR < 12/min and notify provider. Assess pain before and after administration (30 min post-IV, 60 min post-PO). Monitor vital signs, O2 saturation, and mental status. Toxic metabolites accumulate in kidneys — consider alternative opioids for renal insufficiency. Keep naloxone (Narcan) readily available. Assess bowel function (prescribe bowel regimen). Evaluate for urinary retention. Safety precautions for fall risk due to sedation/orthostatic hypotension."
+    },
+    {
+        g: "Codeine", b: "Tylenol #3, #4 (with acetaminophen)", c: "Opioid Agonist (Mu-receptor)", cat: "pain",
+        m: "Prodrug that is partially converted to morphine by CYP2D6 in the liver. Weak mu-opioid receptor agonist. Also suppresses the cough reflex by direct action on the medullary cough center. The ONLY opioid agonist that has a true 'ceiling effect' — increasing dose beyond a certain point does not produce greater analgesia.",
+        ind: "Mild to moderate pain (typically in combination with acetaminophen). Cough suppression (antitussive). Schedule II alone; Schedule III when combined with acetaminophen.",
+        con: "Respiratory depression. Known CYP2D6 ultra-rapid metabolizers (risk of fatal respiratory depression, especially in children — FDA black box). Post-tonsillectomy/adenoidectomy in children (contraindicated). Same general opioid contraindications as morphine.",
+        aec: "Nausea, vomiting, stomach upset (more GI upset than other opioids), constipation, drowsiness, dizziness, lightheadedness.",
+        aes: "Respiratory depression (especially in CYP2D6 ultra-rapid metabolizers). Severe hypotension. Seizures (rare, high doses). Same opioid toxicity triad as morphine at high doses.",
+        inter: [
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Additive sedation and respiratory depression.", s: "high"},
+            {d: "CYP2D6 Inhibitors (Fluoxetine, Paroxetine)", m: "Reduce conversion to morphine → decreased analgesic effect.", s: "med"},
+            {d: "Acetaminophen (combination products)", m: "Monitor total acetaminophen intake — risk of hepatotoxicity if exceeding 3-4g/day.", s: "high"}
+        ],
+        dosage: "Adults: 15-60mg PO every 4-6 hours PRN. Maximum 360mg/day. Antitussive: 10-20mg every 4-6 hours. Combination (Tylenol #3): codeine 30mg + acetaminophen 300mg per tablet.",
+        admin: "Oral only (tablets, liquid). Often prescribed in combination with acetaminophen. Take with food to reduce GI upset.",
+        nurse: "Monitor for respiratory depression. Typically not used as primary analgesic — only opioid with ceiling effect. Track total acetaminophen dose when using combination products (Tylenol #3). Genetic variations in CYP2D6 affect efficacy — poor metabolizers get little pain relief, ultra-rapid metabolizers are at risk for toxicity. Not recommended in children for cough or post-tonsillectomy pain."
+    },
+    {
+        g: "Oxycodone", b: "OxyContin (ER); Percocet (with APAP); Percodan (with ASA)", c: "Opioid Agonist (Mu-receptor)", cat: "pain",
+        m: "Semi-synthetic opioid that binds to mu-opioid receptors in the CNS, producing analgesia similar to morphine. Also has some kappa-receptor agonist activity. Approximately 1.5× more potent than oral morphine.",
+        ind: "Moderate to severe pain. Available as immediate-release (IR) and extended-release (ER) formulations. Often combined with acetaminophen (Percocet) or aspirin (Percodan) for enhanced analgesia.",
+        con: "Same as morphine: respiratory depression, head injuries/elevated ICP, paralytic ileus, severe asthma/COPD without monitoring. GI obstruction (especially ER formulation). Opioid-naïve patients should NOT start on ER formulations.",
+        aec: "Nausea, vomiting, constipation, drowsiness, dizziness, pruritus, dry mouth.",
+        aes: "Respiratory depression. Hypotension. Opioid toxicity triad. Severe constipation/bowel obstruction. HIGH ABUSE POTENTIAL — OxyContin abuse was a major driver of the opioid epidemic.",
+        inter: [
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Potentially fatal respiratory depression and sedation.", s: "high"},
+            {d: "CYP3A4 Inhibitors (Ketoconazole, Erythromycin)", m: "Increased oxycodone levels → enhanced effects and toxicity.", s: "high"},
+            {d: "Acetaminophen (Percocet)", m: "Monitor combined acetaminophen intake — hepatotoxicity risk above 3-4g/day.", s: "high"}
+        ],
+        dosage: "IR: 5-15mg PO every 4-6 hours PRN. ER (OxyContin): 10-80mg every 12 hours (opioid-tolerant patients only for higher doses). Percocet: oxycodone 5mg/acetaminophen 325mg, 1-2 tabs every 6 hours.",
+        admin: "Oral. ER tablets must NOT be crushed, broken, or chewed — risk of rapid release and fatal overdose. IR available as tablets, capsules, and oral solution. Combination products (Percocet) — track total acetaminophen dose.",
+        nurse: "Monitor respiratory rate, O2 saturation, pain level, and sedation. ER formulations are for opioid-TOLERANT patients only — starting opioid-naïve patients on ER can be fatal. When using Percocet, track ALL sources of acetaminophen. Assess for signs of misuse/diversion. Educate patient on safe storage and disposal. Keep naloxone available."
+    },
+    {
+        g: "Hydrocodone", b: "Vicodin, Norco (with APAP); Zohydro ER", c: "Opioid Agonist (Mu-receptor)", cat: "pain",
+        m: "Semi-synthetic opioid that binds to mu-opioid receptors in the CNS. Similar mechanism to morphine but relatively weaker than oxycodone. Also has antitussive (cough suppressant) properties.",
+        ind: "Moderate to moderately severe pain. Most commonly prescribed as a combination product with acetaminophen (Vicodin, Norco). Also used as antitussive in some formulations. Most frequently prescribed opioid in the United States.",
+        con: "Same general opioid contraindications: respiratory depression, severe asthma/COPD without monitoring, paralytic ileus, head injury/elevated ICP. Known hypersensitivity.",
+        aec: "Nausea, vomiting, constipation, drowsiness, dizziness, lightheadedness.",
+        aes: "Respiratory depression. Hypotension. Opioid toxicity triad. HEPATOTOXICITY from the acetaminophen component in combination products (Vicodin/Norco) — major concern with overuse.",
+        inter: [
+            {d: "CNS Depressants (Alcohol, Benzodiazepines)", m: "Additive CNS and respiratory depression.", s: "high"},
+            {d: "CYP3A4 Inhibitors", m: "Increased hydrocodone plasma levels → toxicity risk.", s: "med"},
+            {d: "Acetaminophen (combination products)", m: "Track total APAP intake across ALL medications — max 3-4g/day.", s: "high"}
+        ],
+        dosage: "Norco: hydrocodone 5-10mg/acetaminophen 325mg, 1-2 tabs every 4-6 hours PRN. Maximum based on acetaminophen component (do not exceed 3-4g/day APAP). ER (Zohydro): 10mg every 12 hours, titrate.",
+        admin: "Oral. Most commonly prescribed in combination with acetaminophen. ER formulations must NOT be crushed or chewed. Take with food to reduce GI upset.",
+        nurse: "Weaker than oxycodone — appropriate for moderate pain. Critical to monitor total acetaminophen intake when using Norco/Vicodin — patients often unaware of APAP content. Educate: do NOT take additional Tylenol with Norco. Monitor respiratory status, pain assessment, bowel function. Assess for misuse — most commonly prescribed opioid and frequently abused."
+    },
+    {
+        g: "Hydromorphone", b: "Dilaudid", c: "Opioid Agonist (Mu-receptor)", cat: "pain",
+        m: "Semi-synthetic opioid derived from morphine. Binds to mu-opioid receptors with high affinity. Approximately 7 TIMES MORE POTENT than morphine — a critical safety distinction. Produces potent analgesia, sedation, and respiratory depression.",
+        ind: "Moderate to severe pain in opioid-tolerant patients. Post-surgical pain. Cancer pain. When morphine is not tolerated or is ineffective.",
+        con: "Same as morphine. Opioid-naïve patients at HIGH risk due to potency. Respiratory depression. Severe asthma without monitoring. Head injury/elevated ICP. Paralytic ileus.",
+        aec: "Nausea, vomiting, constipation, sedation, dizziness, pruritus, sweating.",
+        aes: "RESPIRATORY DEPRESSION (amplified by high potency). Severe hypotension. Opioid toxicity triad. CNS depression. HIGH-ALERT MEDICATION — frequently involved in fatal medication errors.",
+        inter: [
