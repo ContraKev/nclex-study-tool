@@ -845,6 +845,16 @@
                 <div class="container" style="max-width: 900px;"><div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3 border-secondary"><h3 class="text-accent fw-bold">${examName} <span id="examProgress" class="ms-3 fs-5 text-white-50"></span></h3><div class="d-flex align-items-center gap-2"><input type="number" id="jumpQuestionInput" class="form-control form-control-sm" placeholder="Question #" min="1" max="${window.examData.length}" style="width: 80px;"><button class="btn btn-outline-info btn-sm" onclick="jumpToQuestion()">Jump</button><button class="btn btn-outline-danger btn-sm" onclick="closeExam()">Exit</button></div></div><div id="questionContainer"></div><div id="feedbackContainer" class="mt-4 p-4 rounded d-none" style="border: 2px solid var(--border);"></div><div class="mt-5 d-flex justify-content-between"><button class="btn btn-outline-secondary btn-lg" onclick="prevQuestion()">Back</button><button id="actionBtn" class="btn btn-warning btn-lg" onclick="handleAction()">SUBMIT</button></div></div></div>`;
             document.body.insertAdjacentHTML('beforeend', modalHtml);
         }
+        function shuffleArray(arr) { const a = [...arr]; for (let i = a.length-1; i > 0; i--) { const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+        function moveOrderItem(button, direction) {
+            const item = button.closest('.ordering-item');
+            const list = document.getElementById('ordering-list');
+            if (!item || !list) return;
+            if (direction === -1 && item.previousElementSibling) list.insertBefore(item, item.previousElementSibling);
+            else if (direction === 1 && item.nextElementSibling) list.insertBefore(item.nextElementSibling, item);
+            list.querySelectorAll('.ordering-item').forEach((el, i) => { el.querySelector('.ordering-number').textContent = i + 1; });
+        }
+        window.moveOrderItem = moveOrderItem;
         function renderQuestion() {
             const q = window.examData[window.currentQuestionIndex];
             document.getElementById('examProgress').innerText = `(${window.currentQuestionIndex + 1} / ${window.examData.length})`;
@@ -852,6 +862,14 @@
             let qHtml = `<h2 class="text-white mb-4">${window.currentQuestionIndex + 1}. ${q.question}</h2>`;
             if (q.type === 'matrix') {
                 qHtml += `<div class="table-responsive"><table class="table table-dark table-bordered align-middle"><thead><tr><th class="text-white-50">Finding</th>${q.columns.map(c => `<th class="text-center text-warning">${c}</th>`).join('')}</tr></thead><tbody>${q.rows.map((r, ri) => `<tr><td class="text-white">${r.text}</td>${q.columns.map((c, ci) => `<td class="text-center"><input type="radio" name="matrix-row-${ri}" value="${ci}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+            } else if (q.type === 'bowtie') {
+                const leftOpts = shuffleArray(q.left_actions.options);
+                const centerOpts = shuffleArray(q.center_condition.options);
+                const rightOpts = shuffleArray(q.right_monitor.options);
+                qHtml += `<div class="bowtie-container"><div class="bowtie-wing left"><div class="bowtie-label">Actions (select 2)</div>${leftOpts.map(o => `<label class="bw-option"><input type="checkbox" name="bw-l" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div><div class="bowtie-center"><div class="bowtie-label">Condition</div><select id="bw-c" class="form-select form-select-lg bg-dark text-white border-warning"><option value="" disabled selected>Select Condition...</option>${centerOpts.map(o => `<option value="${o}">${o}</option>`).join('')}</select></div><div class="bowtie-wing right"><div class="bowtie-label">Monitor (select 2)</div>${rightOpts.map(o => `<label class="bw-option"><input type="checkbox" name="bw-r" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div></div>`;
+            } else if (q.type === 'ordering') {
+                const items = shuffleArray(q.options);
+                qHtml += `<div class="ordering-question"><div class="text-secondary small mb-3"><i class="fas fa-sort me-1"></i>Use the arrows to arrange items in the correct order (top = first):</div><div id="ordering-list" class="list-group">${items.map((item, i) => `<div class="list-group-item bg-secondary text-white border-secondary mb-2 py-3 px-4 rounded-4 d-flex align-items-center justify-content-between ordering-item" data-value="${item}"><span class="ordering-number badge bg-dark me-3">${i + 1}</span><span class="flex-grow-1 fs-5">${item}</span><div class="d-flex flex-column ms-3"><button class="btn btn-sm btn-outline-light mb-1" onclick="moveOrderItem(this, -1)"><i class="fas fa-chevron-up"></i></button><button class="btn btn-sm btn-outline-light" onclick="moveOrderItem(this, 1)"><i class="fas fa-chevron-down"></i></button></div></div>`).join('')}</div></div>`;
             } else {
                 const order = q.options.map((_, i) => i);
                 for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
@@ -870,6 +888,20 @@
                 if (!allAnswered) return;
                 isCorrect = q.rows.every((r, ri) => parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value) === r.correct_col_idx);
                 sel = q.rows.map((r, ri) => ({ row: r.text, selected: q.columns[parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value)] }));
+            } else if (q.type === 'bowtie') {
+                const diag = document.getElementById('bw-c')?.value;
+                const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
+                const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
+                if (!diag || l.length === 0 || r.length === 0) return;
+                isCorrect = diag === q.center_condition.answer &&
+                    l.length === 2 && l.every(v => q.left_actions.answer.includes(v)) &&
+                    r.length === 2 && r.every(v => q.right_monitor.answer.includes(v));
+                sel = { condition: diag, actions: l, monitors: r };
+            } else if (q.type === 'ordering') {
+                const items = Array.from(document.querySelectorAll('.ordering-item')).map(el => el.dataset.value);
+                if (items.length === 0) return;
+                isCorrect = items.length === q.answer.length && items.every((v, i) => v === q.answer[i]);
+                sel = items;
             } else {
                 sel = Array.from(document.querySelectorAll('input[name="qOption"]:checked')).map(input => q.options[parseInt(input.value)]);
                 if (sel.length === 0) return;
