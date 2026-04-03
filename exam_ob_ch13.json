@@ -1,0 +1,231 @@
+{
+  "id": "ob_ch13_preterm_postterm",
+  "name": "OB Chapter 13: Preterm and Postterm Newborns Quiz",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "preterm_definition",
+      "question": "A newborn born at 35 weeks gestation is classified as:",
+      "options": [
+        "Early term",
+        "Full term",
+        "Preterm",
+        "Late term"
+      ],
+      "answer": [2],
+      "rationale": "Preterm is defined as <37 weeks. Early term is 37-38+6, full term is 39-40+6, late term is 41-41+6, postterm is ≥42 weeks."
+    },
+    {
+      "id": "ballard_score",
+      "question": "The Ballard Score is used to:",
+      "options": [
+        "Assess newborn pain levels",
+        "Estimate gestational age based on external characteristics and neurological development",
+        "Calculate Apgar score",
+        "Determine bilirubin levels"
+      ],
+      "answer": [1],
+      "rationale": "The Ballard Score estimates gestational age within 1-2 weeks based on the infant's external physical characteristics and neurological development (reflexes, posture, etc.)."
+    },
+    {
+      "id": "surfactant_rds",
+      "question": "Respiratory Distress Syndrome (RDS) in preterm infants is caused by:",
+      "options": [
+        "Excessive surfactant production",
+        "Surfactant deficiency due to lung immaturity",
+        "Pneumonia from maternal infection",
+        "Meconium aspiration"
+      ],
+      "answer": [1],
+      "rationale": "RDS (hyaline membrane disease) is caused by deficient synthesis or release of surfactant—a fatty protein necessary for oxygen absorption in the alveoli. Preterm lungs are immature and don't produce enough surfactant."
+    },
+    {
+      "id": "rds_signs",
+      "question": "Which of the following are classic signs of RDS? (Select all that apply.)",
+      "type": "sata",
+      "options": [
+        "Respiratory rate >60 breaths/min",
+        "Grunting and nasal flaring",
+        "Intercostal and sternal retractions",
+        "Cyanosis",
+        "Apnea"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "RDS signs include tachypnea (>60), grunting, nasal flaring, cyanosis, and retractions. Apnea is a separate complication but can occur with worsening RDS."
+    },
+    {
+      "id": "surfactant_treatment",
+      "question": "The primary treatment for RDS includes:",
+      "options": [
+        "Oral antibiotics and chest physiotherapy",
+        "Surfactant administration via ET tube and oxygen therapy",
+        "Phototherapy and exchange transfusion",
+        "IV calcium gluconate"
+      ],
+      "answer": [1],
+      "rationale": "RDS is treated with exogenous surfactant administered via endotracheal tube, along with oxygen therapy and possibly mechanical ventilation. Corticosteroids (betamethasone) given 24-48h before delivery can increase surfactant production."
+    },
+    {
+      "id": "apnea_definition",
+      "question": "Apnea in a newborn is defined as:",
+      "options": [
+        "Cessation of breathing for 10 seconds",
+        "Cessation of breathing for 20 seconds or longer",
+        "Respiratory rate <30 breaths/min",
+        "Any period of irregular breathing"
+      ],
+      "answer": [1],
+      "rationale": "Apnea is defined as cessation of breathing for 20 seconds or longer, often accompanied by bradycardia (<110 bpm) and cyanosis. Apnea monitors alert nurses to this complication."
+    },
+    {
+      "id": "apnea_intervention",
+      "question": "The FIRST intervention for a newborn experiencing apnea is:",
+      "options": [
+        "Immediate intubation",
+        "Gentle stimulation (rubbing feet, ankles, back)",
+        "Start IV fluids",
+        "Administer epinephrine"
+      ],
+      "answer": [1],
+      "rationale": "First intervention is gentle stimulation—rubbing the infant's feet, ankles, or back. If that fails, suction nose/mouth and position head semi-Fowler's. Ambu bag is used if infant doesn't begin breathing."
+    },
+    {
+      "id": "thermoregulation_preterm",
+      "question": "Why are preterm infants at high risk for hypothermia?",
+      "options": [
+        "They have excess brown fat",
+        "They have lack of subcutaneous fat and brown fat, cannot shiver, and have immature heat-regulating centers",
+        "They have overactive sweat glands",
+        "Their metabolism is too low"
+      ],
+      "answer": [1],
+      "rationale": "Preterm infants lack brown fat and subcutaneous insulation, have immature heat-regulating centers in the brain, cannot shiver, have high metabolism but weak muscles, and cannot conserve heat well. Skin temperature falls before core temperature."
+    },
+    {
+      "id": "optimal_temp",
+      "question": "The optimal body temperature range for a preterm infant is:",
+      "options": [
+        "35.5-36.0°C (95.9-96.8°F)",
+        "36.2-37°C (97.1-98.6°F)",
+        "37.5-38.0°C (99.5-100.4°F)",
+        "38.0-38.5°C (100.4-101.3°F)"
+      ],
+      "answer": [1],
+      "rationale": "Optimal temperature for a preterm infant is 36.2-37°C (97.1-98.6°F). Skin probe on right upper quadrant of abdomen monitors temperature; incubator adjusted accordingly."
+    },
+    {
+      "id": "hypoglycemia_preterm",
+      "question": "Preterm infants are at high risk for hypoglycemia because:",
+      "options": [
+        "They have excessive glycogen stores",
+        "They have not remained in utero long enough to build up stores of glycogen and fat",
+        "Their pancreas produces too much insulin",
+        "They metabolize glucose too slowly"
+      ],
+      "answer": [1],
+      "rationale": "Preterm infants have not had time in utero to build adequate glycogen and fat stores. Combined with high glucose needs for brain, heart, and other tissues, they commonly develop hypoglycemia (<40 mg/dL term, <30 mg/dL preterm)."
+    },
+    {
+      "id": "nec_signs",
+      "question": "Which signs are characteristic of Necrotizing Enterocolitis (NEC)? (Select all that apply.)",
+      "type": "sata",
+      "options": [
+        "Abdominal distention",
+        "Bloody stools",
+        "Bilious vomiting",
+        "Diarrhea",
+        "Clear lung sounds"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "NEC signs include abdominal distention, bloody stools, bilious vomiting, and diarrhea. It's acute inflammation of the bowel leading to necrosis, often from diminished blood supply due to hypoxia/sepsis."
+    },
+    {
+      "id": "nec_nursing",
+      "question": "Nursing care for an infant with NEC includes:",
+      "options": [
+        "Encouraging frequent feedings",
+        "Observing vital signs, measuring abdomen, auscultating bowel sounds, NPO, IV fluids",
+        "Administering oral antibiotics",
+        "Positioning prone with head flat"
+      ],
+      "answer": [1],
+      "rationale": "NEC care: NPO, IV fluids, observe VS, measure abdomen, auscultate bowel sounds, antibiotics, possible surgery. Infection control is essential."
+    },
+    {
+      "id": "rop_prevention",
+      "question": "Prevention of Retinopathy of Prematurity (ROP) includes:",
+      "options": [
+        "High oxygen concentrations to ensure tissue perfusion",
+        "Careful monitoring of oxygen saturation to maintain safe levels, and adequate vitamin E",
+        "Early eye surgery",
+        "Avoiding all oxygen therapy"
+      ],
+      "answer": [1],
+      "rationale": "ROP prevention: Monitor O2 sat carefully with pulse oximeter, maintain safe levels to sustain life while preventing neurological damage. Adequate vitamin E levels may help. Excessively high O2 concentrations increase ROP risk."
+    },
+    {
+      "id": "kangaroo_care",
+      "question": "Kangaroo care (skin-to-skin contact) provides which benefits for preterm infants? (Select all that apply.)",
+      "type": "sata",
+      "options": [
+        "Promotes bonding and attachment",
+        "Improves thermoregulation",
+        "Enhances stabilization of vital signs",
+        "Promotes development",
+        "Reduces breastfeeding success"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Kangaroo care promotes bonding, thermoregulation, infant stabilization, and development. It actually ENHANCES breastfeeding success, not reduces it."
+    },
+    {
+      "id": "postterm_characteristics",
+      "question": "Which characteristics are typical of a postterm newborn (≥42 weeks)? (Select all that apply.)",
+      "type": "sata",
+      "options": [
+        "Dry, cracked, peeling skin",
+        "Little lanugo and vernix",
+        "Long nails, possibly meconium-stained",
+        "Loose skin around buttocks and thighs",
+        "Abundant vernix"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Postterm infants have dry peeling skin, little lanugo/vernix (used up), long nails often meconium-stained, and loose/wasted skin. Abundant vernix is a PRETERM characteristic."
+    },
+    {
+      "id": "postterm_risks",
+      "question": "Postterm infants are at increased risk for:",
+      "options": [
+        "RDS and surfactant deficiency",
+        "Asphyxia, meconium aspiration, and difficult delivery due to size",
+        "ROP and NEC",
+        "Patent ductus arteriosus"
+      ],
+      "answer": [1],
+      "rationale": "Postterm infants face asphyxia, meconium aspiration (placenta functions poorly → fetal distress), poor nutritional status, polycythemia, difficult delivery (larger size), and higher mortality/morbidity than term infants."
+    },
+    {
+      "id": "jaundice_preterm",
+      "question": "Why are preterm infants at higher risk for pathological hyperbilirubinemia?",
+      "options": [
+        "Their liver matures faster than term infants",
+        "The normal rise in bilirubin is slower and lasts longer, predisposing to accumulation",
+        "They have excess RBCs that don't break down",
+        "Phototherapy is contraindicated"
+      ],
+      "answer": [1],
+      "rationale": "In preterm infants, the normal bilirubin rise is slower than in full-term infants and lasts longer, predisposing them to hyperbilirubinemia. An increase >5mg/dL in 24h or level >12.9 mg/dL requires investigation."
+    },
+    {
+      "id": "discharge_preterm",
+      "question": "Discharge planning for the high-risk (preterm) newborn should include:",
+      "options": [
+        "Waiting until the infant is 40 weeks corrected age",
+        "Parent demonstration of routine and specialized care, home nursing visits, newborn CPR review",
+        "No follow-up needed if infant is stable",
+        "Immediate discharge regardless of parent readiness"
+      ],
+      "answer": [1],
+      "rationale": "Discharge begins at birth. Parents must demonstrate care skills. Home nursing visits assess infant and home. Newborn CPR, realistic expectations, support groups, and warm lines for phone support are provided."
+    }
+  ]
+}

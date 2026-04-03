@@ -1,0 +1,172 @@
+=== SLIDE 1 ===
+Chapter 13
+Preterm and Postterm Newborns
+
+=== SLIDE 2 ===
+Lesson 13.1 Objectives
+Define each key word listed.
+Differentiate between the preterm and the low-birthweight newborn.
+List three causes of preterm birth.
+Describe selected problems of preterm birth and the nursing goals associated with each problem.
+
+=== KEY TERMS ===
+IUGR (Intrauterine Growth Restriction)
+SGA (Small for Gestational Age) - weight below 10th percentile
+LGA (Large for Gestational Age) - weight above 90th percentile or >4000g
+Ballard Score - estimates gestational age based on external characteristics and neurological development
+Surfactant - fatty protein necessary for lung oxygen absorption
+RDS (Respiratory Distress Syndrome) - hyaline membrane disease from lung immaturity
+Apnea - cessation of breathing >20 seconds
+Sepsis - generalized bloodstream infection
+NEC (Necrotizing Enterocolitis) - acute inflammation and necrosis of bowel
+Kernicterus - bilirubin encephalopathy, neurological damage
+Kangaroo Care - skin-to-skin contact
+
+=== GESTATIONAL AGE CLASSIFICATIONS ===
+Preterm: <37 weeks
+Early term: 37 weeks 0 days - 38 weeks 6 days
+Full term: 39 weeks 0 days - 40 weeks 6 days
+Late term: 41 weeks 0 days - 41 weeks 6 days
+Postterm: ≥42 weeks
+
+=== CAUSES OF PRETERM BIRTH ===
+Multiple births
+Maternal illness (GH, infections)
+Placental abnormalities (previa, abruption)
+Premature rupture of membranes
+Infection/inflammation
+Uterine anomalies
+Substance abuse
+Chronic stress, inadequate prenatal care
+
+=== PHYSICAL CHARACTERISTICS OF PRETERM INFANTS ===
+Transparent, loose skin
+Superficial veins visible
+Lack of subcutaneous fat
+Lanugo covers forehead, shoulders, arms
+Abundant vernix
+Short extremities
+Few sole creases
+Genitalia may be immature
+
+=== MAJOR PROBLEMS OF PRETERM INFANTS ===
+
+1. RESPIRATORY DISTRESS SYNDROME (RDS)
+- Caused by surfactant deficiency
+- Signs: RR >60, grunting, nasal flaring, cyanosis, retractions
+- Treatment: Surfactant via ET tube, O2 therapy, mechanical ventilation
+- Betamethasone/dexamethasone before delivery (24-48h) increases surfactant production
+
+2. APNEA
+- Breathing cessation >20 seconds
+- Often with bradycardia and cyanosis
+- Treatment: Gentle stimulation, suction, semi-Fowler's position, Ambu bag if needed
+
+3. SEPSIS
+- Preterm infants at high risk (immature immune system, poor antibody formation)
+- Signs: Low temp, lethargy/irritability, poor feeding, respiratory distress
+- Treatment: IV antimicrobials, maintain warmth, cluster care, hand hygiene
+
+4. THERMOREGULATION PROBLEMS
+- Lack of brown fat and subcutaneous insulation
+- High metabolism, cannot shiver
+- Skin temp falls before core temp
+- Treatment: Incubator/radiant warmer, skin probe, optimal temp 36.2-37°C
+
+5. HYPOGLYCEMIA
+- <40 mg/dL (term) or <30 mg/dL (preterm)
+- Preterm infants have low glycogen/fat stores
+- Treatment: Frequent glucose monitoring, NG or IV feedings
+
+6. HYPOCALCEMIA
+- Early: parathyroid fails to respond to low calcium
+- Late: cow's milk increases phosphate, drops calcium
+- Treatment: IV calcium gluconate (monitor for bradycardia)
+
+7. RETINOPATHY OF PREMATURITY (ROP)
+- Disorder of developing retina → blindness
+- Risk: <1500g, oxygen exposure
+- Prevention: Monitor O2 sat, maintain safe levels, vitamin E
+
+8. NECROTIZING ENTEROCOLITIS (NEC)
+- Acute bowel inflammation → necrosis
+- Signs: Abdominal distention, bloody stools, bilious vomiting, diarrhea
+- Treatment: NPO, IV fluids, antibiotics, possible surgery
+
+9. JAUNDICE
+- Physiological vs pathological
+- Preterm: slower bilirubin rise, lasts longer → hyperbilirubinemia risk
+- Treatment: Phototherapy, increase fluids, prevent kernicterus
+
+=== NURSING CARE FOR PRETERM INFANTS ===
+BUBBLE-type assessment adapted for newborns
+Cluster care to minimize handling
+Kangaroo care (skin-to-skin) - promotes bonding, thermoregulation
+Position: Side or prone, HOB elevated slightly
+Frequent position changes to prevent skin breakdown
+NG/gavage feeding for very premature (<1500g)
+Observe bowel sounds, meconium passage
+Monitor glucose, bilirubin, electrolytes
+Support parents - teach care, address guilt, encourage bonding
+
+=== FEEDING THE PRETERM INFANT ===
+<34 weeks: May lack coordination of sucking, breathing, swallowing
+Breast milk is ideal (fat absorbed easily)
+Gavage feeding: tube through nose/mouth to stomach for very premature
+>1500g (3.3lb): May bottle feed with small soft nipple, large hole
+IV fluids or TPN if too premature/ill for oral feeds
+
+=== KANGAROO CARE ===
+Skin-to-skin contact with parent
+Infant placed on parent's bare chest
+Promotes bonding, thermoregulation, stability
+Enhances development and breastfeeding success
+
+=== POSTTERM NEWBORN (≥42 weeks) ===
+Placenta functions poorly → decreased blood flow, possible distress
+Higher mortality and morbidity than term infants
+
+PROBLEMS:
+- Asphyxia
+- Meconium aspiration
+- Poor nutritional status (wasted appearance)
+- Polycythemia (↑ RBC production)
+- Difficult delivery (larger size)
+- Birth defects, seizures
+
+PHYSICAL CHARACTERISTICS:
+- Long and thin
+- Loose skin (especially buttocks/thighs)
+- Little lanugo and vernix
+- Dry, cracked, peeling skin
+- Long nails (may be meconium-stained)
+- Thick head of hair, alert appearance
+
+=== TRANSPORT OF HIGH-RISK NEWBORN ===
+Stabilize before transport
+Obtain baseline VS and labs
+Copy all records (maternal prenatal, delivery)
+Ensure proper identification (matching bands)
+Provide parents: NICU name, location, phone numbers
+Allow brief visit with infant before transport
+Take photo for parents
+
+=== DISCHARGE PLANNING ===
+Begins at birth
+Parents demonstrate routine and specialized care
+Home nursing visits may be needed
+Discuss behavioral patterns, realistic expectations
+Review newborn CPR
+Support group referrals
+Warm lines for phone support
+Social services assessment of home environment
+
+=== REVIEW KEY POINTS ===
+Preterm = <37 weeks; Postterm = ≥42 weeks
+RDS caused by surfactant deficiency → treat with surfactant + O2
+Apnea = no breathing >20 sec → stimulate, suction, position
+Preterm infants prone to: sepsis, hypothermia, hypoglycemia, hypocalcemia
+NEC: bloody stools, abdominal distention, bilious vomiting
+ROP: monitor O2 sat carefully, vitamin E
+Kangaroo care promotes bonding and thermoregulation
+Postterm: dry peeling skin, little vernix, meconium staining

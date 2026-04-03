@@ -4293,7 +4293,7 @@
 
 ---
 
-## Mission 71: The Three Shunts: Fetal Circulation Assessment (M-071)
+## Mission 71: The Three Shunts: Fetal Circulation Assessment (Ch. 3) (M-071)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The student nurse asks how oxygenated blood gets from the placenta to the fetus. The correct answer is:
@@ -4387,7 +4387,7 @@
 
 ---
 
-## Mission 72: The Prenatal Counseling: Teratogens & Placental Transfer (M-072)
+## Mission 72: The Prenatal Counseling: Teratogens & Placental Transfer (Ch. 3) (M-072)
 
 ### Step 1: EXTENDED SATA
 **Prompt**: At 6 weeks gestation, the nurse identifies which teratogenic exposures in Jessica's history?
@@ -4484,7 +4484,7 @@
 
 ---
 
-## Mission 73: The First Visit: Comprehensive Prenatal Assessment (M-073)
+## Mission 73: The First Visit: Comprehensive Prenatal Assessment (Ch. 4) (M-073)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: Using Nägele's rule with LMP of January 15, the nurse calculates the EDD as:
@@ -4578,7 +4578,7 @@
 
 ---
 
-## Mission 74: The Dizzy Spell: Supine Hypotension in Pregnancy (M-074)
+## Mission 74: The Dizzy Spell: Supine Hypotension in Pregnancy (Ch. 4) (M-074)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The nurse recognizes Rachel's symptoms are caused by:
@@ -4670,7 +4670,7 @@
 
 ---
 
-## Mission 75: The Painless Bleed: Placenta Previa Management (M-075)
+## Mission 75: The Painless Bleed: Placenta Previa Management (Ch. 5) (M-075)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: Based on the painless bright red bleeding at 32 weeks with known low-lying placenta, the nurse suspects:
@@ -4763,7 +4763,7 @@
 
 ---
 
-## Mission 76: The Rising Pressure: Preeclampsia Assessment (M-076)
+## Mission 76: The Rising Pressure: Preeclampsia Assessment (Ch. 5) (M-076)
 
 ### Step 1: EXTENDED SATA
 **Prompt**: The nurse identifies which SEVERE features of preeclampsia in Brittany's presentation?
@@ -4857,7 +4857,7 @@
 
 ---
 
-## Mission 77: The Active Labor: FHR Monitoring & Stage Assessment (M-077)
+## Mission 77: The Active Labor: FHR Monitoring & Stage Assessment (Ch. 6-7) (M-077)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: Based on the cervical exam (6cm, 80% effaced, -1 station), the nurse identifies Danielle is in which stage and phase of labor?
@@ -4950,7 +4950,7 @@
 
 ---
 
-## Mission 78: The Late Deceleration: Nonreassuring FHR Response (M-078)
+## Mission 78: The Late Deceleration: Nonreassuring FHR Response (Ch. 6-7) (M-078)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The nurse recognizes recurrent late decelerations indicate:
@@ -5042,7 +5042,7 @@
 
 ---
 
-## Mission 79: The Prolapsed Cord: Obstetric Emergency (M-079)
+## Mission 79: The Prolapsed Cord: Obstetric Emergency (Ch. 8) (M-079)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: Upon palpating a pulsating umbilical cord in the vagina, the nurse's IMMEDIATE action is:
@@ -5133,7 +5133,7 @@
 
 ---
 
-## Mission 80: The Early Arrival: Preterm Labor Management (M-080)
+## Mission 80: The Early Arrival: Preterm Labor Management (Ch. 8) (M-080)
 
 ### Step 1: EXTENDED SATA
 **Prompt**: Which of Stephanie's risk factors increase her likelihood of preterm labor?
@@ -5231,7 +5231,7 @@
 
 ---
 
-## Mission 81: The Boggy Fundus: Postpartum Hemorrhage Prevention (M-081)
+## Mission 81: The Boggy Fundus: Postpartum Hemorrhage Prevention (Ch. 9) (M-081)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The nurse finds the fundus boggy, above the umbilicus, and displaced to the right. The MOST likely cause is:
@@ -5328,7 +5328,7 @@
 
 ---
 
-## Mission 82: The New Latch: Breastfeeding Assessment & Support (M-082)
+## Mission 82: The New Latch: Breastfeeding Assessment & Support (Ch. 9) (M-082)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The nurse observes the baby latching onto only the nipple with lips curled inward. This incorrect latch is the most likely cause of:
@@ -5419,7 +5419,7 @@
 
 ---
 
-## Mission 83: The Heavy Bleed: Postpartum Hemorrhage Emergency (M-083)
+## Mission 83: The Heavy Bleed: Postpartum Hemorrhage Emergency (Ch. 10) (M-083)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: Based on the vital sign trend (HR 80→96→112, BP 128/78→108/68→92/58), the nurse recognizes:
@@ -5514,7 +5514,7 @@
 
 ---
 
-## Mission 84: The Dark Cloud: Postpartum Depression Screening (M-084)
+## Mission 84: The Dark Cloud: Postpartum Depression Screening (Ch. 10) (M-084)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: Megan's symptoms have persisted for 4 weeks and are worsening. This presentation is most consistent with:
@@ -5613,7 +5613,7 @@
 
 ---
 
-## Mission 85: The First Assessment: Term Newborn Head-to-Toe (M-085)
+## Mission 85: The First Assessment: Term Newborn Head-to-Toe (Ch. 12) (M-085)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The student notes acrocyanosis (blue hands and feet). The instructor explains this is:
@@ -5709,7 +5709,7 @@
 
 ---
 
-## Mission 86: The Cold Baby: Neonatal Thermoregulation Crisis (M-086)
+## Mission 86: The Cold Baby: Neonatal Thermoregulation Crisis (Ch. 12) (M-086)
 
 ### Step 1: MULTIPLE CHOICE
 **Prompt**: The baby's temperature of 35.8°C (96.4°F) indicates:

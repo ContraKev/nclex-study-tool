@@ -1,0 +1,223 @@
+=== SLIDE 1 ===
+Chapter 14
+The Newborn with a Perinatal Injury or Congenital Malformation
+
+=== KEY TERMS ===
+Birth defects, Congenital malformations, Hydrocephalus, Spina bifida, Meningocele, Meningomyelocele
+Cleft lip, Cleft palate, Cheiloplasty, Clubfoot (Talipes equinovarus)
+Developmental hip dysplasia, Pavlik harness, Ortolani sign, Barlow test
+PKU (Phenylketonuria), Galactosemia, Maple syrup urine disease
+Erythroblastosis fetalis, RhoGAM, Phototherapy, Kernicterus
+Macrosomia, Meconium aspiration syndrome (MAS), Neonatal abstinence syndrome (NAS)
+Transient tachypnea of newborn (TTN), Down syndrome
+
+=== CLASSIFICATIONS OF BIRTH DEFECTS ===
+1. Malformations present at birth (structural, functional, metabolic)
+2. Inborn errors of metabolism
+3. Disorders of the blood
+4. Chromosomal abnormalities
+5. Perinatal injuries
+
+=== HYDROCEPHALUS ===
+Definition: Increase in CSF within brain ventricles → ↑ intracranial pressure, ↑ head size
+Causes: Imbalance in CSF production/absorption, improper ventricle formation
+Classifications: Noncommunicating (obstruction) vs Communicating (poor reabsorption)
+
+SIGNS OF INCREASING ICP IN INFANTS:
+- ↑ BP, ↓ pulse, ↓ respirations
+- High-pitched cry
+- Unequal pupils
+- Bulging fontanelles
+- Irritability or lethargy
+- Vomiting, poor feeding
+
+MANIFESTATIONS:
+- Enlargement of head
+- Cranial sutures separate
+- Scalp shiny, veins dilated
+
+TREATMENT:
+- Medications to reduce CSF production
+- VP shunt (ventriculoperitoneal) - bypass obstruction
+- Shunt may need revision if infection or malfunction
+
+NURSING CARE:
+Preoperative: Frequent head position changes, support head always, measure head circumference
+Postoperative: Assess for ↑ ICP, protect from infection, depress shunt pump as ordered, position appropriately, pain control
+Parent education: Signs of shunt malfunction, how to pump shunt
+
+=== SPINA BIFIDA (MYELODYSPLASIA) ===
+Definition: Malformation of spinal cord, imperfect closure of spinal vertebrae
+
+TYPES:
+- Occulta (hidden): Mild, often asymptomatic
+- Cystica: Sac or cyst present
+  - Meningocele: Contains membranes and CSF
+  - Meningomyelocele: Contains membranes AND spinal cord → paralysis risk
+
+PREVENTION: Folic acid 0.4 mg/day before pregnancy and through 12th week
+
+TREATMENT: Surgical closure; prognosis depends on spinal cord involvement
+
+=== CLEFT LIP AND PALATE ===
+CLEFT LIP: Fissure in upper lip; failure of maxillary and median nasal processes to unite
+- More common in boys
+- Often hereditary
+
+CLEFT PALATE: Failure of hard palates to fuse at midline (7th-12th week)
+- Passageway between nasopharynx and nose
+- ↑ Risk of respiratory infections, otitis media
+
+TREATMENT:
+- Cheiloplasty (lip repair): By 3 months of age
+- Elbow restraints to prevent scratching
+- Special feeding devices until surgery
+
+POSTOPERATIVE CARE:
+- Progressive diet advancement
+- No straws (prevents sucking)
+- Oral hygiene: Water after each feeding
+- Speech therapy
+
+=== CLUBFOOT (TALIPES EQUINOVARUS) ===
+Most common congenital foot deformity
+Foot twists inward or outward; generally bilateral
+
+TREATMENT:
+- Conservative: Splinting, casting, passive stretching exercises
+- If not effective after ~3 months → surgery
+
+NURSING: Stress compliance with cast care, skin breakdown prevention
+
+=== DEVELOPMENTAL HIP DYSPLASIA ===
+Definition: Head of femur partly or completely displaced from acetabulum
+7x more common in girls; apparent when infant begins walking
+
+DIAGNOSTICS:
+- Barlow test: Adduction/extension → feel dislocation occur
+- Ortolani sign: Feel/hear femoral head slip back into acetabulum
+
+TREATMENT:
+- Pavlik harness: Maintains flexion and abduction for 4-8 weeks
+- Keeps femoral head in socket → deepens acetabulum
+- Surgery if conservative fails
+
+=== METABOLIC DEFECTS (INBORN ERRORS OF METABOLISM) ===
+Genetic defects not apparent until after birth
+
+SIGNS TO REPORT:
+- Lethargy, poor feeding, hypotonia
+- Unique odor to body/urine
+- Tachypnea, vomiting
+
+PHENYLKETONURIA (PKU):
+- Faulty metabolism of phenylalanine (amino acid in all protein)
+- Phenylalanine accumulates → severe mental retardation if untreated
+- Newborn screening test mandatory
+- Treatment: Special diet low in phenylalanine; avoid aspartame
+
+GALACTOSEMIA:
+- Cannot metabolize galactose/lactose
+- Enzyme missing to convert galactose → glucose
+- Untreated: Cirrhosis, cataracts, mental retardation
+- Treatment: Eliminate milk/lactose; use soy-based formula
+
+MAPLE SYRUP URINE DISEASE:
+- Cannot metabolize branched-chain amino acids
+- Urine has maple syrup odor
+- Treatment: Special diet
+
+=== DOWN SYNDROME ===
+Most common chromosomal abnormality
+Risk ↑ with maternal age ≥35, paternal age ≥55
+Mild to severe mental retardation
+
+PHYSICAL FEATURES:
+- Flat facial profile, epicanthal folds
+- Single palmar crease
+- Hypotonia, short stature
+- Protruding tongue
+
+DEVELOPMENT: Milestones delayed (sitting, walking, talking slower than normal)
+
+=== ERYTHROBLASTOSIS FETALIS (HEMOLYTIC DISEASE) ===
+Cause: Rh-negative mother, Rh-positive fetus → maternal antibodies destroy fetal RBCs
+
+MANIFESTATIONS:
+- Anemia from hemolysis
+- Pathological jaundice within 24 hours (bilirubin rises rapidly)
+- Hepatosplenomegaly
+- Risk of shock or heart failure
+
+DIAGNOSIS: Direct Coombs test on umbilical cord blood
+
+TREATMENT:
+- Phototherapy for jaundice
+- Exchange transfusion if severe
+- RhoGAM given to Rh-negative mothers at 28 weeks and within 72h after delivery
+
+=== PHOTOTHERAPY ===
+Used to reduce serum bilirubin levels
+Breaks down bilirubin → excreted
+
+NURSING CARE:
+- Cover eyes with protective patches (prevent retinal damage)
+- Maximum skin exposure (diaper only)
+- Monitor temperature (risk of hyperthermia)
+- Increase fluid intake
+- Turn infant frequently
+- Home phototherapy may be used for mild cases
+
+=== INTRACRANIAL HEMORRHAGE ===
+Most common type of birth injury
+Causes: Trauma, anoxia, precipitate delivery, prolonged labor
+More common in preterm infants
+
+SIGNS: Vary with severity; may include seizures, apnea, bulging fontanelle, altered consciousness
+
+=== TRANSIENT TACHYPNEA OF NEWBORN (TTN) ===
+Self-limiting; resolves suddenly within ~3 days
+Caused by delayed clearance of fetal lung fluid
+Treatment: Supportive (O2, observation)
+
+=== MECONIUM ASPIRATION SYNDROME (MAS) ===
+In utero: Fetus expels meconium into amniotic fluid
+Asphyxia → gasping movements → meconium drawn into lungs
+
+At delivery: If newborn inhales before suctioning → aspiration
+
+SIGNS: Respiratory distress, meconium-stained amniotic fluid
+TREATMENT: Immediate suctioning, possibly mechanical ventilation
+
+=== NEONATAL ABSTINENCE SYNDROME (NAS) ===
+Cause: Fetal exposure to drugs in utero (opioids, etc.)
+Illicit drugs cross placenta → infant experiences withdrawal after birth
+
+SIGNS: High-pitched cry, tremors, sneezing, vomiting, diarrhea, seizures
+
+TREATMENT: Supportive care, medications to manage withdrawal, swaddling, low-stimulation environment
+
+LONG-TERM: Risk of developmental and neurological deficits
+
+=== INFANT OF DIABETIC MOTHER (IDM) / MACROSOMIA ===
+Large amounts of glucose cross placenta → fetal hyperglycemia
+Fetal pancreas produces excess insulin → hyperinsulinism
+
+RESULTS: Macrosomia (birth weight >4000g or 9 lb)
+After birth: Newborn becomes hypoglycemic (BS <45 mg/dL) as insulin continues
+
+NURSING: Frequent glucose monitoring, early feeding
+
+=== REVIEW KEY POINTS ===
+Hydrocephalus: VP shunt; monitor for ↑ ICP signs
+Spina bifida: Folic acid prevention; meningocele vs myelomeningocele
+Cleft lip: Cheiloplasty by 3 months; special feeding
+Cleft palate: ↑ Otitis media risk; speech therapy
+Clubfoot: Casting/splinting; compliance essential
+Hip dysplasia: Pavlik harness; Barlow and Ortolani tests
+PKU: Newborn screening; low phenylalanine diet
+Down syndrome: ↑ Maternal age risk; delayed milestones
+Erythroblastosis: RhoGAM prevention; phototherapy treatment
+MAS: Suction immediately at delivery
+NAS: Drug withdrawal; supportive care
+IDM: Macrosomia → hypoglycemia after birth
