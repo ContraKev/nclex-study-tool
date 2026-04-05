@@ -9180,15 +9180,7 @@ function startMission() {
     raw.forEach(m => { if (m && m.numerical_id != null) seen.set(m.numerical_id, m); });
     allMissions = Array.from(seen.values()).sort((a, b) => a.numerical_id - b.numerical_id);
     console.log('allMissions loaded:', allMissions.length, 'missions');
-    // Defer render until customMissions (87 missions) is populated
-    const renderWhenReady = () => {
-        if (window.customMissions && window.customMissions.length >= 80) {
-            showMissionSelectorNew();
-        } else {
-            setTimeout(renderWhenReady, 50);
-        }
-    };
-    renderWhenReady();
+    showMissionSelectorNew();
 }
 
 function unlockAllMissions() {
@@ -11609,19 +11601,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         }
 
         function showExamSelectionModal() {
-            // Defer until all exams loaded (39 expected)
-            if (!window.availableExams || window.availableExams.length < 35) {
-                const waitForExams = () => {
-                    if (window.availableExams && window.availableExams.length >= 35) {
-                        showExamSelectionModal();
-                    } else {
-                        setTimeout(waitForExams, 50);
-                    }
-                };
-                setTimeout(waitForExams, 50);
-                return;
-            }
-            if (window.availableExams.length === 0) {
+            if (!window.availableExams || window.availableExams.length === 0) {
                 alert('No exams available. Please check that exam modules have been properly configured.');
                 return;
             }
