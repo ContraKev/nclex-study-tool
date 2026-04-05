@@ -9180,7 +9180,15 @@ function startMission() {
     raw.forEach(m => { if (m && m.numerical_id != null) seen.set(m.numerical_id, m); });
     allMissions = Array.from(seen.values()).sort((a, b) => a.numerical_id - b.numerical_id);
     console.log('allMissions loaded:', allMissions.length, 'missions');
-    showMissionSelectorNew();
+    // Defer render until customMissions (87 missions) is populated
+    const renderWhenReady = () => {
+        if (window.customMissions && window.customMissions.length >= 80) {
+            showMissionSelectorNew();
+        } else {
+            setTimeout(renderWhenReady, 50);
+        }
+    };
+    renderWhenReady();
 }
 
 function unlockAllMissions() {
@@ -11601,7 +11609,19 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         }
 
         function showExamSelectionModal() {
-            if (!window.availableExams || window.availableExams.length === 0) {
+            // Defer until all exams loaded (39 expected)
+            if (!window.availableExams || window.availableExams.length < 35) {
+                const waitForExams = () => {
+                    if (window.availableExams && window.availableExams.length >= 35) {
+                        showExamSelectionModal();
+                    } else {
+                        setTimeout(waitForExams, 50);
+                    }
+                };
+                setTimeout(waitForExams, 50);
+                return;
+            }
+            if (window.availableExams.length === 0) {
                 alert('No exams available. Please check that exam modules have been properly configured.');
                 return;
             }
@@ -19056,7 +19076,7 @@ window.pedsCh25ExamData = [
 window.availableExams.push({id: 'peds_ch_25_peds.respiratorydisorder', name: 'Pediatrics: Ch_25_Peds.RespiratoryDisorders.', data: window.pedsCh25ExamData});
 console.log('Created exam module: Pediatrics: Ch_25_Peds.RespiratoryDisorders.');
 
-window.pedsCh02ExamData = [
+window.pedsCh24ExamData = [
   {
     "id": "peds_chapter_024_musculoskeletal_do_q1",
     "slide": 1,
@@ -19728,10 +19748,10 @@ window.pedsCh02ExamData = [
     "rationale": "Based on lecture content. (Slide 30)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_024_musculoskeletal_do', name: 'Pediatrics: Chapter_024_musculoskeletal_DOs_Pediatrics', data: window.pedsCh02ExamData});
+window.availableExams.push({id: 'peds_chapter_024_musculoskeletal_do', name: 'Pediatrics: Chapter_024_musculoskeletal_DOs_Pediatrics', data: window.pedsCh24ExamData});
 console.log('Created exam module: Pediatrics: Chapter_024_musculoskeletal_DOs_Pediatrics');
 
-window.pedsCh02ExamData = [
+window.pedsCh26ExamData = [
   {
     "id": "q1",
     "slide": 1,
@@ -20436,10 +20456,10 @@ window.pedsCh02ExamData = [
     "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_026_cv_dos_peds', name: 'Pediatrics: Chapter 026 CV DOs peds', data: window.pedsCh02ExamData});
+window.availableExams.push({id: 'peds_chapter_026_cv_dos_peds', name: 'Pediatrics: Chapter 026 CV DOs peds', data: window.pedsCh26ExamData});
 console.log('Created exam module: Pediatrics: Chapter 026 CV DOs peds');
 
-window.pedsCh02ExamData = [
+window.pedsCh27ExamData = [
   {
     "id": "peds_chapter_027_lymph_and_blood_do_q1",
     "slide": 1,
@@ -21111,10 +21131,10 @@ window.pedsCh02ExamData = [
     "rationale": "Based on lecture content. (Slide 30)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_027_lymph_and_blood_do', name: 'Pediatrics: Chapter_027_lymph_and_blood_DOs_Pediatrics', data: window.pedsCh02ExamData});
+window.availableExams.push({id: 'peds_chapter_027_lymph_and_blood_do', name: 'Pediatrics: Chapter_027_lymph_and_blood_DOs_Pediatrics', data: window.pedsCh27ExamData});
 console.log('Created exam module: Pediatrics: Chapter_027_lymph_and_blood_DOs_Pediatrics');
 
-window.pedsCh02ExamData = [
+window.pedsCh28ExamData = [
   {
     "id": "q1",
     "slide": 1,
@@ -21825,10 +21845,10 @@ window.pedsCh02ExamData = [
     "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_028_gi_peds', name: 'Pediatrics: Chapter 028 GI peds', data: window.pedsCh02ExamData});
+window.availableExams.push({id: 'peds_chapter_028_gi_peds', name: 'Pediatrics: Chapter 028 GI peds', data: window.pedsCh28ExamData});
 console.log('Created exam module: Pediatrics: Chapter 028 GI peds');
 
-window.pedsCh02ExamData = [
+window.pedsCh29ExamData = [
   {
     "id": "q1",
     "slide": 1,
@@ -22536,10 +22556,10 @@ window.pedsCh02ExamData = [
     "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_029_gu_peds', name: 'Pediatrics: Chapter 029 GU peds', data: window.pedsCh02ExamData});
+window.availableExams.push({id: 'peds_chapter_029_gu_peds', name: 'Pediatrics: Chapter 029 GU peds', data: window.pedsCh29ExamData});
 console.log('Created exam module: Pediatrics: Chapter 029 GU peds');
 
-window.pedsCh03ExamData = [
+window.pedsCh30ExamData = [
   {
     "id": "q1",
     "slide": 1,
@@ -23247,10 +23267,10 @@ window.pedsCh03ExamData = [
     "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_030', name: 'Pediatrics: Chapter 030', data: window.pedsCh03ExamData});
+window.availableExams.push({id: 'peds_chapter_030', name: 'Pediatrics: Chapter 030', data: window.pedsCh30ExamData});
 console.log('Created exam module: Pediatrics: Chapter 030');
 
-window.pedsCh03ExamData = [
+window.pedsCh31ExamData = [
   {
     "id": "q1",
     "slide": 1,
@@ -23964,10 +23984,10 @@ window.pedsCh03ExamData = [
     "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_031', name: 'Pediatrics: Chapter 031', data: window.pedsCh03ExamData});
+window.availableExams.push({id: 'peds_chapter_031', name: 'Pediatrics: Chapter 031', data: window.pedsCh31ExamData});
 console.log('Created exam module: Pediatrics: Chapter 031');
 
-window.pedsCh03ExamData = [
+window.pedsCh33ExamData = [
   {
     "id": "q1",
     "slide": 1,
@@ -24672,10 +24692,10 @@ window.pedsCh03ExamData = [
     "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
   }
 ];
-window.availableExams.push({id: 'peds_chapter_033', name: 'Pediatrics: Chapter 033', data: window.pedsCh03ExamData});
+window.availableExams.push({id: 'peds_chapter_033', name: 'Pediatrics: Chapter 033', data: window.pedsCh33ExamData});
 console.log('Created exam module: Pediatrics: Chapter 033');
 
-window.pedsCh33ExamData = [
+window.pedsCh32ExamData = [
   {
     "id": "peds_t3_peds_ch32_communicable_dise_q1",
     "slide": 1,
@@ -25347,7 +25367,7 @@ window.pedsCh33ExamData = [
     "rationale": "Based on lecture content. (Slide 30)"
   }
 ];
-window.availableExams.push({id: 'peds_t3_peds_ch32_communicable_dise', name: 'Pediatrics: CH32_Communicable_Diseases', data: window.pedsCh33ExamData});
+window.availableExams.push({id: 'peds_t3_peds_ch32_communicable_dise', name: 'Pediatrics: CH32_Communicable_Diseases', data: window.pedsCh32ExamData});
 console.log('Created exam module: Pediatrics: CH32_Communicable_Diseases');
 
 
