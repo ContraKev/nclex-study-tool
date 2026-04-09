@@ -11,4 +11,924 @@ window.studyGuideContent["ob_ch678_comprehensive"] = "# Comprehensive Study Guid
 window.studyGuideContent["ob_ch912_cheatsheet"] = "# OB Cheat Sheet: Postpartum & Newborn Care, Complications\n### Chapters 9, 10 & 12 — Quick Review\n\n---\n\n## 🤱 CHAPTER 9: THE FAMILY AFTER BIRTH\n\n### BUBBLE Postpartum Assessment ⭐\n| Letter | Assessment | Key Points |\n|--------|------------|------------|\n| **B** | Breasts | Soft/engorged; nipples intact |\n| **U** | Uterus | Firm, fundal height (↓1-2cm/day) |\n| **B** | Bladder | No distention |\n| **B** | Bowels | Gas, bowel sounds, stool |\n| **L** | Lochia | Rubra → Serosa → Alba |\n| **E** | Episiotomy/Perineum | REEDA |\n| **+E** | Emotions | Bonding, support |\n\n### Lochia Timeline\n| Type | Color | Duration |\n|------|-------|----------|\n| **Rubra** | 🔴 Red | Days 1-3 |\n| **Serosa** | 🟣 Pink | Days 4-10 |\n| **Alba** | ⚪ White | Days 10-21 |\n\n> Assess pads AND under patient — blood can overflow!\n\n### Uterine Involution\n- **1-2 cm/day** descent\n- **10 days**: No longer palpable\n- **5-6 weeks**: Back to pre-pregnant size\n- **Massage** if boggy!\n\n### Perineum Comfort\n| Time | Intervention |\n|------|--------------|\n| **First 12-24 hrs** | 🧊 Ice pack |\n| **After 24 hrs** | 🛁 Sitz bath |\n\n### Breastfeeding Hormones\n| Hormone | Source | Function |\n|---------|--------|----------|\n| **Prolactin** | Anterior pituitary | Milk **production** |\n| **Oxytocin** | Posterior pituitary | Let-down reflex (milk ejection) |\n\n**Contraindications**: HIV, HTLV-1 & 2\n\n### Milk Stages\n| Stage | Timing | Color/Notes |\n|-------|--------|-------------|\n| **Colostrum** | Days 1-3 | 🟡 Yellow, thick, immunoglobulins |\n| **Transitional** | Days 7-10 | ↑ Lactose |\n| **Mature** | Day 14+ | 🔵 Bluish, 20 kcal/oz |\n\n**Foremilk** = watery, thirst-quenching\n**Hindmilk** = fatty, satisfying\n\n### Newborn Heat Loss (4 Types)\n| Type | Cause | Prevention |\n|------|-------|------------|\n| **Evaporation** | Wet skin | Dry immediately |\n| **Conduction** | Cold surface | Warm blankets |\n| **Convection** | Drafts | Close doors, no fans |\n| **Radiation** | Cool objects | Radiant warmer, hat |\n\n### Newborn Hypoglycemia\n**<45 mg/dL** in term infant\n\n**Risks**: Preterm/postterm, diabetic mom, LGA/SGA, IUGR, cold stress\n\n**S/S**: Jittery, poor tone, sweating, high-pitched cry, seizures\n\n### Cord Care\n- Delayed clamping 30-60 sec\n- Keep **clean & dry**\n- Diaper below cord\n- Sponge bath until falls off\n\n---\n\n## 🚨 CHAPTER 10: POSTPARTUM COMPLICATIONS\n\n### Postpartum Hemorrhage (PPH) ⭐\n| Birth Type | PPH Threshold |\n|------------|---------------|\n| Vaginal | >500 mL |\n| C-Section | >1000 mL |\n\n**Timing**: Early (<24h) vs Late (24h-6wk)\n\n### 4 T's of PPH ⭐\n| Cause | Most Common | Treatment |\n|-------|-------------|-----------|\n| **Tone** | Uterine atony | Massage, oxytocin, Methergine |\n| **Trauma** | Lacerations | Surgical repair |\n| **Tissue** | Retained placenta | D&C |\n| **Thrombin** | Coagulopathy | Blood products, correct cause |\n\n### Atony vs. Laceration\n| Finding | Atony | Laceration |\n|---------|-------|------------|\n| Uterus | **Boggy** | Firm |\n| Bleeding | Dark red, clots | **Bright red**, trickle |\n| Fundus | High | Normal |\n\n### Hypovolemic Shock Signs\n> ⚠️ **Tachycardia FIRST** (before BP drops!)\n\n| Sign | Finding |\n|------|---------|\n| Pulse | ⬆️ Tachycardia |\n| BP | ⬇️ Hypotension |\n| Skin | Pale, cold, clammy |\n| Mental status | Altered |\n| Urine output | ⬇️ Decreased |\n\n### Thromboembolic Disorders\n| Type | Location | Key S/S |\n|------|----------|---------|\n| **SVT** | Superficial (saphenous) | Localized redness, warmth |\n| **DVT** | Deep (femoral) | Leg circumference >2cm diff, edema, pain |\n| **PE** | Pulmonary artery | Sudden chest pain, SOB, hemoptysis |\n\n**Prevention**: Early ambulation, SCDs, no popliteal pressure\n\n**Anticoagulant Teaching**:\n- Soft toothbrush\n- Report bleeding/bruising\n- Vitamin K = warfarin antidote\n- No LMWH with epidural\n\n### Puerperal Infection\n**Definition**: Fever ≥100.4°F (38°C) in first 24h AND ≥2 days in first 10 days\n\n**Most common**: **Endometritis**\n\n**Prevention**: Hand hygiene, front→back peripad\n\n### Mastitis\n**S/S**: Unilateral breast redness, warmth, pain + flu-like symptoms\n\n**Treatment** (5 cornerstones):\n1. ✅ Antibiotics\n2. ✅ **Continue breastfeeding/pumping**\n3. ✅ Analgesics\n4. ✅ Heat before feeding\n5. ✅ Cold after feeding\n\n> ⚠️ **Do NOT stop nursing** — worsens engorgement!\n\n### Postpartum Mood Disorders\n| Disorder | Onset | Duration | Severity |\n|----------|-------|----------|----------|\n| **Blues** | Days 2-3 | Resolves by day 10 | Mild, normal |\n| **Depression** | 2-4 weeks | Weeks-months | Moderate-severe |\n| **Psychosis** | <2 weeks | **Emergency!** | Severe — delusions, hallucinations |\n\n**Never assume \"just baby blues\"** — assess for persistence\n\n---\n\n## 👶 CHAPTER 12: THE TERM NEWBORN\n\n### Apgar Score ⭐\nScored at **1 and 5 minutes**\n\n| Sign | 0 | 1 | 2 |\n|------|---|---|---|\n| HR | Absent | <100 | >100 |\n| Resp | Absent | Slow | Good, cry |\n| Tone | Limp | Some flex | Active |\n| Reflex | None | Grimace | Cry |\n| Color | Blue/pale | Acrocyanosis | Pink |\n\n**7-10** = Normal | **4-6** = Moderate | **0-3** = Severe distress\n\n### Newborn Vital Signs\n| Parameter | Normal |\n|-----------|--------|\n| **Temp** | 97.1-99.8°F (36.2-37.7°C) |\n| **HR** | 110-160 bpm |\n| **RR** | 30-60/min |\n| **BP** | 60-80/40-50 |\n\n> Acrocyanosis (blue hands/feet) = normal!\n\n### Fontanelles\n| Type | Shape | Closes |\n|------|-------|--------|\n| **Anterior** | Diamond | ~18 months |\n| **Posterior** | Triangle | ~2-3 months |\n\n- **Bulging** = ↑ ICP\n- **Depressed** = Dehydration\n\n### Birth Injuries\n| Condition | Crosses Sutures? | Resolves |\n|-----------|------------------|----------|\n| **Molding** | N/A | Hours-days |\n| **Caput** | ✅ Yes | Days |\n| **Cephalohematoma** | ❌ No | Weeks |\n\n### Newborn Reflexes\n| Reflex | Disappears |\n|--------|------------|\n| **Rooting** | 3-4 mo |\n| **Sucking** | 4 mo |\n| **Moro** | 4-6 mo |\n| **Grasp** | 3-4 mo |\n| **Babinski** | 12 mo |\n| **Stepping** | 2 mo |\n| **Tonic Neck** | 4-6 mo |\n\n### Pain Scales\n- **FLACC** (Face, Legs, Activity, Cry, Consolability) — commonly used\n- **CRIES**, **NIPS**, **NPASS**\n\n### Newborn Nutrition\n| Stool | Appearance |\n|-------|------------|\n| **Meconium** | Black, tarry (first 24-48h) |\n| **Transitional** | Greenish-brown |\n| **Breastfed** | 🟡 Yellow, seedy, soft |\n| **Formula** | 🟤 Pale yellow/tan, firmer |\n\n**Vitamin D** commonly prescribed for breastfed infants\n\n### Danger Signs — Mother\n- Saturating >1 pad/hr\n- Foul-smelling lochia\n- Temp >100.4°F\n- Severe headache, vision changes\n- Chest pain, SOB\n- Leg swelling/redness\n- Thoughts of harming self/baby\n\n### Danger Signs — Newborn\n- Temp <97°F or >100.4°F\n- Grunting, retractions, cyanosis\n- Seizures, jitteriness\n- Poor feeding, lethargy\n- No wet diaper 12h / no stool 48h\n- Jaundice in first 24h\n- Cord redness, foul odor\n\n---\n\n## 📋 Memory Aids\n\n**BUBBLE** — Postpartum assessment\n**REEDA** — Perineum healing\n**4 T's** — PPH causes (Tone, Trauma, Tissue, Thrombin)\n\n---\n\n*Cheat Sheet for Chapters 9, 10 & 12 — Quick NCLEX Review*\n";
 
 window.studyGuideContent["ob_ch912_comprehensive"] = "# Comprehensive Study Guide: Postpartum & Newborn Care, Complications\n### OB/Maternity Chapters 9, 10 & 12\n\n---\n\n## Chapter 9: The Family After Birth (Postpartum & Newborn Care)\n\n### 1. Puerperium (Postpartum Period)\n\nThe **puerperium** is the 6-week period after birth when the mother's body returns to its pre-pregnant state. Key postpartum factors:\n\n- Maternal/child pair vital sign stability\n- Control of postpartum bleeding to WNL\n- Establishment of newborn feeding\n\n### 2. BUBBLE Assessment\n\nPostpartum assessment follows the **BUBBLE** acronym:\n\n| Letter | Assessment | Key Findings |\n|--------|------------|--------------|\n| **B** | Breasts | Soft or engorged; check nipples for redness/cracking |\n| **U** | Uterus | Firmness, fundal height, location (1-2 cm/day involution) |\n| **B** | Bladder | Distention, voiding ability |\n| **B** | Bowels | Gas passage, bowel sounds, stool |\n| **L** | Lochia | Character, amount, color, odor, clots |\n| **E** | Episiotomy/Perineum | REEDA: Redness, Edema, Ecchymosis, Discharge, Approximation |\n\n**Additional E**: Emotions/bonding with newborn\n\n### 3. Vital Signs Postpartum\n\n- **Pulse**: Some bradycardia is common (50-70 bpm) due to decreased blood volume\n- **Respirations**: 12-20/min, should be stable\n- **Blood Pressure**: Should be stable; hypotension may indicate hemorrhage\n- **Temperature**: Slight elevation first 24 hrs is common; >100.4°F after 24 hrs = infection\n\n### 4. Uterine Involution\n\n**Involution** = return of uterus to non-pregnant state\n\n- Uterus reduces **1-2 cm per day**\n- By **10 days**: no longer palpable\n- By **5-6 weeks**: returns to pre-pregnant size\n- **Fundal height**: Immediately after birth at umbilicus; descends ~1 fingerbreadth/day\n\n**Massage the fundus** if boggy to stimulate contraction and prevent hemorrhage.\n\n### 5. Lochia (Vaginal Discharge)\n\n| Type | Color/Character | Duration |\n|------|-----------------|----------|\n| **Rubra** | Red, mostly blood | Up to 3 days |\n| **Serosa** | Pinkish, blood/mucus mix | Up to 10th day |\n| **Alba** | White/yellowish, mostly mucus | 10th-21st day |\n\n> ⚠️ Assess pads AND area under patient (underbed/chux) — blood can overflow beneath. Constant trickle of bright red lochia with firm fundus suggests laceration bleeding.\n\n### 6. Perineum & Vaginal Changes\n\n- **Rugae** (vaginal folds) disappear during birth; reappear by 3 weeks\n- Vagina never fully returns to pre-pregnant size\n- **Perineum**: Edematous, tender, bruised\n- **REEDA assessment** for perineal healing\n\n**Comfort Measures**:\n- **First 12-24 hrs**: Ice pack to perineum\n- **After 24 hrs**: Sitz bath (increases circulation, promotes healing)\n- Perineal care (peri bottle with warm water, front to back)\n\n### 7. Cesarean Section Adaptations\n\nSame as vaginal delivery PLUS:\n- Monitor abdominal dressing/incision\n- Lochia generally less\n- Urinary catheter care\n- Respiratory care (incentive spirometer)\n- Prevention of thrombophlebitis (SCDs, early ambulation)\n- Pain management (PCA, opioids)\n\n### 8. Breastfeeding & Lactation\n\n**Hormones**:\n- **Prolactin** (anterior pituitary): Milk production\n- **Oxytocin** (posterior pituitary): \"Let-down reflex\" (milk ejection) — tingling in breasts, uterine cramping\n\n**Contraindications to Breastfeeding**: HIV, HTLV-1 & 2 (transmitted via breast milk)\n\n**Milk Stages**:\n| Stage | Timing | Characteristics |\n|-------|--------|-----------------|\n| **Colostrum** | First few days | Yellowish, thicker; laxative effect; rich in immunoglobulins |\n| **Transitional** | 7-10 days | Increased lactose, fewer immunoglobulins |\n| **Mature** | By 14 days | Bluish; 20 kcal/oz; all needed nutrients |\n\n**Foremilk vs. Hindmilk**:\n- **Foremilk**: First milk; more watery, thirst-quenching\n- **Hindmilk**: Later milk; higher fat content; satisfies hunger\n\n**Feeding Schedule**: On demand, every 2-3 hrs for 15-30 min → 8-10 wet diapers/day + ≥1 stool\n\n**Galactagogues** (increase milk supply): Oatmeal, fenugreek, flaxseed, brewer's yeast\n\n**Storage**:\n- Room temp: 3 hrs\n- Refrigerator: 3 days\n- Freezer: 3 months\n\n### 9. Newborn Transition & Care (Ch. 9 Overview)\n\n**\"Golden Hour\"**: First hour after birth — baby stays with parents if ABCs stable; promotes bonding\n\n**Thermoregulation** (4 mechanisms of heat loss):\n| Mechanism | Description |\n|-----------|-------------|\n| **Evaporation** | Wet skin → dry |\n| **Conduction** | Contact with cold surface |\n| **Convection** | Drafts/air movement |\n| **Radiation** | Heat to cooler objects nearby |\n\n**Interventions**: Dry immediately, skin-to-skin, radiant warmer, hat, warm blankets\n\n### 10. Newborn Hypoglycemia\n\n**Definition**: Blood glucose <45 mg/dL in term infant\n\n**Risk Factors**:\n- Preterm or postterm\n- Diabetic mother\n- LGA or SGA\n- IUGR\n- Asphyxia\n- Cold stress\n- Tocolytics during labor\n\n**Signs/Symptoms**:\n- Jitteriness, poor muscle tone\n- Sweating, respiratory difficulty\n- Low temperature, poor suck\n- High-pitched cry, lethargy, seizures\n\n### 11. Cord Care\n\n- **Delayed clamping** (30-60 sec) → increased iron stores\n- Keep clean and dry\n- Fasten diaper below cord\n- Report: redness, moist, foul-smelling\n- Sponge bath until cord falls off (~1-2 weeks)\n\n### 12. Newborn Safety\n\n- **ID bands**: Match every time baby returned to parent\n- Place baby on **far side of bed** (away from door)\n- **Car seat**: Rear-facing until age 2; back seat; snug harness\n- **Never prop bottle** → choking, ear infections, tooth decay risk\n\n### 13. Discharge Teaching\n\n**Maternal Self-Care**:\n- Hygiene (peri care, front to back)\n- Sexual intercourse: Safe when bleeding stops + perineum healed (~6 weeks); use lubricant if breastfeeding\n- Diet & exercise\n- Danger signs to report\n\n**Newborn Discharge Care**:\n- Feeding cues\n- Safety (car seat, sleep position)\n- Follow-up appointments\n- Reassure: hospital staff available by phone\n\n---\n\n## Chapter 10: Nursing Care of Women with Complications After Birth\n\n### 1. Postpartum Hemorrhage (PPH)\n\n**Definition**:\n- Vaginal birth: >500 mL blood loss\n- C-section: >1000 mL blood loss\n\n**Timing**:\n- **Early (Primary)**: Within 24 hrs\n- **Late (Secondary)**: 24 hrs to 6 weeks\n\n**Leading cause of maternal mortality worldwide**\n\n### 2. Signs of Hypovolemic Shock\n\n> ⚠️ **Tachycardia is usually the FIRST sign** (before BP drops)\n\n| Sign | Finding |\n|------|---------|\n| Pulse | Tachycardia (rapid) |\n| BP | Falling systolic |\n| Skin | Pale, cold, clammy |\n| Mental status | Changes, confusion |\n| Urine output | Decreased |\n\n### 3. The 4 T's of PPH\n\n| Cause | Description |\n|-------|-------------|\n| **Tone** | Uterine atony (most common cause) |\n| **Trauma** | Lacerations, hematomas |\n| **Tissue** | Retained placental fragments |\n| **Thrombin** | Coagulopathy (DIC, eclampsia) |\n\n### 4. Uterine Atony\n\n**Definition**: Lack of normal muscle tone — uterus is \"boggy\" or soft\n\n**Assessment**:\n- Fundus difficult to feel\n- High fundal height (above umbilicus)\n- Excessive bleeding\n\n**Risk Factors**:\n- Overdistended uterus (polyhydramnios, large baby, multiple babies)\n- Prolonged labor, precipitous labor\n- Retained placenta\n- Full bladder\n- Grand multiparity\n- Precipitous delivery\n\n**Treatment**:\n- Fundal massage\n- Empty bladder\n- Medications: Oxytocin, methylergonovine (Methergine), prostaglandins (Hemabate, Misoprostol)\n\n### 5. Lacerations vs. Atony\n\n| Finding | Atony | Laceration |\n|---------|-------|------------|\n| Uterus | Boggy, hard to locate | Firm |\n| Bleeding | Dark red, with clots | **Bright red**, continuous trickle |\n| Treatment | Massage, oxytocin | Surgical repair |\n\n### 6. Hematomas\n\n**Causes**: Trauma during delivery (forceps, vacuum, episiotomy)\n\n**Signs**: Severe perineal pain, swelling, discoloration; may have difficulty voiding\n\n**Treatment**: Ice, analgesics, possible surgical evacuation if large\n\n### 7. Subinvolution\n\n**Definition**: Slower than expected return of uterus to non-pregnant state\n\n**Signs**:\n- Fundal height higher than expected\n- Persistent lochia rubra\n- Pelvic pain, heaviness, fatigue\n\n**Treatment**: Methergine, antibiotics, D&C if retained tissue\n\n### 8. Thromboembolic Disorders\n\n**Risk Factors** (Virchow's Triad):\n- Venous stasis (pregnancy)\n- Hypercoagulability (↑ fibrinogen, ↓ fibrinolysis)\n- Endothelial injury (delivery trauma)\n\n**Types**:\n| Type | Location | Key Findings |\n|------|----------|--------------|\n| **SVT** | Superficial veins (saphenous) | Localized redness, tenderness, warmth |\n| **DVT** | Deep veins (femoral, popliteal) | Leg circumference >2 cm difference, edema, pain, Homan's sign |\n| **PE** | Pulmonary artery | Sudden chest pain, dyspnea, cough, ↓ LOC, hemoptysis |\n\n**Prevention**:\n- Early ambulation\n- SCDs (sequential compression devices)\n- Avoid pressure behind knees (popliteal space)\n- Anti-embolic stockings\n\n**Treatment**:\n- SVT: Analgesics, heat, elevation\n- DVT: Heparin or LMWH (Lovenox), elevation\n- PE: ICU transfer, anticoagulation\n\n**Anticoagulant Teaching**:\n- Soft-bristled toothbrush (gum bleeding = excess anticoagulation)\n- Report: nosebleeds, unexplained bruising, prolonged bleeding\n- Vitamin K = antidote for warfarin overdose\n- LMWH contraindicated with regional anesthesia\n\n### 9. Puerperal Infection (Postpartum Sepsis)\n\n**Definition**: Fever ≥38°C (100.4°F) within first 24 hrs AND for ≥2 days during first 10 days postpartum\n\n**Risk Factors**:\n- Cracked nipples\n- Surgical incision (C-section, episiotomy)\n- Tissue trauma during labor\n- Retained placenta or blood clots\n- ↑ Vaginal pH after birth\n\n**Most common cause**: **Endometritis** (inflammation of uterine lining)\n\n**Prevention**:\n- Hand hygiene (primary means)\n- Front-to-back peripad application\n- Complete antibiotics as prescribed\n- Adequate rest and nutrition\n\n**Dangers**: Infection can ascend → uterus → fallopian tubes → peritonitis (life-threatening)\n\n### 10. Mastitis\n\n**Definition**: Infection of breast tissue (usually Staphylococcus aureus)\n\n**Signs**:\n- Unilateral breast redness, swelling, warmth, pain\n- Flu-like symptoms (fever, chills, body aches)\n\n**Treatment** (5 cornerstones):\n1. **Antibiotics** (dicloxacillin, cephalexin)\n2. **Milk removal** (continue breastfeeding or pumping — DO NOT stop)\n3. **Analgesics** prn\n4. **Heat before feeding** (warm compresses, shower)\n5. **Cold after feeding** (ice pack)\n\n> ⚠️ Weaning during mastitis worsens symptoms (engorgement/milk stasis)\n\n### 11. Postpartum Mood Disorders\n\n| Disorder | Onset | Duration | Characteristics |\n|----------|-------|----------|-----------------|\n| **Postpartum Blues (Baby Blues)** | Days 2-3 | Resolves by day 10 | Tearfulness, mood swings, anxiety — NORMAL, self-limiting |\n| **Postpartum Depression (PPD)** | Within 2-4 weeks | Weeks to months | Persistent sadness, lack of interest, guilt, sleep/appetite disturbance, inability to cope |\n| **Postpartum Psychosis** | Within 2 weeks | Medical emergency | Delusions, hallucinations, confusion, thoughts of harming self/baby |\n\n**Risk Factors for PPD**:\n- Inadequate social support\n- Poor relationship with partner\n- Life/childcare stress\n- Low self-esteem\n- Unplanned pregnancy\n- History of depression\n\n**Nursing Tip**: Never assume \"baby blues\" — assess for persistence and pervasiveness. Ask about suicidal/homicidal thoughts.\n\n**Treatment**:\n- Blues: Support, rest, reassurance\n- PPD: Psychotherapy, antidepressants (SSRIs safe in breastfeeding)\n- Psychosis: **Immediate psychiatric intervention**, antipsychotics, possible hospitalization\n\n---\n\n## Chapter 12: The Term Newborn\n\n### 1. Adjustment to Extrauterine Life\n\nNewborn adjustment depends on:\n- Genetic background\n- Health of uterine environment\n- Safe delivery\n- Care during first month\n\n### 2. Apgar Score ⭐\n\nStandardized evaluation at **1 and 5 minutes** after birth\n\n| Sign | 0 | 1 | 2 |\n|------|---|---|---|\n| **Heart Rate** | Absent | <100 bpm | >100 bpm |\n| **Respirations** | Absent | Slow, irregular | Good, crying |\n| **Muscle Tone** | Limp | Some flexion | Active motion |\n| **Reflexes** | No response | Grimace | Cry, cough, sneeze |\n| **Color** | Blue/pale | Acrocyanosis | Completely pink |\n\n**Score Interpretation**:\n- 7-10: Normal\n- 4-6: Moderate distress → assist\n- 0-3: Severe distress → immediate resuscitation\n\n### 3. Newborn Vital Signs\n\n| Parameter | Normal Range |\n|-----------|--------------|\n| **Temperature** | 36.2-37.7°C (97.1-99.8°F) |\n| **Heart Rate** | 110-160 bpm (may be higher first 30 min) |\n| **Respirations** | 30-60/min |\n| **Blood Pressure** | 60-80/40-50 mmHg |\n\n**Acrocyanosis** (blue hands/feet) is normal due to sluggish peripheral circulation — NOT central cyanosis\n\n### 4. Newborn Assessment\n\n**Head Circumference**: 32-36 cm (12.5-14.1 in); should not be >2 cm larger than chest\n\n**Fontanelles**:\n- **Anterior**: Diamond-shaped; closes ~18 months\n- **Posterior**: Triangular; closes ~2-3 months\n- **Flat** = normal; **Bulging** = ↑ ICP; **Depressed** = dehydration\n\n**Birth Injuries**:\n| Condition | Description | Crosses Suture Lines? |\n|-----------|-------------|----------------------|\n| **Molding** | Overlapping skull bones from birth canal | N/A |\n| **Caput Succedaneum** | Swelling of scalp soft tissues | **Yes** |\n| **Cephalohematoma** | Bleeding beneath periosteum | **No** |\n\n> Caput resolves in days; cephalohematoma may take weeks\n\n### 5. Newborn Reflexes\n\n| Reflex | Description | Disappears |\n|--------|-------------|------------|\n| **Rooting** | Turns head toward touch on cheek | 3-4 months |\n| **Sucking** | Sucks when nipple/pacifier touches lips | 4 months (voluntary) |\n| **Moro (Startle)** | Arms extend then adduct when startled | 4-6 months |\n| **Grasp (Palmar)** | Fingers curl around object in palm | 3-4 months |\n| **Babinski** | Toes fan out when sole stroked | 1 year |\n| **Stepping** | \"Walking\" motions when held upright | 2 months |\n| **Tonic Neck (Fencing)** | Head turned → arm extends on that side | 4-6 months |\n\n### 6. Pain Assessment in Newborns\n\nUse validated scales:\n- **CRIES**: Crying, Requires O₂, ↑ vital signs, Expression, Sleeplessness (10 pt)\n- **FLACC**: Face, Legs, Activity, Cry, Consolability (10 pt) — commonly used\n- **NIPS**: Neonatal Infant Pain Scale\n- **NPASS**: Neonatal Pain, Agitation, Sedation Scale (most common)\n\n### 7. Thermoregulation\n\nNewborn cannot regulate temperature well:\n- **Sweat glands don't function** → risk of overheating\n- Cold stress → ↑ O₂ consumption, ↓ glucose, acidosis\n\n**Maintain**:\n- Dry immediately after birth\n- Skin-to-skin contact\n- Radiant warmer\n- Hat, warm blankets\n\n### 8. Newborn Nutrition\n\n**Meconium**: First stool (black, tarry) — passed within 24-48 hrs\n**Transitional stool**: Greenish-brown\n**Breastfed stool**: Yellow, seedy, soft\n**Formula-fed stool**: Pale yellow/tan, firmer\n\n**Feeding increases gradually** with growth\n\n**Vitamins**:\n- **Vitamin D**: Commonly prescribed (breastfed infants at risk for deficiency)\n- Vitamin K: Given IM at birth to prevent hemorrhagic disease\n\n### 9. Infection Prevention\n\nNewborn immune system is immature:\n- **Hand hygiene** = primary prevention\n- Umbilical cord stump = primary infection site if not kept clean\n- Avoid sick contacts\n- Proper handwashing before handling\n\n### 10. Discharge Planning & Parent Teaching\n\n**Key Teaching Topics**:\n- Feeding cues and techniques\n- Sleep safety (back to sleep, firm mattress)\n- Cord care\n- Circumcision care (if applicable)\n- Bathing (sponge until cord falls off)\n- Car seat safety\n- Signs of illness to report\n- Follow-up pediatrician appointment (within 48-72 hrs if discharged <48 hrs)\n\n**Infant Abduction Prevention**:\n- ID bands checked every time\n- Never leave baby alone in room\n- Educate parents about security\n\n---\n\n## Quick Reference: Danger Signs to Report\n\n### Mother\n- Heavy bleeding (saturating >1 pad/hr)\n- Foul-smelling lochia\n- Fever >100.4°F\n- Severe headache, vision changes (preeclampsia signs)\n- Chest pain, shortness of breath\n- Leg swelling/redness/pain (DVT)\n- Feelings of harming self or baby\n\n### Newborn\n- Temperature <97°F or >100.4°F\n- Difficulty breathing, grunting, retractions\n- Cyanosis (central)\n- Seizures, jitteriness\n- Poor feeding, lethargy\n- No wet diaper in 12 hrs or no stool in 48 hrs\n- Yellow skin (jaundice) in first 24 hrs\n- Cord redness, foul odor, bleeding\n\n---\n\n*Study Guide for Chapters 9, 10 & 12 — OB/Maternity*\n*Based on course content and NCLEX-relevant material*\n";
-window.studyGuideContent["ati_maternal_practice"] = "# ATI CMS Maternal Newborn — Practice Exam Focus Guide\n### Built for Answering Questions, Not Just Memorizing Facts\n\n---\n\n## 📋 EXAM OVERVIEW\n- **60 scored items** (proctored)\n- **4 Units**: Antepartum → Intrapartum → Postpartum → Newborn\n- **NCLEX-aligned**: Management of Care, Safety, Health Promotion, Pharmacological, Physiological Adaptation\n- **Proficiency levels**: Level 1, 2, or 3 (most programs require Level 2+)\n- **Key focus**: Clinical judgment, prioritization, medication nursing actions, FHR interpretation\n\n---\n\n## 🟢 UNIT 1: ANTEPARTUM (Human Reproduction & Pregnancy)\n\n### Contraception & Infertility (HIGH-YIELD)\n| Method | Key Facts |\n|--------|-----------|\n| **Condoms** | Only method protecting against STIs |\n| **OCPs** | Take same time daily; if missed >24h, use backup |\n| **Depo-Provera** | IM every 12 weeks; weight gain, bone density loss |\n| **IUD (Mirena/Copper)** | 3-10 years; copper = no hormones, heavier bleeding |\n| **Tubal ligation/Vasectomy** | Permanent; informed consent critical |\n\n> ⚠️ **Infertility workup**: 12 months trying (6 if >35yo). Semen analysis first, then ovulation tracking.\n\n### Prenatal Care — What to Assess/Teach\n**Every visit:**\n- Fundal height (cm ≈ weeks 20-36)\n- FHR 110-160 bpm\n- Weight, BP, urine (protein/glucose)\n- Fetal movement (≥10 kicks in 2 hrs after 28 wk)\n\n**1st Trimester Labs:**\n- Blood type/Rh, antibody screen, CBC, RPR, rubella, Hep B, HIV, UA, Pap, STI screen, NIPT\n\n**2nd Trimester:**\n- **Quad screen** (15-20 wk): AFP, hCG, estriol, inhibin-A\n- **Anatomy ultrasound** (18-22 wk)\n- **GDM screen** (24-28 wk): 1-hr 50g glucose challenge → if ≥130-140, do 3-hr 100g OGTT\n\n**3rd Trimester:**\n- **GBS culture** (35-37 wk) → treat with IV Penicillin G in labor if +\n- NST (reactive = 2 accelerations ≥15 bpm × 15 sec in 20 min)\n- BPP (fetal breathing, movement, tone, AFI, NST — 8-10 = normal)\n\n### Danger Signs — IMMEDIATE REPORTING\n- Vaginal bleeding, fluid gush, severe headache, blurred vision, epigastric pain, facial/hand edema, fever >100.4°F, decreased fetal movement, contractions before 37 wk\n\n### High-Risk Antepartum — Priority Nursing Actions\n\n**Preeclampsia/HELLP**\n| Finding | Nursing Action |\n|---------|----------------|\n| BP ≥140/90 + proteinuria | **Mag sulfate** (seizure prevention) |\n| Mag toxicity signs | **↓ DTRs, RR <12, UO <30mL/hr** → STOP mag, give **calcium gluconate** |\n| Severe: headache, vision changes, RUQ pain | Seizure precautions, deliver baby |\n\n> **Cure for preeclampsia = DELIVERY**\n\n**Placenta Previa**\n- Painless bright red bleeding\n- **NO vaginal exams, NO intercourse**\n- Position: side-lying, bed rest, monitor bleeding\n- C-section if complete previa at term\n\n**Placental Abruption**\n- Painful dark bleeding, rigid/board-like uterus\n- Risk: cocaine, HTN, trauma, PROM\n- Monitor for DIC (bleeding, low platelets)\n- Emergency C-section if severe\n\n**Preterm Labor**\n- **Tocolytics**: Nifedipine (CCB), Terbutaline (β2 agonist), MgSO4\n- **Betamethasone** (24-34 wk): 2 doses 24h apart for lung maturity\n- Contraindications to tocolysis: active bleeding, infection, severe preeclampsia, fetal demise\n\n**Gestational Diabetes**\n- Screen 24-28 wk\n- Risks: macrosomia, shoulder dystocia, neonatal hypoglycemia\n- Teach: diet, exercise, glucose monitoring, insulin if needed\n- Glucose normalizes by 6 wk PP (true GDM)\n\n**Rh Incompatibility**\n- Mom Rh- baby Rh+: **RhoGAM** at 28 wk + within 72h after delivery of Rh+ baby\n- Prevents erythroblastosis fetalis in future pregnancies\n\n**TORCH Infections**\n| Infection | Key Point |\n|-----------|-----------|\n| Toxoplasmosis | Raw meat, cat feces → avoid |\n| Syphilis | Penicillin; can cross placenta |\n| Rubella | VACCINATE BEFORE pregnancy (teratogenic) |\n| CMV | Most common congenital viral infection |\n| Herpes | C-section if active lesions at delivery |\n\n---\n\n## 🟡 UNIT 2: INTRAPARTUM (Labor & Delivery)\n\n### Stages of Labor\n| Stage | Key Events | Nursing Focus |\n|-------|------------|---------------|\n| **1st** | Latent (0-6 cm), Active (6-10 cm), Transition | Comfort, FHR monitoring, hydration |\n| **2nd** | Full dilation → birth | Pushing, perineal support, Apgar |\n| **3rd** | Placenta delivery (5-30 min) | Inspect placenta, hemorrhage watch |\n| **4th** | Recovery (1-2 hrs) | BUBBLE-HE, fundal massage, bleeding |\n\n### True vs. False Labor\n| True Labor | False Labor |\n|------------|-------------|\n| Regular, increasing | Irregular |\n| Cervical change | No change |\n| Continues despite position | Stops with rest/position |\n| Bloody show, ROM | May have some discharge |\n\n### Fetal Heart Rate Monitoring ⭐⭐⭐\n\n**Normal Baseline:** 110-160 bpm\n\n**VEAL CHOP — MUST KNOW:**\n| Pattern | Cause | Nursing Action |\n|---------|-------|----------------|\n| **V**ariable decel | **C**ord compression | Reposition, O2, amnioinfusion |\n| **E**arly decel | **H**ead compression | Reassuring — no action |\n| **A**cceleration | **O**K | Reassuring — no action |\n| **L**ate decel | **P**lacental insufficiency | O2, position left side, stop oxytocin, notify provider |\n\n**Variability:**\n- **Moderate** (6-25 bpm) = good\n- **Minimal/Absent** = concerning\n- **Marked** (>25 bpm) = concerning\n\n**Category I** (normal): Baseline 110-160, moderate variability, no late/variable decels, +/- accelerations\n**Category II** (indeterminate): Everything else\n**Category III** (abnormal): Absent variability + recurrent late/variable decels, sinusoidal pattern → EMERGENCY\n\n### Pain Management\n\n**Nonpharmacologic:**\n- Breathing, relaxation, effleurage, counterpressure, hydrotherapy, position changes, music\n\n**Pharmacologic:**\n| Type | Key Facts |\n|------|-----------|\n| **Opioids** (fentanyl, morphine) | Avoid within 1 hr of birth (neonatal respiratory depression) |\n| **Epidural** | Most common; hypotension risk → bolus fluids, monitor BP |\n| **Spinal** | Single injection; for C-section |\n| **General anesthesia** | Emergency C-section only; aspiration risk |\n\n> ⚠️ **Hyperventilation signs**: Dizziness, tingling, hand cramps → breathe into cupped hands\n\n### Labor Complications\n\n**Prolapsed Cord**\n1. **Knee-chest or Trendelenburg** position\n2. **Insert gloved hand to lift presenting part off cord**\n3. Emergency C-section\n\n**Shoulder Dystocia**\n- Turtle sign (head retracts)\n- **McRoberts maneuver** (flex hips to abdomen)\n- **Suprapubic pressure** (NOT fundal)\n- Document: \"turtle sign, McRoberts, suprapubic pressure\"\n\n**Uterine Rupture**\n- Sudden severe abdominal pain, loss of contractions, abnormal FHR\n- Emergency surgery, blood products\n\n**Amniotic Fluid Embolism**\n- Sudden respiratory distress, cyanosis, hypotension, DIC\n- Supportive care, ICU, blood products\n\n---\n\n## 🟠 UNIT 3: POSTPARTUM CARE\n\n### BUBBLE-HE Assessment ⭐⭐⭐\n| Letter | What to Assess |\n|--------|----------------|\n| **B**reasts | Soft, engorged, nipples (cracks, bleeding) |\n| **U**terus | Firmness, fundal height, position |\n| **B**ladder | Distention, voiding |\n| **B**owels | Gas, BM, bowel sounds |\n| **L**ochia | Amount, color, odor (foul = infection) |\n| **E**pisiotomy/Perineum | REEDA: Redness, Edema, Ecchymosis, Discharge, Approximation |\n| **H**oman's sign | Leg pain on dorsiflexion (DVT) |\n| **E**motional status | Mood, bonding, baby blues vs depression |\n\n### Lochia — Critical\n| Type | Color | Days | Amount |\n|------|-------|------|--------|\n| **Rubra** | Red | 1-3 | Moderate-heavy |\n| **Serosa** | Pink | 4-10 | Light |\n| **Alba** | White/yellow | 10-21 | Scant |\n\n> ⚠️ **Saturating >1 pad/hr** or large clots = hemorrhage\n\n### Fundal Assessment\n- **Firm fundus at midline** = normal\n- **Boggy (soft)** = atony → **massage fundus**\n- **Deviated to right** = full bladder → **assist to void**\n- Fundus descends **1-2 cm/day**, not palpable by day 10\n\n### Postpartum Hemorrhage (PPH) ⭐⭐⭐\n- **>500 mL vaginal / >1000 mL C-section**\n- **4 T's**: Tone (atony #1), Trauma (lacerations), Tissue (retained placenta), Thrombin (DIC)\n- **Earliest sign**: Tachycardia (before BP drops)\n- **Treatment**: Fundal massage, oxytocin, Methergine (if no HTN), misoprostol, carboprost, blood products\n\n### Mood Disorders\n| Type | Onset | Key Features | Action |\n|------|-------|--------------|--------|\n| **Baby blues** | Days 2-10 | Tearful, mood swings, resolves | Reassure, support |\n| **PP Depression** | 2-4 wk | Persistent sadness, guilt, can't cope, sleep/appetite changes | Screen, refer, meds |\n| **PP Psychosis** | Variable | Hallucinations, delusions, harm thoughts | **PSYCHIATRIC EMERGENCY** |\n\n> ⚠️ Never assume \"just baby blues\" — assess for persistence\n\n### Key Medications\n| Drug | Use | Nursing |\n|------|-----|---------|\n| **Oxytocin (Pitocin)** | PPH, induction | Continuous monitoring, titrate to contractions |\n| **Methylergonovine (Methergine)** | PPH | **Contraindicated in HTN** |\n| **Carboprost (Hemabate)** | PPH | Causes N/V/D; contraindicated in asthma |\n| **Misoprostol (Cytotec)** | PPH | Rectal/oral |\n| **RhoGAM** | Rh- mom | IM within 72h of Rh+ baby delivery |\n| **Rubella vaccine** | Nonimmune mom | Avoid pregnancy 4 wk after |\n\n---\n\n## 🔵 UNIT 4: NEWBORN CARE\n\n### Immediate Newborn Care\n| Action | When/Why |\n|--------|----------|\n| **Dry & warm** | Prevent heat loss (evaporation) |\n| **Suction** | Airway if needed (mouth before nose) |\n| **Apgar** | 1 min and 5 min (HR, RR, Tone, Reflex, Color) |\n| **Vitamin K** | IM — prevents hemorrhagic disease |\n| **Erythromycin** | Eye ointment — prevents ophthalmia neonatorum |\n| **Hep B vaccine** | Within 24h (if mom +) |\n| **Newborn screen** | 24-48h after first feeding |\n| **ID bands** | Mom + baby (verify before procedures) |\n\n### Apgar Score\n| Score | Interpretation |\n|-------|----------------|\n| 7-10 | Normal |\n| 4-6 | Moderate distress |\n| 0-3 | Severe distress — resuscitation |\n\n### Thermoregulation — 4 Heat Loss Types\n| Type | Cause | Prevention |\n|------|-------|------------|\n| **Evaporation** | Wet skin | Dry immediately |\n| **Conduction** | Cold surface | Warm blankets, skin-to-skin |\n| **Convection** | Drafts | Close doors, no fans |\n| **Radiation** | Cold objects nearby | Keep away from cold walls/windows |\n\n### Newborn Vitals\n| Parameter | Normal Range |\n|-----------|--------------|\n| **Temp** | 97.1-99.8°F (36.2-37.7°C) |\n| **HR** | 110-160 bpm |\n| **RR** | 30-60/min |\n| **BP** | 60-80/40-50 mmHg |\n\n### Newborn Reflexes\n| Reflex | Elicit | Disappears |\n|--------|--------|------------|\n| **Rooting** | Touch cheek → turns head | 3-4 mo |\n| **Sucking** | Object in mouth → sucks | 4 mo |\n| **Moro (startle)** | Sudden sound → arms extend then flex | 4-6 mo |\n| **Grasp** | Object in palm → grips | 3-4 mo |\n| **Babinski** | Stroke sole → toes fan out | 12 mo |\n\n### Newborn Nutrition\n- **Colostrum** (days 1-3): Yellow, thick, immunoglobulins\n- **Transitional** (days 4-10)\n- **Mature** (day 14+): Bluish, 20 kcal/oz\n- **Foremilk** = watery (thirst) | **Hindmilk** = fatty (satisfaction)\n- Feed every **2-3 hrs** → 8-10 wet diapers/day\n- **Breastfeeding contraindications**: HIV, HTLV 1&2, active TB, chemo\n\n### Newborn Complications — High-Yield\n\n**Hypoglycemia** (<45 mg/dL)\n- Risks: Preterm, LGA, SGA, diabetic mom, cold stress\n- Signs: Jittery, poor tone, high-pitched cry, seizures\n- Tx: Feed immediately, check glucose, IV glucose if needed\n\n**Hyperbilirubinemia**\n- **Physiologic**: Days 2-4, peaks day 5, resolves by 2 wk\n- **Pathologic**: <24h, rapid rise, prolonged\n- **Kernicterus** risk if untreated\n- Tx: Phototherapy (cover eyes, monitor temp), hydration\n\n**Respiratory Distress**\n- Signs: Grunting, nasal flaring, retractions, cyanosis\n- RDS: Surfactant deficiency (preterm) → give exogenous surfactant\n- TTN: \"Wet lung\" — resolves 24-48h\n- Meconium aspiration: Suction below cords if depressed\n\n**Neonatal Abstinence Syndrome (NAS)**\n- From maternal opioid use\n- Signs: Hypertonia, tremor, sneezing, yawning, vomiting, seizures\n- Tx: Finnegan scoring, swaddling, small frequent feeds, morphine if severe\n\n---\n\n## 💊 MEDICATION QUICK REFERENCE\n\n| Medication | Indication | Key Nursing |\n|------------|------------|-------------|\n| **Magnesium sulfate** | Preeclampsia seizure prevention | Monitor DTRs, RR, UO; antidote = calcium gluconate |\n| **Oxytocin (Pitocin)** | Induction, PPH | Continuous monitoring, titrate, stop for hyperstimulation |\n| **Betamethasone** | Preterm lung maturity (<34 wk) | 2 doses 24h apart |\n| **Terbutaline** | Tocolytic | Tachycardia, nervousness |\n| **Nifedipine** | Tocolytic | Hypotension, headache |\n| **Methylergonovine** | PPH | **No HTN** (causes severe vasoconstriction) |\n| **Carboprost** | PPH | N/V/D, contraindicated asthma |\n| **Misoprostol** | PPH, induction | Rectal/oral |\n| **RhoGAM** | Rh- mom | IM, within 72h of Rh+ baby |\n| **Vitamin K** | Newborn hemorrhage prevention | IM vitamin K within 1 hr of birth |\n| **Erythromycin** | Newborn ophthalmia prevention | Eye ointment within 1-2 hr of birth |\n\n---\n\n## 🎯 PRIORITY SETTING (ABCs + Safety)\n\n1. **ABCs first** — Airway, Breathing, Circulation\n2. **Safety** — Prevent falls, newborn abduction, infection\n3. **Acute before chronic**\n4. **Actual before potential**\n5. **Most unstable first**\n\n**Example**: Postpartum mom with boggy fundus (atony) vs. mom with engorged breasts → **Atony first** (PPH risk)\n\n---\n\n## 📝 PRACTICE QUESTION STRATEGIES\n\n1. **FHR question?** → Use VEAL CHOP\n2. **PPH question?** → Fundal massage, oxytocin, check 4 T's\n3. **Preeclampsia question?** → Mag sulfate, seizure precautions, deliver\n4. **Newborn distress?** → ABCs, thermoregulation, glucose\n5. **Medication question?** → Side effects, contraindications, nursing actions\n6. **Priority?** → Unstable first, ABCs, safety\n\n---\n\n## ✅ FINAL CHECKLIST\n\n- [ ] VEAL CHOP memorized\n- [ ] BUBBLE-HE memorized\n- [ ] 4 T's of PPH\n- [ ] Mag toxicity signs + antidote\n- [ ] Apgar components\n- [ ] Newborn meds (Vitamin K, Erythromycin)\n- [ ] RhoGAM timing\n- [ ] Betamethasone for lung maturity\n- [ ] Fetal shunts (when they close)\n- [ ] Danger signs in pregnancy\n- [ ] Breastfeeding contraindications\n\n---\n\n*This guide is built for answering practice exam questions. Focus on clinical judgment, not just facts. Good luck!*\n";
+window.studyGuideContent["ati_maternal_practice"] = "# ATI CMS Maternal Newborn — ULTIMATE Comprehensive Guide
+### Practice Exam Focus + Full Pathophysiology + All Medications + NGN Scenarios
+### Pulled from: Repo OB content, lecture slides, curriculum knowledge
+
+---
+
+## 📋 EXAM OVERVIEW
+- **60 scored items** (proctored) — 4 units: Antepartum, Intrapartum, Postpartum, Newborn
+- **NCLEX-aligned**: Management of Care, Safety, Health Promotion, Pharmacological, Physiological Adaptation
+- **Proficiency levels**: Level 1, 2, or 3 (most programs require Level 2+)
+- **Key focus**: Clinical judgment, prioritization, medication nursing actions, FHR interpretation
+- **NGN integration**: Case studies, bowtie, matrix, drag-drop, highlight, SATA
+
+---
+
+## 🧬 UNIT 1: ANTEPARTUM — FETAL DEVELOPMENT & PREGNANCY
+
+### Cell Division & Fertilization (from lecture slides)
+| Process | Details |
+|---------|---------|
+| **Mitosis** | Body cell division — 46 chromosomes (diploid) |
+| **Meiosis** | Sex cell division — 23 chromosomes (haploid) |
+| **Fertilization** | Outer 1/3 fallopian tube (ampulla); sperm viable 5 days, ovum 24 hrs |
+| **Zygote** | Single fertilized cell → morula (day 3) → blastocyst → implants ~day 7 |
+| **Implantation** | Upper posterior uterine wall → decidua basalis = maternal placenta |
+
+**Sex determination**: X sperm → female (XX); Y sperm → male (XY)
+
+### Germ Layers — What They Become
+| Layer | Derivatives |
+|-------|-------------|
+| **Ectoderm** | Skin, hair, nails, nervous system, sense organs, mouth/anus lining |
+| **Mesoderm** | Skeleton, muscles, blood vessels, kidneys, gonads, connective tissue |
+| **Endoderm** | Trachea, bronchi, GI lining, bladder, urethra |
+
+### Placenta & Hormones
+The placenta is a temporary endocrine organ producing **4 hormones**:
+| Hormone | Function |
+|---------|----------|
+| **Progesterone** | Maintains uterine lining; ↓ contractions; breast prep; fetal testosterone |
+| **Estrogen** | Uterine growth; ↑ uterine blood flow; breast duct development |
+| **hCG** | Signals conception; keeps corpus luteum alive; detectable 7-9 days post-fertilization |
+| **hPL** | ↓ maternal insulin sensitivity → more glucose to fetus (\"diabetogenic effect\" → GDM) |
+
+> ⚠️ Placenta is **not a barrier** — drugs, alcohol, nicotine, viruses cross to fetus
+
+### Fetal Shunts — Must Know Closure Times
+| Shunt | Bypasses | Functional Close | Permanent Close | If Fails |
+|-------|----------|------------------|-----------------|----------|
+| **Ductus venosus** | Liver | Cord cut | ~1 week | Portal hypertension |
+| **Foramen ovale** | Lungs | 2 hours | 3 months | ASD |
+| **Ductus arteriosus** | Lungs | 15 hours | 3 weeks | PDA |
+
+### Amniotic Fluid
+| Timing | Volume |
+|--------|--------|
+| 10 wk | 30 mL |
+| 20 wk | 350 mL |
+| 37 wk | 1000 mL |
+
+**Oligohydramnios** = too little → pulmonary hypoplasia, limb contractures
+**Polyhydramnios** = too much → maternal discomfort, PROM risk, diabetes association
+
+### Contraception & Infertility
+| Method | Key Facts |
+|--------|-----------|
+| **Condoms** | Only method protecting against STIs |
+| **OCPs** | Take same time daily; if missed >24h, use backup; 99% effective with perfect use |
+| **Depo-Provera** | IM every 12 weeks; weight gain, bone density loss, irregular bleeding |
+| **IUD (Mirena/Copper)** | 3-10 years; copper = no hormones, heavier bleeding, 99% effective |
+| **Tubal ligation/Vasectomy** | Permanent; informed consent critical |
+
+> ⚠️ **Infertility workup**: 12 months trying (6 if >35yo). Semen analysis first, then ovulation tracking, hysterosalpingogram.
+
+### Prenatal Care — Trimester Breakdown
+
+**1st Trimester Labs (every pregnancy):**
+- Blood type/Rh, antibody screen, CBC, RPR, rubella, Hep B, HIV, UA, Pap, STI screen, NIPT
+
+**2nd Trimester:**
+- **Quad screen** (15-20 wk): AFP, hCG, estriol, inhibin-A → screens Down syndrome, neural tube defects
+- **Anatomy ultrasound** (18-22 wk)
+- **GDM screen** (24-28 wk): 1-hr 50g glucose challenge → if ≥130-140, do 3-hr 100g OGTT
+
+**3rd Trimester:**
+- **GBS culture** (35-37 wk) → treat with IV Penicillin G in labor if +
+- NST (reactive = 2 accelerations ≥15 bpm × 15 sec in 20 min)
+- BPP (fetal breathing, movement, tone, AFI, NST — 8-10 = normal)
+
+### Danger Signs — IMMEDIATE REPORTING
+- Vaginal bleeding, fluid gush, severe headache, blurred vision, epigastric pain, facial/hand edema, fever >100.4°F, decreased fetal movement, contractions before 37 wk, persistent vomiting, chills
+
+### High-Risk Antepartum Conditions
+
+**Preeclampsia/HELLP**
+| Finding | Nursing Action |
+|---------|----------------|
+| BP ≥140/90 + proteinuria | **Mag sulfate** (seizure prevention) |
+| Mag toxicity signs | **↓ DTRs, RR <12, UO <30mL/hr** → STOP mag, give **calcium gluconate** |
+| Severe: headache, vision changes, RUQ pain | Seizure precautions, deliver baby |
+| HELLP | Hemolysis, Elevated Liver enzymes, Low Platelets → ICU, deliver |
+
+> **Cure for preeclampsia = DELIVERY**
+
+**Placenta Previa** (painless bright red bleeding)
+- **NO vaginal exams, NO intercourse**
+- Position: side-lying, bed rest, monitor bleeding
+- C-section if complete previa at term
+
+**Placental Abruption** (painful dark bleeding, rigid/board-like uterus)
+- Risk: cocaine, HTN, trauma, PROM, smoking
+- Monitor for DIC (bleeding, low platelets)
+- Emergency C-section if severe
+
+**Preterm Labor**
+- **Tocolytics**: Nifedipine (CCB), Terbutaline (β2 agonist), MgSO4
+- **Betamethasone** (24-34 wk): 2 doses 24h apart for lung maturity
+- Contraindications: active bleeding, infection, severe preeclampsia, fetal demise
+
+**Gestational Diabetes**
+- Screen 24-28 wk
+- Risks: macrosomia, shoulder dystocia, neonatal hypoglycemia, polyhydramnios
+- Teach: diet, exercise, glucose monitoring, insulin if needed
+- Glucose normalizes by 6 wk PP (true GDM)
+
+**Rh Incompatibility**
+- Mom Rh- baby Rh+: **RhoGAM** at 28 wk + within 72h after delivery of Rh+ baby
+- Prevents erythroblastosis fetalis in future pregnancies
+
+**TORCH Infections**
+| Infection | Key Point |
+|-----------|-----------|
+| Toxoplasmosis | Raw meat, cat feces → avoid; can cause blindness, brain damage |
+| Syphilis | Penicillin; can cross placenta; stillbirth risk |
+| Rubella | VACCINATE BEFORE pregnancy (teratogenic); cataracts, deafness, cardiac defects |
+| CMV | Most common congenital viral infection; sensorineural hearing loss |
+| Herpes | C-section if active lesions at delivery; neonatal herpes fatal |
+
+---
+
+## 🟡 UNIT 2: INTRAPARTUM — LABOR & DELIVERY
+
+### Stages of Labor
+| Stage | Key Events | Nursing Focus |
+|-------|------------|---------------|
+| **1st** | Latent (0-6 cm), Active (6-10 cm), Transition | Comfort, FHR monitoring, hydration |
+| **2nd** | Full dilation → birth | Pushing, perineal support, Apgar |
+| **3rd** | Placenta delivery (5-30 min) | Inspect placenta, hemorrhage watch |
+| **4th** | Recovery (1-2 hrs) | BUBBLE-HE, fundal massage, bleeding |
+
+### True vs. False Labor
+| True Labor | False Labor |
+|------------|-------------|
+| Regular, increasing | Irregular |
+| Cervical change | No change |
+| Continues despite position | Stops with rest/position |
+| Bloody show, ROM | May have some discharge |
+
+### Fetal Heart Rate Monitoring ⭐⭐⭐
+
+**Normal Baseline:** 110-160 bpm
+
+**VEAL CHOP — MUST KNOW:**
+| Pattern | Cause | Nursing Action |
+|---------|-------|----------------|
+| **V**ariable decel | **C**ord compression | Reposition, O2, amnioinfusion |
+| **E**arly decel | **H**ead compression | Reassuring — no action |
+| **A**cceleration | **O**K | Reassuring — no action |
+| **L**ate decel | **P**lacental insufficiency | O2, position left side, stop oxytocin, notify provider |
+
+**Variability:**
+- **Moderate** (6-25 bpm) = good
+- **Minimal/Absent** = concerning
+- **Marked** (>25 bpm) = concerning
+
+**Category I** (normal): Baseline 110-160, moderate variability, no late/variable decels, +/- accelerations
+**Category II** (indeterminate): Everything else
+**Category III** (abnormal): Absent variability + recurrent late/variable decels, sinusoidal pattern → EMERGENCY
+
+### Pain Management
+
+**Nonpharmacologic:**
+- Breathing, relaxation, effleurage, counterpressure, hydrotherapy, position changes, music, doula
+
+**Pharmacologic:**
+| Type | Key Facts |
+|------|-----------|
+| **Opioids** (fentanyl, morphine) | Avoid within 1 hr of birth (neonatal respiratory depression) |
+| **Epidural** | Most common; hypotension risk → bolus fluids, monitor BP |
+| **Spinal** | Single injection; for C-section |
+| **General anesthesia** | Emergency C-section only; aspiration risk |
+
+### Labor Complications
+
+**Prolapsed Cord**
+1. **Knee-chest or Trendelenburg** position
+2. **Insert gloved hand to lift presenting part off cord**
+3. Emergency C-section
+
+**Shoulder Dystocia**
+- Turtle sign (head retracts)
+- **McRoberts maneuver** (flex hips to abdomen)
+- **Suprapubic pressure** (NOT fundal)
+- Document: \"turtle sign, McRoberts, suprapubic pressure\"
+
+**Uterine Rupture**
+- Sudden severe abdominal pain, loss of contractions, abnormal FHR
+- Emergency surgery, blood products
+
+**Amniotic Fluid Embolism**
+- Sudden respiratory distress, cyanosis, hypotension, DIC
+- Supportive care, ICU, blood products
+
+---
+
+## 🟠 UNIT 3: POSTPARTUM CARE
+
+### BUBBLE-HE Assessment ⭐⭐⭐
+| Letter | What to Assess |
+|--------|----------------|
+| **B**reasts | Soft, engorged, nipples (cracks, bleeding) |
+| **U**terus | Firmness, fundal height, position |
+| **B**ladder | Distention, voiding |
+| **B**owels | Gas, BM, bowel sounds |
+| **L**ochia | Amount, color, odor (foul = infection) |
+| **E**pisiotomy/Perineum | REEDA: Redness, Edema, Ecchymosis, Discharge, Approximation |
+| **H**oman's sign | Leg pain on dorsiflexion (DVT) |
+| **E**motional status | Mood, bonding, baby blues vs depression |
+
+### Lochia — Critical
+| Type | Color | Days | Amount |
+|------|-------|------|--------|
+| **Rubra** | Red | 1-3 | Moderate-heavy |
+| **Serosa** | Pink | 4-10 | Light |
+| **Alba** | White/yellow | 10-21 | Scant |
+
+> ⚠️ **Saturating >1 pad/hr** or large clots = hemorrhage
+
+### Fundal Assessment
+- **Firm fundus at midline** = normal
+- **Boggy (soft)** = atony → **massage fundus**
+- **Deviated to right** = full bladder → **assist to void**
+- Fundus descends **1-2 cm/day**, not palpable by day 10
+
+### Postpartum Hemorrhage (PPH) ⭐⭐⭐
+- **>500 mL vaginal / >1000 mL C-section**
+- **4 T's**: Tone (atony #1), Trauma (lacerations), Tissue (retained placenta), Thrombin (DIC)
+- **Earliest sign**: Tachycardia (before BP drops)
+- **Treatment**: Fundal massage, oxytocin, Methergine (if no HTN), misoprostol, carboprost, blood products
+
+### Mood Disorders
+| Type | Onset | Key Features | Action |
+|------|-------|--------------|--------|
+| **Baby blues** | Days 2-10 | Tearful, mood swings, resolves | Reassure, support |
+| **PP Depression** | 2-4 wk | Persistent sadness, guilt, can't cope, sleep/appetite changes | Screen, refer, meds |
+| **PP Psychosis** | Variable | Hallucinations, delusions, harm thoughts | **PSYCHIATRIC EMERGENCY** |
+
+> ⚠️ Never assume \"just baby blues\" — assess for persistence
+
+---
+
+## 🔵 UNIT 4: NEWBORN CARE
+
+### Immediate Newborn Care
+| Action | When/Why |
+|--------|----------|
+| **Dry & warm** | Prevent heat loss (evaporation) |
+| **Suction** | Airway if needed (mouth before nose) |
+| **Apgar** | 1 min and 5 min (HR, RR, Tone, Reflex, Color) |
+| **Vitamin K** | IM — prevents hemorrhagic disease |
+| **Erythromycin** | Eye ointment — prevents ophthalmia neonatorum |
+| **Hep B vaccine** | Within 24h (if mom +) |
+| **Newborn screen** | 24-48h after first feeding |
+| **ID bands** | Mom + baby (verify before procedures) |
+
+### Apgar Score
+| Score | Interpretation |
+|-------|----------------|
+| 7-10 | Normal |
+| 4-6 | Moderate distress |
+| 0-3 | Severe distress — resuscitation |
+
+### Thermoregulation — 4 Heat Loss Types
+| Type | Cause | Prevention |
+|------|-------|------------|
+| **Evaporation** | Wet skin | Dry immediately |
+| **Conduction** | Cold surface | Warm blankets, skin-to-skin |
+| **Convection** | Drafts | Close doors, no fans |
+| **Radiation** | Cold objects nearby | Keep away from cold walls/windows |
+
+### Newborn Vitals
+| Parameter | Normal Range |
+|-----------|--------------|
+| **Temp** | 97.1-99.8°F (36.2-37.7°C) |
+| **HR** | 110-160 bpm |
+| **RR** | 30-60/min |
+| **BP** | 60-80/40-50 mmHg |
+
+### Newborn Reflexes
+| Reflex | Elicit | Disappears |
+|--------|--------|------------|
+| **Rooting** | Touch cheek → turns head | 3-4 mo |
+| **Sucking** | Object in mouth → sucks | 4 mo |
+| **Moro (startle)** | Sudden sound → arms extend then flex | 4-6 mo |
+| **Grasp** | Object in palm → grips | 3-4 mo |
+| **Babinski** | Stroke sole → toes fan out | 12 mo |
+
+### Newborn Nutrition
+- **Colostrum** (days 1-3): Yellow, thick, immunoglobulins
+- **Transitional** (days 4-10)
+- **Mature** (day 14+): Bluish, 20 kcal/oz
+- **Foremilk** = watery (thirst) | **Hindmilk** = fatty (satisfaction)
+- Feed every **2-3 hrs** → 8-10 wet diapers/day
+- **Breastfeeding contraindications**: HIV, HTLV 1&2, active TB, chemo
+
+### Newborn Complications — High-Yield
+
+**Hypoglycemia** (<45 mg/dL)
+- Risks: Preterm, LGA, SGA, diabetic mom, cold stress
+- Signs: Jittery, poor tone, high-pitched cry, seizures
+- Tx: Feed immediately, check glucose, IV glucose if needed
+
+**Hyperbilirubinemia**
+- **Physiologic**: Days 2-4, peaks day 5, resolves by 2 wk
+- **Pathologic**: <24h, rapid rise, prolonged
+- **Kernicterus** risk if untreated
+- Tx: Phototherapy (cover eyes, monitor temp), hydration
+
+**Respiratory Distress**
+- Signs: Grunting, nasal flaring, retractions, cyanosis
+- RDS: Surfactant deficiency (preterm) → give exogenous surfactant
+- TTN: \"Wet lung\" — resolves 24-48h
+- Meconium aspiration: Suction below cords if depressed
+
+**Neonatal Abstinence Syndrome (NAS)**
+- From maternal opioid use
+- Signs: Hypertonia, tremor, sneezing, yawning, vomiting, seizures
+- Tx: Finnegan scoring, swaddling, small frequent feeds, morphine if severe
+
+---
+
+## 💊 MEDICATIONS — COMPREHENSIVE LIST (25+)
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Magnesium sulfate** | Preeclampsia seizure prevention, tocolytic | Monitor DTRs, RR, UO; antidote = calcium gluconate |
+| **Oxytocin (Pitocin)** | Induction, augmentation, PPH | Continuous monitoring, titrate, stop for hyperstimulation |
+| **Betamethasone** | Preterm lung maturity (<34 wk) | 2 doses 24h apart |
+| **Terbutaline** | Tocolytic | Tachycardia, nervousness, hyperglycemia |
+| **Nifedipine** | Tocolytic | Hypotension, headache |
+| **Methylergonovine (Methergine)** | PPH | **No HTN** (causes severe vasoconstriction) |
+| **Carboprost (Hemabate)** | PPH | N/V/D, contraindicated asthma |
+| **Misoprostol (Cytotec)** | PPH, induction | Rectal/oral; can cause fever |
+| **RhoGAM** | Rh- mom | IM, within 72h of Rh+ baby |
+| **Vitamin K** | Newborn hemorrhage prevention | IM vitamin K within 1 hr of birth |
+| **Erythromycin** | Newborn ophthalmia prevention | Eye ointment within 1-2 hr of birth |
+| **Hepatitis B vaccine** | Newborn Hep B prevention | Within 24h; if mom +, give HBIG too |
+| **Penicillin G** | GBS prophylaxis in labor | IV; if allergic, use clindamycin or erythromycin |
+| **Labetalol** | Antihypertensive (preeclampsia) | Monitor BP, HR; first-line for HTN in pregnancy |
+| **Hydralazine** | Antihypertensive | Vasodilator; monitor BP |
+| **Naloxone (Narcan)** | Opioid reversal | Can cause withdrawal in opioid-dependent newborn |
+| **Naloxone (Narcan)** | Opioid reversal | Can cause withdrawal in opioid-dependent newborn |
+| **Dinoprostone (Cervidil)** | Cervical ripening | Vaginal insert; remove if hyperstimulation |
+| **Misoprostol (Cytotec)** | Cervical ripening, PPH | Off-label for induction; can cause fever, diarrhea |
+| **Lactated Ringer's** | IV hydration, blood loss | First-line IV fluid; bolus for hemorrhage |
+| **Docusate sodium (Colace)** | Constipation (postpartum) | Stool softener; safe in breastfeeding |
+| **Ferrous sulfate** | Iron-deficiency anemia | Take with vitamin C; causes black stool, constipation |
+| **Folic acid** | Neural tube defect prevention | 400 mcg pre-conception; 600-800 mcg in pregnancy |
+| **Tetanus, diphtheria, pertussis (Tdap)** | Pertussis prevention (newborn) | Give to mom 27-36 weeks |
+| **Influenza vaccine** | Flu prevention | Safe in pregnancy |
+| **Rubella vaccine (MMR)** | Post-delivery if non-immune | Give postpartum; avoid pregnancy 4 weeks |
+
+---
+
+## 📊 LAB VALUES & CRITICAL THRESHOLDS
+
+| Lab | Normal (Pregnancy) | Critical |
+|-----|-------------------|----------|
+| **Glucose (fasting)** | <95 mg/dL | <60 or >200 |
+| **Glucose (1-hr GTT)** | <140 mg/dL | ≥140 → 3-hr test |
+| **Hemoglobin** | 11-12 g/dL | <10 = anemia |
+| **Hematocrit** | 33-46% | <30% |
+| **Platelets** | 150,000-450,000 | <100,000 = thrombocytopenia |
+| **Magnesium** | 4-8 mg/dL (therapeutic) | >8 = toxic |
+| **Urine protein** | Negative/trace | ≥2+ = preeclampsia |
+| **Newborn glucose** | 45-90 mg/dL | <45 = hypoglycemia |
+| **Newborn bilirubin** | <12 mg/dL (term) | >15-20 = phototherapy |
+
+---
+
+## 🎯 NGN QUESTION WALKTHROUGHS
+
+### Bowtie Scenario: Preeclampsia
+**Patient:** 32yo G1P0 at 34 weeks, BP 168/102, 3+ protein, severe headache, blurred vision
+
+**Condition:** Severe Preeclampsia
+**Action:** Start magnesium sulfate IV, seizure precautions, prepare for delivery
+**Monitor:** DTRs, RR, UO, BP, fetal status
+
+### Matrix: FHR Interpretation
+| Strip | Category | Intervention |
+|-------|----------|--------------|
+| Baseline 130, mod var, accels present, no decels | I | Reassure, continue monitoring |
+| Baseline 140, minimal var, recurrent late decels | III | O2, position left, stop Pitocin, notify provider |
+| Baseline 150, mod var, variable decels | II | Reposition, amnioinfusion if needed |
+
+---
+
+## ✅ FINAL CHECKLIST
+
+- [ ] VEAL CHOP memorized
+- [ ] BUBBLE-HE memorized
+- [ ] 4 T's of PPH
+- [ ] Mag toxicity signs + antidote
+- [ ] Apgar components
+- [ ] Newborn meds (Vitamin K, Erythromycin, Hep B)
+- [ ] RhoGAM timing
+- [ ] Betamethasone for lung maturity
+- [ ] Fetal shunts (when they close)
+- [ ] Danger signs in pregnancy
+- [ ] Breastfeeding contraindications
+- [ ] GDM screening timing (24-28 wk)
+- [ ] GBS screening timing (35-37 wk)
+- [ ] NST reactivity criteria
+- [ ] BPP components (8-10 = normal)
+
+---
+
+*This guide is the most comprehensive version possible from repo content + curriculum knowledge. For Quizlet/Studocu content, use one of the extraction methods above and paste it here — I'll merge it in.*
+
+---
+
+## 🟡 UNIT 2: INTRAPARTUM (Labor & Delivery)
+
+### Stages of Labor
+| Stage | Key Events | Nursing Focus |
+|-------|------------|---------------|
+| **1st** | Latent (0-6 cm), Active (6-10 cm), Transition | Comfort, FHR monitoring, hydration |
+| **2nd** | Full dilation → birth | Pushing, perineal support, Apgar |
+| **3rd** | Placenta delivery (5-30 min) | Inspect placenta, hemorrhage watch |
+| **4th** | Recovery (1-2 hrs) | BUBBLE-HE, fundal massage, bleeding |
+
+### True vs. False Labor
+| True Labor | False Labor |
+|------------|-------------|
+| Regular, increasing | Irregular |
+| Cervical change | No change |
+| Continues despite position | Stops with rest/position |
+| Bloody show, ROM | May have some discharge |
+
+### Fetal Heart Rate Monitoring ⭐⭐⭐
+
+**Normal Baseline:** 110-160 bpm
+
+**VEAL CHOP — MUST KNOW:**
+| Pattern | Cause | Nursing Action |
+|---------|-------|----------------|
+| **V**ariable decel | **C**ord compression | Reposition, O2, amnioinfusion |
+| **E**arly decel | **H**ead compression | Reassuring — no action |
+| **A**cceleration | **O**K | Reassuring — no action |
+| **L**ate decel | **P**lacental insufficiency | O2, position left side, stop oxytocin, notify provider |
+
+**Variability:**
+- **Moderate** (6-25 bpm) = good
+- **Minimal/Absent** = concerning
+- **Marked** (>25 bpm) = concerning
+
+**Category I** (normal): Baseline 110-160, moderate variability, no late/variable decels, +/- accelerations
+**Category II** (indeterminate): Everything else
+**Category III** (abnormal): Absent variability + recurrent late/variable decels, sinusoidal pattern → EMERGENCY
+
+### Pain Management
+
+**Nonpharmacologic:**
+- Breathing, relaxation, effleurage, counterpressure, hydrotherapy, position changes, music
+
+**Pharmacologic:**
+| Type | Key Facts |
+|------|-----------|
+| **Opioids** (fentanyl, morphine) | Avoid within 1 hr of birth (neonatal respiratory depression) |
+| **Epidural** | Most common; hypotension risk → bolus fluids, monitor BP |
+| **Spinal** | Single injection; for C-section |
+| **General anesthesia** | Emergency C-section only; aspiration risk |
+
+> ⚠️ **Hyperventilation signs**: Dizziness, tingling, hand cramps → breathe into cupped hands
+
+### Labor Complications
+
+**Prolapsed Cord**
+1. **Knee-chest or Trendelenburg** position
+2. **Insert gloved hand to lift presenting part off cord**
+3. Emergency C-section
+
+**Shoulder Dystocia**
+- Turtle sign (head retracts)
+- **McRoberts maneuver** (flex hips to abdomen)
+- **Suprapubic pressure** (NOT fundal)
+- Document: \"turtle sign, McRoberts, suprapubic pressure\"
+
+**Uterine Rupture**
+- Sudden severe abdominal pain, loss of contractions, abnormal FHR
+- Emergency surgery, blood products
+
+**Amniotic Fluid Embolism**
+- Sudden respiratory distress, cyanosis, hypotension, DIC
+- Supportive care, ICU, blood products
+
+---
+
+## 🟠 UNIT 3: POSTPARTUM CARE
+
+### BUBBLE-HE Assessment ⭐⭐⭐
+| Letter | What to Assess |
+|--------|----------------|
+| **B**reasts | Soft, engorged, nipples (cracks, bleeding) |
+| **U**terus | Firmness, fundal height, position |
+| **B**ladder | Distention, voiding |
+| **B**owels | Gas, BM, bowel sounds |
+| **L**ochia | Amount, color, odor (foul = infection) |
+| **E**pisiotomy/Perineum | REEDA: Redness, Edema, Ecchymosis, Discharge, Approximation |
+| **H**oman's sign | Leg pain on dorsiflexion (DVT) |
+| **E**motional status | Mood, bonding, baby blues vs depression |
+
+### Lochia — Critical
+| Type | Color | Days | Amount |
+|------|-------|------|--------|
+| **Rubra** | Red | 1-3 | Moderate-heavy |
+| **Serosa** | Pink | 4-10 | Light |
+| **Alba** | White/yellow | 10-21 | Scant |
+
+> ⚠️ **Saturating >1 pad/hr** or large clots = hemorrhage
+
+### Fundal Assessment
+- **Firm fundus at midline** = normal
+- **Boggy (soft)** = atony → **massage fundus**
+- **Deviated to right** = full bladder → **assist to void**
+- Fundus descends **1-2 cm/day**, not palpable by day 10
+
+### Postpartum Hemorrhage (PPH) ⭐⭐⭐
+- **>500 mL vaginal / >1000 mL C-section**
+- **4 T's**: Tone (atony #1), Trauma (lacerations), Tissue (retained placenta), Thrombin (DIC)
+- **Earliest sign**: Tachycardia (before BP drops)
+- **Treatment**: Fundal massage, oxytocin, Methergine (if no HTN), misoprostol, carboprost, blood products
+
+### Mood Disorders
+| Type | Onset | Key Features | Action |
+|------|-------|--------------|--------|
+| **Baby blues** | Days 2-10 | Tearful, mood swings, resolves | Reassure, support |
+| **PP Depression** | 2-4 wk | Persistent sadness, guilt, can't cope, sleep/appetite changes | Screen, refer, meds |
+| **PP Psychosis** | Variable | Hallucinations, delusions, harm thoughts | **PSYCHIATRIC EMERGENCY** |
+
+> ⚠️ Never assume \"just baby blues\" — assess for persistence
+
+### Key Medications
+| Drug | Use | Nursing |
+|------|-----|---------|
+| **Oxytocin (Pitocin)** | PPH, induction | Continuous monitoring, titrate to contractions |
+| **Methylergonovine (Methergine)** | PPH | **Contraindicated in HTN** |
+| **Carboprost (Hemabate)** | PPH | Causes N/V/D; contraindicated in asthma |
+| **Misoprostol (Cytotec)** | PPH | Rectal/oral |
+| **RhoGAM** | Rh- mom | IM within 72h of Rh+ baby delivery |
+| **Rubella vaccine** | Nonimmune mom | Avoid pregnancy 4 wk after |
+
+---
+
+## 🔵 UNIT 4: NEWBORN CARE
+
+### Immediate Newborn Care
+| Action | When/Why |
+|--------|----------|
+| **Dry & warm** | Prevent heat loss (evaporation) |
+| **Suction** | Airway if needed (mouth before nose) |
+| **Apgar** | 1 min and 5 min (HR, RR, Tone, Reflex, Color) |
+| **Vitamin K** | IM — prevents hemorrhagic disease |
+| **Erythromycin** | Eye ointment — prevents ophthalmia neonatorum |
+| **Hep B vaccine** | Within 24h (if mom +) |
+| **Newborn screen** | 24-48h after first feeding |
+| **ID bands** | Mom + baby (verify before procedures) |
+
+### Apgar Score
+| Score | Interpretation |
+|-------|----------------|
+| 7-10 | Normal |
+| 4-6 | Moderate distress |
+| 0-3 | Severe distress — resuscitation |
+
+### Thermoregulation — 4 Heat Loss Types
+| Type | Cause | Prevention |
+|------|-------|------------|
+| **Evaporation** | Wet skin | Dry immediately |
+| **Conduction** | Cold surface | Warm blankets, skin-to-skin |
+| **Convection** | Drafts | Close doors, no fans |
+| **Radiation** | Cold objects nearby | Keep away from cold walls/windows |
+
+### Newborn Vitals
+| Parameter | Normal Range |
+|-----------|--------------|
+| **Temp** | 97.1-99.8°F (36.2-37.7°C) |
+| **HR** | 110-160 bpm |
+| **RR** | 30-60/min |
+| **BP** | 60-80/40-50 mmHg |
+
+### Newborn Reflexes
+| Reflex | Elicit | Disappears |
+|--------|--------|------------|
+| **Rooting** | Touch cheek → turns head | 3-4 mo |
+| **Sucking** | Object in mouth → sucks | 4 mo |
+| **Moro (startle)** | Sudden sound → arms extend then flex | 4-6 mo |
+| **Grasp** | Object in palm → grips | 3-4 mo |
+| **Babinski** | Stroke sole → toes fan out | 12 mo |
+
+### Newborn Nutrition
+- **Colostrum** (days 1-3): Yellow, thick, immunoglobulins
+- **Transitional** (days 4-10)
+- **Mature** (day 14+): Bluish, 20 kcal/oz
+- **Foremilk** = watery (thirst) | **Hindmilk** = fatty (satisfaction)
+- Feed every **2-3 hrs** → 8-10 wet diapers/day
+- **Breastfeeding contraindications**: HIV, HTLV 1&2, active TB, chemo
+
+### Newborn Complications — High-Yield
+
+**Hypoglycemia** (<45 mg/dL)
+- Risks: Preterm, LGA, SGA, diabetic mom, cold stress
+- Signs: Jittery, poor tone, high-pitched cry, seizures
+- Tx: Feed immediately, check glucose, IV glucose if needed
+
+**Hyperbilirubinemia**
+- **Physiologic**: Days 2-4, peaks day 5, resolves by 2 wk
+- **Pathologic**: <24h, rapid rise, prolonged
+- **Kernicterus** risk if untreated
+- Tx: Phototherapy (cover eyes, monitor temp), hydration
+
+**Respiratory Distress**
+- Signs: Grunting, nasal flaring, retractions, cyanosis
+- RDS: Surfactant deficiency (preterm) → give exogenous surfactant
+- TTN: \"Wet lung\" — resolves 24-48h
+- Meconium aspiration: Suction below cords if depressed
+
+**Neonatal Abstinence Syndrome (NAS)**
+- From maternal opioid use
+- Signs: Hypertonia, tremor, sneezing, yawning, vomiting, seizures
+- Tx: Finnegan scoring, swaddling, small frequent feeds, morphine if severe
+
+---
+
+## 💊 MEDICATION QUICK REFERENCE (25+ Drugs)
+
+### Uterine Stimulants & Tocolytics
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Oxytocin (Pitocin)** | Induction, augmentation, PPH | Continuous EFM, titrate to contractions q2-3min, STOP for tachysystole or late decels |
+| **Methylergonovine (Methergine)** | PPH (tone) | IM/IV; **CONTRAINDICATED in HTN** — causes severe vasoconstriction |
+| **Carboprost (Hemabate)** | PPH (tone) | IM; **CONTRAINDICATED in asthma** — causes bronchospasm; N/V/D |
+| **Misoprostol (Cytotec)** | PPH, cervical ripening | Rectal for PPH (800 mcg); oral/vaginal for induction; can cause fever, diarrhea |
+| **Dinoprostone (Cervidil)** | Cervical ripening | Vaginal insert; remove if tachysystole or FHR changes |
+| **Terbutaline** | Tocolytic | SubQ; tachycardia, hyperglycemia, nervousness; hold if maternal HR >120 |
+| **Nifedipine** | Tocolytic | PO; hypotension, headache, flushing |
+| **Magnesium sulfate** | Preeclampsia seizure prevention, tocolytic | IV; monitor DTRs (absent = toxic), RR >12, UO >30mL/hr; antidote = **calcium gluconate** |
+
+### Antihypertensives
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Labetalol** | Preeclampsia HTN | IV/PO; monitor BP, HR; first-line for severe preeclampsia |
+| **Hydralazine** | Preeclampsia HTN | IV; vasodilator; monitor BP, reflex tachycardia |
+
+### Steroids & Lung Maturity
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Betamethasone** | Fetal lung maturity (24-34 wk) | IM 12 mg x2, 24h apart; give 48h before delivery if possible |
+
+### Immunizations & Prophylaxis
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **RhoGAM (RhIg)** | Rh- mom with Rh+ baby | IM at 28 wk + within 72h after delivery of Rh+ infant; prevents erythroblastosis fetalis |
+| **Vitamin K (phytonadione)** | Newborn hemorrhagic disease prevention | IM 1 mg within 1 hr of birth |
+| **Erythromycin 0.5% ointment** | Newborn ophthalmia neonatorum prevention | Apply to both eyes within 1-2 hr of birth |
+| **Hepatitis B vaccine** | Newborn Hep B prevention | IM within 24h; if mom HBsAg+, also give HBIG |
+| **Penicillin G** | GBS prophylaxis in labor | IV; if allergic, use clindamycin or erythromycin; give 4h before delivery |
+
+### Analgesics & Anesthetics
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Fentanyl** | Labor pain | IV/IM; avoid within 1h of birth (neonatal respiratory depression) |
+| **Naloxone (Narcan)** | Opioid reversal | IV/IM; can cause withdrawal in opioid-dependent newborn |
+
+### Other Postpartum Meds
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Docusate sodium (Colace)** | Postpartum constipation | PO; stool softener; safe in breastfeeding |
+| **Ferrous sulfate** | Iron-deficiency anemia | PO; take with vitamin C, avoid with calcium; black stool expected |
+| **Ibuprofen** | Perineal pain, afterpains | PO; safe in breastfeeding; give with food |
+| **Acetaminophen** | Mild pain, fever | PO; safe in breastfeeding |
+| **Lactobacillus** | Breastfeeding mastitis prevention | Oral probiotic; some evidence for prevention |
+
+### Reproductive Hormones
+
+| Medication | Indication | Key Nursing |
+|------------|------------|-------------|
+| **Clomiphene** | Ovulation induction | PO; multiple pregnancy risk |
+| **Leuprolide** | Endometriosis, fibroids | IM; causes temporary menopause symptoms |
+
+---
+
+## 📊 LAB VALUES & CRITICAL THRESHOLDS
+
+### Pregnancy Labs
+
+| Lab | Normal (Pregnant) | Critical | Clinical Note |
+|-----|-------------------|----------|---------------|
+| **Hemoglobin** | 11-12 g/dL | <10 g/dL | Physiologic anemia of pregnancy (plasma > RBCs) |
+| **Hematocrit** | 33-46% | <30% | Anemia |
+| **Platelets** | 150,000-450,000 | <100,000 | HELLP/preeclampsia |
+| **Glucose (fasting)** | <95 mg/dL | <60 or >200 | GDM screen |
+| **Glucose (1-hr GTT)** | <140 mg/dL | ≥140 → 3-hr | 24-28 wk screen |
+| **Urine protein** | Negative/trace | ≥2+ | Preeclampsia |
+| **Magnesium** | 4-8 mg/dL (therapeutic) | >8 mg/dL | Toxicity: ↓DTRs, RR<12, UO<30mL/hr |
+| **Creatinine** | 0.5-1.0 mg/dL | >1.2 | Renal function |
+| **AST/ALT** | <40 units/L | >2x normal | HELLP |
+
+### Newborn Labs
+
+| Lab | Normal | Critical | Clinical Note |
+|-----|--------|----------|---------------|
+| **Glucose** | 45-90 mg/dL | <45 mg/dL | Hypoglycemia; feed immediately |
+| **Bilirubin (term, 24h)** | <6 mg/dL | >15-20 mg/dL | Phototherapy threshold varies |
+| **Hematocrit** | 45-65% | >65% | Polycythemia |
+| **Calcium** | 8.5-10.5 mg/dL | <7 mg/dL | Hypocalcemia in IDM |
+
+### Fetal Monitoring — Critical Patterns
+
+| Finding | Interpretation | Action |
+|---------|----------------|--------|
+| Baseline 110-160, mod variability, accels, no late/var decels | Category I (normal) | Continue monitoring |
+| Absent variability + recurrent late decels | Category III (abnormal) | O2, left lateral, stop Pitocin, notify, prepare for delivery |
+| Recurrent variable decels | Cord compression | Reposition, amnioinfusion if needed |
+| Late decels | Placental insufficiency | Position left, O2, stop oxytocin, notify |
+
+---
+
+## 🎯 NGN QUESTION WALKTHROUGHS
+
+### Bowtie Scenario: Preeclampsia
+**Patient:** 28yo G1P0 at 32 weeks, BP 168/104, 3+ proteinuria, severe headache, blurred vision, epigastric pain
+
+**Condition:** Severe Preeclampsia / HELLP risk
+**Actions:**
+1. Start magnesium sulfate IV (seizure prevention)
+2. Position left lateral, seizure precautions
+3. Continuous EFM
+4. Prepare for delivery (cure = birth)
+5. Antihypertensive (labetalol IV)
+
+**Monitor:** DTRs q1h, RR q15min, UO q1h, BP q15min, neuro status, labs (platelets, LFTs)
+
+**Expected Outcomes:** Stable BP, no seizures, fetal stability
+
+### Matrix: FHR Patterns
+
+| Strip | Category | Intervention |
+|-------|----------|--------------|
+| Baseline 135, mod var, accels present, no decels | I (normal) | Reassure, continue monitoring |
+| Baseline 140, minimal var, recurrent late decels | III (abnormal) | O2 10L, left lateral, stop Pitocin, notify provider, prepare C-section |
+| Baseline 150, mod var, variable decels | II (indeterminate) | Reposition, amnioinfusion, continue monitoring |
+
+### Highlight: PPH Priorities
+**Scenario:** 2 hours postpartum, saturating pad in 20 min, fundus boggy, BP 92/58, HR 128
+
+**Highlight the priority nursing actions:**
+- [x] Massage fundus firmly
+- [x] Start oxytocin IV bolus/infusion
+- [ ] Give methergine (patient has HTN history — contraindicated)
+- [x] Insert 18g IV x2
+- [x] Notify provider
+- [ ] Apply ice to perineum (bleeding, not pain, is priority)
+
+### Drag-Drop: Newborn Immediate Care
+**Order the steps for a vigorous newborn after vaginal delivery:**
+1. Dry and stimulate
+2. Assess airway (suction if needed — mouth then nose)
+3. Apgar at 1 min
+4. Clamp and cut cord
+5. Place skin-to-skin with mom
+6. Vitamin K IM
+7. Erythromycin eye ointment
+8. Apgar at 5 min
+
+---
+
+## 🏥 CLINICAL CASE SCENARIOS
+
+### Case 1: Preterm Labor
+**Patient:** 24yo G2P1 at 31 weeks, contractions q5min x1hr, cervical dilation 3 cm, effacement 70%
+
+**Priority actions:**
+1. Betamethasone 12 mg IM (lung maturity)
+2. Tocolytic (nifedipine or magnesium sulfate)
+3. GBS culture if not done, start antibiotics
+4. Continuous EFM, hydration
+5. Position left lateral
+
+**Rationale:** Betamethasone takes 48h to work; tocolytics buy time for steroids
+
+### Case 2: Postpartum Hemorrhage
+**Patient:** 34yo G3P3, delivered vaginally 1 hour ago, fundus boggy, moderate bleeding
+
+**Priority actions:**
+1. Fundal massage (FIRST)
+2. Empty bladder (catheter if needed)
+3. Oxytocin IV bolus + infusion
+4. Assess 4 T's (Tone, Trauma, Tissue, Thrombin)
+5. If atony persists: Methergine (if no HTN) or Hemabate (if no asthma)
+6. If still bleeding: misoprostol, bimanual compression, blood products
+
+**Rationale:** Tone is most common cause (70-80%); massage + oxytocin first
+
+### Case 3: Newborn Hypoglycemia
+**Patient:** 38yo G1P0, GDM controlled on insulin, baby born LGA (9 lb 4 oz), jittery at 30 min of life, glucose 38 mg/dL
+
+**Priority actions:**
+1. Feed immediately (breast or formula)
+2. Recheck glucose in 30 min
+3. If still <45: IV glucose bolus + infusion
+4. Monitor for seizures
+5. Keep baby warm (cold stress worsens hypoglycemia)
+
+**Rationale:** LGA + diabetic mom = high insulin at birth → rebound hypoglycemia
+
+---
+
+## 🏠 DISCHARGE TEACHING — MOTHER
+
+### Self-Care (BUBBLE-HE)
+- **Breasts**: Bra support, warm compress for engorgement, report mastitis (redness, fever)
+- **Uterus**: Massage if boggy, report heavy bleeding/clots
+- **Bladder**: Void q4h, report dysuria
+- **Bowels**: Stool softener, high fiber, hydration
+- **Lochia**: Report saturating >1 pad/hr or foul odor
+- **Perineum**: Ice first 24h, sitz bath after, peri bottle
+- **Emotions**: Baby blues normal; report persistent sadness, harm thoughts
+
+### Danger Signs — Return to ED Immediately
+- Saturating >1 pad/hr or passing large clots
+- Foul-smelling lochia
+- Temp >100.4°F
+- Severe headache, vision changes, epigastric pain
+- Chest pain, SOB
+- Leg swelling, redness, pain (Homan's positive)
+- Thoughts of harming self or baby
+
+### Other Teaching
+- **Resumption of intercourse**: 6 weeks, when bleeding stopped, use lubrication
+- **Birth control**: Discuss options (OCPs, IUD, Depo, etc.)
+- **Exercise**: Walking OK immediately; core/abdominals after 6 weeks
+- **Nutrition**: Continue prenatal vitamins, iron if anemic, calcium if breastfeeding
+- **Follow-up**: 2 weeks (wound check if C-section), 6 weeks (full PP visit)
+
+---
+
+## 👶 DISCHARGE TEACHING — NEWBORN
+
+### Feeding
+- Breastfeed on demand (8-12x/day) or formula q2-3h
+- 8-10 wet diapers/day, 1+ stool/day
+- Burp after every 0.5-1 oz
+- Vitamin D supplement if breastfeeding
+
+### Safety
+- **Back to sleep** — always (SIDS prevention)
+- Car seat: rear-facing in back seat until 2 years
+- Never leave baby alone on changing table or in tub
+- Keep ID bands on baby; match with parent before discharge
+
+### Cord Care
+- Keep clean and dry
+- Diaper below cord
+- Sponge bath until falls off (7-14 days)
+- Report redness, foul odor, bleeding
+
+### Danger Signs — Newborn
+- Temp <97°F or >100.4°F
+- Grunting, retractions, nasal flaring, cyanosis
+- Seizures, jitteriness, high-pitched cry
+- Poor feeding, lethargy
+- No wet diaper in 12h / no stool in 48h
+- Jaundice in first 24h
+- Cord redness, foul odor
+
+---
+
+## ✅ FINAL CHECKLIST
+
+- [ ] VEAL CHOP memorized
+- [ ] BUBBLE-HE memorized
+- [ ] 4 T's of PPH (Tone, Trauma, Tissue, Thrombin)
+- [ ] Mag toxicity signs (↓DTRs, RR<12, UO<30) + antidote (calcium gluconate)
+- [ ] Apgar components (HR, RR, Tone, Reflex, Color)
+- [ ] Newborn meds (Vitamin K, Erythromycin, Hep B)
+- [ ] RhoGAM timing (28 wk + 72h after Rh+ baby)
+- [ ] Betamethasone for lung maturity (24-34 wk, 2 doses 24h apart)
+- [ ] Fetal shunts (DV, FO, DA) and closure times
+- [ ] Danger signs in pregnancy (bleeding, vision changes, HA, epigastric pain)
+- [ ] Breastfeeding contraindications (HIV, HTLV 1&2, active TB, chemo)
+- [ ] GDM screening timing (24-28 wk)
+- [ ] GBS screening timing (35-37 wk)
+- [ ] NST reactivity (2 accels ≥15 bpm × 15 sec in 20 min)
+- [ ] BPP components (breathing, movement, tone, AFI, NST — 8-10 normal)
+- [ ] Postpartum hemorrhage first sign (tachycardia before BP drops)
+- [ ] Newborn thermoregulation (4 types: evaporation, conduction, convection, radiation)
+- [ ] Newborn reflexes (rooting, sucking, Moro, grasp, Babinski)
+- [ ] Fundal assessment (firm midline, boggy = massage, deviated right = void)
+
+---
+
+*This guide is built for answering practice exam questions. Focus on clinical judgment, not just facts. Good luck!*
+";
