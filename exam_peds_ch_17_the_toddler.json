@@ -1,0 +1,353 @@
+{
+  "id": "peds_ch_17_the_toddler",
+  "name": "Pediatrics: CH 17 The Toddler",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_piaget_stage_5",
+      "slide": 5,
+      "question": "During Piaget's sensorimotor stage, children primarily learn through:",
+      "options": [
+        "Sensory experiences and motor actions",
+        "Logical operations on concrete objects",
+        "Symbolic play and egocentric thinking",
+        "Abstract reasoning and hypothesis testing"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The sensorimotor stage (birth-2 years) is characterized by learning through sensory experiences and motor actions. Infants develop object permanence and begin intentional actions. (Slide 5)"
+    },
+    {
+      "id": "q_piaget_stage_5",
+      "slide": 5,
+      "question": "During Piaget's Sensorimotor stage, children primarily learn through:",
+      "options": [
+        "Abstract reasoning and hypothesis testing",
+        "Sensory experiences and motor actions",
+        "Symbolic play and egocentric thinking",
+        "Logical operations on concrete objects"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The sensorimotor stage (birth-2 years) is characterized by learning through sensory experiences and motor actions. Infants develop object permanence and begin intentional actions. (Slide 5)"
+    },
+    {
+      "id": "q_definition_8",
+      "slide": 8,
+      "question": "Which statement best describes No spontaneous two?",
+      "options": [
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
+        "word phrases by 24 months Loss of achieved language or social skills Important t...",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "No spontaneous two: word phrases by 24 months Loss of achieved language or social skills Important to rule out lead poisoning, hearing deficit, neurological disorders, mu (Slide 8)"
+    },
+    {
+      "id": "q_nursing_action_9",
+      "slide": 9,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions",
+        "be in line with the child\u2019s physical and cognitive abilities Limit-set",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "be in line with the child\u2019s physical and cognitive abilities Limit-set. Family-centered, age-appropriate care is essential in pediatrics. (Slide 9)"
+    },
+    {
+      "id": "q_nursing_action_15",
+      "slide": 15,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "meet families\u2019  Personal preferences Cultural perspectives Financial a",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "meet families\u2019  Personal preferences Cultural perspectives Financial a. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+    },
+    {
+      "id": "q_nursing_action_18",
+      "slide": 18,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "be taught to inspect toys and to buy toys suitable to the age, skills,",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "be taught to inspect toys and to buy toys suitable to the age, skills,. Family-centered, age-appropriate care is essential in pediatrics. (Slide 18)"
+    },
+    {
+      "id": "q_clinical_finding_8",
+      "type": "sata",
+      "slide": 8,
+      "question": "Which of the following are expected findings in CH 17 The Toddler? (Select all that apply.)",
+      "options": [
+        "of Autism Preliminary symptoms may include No pointing, gest",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "of Autism Preliminary symptoms may include No pointing, gest is a characteristic finding. Screening for Signs of Autism Preliminary symptoms may include No pointing, gest... (Slide 8)"
+    },
+    {
+      "id": "q_risk_factor_9",
+      "slide": 9,
+      "question": "Which factor increases risk in pediatric patients?",
+      "options": [
+        "s involved in, such behavior Expectations must be in line with the chi",
+        "Factors only relevant in adults",
+        "Unrelated demographic information",
+        "Protective factors that reduce risk"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "s involved in, such behavior Expectations must be in line with the chi is a known risk factor. Guidance and Discipline Goal is to teach,  not  punish Discipline involves guida... (Slide 9)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "A toddler's favorite word is often 'no' because of which developmental task?",
+      "options": [
+        "Initiative vs Guilt",
+        "Autonomy vs Shame and Doubt",
+        "Trust vs Mistrust",
+        "Industry vs Inferiority"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Erikson's Autonomy vs Shame/Doubt (1-3 years) explains negativism. Toddlers assert independence through 'no'. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "Toilet training readiness includes:",
+      "options": [
+        "Speaking in full sentences",
+        "Ability to sit, stay dry 2 hours, communicate need, follow simple directions",
+        "Walking independently",
+        "Age exactly 18 months"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Readiness signs: sphincter control, dry periods, communication, interest in toileting, ability to follow directions. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "Which is an appropriate discipline strategy for a toddler?",
+      "options": [
+        "Time-out for 1 minute per year of age",
+        "Withholding meals",
+        "Spanking",
+        "Yelling"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Time-out: 1 minute per year of age (max 3 min). Effective when used consistently and calmly. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "A 2-year-old should have vocabulary of approximately:",
+      "options": [
+        "500-1000 words",
+        "50-300 words",
+        "10-20 words",
+        "2000 words"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "2-year-olds: ~50-300 words, 2-word phrases. 3-year-olds: ~1000 words, 3-word sentences. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "Parallel play is characteristic of which age group?",
+      "options": [
+        "Infants",
+        "Toddlers (1-3 years)",
+        "School-age",
+        "Preschoolers"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Parallel play: toddlers play alongside but not with each other. Cooperative play develops in preschool. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "Temper tantrums in toddlers are:",
+      "options": [
+        "Normal expression of frustration",
+        "Behavioral disorder requiring medication",
+        "Sign of autism",
+        "Abuse indicator"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Tantrums are normal in toddlers as they learn emotional regulation. Respond calmly, ensure safety, ignore attention-seeking. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "Which safety measure is MOST important for toddlers?",
+      "options": [
+        "Childproofing the home and close supervision",
+        "Teaching stranger danger",
+        "Bicycle helmet use",
+        "Teaching to dial 911"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Toddlers explore actively. Childproofing (locks, gates, outlet covers) + constant supervision prevents injuries. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "A toddler who can stack 6-7 blocks demonstrates:",
+      "options": [
+        "Fine motor and cognitive development",
+        "Delayed development",
+        "Advanced development",
+        "Speech delay"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Stacking blocks: 6 blocks by 24 months. Shows hand-eye coordination and spatial awareness. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the primary nutrition concern for toddlers?",
+      "options": [
+        "Obesity",
+        "Protein deficiency",
+        "Iron deficiency anemia from excessive milk intake",
+        "Vitamin C deficiency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Too much milk (>24 oz/day) displaces iron-rich foods \u2192 milk anemia. Limit to 16-24 oz/day. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "A 2.5-year-old who wets the bed at night:",
+      "options": [
+        "Has a bladder disorder",
+        "Is within normal limits",
+        "Requires immediate intervention",
+        "Needs punishment"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Nighttime dryness may not occur until age 5-7. Enuresis before age 5 is normal. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "A toddler's normal pulse rate is:",
+      "options": [
+        "100-160 bpm",
+        "40-80 bpm",
+        "80-130 bpm",
+        "60-100 bpm"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Toddler HR: 80-130 bpm. Lower than infants. Count apical for 1 full minute. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "What is the expected weight gain for toddlers per year?",
+      "options": [
+        "4-6 pounds",
+        "1-2 pounds",
+        "No weight gain",
+        "10-15 pounds"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Toddlers gain 4-6 pounds and 2-3 inches per year. Growth velocity slows compared to infancy. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "A 3-year-old can jump in place. This is:",
+      "options": [
+        "Delayed development",
+        "Advanced development",
+        "Abnormal",
+        "Age-appropriate gross motor development"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Jumping in place: 24-30 months. Hopping on one foot: 4 years. Skipping: 5 years. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Which is appropriate discipline for a 2-year-old?",
+      "options": [
+        "Logical consequences",
+        "Redirection and distraction",
+        "Taking away privileges for a week",
+        "Grounding"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Toddlers: short attention span. Redirection/distraction works best. Time-out also effective. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "A toddler who says 'me do it' is demonstrating:",
+      "options": [
+        "Speech delay",
+        "Autonomy and independence",
+        "Attention-seeking",
+        "Rebellion"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Erikson's Autonomy: toddlers want to do things themselves. Encourage safe independence. (Standard NCLEX)"
+    }
+  ]
+}

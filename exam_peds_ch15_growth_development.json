@@ -1,0 +1,709 @@
+{
+  "id": "peds_ch_15_an_overview_of_growth,_development",
+  "name": "Pediatrics: An Overview of Growth, Development, and Nutrition",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of trust?",
+      "options": [
+        "Trust vs Isolation",
+        "This is a Kohlberg moral stage",
+        "This is not a recognized developmental stage",
+        "This is a Piaget cognitive stage"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Erikson's Trust stage focuses on the psychosocial crisis of developing trust vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of autonomy?",
+      "options": [
+        "This is not a recognized developmental stage",
+        "This is a Kohlberg moral stage",
+        "Autonomy vs Inferiority",
+        "This is a Piaget cognitive stage"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Erikson's Autonomy stage focuses on the psychosocial crisis of developing autonomy vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of initiative?",
+      "options": [
+        "This is a Piaget cognitive stage",
+        "This is not a recognized developmental stage",
+        "This is a Kohlberg moral stage",
+        "Initiative vs Inferiority"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Erikson's Initiative stage focuses on the psychosocial crisis of developing initiative vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of industry?",
+      "options": [
+        "This is a Kohlberg moral stage",
+        "This is a Piaget cognitive stage",
+        "This is not a recognized developmental stage",
+        "Industry vs Isolation"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Erikson's Industry stage focuses on the psychosocial crisis of developing industry vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of identity?",
+      "options": [
+        "Identity vs Mistrust",
+        "This is not a recognized developmental stage",
+        "This is a Piaget cognitive stage",
+        "This is a Kohlberg moral stage"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Erikson's Identity stage focuses on the psychosocial crisis of developing identity vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of intimacy?",
+      "options": [
+        "This is a Piaget cognitive stage",
+        "Intimacy vs Guilt",
+        "This is not a recognized developmental stage",
+        "This is a Kohlberg moral stage"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Erikson's Intimacy stage focuses on the psychosocial crisis of developing intimacy vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of generativity?",
+      "options": [
+        "This is not a recognized developmental stage",
+        "This is a Piaget cognitive stage",
+        "Generativity vs Despair",
+        "This is a Kohlberg moral stage"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Erikson's Generativity stage focuses on the psychosocial crisis of developing generativity vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_erikson_stage_16",
+      "slide": 16,
+      "question": "According to Erikson's psychosocial theory, which stage involves the task of integrity?",
+      "options": [
+        "This is a Piaget cognitive stage",
+        "This is not a recognized developmental stage",
+        "This is a Kohlberg moral stage",
+        "Integrity vs Inferiority"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Erikson's Integrity stage focuses on the psychosocial crisis of developing integrity vs the opposing quality. Success leads to ego strength; failure leads to difficulty in future stages. (Slide 16)"
+    },
+    {
+      "id": "q_piaget_stage_17",
+      "slide": 17,
+      "question": "During Piaget's Formal stage, children primarily learn through:",
+      "options": [
+        "Sensory-motor exploration",
+        "Abstract reasoning, hypothesis testing, and metacognition",
+        "Egocentric symbolic play",
+        "Concrete logical operations"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The formal operational stage (11+ years) allows abstract reasoning, hypothetical-deductive thinking, and metacognition. Adolescents can think about possibilities and moral dilemmas. (Slide 17)"
+    },
+    {
+      "id": "q_piaget_stage_17",
+      "slide": 17,
+      "question": "During Piaget's Sensorimotor stage, children primarily learn through:",
+      "options": [
+        "Symbolic play and egocentric thinking",
+        "Sensory experiences and motor actions",
+        "Abstract reasoning and hypothesis testing",
+        "Logical operations on concrete objects"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The sensorimotor stage (birth-2 years) is characterized by learning through sensory experiences and motor actions. Infants develop object permanence and begin intentional actions. (Slide 17)"
+    },
+    {
+      "id": "q_piaget_stage_17",
+      "slide": 17,
+      "question": "During Piaget's Concrete stage, children primarily learn through:",
+      "options": [
+        "Logical thinking about concrete, tangible objects and events",
+        "Sensory and motor actions only",
+        "Abstract concepts and hypothetical situations",
+        "Egocentric and magical thinking"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The concrete operational stage (7-11 years) enables logical operations on concrete objects. Children master conservation, classification, and seriation but struggle with abstract/hypothetical thinking. (Slide 17)"
+    },
+    {
+      "id": "q_piaget_stage_17",
+      "slide": 17,
+      "question": "During Piaget's Preoperational stage, children primarily learn through:",
+      "options": [
+        "Abstract hypothetical reasoning",
+        "Symbolic thinking, egocentrism, and magical reasoning",
+        "Conservation and reversibility",
+        "Sensory and motor exploration only"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The preoperational stage (2-7 years) features symbolic thinking, egocentrism (difficulty seeing others' perspectives), and magical/animistic reasoning. Conservation is not yet mastered. (Slide 17)"
+    },
+    {
+      "id": "q_definition_10",
+      "slide": 10,
+      "question": "Which statement best describes Personal?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "social Fine motor-adaptive Language Gross motor Purpose is to identify children ...",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Personal: social Fine motor-adaptive Language Gross motor Purpose is to identify children unable to perform at an age-appropriate level Not an intelligence test (Slide 10)"
+    },
+    {
+      "id": "q_nursing_action_4",
+      "slide": 4,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "must know what is normal in order to recognize any deviations within a",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "must know what is normal in order to recognize any deviations within a. Family-centered, age-appropriate care is essential in pediatrics. (Slide 4)"
+    },
+    {
+      "id": "q_nursing_action_33",
+      "slide": 33,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions",
+        "Sugared gum, dried fruits, sugared soft drinks, cake, and candy Recomm"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Sugared gum, dried fruits, sugared soft drinks, cake, and candy Recomm. Family-centered, age-appropriate care is essential in pediatrics. (Slide 33)"
+    },
+    {
+      "id": "q_clinical_finding_25",
+      "type": "sata",
+      "slide": 25,
+      "question": "Which of the following are expected findings in An Overview of Growth, Development, and Nutrition? (Select all that apply.)",
+      "options": [
+        "ificantly restrict fat and cholesterol because they are need",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ificantly restrict fat and cholesterol because they are need is a characteristic finding. Nutrition and Health Promotion To help prevent some illnesses, it is not recomme... (Slide 25)"
+    },
+    {
+      "id": "q_treatment_23",
+      "slide": 23,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Observation only without intervention",
+        "n in a mixture of elements Minerals Compounds Water",
+        "Treatment used only in adults"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "n in a mixture of elements Minerals Compounds Water. Food Provides heat and energy Builds and repairs tissues Regulates body processe... (Slide 23)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "Growth in children is best assessed by:",
+      "options": [
+        "Plotting on standardized growth charts over time",
+        "Parent's estimation",
+        "Only weight without height",
+        "Single measurement compared to peers"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Growth charts (CDC/WHO) track weight, height, head circumference over time. Trends matter more than single points. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "Which factor most influences a child's growth pattern?",
+      "options": [
+        "Birth order only",
+        "Genetics and nutrition",
+        "Geographic location",
+        "Gender alone"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Growth is influenced by genetics, nutrition, hormones, and environment. Adequate nutrition is essential for reaching genetic potential. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "A child's head circumference is measured until what age?",
+      "options": [
+        "6 months",
+        "36 months (3 years)",
+        "18 years",
+        "12 months"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Head circumference reflects brain growth. Measure until 36 months using a flexible tape over the occipital and frontal prominences. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "The Denver Developmental Screening Test assesses:",
+      "options": [
+        "Intelligence only",
+        "Personal-social, fine motor, language, gross motor",
+        "Vision and hearing only",
+        "Physical growth only"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Denver II screens four domains at ages 0-6 years to identify developmental delays. It is NOT an IQ test. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the most reliable indicator of nutritional status in a child?",
+      "options": [
+        "BMI",
+        "Height",
+        "Weight",
+        "Head circumference"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Weight is the most sensitive indicator of acute nutritional status. Serial weights track growth patterns. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "Which growth pattern is abnormal?",
+      "options": [
+        "Growth spurts followed by plateaus",
+        "A child at the 90th percentile consistently",
+        "A child staying at the 10th percentile consistently",
+        "A child crossing two percentile lines downward"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Crossing two or more percentile lines (especially downward) warrants investigation for growth failure. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "When is the first well-child visit recommended?",
+      "options": [
+        "2 weeks of age",
+        "1 year of age",
+        "6 months of age",
+        "At birth only"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "First well-child visit is 2 weeks post-discharge. Subsequent visits at 2, 4, 6, 9, 12, 15, 18, 24, 30, 36 months, then annually. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "What does BMI-for-age assess in children?",
+      "options": [
+        "Head circumference",
+        "Developmental milestones",
+        "Height only",
+        "Weight relative to height for age and sex"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "BMI-for-age (2-20 years) identifies underweight, healthy weight, overweight, and obesity. Plot on CDC growth charts. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "Which is a sign of failure to thrive?",
+      "options": [
+        "Height above the 95th percentile",
+        "Head circumference at the 50th percentile",
+        "Consistent growth along the 75th percentile",
+        "Weight below the 5th percentile or crossing downward"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "FTT: weight <5th percentile OR weight-for-age crossing two major percentiles downward. May be organic or non-organic. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "The nurse should measure length in infants using:",
+      "options": [
+        "Visual estimation",
+        "Recumbent position on measuring board",
+        "Parent's estimate",
+        "Standing height"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Infants (0-24 months): measure supine (recumbent) length. After 24 months: standing height. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "Growth velocity is fastest during which period?",
+      "options": [
+        "Infancy (first year of life)",
+        "Preschool",
+        "Adolescence",
+        "School age"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Infancy has the fastest growth velocity. Birth weight doubles by 4-6 months, triples by 1 year. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "Which is NOT a normal variant in growth?",
+      "options": [
+        "Crossing from 50th to 75th percentile gradually",
+        "Growth spurts followed by plateaus",
+        "Sudden drop from 50th to 10th percentile",
+        "Consistent 25th percentile tracking"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Sudden crossing of two or more major percentiles downward suggests pathology. Gradual crossing may be normal. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "Bone age is assessed by:",
+      "options": [
+        "Weight measurement",
+        "Blood tests",
+        "X-ray of the left hand and wrist",
+        "Height measurement"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Bone age (skeletal maturity) is determined by X-ray of left hand/wrist comparing to Greulich-Pyle atlas. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "The nurse teaches parents that a 1-year-old should:",
+      "options": [
+        "Triple birth weight and double birth length",
+        "Quadruple birth weight",
+        "Gain 2 pounds per month",
+        "Double birth weight and triple birth length"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "1 year: weight triples (~21 lb), length doubles (~30 in), head circumference increases 10 cm. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Which factor has the greatest influence on linear growth in childhood?",
+      "options": [
+        "Exercise alone",
+        "Growth hormone and thyroid hormone",
+        "Diet alone",
+        "Sleep alone"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "GH and thyroid hormone are essential for linear growth. Nutrition provides building blocks; hormones regulate growth. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Cephalocaudal development means:",
+      "options": [
+        "Growth is random",
+        "Growth proceeds from head to toe",
+        "Growth proceeds from center outward",
+        "Growth proceeds at the same rate everywhere"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Cephalocaudal: head-to-toe progression. Infants lift head before sitting. Proximodistal: center-to-extremity. (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "Proximodistal development means:",
+      "options": [
+        "Growth stops at age 2",
+        "Growth is random",
+        "Growth proceeds from head to toe",
+        "Growth proceeds from center of body outward"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Proximodistal: trunk control before fingers. Infants grasp before precise finger movements. (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "A child who drops two or more percentile lines on a growth chart should:",
+      "options": [
+        "Be evaluated for growth failure",
+        "Be started on growth hormone",
+        "Have no further assessment",
+        "Be ignored as this is normal"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Dropping 2+ percentiles warrants investigation for nutrition, endocrine, or systemic issues. (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "At what age does birth weight typically double?",
+      "options": [
+        "4-6 months",
+        "12 months",
+        "18 months",
+        "2 years"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Birth weight doubles by 4-6 months, triples by 12 months. (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_19",
+      "slide": 99,
+      "question": "At what age does birth weight typically triple?",
+      "options": [
+        "24 months",
+        "18 months",
+        "6 months",
+        "12 months"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Birth weight triples by age 1 year. Length increases 50% (mostly trunk). (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_20",
+      "slide": 99,
+      "question": "Which is a sign of well-nourished status in a child?",
+      "options": [
+        "Pale mucous membranes",
+        "Delayed milestones",
+        "Alert, shiny hair, firm gums, steady height/weight gains",
+        "Dull hair, dry skin"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Well-nourished: alert, shiny hair, firm gums/membranes, regular elimination, steady gains. (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_21",
+      "slide": 99,
+      "question": "Serving size for toddlers is approximately:",
+      "options": [
+        "Unlimited amounts",
+        "Adult portions",
+        "1 cup per year of age",
+        "1 tablespoon per food group per year of age"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "1 tbsp per year of age (e.g., 2 tbsp at age 2). Prevents overfeeding and food waste. (Quizlet Ch15)"
+    },
+    {
+      "id": "supp_22",
+      "slide": 99,
+      "question": "The posterior fontanelle closes by:",
+      "options": [
+        "2-3 months",
+        "24 months",
+        "6 months",
+        "12-18 months"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Posterior fontanelle (triangle) closes 2-3 months. Anterior (diamond) closes 12-18 months. (Quizlet Ch15)"
+    },
+    {
+      "id": "q_matrix_development",
+      "type": "matrix",
+      "slide": 15,
+      "question": "Match each developmental theorist with their key concept.",
+      "columns": [
+        "Erikson",
+        "Piaget",
+        "Kohlberg"
+      ],
+      "rows": [
+        {
+          "text": "Psychosocial stages (Trust vs Mistrust, etc.)",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Cognitive stages (Sensorimotor, Preoperational, etc.)",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Moral development levels (Preconventional, etc.)",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+    },
+    {
+      "id": "q_cloze_peds",
+      "type": "drag_drop_cloze",
+      "slide": 10,
+      "question": "Complete the statement about pediatric care.",
+      "cloze_text": "Pediatric nursing requires [[BLANK1]] care and consideration of [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation",
+        "medication"
+      ],
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+    },
+    {
+      "id": "q_highlight_normal",
+      "type": "highlight",
+      "slide": 25,
+      "question": "Click on the normal developmental findings.",
+      "highlight_text": "The child demonstrates age-appropriate milestones. Growth follows expected percentiles. The child engages with caregivers appropriately.",
+      "highlight_options": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "answer": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "rationale": "All are normal pediatric findings. (Slide 25)"
+    },
+    {
+      "id": "q_bowtie",
+      "type": "bowtie",
+      "slide": 30,
+      "question": "A child presents with concerning developmental findings.",
+      "left_actions": {
+        "options": [
+          "Perform developmental screening",
+          "Obtain detailed history",
+          "Ignore parental concerns",
+          "Delay assessment"
+        ],
+        "answer": [
+          "Perform developmental screening",
+          "Obtain detailed history"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Possible developmental concern requiring evaluation",
+          "Normal variation, no action needed",
+          "Immediate emergency"
+        ],
+        "answer": "Possible developmental concern requiring evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Follow-up assessments",
+          "Parent education",
+          "No follow-up needed"
+        ],
+        "answer": [
+          "Follow-up assessments",
+          "Parent education"
+        ]
+      },
+      "rationale": "Early identification and family support are key. (Slide 30)"
+    }
+  ]
+}

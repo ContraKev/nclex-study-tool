@@ -222,10 +222,16 @@ Same as vaginal delivery PLUS:
 - Grand multiparity
 - Precipitous delivery
 
+**Key Nursing Pearl**: Fundus deviated to **right** = **bladder distention** → assist to void FIRST before massage
+
+**First Action for Abnormal Bleeding**: Assess the fundus! (Always check tone before treating)
+
 **Treatment**:
 - Fundal massage
 - Empty bladder
 - Medications: Oxytocin, methylergonovine (Methergine), prostaglandins (Hemabate, Misoprostol)
+
+**Methylergonovine (Methergine)**: Contraindicated in hypertension (causes severe vasoconstriction)
 
 ### 5. Lacerations vs. Atony
 

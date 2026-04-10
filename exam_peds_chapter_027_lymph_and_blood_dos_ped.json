@@ -1,0 +1,722 @@
+{
+  "id": "peds_chapter_027_lymph_and_blood_dos_ped",
+  "name": "Pediatrics: Chapter 027 lymph and blood DOs peds",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q1",
+      "slide": 1,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "ITP 26 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ITP 26 Copyright \u00a9 2019, Elsevier Inc (Slide 1)"
+    },
+    {
+      "id": "q2",
+      "slide": 1,
+      "question": "What best describes Low?",
+      "options": [
+        "grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdomi...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Low: grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdominal pain Enlargement of lymph nodes Anemia severe despite transfusions Copy (Slide 1)"
+    },
+    {
+      "id": "q3",
+      "slide": 2,
+      "question": "What best describes Blood?",
+      "options": [
+        "Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Blood: Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc (Slide 2)"
+    },
+    {
+      "id": "q4",
+      "type": "sata",
+      "slide": 2,
+      "question": "When caring for pediatric patients, the nurse should: (Select all that apply.)",
+      "options": [
+        "can use to facilitate the grieving process",
+        "Use adult communication only",
+        "Ignore parental input",
+        "Focus solely on disease",
+        "Provide age-appropriate care"
+      ],
+      "answer": [
+        0,
+        4
+      ],
+      "rationale": "Pediatric nursing: can use to facilitate the grieving process (Slide 2)"
+    },
+    {
+      "id": "q5",
+      "slide": 3,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "sickle cell disease",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "sickle cell disease (Slide 3)"
+    },
+    {
+      "id": "q6",
+      "slide": 3,
+      "question": "Which statement about Components of chemotherapy include is correct?",
+      "options": [
+        "Induction period CNS prophylaxis for high-risk patients Maintenance Re...",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Induction period CNS prophylaxis for high-risk patients Maintenance Reinduction therapy (if relapse (Slide 3)"
+    },
+    {
+      "id": "q7",
+      "slide": 4,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Hemophilia (1 of 2) 23 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hemophilia (1 of 2) 23 Copyright \u00a9 2019, Elsevier Inc (Slide 4)"
+    },
+    {
+      "id": "q8",
+      "slide": 4,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-grade feve...",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-grade fever Pallor Bruising tendency Leg (Slide 4)"
+    },
+    {
+      "id": "q9",
+      "slide": 5,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Leukemia (2 of 2) 34 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Leukemia (2 of 2) 34 Copyright \u00a9 2019, Elsevier Inc (Slide 5)"
+    },
+    {
+      "id": "q10",
+      "slide": 5,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Hemophilia (2 of 2)  24 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hemophilia (2 of 2)  24 Copyright \u00a9 2019, Elsevier Inc (Slide 5)"
+    },
+    {
+      "id": "q11",
+      "slide": 6,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "bleeding into the skin",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "bleeding into the skin (Slide 6)"
+    },
+    {
+      "id": "q12",
+      "slide": 6,
+      "question": "What best describes Contrast age?",
+      "options": [
+        "appropriate responses to a sibling\u2019s death and the nursing interventions re...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Contrast age: appropriate responses to a sibling\u2019s death and the nursing interventions required (Slide 6)"
+    },
+    {
+      "id": "q13",
+      "slide": 7,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "ITP 26 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ITP 26 Copyright \u00a9 2019, Elsevier Inc (Slide 7)"
+    },
+    {
+      "id": "q14",
+      "slide": 7,
+      "question": "What best describes Low?",
+      "options": [
+        "grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdomi...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Low: grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdominal pain Enlargement of lymph nodes Anemia severe despite transfusions Copy (Slide 7)"
+    },
+    {
+      "id": "q15",
+      "slide": 8,
+      "question": "What best describes Blood?",
+      "options": [
+        "Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Blood: Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc (Slide 8)"
+    },
+    {
+      "id": "q16",
+      "type": "sata",
+      "slide": 8,
+      "question": "When caring for pediatric patients, the nurse should: (Select all that apply.)",
+      "options": [
+        "can use to facilitate the grieving process",
+        "Use adult communication only",
+        "Ignore parental input",
+        "Focus solely on disease",
+        "Provide age-appropriate care"
+      ],
+      "answer": [
+        0,
+        4
+      ],
+      "rationale": "Pediatric nursing: can use to facilitate the grieving process (Slide 8)"
+    },
+    {
+      "id": "q17",
+      "slide": 9,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "sickle cell disease",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "sickle cell disease (Slide 9)"
+    },
+    {
+      "id": "q18",
+      "slide": 9,
+      "question": "Which statement about Components of chemotherapy include is correct?",
+      "options": [
+        "Induction period CNS prophylaxis for high-risk patients Maintenance Re...",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Induction period CNS prophylaxis for high-risk patients Maintenance Reinduction therapy (if relapse (Slide 9)"
+    },
+    {
+      "id": "q19",
+      "slide": 10,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Hemophilia (1 of 2) 23 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hemophilia (1 of 2) 23 Copyright \u00a9 2019, Elsevier Inc (Slide 10)"
+    },
+    {
+      "id": "q20",
+      "slide": 10,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-grade feve...",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-grade fever Pallor Bruising tendency Leg (Slide 10)"
+    },
+    {
+      "id": "q21",
+      "slide": 11,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Leukemia (2 of 2) 34 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Leukemia (2 of 2) 34 Copyright \u00a9 2019, Elsevier Inc (Slide 11)"
+    },
+    {
+      "id": "q22",
+      "slide": 11,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Hemophilia (2 of 2)  24 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hemophilia (2 of 2)  24 Copyright \u00a9 2019, Elsevier Inc (Slide 11)"
+    },
+    {
+      "id": "q23",
+      "slide": 12,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "bleeding into the skin",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "bleeding into the skin (Slide 12)"
+    },
+    {
+      "id": "q24",
+      "slide": 12,
+      "question": "What best describes Contrast age?",
+      "options": [
+        "appropriate responses to a sibling\u2019s death and the nursing interventions re...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Contrast age: appropriate responses to a sibling\u2019s death and the nursing interventions required (Slide 12)"
+    },
+    {
+      "id": "q25",
+      "slide": 13,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "ITP 26 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ITP 26 Copyright \u00a9 2019, Elsevier Inc (Slide 13)"
+    },
+    {
+      "id": "q26",
+      "slide": 13,
+      "question": "What best describes Low?",
+      "options": [
+        "grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdomi...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Low: grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdominal pain Enlargement of lymph nodes Anemia severe despite transfusions Copy (Slide 13)"
+    },
+    {
+      "id": "q27",
+      "slide": 14,
+      "question": "What best describes Blood?",
+      "options": [
+        "Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Blood: Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc (Slide 14)"
+    },
+    {
+      "id": "q28",
+      "type": "sata",
+      "slide": 14,
+      "question": "When caring for pediatric patients, the nurse should: (Select all that apply.)",
+      "options": [
+        "can use to facilitate the grieving process",
+        "Use adult communication only",
+        "Ignore parental input",
+        "Focus solely on disease",
+        "Provide age-appropriate care"
+      ],
+      "answer": [
+        0,
+        4
+      ],
+      "rationale": "Pediatric nursing: can use to facilitate the grieving process (Slide 14)"
+    },
+    {
+      "id": "q29",
+      "slide": 15,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "sickle cell disease",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "sickle cell disease (Slide 15)"
+    },
+    {
+      "id": "q30",
+      "slide": 15,
+      "question": "Which statement about Components of chemotherapy include is correct?",
+      "options": [
+        "Induction period CNS prophylaxis for high-risk patients Maintenance Re...",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Induction period CNS prophylaxis for high-risk patients Maintenance Reinduction therapy (if relapse (Slide 15)"
+    },
+    {
+      "id": "q31",
+      "slide": 16,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Hemophilia (1 of 2) 23 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hemophilia (1 of 2) 23 Copyright \u00a9 2019, Elsevier Inc (Slide 16)"
+    },
+    {
+      "id": "q32",
+      "slide": 16,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-grade feve...",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-grade fever Pallor Bruising tendency Leg (Slide 16)"
+    },
+    {
+      "id": "q33",
+      "slide": 17,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Leukemia (2 of 2) 34 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Leukemia (2 of 2) 34 Copyright \u00a9 2019, Elsevier Inc (Slide 17)"
+    },
+    {
+      "id": "q34",
+      "slide": 17,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "Hemophilia (2 of 2)  24 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hemophilia (2 of 2)  24 Copyright \u00a9 2019, Elsevier Inc (Slide 17)"
+    },
+    {
+      "id": "q35",
+      "slide": 18,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "bleeding into the skin",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "bleeding into the skin (Slide 18)"
+    },
+    {
+      "id": "q36",
+      "slide": 18,
+      "question": "What best describes Contrast age?",
+      "options": [
+        "appropriate responses to a sibling\u2019s death and the nursing interventions re...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Contrast age: appropriate responses to a sibling\u2019s death and the nursing interventions required (Slide 18)"
+    },
+    {
+      "id": "q37",
+      "slide": 19,
+      "question": "Which statement about Clinical finding is correct?",
+      "options": [
+        "ITP 26 Copyright \u00a9 2019, Elsevier Inc",
+        "This is false",
+        "Only in certain cases",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ITP 26 Copyright \u00a9 2019, Elsevier Inc (Slide 19)"
+    },
+    {
+      "id": "q38",
+      "slide": 19,
+      "question": "What best describes Low?",
+      "options": [
+        "grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdomi...",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Low: grade fever Pallor Bruising tendency Leg and joint pain Listlessness Abdominal pain Enlargement of lymph nodes Anemia severe despite transfusions Copy (Slide 19)"
+    },
+    {
+      "id": "q39",
+      "slide": 20,
+      "question": "What best describes Blood?",
+      "options": [
+        "Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc",
+        "A different unrelated term",
+        "Not applicable to pediatrics",
+        "Only seen in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Blood: Forming Organs, or Lymphatic System Copyright \u00a9 2019, Elsevier Inc (Slide 20)"
+    },
+    {
+      "id": "q40",
+      "type": "sata",
+      "slide": 20,
+      "question": "When caring for pediatric patients, the nurse should: (Select all that apply.)",
+      "options": [
+        "can use to facilitate the grieving process",
+        "Use adult communication only",
+        "Ignore parental input",
+        "Focus solely on disease",
+        "Provide age-appropriate care"
+      ],
+      "answer": [
+        0,
+        4
+      ],
+      "rationale": "Pediatric nursing: can use to facilitate the grieving process (Slide 20)"
+    },
+    {
+      "id": "q41",
+      "type": "matrix",
+      "slide": 12,
+      "question": "Match each developmental concept.",
+      "columns": [
+        "Correct",
+        "Incorrect"
+      ],
+      "rows": [
+        {
+          "text": "Growth is measurable",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Development follows predictable patterns",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "All children develop identically",
+          "correct_col_idx": 1
+        }
+      ],
+      "rationale": "Growth is measurable; development is predictable but individual. (Slide 12)"
+    },
+    {
+      "id": "q42",
+      "type": "drag_drop_cloze",
+      "slide": 18,
+      "question": "Complete the statement.",
+      "cloze_text": "Pediatric nurses use [[BLANK1]] techniques and consider [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation"
+      ],
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "Family-centered, age-appropriate care is essential. (Slide 18)"
+    },
+    {
+      "id": "q43",
+      "type": "highlight",
+      "slide": 22,
+      "question": "Click normal pediatric findings.",
+      "highlight_text": "Child is alert and responsive. Vital signs within age-appropriate range. No distress noted. Parent is engaged.",
+      "highlight_options": [
+        "Child is alert and responsive",
+        "Vital signs within age-appropriate range",
+        "No distress noted",
+        "Parent is engaged"
+      ],
+      "answer": [
+        "Child is alert and responsive",
+        "Vital signs within age-appropriate range",
+        "No distress noted",
+        "Parent is engaged"
+      ],
+      "rationale": "All normal findings. (Slide 22)"
+    },
+    {
+      "id": "q44",
+      "type": "bowtie",
+      "slide": 28,
+      "question": "Child with concerning findings.",
+      "left_actions": {
+        "options": [
+          "Assess thoroughly",
+          "Notify provider",
+          "Ignore findings",
+          "Send home"
+        ],
+        "answer": [
+          "Assess thoroughly",
+          "Notify provider"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Requires further evaluation",
+          "Normal variation",
+          "No action needed"
+        ],
+        "answer": "Requires further evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Vital signs",
+          "Developmental milestones",
+          "Parental concerns",
+          "Ignore"
+        ],
+        "answer": [
+          "Vital signs",
+          "Developmental milestones",
+          "Parental concerns"
+        ]
+      },
+      "rationale": "Thorough assessment and follow-up essential. (Slide 28)"
+    }
+  ]
+}

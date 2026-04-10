@@ -1,0 +1,338 @@
+{
+  "id": "peds_chapter_024_musculoskeletal_dos_peds",
+  "name": "Pediatrics: The Child with a Musculoskeletal Condition",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_clinical_finding_28",
+      "type": "sata",
+      "slide": 28,
+      "question": "Which of the following are expected findings in The Child with a Musculoskeletal Condition? (Select all that apply.)",
+      "options": [
+        "s Spousal and child abuse Neglect  Maltreatment28 This Photo",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "s Spousal and child abuse Neglect  Maltreatment28 This Photo is a characteristic finding. Family Violence Affects children of all social classes  Includes Spousal and chi... (Slide 28)"
+    },
+    {
+      "id": "q_treatment_28",
+      "slide": 28,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "28 This Photo  by Unknown Author is licensed under  CC BY-ND This Phot",
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "No treatment is available"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "28 This Photo  by Unknown Author is licensed under  CC BY-ND This Phot. Family Violence Affects children of all social classes  Includes Spousal and chi... (Slide 28)"
+    },
+    {
+      "id": "q_risk_factor_12",
+      "slide": 12,
+      "question": "Which factor increases risk in pediatric patients?",
+      "options": [
+        "for  Impaired skin integrity Compartment syndrome Progressive loss of ",
+        "Factors only relevant in adults",
+        "Unrelated demographic information",
+        "Protective factors that reduce risk"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "for  Impaired skin integrity Compartment syndrome Progressive loss of  is a known risk factor. Casts and Splints Can be made from a variety of materials Child is at increased ... (Slide 12)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "Atopic dermatitis (eczema) is characterized by:",
+      "options": [
+        "Pruritic, dry, scaly patches in flexural areas",
+        "Pustules and honey-colored crusts",
+        "Raised wheals that are transient",
+        "Linear lesions in a dermatomal pattern"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Atopic dermatitis: chronic, relapsing, itchy; flexural in older children; cheeks/scalp in infants. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "What is the primary treatment for eczema?",
+      "options": [
+        "Emollients and topical corticosteroids",
+        "Oral antibiotics",
+        "Antifungals",
+        "Antihistamines only"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Emollients (moisturizers) are cornerstone. Topical steroids for flares. Avoid triggers (soap, wool). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "Impetigo is caused by:",
+      "options": [
+        "Staphylococcus aureus or Streptococcus",
+        "Fungi",
+        "Candida",
+        "Herpes simplex virus"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Impetigo: bacterial (staph/strep); honey-colored crusts around nose/mouth. Highly contagious. Topical/oral antibiotics. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "Contact with poison ivy causes:",
+      "options": [
+        "Fungal infection",
+        "Atopic dermatitis",
+        "Allergic contact dermatitis with linear vesicles",
+        "Bacterial infection"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Poison ivy/oak/sumac: urushiol oil causes allergic reaction. Linear vesicles from plant contact. Wash skin immediately. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the first-line treatment for head lice?",
+      "options": [
+        "Oral antibiotics",
+        "Vinegar rinse only",
+        "Shaving the head",
+        "Permethrin 1% cream rinse"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Permethrin 1% (Nix): apply to damp hair, leave 10 min, rinse. Repeat in 7-10 days. Comb out nits. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "Scabies is caused by:",
+      "options": [
+        "Mite Sarcoptes scabiei",
+        "Fungus",
+        "Lice",
+        "Bacteria"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Scabies: mite burrows into skin \u2192 intensely itchy, especially at night. Linear burrows, papules. Permethrin cream. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "A child with a burn covering 15% of body surface area:",
+      "options": [
+        "Requires hospitalization",
+        "Can be treated at home",
+        "Needs skin graft",
+        "Is minor"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Burns >10% BSA in children require hospitalization. Assess depth (partial vs full thickness). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "What is the Rule of Nines in children?",
+      "options": [
+        "Same as adults",
+        "Uses palm method only",
+        "Modified to account for larger head and smaller legs",
+        "Not applicable to children"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Pediatric Rule of Nines: head=18%, each leg=14%, trunk=36%. Palm method for small burns. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the most important intervention for a child with a burn?",
+      "options": [
+        "Apply butter",
+        "Stop the burning process and ensure airway",
+        "Pop blisters",
+        "Apply ice"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Stop burning (remove clothing, cool water), ABCs, assess extent/depth. Do NOT apply ice or butter. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "A child with a wound that has honey-colored crusts most likely has:",
+      "options": [
+        "Chickenpox",
+        "Eczema",
+        "Impetigo",
+        "Measles"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Honey-colored crusts = impetigo (staph/strep). Highly contagious. Treat with antibiotics. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "Diaper rash (candidal) presents with:",
+      "options": [
+        "Bright red rash with satellite lesions in skin folds",
+        "Dry scaly patches",
+        "Honey-colored crusts",
+        "Vesicles in crops"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Candida diaper rash: bright red, satellite lesions. Treat with antifungal (nystatin). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "Atopic dermatitis (eczema) is associated with:",
+      "options": [
+        "Asthma, allergic rhinitis (atopic triad)",
+        "Diabetes",
+        "Cancer",
+        "Heart disease"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Atopic triad: eczema, asthma, allergic rhinitis. Family history common. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "For eczema, emollients should be applied:",
+      "options": [
+        "Never",
+        "Only when skin is dry",
+        "Once per week",
+        "Immediately after bathing while skin is damp"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Emollients: apply within 3 minutes of bathing on damp skin. Prevents water loss. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Impetigo is highly contagious. Children should:",
+      "options": [
+        "Go to school immediately",
+        "Stay home for 2 weeks",
+        "Stay home until 24h after antibiotics started",
+        "Never go to school"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Impetigo: exclude from school until 24h after antibiotics. Cover lesions. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Burn depth: partial thickness (2nd degree) involves:",
+      "options": [
+        "Only the top layer of dermis",
+        "All skin layers including subcutaneous",
+        "Epidermis only",
+        "Epidermis and part of dermis"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Partial thickness: epidermis + dermis. Blisters, pink/red, painful. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Full thickness burns (3rd degree) appear:",
+      "options": [
+        "White, leathery, painless",
+        "Red and blistered",
+        "Pink and painful",
+        "Only superficial"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Full thickness: white/charred, leathery, painless (nerve destruction). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "For a burn, cool the area with:",
+      "options": [
+        "Cool water for 10-20 minutes",
+        "Butter",
+        "Ice",
+        "Oil"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Cool water (not ice) for 10-20 min. Ice causes more tissue damage. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Sunburn prevention for children includes:",
+      "options": [
+        "No sunscreen needed",
+        "Sunscreen only at beach",
+        "Only sunscreen on face",
+        "Sunscreen SPF 30+, hats, protective clothing"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Sun protection: SPF 30+ sunscreen, reapply every 2h, hats, shade. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Seborrheic dermatitis (cradle cap) in infants:",
+      "options": [
+        "Scaly, greasy patches on scalp",
+        "Vesicles",
+        "Linear rash",
+        "Pustules"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Cradle cap: greasy yellow scales on scalp. Treat with mineral oil, brush gently. (Standard NCLEX)"
+    }
+  ]
+}

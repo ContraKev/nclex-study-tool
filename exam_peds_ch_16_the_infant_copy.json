@@ -1,0 +1,307 @@
+{
+  "id": "peds_ch_16_the_infant_copy",
+  "name": "Pediatrics: CH 16 The Infant",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_definition_3",
+      "slide": 3,
+      "question": "Which statement best describes Establishment of sleep?",
+      "options": [
+        "wake cycle Social smile Drinking from cup Separation anxiety",
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Establishment of sleep: wake cycle Social smile Drinking from cup Separation anxiety (Slide 3)"
+    },
+    {
+      "id": "q_definition_13",
+      "slide": 13,
+      "question": "Which statement best describes Prevention?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "Parent Education Stress importance of periodic health checks",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Prevention: Parent Education Stress importance of periodic health checks (Slide 13)"
+    },
+    {
+      "id": "q_definition_14",
+      "slide": 14,
+      "question": "Which statement best describes Prevention?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "Physical Examination Physical examination in the clinic setting at least five ti..."
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Prevention: Physical Examination Physical examination in the clinic setting at least five times in the first year Hearing and vision assessments as indicated Scre (Slide 14)"
+    },
+    {
+      "id": "q_nursing_action_3",
+      "slide": 3,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "must understand normal range for milestone achievement Establishment o"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "must understand normal range for milestone achievement Establishment o. Family-centered, age-appropriate care is essential in pediatrics. (Slide 3)"
+    },
+    {
+      "id": "q_nursing_action_6",
+      "slide": 6,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "be established to develop trust, which is vital to the development of ",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "be established to develop trust, which is vital to the development of . Family-centered, age-appropriate care is essential in pediatrics. (Slide 6)"
+    },
+    {
+      "id": "q_nursing_action_13",
+      "slide": 13,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "education and anticipatory guidance for the developmental changes that",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "education and anticipatory guidance for the developmental changes that. Family-centered, age-appropriate care is essential in pediatrics. (Slide 13)"
+    },
+    {
+      "id": "q_nursing_action_13",
+      "slide": 13,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "growth of infant by documenting measurements on a growth chart",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "growth of infant by documenting measurements on a growth chart. Family-centered, age-appropriate care is essential in pediatrics. (Slide 13)"
+    },
+    {
+      "id": "q_nursing_action_14",
+      "slide": 14,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "appropriate education and explanations to the parents",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "appropriate education and explanations to the parents. Family-centered, age-appropriate care is essential in pediatrics. (Slide 14)"
+    },
+    {
+      "id": "q_treatment_14",
+      "slide": 14,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "ed as required Growth grids and developmental screening Immunizations ",
+        "No treatment is available"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ed as required Growth grids and developmental screening Immunizations . Illness Prevention: Physical Examination Physical examination in the clinic sett... (Slide 14)"
+    },
+    {
+      "id": "q_risk_factor_16",
+      "slide": 16,
+      "question": "Which factor increases risk in pediatric patients?",
+      "options": [
+        "of serious illness or even death",
+        "Factors only relevant in adults",
+        "Unrelated demographic information",
+        "Protective factors that reduce risk"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "of serious illness or even death is a known risk factor. Immunizations Stress repeatedly the importance of immunizations and timing of ad... (Slide 16)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "The anterior fontanelle typically closes by:",
+      "options": [
+        "12-18 months",
+        "2-3 years",
+        "3-6 months",
+        "Birth"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The anterior fontanelle (diamond-shaped) closes between 12-18 months. Posterior (triangle) closes by 2-3 months. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "Which reflex persists longest in infancy?",
+      "options": [
+        "Babinski reflex (until 12 months)",
+        "Stepping reflex",
+        "Moro reflex",
+        "Rooting reflex"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Babinski (toes fan out on sole stimulation) persists until ~12 months. Moro, rooting, stepping disappear by 4-6 months. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "An infant can sit unsupported by what age?",
+      "options": [
+        "Birth",
+        "2-3 months",
+        "10-12 months",
+        "6-8 months"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Sitting unsupported: 6-8 months. Milestone delays may indicate motor delay. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "The Moro reflex is characterized by:",
+      "options": [
+        "Extension and abduction of arms with crying, then adduction",
+        "Turning head toward a touch on the cheek",
+        "Fanning of toes on sole stroke",
+        "Sucking when the palate is touched"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Moro (startle): sudden head extension causes arms to extend/abduct then adduct with crying. Present at birth, disappears 4-6 months. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the normal heart rate range for an infant?",
+      "options": [
+        "100-160 bpm",
+        "60-100 bpm",
+        "40-80 bpm",
+        "160-200 bpm"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Infant HR: 100-160 bpm resting. Tachycardia >160; bradycardia <100 (concerning). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "When introducing solid foods, the nurse teaches parents to:",
+      "options": [
+        "Introduce one food at a time and wait 3-5 days",
+        "Start with multiple foods immediately",
+        "Give only pureed meat first",
+        "Avoid all solids until 12 months"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Introduce one new food every 3-5 days to identify allergies. Start with iron-fortified rice cereal at 4-6 months. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "An infant who can transfer objects hand-to-hand demonstrates which skill?",
+      "options": [
+        "Fine motor development",
+        "Visual impairment",
+        "Cognitive delay",
+        "Gross motor development"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Transferring objects (6-7 months) shows developing pincer grasp and bilateral coordination. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "What is the recommended sleep position for infants?",
+      "options": [
+        "Supine (back)",
+        "Any position",
+        "Prone (stomach)",
+        "Side-lying"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Back to Sleep: supine only to reduce SIDS risk. Avoid soft bedding, pillows, bumpers. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "Which finding in an infant requires immediate attention?",
+      "options": [
+        "Milia on the nose",
+        "Acrocyanosis of hands and feet",
+        "Cyanosis of lips and mucous membranes",
+        "Mongolian spot on the buttocks"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Central cyanosis (lips, tongue, trunk) indicates hypoxemia \u2014 emergency. Acrocyanosis (extremities) is normal in first 24-48h. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "An infant's first tooth typically erupts at:",
+      "options": [
+        "Birth",
+        "6-8 months",
+        "12-14 months",
+        "18-24 months"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Lower central incisors erupt first at 6-8 months. Full primary dentition (20 teeth) by 2.5 years. (Standard NCLEX)"
+    }
+  ]
+}

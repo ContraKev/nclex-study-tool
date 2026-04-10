@@ -1,0 +1,485 @@
+{
+  "id": "peds_chapter_028_gi_peds",
+  "name": "Pediatrics: The Child with a Gastrointestinal Condition",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_nursing_action_25",
+      "slide": 25,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "be diluted to be excreted Stimulates respirations, which increase evap",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "be diluted to be excreted Stimulates respirations, which increase evap. Family-centered, age-appropriate care is essential in pediatrics. (Slide 25)"
+    },
+    {
+      "id": "q_clinical_finding_2",
+      "type": "sata",
+      "slide": 2,
+      "question": "Which of the following are expected findings in The Child with a Gastrointestinal Condition? (Select all that apply.)",
+      "options": [
+        ", treatments, and nursing care of a child with Hirschsprung\u2019",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": ", treatments, and nursing care of a child with Hirschsprung\u2019 is a characteristic finding. Lesson 28.1 Objectives Define each key word listed. Discuss three common gastroi... (Slide 2)"
+    },
+    {
+      "id": "q_clinical_finding_7",
+      "type": "sata",
+      "slide": 7,
+      "question": "Which of the following are expected findings in The Child with a Gastrointestinal Condition? (Select all that apply.)",
+      "options": [
+        "usually do not appear until an infant is 2 or 3 weeks old",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "usually do not appear until an infant is 2 or 3 weeks old is a characteristic finding. Pyloric Stenosis Obstruction of the lower end of the stomach caused by overgrowt... (Slide 7)"
+    },
+    {
+      "id": "q_treatment_2",
+      "slide": 2,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Treatment used only in adults",
+        "s, and nursing care of a child with Hirschsprung\u2019s disease",
+        "Observation only without intervention"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "s, and nursing care of a child with Hirschsprung\u2019s disease. Lesson 28.1 Objectives Define each key word listed. Discuss three common gastroi... (Slide 2)"
+    },
+    {
+      "id": "q_treatment_2",
+      "slide": 2,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "No treatment is available",
+        "and nursing care of a child with intussusception"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "and nursing care of a child with intussusception. Lesson 28.1 Objectives Define each key word listed. Discuss three common gastroi... (Slide 2)"
+    },
+    {
+      "id": "q_treatment_18",
+      "slide": 18,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "No treatment is available",
+        "Observation only without intervention",
+        "of an infant with gastroesophageal reflux"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "of an infant with gastroesophageal reflux. Lesson 28.2 Objectives Interpret the nursing management of an infant with gastro... (Slide 18)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "What is the most common cause of acute abdominal pain in children?",
+      "options": [
+        "Gastroenteritis",
+        "Constipation",
+        "Intussusception",
+        "Appendicitis"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Functional constipation is most common. However, appendicitis is most common surgical emergency. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "A child with appendicitis typically presents with:",
+      "options": [
+        "Epigastric pain radiating to back",
+        "Periumbilical pain migrating to RLQ, vomiting, fever",
+        "Diffuse abdominal pain and diarrhea",
+        "Left lower quadrant pain"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Appendicitis: periumbilical \u2192 RLQ pain, nausea, vomiting, fever, anorexia, rebound tenderness. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "What is intussusception?",
+      "options": [
+        "Twisting of the bowel",
+        "Prolapse of the rectum",
+        "Inflammation of the appendix",
+        "Telescoping of bowel into itself"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Intussusception: segment telescopes into adjacent segment \u2192 obstruction. Classic: currant jelly stool, sausage-shaped mass, colicky pain. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "The classic sign of intussusception is:",
+      "options": [
+        "Constipation",
+        "Projectile vomiting",
+        "Bright red blood per rectum",
+        "Currant jelly stool (bloody mucus)"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Currant jelly stool = blood + mucus from bowel ischemia. Air or barium enema can reduce; surgery if unsuccessful. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is pyloric stenosis?",
+      "options": [
+        "Duodenal atresia",
+        "Malrotation of the intestines",
+        "Hypertrophy of pyloric muscle causing obstruction",
+        "Inflammation of the stomach"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Pyloric stenosis: thickened pyloric sphincter blocks gastric emptying. Projectile vomiting, olive mass, dehydration. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "A newborn with projectile vomiting and an olive-shaped mass has:",
+      "options": [
+        "GERD",
+        "Pyloric stenosis",
+        "Necrotizing enterocolitis",
+        "Malrotation"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Pyloric stenosis: 2-8 weeks, projectile vomiting, dehydration, visible peristalsis, olive mass. Surgery (pyloromyotomy). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "What is the primary treatment for GERD in infants?",
+      "options": [
+        "Small frequent feeds, upright positioning after feeds",
+        "Surgery",
+        "Antibiotics",
+        "Nothing by mouth"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "GERD in infants: thickening feeds, upright 30 min after feeding, smaller volumes. Most resolve by 12 months. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "Celiac disease is caused by:",
+      "options": [
+        "Lactose intolerance",
+        "Immune response to gluten",
+        "Bacterial infection",
+        "Food allergy"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Celiac: autoimmune response to gluten \u2192 villous atrophy, malabsorption. Requires lifelong gluten-free diet. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What should be avoided in a child with celiac disease?",
+      "options": [
+        "All meats",
+        "Wheat, barley, rye",
+        "Milk products",
+        "Rice and potatoes"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Gluten-free: avoid wheat, barley, rye. Safe: rice, corn, potatoes, certified GF oats. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "What is Hirschsprung disease?",
+      "options": [
+        "Twisting of the bowel",
+        "Inflammation of the colon",
+        "Prolapse of the rectum",
+        "Absence of ganglion cells in bowel causing functional obstruction"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Hirschsprung: aganglionic megacolon \u2192 functional obstruction, chronic constipation, failure to pass meconium. Surgery. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "Signs of dehydration in children include:",
+      "options": [
+        "Increased urination",
+        "Moist skin",
+        "Decreased urine output, dry mucous membranes, sunken eyes, tachycardia",
+        "Slow capillary refill only"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Dehydration: \u2193 urine output, dry mucous membranes, sunken fontanelle, tachycardia, poor skin turgor. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "Oral rehydration for mild-moderate dehydration:",
+      "options": [
+        "Juice only",
+        "Sports drinks",
+        "ORS (oral rehydration solution) in small frequent amounts",
+        "Water only"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "ORS: small frequent sips (5-10 mL every 1-2 min). Avoid juice/sports drinks (high sugar). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "Severe dehydration in children requires:",
+      "options": [
+        "Nothing by mouth",
+        "Antibiotics",
+        "Oral fluids only",
+        "IV fluid bolus (20 mL/kg normal saline)"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Severe dehydration: IV bolus 20 mL/kg NS, repeat as needed. Assess response. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Acute gastroenteritis is most commonly caused by:",
+      "options": [
+        "Bacterial",
+        "Fungal",
+        "Viral (rotavirus, norovirus)",
+        "Parasitic"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Viral gastroenteritis: rotavirus (infants), norovirus (all ages). Supportive care: hydration. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "A child with diarrhea should avoid:",
+      "options": [
+        "High-sugar drinks and caffeine",
+        "Rice and bananas",
+        "Crackers",
+        "Toast"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Avoid: sugary drinks, caffeine, fatty foods. Offer: BRAT diet (bananas, rice, applesauce, toast). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Rotavirus vaccine is given at:",
+      "options": [
+        "12 months only",
+        "2, 4, and 6 months",
+        "Not recommended",
+        "Birth and 2 months"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Rotavirus: oral vaccine at 2, 4, 6 months. Prevents severe gastroenteritis. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "A child with vomiting and diarrhea should:",
+      "options": [
+        "Continue to offer fluids; avoid solids initially",
+        "Stop all fluids",
+        "Give solid foods",
+        "Only give milk"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Continue small frequent ORS; avoid solids until vomiting resolves. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Signs of severe dehydration requiring IV fluids:",
+      "options": [
+        "Active and alert",
+        "Slightly decreased urine",
+        "Mild thirst only",
+        "Lethargy, sunken eyes, dry mucous membranes, poor perfusion"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Severe dehydration: altered mental status, sunken eyes, dry mucous membranes, delayed capillary refill. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Constipation in children is often caused by:",
+      "options": [
+        "Too much fiber",
+        "Too much exercise",
+        "Low fiber intake, inadequate fluids, holding stool",
+        "Too much water"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Constipation: low fiber, inadequate fluids, stool withholding (pain, fear). Increase fiber, fluids, fiber. (Standard NCLEX)"
+    },
+    {
+      "id": "q_matrix_development",
+      "type": "matrix",
+      "slide": 15,
+      "question": "Match each developmental theorist with their key concept.",
+      "columns": [
+        "Erikson",
+        "Piaget",
+        "Kohlberg"
+      ],
+      "rows": [
+        {
+          "text": "Psychosocial stages (Trust vs Mistrust, etc.)",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Cognitive stages (Sensorimotor, Preoperational, etc.)",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Moral development levels (Preconventional, etc.)",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+    },
+    {
+      "id": "q_cloze_peds",
+      "type": "drag_drop_cloze",
+      "slide": 10,
+      "question": "Complete the statement about pediatric care.",
+      "cloze_text": "Pediatric nursing requires [[BLANK1]] care and consideration of [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation",
+        "medication"
+      ],
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+    },
+    {
+      "id": "q_highlight_normal",
+      "type": "highlight",
+      "slide": 25,
+      "question": "Click on the normal developmental findings.",
+      "highlight_text": "The child demonstrates age-appropriate milestones. Growth follows expected percentiles. The child engages with caregivers appropriately.",
+      "highlight_options": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "answer": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "rationale": "All are normal pediatric findings. (Slide 25)"
+    },
+    {
+      "id": "q_bowtie",
+      "type": "bowtie",
+      "slide": 30,
+      "question": "A child presents with concerning developmental findings.",
+      "left_actions": {
+        "options": [
+          "Perform developmental screening",
+          "Obtain detailed history",
+          "Ignore parental concerns",
+          "Delay assessment"
+        ],
+        "answer": [
+          "Perform developmental screening",
+          "Obtain detailed history"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Possible developmental concern requiring evaluation",
+          "Normal variation, no action needed",
+          "Immediate emergency"
+        ],
+        "answer": "Possible developmental concern requiring evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Follow-up assessments",
+          "Parent education",
+          "No follow-up needed"
+        ],
+        "answer": [
+          "Follow-up assessments",
+          "Parent education"
+        ]
+      },
+      "rationale": "Early identification and family support are key. (Slide 30)"
+    }
+  ]
+}

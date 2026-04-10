@@ -1,0 +1,322 @@
+{
+  "id": "peds_chapter_029_gu_peds",
+  "name": "Pediatrics: The Child with a Genitourinary Condition",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "What is the most common cause of UTI in children?",
+      "options": [
+        "Hematogenous spread",
+        "Fungal infection",
+        "E. coli ascending from urethra",
+        "Viral infection"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "E. coli (80-90%): gram-negative, ascending from perineum. Risk factors: uncircumcised males, vesicoureteral reflux, poor hygiene. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "A child with a UTI presents with:",
+      "options": [
+        "Fever, dysuria, frequency, abdominal pain",
+        "Respiratory symptoms",
+        "Constipation",
+        "Hematuria only"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "UTI in children: fever (especially <2 years), dysuria, frequency, urgency, abdominal/flank pain, enuresis. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "What is vesicoureteral reflux (VUR)?",
+      "options": [
+        "Kidney stone",
+        "Backward flow of urine from bladder to ureter",
+        "Narrowing of the urethra",
+        "Bladder muscle weakness"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "VUR: urine refluxes to ureter/kidney during voiding \u2192 recurrent UTI, scarring, hypertension. Grades I-V. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "Hypospadias is:",
+      "options": [
+        "Urethral opening on the ventral surface of the penis",
+        "Urethral opening on the dorsal surface",
+        "Absence of the urethra",
+        "Narrowing of the urethral meatus"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Hypospadias: ventral placement of meatus. Often with chordee (ventral curvature). Surgical repair. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "Cryptorchidism refers to:",
+      "options": [
+        "Enlarged testicle",
+        "Undescended testicle(s)",
+        "Infection of the testicle",
+        "Twisted testicle"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Cryptorchidism: testicle fails to descend into scrotum. Risk of torsion, malignancy if untreated. Orchiopexy by 12-18 months. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "What is phimosis?",
+      "options": [
+        "Tightening of the scrotum",
+        "Inability to retract the foreskin",
+        "Inflammation of the foreskin",
+        "Painful erection"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Phimosis: foreskin cannot be retracted over glans. Normal in infants; pathological if causes problems after age 3. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "Enuresis is defined as:",
+      "options": [
+        "Frequent urination",
+        "Involuntary urination after expected age of control",
+        "Painful urination",
+        "Blood in urine"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Enuresis: bedwetting after age 5 (nocturnal) or daytime wetting after age 4. Primary vs secondary. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "The first-line treatment for primary nocturnal enuresis is:",
+      "options": [
+        "Catheterization",
+        "Behavioral interventions (bed alarm, fluid restriction)",
+        "Antibiotics",
+        "Surgery"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Bed alarm + positive reinforcement first-line. Medications (desmopressin) for short-term (camp, sleepovers). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the most common renal disorder in children?",
+      "options": [
+        "Renal failure",
+        "Glomerulonephritis",
+        "Nephrotic syndrome",
+        "Polycystic kidney disease"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Nephrotic syndrome: massive proteinuria, hypoalbuminemia, edema, hyperlipidemia. Minimal change disease most common. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "A child with nephrotic syndrome presents with:",
+      "options": [
+        "Flank pain and hematuria",
+        "Hypertension and seizures",
+        "Periorbital edema, generalized edema, foamy urine",
+        "Dysuria and fever"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Nephrotic: edema (periorbital, abdominal, genital), weight gain, frothy urine (protein), fatigue. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "Wilms tumor (nephroblastoma) is:",
+      "options": [
+        "Adult kidney cancer",
+        "Infectious",
+        "Benign tumor",
+        "Most common renal malignancy in children"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Wilms tumor: most common renal tumor in children. Don't palpate flank (risk of rupture). Surgery + chemo. (Quizlet Peds GU)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "A child with Wilms tumor should NOT have:",
+      "options": [
+        "Blood pressure monitoring",
+        "IV fluids",
+        "Abdominal palpation or percussion",
+        "Chest X-ray"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Wilms tumor: avoid flank palpation (can rupture/disseminate). Abdominal mass found incidentally. (Quizlet Peds GU)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "Glomerulonephritis in children is often preceded by:",
+      "options": [
+        "Respiratory infection",
+        "UTI",
+        "Strep throat or skin infection",
+        "Gastroenteritis"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Post-streptococcal glomerulonephritis: 1-3 weeks after strep infection. Hematuria, edema, hypertension. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Acute glomerulonephritis presents with:",
+      "options": [
+        "Abdominal pain only",
+        "Fever only",
+        "Dysuria, frequency",
+        "Hematuria, edema, hypertension, oliguria"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "AGN: hematuria (cola-colored urine), periorbital edema, hypertension, decreased urine output. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Hypospadias repair is typically done at:",
+      "options": [
+        "5 years",
+        "Birth",
+        "Adolescence",
+        "6-18 months"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Hypospadias repair: 6-18 months before child is aware. Also corrects chordee if present. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Undescended testes (cryptorchidism) should be surgically corrected by:",
+      "options": [
+        "12-18 months",
+        "Adolescence",
+        "Never",
+        "5 years"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Orchiopexy by 12-18 months to prevent torsion, malignancy, infertility. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "Circumcision is contraindicated if:",
+      "options": [
+        "Parents request it",
+        "Hypospadias or chordee is present",
+        "Baby is premature",
+        "Baby is full term"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Circumcision contraindicated with hypospadias, chordee, epispadias \u2014 foreskin needed for repair. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Nephrotic syndrome is characterized by:",
+      "options": [
+        "Massive proteinuria, hypoalbuminemia, edema, hyperlipidemia",
+        "Oliguria only",
+        "Hematuria, hypertension",
+        "Dysuria, frequency"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Nephrotic: 4 features \u2014 proteinuria (>3.5g/day), low albumin, edema, high lipids. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Prednisone is used in nephrotic syndrome to:",
+      "options": [
+        "Induce remission and reduce proteinuria",
+        "Treat infection",
+        "Remove fluid",
+        "Lower blood pressure"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Nephrotic: steroids (prednisone) induce remission in minimal change disease. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_19",
+      "slide": 99,
+      "question": "Acute kidney injury in children can result from:",
+      "options": [
+        "Only infection",
+        "Dehydration, sepsis, nephrotoxic drugs",
+        "Only congenital anomalies",
+        "Only trauma"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "AKI in children: prerenal (dehydration), intrinsic (nephrotoxins, glomerulonephritis), postrenal (obstruction). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_20",
+      "slide": 99,
+      "question": "A child with UTI and fever needs:",
+      "options": [
+        "Surgery",
+        "Only hydration",
+        "Observation only",
+        "Prompt antibiotic treatment to prevent scarring"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Febrile UTI: treat promptly with antibiotics. Risk of renal scarring, especially with VUR. (Standard NCLEX)"
+    }
+  ]
+}

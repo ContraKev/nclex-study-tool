@@ -1,0 +1,677 @@
+{
+  "id": "peds_chapter_027_lymph_and_blood_do",
+  "name": "Pediatrics: Chapter_027_lymph_and_blood_DOs_Pediatrics",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q1",
+      "slide": 1,
+      "question": "According to Chapter 027 content, which of the following is TRUE regarding chapter 27 the child with a condition of...?",
+      "options": [
+        "Chapter 27 The Child with a Condition of the Blood, Blood-Fo...",
+        "This is not typically associated with this concept",
+        "This only applies to adult patients",
+        "This is contraindicated in pediatric care"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Chapter 27 The Child with a Condition of the Blood, Blood-Forming Organs, or Lymphatic System Copyri... (Slide 1)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q2",
+      "type": "sata",
+      "slide": 2,
+      "question": "Which of the following are characteristics of Pediatrics? (Select all that apply.)",
+      "options": [
+        "Option A based on content",
+        "Option B based on content",
+        "Option C based on content",
+        "Option D based on content",
+        "Option E based on content"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Based on lecture content. (Slide 2)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q3",
+      "type": "matrix",
+      "slide": 3,
+      "question": "Match each concept with its correct description from Chapter_027_lymph_and_blood_DOs_Pediatrics.",
+      "columns": [
+        "Concept A",
+        "Concept B",
+        "Concept C"
+      ],
+      "rows": [
+        {
+          "text": "Description 1",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Description 2",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Description 3",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Based on lecture content. (Slide 3)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q4",
+      "type": "drag_drop_cloze",
+      "slide": 4,
+      "question": "Complete the statement about Pediatrics.",
+      "cloze_text": "The nurse should [[BLANK1]] the patient and [[BLANK2]] as needed. [[BLANK3]] is important for [[BLANK4]].",
+      "drag_options": [
+        "assess",
+        "monitor",
+        "educate",
+        "document",
+        "comfort",
+        "safety",
+        "development",
+        "family"
+      ],
+      "answer": {
+        "BLANK1": "assess",
+        "BLANK2": "monitor",
+        "BLANK3": "education",
+        "BLANK4": "safety"
+      },
+      "rationale": "Based on lecture content. (Slide 4)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q5",
+      "type": "highlight",
+      "slide": 5,
+      "question": "Click on the findings that indicate normal Pediatrics.",
+      "highlight_text": "The child demonstrates age-appropriate growth. Vital signs are stable. The child is engaged with caregivers. There are no signs of distress.",
+      "highlight_options": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "answer": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "rationale": "Based on lecture content. (Slide 5)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q6",
+      "type": "bowtie",
+      "slide": 6,
+      "question": "A pediatric client presents with findings consistent with Pediatrics.",
+      "left_actions": {
+        "options": [
+          "Action 1",
+          "Action 2",
+          "Action 3",
+          "Action 4"
+        ],
+        "answer": [
+          "Action 1",
+          "Action 2"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Condition A",
+          "Condition B",
+          "Condition C",
+          "Condition D"
+        ],
+        "answer": "Condition A"
+      },
+      "right_monitor": {
+        "options": [
+          "Monitor 1",
+          "Monitor 2",
+          "Monitor 3",
+          "Monitor 4"
+        ],
+        "answer": [
+          "Monitor 1",
+          "Monitor 2"
+        ]
+      },
+      "rationale": "Based on lecture content. (Slide 6)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q7",
+      "slide": 7,
+      "question": "What is the priority nursing intervention for Pediatrics based on this chapter?",
+      "options": [
+        "Provide age-appropriate education and support",
+        "Restrict all visitors and stimulation",
+        "Delay all interventions until stable",
+        "Focus only on physical findings"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Age-appropriate care is essential in pediatrics. Circulating Blood (2 of 2) 7 Copyright \u00a9 2019, Elsevier Inc. All rights reserved... (Slide 7)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q8",
+      "slide": 8,
+      "question": "According to Chapter 027 content, which of the following is TRUE regarding anemias 8 copyright \u00a9 2019, elsevier inc...?",
+      "options": [
+        "Anemias 8 Copyright \u00a9 2019, Elsevier Inc. All rights reserve...",
+        "This is not typically associated with this concept",
+        "This only applies to adult patients",
+        "This is contraindicated in pediatric care"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Anemias 8 Copyright \u00a9 2019, Elsevier Inc. All rights reserved.... (Slide 8)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q9",
+      "type": "sata",
+      "slide": 9,
+      "question": "Which of the following are characteristics of Pediatrics? (Select all that apply.)",
+      "options": [
+        "Option A based on content",
+        "Option B based on content",
+        "Option C based on content",
+        "Option D based on content",
+        "Option E based on content"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Based on lecture content. (Slide 9)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q10",
+      "type": "matrix",
+      "slide": 10,
+      "question": "Match each concept with its correct description from Chapter_027_lymph_and_blood_DOs_Pediatrics.",
+      "columns": [
+        "Concept A",
+        "Concept B",
+        "Concept C"
+      ],
+      "rows": [
+        {
+          "text": "Description 1",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Description 2",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Description 3",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Based on lecture content. (Slide 10)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q11",
+      "type": "drag_drop_cloze",
+      "slide": 11,
+      "question": "Complete the statement about Pediatrics.",
+      "cloze_text": "The nurse should [[BLANK1]] the patient and [[BLANK2]] as needed. [[BLANK3]] is important for [[BLANK4]].",
+      "drag_options": [
+        "assess",
+        "monitor",
+        "educate",
+        "document",
+        "comfort",
+        "safety",
+        "development",
+        "family"
+      ],
+      "answer": {
+        "BLANK1": "assess",
+        "BLANK2": "monitor",
+        "BLANK3": "education",
+        "BLANK4": "safety"
+      },
+      "rationale": "Based on lecture content. (Slide 11)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q12",
+      "type": "highlight",
+      "slide": 12,
+      "question": "Click on the findings that indicate normal Pediatrics.",
+      "highlight_text": "The child demonstrates age-appropriate growth. Vital signs are stable. The child is engaged with caregivers. There are no signs of distress.",
+      "highlight_options": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "answer": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "rationale": "Based on lecture content. (Slide 12)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q13",
+      "type": "bowtie",
+      "slide": 13,
+      "question": "A pediatric client presents with findings consistent with Pediatrics.",
+      "left_actions": {
+        "options": [
+          "Action 1",
+          "Action 2",
+          "Action 3",
+          "Action 4"
+        ],
+        "answer": [
+          "Action 1",
+          "Action 2"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Condition A",
+          "Condition B",
+          "Condition C",
+          "Condition D"
+        ],
+        "answer": "Condition A"
+      },
+      "right_monitor": {
+        "options": [
+          "Monitor 1",
+          "Monitor 2",
+          "Monitor 3",
+          "Monitor 4"
+        ],
+        "answer": [
+          "Monitor 1",
+          "Monitor 2"
+        ]
+      },
+      "rationale": "Based on lecture content. (Slide 13)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q14",
+      "slide": 14,
+      "question": "What is the priority nursing intervention for Pediatrics based on this chapter?",
+      "options": [
+        "Provide age-appropriate education and support",
+        "Restrict all visitors and stimulation",
+        "Delay all interventions until stable",
+        "Focus only on physical findings"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Age-appropriate care is essential in pediatrics. Two Types of Sickle Cell Disease  (1 of 2) Copyright \u00a9 2019, Elsevier Inc. All r... (Slide 14)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q15",
+      "slide": 15,
+      "question": "According to Chapter 027 content, which of the following is TRUE regarding two types of sickle cell disease  (2 of ...?",
+      "options": [
+        "Two Types of Sickle Cell Disease  (2 of 2) Copyright \u00a9 2019,...",
+        "This is not typically associated with this concept",
+        "This only applies to adult patients",
+        "This is contraindicated in pediatric care"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Two Types of Sickle Cell Disease  (2 of 2) Copyright \u00a9 2019, Elsevier Inc. All rights reserved. 15... (Slide 15)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q16",
+      "type": "sata",
+      "slide": 16,
+      "question": "Which of the following are characteristics of Pediatrics? (Select all that apply.)",
+      "options": [
+        "Option A based on content",
+        "Option B based on content",
+        "Option C based on content",
+        "Option D based on content",
+        "Option E based on content"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Based on lecture content. (Slide 16)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q17",
+      "type": "matrix",
+      "slide": 17,
+      "question": "Match each concept with its correct description from Chapter_027_lymph_and_blood_DOs_Pediatrics.",
+      "columns": [
+        "Concept A",
+        "Concept B",
+        "Concept C"
+      ],
+      "rows": [
+        {
+          "text": "Description 1",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Description 2",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Description 3",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Based on lecture content. (Slide 17)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q18",
+      "type": "drag_drop_cloze",
+      "slide": 18,
+      "question": "Complete the statement about Pediatrics.",
+      "cloze_text": "The nurse should [[BLANK1]] the patient and [[BLANK2]] as needed. [[BLANK3]] is important for [[BLANK4]].",
+      "drag_options": [
+        "assess",
+        "monitor",
+        "educate",
+        "document",
+        "comfort",
+        "safety",
+        "development",
+        "family"
+      ],
+      "answer": {
+        "BLANK1": "assess",
+        "BLANK2": "monitor",
+        "BLANK3": "education",
+        "BLANK4": "safety"
+      },
+      "rationale": "Based on lecture content. (Slide 18)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q19",
+      "type": "highlight",
+      "slide": 19,
+      "question": "Click on the findings that indicate normal Pediatrics.",
+      "highlight_text": "The child demonstrates age-appropriate growth. Vital signs are stable. The child is engaged with caregivers. There are no signs of distress.",
+      "highlight_options": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "answer": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "rationale": "Based on lecture content. (Slide 19)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q20",
+      "type": "bowtie",
+      "slide": 20,
+      "question": "A pediatric client presents with findings consistent with Pediatrics.",
+      "left_actions": {
+        "options": [
+          "Action 1",
+          "Action 2",
+          "Action 3",
+          "Action 4"
+        ],
+        "answer": [
+          "Action 1",
+          "Action 2"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Condition A",
+          "Condition B",
+          "Condition C",
+          "Condition D"
+        ],
+        "answer": "Condition A"
+      },
+      "right_monitor": {
+        "options": [
+          "Monitor 1",
+          "Monitor 2",
+          "Monitor 3",
+          "Monitor 4"
+        ],
+        "answer": [
+          "Monitor 1",
+          "Monitor 2"
+        ]
+      },
+      "rationale": "Based on lecture content. (Slide 20)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q21",
+      "slide": 21,
+      "question": "What is the priority nursing intervention for Pediatrics based on this chapter?",
+      "options": [
+        "Provide age-appropriate education and support",
+        "Restrict all visitors and stimulation",
+        "Delay all interventions until stable",
+        "Focus only on physical findings"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Age-appropriate care is essential in pediatrics. Hemophilia Copyright \u00a9 2019, Elsevier Inc. All rights reserved. 21... (Slide 21)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q22",
+      "slide": 22,
+      "question": "According to Chapter 027 content, which of the following is TRUE regarding 22 hemophilia a copyright \u00a9 2019, elsevi...?",
+      "options": [
+        "22 Hemophilia A Copyright \u00a9 2019, Elsevier Inc. All rights r...",
+        "This is not typically associated with this concept",
+        "This only applies to adult patients",
+        "This is contraindicated in pediatric care"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "22 Hemophilia A Copyright \u00a9 2019, Elsevier Inc. All rights reserved.... (Slide 22)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q23",
+      "type": "sata",
+      "slide": 23,
+      "question": "Which of the following are characteristics of Pediatrics? (Select all that apply.)",
+      "options": [
+        "Option A based on content",
+        "Option B based on content",
+        "Option C based on content",
+        "Option D based on content",
+        "Option E based on content"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Based on lecture content. (Slide 23)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q24",
+      "type": "matrix",
+      "slide": 24,
+      "question": "Match each concept with its correct description from Chapter_027_lymph_and_blood_DOs_Pediatrics.",
+      "columns": [
+        "Concept A",
+        "Concept B",
+        "Concept C"
+      ],
+      "rows": [
+        {
+          "text": "Description 1",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Description 2",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Description 3",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Based on lecture content. (Slide 24)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q25",
+      "type": "drag_drop_cloze",
+      "slide": 25,
+      "question": "Complete the statement about Pediatrics.",
+      "cloze_text": "The nurse should [[BLANK1]] the patient and [[BLANK2]] as needed. [[BLANK3]] is important for [[BLANK4]].",
+      "drag_options": [
+        "assess",
+        "monitor",
+        "educate",
+        "document",
+        "comfort",
+        "safety",
+        "development",
+        "family"
+      ],
+      "answer": {
+        "BLANK1": "assess",
+        "BLANK2": "monitor",
+        "BLANK3": "education",
+        "BLANK4": "safety"
+      },
+      "rationale": "Based on lecture content. (Slide 25)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q26",
+      "type": "highlight",
+      "slide": 26,
+      "question": "Click on the findings that indicate normal Pediatrics.",
+      "highlight_text": "The child demonstrates age-appropriate growth. Vital signs are stable. The child is engaged with caregivers. There are no signs of distress.",
+      "highlight_options": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "answer": [
+        "age-appropriate growth",
+        "Vital signs are stable",
+        "engaged with caregivers",
+        "no signs of distress"
+      ],
+      "rationale": "Based on lecture content. (Slide 26)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q27",
+      "type": "bowtie",
+      "slide": 27,
+      "question": "A pediatric client presents with findings consistent with Pediatrics.",
+      "left_actions": {
+        "options": [
+          "Action 1",
+          "Action 2",
+          "Action 3",
+          "Action 4"
+        ],
+        "answer": [
+          "Action 1",
+          "Action 2"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Condition A",
+          "Condition B",
+          "Condition C",
+          "Condition D"
+        ],
+        "answer": "Condition A"
+      },
+      "right_monitor": {
+        "options": [
+          "Monitor 1",
+          "Monitor 2",
+          "Monitor 3",
+          "Monitor 4"
+        ],
+        "answer": [
+          "Monitor 1",
+          "Monitor 2"
+        ]
+      },
+      "rationale": "Based on lecture content. (Slide 27)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q28",
+      "slide": 28,
+      "question": "What is the priority nursing intervention for Pediatrics based on this chapter?",
+      "options": [
+        "Provide age-appropriate education and support",
+        "Restrict all visitors and stimulation",
+        "Delay all interventions until stable",
+        "Focus only on physical findings"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Age-appropriate care is essential in pediatrics. 28 Treatment of ITP (2 of 2) Copyright \u00a9 2019, Elsevier Inc. All rights reserved... (Slide 28)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q29",
+      "slide": 29,
+      "question": "According to Chapter 027 content, which of the following is TRUE regarding complications of itp 29 copyright \u00a9 2019...?",
+      "options": [
+        "Complications of ITP 29 Copyright \u00a9 2019, Elsevier Inc. All ...",
+        "This is not typically associated with this concept",
+        "This only applies to adult patients",
+        "This is contraindicated in pediatric care"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Complications of ITP 29 Copyright \u00a9 2019, Elsevier Inc. All rights reserved.... (Slide 29)"
+    },
+    {
+      "id": "peds_chapter_027_lymph_and_blood_do_q30",
+      "type": "sata",
+      "slide": 30,
+      "question": "Which of the following are characteristics of Pediatrics? (Select all that apply.)",
+      "options": [
+        "Option A based on content",
+        "Option B based on content",
+        "Option C based on content",
+        "Option D based on content",
+        "Option E based on content"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Based on lecture content. (Slide 30)"
+    }
+  ]
+}

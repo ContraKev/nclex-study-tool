@@ -1,0 +1,509 @@
+{
+  "id": "peds_ch_19_the_school_age_child",
+  "name": "Pediatrics: CH 19 The School Age Child",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_piaget_stage_4",
+      "slide": 4,
+      "question": "During Piaget's concrete stage, children primarily learn through:",
+      "options": [
+        "Sensory and motor actions only",
+        "Egocentric and magical thinking",
+        "Abstract concepts and hypothetical situations",
+        "Logical thinking about concrete, tangible objects and events"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The concrete operational stage (7-11 years) enables logical operations on concrete objects. Children master conservation, classification, and seriation but struggle with abstract/hypothetical thinking. (Slide 4)"
+    },
+    {
+      "id": "q_piaget_stage_8",
+      "slide": 8,
+      "question": "During Piaget's formal stage, children primarily learn through:",
+      "options": [
+        "Sensory-motor exploration",
+        "Egocentric symbolic play",
+        "Abstract reasoning, hypothesis testing, and metacognition",
+        "Concrete logical operations"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The formal operational stage (11+ years) allows abstract reasoning, hypothetical-deductive thinking, and metacognition. Adolescents can think about possibilities and moral dilemmas. (Slide 8)"
+    },
+    {
+      "id": "q_definition_4",
+      "slide": 4,
+      "question": "Which statement best describes Erikson?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "stage of industry Freud: sexual latency Piaget: concrete operations"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Erikson: stage of industry Freud: sexual latency Piaget: concrete operations (Slide 4)"
+    },
+    {
+      "id": "q_definition_10",
+      "slide": 10,
+      "question": "Which statement best describes School?",
+      "options": [
+        "Related Tasks  Parents and children should set realistic goals",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "School: Related Tasks  Parents and children should set realistic goals (Slide 10)"
+    },
+    {
+      "id": "q_definition_11",
+      "slide": 11,
+      "question": "Which statement best describes Energetic and on?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "the-go Likes to start tasks but does not always complete them Talks for a purpos...",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Energetic and on: the-go Likes to start tasks but does not always complete them Talks for a purpose rather than for the sake of talking Vocabulary consists of 2500 word (Slide 11)"
+    },
+    {
+      "id": "q_definition_15",
+      "slide": 15,
+      "question": "Which statement best describes Begins to show self?",
+      "options": [
+        "direction Wants to be independent Group ideas more important than individual one...",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Begins to show self: direction Wants to be independent Group ideas more important than individual ones Sexual curiosity continues (Slide 15)"
+    },
+    {
+      "id": "q_nursing_action_10",
+      "slide": 10,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "continue to encourage children to discuss school problems, feelings, a",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "continue to encourage children to discuss school problems, feelings, a. Family-centered, age-appropriate care is essential in pediatrics. (Slide 10)"
+    },
+    {
+      "id": "q_nursing_action_20",
+      "slide": 20,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "be screened for vision or hearing deficits and language or learning di",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "be screened for vision or hearing deficits and language or learning di. Family-centered, age-appropriate care is essential in pediatrics. (Slide 20)"
+    },
+    {
+      "id": "q_nursing_action_21",
+      "slide": 21,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "learn to take responsibility for their assignments and school supplies",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "learn to take responsibility for their assignments and school supplies. Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
+    },
+    {
+      "id": "q_clinical_finding_21",
+      "type": "sata",
+      "slide": 21,
+      "question": "Which of the following are expected findings in CH 19 The School Age Child? (Select all that apply.)",
+      "options": [
+        "ments and school supplies An allowance or at least a means o",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "ments and school supplies An allowance or at least a means o is a characteristic finding. Health Examinations If ill, the school-age child can understand simple explanati... (Slide 21)"
+    },
+    {
+      "id": "q_treatment_7",
+      "slide": 7,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "and identification In the family In society Influence of school enviro"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "and identification In the family In society Influence of school enviro. Gender Identity Sex role development influenced by parents Differential treatmen... (Slide 7)"
+    },
+    {
+      "id": "q_treatment_20",
+      "slide": 20,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "n in spring preceding school admission If inattentive at school, shoul",
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "No treatment is available"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "n in spring preceding school admission If inattentive at school, shoul. Guidance and Health Supervision Usually given in spring preceding school admissi... (Slide 20)"
+    },
+    {
+      "id": "q_risk_factor_23",
+      "slide": 23,
+      "question": "Which factor increases risk in pediatric patients?",
+      "options": [
+        "Unrelated demographic information",
+        "Factors only relevant in adults",
+        "Protective factors that reduce risk",
+        "can be further reduced if children are cautioned not to kiss pets, do "
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "can be further reduced if children are cautioned not to kiss pets, do  is a known risk factor. Pet Ownership (2 of 2) Age of child, allergies, and immune issues are major deci... (Slide 23)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "School-age children develop a sense of competence through:",
+      "options": [
+        "Fantasy play only",
+        "Rebellion against rules",
+        "Mastering new skills and receiving recognition",
+        "Dependent attachment to parents"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Erikson's Industry vs Inferiority (6-12 years): children gain confidence by mastering skills, schoolwork, and peer relations. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "A school-age child can think logically about concrete objects. This is Piaget's:",
+      "options": [
+        "Formal operational stage",
+        "Concrete operational stage",
+        "Preoperational stage",
+        "Sensorimotor stage"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Concrete operational (7-11 years): logical thinking about tangible objects, conservation, classification, reversibility. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "School-age children typically prefer to play with:",
+      "options": [
+        "Adults only",
+        "Same-sex peers",
+        "Younger children",
+        "No one"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "School-age: prefer same-sex peers, same-age friends. Peer relationships are crucial for development. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "A 10-year-old can classify objects by multiple attributes. This demonstrates:",
+      "options": [
+        "Preoperational thinking",
+        "Formal operational thinking",
+        "Concrete operational thinking",
+        "Sensorimotor thinking"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Classification (multiple criteria), seriation, conservation mastered in concrete operational stage. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "School-age children are in which Freudian stage?",
+      "options": [
+        "Genital",
+        "Oral",
+        "Oedipal",
+        "Latency"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Latency (6-puberty): sexual impulses are repressed; focus on school, friends, skills. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "A school-age child who loses a tooth should:",
+      "options": [
+        "Swallow it",
+        "Place under pillow for Tooth Fairy",
+        "Discard immediately",
+        "Save in a jar"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Cultural practices vary. Tooth Fairy is common in US. Loss of primary teeth is normal at 6-12 years. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "Which is a normal vital sign for a 7-year-old?",
+      "options": [
+        "HR 40-60 bpm, RR 8-12",
+        "HR 60-100 bpm, RR 12-20",
+        "HR 70-120 bpm, RR 16-22",
+        "HR 100-160 bpm, RR 30-60"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "School-age HR: 70-120 bpm; RR: 16-22/min. Lower than infants. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "School-age children should receive which immunizations?",
+      "options": [
+        "DTaP, MMR, Varicella, IPV boosters",
+        "Hepatitis B only",
+        "Only flu vaccine",
+        "None until age 11"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "School-age: catch-up and boosters. Tdap, MMR, Varicella, IPV, flu annually. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the leading cause of death in school-age children?",
+      "options": [
+        "Heart disease",
+        "Cancer",
+        "Infection",
+        "Unintentional injuries (accidents)"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Unintentional injuries (MVAs, drowning, burns) are the #1 cause of death in children 5-14 years. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "A 9-year-old can use a dictionary to find words. This shows:",
+      "options": [
+        "Preoperational thinking",
+        "Concrete operational thinking",
+        "Delayed development",
+        "Formal operational thinking"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Dictionary use requires alphabetizing and logical searching \u2014 concrete operational skill. (Standard NCLEX)"
+    },
+    {
+      "id": "quizlet_lab_lead",
+      "question": "A 4-year-old has a blood lead level of 14 mcg/dL. What is the priority nursing action?",
+      "options": [
+        "No action needed, this is normal",
+        "Report to the provider and initiate lead exposure assessment",
+        "Administer chelation therapy immediately",
+        "Reassure parents this is expected"
+      ],
+      "answer": "Report to the provider and initiate lead exposure assessment",
+      "rationale": "Lead level \u22655 mcg/dL requires intervention. Assess home for lead sources (paint, pipes), teach handwashing, iron-rich diet. Chelation is for higher levels (\u226545 mcg/dL). (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_lab_sodium",
+      "question": "A child on high-dose prednisone has sodium of 150 mEq/L. What is the likely cause?",
+      "options": [
+        "Dehydration from vomiting",
+        "Medication side effect causing sodium retention",
+        "Kidney failure",
+        "Excessive salt intake"
+      ],
+      "answer": "Medication side effect causing sodium retention",
+      "rationale": "Corticosteroids like prednisone cause sodium retention and potassium loss. Monitor for edema, hypertension. Teach low-sodium diet if needed. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_lab_anc",
+      "question": "A child with acute lymphoblastic leukemia (ALL) has an absolute neutrophil count (ANC) of 400/mm\u00b3. What precaution is indicated?",
+      "options": [
+        "Standard precautions only",
+        "Neutropenic precautions (avoid crowds, hand hygiene, no fresh flowers)",
+        "Airborne isolation",
+        "Droplet precautions"
+      ],
+      "answer": "Neutropenic precautions (avoid crowds, hand hygiene, no fresh flowers)",
+      "rationale": "ANC <500 = severe neutropenia. Risk for opportunistic infection. Avoid crowds, sick contacts, raw foods, fresh flowers/plants, and use strict hand hygiene. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_med_ferrous",
+      "question": "How should ferrous sulfate be administered to maximize absorption?",
+      "options": [
+        "With milk to prevent stomach upset",
+        "With orange juice on an empty stomach",
+        "With a high-fiber meal",
+        "At bedtime only"
+      ],
+      "answer": "With orange juice on an empty stomach",
+      "rationale": "Vitamin C (ascorbic acid) in orange juice enhances iron absorption. Give on empty stomach if tolerated (or with small snack). Avoid calcium/milk which inhibits absorption. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_med_digoxin",
+      "question": "Before giving digoxin to an infant, the nurse should check:",
+      "options": [
+        "Respiratory rate",
+        "Apical pulse for 1 full minute",
+        "Blood pressure",
+        "Oxygen saturation"
+      ],
+      "answer": "Apical pulse for 1 full minute",
+      "rationale": "Hold digoxin if HR <60-100 bpm (age-dependent). Check apical pulse 1 full minute. Notify provider if below threshold. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_med_prednisone",
+      "question": "A child taking oral prednisone long-term should be monitored for:",
+      "options": [
+        "Hypotension and bradycardia",
+        "Hyperglycemia, weight gain, and infection risk",
+        "Constipation and dry skin",
+        "Decreased appetite"
+      ],
+      "answer": "Hyperglycemia, weight gain, and infection risk",
+      "rationale": "Corticosteroids cause sodium retention (edema), hyperglycemia, weight gain, moon face, increased infection risk, and can suppress growth. Monitor glucose and weight. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_dz_glomerulonephritis",
+      "question": "A child with acute post-streptococcal glomerulonephritis should follow which diet?",
+      "options": [
+        "High-protein, high-sodium",
+        "Low-sodium, fluid-restricted",
+        "High-fat, low-carb",
+        "No dietary restrictions"
+      ],
+      "answer": "Low-sodium, fluid-restricted",
+      "rationale": "Glomerulonephritis causes fluid retention, hypertension, edema. Low-sodium diet and fluid restriction help reduce edema and control BP. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_dz_jia",
+      "question": "A child with juvenile idiopathic arthritis (JIA) should use nighttime splints for:",
+      "options": [
+        "Only painful joints",
+        "Knees, wrists, and hands to maintain function and reduce pain",
+        "Only during flares",
+        "Never - splints worsen stiffness"
+      ],
+      "answer": "Knees, wrists, and hands to maintain function and reduce pain",
+      "rationale": "Night splinting of affected joints (knees, wrists, hands) reduces pain and maintains range of motion. Encourage ROM exercises during day. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_dz_croup",
+      "question": "A 2-year-old presents with barky cough, inspiratory stridor, and hoarseness. What is the first-line treatment?",
+      "options": [
+        "IV antibiotics",
+        "Cool mist and oral corticosteroids",
+        "Chest physiotherapy",
+        "Intubation"
+      ],
+      "answer": "Cool mist and oral corticosteroids",
+      "rationale": "Croup (laryngotracheobronchitis): viral inflammation of larynx/trachea. Cool mist humidifies airways, corticosteroids reduce edema. Racemic epinephrine for severe stridor. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_dz_rsv",
+      "question": "An infant with bronchiolitis (RSV) is admitted. What is the priority nursing intervention?",
+      "options": [
+        "Administer antibiotics",
+        "Provide humidified oxygen and nasal suctioning",
+        "Start chest physiotherapy",
+        "Isolate from other infants"
+      ],
+      "answer": "Provide humidified oxygen and nasal suctioning",
+      "rationale": "RSV bronchiolitis: supportive care. Infants are obligate nose breathers \u2014 suctioning clears secretions. Oxygen for hypoxemia. Hydration. Contact precautions. Antibiotics not indicated (viral). (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_pain_flacc",
+      "question": "Which pain scale is most appropriate for a 6-month-old nonverbal infant?",
+      "options": [
+        "Numeric 0-10",
+        "Wong-Baker FACES",
+        "FLACC (Face, Legs, Activity, Cry, Consolability)",
+        "Oucher scale"
+      ],
+      "answer": "FLACC (Face, Legs, Activity, Cry, Consolability)",
+      "rationale": "FLACC is validated for infants/young children who cannot self-report. Scores 0-2 in 5 categories. FACES for 3+ years, numeric for 8+ years. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_cultural_jehova",
+      "question": "An adolescent who is a Jehovah's Witness refuses a blood transfusion. What is the priority nursing action?",
+      "options": [
+        "Administer the transfusion anyway",
+        "Respect the refusal and notify the provider and parents",
+        "Call security",
+        "Transfer to another hospital"
+      ],
+      "answer": "Respect the refusal and notify the provider and parents",
+      "rationale": "Respect religious/cultural beliefs. Involve parents in discussion. Document refusal. Explore alternatives (erythropoietin, volume expanders). Ethics consultation if needed. (Quizlet: ATI CMS Peds Practice A)"
+    },
+    {
+      "id": "quizlet_immun_tdap",
+      "question": "An adolescent completed all immunizations through age 6. Which vaccine is needed now?",
+      "options": [
+        "No vaccines until age 18",
+        "Tdap booster",
+        "MMR only",
+        "Varicella only"
+      ],
+      "answer": "Tdap booster",
+      "rationale": "Tdap is recommended at age 11-12 (or catch-up). Also: MCV4, HPV series. Adolescents who completed DTaP through age 6 need Tdap booster. (Quizlet: ATI CMS Peds Practice A)"
+    }
+  ]
+}

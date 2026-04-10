@@ -1,0 +1,532 @@
+{
+  "id": "peds_chapter_033",
+  "name": "Pediatrics: The Child with an Emotional or Behavioral Condition",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_definition_13",
+      "slide": 13,
+      "question": "Which statement best describes Disorders?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "Depression13 Young Children School-age Children Symptoms can include Head bangin...",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Disorders: Depression13 Young Children School-age Children Symptoms can include Head banging Truancy Lying Stealing If left untreated, can lead to substance abus (Slide 13)"
+    },
+    {
+      "id": "q_definition_14",
+      "slide": 14,
+      "question": "Which statement best describes Low self?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "esteem or frustrations turn hostilities inward14",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Low self: esteem or frustrations turn hostilities inward14 (Slide 14)"
+    },
+    {
+      "id": "q_clinical_finding_3",
+      "type": "sata",
+      "slide": 3,
+      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "options": [
+        "of attention-deficit/hyperactivity disorder",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "of attention-deficit/hyperactivity disorder is a characteristic finding. Lesson 33.1 Objectives (2 of 2) Discuss behavioral therapy and how it is applied... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_8",
+      "type": "sata",
+      "slide": 8,
+      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "options": [
+        "of potential suicide in children and adolescents",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "of potential suicide in children and adolescents is a characteristic finding. Lesson 33.2 Objectives (1 of 2) Compare and contrast the characteristics of buli... (Slide 8)"
+    },
+    {
+      "id": "q_clinical_finding_13",
+      "type": "sata",
+      "slide": 13,
+      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "options": [
+        "can include Head banging Truancy Lying Stealing If left untr",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "can include Head banging Truancy Lying Stealing If left untr is a characteristic finding. Environmental or Biochemical Behavioral Disorders: Depression13 Young Children S... (Slide 13)"
+    },
+    {
+      "id": "q_clinical_finding_13",
+      "type": "sata",
+      "slide": 13,
+      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "options": [
+        "can include Loss of appetite Sleep problems Lethargy Social ",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "can include Loss of appetite Sleep problems Lethargy Social  is a characteristic finding. Environmental or Biochemical Behavioral Disorders: Depression13 Young Children S... (Slide 13)"
+    },
+    {
+      "id": "q_treatment_3",
+      "slide": 3,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "and how it is applied to obsessive-compulsive disorders and depression"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "and how it is applied to obsessive-compulsive disorders and depression. Lesson 33.1 Objectives (2 of 2) Discuss behavioral therapy and how it is applied... (Slide 3)"
+    },
+    {
+      "id": "q_treatment_13",
+      "slide": 13,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "No treatment is available",
+        "Treatment used only in adults",
+        ", can lead to substance abuse and suicide"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": ", can lead to substance abuse and suicide. Environmental or Biochemical Behavioral Disorders: Depression13 Young Children S... (Slide 13)"
+    },
+    {
+      "id": "q_risk_factor_14",
+      "slide": 14,
+      "question": "Which factor increases risk in pediatric patients?",
+      "options": [
+        "Factors only relevant in adults",
+        "Protective factors that reduce risk",
+        "Unrelated demographic information",
+        "of successful suicide increases when There is a plan of action A means"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "of successful suicide increases when There is a plan of action A means is a known risk factor. Suicide Leading cause of death in adolescence, after accidents and homicide Comp... (Slide 14)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "Atopic dermatitis (eczema) is characterized by:",
+      "options": [
+        "Linear lesions in a dermatomal pattern",
+        "Pustules and honey-colored crusts",
+        "Raised wheals that are transient",
+        "Pruritic, dry, scaly patches in flexural areas"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Atopic dermatitis: chronic, relapsing, itchy; flexural in older children; cheeks/scalp in infants. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "What is the primary treatment for eczema?",
+      "options": [
+        "Antifungals",
+        "Emollients and topical corticosteroids",
+        "Antihistamines only",
+        "Oral antibiotics"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Emollients (moisturizers) are cornerstone. Topical steroids for flares. Avoid triggers (soap, wool). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "Impetigo is caused by:",
+      "options": [
+        "Fungi",
+        "Staphylococcus aureus or Streptococcus",
+        "Herpes simplex virus",
+        "Candida"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Impetigo: bacterial (staph/strep); honey-colored crusts around nose/mouth. Highly contagious. Topical/oral antibiotics. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "Contact with poison ivy causes:",
+      "options": [
+        "Bacterial infection",
+        "Allergic contact dermatitis with linear vesicles",
+        "Fungal infection",
+        "Atopic dermatitis"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Poison ivy/oak/sumac: urushiol oil causes allergic reaction. Linear vesicles from plant contact. Wash skin immediately. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the first-line treatment for head lice?",
+      "options": [
+        "Shaving the head",
+        "Oral antibiotics",
+        "Vinegar rinse only",
+        "Permethrin 1% cream rinse"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Permethrin 1% (Nix): apply to damp hair, leave 10 min, rinse. Repeat in 7-10 days. Comb out nits. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "Scabies is caused by:",
+      "options": [
+        "Fungus",
+        "Lice",
+        "Mite Sarcoptes scabiei",
+        "Bacteria"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Scabies: mite burrows into skin \u2192 intensely itchy, especially at night. Linear burrows, papules. Permethrin cream. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "A child with a burn covering 15% of body surface area:",
+      "options": [
+        "Is minor",
+        "Requires hospitalization",
+        "Can be treated at home",
+        "Needs skin graft"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Burns >10% BSA in children require hospitalization. Assess depth (partial vs full thickness). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "What is the Rule of Nines in children?",
+      "options": [
+        "Uses palm method only",
+        "Not applicable to children",
+        "Same as adults",
+        "Modified to account for larger head and smaller legs"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Pediatric Rule of Nines: head=18%, each leg=14%, trunk=36%. Palm method for small burns. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the most important intervention for a child with a burn?",
+      "options": [
+        "Stop the burning process and ensure airway",
+        "Pop blisters",
+        "Apply ice",
+        "Apply butter"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Stop burning (remove clothing, cool water), ABCs, assess extent/depth. Do NOT apply ice or butter. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "A child with a wound that has honey-colored crusts most likely has:",
+      "options": [
+        "Impetigo",
+        "Eczema",
+        "Chickenpox",
+        "Measles"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Honey-colored crusts = impetigo (staph/strep). Highly contagious. Treat with antibiotics. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "Diaper rash (candidal) presents with:",
+      "options": [
+        "Vesicles in crops",
+        "Bright red rash with satellite lesions in skin folds",
+        "Honey-colored crusts",
+        "Dry scaly patches"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Candida diaper rash: bright red, satellite lesions. Treat with antifungal (nystatin). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "Atopic dermatitis (eczema) is associated with:",
+      "options": [
+        "Cancer",
+        "Diabetes",
+        "Asthma, allergic rhinitis (atopic triad)",
+        "Heart disease"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Atopic triad: eczema, asthma, allergic rhinitis. Family history common. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "For eczema, emollients should be applied:",
+      "options": [
+        "Immediately after bathing while skin is damp",
+        "Only when skin is dry",
+        "Never",
+        "Once per week"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Emollients: apply within 3 minutes of bathing on damp skin. Prevents water loss. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Impetigo is highly contagious. Children should:",
+      "options": [
+        "Stay home for 2 weeks",
+        "Go to school immediately",
+        "Never go to school",
+        "Stay home until 24h after antibiotics started"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Impetigo: exclude from school until 24h after antibiotics. Cover lesions. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Burn depth: partial thickness (2nd degree) involves:",
+      "options": [
+        "Epidermis only",
+        "Only the top layer of dermis",
+        "All skin layers including subcutaneous",
+        "Epidermis and part of dermis"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Partial thickness: epidermis + dermis. Blisters, pink/red, painful. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Full thickness burns (3rd degree) appear:",
+      "options": [
+        "White, leathery, painless",
+        "Only superficial",
+        "Red and blistered",
+        "Pink and painful"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Full thickness: white/charred, leathery, painless (nerve destruction). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "For a burn, cool the area with:",
+      "options": [
+        "Ice",
+        "Butter",
+        "Cool water for 10-20 minutes",
+        "Oil"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Cool water (not ice) for 10-20 min. Ice causes more tissue damage. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Sunburn prevention for children includes:",
+      "options": [
+        "No sunscreen needed",
+        "Sunscreen only at beach",
+        "Only sunscreen on face",
+        "Sunscreen SPF 30+, hats, protective clothing"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Sun protection: SPF 30+ sunscreen, reapply every 2h, hats, shade. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Seborrheic dermatitis (cradle cap) in infants:",
+      "options": [
+        "Vesicles",
+        "Scaly, greasy patches on scalp",
+        "Pustules",
+        "Linear rash"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Cradle cap: greasy yellow scales on scalp. Treat with mineral oil, brush gently. (Standard NCLEX)"
+    },
+    {
+      "id": "q_matrix_development",
+      "type": "matrix",
+      "slide": 15,
+      "question": "Match each developmental theorist with their key concept.",
+      "columns": [
+        "Erikson",
+        "Piaget",
+        "Kohlberg"
+      ],
+      "rows": [
+        {
+          "text": "Psychosocial stages (Trust vs Mistrust, etc.)",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Cognitive stages (Sensorimotor, Preoperational, etc.)",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Moral development levels (Preconventional, etc.)",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+    },
+    {
+      "id": "q_cloze_peds",
+      "type": "drag_drop_cloze",
+      "slide": 10,
+      "question": "Complete the statement about pediatric care.",
+      "cloze_text": "Pediatric nursing requires [[BLANK1]] care and consideration of [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation",
+        "medication"
+      ],
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+    },
+    {
+      "id": "q_highlight_normal",
+      "type": "highlight",
+      "slide": 25,
+      "question": "Click on the normal developmental findings.",
+      "highlight_text": "The child demonstrates age-appropriate milestones. Growth follows expected percentiles. The child engages with caregivers appropriately.",
+      "highlight_options": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "answer": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "rationale": "All are normal pediatric findings. (Slide 25)"
+    },
+    {
+      "id": "q_bowtie",
+      "type": "bowtie",
+      "slide": 30,
+      "question": "A child presents with concerning developmental findings.",
+      "left_actions": {
+        "options": [
+          "Perform developmental screening",
+          "Obtain detailed history",
+          "Ignore parental concerns",
+          "Delay assessment"
+        ],
+        "answer": [
+          "Perform developmental screening",
+          "Obtain detailed history"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Possible developmental concern requiring evaluation",
+          "Normal variation, no action needed",
+          "Immediate emergency"
+        ],
+        "answer": "Possible developmental concern requiring evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Follow-up assessments",
+          "Parent education",
+          "No follow-up needed"
+        ],
+        "answer": [
+          "Follow-up assessments",
+          "Parent education"
+        ]
+      },
+      "rationale": "Early identification and family support are key. (Slide 30)"
+    }
+  ]
+}

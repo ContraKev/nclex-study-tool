@@ -1,0 +1,367 @@
+{
+  "id": "peds_chapter_031",
+  "name": "Pediatrics: Chapter 031",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_definition_23",
+      "slide": 23,
+      "question": "Which statement best describes Blood glucose self?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "monitoring Diet therapy (glycemic index of foods and cholesterol intake) Insulin...",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Blood glucose self: monitoring Diet therapy (glycemic index of foods and cholesterol intake) Insulin management Exercise Skin care Foot care Infections Emotional upsets U (Slide 23)"
+    },
+    {
+      "id": "q_definition_23",
+      "slide": 23,
+      "question": "Which statement best describes Glucose?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "insulin imbalances Travel Follow-up care Illness or surgery"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Glucose: insulin imbalances Travel Follow-up care Illness or surgery (Slide 23)"
+    },
+    {
+      "id": "q_nursing_action_15",
+      "slide": 15,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "closely monitor blood glucose levels to avoid complications",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "closely monitor blood glucose levels to avoid complications. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+    },
+    {
+      "id": "q_nursing_action_21",
+      "slide": 21,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "be considered when developing a teaching plan For example, pork-based "
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "be considered when developing a teaching plan For example, pork-based . Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
+    },
+    {
+      "id": "q_treatment_23",
+      "slide": 23,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Treatment used only in adults",
+        "(glycemic index of foods and cholesterol intake) Insulin management Ex",
+        "Observation only without intervention"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "(glycemic index of foods and cholesterol intake) Insulin management Ex. 23 Teaching Plan for a Child with Diabetes MellitusPhysiology of the pancreas an... (Slide 23)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Treat all children the same as adults",
+        "Focus only on the child's medical diagnosis",
+        "Include family in care decisions and use age-appropriate communication",
+        "Exclude parents during procedures"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "Pain assessment in non-verbal children uses:",
+      "options": [
+        "Asking the child to describe pain",
+        "Wong-Baker FACES (if verbal)",
+        "Numeric rating scale (0-10)",
+        "FLACC scale (Face, Legs, Activity, Cry, Consolability)"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "The most reliable indicator of pain in infants is:",
+      "options": [
+        "Self-report",
+        "Vital signs",
+        "Parental report",
+        "Behavioral changes (crying, facial expression)"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "Which vital sign changes first in a deteriorating pediatric patient?",
+      "options": [
+        "Heart rate",
+        "Respiratory rate",
+        "Blood pressure",
+        "Temperature"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the correct pediatric CPR ratio?",
+      "options": [
+        "Same as adults",
+        "30:1",
+        "15:1",
+        "30:2 for single rescuer, 15:2 for two rescuers"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "The leading cause of death in children over 1 year is:",
+      "options": [
+        "Congenital anomalies",
+        "Unintentional injuries",
+        "Cancer",
+        "Infection"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Unintentional injuries (drowning, MVAs, burns) are #1 cause of death in children >1 year. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "When should car seats face rearward?",
+      "options": [
+        "Until age 4",
+        "Until age 1",
+        "Until age 8",
+        "Until age 2 or until child exceeds weight/height limits"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "AAP: rear-facing until age 2 or until exceeding car seat limits. Then forward-facing with harness. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "What is the recommended daily water intake for a 5-year-old?",
+      "options": [
+        "10 cups",
+        "Approximately 5 cups (40 oz)",
+        "Unlimited",
+        "1 cup"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Children 4-8 years: ~5 cups/day fluids. More with activity/heat. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "Which is the best way to prevent childhood obesity?",
+      "options": [
+        "Skipping meals",
+        "Weighing child weekly",
+        "Restricting all fats",
+        "Healthy diet and regular physical activity"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Prevention: balanced diet, 60 min/day physical activity, limit screen time, family meals. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "A child who is choking and cannot cough or speak needs:",
+      "options": [
+        "Nothing \u2014 wait",
+        "Back blows only",
+        "CPR",
+        "Abdominal thrusts (Heimlich)"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Choking: abdominal thrusts for conscious child >1 year. For infant: 5 back blows + 5 chest thrusts. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "The safest car seat position for infants is:",
+      "options": [
+        "Any position",
+        "Rear-facing in the back seat",
+        "Rear-facing in the front seat",
+        "Front-facing in the back seat"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Infants: rear-facing until age 2 or until exceeding car seat limits. Back seat only. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "When should children transition to a booster seat?",
+      "options": [
+        "Never",
+        "At age 12",
+        "At age 2",
+        "When they outgrow forward-facing harness (typically 4-8 years)"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Booster: when child exceeds forward-facing harness limits (~40-65 lbs). Until seat belt fits properly (usually 8-12 years). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "Drowning prevention includes:",
+      "options": [
+        "Only fencing",
+        "Only supervision",
+        "Fencing pools, close supervision, CPR training",
+        "Swim lessons only"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Drowning prevention: 4-sided fencing, constant supervision, CPR training, water safety education. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Lead poisoning prevention includes:",
+      "options": [
+        "Only screening",
+        "Nothing",
+        "Hand washing, removing paint chips, iron-rich diet",
+        "Only supplements"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Lead: hand washing, wet mopping, removing peeling paint, iron/calcium-rich diet. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Poison prevention: keep medications:",
+      "options": [
+        "On kitchen counter",
+        "Locked up and in original containers",
+        "In easy reach",
+        "In purse"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Poison prevention: locked cabinets, original containers, childproof caps, poison control number posted. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "The leading cause of death in children 1-14 years is:",
+      "options": [
+        "Congenital anomalies",
+        "Infection",
+        "Cancer",
+        "Unintentional injuries"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Unintentional injuries (MVAs, drowning, burns, poisoning) are #1 cause of death in children. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "Bike helmet use should begin:",
+      "options": [
+        "When child starts riding a bike",
+        "Never needed",
+        "At age 10",
+        "At age 5"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Bike helmet: required for all ages. Proper fit: level on head, snug straps. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Stranger danger education should be:",
+      "options": [
+        "Age-appropriate, focus on trusted adults",
+        "Not discussed",
+        "Only for girls",
+        "Scary and detailed"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Stranger safety: teach trusted adults, 'no, go, tell', never go with strangers. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Sun exposure prevention for infants:",
+      "options": [
+        "Avoid direct sun, hats, light clothing",
+        "Sunglasses only",
+        "Sunscreen only",
+        "Nothing needed"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Infants <6 months: avoid direct sun. Use hats, lightweight clothing, shade. (Standard NCLEX)"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "id": "peds_t3_peds_ch32_communicable_diseases",
+  "name": "Pediatrics: Childhood Communicable Diseases, Bioterrorism, Natural Disasters, and the Maternal-Child Patient",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_definition_4",
+      "slide": 4,
+      "question": "Which statement best describes Health care?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "associated infection\u2014an infection acquired after admission to a health care faci...",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Health care: associated infection\u2014an infection acquired after admission to a health care facility4 (Slide 4)"
+    },
+    {
+      "id": "q_nursing_action_15",
+      "slide": 15,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "include Hand hygiene Necessity of immunizations Proper food storage Us",
+        "Exclude family members from care decisions",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "include Hand hygiene Necessity of immunizations Proper food storage Us. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+    },
+    {
+      "id": "q_nursing_action_19",
+      "slide": 19,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "be available in unit where immunizations are given",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "be available in unit where immunizations are given. Family-centered, age-appropriate care is essential in pediatrics. (Slide 19)"
+    },
+    {
+      "id": "q_clinical_finding_3",
+      "type": "sata",
+      "slide": 3,
+      "question": "Which of the following are expected findings in Childhood Communicable Diseases, Bioterrorism, Natural Disasters, and the Maternal-Child Patient? (Select all that apply.)",
+      "options": [
+        "Prodromal period\u2014time between earliest symptom and appearanc",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Prodromal period\u2014time between earliest symptom and appearanc is a characteristic finding. Review of Terms (1 of 2) Communicable disease\u2014can be transmitted from one person... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_15",
+      "type": "sata",
+      "slide": 15,
+      "question": "Which of the following are expected findings in Childhood Communicable Diseases, Bioterrorism, Natural Disasters, and the Maternal-Child Patient? (Select all that apply.)",
+      "options": [
+        "Hand hygiene Necessity of immunizations Proper food storage ",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Hand hygiene Necessity of immunizations Proper food storage  is a characteristic finding. Family Education to Prevent the Spread of Infection 15 Should include Hand hygie... (Slide 15)"
+    },
+    {
+      "id": "q_treatment_19",
+      "slide": 19,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "the following vaccines if patient is allergic to Baker\u2019s yeast: Avoid ",
+        "No treatment is available",
+        "Observation only without intervention",
+        "Treatment used only in adults"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "the following vaccines if patient is allergic to Baker\u2019s yeast: Avoid . Allergies and Toxicities 19 Epinephrine should be available in unit where immuni... (Slide 19)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "What is the incubation period for measles?",
+      "options": [
+        "3-7 days",
+        "1-3 days",
+        "7-21 days",
+        "14-21 days"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Measles (rubeola): incubation 7-21 days (average 10-14). Prodrome: fever, cough, coryza, conjunctivitis. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "The characteristic rash of measles starts:",
+      "options": [
+        "On the palms and soles",
+        "On the face and spreads downward",
+        "On the trunk and spreads outward",
+        "Only on the extremities"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Measles: maculopapular rash starts on face/hairline \u2192 downward over 3 days. Koplik spots in mouth. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "Chickenpox is caused by:",
+      "options": [
+        "Varicella-zoster virus",
+        "Rubella virus",
+        "Measles virus",
+        "Streptococcus"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Varicella: highly contagious; crops of vesicles \u2192 crusts. Infectious 1-2 days before rash until all lesions crusted. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "A child with chickenpox should be isolated until:",
+      "options": [
+        "Fever resolves",
+        "All lesions have crusted over",
+        "7 days from onset",
+        "Rash appears"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Varicella isolation: until all lesions are crusted (usually 5-7 days after rash onset). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the classic sign of roseola?",
+      "options": [
+        "High fever for 3-5 days followed by rash",
+        "Strawberry tongue",
+        "Bark-like cough",
+        "Koplik spots"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Roseola (HHV-6): high fever 3-5 days, then defervescense \u2192 maculopapular rash on trunk. Common in infants. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "Fifth disease (erythema infectiosum) is caused by:",
+      "options": [
+        "Parvovirus B19",
+        "Varicella-zoster",
+        "Coxsackievirus",
+        "Rubella virus"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Fifth disease: slapped-cheek rash, lacy body rash. Parvovirus B19. Contagious before rash; no isolation needed once rash appears. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "A child with mumps presents with:",
+      "options": [
+        "Joint pain and fever",
+        "Rash and cough",
+        "Parotid gland swelling and fever",
+        "Sore throat and rash"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Mumps: parotitis (unilateral or bilateral), fever, malaise. Orchitis in postpubertal males. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "What is the MMR vaccine schedule?",
+      "options": [
+        "Only at 12 months",
+        "Birth and 6 months",
+        "12-15 months and 4-6 years",
+        "6 months and 12 months"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "MMR: first dose 12-15 months, second 4-6 years. Measles, Mumps, Rubella. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the most concerning complication of mumps in adolescent males?",
+      "options": [
+        "Orchitis leading to sterility",
+        "Meningitis",
+        "Pneumonia",
+        "Arthritis"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Mumps orchitis: testicular inflammation; may cause atrophy. Sterility is rare but concerning. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "Hand-foot-and-mouth disease is caused by:",
+      "options": [
+        "Measles virus",
+        "Herpes simplex virus",
+        "Varicella-zoster",
+        "Coxsackievirus A16 or Enterovirus 71"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "HFMD: vesicles on hands, feet, mouth (herpangina). Coxsackievirus. Supportive care. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "Measles (rubeola) is prevented by:",
+      "options": [
+        "MMR vaccine at 12-15 months and 4-6 years",
+        "Antibiotics",
+        "Only good hygiene",
+        "Varicella vaccine"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Measles: MMR vaccine. Highly contagious. Koplik spots (white spots in mouth) are pathognomonic. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "Rubella (German measles) is concerning in:",
+      "options": [
+        "Adolescents",
+        "School-age children",
+        "Pregnant women (congenital rubella syndrome)",
+        "Elderly"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Rubella in pregnancy: teratogenic \u2192 deafness, cataracts, heart defects. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "Pertussis (whooping cough) presents with:",
+      "options": [
+        "Paroxysmal cough with whoop, post-tussive vomiting",
+        "Productive cough",
+        "Barky cough",
+        "Dry cough only"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Pertussis: paroxysmal cough, inspiratory whoop, post-tussive emesis. Macrolide antibiotics. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Scarlet fever is caused by:",
+      "options": [
+        "Virus",
+        "Staphylococcus",
+        "Group A Streptococcus (erythrogenic toxin)",
+        "Fungus"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Scarlet fever: strep + erythrogenic toxin \u2192 sandpaper rash, strawberry tongue, Pastia's lines. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Scarlet fever rash is described as:",
+      "options": [
+        "Maculopapular only",
+        "Sandpaper-like, starts on trunk",
+        "Vesicular",
+        "Pustular"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Scarlet fever: sandpaper rash, starts on trunk/neck, spares face, Pastia's lines (accentuated in creases). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Varicella vaccine is given at:",
+      "options": [
+        "Only at 12 months",
+        "12-15 months and 4-6 years",
+        "Birth and 6 months",
+        "Not recommended"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Varicella (chickenpox): 2 doses \u2014 12-15 months and 4-6 years. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "A child with pertussis should be isolated for:",
+      "options": [
+        "7 days from onset",
+        "Until cough resolves",
+        "5 days after starting antibiotics",
+        "14 days"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Pertussis: isolate 5 days after antibiotics started (erythromycin/azithromycin). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Rubeola (measles) prodrome includes:",
+      "options": [
+        "Fever only",
+        "Rash only",
+        "Cough, coryza, conjunctivitis, Koplik spots",
+        "Sore throat"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Measles prodrome: 3 C's (cough, coryza, conjunctivitis) + Koplik spots. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Mumps complications include:",
+      "options": [
+        "Orchitis, meningitis, pancreatitis",
+        "No complications",
+        "Only fever",
+        "Only rash"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Mumps: parotitis, orchitis (postpubertal males), aseptic meningitis, pancreatitis. (Standard NCLEX)"
+    },
+    {
+      "id": "q_matrix_development",
+      "type": "matrix",
+      "slide": 15,
+      "question": "Match each developmental theorist with their key concept.",
+      "columns": [
+        "Erikson",
+        "Piaget",
+        "Kohlberg"
+      ],
+      "rows": [
+        {
+          "text": "Psychosocial stages (Trust vs Mistrust, etc.)",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Cognitive stages (Sensorimotor, Preoperational, etc.)",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Moral development levels (Preconventional, etc.)",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+    },
+    {
+      "id": "q_cloze_peds",
+      "type": "drag_drop_cloze",
+      "slide": 10,
+      "question": "Complete the statement about pediatric care.",
+      "cloze_text": "Pediatric nursing requires [[BLANK1]] care and consideration of [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation",
+        "medication"
+      ],
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+    },
+    {
+      "id": "q_highlight_normal",
+      "type": "highlight",
+      "slide": 25,
+      "question": "Click on the normal developmental findings.",
+      "highlight_text": "The child demonstrates age-appropriate milestones. Growth follows expected percentiles. The child engages with caregivers appropriately.",
+      "highlight_options": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "answer": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "rationale": "All are normal pediatric findings. (Slide 25)"
+    },
+    {
+      "id": "q_bowtie",
+      "type": "bowtie",
+      "slide": 30,
+      "question": "A child presents with concerning developmental findings.",
+      "left_actions": {
+        "options": [
+          "Perform developmental screening",
+          "Obtain detailed history",
+          "Ignore parental concerns",
+          "Delay assessment"
+        ],
+        "answer": [
+          "Perform developmental screening",
+          "Obtain detailed history"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Possible developmental concern requiring evaluation",
+          "Normal variation, no action needed",
+          "Immediate emergency"
+        ],
+        "answer": "Possible developmental concern requiring evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Follow-up assessments",
+          "Parent education",
+          "No follow-up needed"
+        ],
+        "answer": [
+          "Follow-up assessments",
+          "Parent education"
+        ]
+      },
+      "rationale": "Early identification and family support are key. (Slide 30)"
+    }
+  ]
+}

@@ -96,6 +96,13 @@
 | **Tissue** | Retained placenta | D&C |
 | **Thrombin** | Coagulopathy | Blood products, correct cause |
 
+**First action for abnormal bleeding: Assess fundus!**
+
+### Fundal Assessment Pearls
+- Fundus deviated to **right** = **bladder distention** → assist to void FIRST
+- Precipitous delivery = PPH risk
+- Boggy fundus → massage immediately
+
 ### Atony vs. Laceration
 | Finding | Atony | Laceration |
 |---------|-------|------------|
@@ -121,6 +128,8 @@
 | **DVT** | Deep (femoral) | Leg circumference >2cm diff, edema, pain |
 | **PE** | Pulmonary artery | Sudden chest pain, SOB, hemoptysis |
 
+**Homan's Sign**: Pain on dorsiflexion → DVT risk
+
 **Prevention**: Early ambulation, SCDs, no popliteal pressure
 
 **Anticoagulant Teaching**:
@@ -128,6 +137,10 @@
 - Report bleeding/bruising
 - Vitamin K = warfarin antidote
 - No LMWH with epidural
+
+### Methylergonovine (Methergine)
+- **Purpose**: Uterine contraction for PPH
+- **Contraindicated**: Hypertension (causes severe vasoconstriction)
 
 ### Puerperal Infection
 **Definition**: Fever ≥100.4°F (38°C) in first 24h AND ≥2 days in first 10 days
@@ -153,7 +166,14 @@
 |----------|-------|----------|----------|
 | **Blues** | Days 2-3 | Resolves by day 10 | Mild, normal |
 | **Depression** | 2-4 weeks | Weeks-months | Moderate-severe |
-| **Psychosis** | <2 weeks | **Emergency!** | Severe — delusions, hallucinations |
+| **Psychosis** | <2 weeks | **Emergency!** | Severe — delusions, hallucinations, thoughts of harming self/baby |
+
+**Postpartum Depression Teaching**: Sleep as much as possible; ask for help
+
+**Signs requiring intervention** (attachment issues):
+- Negative comments about newborn
+- Failure to identify baby's needs
+- Avoidance of eye contact with infant
 
 **Never assume "just baby blues"** — assess for persistence
 

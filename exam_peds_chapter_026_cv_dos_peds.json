@@ -1,0 +1,370 @@
+{
+  "id": "peds_chapter_026_cv_dos_peds",
+  "name": "Pediatrics: The Child with a Cardiovascular Disorder",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "q_clinical_finding_3",
+      "type": "sata",
+      "slide": 3,
+      "question": "Which of the following are expected findings in The Child with a Cardiovascular Disorder? (Select all that apply.)",
+      "options": [
+        "Related to Suspected Cardiac Pathology 3",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Related to Suspected Cardiac Pathology 3 is a characteristic finding. Signs Related to Suspected Cardiac Pathology 3... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_14",
+      "type": "sata",
+      "slide": 14,
+      "question": "Which of the following are expected findings in The Child with a Cardiovascular Disorder? (Select all that apply.)",
+      "options": [
+        "Observing for thrombosis formation Performing neurovascular ",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Observing for thrombosis formation Performing neurovascular  is a characteristic finding. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
+    },
+    {
+      "id": "q_clinical_finding_28",
+      "type": "sata",
+      "slide": 28,
+      "question": "Which of the following are expected findings in The Child with a Cardiovascular Disorder? (Select all that apply.)",
+      "options": [
+        "Low-density lipoproteins  (LDL) contain low amounts of trigl",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Low-density lipoproteins  (LDL) contain low amounts of trigl is a characteristic finding. Hyperlipidemia Refers to excess lipids (fat and fatlike substances in the blood)... (Slide 28)"
+    },
+    {
+      "id": "q_treatment_14",
+      "slide": 14,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "and Nursing Care Assorted medical and surgical treatments are currentl",
+        "No treatment is available",
+        "Observation only without intervention",
+        "Treatment used only in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "and Nursing Care Assorted medical and surgical treatments are currentl. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
+    },
+    {
+      "id": "supp_0",
+      "slide": 99,
+      "question": "What is the most common congenital heart defect?",
+      "options": [
+        "Patent ductus arteriosus",
+        "Ventricular septal defect (VSD)",
+        "Tetralogy of Fallot",
+        "Atrial septal defect"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "VSD is most common (25-30% of CHDs). Many close spontaneously. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_1",
+      "slide": 99,
+      "question": "A child with a cyanotic heart defect presents with:",
+      "options": [
+        "Pink, well-perfused skin",
+        "Yellowish skin",
+        "Pallor",
+        "Bluish skin, lips, nail beds"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Cyanotic defects (Tetralogy, Transposition): right-to-left shunt \u2192 deoxygenated blood to systemic circulation. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_2",
+      "slide": 99,
+      "question": "What is 'tet spells' in Tetralogy of Fallot?",
+      "options": [
+        "Sudden cyanotic episodes with crying or feeding",
+        "Fainting spells",
+        "Seizures",
+        "Chest pain"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Tet spells: acute cyanosis from increased R\u2192L shunting during stress. Knee-chest position, oxygen, morphine. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_3",
+      "slide": 99,
+      "question": "The nurse should place a child in knee-chest position for:",
+      "options": [
+        "Heart failure",
+        "Kawasaki disease",
+        "Rheumatic fever",
+        "Tet spells in Tetralogy of Fallot"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "Knee-chest position increases systemic vascular resistance, decreasing R\u2192L shunt during cyanotic spells. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_4",
+      "slide": 99,
+      "question": "What is the priority assessment in a child with suspected Kawasaki disease?",
+      "options": [
+        "Mucocutaneuos inflammation (strawberry tongue, rash, conjunctivitis)",
+        "Heart murmur",
+        "Blood pressure",
+        "Respiratory rate"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Kawasaki: fever \u22655 days + 4/5 criteria (rash, conjunctivitis, strawberry tongue, lymphadenopathy, extremity changes). Risk of coronary aneurysms. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_5",
+      "slide": 99,
+      "question": "Rheumatic fever is caused by:",
+      "options": [
+        "Autoimmune disorder",
+        "Viral infection",
+        "Rheumatoid arthritis",
+        "Group A Streptococcus infection"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Rheumatic fever: autoimmune response to untreated strep throat. Affects heart, joints, brain, skin. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_6",
+      "slide": 99,
+      "question": "What is the major complication of untreated strep throat?",
+      "options": [
+        "Pneumonia",
+        "Sinusitis",
+        "Rheumatic fever and glomerulonephritis",
+        "Meningitis"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Untreated GAS \u2192 rheumatic fever (heart damage) or post-streptococcal glomerulonephritis. Treat with penicillin. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_7",
+      "slide": 99,
+      "question": "A child with heart failure presents with:",
+      "options": [
+        "Tachypnea, tachycardia, hepatomegaly, poor feeding",
+        "Fever and rash",
+        "Seizures",
+        "Hypertension and bradycardia"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "HF in children: tachypnea, tachycardia, diaphoresis with feeding, hepatomegaly, weight gain (fluid). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_8",
+      "slide": 99,
+      "question": "What is the purpose of prostaglandin E1 in a newborn with duct-dependent lesion?",
+      "options": [
+        "Reduce heart rate",
+        "Close the ductus",
+        "Lower pulmonary pressure",
+        "Keep ductus arteriosus open until surgery"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "PGE1 maintains PDA patency in duct-dependent lesions (HLHS, critical PS) until surgical intervention. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_9",
+      "slide": 99,
+      "question": "Digoxin is used in pediatric heart failure to:",
+      "options": [
+        "Prevent infection",
+        "Increase cardiac contractility and slow heart rate",
+        "Dilate coronary arteries",
+        "Reduce blood pressure"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "Digoxin: positive inotrope, negative chronotrope. Monitor for toxicity (nausea, bradycardia, vision changes). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_10",
+      "slide": 99,
+      "question": "A VSD causes blood to shunt:",
+      "options": [
+        "No shunting due to high LV pressure",
+        "Left to right, increased pulmonary flow, no cyanosis",
+        "Increased left atrial pressure",
+        "Right to left, decreased pulmonary flow, cyanosis"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "VSD: L\u2192R shunt (higher LV pressure) \u2192 increased pulmonary flow, no cyanosis. Acyanotic defect. (Quizlet Cardio)"
+    },
+    {
+      "id": "supp_11",
+      "slide": 99,
+      "question": "Classic VSD finding on auscultation:",
+      "options": [
+        "Machinery-like murmur",
+        "Loud, harsh murmur with systolic thrill at left sternal border",
+        "Cyanosis when crying",
+        "BP higher in arms than legs"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "VSD: loud harsh systolic murmur + thrill at left sternal border. (Quizlet Cardio)"
+    },
+    {
+      "id": "supp_12",
+      "slide": 99,
+      "question": "Coarctation of the aorta causes BP:",
+      "options": [
+        "Only elevated in right arm",
+        "Equal in all extremities",
+        "Higher in legs than arms",
+        "Lower in legs than arms"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Coarctation: BP lower in legs (distal to narrowing) than arms (proximal). Classic sign. (Quizlet Cardio)"
+    },
+    {
+      "id": "supp_13",
+      "slide": 99,
+      "question": "Which defects cause increased pulmonary blood flow?",
+      "options": [
+        "PDA and ASD (left-to-right shunts)",
+        "Pulmonary stenosis",
+        "Coarctation of aorta",
+        "TOF and tricuspid atresia"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "PDA, ASD: L\u2192R shunts \u2192 increased pulmonary flow. TOF, tricuspid atresia: decreased flow. (Quizlet Cardio)"
+    },
+    {
+      "id": "supp_14",
+      "slide": 99,
+      "question": "Manifestations of Tetralogy of Fallot include:",
+      "options": [
+        "Polycythemia, clubbing, FTT, murmur",
+        "Hypertension, pallor",
+        "Only murmur",
+        "Normal growth"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "TOF (decreased pulmonary flow): polycythemia, clubbing, FTT, systolic murmur. (Quizlet Cardio)"
+    },
+    {
+      "id": "supp_15",
+      "slide": 99,
+      "question": "Kawasaki disease affects the:",
+      "options": [
+        "Lungs",
+        "Kidneys",
+        "Brain only",
+        "Coronary arteries (risk of aneurysms)"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "Kawasaki: vasculitis \u2192 coronary aneurysms if untreated. IVIG + aspirin. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "Rheumatic heart disease results from:",
+      "options": [
+        "Genetic defect",
+        "Viral infection",
+        "Autoimmune disease",
+        "Untreated Group A strep infection"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Rheumatic fever \u2192 heart valve damage (especially mitral). Prevent with penicillin for strep. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Signs of heart failure in infants include:",
+      "options": [
+        "Tachypnea, poor feeding, diaphoresis with feeding, hepatomegaly",
+        "Fever, rash",
+        "Cyanosis, clubbing",
+        "Hypertension, bradycardia"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "HF in infants: tachypnea, poor feeding, diaphoresis, hepatomegaly, weight gain. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Digoxin toxicity signs include:",
+      "options": [
+        "Diarrhea only",
+        "Fever, rash",
+        "Nausea, bradycardia, vision changes (yellow halos)",
+        "Tachycardia, hypertension"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Digoxin toxicity: GI (nausea, vomiting), cardiac (bradycardia), visual (halos). (Standard NCLEX)"
+    },
+    {
+      "id": "supp_19",
+      "slide": 99,
+      "question": "Acyanotic heart defects include:",
+      "options": [
+        "TOF, transposition",
+        "VSD, ASD, PDA, coarctation",
+        "Tricuspid atresia",
+        "Pulmonary atresia"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Acyanotic (L\u2192R): VSD, ASD, PDA, coarctation. Cyanotic (R\u2192L): TOF, transposition, tricuspid atresia. (Standard NCLEX)"
+    }
+  ]
+}
