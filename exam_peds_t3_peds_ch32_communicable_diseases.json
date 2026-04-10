@@ -1,6 +1,6 @@
 {
   "id": "peds_t3_peds_ch32_communicable_diseases",
-  "name": "Pediatrics: Childhood Communicable Diseases, Bioterrorism, Natural Disasters, and the Maternal-Child Patient",
+  "name": "Pediatrics: T3 PEDS CH32 Communicable Diseases",
   "type": "exam",
   "scenarios": [
     {
@@ -8,15 +8,75 @@
       "slide": 4,
       "question": "Which statement best describes Health care?",
       "options": [
+        "This only applies to adult patients, not children",
+        "associated infection—an infection acquired after admission to a health care faci...",
         "This is not a recognized term in pediatric nursing",
-        "associated infection\u2014an infection acquired after admission to a health care faci...",
-        "This is an outdated concept no longer taught",
-        "This only applies to adult patients, not children"
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. Health care: associated infection—an infection acquired after admission to a health care facility 4 (Slide 4)"
+    },
+    {
+      "id": "q_definition_10",
+      "slide": 10,
+      "question": "Which statement best describes Explain a negative?",
+      "options": [
+        "pressure room and types of diseases that require this type of precaution",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught"
       ],
       "answer": [
         0
       ],
-      "rationale": "Health care: associated infection\u2014an infection acquired after admission to a health care facility4 (Slide 4)"
+      "rationale": "The correct answer is pressure room and types of diseases that require this type of precaution. Explain a negative: pressure room and types of diseases that require this type of precaution (Slide 10)"
+    },
+    {
+      "id": "q_definition_19",
+      "slide": 19,
+      "question": "Which statement best describes Thimerosal?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "a mercury-containing preservative in some vaccines that can cause toxicity Some ...",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Thimerosal: a mercury-containing preservative in some vaccines that can cause toxicity Some vaccines can be given on the same day but must be in different syringe (Slide 19)"
+    },
+    {
+      "id": "q_definition_30",
+      "slide": 30,
+      "question": "Which statement best describes Diagnosis?",
+      "options": [
+        "CD4+ cell count is measure of damage to the immune system caused by HIV and guid...",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Diagnosis: CD4+ cell count is measure of damage to the immune system caused by HIV and guides treatment options ELISA test and Western blot test to diagnose HIV (Slide 30)"
+    },
+    {
+      "id": "q_nursing_action_3",
+      "slide": 3,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "must know and be alert to signs and symptoms of communicable disease b",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is must know and be alert to signs and symptoms of communicable disease b. must know and be alert to signs and symptoms of communicable disease b. Family-centered, age-appropriate care is essential in pediatrics. (Slide 3)"
     },
     {
       "id": "q_nursing_action_15",
@@ -29,32 +89,92 @@
         "Focus only on the child's physical symptoms"
       ],
       "answer": [
+        1
+      ],
+      "rationale": "The correct answer is include Hand hygiene Necessity of immunizations Proper food storage Us. include Hand hygiene Necessity of immunizations Proper food storage Us. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+    },
+    {
+      "id": "q_nursing_action_15",
+      "slide": 15,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "use of sandboxes in the yard === NOTES === Discuss the rationale for a",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
         3
       ],
-      "rationale": "include Hand hygiene Necessity of immunizations Proper food storage Us. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. use of sandboxes in the yard === NOTES === Discuss the rationale for a. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
     },
     {
       "id": "q_nursing_action_19",
       "slide": 19,
       "question": "When caring for pediatric patients, the nurse should:",
       "options": [
-        "be available in unit where immunizations are given",
-        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
         "Exclude family members from care decisions",
-        "Use the same approach as with adult patients"
+        "be available in unit where immunizations are given",
+        "Focus only on the child's physical symptoms"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "be available in unit where immunizations are given. Family-centered, age-appropriate care is essential in pediatrics. (Slide 19)"
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. be available in unit where immunizations are given. Family-centered, age-appropriate care is essential in pediatrics. (Slide 19)"
+    },
+    {
+      "id": "q_nursing_action_19",
+      "slide": 19,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "the child be monitored for 20 minutes after administration? Varicella ",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. the child be monitored for 20 minutes after administration? Varicella . Family-centered, age-appropriate care is essential in pediatrics. (Slide 19)"
+    },
+    {
+      "id": "q_nursing_action_19",
+      "slide": 19,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "be in different syringes and administered in different sites"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is be in different syringes and administered in different sites. be in different syringes and administered in different sites. Family-centered, age-appropriate care is essential in pediatrics. (Slide 19)"
+    },
+    {
+      "id": "q_nursing_action_29",
+      "slide": 29,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions",
+        "assist the child in formulating a positive self-attitude?",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. assist the child in formulating a positive self-attitude?. Family-centered, age-appropriate care is essential in pediatrics. (Slide 29)"
     },
     {
       "id": "q_clinical_finding_3",
       "type": "sata",
       "slide": 3,
-      "question": "Which of the following are expected findings in Childhood Communicable Diseases, Bioterrorism, Natural Disasters, and the Maternal-Child Patient? (Select all that apply.)",
+      "question": "Which of the following are expected findings in T3 PEDS CH32 Communicable Diseases? (Select all that apply.)",
       "options": [
-        "Prodromal period\u2014time between earliest symptom and appearanc",
+        "Prodromal period—time between earliest symptom and appearanc",
         "Findings opposite to what was described",
         "Signs only seen in adults",
         "Symptoms that indicate immediate emergency"
@@ -62,13 +182,29 @@
       "answer": [
         0
       ],
-      "rationale": "Prodromal period\u2014time between earliest symptom and appearanc is a characteristic finding. Review of Terms (1 of 2) Communicable disease\u2014can be transmitted from one person... (Slide 3)"
+      "rationale": "The correct answer is Prodromal period—time between earliest symptom and appearanc. Prodromal period—time between earliest symptom and appearanc is a characteristic finding. Review of Terms (1 of 2) Communicable disease—can be transmitted from one person... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_3",
+      "type": "sata",
+      "slide": 3,
+      "question": "Which of the following are expected findings in T3 PEDS CH32 Communicable Diseases? (Select all that apply.)",
+      "options": [
+        "and symptoms of communicable disease because air travel enab",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is and symptoms of communicable disease because air travel enab. and symptoms of communicable disease because air travel enab is a characteristic finding. Review of Terms (1 of 2) Communicable disease—can be transmitted from one person... (Slide 3)"
     },
     {
       "id": "q_clinical_finding_15",
       "type": "sata",
       "slide": 15,
-      "question": "Which of the following are expected findings in Childhood Communicable Diseases, Bioterrorism, Natural Disasters, and the Maternal-Child Patient? (Select all that apply.)",
+      "question": "Which of the following are expected findings in T3 PEDS CH32 Communicable Diseases? (Select all that apply.)",
       "options": [
         "Hand hygiene Necessity of immunizations Proper food storage ",
         "Findings opposite to what was described",
@@ -78,52 +214,157 @@
       "answer": [
         0
       ],
-      "rationale": "Hand hygiene Necessity of immunizations Proper food storage  is a characteristic finding. Family Education to Prevent the Spread of Infection 15 Should include Hand hygie... (Slide 15)"
+      "rationale": "The correct answer is Hand hygiene Necessity of immunizations Proper food storage . Hand hygiene Necessity of immunizations Proper food storage  is a characteristic finding. Family Education to Prevent the Spread of Infection 15 Should include Hand hygie... (Slide 15)"
+    },
+    {
+      "id": "q_treatment_8",
+      "slide": 8,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "an example of a nursing intervention that applies to each technique li",
+        "Treatment used only in adults",
+        "Observation only without intervention"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is an example of a nursing intervention that applies to each technique li. an example of a nursing intervention that applies to each technique li. Preventing the Spread of Infection 8 === NOTES === Give an example of a nursing ... (Slide 8)"
+    },
+    {
+      "id": "q_treatment_16",
+      "slide": 16,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "an example of a common skin lesion for each rash listed",
+        "No treatment is available"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is No treatment is available. an example of a common skin lesion for each rash listed. Rashes of the Skin 16 === NOTES === Give an example of a common skin lesion for ... (Slide 16)"
     },
     {
       "id": "q_treatment_19",
       "slide": 19,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "the following vaccines if patient is allergic to Baker\u2019s yeast: Avoid ",
+        "the following vaccines if patient is allergic to Baker’s yeast: Avoid ",
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "No treatment is available"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Treatment used only in adults. the following vaccines if patient is allergic to Baker’s yeast: Avoid . Allergies and Toxicities 19 Epinephrine should be available in unit where immuni... (Slide 19)"
+    },
+    {
+      "id": "q_treatment_19",
+      "slide": 19,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "n same day as MMR or no less than 1 month later",
+        "Observation only without intervention",
+        "No treatment is available"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Observation only without intervention. n same day as MMR or no less than 1 month later. Allergies and Toxicities 19 Epinephrine should be available in unit where immuni... (Slide 19)"
+    },
+    {
+      "id": "q_treatment_20",
+      "slide": 20,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
         "No treatment is available",
         "Observation only without intervention",
+        "a rationale regarding the contraindication for each item listed"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is No treatment is available. a rationale regarding the contraindication for each item listed. Contraindications to Immunizations 20 === NOTES === Give a rationale regarding t... (Slide 20)"
+    },
+    {
+      "id": "q_treatment_21",
+      "slide": 21,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "No treatment is available",
+        "Treatment used only in adults",
+        "21 === NOTES === Development of “gene gun” to blast vaccine through in"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Observation only without intervention. 21 === NOTES === Development of “gene gun” to blast vaccine through in. The Future of Immunotherapy 21 === NOTES === Development of “gene gun” to blast ... (Slide 21)"
+    },
+    {
+      "id": "q_treatment_29",
+      "slide": 29,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "an example of a nurse providing a safe, nonjudgmental environment",
+        "No treatment is available",
         "Treatment used only in adults"
       ],
       "answer": [
         2
       ],
-      "rationale": "the following vaccines if patient is allergic to Baker\u2019s yeast: Avoid . Allergies and Toxicities 19 Epinephrine should be available in unit where immuni... (Slide 19)"
+      "rationale": "The correct answer is No treatment is available. an example of a nurse providing a safe, nonjudgmental environment. Nursing Care and Responsibilities 29 === NOTES === Give an example of a nurse pr... (Slide 29)"
+    },
+    {
+      "id": "q_treatment_31",
+      "slide": 31,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "No treatment is available",
+        "Treatment used only in adults",
+        "? Give examples of resources available within a community"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is No treatment is available. ? Give examples of resources available within a community. HIV/AIDS in Children (2 of 2) 31 === NOTES === What are some examples of support... (Slide 31)"
     },
     {
       "id": "supp_0",
       "slide": 99,
       "question": "What is the incubation period for measles?",
       "options": [
-        "3-7 days",
         "1-3 days",
         "7-21 days",
-        "14-21 days"
+        "14-21 days",
+        "3-7 days"
       ],
       "answer": [
         3
       ],
-      "rationale": "Measles (rubeola): incubation 7-21 days (average 10-14). Prodrome: fever, cough, coryza, conjunctivitis. (Standard NCLEX)"
+      "rationale": "The correct answer is 3-7 days. Measles (rubeola): incubation 7-21 days (average 10-14). Prodrome: fever, cough, coryza, conjunctivitis. (Standard NCLEX)"
     },
     {
       "id": "supp_1",
       "slide": 99,
       "question": "The characteristic rash of measles starts:",
       "options": [
-        "On the palms and soles",
-        "On the face and spreads downward",
         "On the trunk and spreads outward",
-        "Only on the extremities"
+        "On the palms and soles",
+        "Only on the extremities",
+        "On the face and spreads downward"
       ],
       "answer": [
         1
       ],
-      "rationale": "Measles: maculopapular rash starts on face/hairline \u2192 downward over 3 days. Koplik spots in mouth. (Standard NCLEX)"
+      "rationale": "The correct answer is On the palms and soles. Measles: maculopapular rash starts on face/hairline → downward over 3 days. Koplik spots in mouth. (Standard NCLEX)"
     },
     {
       "id": "supp_2",
@@ -138,7 +379,7 @@
       "answer": [
         0
       ],
-      "rationale": "Varicella: highly contagious; crops of vesicles \u2192 crusts. Infectious 1-2 days before rash until all lesions crusted. (Standard NCLEX)"
+      "rationale": "The correct answer is Varicella-zoster virus. Varicella: highly contagious; crops of vesicles → crusts. Infectious 1-2 days before rash until all lesions crusted. (Standard NCLEX)"
     },
     {
       "id": "supp_3",
@@ -151,24 +392,24 @@
         "Rash appears"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "Varicella isolation: until all lesions are crusted (usually 5-7 days after rash onset). (Standard NCLEX)"
+      "rationale": "The correct answer is Rash appears. Varicella isolation: until all lesions are crusted (usually 5-7 days after rash onset). (Standard NCLEX)"
     },
     {
       "id": "supp_4",
       "slide": 99,
       "question": "What is the classic sign of roseola?",
       "options": [
-        "High fever for 3-5 days followed by rash",
-        "Strawberry tongue",
         "Bark-like cough",
-        "Koplik spots"
+        "Strawberry tongue",
+        "Koplik spots",
+        "High fever for 3-5 days followed by rash"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Roseola (HHV-6): high fever 3-5 days, then defervescense \u2192 maculopapular rash on trunk. Common in infants. (Standard NCLEX)"
+      "rationale": "The correct answer is Bark-like cough. Roseola (HHV-6): high fever 3-5 days, then defervescense → maculopapular rash on trunk. Common in infants. (Standard NCLEX)"
     },
     {
       "id": "supp_5",
@@ -176,74 +417,74 @@
       "question": "Fifth disease (erythema infectiosum) is caused by:",
       "options": [
         "Parvovirus B19",
+        "Rubella virus",
         "Varicella-zoster",
-        "Coxsackievirus",
-        "Rubella virus"
+        "Coxsackievirus"
       ],
       "answer": [
-        1
+        0
       ],
-      "rationale": "Fifth disease: slapped-cheek rash, lacy body rash. Parvovirus B19. Contagious before rash; no isolation needed once rash appears. (Standard NCLEX)"
+      "rationale": "The correct answer is Parvovirus B19. Fifth disease: slapped-cheek rash, lacy body rash. Parvovirus B19. Contagious before rash; no isolation needed once rash appears. (Standard NCLEX)"
     },
     {
       "id": "supp_6",
       "slide": 99,
       "question": "A child with mumps presents with:",
       "options": [
-        "Joint pain and fever",
         "Rash and cough",
-        "Parotid gland swelling and fever",
-        "Sore throat and rash"
+        "Sore throat and rash",
+        "Joint pain and fever",
+        "Parotid gland swelling and fever"
       ],
       "answer": [
         0
       ],
-      "rationale": "Mumps: parotitis (unilateral or bilateral), fever, malaise. Orchitis in postpubertal males. (Standard NCLEX)"
+      "rationale": "The correct answer is Rash and cough. Mumps: parotitis (unilateral or bilateral), fever, malaise. Orchitis in postpubertal males. (Standard NCLEX)"
     },
     {
       "id": "supp_7",
       "slide": 99,
       "question": "What is the MMR vaccine schedule?",
       "options": [
-        "Only at 12 months",
         "Birth and 6 months",
-        "12-15 months and 4-6 years",
-        "6 months and 12 months"
+        "Only at 12 months",
+        "6 months and 12 months",
+        "12-15 months and 4-6 years"
       ],
       "answer": [
         3
       ],
-      "rationale": "MMR: first dose 12-15 months, second 4-6 years. Measles, Mumps, Rubella. (Standard NCLEX)"
+      "rationale": "The correct answer is 12-15 months and 4-6 years. MMR: first dose 12-15 months, second 4-6 years. Measles, Mumps, Rubella. (Standard NCLEX)"
     },
     {
       "id": "supp_8",
       "slide": 99,
       "question": "What is the most concerning complication of mumps in adolescent males?",
       "options": [
-        "Orchitis leading to sterility",
-        "Meningitis",
         "Pneumonia",
+        "Meningitis",
+        "Orchitis leading to sterility",
         "Arthritis"
       ],
       "answer": [
-        3
+        1
       ],
-      "rationale": "Mumps orchitis: testicular inflammation; may cause atrophy. Sterility is rare but concerning. (Standard NCLEX)"
+      "rationale": "The correct answer is Meningitis. Mumps orchitis: testicular inflammation; may cause atrophy. Sterility is rare but concerning. (Standard NCLEX)"
     },
     {
       "id": "supp_9",
       "slide": 99,
       "question": "Hand-foot-and-mouth disease is caused by:",
       "options": [
-        "Measles virus",
         "Herpes simplex virus",
-        "Varicella-zoster",
-        "Coxsackievirus A16 or Enterovirus 71"
+        "Coxsackievirus A16 or Enterovirus 71",
+        "Measles virus",
+        "Varicella-zoster"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "HFMD: vesicles on hands, feet, mouth (herpangina). Coxsackievirus. Supportive care. (Standard NCLEX)"
+      "rationale": "The correct answer is Herpes simplex virus. HFMD: vesicles on hands, feet, mouth (herpangina). Coxsackievirus. Supportive care. (Standard NCLEX)"
     },
     {
       "id": "supp_10",
@@ -251,14 +492,14 @@
       "question": "Measles (rubeola) is prevented by:",
       "options": [
         "MMR vaccine at 12-15 months and 4-6 years",
+        "Varicella vaccine",
         "Antibiotics",
-        "Only good hygiene",
-        "Varicella vaccine"
+        "Only good hygiene"
       ],
       "answer": [
         0
       ],
-      "rationale": "Measles: MMR vaccine. Highly contagious. Koplik spots (white spots in mouth) are pathognomonic. (Standard NCLEX)"
+      "rationale": "The correct answer is MMR vaccine at 12-15 months and 4-6 years. Measles: MMR vaccine. Highly contagious. Koplik spots (white spots in mouth) are pathognomonic. (Standard NCLEX)"
     },
     {
       "id": "supp_11",
@@ -266,14 +507,14 @@
       "question": "Rubella (German measles) is concerning in:",
       "options": [
         "Adolescents",
+        "Elderly",
         "School-age children",
-        "Pregnant women (congenital rubella syndrome)",
-        "Elderly"
+        "Pregnant women (congenital rubella syndrome)"
       ],
       "answer": [
-        3
+        1
       ],
-      "rationale": "Rubella in pregnancy: teratogenic \u2192 deafness, cataracts, heart defects. (Standard NCLEX)"
+      "rationale": "The correct answer is Elderly. Rubella in pregnancy: teratogenic → deafness, cataracts, heart defects. (Standard NCLEX)"
     },
     {
       "id": "supp_12",
@@ -281,59 +522,59 @@
       "question": "Pertussis (whooping cough) presents with:",
       "options": [
         "Paroxysmal cough with whoop, post-tussive vomiting",
-        "Productive cough",
         "Barky cough",
-        "Dry cough only"
+        "Dry cough only",
+        "Productive cough"
       ],
       "answer": [
-        3
+        2
       ],
-      "rationale": "Pertussis: paroxysmal cough, inspiratory whoop, post-tussive emesis. Macrolide antibiotics. (Standard NCLEX)"
+      "rationale": "The correct answer is Dry cough only. Pertussis: paroxysmal cough, inspiratory whoop, post-tussive emesis. Macrolide antibiotics. (Standard NCLEX)"
     },
     {
       "id": "supp_13",
       "slide": 99,
       "question": "Scarlet fever is caused by:",
       "options": [
-        "Virus",
-        "Staphylococcus",
         "Group A Streptococcus (erythrogenic toxin)",
-        "Fungus"
+        "Virus",
+        "Fungus",
+        "Staphylococcus"
       ],
       "answer": [
-        2
+        1
       ],
-      "rationale": "Scarlet fever: strep + erythrogenic toxin \u2192 sandpaper rash, strawberry tongue, Pastia's lines. (Standard NCLEX)"
+      "rationale": "The correct answer is Virus. Scarlet fever: strep + erythrogenic toxin → sandpaper rash, strawberry tongue, Pastia's lines. (Standard NCLEX)"
     },
     {
       "id": "supp_14",
       "slide": 99,
       "question": "Scarlet fever rash is described as:",
       "options": [
-        "Maculopapular only",
-        "Sandpaper-like, starts on trunk",
         "Vesicular",
-        "Pustular"
+        "Sandpaper-like, starts on trunk",
+        "Pustular",
+        "Maculopapular only"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Scarlet fever: sandpaper rash, starts on trunk/neck, spares face, Pastia's lines (accentuated in creases). (Standard NCLEX)"
+      "rationale": "The correct answer is Maculopapular only. Scarlet fever: sandpaper rash, starts on trunk/neck, spares face, Pastia's lines (accentuated in creases). (Standard NCLEX)"
     },
     {
       "id": "supp_15",
       "slide": 99,
       "question": "Varicella vaccine is given at:",
       "options": [
-        "Only at 12 months",
-        "12-15 months and 4-6 years",
         "Birth and 6 months",
-        "Not recommended"
+        "Not recommended",
+        "Only at 12 months",
+        "12-15 months and 4-6 years"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Varicella (chickenpox): 2 doses \u2014 12-15 months and 4-6 years. (Standard NCLEX)"
+      "rationale": "The correct answer is Only at 12 months. Varicella (chickenpox): 2 doses — 12-15 months and 4-6 years. (Standard NCLEX)"
     },
     {
       "id": "supp_16",
@@ -342,43 +583,28 @@
       "options": [
         "7 days from onset",
         "Until cough resolves",
-        "5 days after starting antibiotics",
-        "14 days"
+        "14 days",
+        "5 days after starting antibiotics"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "Pertussis: isolate 5 days after antibiotics started (erythromycin/azithromycin). (Standard NCLEX)"
+      "rationale": "The correct answer is 5 days after starting antibiotics. Pertussis: isolate 5 days after antibiotics started (erythromycin/azithromycin). (Standard NCLEX)"
     },
     {
       "id": "supp_17",
       "slide": 99,
       "question": "Rubeola (measles) prodrome includes:",
       "options": [
-        "Fever only",
-        "Rash only",
         "Cough, coryza, conjunctivitis, Koplik spots",
-        "Sore throat"
-      ],
-      "answer": [
-        2
-      ],
-      "rationale": "Measles prodrome: 3 C's (cough, coryza, conjunctivitis) + Koplik spots. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_18",
-      "slide": 99,
-      "question": "Mumps complications include:",
-      "options": [
-        "Orchitis, meningitis, pancreatitis",
-        "No complications",
-        "Only fever",
-        "Only rash"
+        "Sore throat",
+        "Fever only",
+        "Rash only"
       ],
       "answer": [
         0
       ],
-      "rationale": "Mumps: parotitis, orchitis (postpubertal males), aseptic meningitis, pancreatitis. (Standard NCLEX)"
+      "rationale": "The correct answer is Cough, coryza, conjunctivitis, Koplik spots. Measles prodrome: 3 C's (cough, coryza, conjunctivitis) + Koplik spots. (Standard NCLEX)"
     },
     {
       "id": "q_matrix_development",
@@ -404,7 +630,7 @@
           "correct_col_idx": 2
         }
       ],
-      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+      "rationale": "The correct answer is Option 1. Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
     },
     {
       "id": "q_cloze_peds",
@@ -423,7 +649,7 @@
         "BLANK1": "age-appropriate",
         "BLANK2": "family"
       },
-      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+      "rationale": "The correct answer is Option 1. Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
     },
     {
       "id": "q_highlight_normal",
@@ -441,7 +667,7 @@
         "Growth follows expected percentiles",
         "engages with caregivers appropriately"
       ],
-      "rationale": "All are normal pediatric findings. (Slide 25)"
+      "rationale": "The correct answers are Option age-appropriate milestones1, Option Growth follows expected percentiles1, Option engages with caregivers appropriately1. All are normal pediatric findings. (Slide 25)"
     },
     {
       "id": "q_bowtie",
@@ -479,7 +705,7 @@
           "Parent education"
         ]
       },
-      "rationale": "Early identification and family support are key. (Slide 30)"
+      "rationale": "The correct answer is Option 1. Early identification and family support are key. (Slide 30)"
     }
   ]
 }

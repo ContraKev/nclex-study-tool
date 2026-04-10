@@ -1,103 +1,423 @@
-=== Chapter_030 ===
 
 === SLIDE 1 ===
-Chapter 30 The Child with a  Skin Condition Copyright © 2019, Elsevier Inc. All rights reserved.
+Chapter 30
+The Child with a 
+Skin Condition
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 2 ===
-Lesson 30.1 Objectives Define each key word listed. Recall the differences between the skin of the infant and that of the adult.  Identify common congenital skin lesions and infections. Discuss the nursing care of various microbial infections of the skin.   Copyright © 2019, Elsevier Inc. All rights reserved. 2
+Lesson 30.1Objectives
+Define each key word listed.
+Recall the differences between the skin of the infant and that of the adult. 
+Identify common congenital skin lesions and infections.
+Discuss the nursing care of various microbial infections of the skin.
+ 
+Copyright © 2019, Elsevier Inc. All rights reserved.
+2
 
 === SLIDE 3 ===
-Skin Development and Function 3 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Skin Development and Function
+
+
+3
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss how the skin protects the body from infection, disease, and harmful agents.
+
+What is the function of sebum?
+
+Along with the central nervous system, there are four basic skin sensations
+Pain
+Temperature
+Touch
+Pressure 
+Secretes sebum
+Surface of skin is acidic
+Protects from pathological microorganisms
 
 === SLIDE 4 ===
-Skin Disorders and Variations Skin condition may be a manifestation of a systemic disease; others may be congenital, Skin color is an important diagnostic criterion in certain diseases. Skin tests can be used to diagnose allergies. Hair is inspected for color, texture, quality, distribution, and elasticity. Condition of hair can change based on nutrition or disease status. Hair can change because of medications or medical treatments. Copyright © 2019, Elsevier Inc. All rights reserved. 4
+Skin Disorders and Variations
+Skin condition may be a manifestation of a systemic disease; others may be congenital,
+Skin color is an important diagnostic criterion in certain diseases.
+Skin tests can be used to diagnose allergies.
+Hair is inspected for color, texture, quality, distribution, and elasticity.
+Condition of hair can change based on nutrition or disease status.
+Hair can change because of medications or medical treatments.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+4
+
+=== NOTES ===
+Give an example of a systemic disease that manifests on the skin.
+How do the hair and skin appear if nutrition is inadequate?
+
+The nurse should describe the lesions with regard to:
+Size
+Color
+Configuration
+Presence of pain or itching
+Distribution
+Generalized or localized
+Condition of skin around lesions
+
+Managing itching is a key component in preventing secondary infection caused by scratching
+Applying skin creams and ointments as prescribed is important, not only in the treatment of skin conditions but also in the prevention of infections
+
+Stye: A stye, or hordeolum, is an inflammation of the sebaceous gland of the eyelid commonly seen in infants and children
+
+Strawberry Nevus
+Common hemangioma
+Consists of dilated capillaries in the dermal space
+Usually disappears without treatment
+May not be apparent until a few weeks after birth
+Begins flat but becomes raised, bright red, elevated, and sharply demarcated
+
+Port Wine Nevus
+Present at birth
+Caused by dilated dermal capillaries
+Lesions are flat, sharply demarcated, and purple to pink
+Different from strawberry nevus in that the lesion darkens as child gets older, it does not disappear
+
+What can be done to make it disappear?
 
 === SLIDE 5 ===
-Skin Manifestations of Illness 5 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Skin Manifestations of Illness
+
+
+5
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Butterfly Rash
+Over nose and cheeks
+Associated with photosensitivity
+May be associated with systemic lupus erythematous (SLE)
+
+Scaling Skin Eruption
+Around mouth in a horseshoe-shaped distribution
+Also seen on chin, cheeks, or as a perianal rash
+Has papules and scales
+Associated with zinc deficiency in infants, as well as diarrhea and failure to thrive
+
+Vascular Birthmark
+Resembles a bruise that changes in appearance over the years
+Hemangiomas around the chin may be associated with airway problems.
+Those appearing around the lumbar region may be associated with spinal problems.
 
 === SLIDE 6 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 6
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+6
 
 === SLIDE 7 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 7
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+7
 
 === SLIDE 8 ===
-Lesson 30.2 Objectives 8 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Lesson 30.2Objectives
+
+
+8
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 9 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 9
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+9
 
 === SLIDE 10 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 10
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+10
 
 === SLIDE 11 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 11
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+11
 
 === SLIDE 12 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 12
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+12
 
 === SLIDE 13 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 13
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+13
 
 === SLIDE 14 ===
-Infantile Eczema 14 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Infantile Eczema
+
+14
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+What is the reason for the occurrence of increased incidence during the winter months?
+
+Lesions are easily infected by bacterial or viral agents.
+Infants and children with eczema should not be exposed to adults with cold sores because they may develop a systemic reaction with high fever and multiple vesicles on the eczematous skin.
+May flare up after immunizations
+Lab studies show increased IgE and eosinophil levels.
+Discuss the pathophysiology regarding a flare-up of eczema after administration of immunizations.
+
+Treatment of Infantile Eczema
+Aimed at relieving pruritus, hydrating the skin, relieving inflammation, and preventing infection
+Emollient bath, such as a mixture of cornstarch and baking soda or oatmeal, is sometimes ordered
+Bath oil helps keep skin moist and should be added to bath after the child has soaked for a while and skin is hydrated; the oil will help hold the moisture in the skin
+Medications
+Corticosteroids
+Antibiotics
+Anti-itching medications
+
+Food Allergies
+Discuss guidelines based on 2015 LEAP report
+Treatment with topical ointments
 
 === SLIDE 15 ===
-Parent Teaching 15 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Parent Teaching
+
+15
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 16 ===
-Staphylococcal  Infection 16 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Staphylococcal Infection
+
+
+16
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Give examples of how staphylococcus is spread from one infant to another.
+Discuss actions that need to be implemented and followed to prevent the spread of infection.
 
 === SLIDE 17 ===
-Scalded Skin Syndrome 17 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Scalded Skin Syndrome
+
+17
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss why the use of disposable individual equipment is important in the prevention of infection on the nursing unit or clinic setting.
 
 === SLIDE 18 ===
-Impetigo Caused by staphylococci or group A beta-hemolytic streptococci Bullous form seen in infants usually staphylococcal Nonbullous form seen in children and young adults Newborns susceptible because resistance to skin bacteria is low Very contagious Treatment is either oral or parenteral antibiotics 18 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Impetigo
+
+Caused by staphylococci or group A beta-hemolytic streptococci
+Bullous form seen in infants usually staphylococcal
+Nonbullous form seen in children and young adults
+Newborns susceptible because resistance to skin bacteria is low
+Very contagious
+Treatment is either oral or parenteral antibiotics
+
+
+18
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss the treatment options for impetigo.
+Refer to Figure 30-12 (p. 708) in the textbook.
 
 === SLIDE 19 ===
-Fungal Infections Copyright © 2019, Elsevier Inc. All rights reserved. 19
+Fungal Infections
+Copyright © 2019, Elsevier Inc. All rights reserved.
+19
+
+=== NOTES ===
+Discuss Figure 30-13 (p. 708) in the textbook. 
+What precautions should the nurse take when caring for a patient with a fungal infection?
 
 === SLIDE 20 ===
-Pediculosis Three types Pediculosis capitis—head lice Pediculosis corporis—body lice Pediculosis pubis—pubic lice, known as  crabs Survival of lice depends on blood extracted from infected person. 20 Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA This Photo  by Unknown Author is licensed under  CC BY-SA-NC
+
+Pediculosis
+
+Three types
+Pediculosis capitis—head lice
+Pediculosis corporis—body lice
+Pediculosis pubis—pubic lice, known as crabs
+Survival of lice depends on blood extracted from infected person.
+
+20
+Copyright © 2019, Elsevier Inc. All rights reserved.
+This Photo by Unknown Author is licensed under CC BY-SA
+This Photo by Unknown Author is licensed under CC BY-SA-NC
+
+=== NOTES ===
+How is pediculosis treated?
+Refer to Figure 30-14 (p. 709) in the textbook.
+
+Hair Thinning-traction Alopecia
+Discuss causes and preventions.
 
 === SLIDE 21 ===
-Scabies 21 Copyright © 2019, Elsevier Inc. All rights reserved.
+Scabies
+21
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 22 ===
-Lesson 30.3 Objectives  22 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+Lesson 30.3Objectives 
+
+22
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 23 ===
-Burns Copyright © 2019, Elsevier Inc. All rights reserved. 23
+Burns
+Copyright © 2019, Elsevier Inc. All rights reserved.
+23
+
+=== NOTES ===
+Give an example of situations that result in a thermal, chemical, electrical, or radiation burn.
+
+Leading cause of accidental death between 1 and 4 years of age
+Sometimes result of child abuse or neglect
+Most likely to occur in early morning in house before parents awaken and after school
+Discuss the reason for the increased incidence of burns in children ages 1 to 4 years.
+
+Can involve skin or mucous membranes
+If burned near face, flames may have been inhaled.
+Assessing for patent airway is a priority.
 
 === SLIDE 24 ===
-Children’s Response to Burns Copyright © 2019, Elsevier Inc. All rights reserved. 24
+Children’s Response to Burns
+Copyright © 2019, Elsevier Inc. All rights reserved.
+24
+
+=== NOTES ===
+Smaller muscle and fat content in the body results in protein and caloric deficiencies when oral intake is limited.
+Skin more elastic, causing pulling on the scarring areas and resulting in formation of a larger scar.
+Immature immune system predisposes child to developing infections that complicate burn treatment.
+Prolonged immobilization and treatment are required for burns adversely affects growth and development.
 
 === SLIDE 25 ===
-Types of Burns  Copyright © 2019, Elsevier Inc. All rights reserved. 25
+Types of Burns 
+Copyright © 2019, Elsevier Inc. All rights reserved.
+25
+
+=== NOTES ===
+Give an example of a moderate versus a major burn.
 
 === SLIDE 26 ===
-The 6 Cs of Burn Care 26 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+The 6 Cs of Burn Care
+
+26
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 27 ===
-Electrical Burn 27 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Electrical Burn
+
+
+27
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 28 ===
-Emergency Care of Burns Copyright © 2019, Elsevier Inc. All rights reserved. 28
+Emergency Care of Burns
+Copyright © 2019, Elsevier Inc. All rights reserved.
+28
+
+=== NOTES ===
+How do you stop the burning process?
+Discuss the assessment process of a burn injury.
+Give examples of various materials which might be appropriate to apply to a burn.
 
 === SLIDE 29 ===
-Emergency Care  Copyright © 2019, Elsevier Inc. All rights reserved. 29
+Emergency Care 
+Copyright © 2019, Elsevier Inc. All rights reserved.
+29
+
+=== NOTES ===
+Discuss the importance of maintaining an open airway in all emergencies.
+Describe endotracheal intubation.
 
 === SLIDE 30 ===
-Wound Care 30 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Wound Care
+
+
+30
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+What is the rationale for cleansing and débriding wounds?
 
 === SLIDE 31 ===
-Nursing Care 31 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Nursing Care
+
+31
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss the rationale for isolation and sterile procedures.
+What is the importance of granulated tissue in the healing process?
+
+Immediately report signs of infections
+Observe for fluid overload.
+Burn victims have an increased demand on metabolism and require high-protein diet; additional vitamins and minerals may also be required.
+Prevention of contractures is important.
+Providing emotional support to the child and family is essential.
+Give examples of signs and symptoms to report immediately.
+Discuss the pathophysiology regarding the increased metabolic rate of burn victims.
+What nursing interventions can prevent contractures?
 
 === SLIDE 32 ===
-Sunburn Common skin injury caused by overexposure to sun Can be minor epidermal burn to serious partial-thickness burn with blisters Goal of treatment Stop exposure. Treat inflammation. Rehydrate skin. 32 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Sunburn
+
+Common skin injury caused by overexposure to sun
+Can be minor epidermal burn to serious partial-thickness burn with blisters
+Goal of treatment
+Stop exposure.
+Treat inflammation.
+Rehydrate skin.
+
+32
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 33 ===
-Sunscreen and Sunblock 33 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+Sunscreen and Sunblock
+
+33
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss differences between physical sunscreens and chemical sunscreens.
+What factors should be considered when purchasing sunglasses?
 
 === SLIDE 34 ===
-Frostbite 34 Results from freezing of a body part Chilblain: a cold injury with erythema and formation of vesicles and ulcerative lesions that occur as a result of vasoconstriction In exposure to extreme cold, warmth is lost in the periphery of the body before the core temperature drops. In extreme cases, the head and torso should be warmed before the extremities to ensure survival. A deep purple flush appears with the return of sensation, which is accompanied by extreme pain. Can result in necrosis and may require amputation of the affected extremity Copyright © 2019, Elsevier Inc. All rights reserved.
+
+Frostbite
+
+
+34
+Results from freezing of a body part
+Chilblain: a cold injury with erythema and formation of vesicles and ulcerative lesions that occur as a result of vasoconstriction
+In exposure to extreme cold, warmth is lost in the periphery of the body before the core temperature drops.
+In extreme cases, the head and torso should be warmed before the extremities to ensure survival.
+A deep purple flush appears with the return of sensation, which is accompanied by extreme pain.
+Can result in necrosis and may require amputation of the affected extremity
+Copyright © 2019, Elsevier Inc. All rights reserved.

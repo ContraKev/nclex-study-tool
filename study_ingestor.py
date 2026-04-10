@@ -90,10 +90,20 @@ class StudyIngestor:
                     text = f.read()
             elif ext == '.pptx':
                 prs = Presentation(file_path)
-                for slide in prs.slides:
+                for i, slide in enumerate(prs.slides, 1):
+                    text += f"\n=== SLIDE {i} ===\n"
+                    # Main slide content
                     for shape in slide.shapes:
                         if hasattr(shape, "text"):
                             text += shape.text + "\n"
+                    # Speaker Notes (if any)
+                    try:
+                        if slide.notes_slide and slide.notes_slide.notes_text_frame:
+                            notes = slide.notes_slide.notes_text_frame.text.strip()
+                            if notes:
+                                text += f"\n=== NOTES ===\n{notes}\n"
+                    except Exception:
+                        pass  # No notes or inaccessible
             elif ext == '.pdf':
                 reader = PdfReader(file_path)
                 for page in reader.pages:

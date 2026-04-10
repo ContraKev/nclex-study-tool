@@ -1,13 +1,103 @@
 {
   "id": "peds_chapter_026_cv_dos_peds",
-  "name": "Pediatrics: The Child with a Cardiovascular Disorder",
+  "name": "Pediatrics: Chapter 026 CV DOs peds",
   "type": "exam",
   "scenarios": [
+    {
+      "id": "q_definition_23",
+      "slide": 23,
+      "question": "Which statement best describes Criteria?",
+      "options": [
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "Major and minor criteria Describe each of these criteria",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Criteria: Major and minor criteria Describe each of these criteria (Slide 23)"
+    },
+    {
+      "id": "q_definition_23",
+      "slide": 23,
+      "question": "Which statement best describes Jones criteria are?",
+      "options": [
+        "Joints: polyarthritis O: (imagine the heart is an “O”): carditis Nodules (subcut...",
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Jones criteria are: Joints: polyarthritis O: (imagine the heart is an “O”): carditis Nodules (subcutaneous) Erythema marginatum Sydenham chorea (St (Slide 23)"
+    },
+    {
+      "id": "q_definition_28",
+      "slide": 28,
+      "question": "Which statement best describes Promotion?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "Heart-Healthy Guidelines for Children in the textbook"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Promotion: Heart-Healthy Guidelines for Children in the textbook (Slide 28)"
+    },
+    {
+      "id": "q_nursing_action_13",
+      "slide": 13,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "a pathway for oxygenated blood to the general body system",
+        "Exclude family members from care decisions",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. a pathway for oxygenated blood to the general body system. Family-centered, age-appropriate care is essential in pediatrics. (Slide 13)"
+    },
+    {
+      "id": "q_nursing_action_28",
+      "slide": 28,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "be followed closely and offered nutritional guidance"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is be followed closely and offered nutritional guidance. be followed closely and offered nutritional guidance. Family-centered, age-appropriate care is essential in pediatrics. (Slide 28)"
+    },
+    {
+      "id": "q_nursing_action_28",
+      "slide": 28,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "not have a fat-restricted diet because calories and fat are necessary ",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Use the same approach as with adult patients. not have a fat-restricted diet because calories and fat are necessary . Family-centered, age-appropriate care is essential in pediatrics. (Slide 28)"
+    },
     {
       "id": "q_clinical_finding_3",
       "type": "sata",
       "slide": 3,
-      "question": "Which of the following are expected findings in The Child with a Cardiovascular Disorder? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 026 CV DOs peds? (Select all that apply.)",
       "options": [
         "Related to Suspected Cardiac Pathology 3",
         "Findings opposite to what was described",
@@ -17,13 +107,29 @@
       "answer": [
         0
       ],
-      "rationale": "Related to Suspected Cardiac Pathology 3 is a characteristic finding. Signs Related to Suspected Cardiac Pathology 3... (Slide 3)"
+      "rationale": "The correct answer is Related to Suspected Cardiac Pathology 3. Related to Suspected Cardiac Pathology 3 is a characteristic finding. Signs Related to Suspected Cardiac Pathology 3... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_13",
+      "type": "sata",
+      "slide": 13,
+      "question": "Which of the following are expected findings in Chapter 026 CV DOs peds? (Select all that apply.)",
+      "options": [
+        "include A grayish-blue color of the skin and mucous membrane",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is include A grayish-blue color of the skin and mucous membrane. include A grayish-blue color of the skin and mucous membrane is a characteristic finding. Defects that Cause Mixed Pathology 13 Hypoplastic left heart syndrome Underdevel... (Slide 13)"
     },
     {
       "id": "q_clinical_finding_14",
       "type": "sata",
       "slide": 14,
-      "question": "Which of the following are expected findings in The Child with a Cardiovascular Disorder? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 026 CV DOs peds? (Select all that apply.)",
       "options": [
         "Observing for thrombosis formation Performing neurovascular ",
         "Findings opposite to what was described",
@@ -33,15 +139,15 @@
       "answer": [
         0
       ],
-      "rationale": "Observing for thrombosis formation Performing neurovascular  is a characteristic finding. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
+      "rationale": "The correct answer is Observing for thrombosis formation Performing neurovascular . Observing for thrombosis formation Performing neurovascular  is a characteristic finding. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
     },
     {
       "id": "q_clinical_finding_28",
       "type": "sata",
       "slide": 28,
-      "question": "Which of the following are expected findings in The Child with a Cardiovascular Disorder? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 026 CV DOs peds? (Select all that apply.)",
       "options": [
-        "Low-density lipoproteins  (LDL) contain low amounts of trigl",
+        "Low-density lipoproteins (LDL) contain low amounts of trigly",
         "Findings opposite to what was described",
         "Signs only seen in adults",
         "Symptoms that indicate immediate emergency"
@@ -49,112 +155,204 @@
       "answer": [
         0
       ],
-      "rationale": "Low-density lipoproteins  (LDL) contain low amounts of trigl is a characteristic finding. Hyperlipidemia Refers to excess lipids (fat and fatlike substances in the blood)... (Slide 28)"
+      "rationale": "The correct answer is Low-density lipoproteins (LDL) contain low amounts of trigly. Low-density lipoproteins (LDL) contain low amounts of trigly is a characteristic finding. Hyperlipidemia Refers to excess lipids (fat and fatlike substances in the blood)... (Slide 28)"
+    },
+    {
+      "id": "q_clinical_finding_29",
+      "type": "sata",
+      "slide": 29,
+      "question": "Which of the following are expected findings in Chapter 026 CV DOs peds? (Select all that apply.)",
+      "options": [
+        "of cardiac problems What are some cardiac complications?",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of cardiac problems What are some cardiac complications?. of cardiac problems What are some cardiac complications? is a characteristic finding. Kawasaki Disease (KD) (1 of 2) 29 === NOTES === Describe fissured lips and straw... (Slide 29)"
+    },
+    {
+      "id": "q_clinical_finding_30",
+      "type": "sata",
+      "slide": 30,
+      "question": "Which of the following are expected findings in Chapter 026 CV DOs peds? (Select all that apply.)",
+      "options": [
+        "atic and supportive measures for this disorder? Discuss the ",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is atic and supportive measures for this disorder? Discuss the . atic and supportive measures for this disorder? Discuss the  is a characteristic finding. Kawasaki Disease (KD) (2 of 2) 30 === NOTES === What are some symptomatic and su... (Slide 30)"
+    },
+    {
+      "id": "q_treatment_7",
+      "slide": 7,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "No treatment is available",
+        "examples of locations of lesions for the listed defects"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is Observation only without intervention. examples of locations of lesions for the listed defects. Congenital Heart Disease (4 of 5) 7 This Photo by Unknown Author is licensed und... (Slide 7)"
     },
     {
       "id": "q_treatment_14",
       "slide": 14,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "and Nursing Care Assorted medical and surgical treatments are currentl",
         "No treatment is available",
-        "Observation only without intervention",
-        "Treatment used only in adults"
+        "and Nursing Care Assorted medical and surgical treatments are currentl",
+        "Treatment used only in adults",
+        "Observation only without intervention"
       ],
       "answer": [
-        0
+        1
       ],
-      "rationale": "and Nursing Care Assorted medical and surgical treatments are currentl. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
+      "rationale": "The correct answer is and Nursing Care Assorted medical and surgical treatments are currentl. and Nursing Care Assorted medical and surgical treatments are currentl. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
+    },
+    {
+      "id": "q_treatment_15",
+      "slide": 15,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "and Nursing Care 15 === NOTES === Discuss alternative physical activit"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Treatment used only in adults. and Nursing Care 15 === NOTES === Discuss alternative physical activit. Parent Teaching on General Treatment and Nursing Care 15 === NOTES === Discuss a... (Slide 15)"
+    },
+    {
+      "id": "q_treatment_20",
+      "slide": 20,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "20 === NOTES === Discuss methods to reduce the risk of infection",
+        "No treatment is available"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is Observation only without intervention. 20 === NOTES === Discuss methods to reduce the risk of infection. CHF Goals of Treatment 20 === NOTES === Discuss methods to reduce the risk of in... (Slide 20)"
+    },
+    {
+      "id": "q_treatment_27",
+      "slide": 27,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "examples of nutrition and weight reduction counseling",
+        "No treatment is available",
+        "Observation only without intervention"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is No treatment is available. examples of nutrition and weight reduction counseling. 27 Systemic Hypertension (2 of 2) === NOTES === Give examples of nutrition and w... (Slide 27)"
     },
     {
       "id": "supp_0",
       "slide": 99,
       "question": "What is the most common congenital heart defect?",
       "options": [
-        "Patent ductus arteriosus",
-        "Ventricular septal defect (VSD)",
         "Tetralogy of Fallot",
-        "Atrial septal defect"
+        "Ventricular septal defect (VSD)",
+        "Atrial septal defect",
+        "Patent ductus arteriosus"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "VSD is most common (25-30% of CHDs). Many close spontaneously. (Standard NCLEX)"
+      "rationale": "The correct answer is Atrial septal defect. VSD is most common (25-30% of CHDs). Many close spontaneously. (Standard NCLEX)"
     },
     {
       "id": "supp_1",
       "slide": 99,
       "question": "A child with a cyanotic heart defect presents with:",
       "options": [
-        "Pink, well-perfused skin",
-        "Yellowish skin",
         "Pallor",
-        "Bluish skin, lips, nail beds"
+        "Bluish skin, lips, nail beds",
+        "Pink, well-perfused skin",
+        "Yellowish skin"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "Cyanotic defects (Tetralogy, Transposition): right-to-left shunt \u2192 deoxygenated blood to systemic circulation. (Standard NCLEX)"
+      "rationale": "The correct answer is Pallor. Cyanotic defects (Tetralogy, Transposition): right-to-left shunt → deoxygenated blood to systemic circulation. (Standard NCLEX)"
     },
     {
       "id": "supp_2",
       "slide": 99,
       "question": "What is 'tet spells' in Tetralogy of Fallot?",
       "options": [
-        "Sudden cyanotic episodes with crying or feeding",
-        "Fainting spells",
         "Seizures",
+        "Fainting spells",
+        "Sudden cyanotic episodes with crying or feeding",
         "Chest pain"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Tet spells: acute cyanosis from increased R\u2192L shunting during stress. Knee-chest position, oxygen, morphine. (Standard NCLEX)"
+      "rationale": "The correct answer is Sudden cyanotic episodes with crying or feeding. Tet spells: acute cyanosis from increased R→L shunting during stress. Knee-chest position, oxygen, morphine. (Standard NCLEX)"
     },
     {
       "id": "supp_3",
       "slide": 99,
       "question": "The nurse should place a child in knee-chest position for:",
       "options": [
-        "Heart failure",
-        "Kawasaki disease",
+        "Tet spells in Tetralogy of Fallot",
         "Rheumatic fever",
-        "Tet spells in Tetralogy of Fallot"
+        "Heart failure",
+        "Kawasaki disease"
       ],
       "answer": [
         2
       ],
-      "rationale": "Knee-chest position increases systemic vascular resistance, decreasing R\u2192L shunt during cyanotic spells. (Standard NCLEX)"
+      "rationale": "The correct answer is Heart failure. Knee-chest position increases systemic vascular resistance, decreasing R→L shunt during cyanotic spells. (Standard NCLEX)"
     },
     {
       "id": "supp_4",
       "slide": 99,
       "question": "What is the priority assessment in a child with suspected Kawasaki disease?",
       "options": [
+        "Respiratory rate",
         "Mucocutaneuos inflammation (strawberry tongue, rash, conjunctivitis)",
-        "Heart murmur",
         "Blood pressure",
-        "Respiratory rate"
+        "Heart murmur"
       ],
       "answer": [
         3
       ],
-      "rationale": "Kawasaki: fever \u22655 days + 4/5 criteria (rash, conjunctivitis, strawberry tongue, lymphadenopathy, extremity changes). Risk of coronary aneurysms. (Standard NCLEX)"
+      "rationale": "The correct answer is Heart murmur. Kawasaki: fever ≥5 days + 4/5 criteria (rash, conjunctivitis, strawberry tongue, lymphadenopathy, extremity changes). Risk of coronary aneurysms. (Standard NCLEX)"
     },
     {
       "id": "supp_5",
       "slide": 99,
       "question": "Rheumatic fever is caused by:",
       "options": [
-        "Autoimmune disorder",
-        "Viral infection",
         "Rheumatoid arthritis",
+        "Viral infection",
+        "Autoimmune disorder",
         "Group A Streptococcus infection"
       ],
       "answer": [
-        3
+        2
       ],
-      "rationale": "Rheumatic fever: autoimmune response to untreated strep throat. Affects heart, joints, brain, skin. (Standard NCLEX)"
+      "rationale": "The correct answer is Autoimmune disorder. Rheumatic fever: autoimmune response to untreated strep throat. Affects heart, joints, brain, skin. (Standard NCLEX)"
     },
     {
       "id": "supp_6",
@@ -162,89 +360,89 @@
       "question": "What is the major complication of untreated strep throat?",
       "options": [
         "Pneumonia",
-        "Sinusitis",
+        "Meningitis",
         "Rheumatic fever and glomerulonephritis",
-        "Meningitis"
+        "Sinusitis"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Untreated GAS \u2192 rheumatic fever (heart damage) or post-streptococcal glomerulonephritis. Treat with penicillin. (Standard NCLEX)"
+      "rationale": "The correct answer is Rheumatic fever and glomerulonephritis. Untreated GAS → rheumatic fever (heart damage) or post-streptococcal glomerulonephritis. Treat with penicillin. (Standard NCLEX)"
     },
     {
       "id": "supp_7",
       "slide": 99,
       "question": "A child with heart failure presents with:",
       "options": [
-        "Tachypnea, tachycardia, hepatomegaly, poor feeding",
+        "Hypertension and bradycardia",
         "Fever and rash",
-        "Seizures",
-        "Hypertension and bradycardia"
+        "Tachypnea, tachycardia, hepatomegaly, poor feeding",
+        "Seizures"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "HF in children: tachypnea, tachycardia, diaphoresis with feeding, hepatomegaly, weight gain (fluid). (Standard NCLEX)"
+      "rationale": "The correct answer is Tachypnea, tachycardia, hepatomegaly, poor feeding. HF in children: tachypnea, tachycardia, diaphoresis with feeding, hepatomegaly, weight gain (fluid). (Standard NCLEX)"
     },
     {
       "id": "supp_8",
       "slide": 99,
       "question": "What is the purpose of prostaglandin E1 in a newborn with duct-dependent lesion?",
       "options": [
-        "Reduce heart rate",
         "Close the ductus",
+        "Reduce heart rate",
         "Lower pulmonary pressure",
         "Keep ductus arteriosus open until surgery"
       ],
       "answer": [
         2
       ],
-      "rationale": "PGE1 maintains PDA patency in duct-dependent lesions (HLHS, critical PS) until surgical intervention. (Standard NCLEX)"
+      "rationale": "The correct answer is Lower pulmonary pressure. PGE1 maintains PDA patency in duct-dependent lesions (HLHS, critical PS) until surgical intervention. (Standard NCLEX)"
     },
     {
       "id": "supp_9",
       "slide": 99,
       "question": "Digoxin is used in pediatric heart failure to:",
       "options": [
+        "Reduce blood pressure",
         "Prevent infection",
         "Increase cardiac contractility and slow heart rate",
-        "Dilate coronary arteries",
-        "Reduce blood pressure"
+        "Dilate coronary arteries"
       ],
       "answer": [
         3
       ],
-      "rationale": "Digoxin: positive inotrope, negative chronotrope. Monitor for toxicity (nausea, bradycardia, vision changes). (Standard NCLEX)"
+      "rationale": "The correct answer is Dilate coronary arteries. Digoxin: positive inotrope, negative chronotrope. Monitor for toxicity (nausea, bradycardia, vision changes). (Standard NCLEX)"
     },
     {
       "id": "supp_10",
       "slide": 99,
       "question": "A VSD causes blood to shunt:",
       "options": [
-        "No shunting due to high LV pressure",
         "Left to right, increased pulmonary flow, no cyanosis",
+        "Right to left, decreased pulmonary flow, cyanosis",
         "Increased left atrial pressure",
-        "Right to left, decreased pulmonary flow, cyanosis"
+        "No shunting due to high LV pressure"
       ],
       "answer": [
-        0
+        1
       ],
-      "rationale": "VSD: L\u2192R shunt (higher LV pressure) \u2192 increased pulmonary flow, no cyanosis. Acyanotic defect. (Quizlet Cardio)"
+      "rationale": "The correct answer is Right to left, decreased pulmonary flow, cyanosis. VSD: L→R shunt (higher LV pressure) → increased pulmonary flow, no cyanosis. Acyanotic defect. (Quizlet Cardio)"
     },
     {
       "id": "supp_11",
       "slide": 99,
       "question": "Classic VSD finding on auscultation:",
       "options": [
-        "Machinery-like murmur",
-        "Loud, harsh murmur with systolic thrill at left sternal border",
+        "BP higher in arms than legs",
         "Cyanosis when crying",
-        "BP higher in arms than legs"
+        "Loud, harsh murmur with systolic thrill at left sternal border",
+        "Machinery-like murmur"
       ],
       "answer": [
         1
       ],
-      "rationale": "VSD: loud harsh systolic murmur + thrill at left sternal border. (Quizlet Cardio)"
+      "rationale": "The correct answer is Cyanosis when crying. VSD: loud harsh systolic murmur + thrill at left sternal border. (Quizlet Cardio)"
     },
     {
       "id": "supp_12",
@@ -252,44 +450,44 @@
       "question": "Coarctation of the aorta causes BP:",
       "options": [
         "Only elevated in right arm",
+        "Lower in legs than arms",
         "Equal in all extremities",
-        "Higher in legs than arms",
-        "Lower in legs than arms"
+        "Higher in legs than arms"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Coarctation: BP lower in legs (distal to narrowing) than arms (proximal). Classic sign. (Quizlet Cardio)"
+      "rationale": "The correct answer is Equal in all extremities. Coarctation: BP lower in legs (distal to narrowing) than arms (proximal). Classic sign. (Quizlet Cardio)"
     },
     {
       "id": "supp_13",
       "slide": 99,
       "question": "Which defects cause increased pulmonary blood flow?",
       "options": [
+        "TOF and tricuspid atresia",
         "PDA and ASD (left-to-right shunts)",
-        "Pulmonary stenosis",
         "Coarctation of aorta",
-        "TOF and tricuspid atresia"
+        "Pulmonary stenosis"
       ],
       "answer": [
-        1
+        0
       ],
-      "rationale": "PDA, ASD: L\u2192R shunts \u2192 increased pulmonary flow. TOF, tricuspid atresia: decreased flow. (Quizlet Cardio)"
+      "rationale": "The correct answer is TOF and tricuspid atresia. PDA, ASD: L→R shunts → increased pulmonary flow. TOF, tricuspid atresia: decreased flow. (Quizlet Cardio)"
     },
     {
       "id": "supp_14",
       "slide": 99,
       "question": "Manifestations of Tetralogy of Fallot include:",
       "options": [
-        "Polycythemia, clubbing, FTT, murmur",
         "Hypertension, pallor",
-        "Only murmur",
-        "Normal growth"
+        "Normal growth",
+        "Polycythemia, clubbing, FTT, murmur",
+        "Only murmur"
       ],
       "answer": [
-        2
+        1
       ],
-      "rationale": "TOF (decreased pulmonary flow): polycythemia, clubbing, FTT, systolic murmur. (Quizlet Cardio)"
+      "rationale": "The correct answer is Normal growth. TOF (decreased pulmonary flow): polycythemia, clubbing, FTT, systolic murmur. (Quizlet Cardio)"
     },
     {
       "id": "supp_15",
@@ -297,44 +495,44 @@
       "question": "Kawasaki disease affects the:",
       "options": [
         "Lungs",
+        "Coronary arteries (risk of aneurysms)",
         "Kidneys",
-        "Brain only",
-        "Coronary arteries (risk of aneurysms)"
+        "Brain only"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "Kawasaki: vasculitis \u2192 coronary aneurysms if untreated. IVIG + aspirin. (Standard NCLEX)"
+      "rationale": "The correct answer is Brain only. Kawasaki: vasculitis → coronary aneurysms if untreated. IVIG + aspirin. (Standard NCLEX)"
     },
     {
       "id": "supp_16",
       "slide": 99,
       "question": "Rheumatic heart disease results from:",
       "options": [
-        "Genetic defect",
-        "Viral infection",
         "Autoimmune disease",
+        "Viral infection",
+        "Genetic defect",
         "Untreated Group A strep infection"
       ],
       "answer": [
         0
       ],
-      "rationale": "Rheumatic fever \u2192 heart valve damage (especially mitral). Prevent with penicillin for strep. (Standard NCLEX)"
+      "rationale": "The correct answer is Autoimmune disease. Rheumatic fever → heart valve damage (especially mitral). Prevent with penicillin for strep. (Standard NCLEX)"
     },
     {
       "id": "supp_17",
       "slide": 99,
       "question": "Signs of heart failure in infants include:",
       "options": [
-        "Tachypnea, poor feeding, diaphoresis with feeding, hepatomegaly",
-        "Fever, rash",
         "Cyanosis, clubbing",
-        "Hypertension, bradycardia"
+        "Hypertension, bradycardia",
+        "Fever, rash",
+        "Tachypnea, poor feeding, diaphoresis with feeding, hepatomegaly"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "HF in infants: tachypnea, poor feeding, diaphoresis, hepatomegaly, weight gain. (Standard NCLEX)"
+      "rationale": "The correct answer is Tachypnea, poor feeding, diaphoresis with feeding, hepatomegaly. HF in infants: tachypnea, poor feeding, diaphoresis, hepatomegaly, weight gain. (Standard NCLEX)"
     },
     {
       "id": "supp_18",
@@ -342,29 +540,130 @@
       "question": "Digoxin toxicity signs include:",
       "options": [
         "Diarrhea only",
-        "Fever, rash",
         "Nausea, bradycardia, vision changes (yellow halos)",
+        "Fever, rash",
         "Tachycardia, hypertension"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Digoxin toxicity: GI (nausea, vomiting), cardiac (bradycardia), visual (halos). (Standard NCLEX)"
+      "rationale": "The correct answer is Fever, rash. Digoxin toxicity: GI (nausea, vomiting), cardiac (bradycardia), visual (halos). (Standard NCLEX)"
     },
     {
       "id": "supp_19",
       "slide": 99,
       "question": "Acyanotic heart defects include:",
       "options": [
-        "TOF, transposition",
+        "Pulmonary atresia",
         "VSD, ASD, PDA, coarctation",
         "Tricuspid atresia",
-        "Pulmonary atresia"
+        "TOF, transposition"
       ],
       "answer": [
-        0
+        1
       ],
-      "rationale": "Acyanotic (L\u2192R): VSD, ASD, PDA, coarctation. Cyanotic (R\u2192L): TOF, transposition, tricuspid atresia. (Standard NCLEX)"
+      "rationale": "The correct answer is VSD, ASD, PDA, coarctation. Acyanotic (L→R): VSD, ASD, PDA, coarctation. Cyanotic (R→L): TOF, transposition, tricuspid atresia. (Standard NCLEX)"
+    },
+    {
+      "id": "q_matrix_development",
+      "type": "matrix",
+      "slide": 15,
+      "question": "Match each developmental theorist with their key concept.",
+      "columns": [
+        "Erikson",
+        "Piaget",
+        "Kohlberg"
+      ],
+      "rows": [
+        {
+          "text": "Psychosocial stages (Trust vs Mistrust, etc.)",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Cognitive stages (Sensorimotor, Preoperational, etc.)",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Moral development levels (Preconventional, etc.)",
+          "correct_col_idx": 2
+        }
+      ],
+      "rationale": "The correct answer is Option 1. Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+    },
+    {
+      "id": "q_cloze_peds",
+      "type": "drag_drop_cloze",
+      "slide": 10,
+      "question": "Complete the statement about pediatric care.",
+      "cloze_text": "Pediatric nursing requires [[BLANK1]] care and consideration of [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation",
+        "medication"
+      ],
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "The correct answer is Option 1. Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+    },
+    {
+      "id": "q_highlight_normal",
+      "type": "highlight",
+      "slide": 25,
+      "question": "Click on the normal developmental findings.",
+      "highlight_text": "The child demonstrates age-appropriate milestones. Growth follows expected percentiles. The child engages with caregivers appropriately.",
+      "highlight_options": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "answer": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
+      ],
+      "rationale": "The correct answers are Option age-appropriate milestones1, Option Growth follows expected percentiles1, Option engages with caregivers appropriately1. All are normal pediatric findings. (Slide 25)"
+    },
+    {
+      "id": "q_bowtie",
+      "type": "bowtie",
+      "slide": 30,
+      "question": "A child presents with concerning developmental findings.",
+      "left_actions": {
+        "options": [
+          "Perform developmental screening",
+          "Obtain detailed history",
+          "Ignore parental concerns",
+          "Delay assessment"
+        ],
+        "answer": [
+          "Perform developmental screening",
+          "Obtain detailed history"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Possible developmental concern requiring evaluation",
+          "Normal variation, no action needed",
+          "Immediate emergency"
+        ],
+        "answer": "Possible developmental concern requiring evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Follow-up assessments",
+          "Parent education",
+          "No follow-up needed"
+        ],
+        "answer": [
+          "Follow-up assessments",
+          "Parent education"
+        ]
+      },
+      "rationale": "The correct answer is Option 1. Early identification and family support are key. (Slide 30)"
     }
   ]
 }

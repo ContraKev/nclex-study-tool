@@ -1,43 +1,178 @@
 {
   "id": "peds_chapter_033",
-  "name": "Pediatrics: The Child with an Emotional or Behavioral Condition",
+  "name": "Pediatrics: Chapter 033",
   "type": "exam",
   "scenarios": [
+    {
+      "id": "q_definition_6",
+      "slide": 6,
+      "question": "Which statement best describes Obsessive?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "Compulsive Disorders in Children May be related to depression May start as early..."
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is Compulsive Disorders in Children May be related to depression May start as early.... Obsessive: Compulsive Disorders in Children May be related to depression May start as early as 4 years of age and progress to interfering with daily functioning (Slide 6)"
+    },
+    {
+      "id": "q_definition_7",
+      "slide": 7,
+      "question": "Which statement best describes May have above?",
+      "options": [
+        "average intelligence Problem may be Receptive language Expressive language Infor...",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. May have above: average intelligence Problem may be Receptive language Expressive language Information processing Memory Motor coordination Orientation Behavior Scree (Slide 7)"
+    },
+    {
+      "id": "q_definition_7",
+      "slide": 7,
+      "question": "Which statement best describes School?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "Related Skills May have Dyslexia Dysgraphia Problem expressing themselves",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. School: Related Skills May have Dyslexia Dysgraphia Problem expressing themselves (Slide 7)"
+    },
+    {
+      "id": "q_definition_10",
+      "slide": 10,
+      "question": "Which statement best describes Have a low self?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
+        "esteem On physical examination, may find Dry skin Amenorrhea Lanugo hair over th..."
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is esteem On physical examination, may find Dry skin Amenorrhea Lanugo hair over th.... Have a low self: esteem On physical examination, may find Dry skin Amenorrhea Lanugo hair over the back and extremities Cold intolerance Low blood pressure Abdominal p (Slide 10)"
+    },
+    {
+      "id": "q_definition_10",
+      "slide": 10,
+      "question": "Which statement best describes Low self?",
+      "options": [
+        "This only applies to adult patients, not children",
+        "esteem Depression Socialization with peers diminishes Mealtimes are a battlegrou...",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. Low self: esteem Depression Socialization with peers diminishes Mealtimes are a battleground Body image becomes increasingly disturbed Lack of self-identity (Slide 10)"
+    },
+    {
+      "id": "q_definition_12",
+      "slide": 12,
+      "question": "Which statement best describes Mother?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "daughter relationship usually distant or strained Nursing Role Educate Prevent I...",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. Mother: daughter relationship usually distant or strained Nursing Role Educate Prevent Identify Refer Give examples of how the nurse might influence the preve (Slide 12)"
+    },
     {
       "id": "q_definition_13",
       "slide": 13,
       "question": "Which statement best describes Disorders?",
       "options": [
         "This is not a recognized term in pediatric nursing",
-        "Depression13 Young Children School-age Children Symptoms can include Head bangin...",
-        "This is an outdated concept no longer taught",
-        "This only applies to adult patients, not children"
+        "Depression 13 === NOTES === Depression A prolonged behavioral change from baseli...",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught"
       ],
       "answer": [
         0
       ],
-      "rationale": "Disorders: Depression13 Young Children School-age Children Symptoms can include Head banging Truancy Lying Stealing If left untreated, can lead to substance abus (Slide 13)"
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. Disorders: Depression 13 === NOTES === Depression A prolonged behavioral change from baseline that interferes with school, family life, or age-specific activitie (Slide 13)"
     },
     {
       "id": "q_definition_14",
       "slide": 14,
       "question": "Which statement best describes Low self?",
       "options": [
-        "This is an outdated concept no longer taught",
-        "esteem or frustrations turn hostilities inward14",
         "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
+        "esteem or frustrations turn hostilities inward 14 === NOTES === Discuss the plan...",
         "This is not a recognized term in pediatric nursing"
       ],
       "answer": [
-        0
+        1
       ],
-      "rationale": "Low self: esteem or frustrations turn hostilities inward14 (Slide 14)"
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Low self: esteem or frustrations turn hostilities inward 14 === NOTES === Discuss the plan and means for a plan (Slide 14)"
+    },
+    {
+      "id": "q_nursing_action_4",
+      "slide": 4,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "Types of Interventions Individual Family therapy Behavior modification",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Types of Interventions Individual Family therapy Behavior modification. Types of Interventions Individual Family therapy Behavior modification. Family-centered, age-appropriate care is essential in pediatrics. (Slide 4)"
+    },
+    {
+      "id": "q_nursing_action_18",
+      "slide": 18,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "provide expectant parents? Discuss how positive self-esteem can be dev",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. provide expectant parents? Discuss how positive self-esteem can be dev. Family-centered, age-appropriate care is essential in pediatrics. (Slide 18)"
+    },
+    {
+      "id": "q_nursing_action_21",
+      "slide": 21,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "support? Most siblings of children with emotional disorders either suf",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Exclude family members from care decisions. support? Most siblings of children with emotional disorders either suf. Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
     },
     {
       "id": "q_clinical_finding_3",
       "type": "sata",
       "slide": 3,
-      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 033? (Select all that apply.)",
       "options": [
         "of attention-deficit/hyperactivity disorder",
         "Findings opposite to what was described",
@@ -47,13 +182,13 @@
       "answer": [
         0
       ],
-      "rationale": "of attention-deficit/hyperactivity disorder is a characteristic finding. Lesson 33.1 Objectives (2 of 2) Discuss behavioral therapy and how it is applied... (Slide 3)"
+      "rationale": "The correct answer is of attention-deficit/hyperactivity disorder. of attention-deficit/hyperactivity disorder is a characteristic finding. Lesson 33.1\u000bObjectives (2 of 2) Discuss behavioral therapy and how it is applied... (Slide 3)"
     },
     {
       "id": "q_clinical_finding_8",
       "type": "sata",
       "slide": 8,
-      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 033? (Select all that apply.)",
       "options": [
         "of potential suicide in children and adolescents",
         "Findings opposite to what was described",
@@ -63,15 +198,15 @@
       "answer": [
         0
       ],
-      "rationale": "of potential suicide in children and adolescents is a characteristic finding. Lesson 33.2 Objectives (1 of 2) Compare and contrast the characteristics of buli... (Slide 8)"
+      "rationale": "The correct answer is of potential suicide in children and adolescents. of potential suicide in children and adolescents is a characteristic finding. Lesson 33.2\u000bObjectives (1 of 2) Compare and contrast the characteristics of buli... (Slide 8)"
     },
     {
-      "id": "q_clinical_finding_13",
+      "id": "q_clinical_finding_11",
       "type": "sata",
-      "slide": 13,
-      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "slide": 11,
+      "question": "Which of the following are expected findings in Chapter 033? (Select all that apply.)",
       "options": [
-        "can include Head banging Truancy Lying Stealing If left untr",
+        "Gastritis Cardiac arrhythmias Inflammation of the intestines",
         "Findings opposite to what was described",
         "Signs only seen in adults",
         "Symptoms that indicate immediate emergency"
@@ -79,15 +214,15 @@
       "answer": [
         0
       ],
-      "rationale": "can include Head banging Truancy Lying Stealing If left untr is a characteristic finding. Environmental or Biochemical Behavioral Disorders: Depression13 Young Children S... (Slide 13)"
+      "rationale": "The correct answer is Gastritis Cardiac arrhythmias Inflammation of the intestines. Gastritis Cardiac arrhythmias Inflammation of the intestines is a characteristic finding. Anorexia Nervosa (2 of 2) 11 === NOTES === Discuss electrolytes and the rational... (Slide 11)"
     },
     {
       "id": "q_clinical_finding_13",
       "type": "sata",
       "slide": 13,
-      "question": "Which of the following are expected findings in The Child with an Emotional or Behavioral Condition? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 033? (Select all that apply.)",
       "options": [
-        "can include Loss of appetite Sleep problems Lethargy Social ",
+        "Initiating referrals Educating parents and school personnel ",
         "Findings opposite to what was described",
         "Signs only seen in adults",
         "Symptoms that indicate immediate emergency"
@@ -95,337 +230,383 @@
       "answer": [
         0
       ],
-      "rationale": "can include Loss of appetite Sleep problems Lethargy Social  is a characteristic finding. Environmental or Biochemical Behavioral Disorders: Depression13 Young Children S... (Slide 13)"
+      "rationale": "The correct answer is Initiating referrals Educating parents and school personnel . Initiating referrals Educating parents and school personnel  is a characteristic finding. Environmental or Biochemical Behavioral Disorders: Depression 13 === NOTES === D... (Slide 13)"
+    },
+    {
+      "id": "q_clinical_finding_17",
+      "type": "sata",
+      "slide": 17,
+      "question": "Which of the following are expected findings in Chapter 033? (Select all that apply.)",
+      "options": [
+        "and symptoms to assess for abuse of these products",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is and symptoms to assess for abuse of these products. and symptoms to assess for abuse of these products is a characteristic finding. Substance Abuse (3 of 4) 17 === NOTES === How are these products abused? Discuss... (Slide 17)"
     },
     {
       "id": "q_treatment_3",
       "slide": 3,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
+        "and how it is applied to obsessive-compulsive disorders and depression",
         "No treatment is available",
-        "Treatment used only in adults",
         "Observation only without intervention",
-        "and how it is applied to obsessive-compulsive disorders and depression"
+        "Treatment used only in adults"
       ],
       "answer": [
-        2
+        1
       ],
-      "rationale": "and how it is applied to obsessive-compulsive disorders and depression. Lesson 33.1 Objectives (2 of 2) Discuss behavioral therapy and how it is applied... (Slide 3)"
+      "rationale": "The correct answer is No treatment is available. and how it is applied to obsessive-compulsive disorders and depression. Lesson 33.1\u000bObjectives (2 of 2) Discuss behavioral therapy and how it is applied... (Slide 3)"
     },
     {
-      "id": "q_treatment_13",
-      "slide": 13,
+      "id": "q_treatment_4",
+      "slide": 4,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Behavior modification Milieu therapy Art therapy Play therapy Recreati",
+        "No treatment is available",
+        "Observation only without intervention",
+        "Treatment used only in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Behavior modification Milieu therapy Art therapy Play therapy Recreati. Behavior modification Milieu therapy Art therapy Play therapy Recreati. The Nurse’s Role 4 === NOTES === Multidisciplinary Services National Alliance fo... (Slide 4)"
+    },
+    {
+      "id": "q_treatment_7",
+      "slide": 7,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "Observation only without intervention",
+        "an example of a situation in which a child is exhibiting ADHD",
+        "Treatment used only in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is No treatment is available. an example of a situation in which a child is exhibiting ADHD. Attention Deficit Hyperactivity Disorder (ADHD) 7 === NOTES === Give an example ... (Slide 7)"
+    },
+    {
+      "id": "q_treatment_11",
+      "slide": 11,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "No treatment is available",
+        "? What is the rationale for medication? Prognosis Gaining weight while"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is ? What is the rationale for medication? Prognosis Gaining weight while. ? What is the rationale for medication? Prognosis Gaining weight while. Anorexia Nervosa (2 of 2) 11 === NOTES === Discuss electrolytes and the rational... (Slide 11)"
+    },
+    {
+      "id": "q_treatment_12",
+      "slide": 12,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "Observation only without intervention",
+        "examples of a typical day of eating and purging for a person with buli",
+        "No treatment is available"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Treatment used only in adults. examples of a typical day of eating and purging for a person with buli. Bulimia 12 === NOTES === Give examples of a typical day of eating and purging fo... (Slide 12)"
+    },
+    {
+      "id": "q_treatment_16",
+      "slide": 16,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
         "Observation only without intervention",
         "No treatment is available",
-        "Treatment used only in adults",
-        ", can lead to substance abuse and suicide"
+        "an example of antisocial behavior when crack is abused",
+        "Treatment used only in adults"
       ],
       "answer": [
-        2
+        1
       ],
-      "rationale": ", can lead to substance abuse and suicide. Environmental or Biochemical Behavioral Disorders: Depression13 Young Children S... (Slide 13)"
+      "rationale": "The correct answer is No treatment is available. an example of antisocial behavior when crack is abused. Substance Abuse (2 of 4) 16 === NOTES === Discuss how different cultures accept ... (Slide 16)"
     },
     {
-      "id": "q_risk_factor_14",
-      "slide": 14,
-      "question": "Which factor increases risk in pediatric patients?",
+      "id": "q_treatment_20",
+      "slide": 20,
+      "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "Factors only relevant in adults",
-        "Protective factors that reduce risk",
-        "Unrelated demographic information",
-        "of successful suicide increases when There is a plan of action A means"
+        "an example of a problem and a referral for the child",
+        "Treatment used only in adults",
+        "No treatment is available",
+        "Observation only without intervention"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "of successful suicide increases when There is a plan of action A means is a known risk factor. Suicide Leading cause of death in adolescence, after accidents and homicide Comp... (Slide 14)"
+      "rationale": "The correct answer is an example of a problem and a referral for the child. an example of a problem and a referral for the child. Minimizing the Impact of Behavioral Disorders in Children After the source of th... (Slide 20)"
     },
     {
       "id": "supp_0",
       "slide": 99,
-      "question": "Atopic dermatitis (eczema) is characterized by:",
+      "question": "When caring for pediatric patients, the nurse should:",
       "options": [
-        "Linear lesions in a dermatomal pattern",
-        "Pustules and honey-colored crusts",
-        "Raised wheals that are transient",
-        "Pruritic, dry, scaly patches in flexural areas"
+        "Include family in care decisions and use age-appropriate communication",
+        "Exclude parents during procedures",
+        "Focus only on the child's medical diagnosis",
+        "Treat all children the same as adults"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Atopic dermatitis: chronic, relapsing, itchy; flexural in older children; cheeks/scalp in infants. (Standard NCLEX)"
+      "rationale": "The correct answer is Include family in care decisions and use age-appropriate communication. Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
     },
     {
       "id": "supp_1",
       "slide": 99,
-      "question": "What is the primary treatment for eczema?",
+      "question": "Pain assessment in non-verbal children uses:",
       "options": [
-        "Antifungals",
-        "Emollients and topical corticosteroids",
-        "Antihistamines only",
-        "Oral antibiotics"
+        "Asking the child to describe pain",
+        "Numeric rating scale (0-10)",
+        "FLACC scale (Face, Legs, Activity, Cry, Consolability)",
+        "Wong-Baker FACES (if verbal)"
       ],
       "answer": [
         1
       ],
-      "rationale": "Emollients (moisturizers) are cornerstone. Topical steroids for flares. Avoid triggers (soap, wool). (Standard NCLEX)"
+      "rationale": "The correct answer is Numeric rating scale (0-10). FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
     },
     {
       "id": "supp_2",
       "slide": 99,
-      "question": "Impetigo is caused by:",
+      "question": "The most reliable indicator of pain in infants is:",
       "options": [
-        "Fungi",
-        "Staphylococcus aureus or Streptococcus",
-        "Herpes simplex virus",
-        "Candida"
+        "Self-report",
+        "Behavioral changes (crying, facial expression)",
+        "Vital signs",
+        "Parental report"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Impetigo: bacterial (staph/strep); honey-colored crusts around nose/mouth. Highly contagious. Topical/oral antibiotics. (Standard NCLEX)"
+      "rationale": "The correct answer is Parental report. Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
     },
     {
       "id": "supp_3",
       "slide": 99,
-      "question": "Contact with poison ivy causes:",
+      "question": "Which vital sign changes first in a deteriorating pediatric patient?",
       "options": [
-        "Bacterial infection",
-        "Allergic contact dermatitis with linear vesicles",
-        "Fungal infection",
-        "Atopic dermatitis"
+        "Heart rate",
+        "Temperature",
+        "Blood pressure",
+        "Respiratory rate"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Poison ivy/oak/sumac: urushiol oil causes allergic reaction. Linear vesicles from plant contact. Wash skin immediately. (Standard NCLEX)"
+      "rationale": "The correct answer is Blood pressure. Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
     },
     {
       "id": "supp_4",
       "slide": 99,
-      "question": "What is the first-line treatment for head lice?",
+      "question": "What is the correct pediatric CPR ratio?",
       "options": [
-        "Shaving the head",
-        "Oral antibiotics",
-        "Vinegar rinse only",
-        "Permethrin 1% cream rinse"
+        "15:1",
+        "30:2 for single rescuer, 15:2 for two rescuers",
+        "Same as adults",
+        "30:1"
       ],
       "answer": [
-        2
+        3
       ],
-      "rationale": "Permethrin 1% (Nix): apply to damp hair, leave 10 min, rinse. Repeat in 7-10 days. Comb out nits. (Standard NCLEX)"
+      "rationale": "The correct answer is 30:1. Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
     },
     {
       "id": "supp_5",
       "slide": 99,
-      "question": "Scabies is caused by:",
+      "question": "The leading cause of death in children over 1 year is:",
       "options": [
-        "Fungus",
-        "Lice",
-        "Mite Sarcoptes scabiei",
-        "Bacteria"
+        "Infection",
+        "Unintentional injuries",
+        "Cancer",
+        "Congenital anomalies"
       ],
       "answer": [
-        2
+        1
       ],
-      "rationale": "Scabies: mite burrows into skin \u2192 intensely itchy, especially at night. Linear burrows, papules. Permethrin cream. (Standard NCLEX)"
+      "rationale": "The correct answer is Unintentional injuries. Unintentional injuries (drowning, MVAs, burns) are #1 cause of death in children >1 year. (Standard NCLEX)"
     },
     {
       "id": "supp_6",
       "slide": 99,
-      "question": "A child with a burn covering 15% of body surface area:",
+      "question": "When should car seats face rearward?",
       "options": [
-        "Is minor",
-        "Requires hospitalization",
-        "Can be treated at home",
-        "Needs skin graft"
+        "Until age 1",
+        "Until age 4",
+        "Until age 2 or until child exceeds weight/height limits",
+        "Until age 8"
       ],
       "answer": [
         3
       ],
-      "rationale": "Burns >10% BSA in children require hospitalization. Assess depth (partial vs full thickness). (Standard NCLEX)"
+      "rationale": "The correct answer is Until age 8. AAP: rear-facing until age 2 or until exceeding car seat limits. Then forward-facing with harness. (Standard NCLEX)"
     },
     {
       "id": "supp_7",
       "slide": 99,
-      "question": "What is the Rule of Nines in children?",
+      "question": "What is the recommended daily water intake for a 5-year-old?",
       "options": [
-        "Uses palm method only",
-        "Not applicable to children",
-        "Same as adults",
-        "Modified to account for larger head and smaller legs"
+        "10 cups",
+        "Approximately 5 cups (40 oz)",
+        "1 cup",
+        "Unlimited"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "Pediatric Rule of Nines: head=18%, each leg=14%, trunk=36%. Palm method for small burns. (Standard NCLEX)"
+      "rationale": "The correct answer is Unlimited. Children 4-8 years: ~5 cups/day fluids. More with activity/heat. (Standard NCLEX)"
     },
     {
       "id": "supp_8",
       "slide": 99,
-      "question": "What is the most important intervention for a child with a burn?",
+      "question": "Which is the best way to prevent childhood obesity?",
       "options": [
-        "Stop the burning process and ensure airway",
-        "Pop blisters",
-        "Apply ice",
-        "Apply butter"
+        "Skipping meals",
+        "Healthy diet and regular physical activity",
+        "Weighing child weekly",
+        "Restricting all fats"
       ],
       "answer": [
-        3
+        1
       ],
-      "rationale": "Stop burning (remove clothing, cool water), ABCs, assess extent/depth. Do NOT apply ice or butter. (Standard NCLEX)"
+      "rationale": "The correct answer is Healthy diet and regular physical activity. Prevention: balanced diet, 60 min/day physical activity, limit screen time, family meals. (Standard NCLEX)"
     },
     {
       "id": "supp_9",
       "slide": 99,
-      "question": "A child with a wound that has honey-colored crusts most likely has:",
+      "question": "A child who is choking and cannot cough or speak needs:",
       "options": [
-        "Impetigo",
-        "Eczema",
-        "Chickenpox",
-        "Measles"
+        "Back blows only",
+        "Abdominal thrusts (Heimlich)",
+        "CPR",
+        "Nothing — wait"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "Honey-colored crusts = impetigo (staph/strep). Highly contagious. Treat with antibiotics. (Standard NCLEX)"
+      "rationale": "The correct answer is Nothing — wait. Choking: abdominal thrusts for conscious child >1 year. For infant: 5 back blows + 5 chest thrusts. (Standard NCLEX)"
     },
     {
       "id": "supp_10",
       "slide": 99,
-      "question": "Diaper rash (candidal) presents with:",
+      "question": "The safest car seat position for infants is:",
       "options": [
-        "Vesicles in crops",
-        "Bright red rash with satellite lesions in skin folds",
-        "Honey-colored crusts",
-        "Dry scaly patches"
+        "Any position",
+        "Rear-facing in the front seat",
+        "Front-facing in the back seat",
+        "Rear-facing in the back seat"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Candida diaper rash: bright red, satellite lesions. Treat with antifungal (nystatin). (Standard NCLEX)"
+      "rationale": "The correct answer is Any position. Infants: rear-facing until age 2 or until exceeding car seat limits. Back seat only. (Standard NCLEX)"
     },
     {
       "id": "supp_11",
       "slide": 99,
-      "question": "Atopic dermatitis (eczema) is associated with:",
+      "question": "When should children transition to a booster seat?",
       "options": [
-        "Cancer",
-        "Diabetes",
-        "Asthma, allergic rhinitis (atopic triad)",
-        "Heart disease"
+        "At age 12",
+        "At age 2",
+        "Never",
+        "When they outgrow forward-facing harness (typically 4-8 years)"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Atopic triad: eczema, asthma, allergic rhinitis. Family history common. (Standard NCLEX)"
+      "rationale": "The correct answer is When they outgrow forward-facing harness (typically 4-8 years). Booster: when child exceeds forward-facing harness limits (~40-65 lbs). Until seat belt fits properly (usually 8-12 years). (Standard NCLEX)"
     },
     {
       "id": "supp_12",
       "slide": 99,
-      "question": "For eczema, emollients should be applied:",
+      "question": "Drowning prevention includes:",
       "options": [
-        "Immediately after bathing while skin is damp",
-        "Only when skin is dry",
-        "Never",
-        "Once per week"
+        "Swim lessons only",
+        "Only fencing",
+        "Only supervision",
+        "Fencing pools, close supervision, CPR training"
       ],
       "answer": [
-        1
+        2
       ],
-      "rationale": "Emollients: apply within 3 minutes of bathing on damp skin. Prevents water loss. (Standard NCLEX)"
+      "rationale": "The correct answer is Only supervision. Drowning prevention: 4-sided fencing, constant supervision, CPR training, water safety education. (Standard NCLEX)"
     },
     {
       "id": "supp_13",
       "slide": 99,
-      "question": "Impetigo is highly contagious. Children should:",
+      "question": "Lead poisoning prevention includes:",
       "options": [
-        "Stay home for 2 weeks",
-        "Go to school immediately",
-        "Never go to school",
-        "Stay home until 24h after antibiotics started"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Impetigo: exclude from school until 24h after antibiotics. Cover lesions. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_14",
-      "slide": 99,
-      "question": "Burn depth: partial thickness (2nd degree) involves:",
-      "options": [
-        "Epidermis only",
-        "Only the top layer of dermis",
-        "All skin layers including subcutaneous",
-        "Epidermis and part of dermis"
-      ],
-      "answer": [
-        3
-      ],
-      "rationale": "Partial thickness: epidermis + dermis. Blisters, pink/red, painful. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_15",
-      "slide": 99,
-      "question": "Full thickness burns (3rd degree) appear:",
-      "options": [
-        "White, leathery, painless",
-        "Only superficial",
-        "Red and blistered",
-        "Pink and painful"
+        "Only supplements",
+        "Hand washing, removing paint chips, iron-rich diet",
+        "Nothing",
+        "Only screening"
       ],
       "answer": [
         1
       ],
-      "rationale": "Full thickness: white/charred, leathery, painless (nerve destruction). (Standard NCLEX)"
+      "rationale": "The correct answer is Hand washing, removing paint chips, iron-rich diet. Lead: hand washing, wet mopping, removing peeling paint, iron/calcium-rich diet. (Standard NCLEX)"
     },
     {
-      "id": "supp_16",
+      "id": "supp_14",
       "slide": 99,
-      "question": "For a burn, cool the area with:",
+      "question": "Poison prevention: keep medications:",
       "options": [
-        "Ice",
-        "Butter",
-        "Cool water for 10-20 minutes",
-        "Oil"
+        "On kitchen counter",
+        "In easy reach",
+        "In purse",
+        "Locked up and in original containers"
       ],
       "answer": [
         3
       ],
-      "rationale": "Cool water (not ice) for 10-20 min. Ice causes more tissue damage. (Standard NCLEX)"
+      "rationale": "The correct answer is Locked up and in original containers. Poison prevention: locked cabinets, original containers, childproof caps, poison control number posted. (Standard NCLEX)"
     },
     {
-      "id": "supp_17",
+      "id": "supp_15",
       "slide": 99,
-      "question": "Sunburn prevention for children includes:",
+      "question": "The leading cause of death in children 1-14 years is:",
       "options": [
-        "No sunscreen needed",
-        "Sunscreen only at beach",
-        "Only sunscreen on face",
-        "Sunscreen SPF 30+, hats, protective clothing"
+        "Infection",
+        "Cancer",
+        "Unintentional injuries",
+        "Congenital anomalies"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Sun protection: SPF 30+ sunscreen, reapply every 2h, hats, shade. (Standard NCLEX)"
+      "rationale": "The correct answer is Congenital anomalies. Unintentional injuries (MVAs, drowning, burns, poisoning) are #1 cause of death in children. (Standard NCLEX)"
     },
     {
-      "id": "supp_18",
+      "id": "supp_16",
       "slide": 99,
-      "question": "Seborrheic dermatitis (cradle cap) in infants:",
+      "question": "Bike helmet use should begin:",
       "options": [
-        "Vesicles",
-        "Scaly, greasy patches on scalp",
-        "Pustules",
-        "Linear rash"
+        "At age 10",
+        "When child starts riding a bike",
+        "Never needed",
+        "At age 5"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Cradle cap: greasy yellow scales on scalp. Treat with mineral oil, brush gently. (Standard NCLEX)"
+      "rationale": "The correct answer is At age 5. Bike helmet: required for all ages. Proper fit: level on head, snug straps. (Standard NCLEX)"
     },
     {
       "id": "q_matrix_development",
@@ -451,7 +632,7 @@
           "correct_col_idx": 2
         }
       ],
-      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+      "rationale": "The correct answer is Option 1. Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
     },
     {
       "id": "q_cloze_peds",
@@ -470,7 +651,7 @@
         "BLANK1": "age-appropriate",
         "BLANK2": "family"
       },
-      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+      "rationale": "The correct answer is Option 1. Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
     },
     {
       "id": "q_highlight_normal",
@@ -488,7 +669,7 @@
         "Growth follows expected percentiles",
         "engages with caregivers appropriately"
       ],
-      "rationale": "All are normal pediatric findings. (Slide 25)"
+      "rationale": "The correct answers are Option age-appropriate milestones1, Option Growth follows expected percentiles1, Option engages with caregivers appropriately1. All are normal pediatric findings. (Slide 25)"
     },
     {
       "id": "q_bowtie",
@@ -526,7 +707,7 @@
           "Parent education"
         ]
       },
-      "rationale": "Early identification and family support are key. (Slide 30)"
+      "rationale": "The correct answer is Option 1. Early identification and family support are key. (Slide 30)"
     }
   ]
 }

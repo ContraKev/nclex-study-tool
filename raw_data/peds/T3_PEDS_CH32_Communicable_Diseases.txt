@@ -1,94 +1,322 @@
-=== T3_PEDS_CH32_Communicable_Diseases ===
 
 === SLIDE 1 ===
-Chapter 32 Childhood Communicable Diseases,  Bioterrorism, Natural Disasters, and the Maternal-Child Patient Copyright © 2019, Elsevier Inc. All rights reserved.
+Chapter 32
+Childhood Communicable Diseases, 
+Bioterrorism, Natural Disasters, and the Maternal-Child Patient
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 2 ===
-Lesson 32.1 Objectives 2 Copyright © 2019, Elsevier Inc. All rights reserved.
+Lesson 32.1Objectives
+
+2
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 3 ===
-Review of Terms (1 of 2) Communicable disease—can be transmitted from one person to another Incubation period—time between exposure to pathogen and onset of clinical symptoms Prodromal period—time between earliest symptom and appearance of typical rash or fever Vector—an insect or animal that carries and spreads disease Copyright © 2019, Elsevier Inc. All rights reserved. 3
+Review of Terms (1 of 2)
+Communicable disease—can be transmitted from one person to another
+Incubation period—time between exposure to pathogen and onset of clinical symptoms
+Prodromal period—time between earliest symptom and appearance of typical rash or fever
+Vector—an insect or animal that carries and spreads disease
+Copyright © 2019, Elsevier Inc. All rights reserved.
+3
+
+=== NOTES ===
+Prevention and control are the key factors in managing infectious disease
+HIV, hepatitis, TB, and STIs are infections continue to occur worldwide.
+The incidence of common childhood communicable disease has decreased with the use of appropriate immunizations.
+The nurse must know and be alert to signs and symptoms of communicable disease because air travel enables rapid transmission around the world.
+
+Discuss the impact of increased international mobility and how it affects communicable diseases.
 
 === SLIDE 4 ===
-Review of Terms (2 of 2) Pandemic—a worldwide high incidence of a communicable disease (e.g., H1N1 influenza) Epidemic—sudden increase of disease in localized area Endemic—an expected continuous incidence of disease in a localized area Opportunistic infection—caused by organism normally present in the environment that the immune-suppressed person cannot fight Health care – associated infection—an infection acquired after admission to a health care facility Copyright © 2019, Elsevier Inc. All rights reserved. 4
+Review of Terms (2 of 2)
+Pandemic—a worldwide high incidence of a communicable disease (e.g., H1N1 influenza)
+Epidemic—sudden increase of disease in localized area
+Endemic—an expected continuous incidence of disease in a localized area
+Opportunistic infection—caused by organism normally present in the environment that the immune-suppressed person cannot fight
+Health care–associated infection—an infection acquired after admission to a health care facility
+Copyright © 2019, Elsevier Inc. All rights reserved.
+4
 
 === SLIDE 5 ===
-Virulence of Infection Copyright © 2019, Elsevier Inc. All rights reserved. 5
+
+
+
+
+
+Virulence of Infection
+Copyright © 2019, Elsevier Inc. All rights reserved.
+5
+
+=== NOTES ===
+Discuss how each factor affects the disease process.
 
 === SLIDE 6 ===
-Types of Immunity 6 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+Types of Immunity
+
+6
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Give examples of each type of immunity.
 
 === SLIDE 7 ===
-Lesson 32.2 Objectives 7 Copyright © 2019, Elsevier Inc. All rights reserved.
+Lesson 32.2Objectives
+
+7
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 8 ===
-Preventing the Spread of Infection  Copyright © 2019, Elsevier Inc. All rights reserved. 8
+Preventing the Spread of Infection 
+Copyright © 2019, Elsevier Inc. All rights reserved.
+8
+
+=== NOTES ===
+Give an example of a nursing intervention that applies to each technique listed
 
 === SLIDE 9 ===
-Transmission of Infection 9 Copyright © 2019, Elsevier Inc. All rights reserved.
+Transmission of Infection
+
+9
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss Figure 32-4 (p. 742)in the textbook.
+Discuss the various tests that are available to determine whether an individual has been exposed to a particular disease (e.g., TB, scarlet fever).
 
 === SLIDE 10 ===
-Airborne Infection Isolation Precautions 10 Copyright © 2019, Elsevier Inc. All rights reserved.
+Airborne Infection Isolation Precautions
+
+10
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Explain a negative-pressure room and types of diseases that require this type of precaution.
 
 === SLIDE 11 ===
-Contact Precautions 11 Copyright © 2019, Elsevier Inc. All rights reserved.
+Contact Precautions
+
+11
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 12 ===
-Droplet Precautions 12 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+Droplet Precautions
+
+12
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 13 ===
-Protective Environment Isolation Used for patients who are not communicable but have high susceptibility to infection, such as a neutropenic patient or hematopoietic stem cell transplant (HSCT) recipient Strict  adherence to standard or transmission-based precautions is required at all times; this includes any visitors. NOTE: If a disease has more than one mode of transmission, then more than one precaution technique is used. Copyright © 2019, Elsevier Inc. All rights reserved. 13
+
+
+
+
+
+Protective Environment Isolation
+Used for patients who are not communicable but have high susceptibility to infection, such as a neutropenic patient or hematopoietic stem cell transplant (HSCT) recipient
+Strict adherence to standard or transmission-based precautions is required at all times; this includes any visitors.
+NOTE: If a disease has more than one mode of transmission, then more than one precaution technique is used.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+13
+
+=== NOTES ===
+What type of patient would require protective isolation?
+Discuss the nurse’s role in providing emotional support for the child who is placed in protective isolation
 
 === SLIDE 14 ===
-Hand Hygiene Copyright © 2019, Elsevier Inc. All rights reserved. 14
+Hand Hygiene
+Copyright © 2019, Elsevier Inc. All rights reserved.
+14
+
+=== NOTES ===
+Discuss how artificial nails and jewelry increase the risk of transmitting infections.
 
 === SLIDE 15 ===
-Family Education to Prevent the Spread of Infection 15 Should include Hand hygiene Necessity of immunizations Proper food storage Use of pasteurized milk Proper defrosting and cooking of meat Avoid using community towels Control of insects Avoid use of sandboxes in the yard Copyright © 2019, Elsevier Inc. All rights reserved.
+Family Education to Prevent the Spread of Infection
+15
+Should include
+Hand hygiene
+Necessity of immunizations
+Proper food storage
+Use of pasteurized milk
+Proper defrosting and cooking of meat
+Avoid using community towels
+Control of insects
+Avoid use of sandboxes in the yard
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss the rationale for avoiding sandboxes.
 
 === SLIDE 16 ===
-Rashes of the Skin 16 Copyright © 2019, Elsevier Inc. All rights reserved.
+Rashes of the Skin
+
+16
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Give an example of a common skin lesion for each rash listed.
 
 === SLIDE 17 ===
-Worldwide Immunization Programs Copyright © 2019, Elsevier Inc. All rights reserved. 17
+
+
+
+
+
+Worldwide Immunization Programs
+Copyright © 2019, Elsevier Inc. All rights reserved.
+17
+
+=== NOTES ===
+Discuss the nurse’s role in promoting Healthy People 2030.
 
 === SLIDE 18 ===
-Vaccines 18 Copyright © 2019, Elsevier Inc. All rights reserved.
+Vaccines
+
+18
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 19 ===
-Allergies and Toxicities 19 Epinephrine should be available in unit where immunizations are given. Child should be observed for 20 minutes after immunization. Do not administer the following vaccines if patient is allergic to Baker’s yeast: Avoid recombinant hepatitis B vaccine. Eggs: Avoid influenza vaccine and MMR. Neomycin: Avoid IPV, MMR, and varicella vaccine. Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+
+Allergies and Toxicities
+
+19
+
+
+Epinephrine should be available in unit where immunizations are given.
+Child should be observed for 20 minutes after immunization.
+Do not administer the following vaccines if patient is allergic to
+Baker’s yeast: Avoid recombinant hepatitis B vaccine.
+Eggs: Avoid influenza vaccine and MMR.
+Neomycin: Avoid IPV, MMR, and varicella vaccine.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss the rationale for the immediate availability of epinephrine.
+Why should the child be monitored for 20 minutes after administration?
+
+Varicella must be given same day as MMR or no less than 1 month later.
+A tuberculin skin test (PPD) should not be given within 6 weeks of MMR or varicella.
+Thimerosal: a mercury-containing preservative in some vaccines that can cause toxicity
+Some vaccines can be given on the same day but must be in different syringes and administered in different sites.
+Serious adverse events must be reported to the national VAERS.
+
+Discuss the rationale for each item listed.
+Discuss the purpose of the national VAERS program, its rationale, and nursing responsibilities.
 
 === SLIDE 20 ===
-Contraindications to Immunizations 20 Copyright © 2019, Elsevier Inc. All rights reserved.
+Contraindications to Immunizations
+
+20
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Give a rationale regarding the contraindication for each item listed.
 
 === SLIDE 21 ===
-The Future of Immunotherapy Copyright © 2019, Elsevier Inc. All rights reserved. 21
+The Future of Immunotherapy
+Copyright © 2019, Elsevier Inc. All rights reserved.
+21
+
+=== NOTES ===
+Development of “gene gun” to blast vaccine through intact skin
+Development of immunotherapy for noncommunicable diseases such as mucosal administration of myelin for multiple sclerosis
+Development of tumor antigens
 
 === SLIDE 22 ===
-Lesson 32.3 Objectives 22 Copyright © 2019, Elsevier Inc. All rights reserved.
+Lesson 32.3Objectives
+
+22
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 23 ===
-Bioterrorism and the Pediatric Patient 23 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+Bioterrorism and the Pediatric Patient
+
+23
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Routine “HazMat” decontamination procedure may not be suitable for pediatric patient who is prone to hypothermia (because of large head and body surface area; low fat content of body)
+A small blood volume makes children more susceptible to fluid losses from GI toxins.
+Gas masks may not be available in children’s sizes.
+TV coverage of terrorist attacks can affect child’s feeling of safety in the home and can alter behavior.
+
+Describe a situation in which HazMat decontamination would be appropriate.
 
 === SLIDE 24 ===
-Emergency Preparedness 24 Copyright © 2019, Elsevier Inc. All rights reserved.
+Emergency Preparedness
+
+24
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Discuss the importance of having drills and emergency contact numbers out of state.
 
 === SLIDE 25 ===
-Initial Observations During Disasters 25 Copyright © 2019, Elsevier Inc. All rights reserved.
+Initial Observations During Disasters
+
+25
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 26 ===
-The Pediatric Patient in a Disaster Setting (1 of 2) 26 Copyright © 2019, Elsevier Inc. All rights reserved.
+The Pediatric Patient in a Disaster Setting (1 of 2)
+
+26
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 27 ===
-The Pediatric Patient in a Disaster Setting (2 of 2) Copyright © 2019, Elsevier Inc. All rights reserved. 27
+The Pediatric Patient in a Disaster Setting (2 of 2)
+Copyright © 2019, Elsevier Inc. All rights reserved.
+27
 
 === SLIDE 28 ===
-Sexually Transmitted Infections 28 Copyright © 2019, Elsevier Inc. All rights reserved.
+Sexually Transmitted Infections
+
+28
+Copyright © 2019, Elsevier Inc. All rights reserved.
 
 === SLIDE 29 ===
-Nursing Care and Responsibilities 29 Copyright © 2019, Elsevier Inc. All rights reserved.
+Nursing Care and Responsibilities
+
+29
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Give an example of a nurse providing a safe, nonjudgmental environment.
+How can the nurse assist the child in formulating a positive self-attitude?
 
 === SLIDE 30 ===
-HIV/AIDS in Children (1 of 2)  Copyright © 2019, Elsevier Inc. All rights reserved. 30
+HIV/AIDS in Children (1 of 2) 
+Copyright © 2019, Elsevier Inc. All rights reserved.
+30
+
+=== NOTES ===
+Diagnosis: CD4+ cell count is measure of damage to the immune system caused by HIV and guides treatment options
+ELISA test and Western blot test to diagnose HIV are not reliable in children younger than 15 months of age
+
+Children usually contract HIV by 
+Contact with infected mother at birth
+Sexual contact with infected person
+Contact with infected needles or blood
 
 === SLIDE 31 ===
-HIV/AIDS in Children (2 of 2) 31 Copyright © 2019, Elsevier Inc. All rights reserved.
+
+
+HIV/AIDS in Children (2 of 2)
+
+31
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+What are some examples of supportive treatment?
+Give examples of resources available within a community.

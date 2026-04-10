@@ -1,28 +1,118 @@
 {
   "id": "peds_chapter_027_lymph_and_blood_dos_peds",
-  "name": "Pediatrics: The Child with a Condition of the Blood, Blood-Forming Organs, or Lymphatic System",
+  "name": "Pediatrics: Chapter 027 lymph and blood DOs peds",
   "type": "exam",
   "scenarios": [
+    {
+      "id": "q_definition_39",
+      "slide": 39,
+      "question": "Which statement best describes More advanced cases?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "may be unexplained low-grade fever, anorexia, unexplained weight loss, night swe..."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. More advanced cases: may be unexplained low-grade fever, anorexia, unexplained weight loss, night sweats, general malaise, rash, and itching (Slide 39)"
+    },
     {
       "id": "q_definition_46",
       "slide": 46,
       "question": "Which statement best describes Contrast age?",
       "options": [
-        "appropriate responses to a sibling\u2019s death and the nursing interventions require...",
         "This is not a recognized term in pediatric nursing",
-        "This is an outdated concept no longer taught",
-        "This only applies to adult patients, not children"
+        "This only applies to adult patients, not children",
+        "appropriate responses to a sibling’s death and the nursing interventions require...",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. Contrast age: appropriate responses to a sibling’s death and the nursing interventions required (Slide 46)"
+    },
+    {
+      "id": "q_nursing_action_38",
+      "slide": 38,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "for infection? Discuss nursing interventions to provide good hygiene",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions",
+        "Focus only on the child's physical symptoms"
       ],
       "answer": [
         1
       ],
-      "rationale": "Contrast age: appropriate responses to a sibling\u2019s death and the nursing interventions required (Slide 46)"
+      "rationale": "The correct answer is Use the same approach as with adult patients. for infection? Discuss nursing interventions to provide good hygiene. Family-centered, age-appropriate care is essential in pediatrics. (Slide 38)"
+    },
+    {
+      "id": "q_nursing_action_45",
+      "slide": 45,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "involve the family in the care of a chronically ill child?",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Exclude family members from care decisions. involve the family in the care of a chronically ill child?. Family-centered, age-appropriate care is essential in pediatrics. (Slide 45)"
+    },
+    {
+      "id": "q_nursing_action_48",
+      "slide": 48,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "could support a parent who is angry at the loss of a child"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Use the same approach as with adult patients. could support a parent who is angry at the loss of a child. Family-centered, age-appropriate care is essential in pediatrics. (Slide 48)"
+    },
+    {
+      "id": "q_nursing_action_50",
+      "slide": 50,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms",
+        "explain the dying process to the parents? How will you know if your te"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Exclude family members from care decisions. explain the dying process to the parents? How will you know if your te. Family-centered, age-appropriate care is essential in pediatrics. (Slide 50)"
+    },
+    {
+      "id": "q_nursing_action_51",
+      "slide": 51,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Focus only on the child's physical symptoms",
+        "examples of how the nurse can assist an individual through each stage",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. examples of how the nurse can assist an individual through each stage. Family-centered, age-appropriate care is essential in pediatrics. (Slide 51)"
     },
     {
       "id": "q_clinical_finding_2",
       "type": "sata",
       "slide": 2,
-      "question": "Which of the following are expected findings in The Child with a Condition of the Blood, Blood-Forming Organs, or Lymphatic System? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
       "options": [
         ", prevention, and treatment of iron deficiency anemia",
         "Findings opposite to what was described",
@@ -32,13 +122,13 @@
       "answer": [
         0
       ],
-      "rationale": ", prevention, and treatment of iron deficiency anemia is a characteristic finding. Lesson 27.1 Objectives (1 of 2) 2 Define each key word listed. Summarize the com... (Slide 2)"
+      "rationale": "The correct answer is , prevention, and treatment of iron deficiency anemia. , prevention, and treatment of iron deficiency anemia is a characteristic finding. Lesson 27.1\u000bObjectives (1 of 2) 2 Define each key word listed. Summarize the com... (Slide 2)"
     },
     {
       "id": "q_clinical_finding_13",
       "type": "sata",
       "slide": 13,
-      "question": "Which of the following are expected findings in The Child with a Condition of the Blood, Blood-Forming Organs, or Lymphatic System? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
       "options": [
         "atic) Sickle cell anemia (more severe) https://www",
         "Findings opposite to what was described",
@@ -48,13 +138,61 @@
       "answer": [
         0
       ],
-      "rationale": "atic) Sickle cell anemia (more severe) https://www is a characteristic finding. Two Types of Sickle Cell Disease  (1 of 2) Sickle cell trait (asymptomatic) Sick... (Slide 13)"
+      "rationale": "The correct answer is atic) Sickle cell anemia (more severe) https://www. atic) Sickle cell anemia (more severe) https://www is a characteristic finding. Two Types of Sickle Cell Disease \u000b(1 of 2) Sickle cell trait (asymptomatic) Sick... (Slide 13)"
+    },
+    {
+      "id": "q_clinical_finding_16",
+      "type": "sata",
+      "slide": 16,
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
+      "options": [
+        "16 === NOTES === Discuss the pathophysiology of the pain a c",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is 16 === NOTES === Discuss the pathophysiology of the pain a c. 16 === NOTES === Discuss the pathophysiology of the pain a c is a characteristic finding. Manifestations 16 === NOTES === Discuss the pathophysiology of the pain a child ... (Slide 16)"
+    },
+    {
+      "id": "q_clinical_finding_24",
+      "type": "sata",
+      "slide": 24,
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
+      "options": [
+        "of Hemophilia (2 of 2) 24 === NOTES === Discuss the pathophy",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of Hemophilia (2 of 2) 24 === NOTES === Discuss the pathophy. of Hemophilia (2 of 2) 24 === NOTES === Discuss the pathophy is a characteristic finding. Manifestations of Hemophilia (2 of 2) 24 === NOTES === Discuss the pathophysiolo... (Slide 24)"
+    },
+    {
+      "id": "q_clinical_finding_26",
+      "type": "sata",
+      "slide": 26,
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
+      "options": [
+        "of ITP 26 === NOTES === Discuss the procedure for bone marro",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of ITP 26 === NOTES === Discuss the procedure for bone marro. of ITP 26 === NOTES === Discuss the procedure for bone marro is a characteristic finding. Manifestations of ITP 26 === NOTES === Discuss the procedure for bone marrow asp... (Slide 26)"
     },
     {
       "id": "q_clinical_finding_33",
       "type": "sata",
       "slide": 33,
-      "question": "Which of the following are expected findings in The Child with a Condition of the Blood, Blood-Forming Organs, or Lymphatic System? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
       "options": [
         "of Leukemia (1 of 2) 33 Most common symptoms Initial phase L",
         "Findings opposite to what was described",
@@ -64,13 +202,13 @@
       "answer": [
         0
       ],
-      "rationale": "of Leukemia (1 of 2) 33 Most common symptoms Initial phase L is a characteristic finding. Manifestations of Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-gr... (Slide 33)"
+      "rationale": "The correct answer is of Leukemia (1 of 2) 33 Most common symptoms Initial phase L. of Leukemia (1 of 2) 33 Most common symptoms Initial phase L is a characteristic finding. Manifestations of Leukemia (1 of 2) 33 Most common symptoms Initial phase Low-gr... (Slide 33)"
     },
     {
       "id": "q_clinical_finding_36",
       "type": "sata",
       "slide": 36,
-      "question": "Which of the following are expected findings in The Child with a Condition of the Blood, Blood-Forming Organs, or Lymphatic System? (Select all that apply.)",
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
       "options": [
         "Induction period CNS prophylaxis for high-risk patients Main",
         "Findings opposite to what was described",
@@ -80,337 +218,398 @@
       "answer": [
         0
       ],
-      "rationale": "Induction period CNS prophylaxis for high-risk patients Main is a characteristic finding. Treatment of Leukemia  36 Radiation and chemotherapy target specific cells. Comp... (Slide 36)"
+      "rationale": "The correct answer is Induction period CNS prophylaxis for high-risk patients Main. Induction period CNS prophylaxis for high-risk patients Main is a characteristic finding. Treatment of Leukemia 36 Radiation and chemotherapy target specific cells. Compo... (Slide 36)"
+    },
+    {
+      "id": "q_clinical_finding_39",
+      "type": "sata",
+      "slide": 39,
+      "question": "Which of the following are expected findings in Chapter 027 lymph and blood DOs peds? (Select all that apply.)",
+      "options": [
+        "More advanced cases: may be unexplained low-grade fever, ano",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is More advanced cases: may be unexplained low-grade fever, ano. More advanced cases: may be unexplained low-grade fever, ano is a characteristic finding. 39 Hodgkin Disease (aka Hodgkin Lymphoma) === NOTES === A painless lump along th... (Slide 39)"
+    },
+    {
+      "id": "q_treatment_27",
+      "slide": 27,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "No treatment is available",
+        "Treatment used only in adults",
+        "of ITP (1 of 2) 27 === NOTES === Discuss a proper neurological assessm"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is No treatment is available. of ITP (1 of 2) 27 === NOTES === Discuss a proper neurological assessm. Treatment of ITP (1 of 2) 27 === NOTES === Discuss a proper neurological assessm... (Slide 27)"
     },
     {
       "id": "q_treatment_36",
       "slide": 36,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "of Leukemia  36 Radiation and chemotherapy target specific cells",
+        "of Leukemia 36 Radiation and chemotherapy target specific cells",
         "Observation only without intervention",
         "Treatment used only in adults",
         "No treatment is available"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "of Leukemia  36 Radiation and chemotherapy target specific cells. Treatment of Leukemia  36 Radiation and chemotherapy target specific cells. Comp... (Slide 36)"
+      "rationale": "The correct answer is of Leukemia 36 Radiation and chemotherapy target specific cells. of Leukemia 36 Radiation and chemotherapy target specific cells. Treatment of Leukemia 36 Radiation and chemotherapy target specific cells. Compo... (Slide 36)"
     },
     {
       "id": "q_treatment_36",
       "slide": 36,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "Observation only without intervention",
-        "include  Induction period CNS prophylaxis for high-risk patients Maint",
+        "Treatment used only in adults",
         "No treatment is available",
+        "Observation only without intervention",
+        "include Induction period CNS prophylaxis for high-risk patients Mainte"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Observation only without intervention. include Induction period CNS prophylaxis for high-risk patients Mainte. Treatment of Leukemia 36 Radiation and chemotherapy target specific cells. Compo... (Slide 36)"
+    },
+    {
+      "id": "q_treatment_47",
+      "slide": 47,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "No treatment is available",
+        "examples of cultural beliefs regarding death",
+        "Observation only without intervention"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is No treatment is available. examples of cultural beliefs regarding death. Nursing Care of the Dying Child\u000bFacing Death 47 === NOTES === Discuss the grievi... (Slide 47)"
+    },
+    {
+      "id": "q_treatment_48",
+      "slide": 48,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "No treatment is available",
+        "examples of how a nurse could support a parent who is angry at the los",
         "Treatment used only in adults"
       ],
       "answer": [
         3
       ],
-      "rationale": "include  Induction period CNS prophylaxis for high-risk patients Maint. Treatment of Leukemia  36 Radiation and chemotherapy target specific cells. Comp... (Slide 36)"
+      "rationale": "The correct answer is Treatment used only in adults. examples of how a nurse could support a parent who is angry at the los. Facing Death 48 === NOTES === Give examples of how a nurse could support a paren... (Slide 48)"
     },
     {
       "id": "q_risk_factor_36",
       "slide": 36,
       "question": "Which factor increases risk in pediatric patients?",
       "options": [
-        "Unrelated demographic information",
         "patients Maintenance Reinduction therapy (if relapse occurs) Extramedu",
         "Factors only relevant in adults",
-        "Protective factors that reduce risk"
+        "Protective factors that reduce risk",
+        "Unrelated demographic information"
       ],
       "answer": [
         2
       ],
-      "rationale": "patients Maintenance Reinduction therapy (if relapse occurs) Extramedu is a known risk factor. Treatment of Leukemia  36 Radiation and chemotherapy target specific cells. Comp... (Slide 36)"
+      "rationale": "The correct answer is Protective factors that reduce risk. patients Maintenance Reinduction therapy (if relapse occurs) Extramedu is a known risk factor. Treatment of Leukemia 36 Radiation and chemotherapy target specific cells. Compo... (Slide 36)"
     },
     {
       "id": "supp_0",
       "slide": 99,
-      "question": "Atopic dermatitis (eczema) is characterized by:",
+      "question": "When caring for pediatric patients, the nurse should:",
       "options": [
-        "Pruritic, dry, scaly patches in flexural areas",
-        "Linear lesions in a dermatomal pattern",
-        "Raised wheals that are transient",
-        "Pustules and honey-colored crusts"
+        "Include family in care decisions and use age-appropriate communication",
+        "Exclude parents during procedures",
+        "Focus only on the child's medical diagnosis",
+        "Treat all children the same as adults"
       ],
       "answer": [
         2
       ],
-      "rationale": "Atopic dermatitis: chronic, relapsing, itchy; flexural in older children; cheeks/scalp in infants. (Standard NCLEX)"
+      "rationale": "The correct answer is Focus only on the child's medical diagnosis. Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
     },
     {
       "id": "supp_1",
       "slide": 99,
-      "question": "What is the primary treatment for eczema?",
+      "question": "Pain assessment in non-verbal children uses:",
       "options": [
-        "Oral antibiotics",
-        "Emollients and topical corticosteroids",
-        "Antihistamines only",
-        "Antifungals"
+        "Asking the child to describe pain",
+        "FLACC scale (Face, Legs, Activity, Cry, Consolability)",
+        "Numeric rating scale (0-10)",
+        "Wong-Baker FACES (if verbal)"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "Emollients (moisturizers) are cornerstone. Topical steroids for flares. Avoid triggers (soap, wool). (Standard NCLEX)"
+      "rationale": "The correct answer is Asking the child to describe pain. FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
     },
     {
       "id": "supp_2",
       "slide": 99,
-      "question": "Impetigo is caused by:",
+      "question": "The most reliable indicator of pain in infants is:",
       "options": [
-        "Fungi",
-        "Staphylococcus aureus or Streptococcus",
-        "Candida",
-        "Herpes simplex virus"
+        "Vital signs",
+        "Parental report",
+        "Behavioral changes (crying, facial expression)",
+        "Self-report"
       ],
       "answer": [
-        0
+        2
       ],
-      "rationale": "Impetigo: bacterial (staph/strep); honey-colored crusts around nose/mouth. Highly contagious. Topical/oral antibiotics. (Standard NCLEX)"
+      "rationale": "The correct answer is Behavioral changes (crying, facial expression). Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
     },
     {
       "id": "supp_3",
       "slide": 99,
-      "question": "Contact with poison ivy causes:",
+      "question": "Which vital sign changes first in a deteriorating pediatric patient?",
       "options": [
-        "Allergic contact dermatitis with linear vesicles",
-        "Fungal infection",
-        "Bacterial infection",
-        "Atopic dermatitis"
+        "Heart rate",
+        "Respiratory rate",
+        "Blood pressure",
+        "Temperature"
       ],
       "answer": [
-        1
+        3
       ],
-      "rationale": "Poison ivy/oak/sumac: urushiol oil causes allergic reaction. Linear vesicles from plant contact. Wash skin immediately. (Standard NCLEX)"
+      "rationale": "The correct answer is Temperature. Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
     },
     {
       "id": "supp_4",
       "slide": 99,
-      "question": "What is the first-line treatment for head lice?",
+      "question": "What is the correct pediatric CPR ratio?",
       "options": [
-        "Vinegar rinse only",
-        "Shaving the head",
-        "Permethrin 1% cream rinse",
-        "Oral antibiotics"
+        "Same as adults",
+        "30:2 for single rescuer, 15:2 for two rescuers",
+        "30:1",
+        "15:1"
       ],
       "answer": [
-        3
+        2
       ],
-      "rationale": "Permethrin 1% (Nix): apply to damp hair, leave 10 min, rinse. Repeat in 7-10 days. Comb out nits. (Standard NCLEX)"
+      "rationale": "The correct answer is 30:1. Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
     },
     {
       "id": "supp_5",
       "slide": 99,
-      "question": "Scabies is caused by:",
+      "question": "The leading cause of death in children over 1 year is:",
       "options": [
-        "Fungus",
-        "Mite Sarcoptes scabiei",
-        "Lice",
-        "Bacteria"
+        "Infection",
+        "Cancer",
+        "Congenital anomalies",
+        "Unintentional injuries"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Scabies: mite burrows into skin \u2192 intensely itchy, especially at night. Linear burrows, papules. Permethrin cream. (Standard NCLEX)"
+      "rationale": "The correct answer is Unintentional injuries. Unintentional injuries (drowning, MVAs, burns) are #1 cause of death in children >1 year. (Standard NCLEX)"
     },
     {
       "id": "supp_6",
       "slide": 99,
-      "question": "A child with a burn covering 15% of body surface area:",
+      "question": "When should car seats face rearward?",
       "options": [
-        "Can be treated at home",
-        "Requires hospitalization",
-        "Needs skin graft",
-        "Is minor"
+        "Until age 1",
+        "Until age 2 or until child exceeds weight/height limits",
+        "Until age 4",
+        "Until age 8"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "Burns >10% BSA in children require hospitalization. Assess depth (partial vs full thickness). (Standard NCLEX)"
+      "rationale": "The correct answer is Until age 1. AAP: rear-facing until age 2 or until exceeding car seat limits. Then forward-facing with harness. (Standard NCLEX)"
     },
     {
       "id": "supp_7",
       "slide": 99,
-      "question": "What is the Rule of Nines in children?",
+      "question": "What is the recommended daily water intake for a 5-year-old?",
       "options": [
-        "Modified to account for larger head and smaller legs",
-        "Not applicable to children",
-        "Same as adults",
-        "Uses palm method only"
+        "Approximately 5 cups (40 oz)",
+        "10 cups",
+        "Unlimited",
+        "1 cup"
       ],
       "answer": [
         3
       ],
-      "rationale": "Pediatric Rule of Nines: head=18%, each leg=14%, trunk=36%. Palm method for small burns. (Standard NCLEX)"
+      "rationale": "The correct answer is 1 cup. Children 4-8 years: ~5 cups/day fluids. More with activity/heat. (Standard NCLEX)"
     },
     {
       "id": "supp_8",
       "slide": 99,
-      "question": "What is the most important intervention for a child with a burn?",
+      "question": "Which is the best way to prevent childhood obesity?",
       "options": [
-        "Stop the burning process and ensure airway",
-        "Apply butter",
-        "Pop blisters",
-        "Apply ice"
+        "Weighing child weekly",
+        "Restricting all fats",
+        "Skipping meals",
+        "Healthy diet and regular physical activity"
       ],
       "answer": [
         0
       ],
-      "rationale": "Stop burning (remove clothing, cool water), ABCs, assess extent/depth. Do NOT apply ice or butter. (Standard NCLEX)"
+      "rationale": "The correct answer is Weighing child weekly. Prevention: balanced diet, 60 min/day physical activity, limit screen time, family meals. (Standard NCLEX)"
     },
     {
       "id": "supp_9",
       "slide": 99,
-      "question": "A child with a wound that has honey-colored crusts most likely has:",
+      "question": "A child who is choking and cannot cough or speak needs:",
       "options": [
-        "Measles",
-        "Eczema",
-        "Impetigo",
-        "Chickenpox"
+        "Nothing — wait",
+        "CPR",
+        "Abdominal thrusts (Heimlich)",
+        "Back blows only"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Honey-colored crusts = impetigo (staph/strep). Highly contagious. Treat with antibiotics. (Standard NCLEX)"
+      "rationale": "The correct answer is Nothing — wait. Choking: abdominal thrusts for conscious child >1 year. For infant: 5 back blows + 5 chest thrusts. (Standard NCLEX)"
     },
     {
       "id": "supp_10",
       "slide": 99,
-      "question": "Diaper rash (candidal) presents with:",
+      "question": "The safest car seat position for infants is:",
       "options": [
-        "Dry scaly patches",
-        "Bright red rash with satellite lesions in skin folds",
-        "Vesicles in crops",
-        "Honey-colored crusts"
+        "Rear-facing in the back seat",
+        "Front-facing in the back seat",
+        "Rear-facing in the front seat",
+        "Any position"
       ],
       "answer": [
         3
       ],
-      "rationale": "Candida diaper rash: bright red, satellite lesions. Treat with antifungal (nystatin). (Standard NCLEX)"
+      "rationale": "The correct answer is Any position. Infants: rear-facing until age 2 or until exceeding car seat limits. Back seat only. (Standard NCLEX)"
     },
     {
       "id": "supp_11",
       "slide": 99,
-      "question": "Atopic dermatitis (eczema) is associated with:",
+      "question": "When should children transition to a booster seat?",
       "options": [
-        "Asthma, allergic rhinitis (atopic triad)",
-        "Cancer",
-        "Heart disease",
-        "Diabetes"
+        "Never",
+        "When they outgrow forward-facing harness (typically 4-8 years)",
+        "At age 2",
+        "At age 12"
       ],
       "answer": [
         2
       ],
-      "rationale": "Atopic triad: eczema, asthma, allergic rhinitis. Family history common. (Standard NCLEX)"
+      "rationale": "The correct answer is At age 2. Booster: when child exceeds forward-facing harness limits (~40-65 lbs). Until seat belt fits properly (usually 8-12 years). (Standard NCLEX)"
     },
     {
       "id": "supp_12",
       "slide": 99,
-      "question": "For eczema, emollients should be applied:",
+      "question": "Drowning prevention includes:",
       "options": [
-        "Immediately after bathing while skin is damp",
-        "Only when skin is dry",
-        "Never",
-        "Once per week"
+        "Only fencing",
+        "Only supervision",
+        "Swim lessons only",
+        "Fencing pools, close supervision, CPR training"
       ],
       "answer": [
-        0
+        1
       ],
-      "rationale": "Emollients: apply within 3 minutes of bathing on damp skin. Prevents water loss. (Standard NCLEX)"
+      "rationale": "The correct answer is Only supervision. Drowning prevention: 4-sided fencing, constant supervision, CPR training, water safety education. (Standard NCLEX)"
     },
     {
       "id": "supp_13",
       "slide": 99,
-      "question": "Impetigo is highly contagious. Children should:",
+      "question": "Lead poisoning prevention includes:",
       "options": [
-        "Never go to school",
-        "Go to school immediately",
-        "Stay home for 2 weeks",
-        "Stay home until 24h after antibiotics started"
+        "Only screening",
+        "Nothing",
+        "Only supplements",
+        "Hand washing, removing paint chips, iron-rich diet"
       ],
       "answer": [
         1
       ],
-      "rationale": "Impetigo: exclude from school until 24h after antibiotics. Cover lesions. (Standard NCLEX)"
+      "rationale": "The correct answer is Nothing. Lead: hand washing, wet mopping, removing peeling paint, iron/calcium-rich diet. (Standard NCLEX)"
     },
     {
       "id": "supp_14",
       "slide": 99,
-      "question": "Burn depth: partial thickness (2nd degree) involves:",
+      "question": "Poison prevention: keep medications:",
       "options": [
-        "Only the top layer of dermis",
-        "Epidermis and part of dermis",
-        "All skin layers including subcutaneous",
-        "Epidermis only"
+        "In easy reach",
+        "In purse",
+        "Locked up and in original containers",
+        "On kitchen counter"
       ],
       "answer": [
         3
       ],
-      "rationale": "Partial thickness: epidermis + dermis. Blisters, pink/red, painful. (Standard NCLEX)"
+      "rationale": "The correct answer is On kitchen counter. Poison prevention: locked cabinets, original containers, childproof caps, poison control number posted. (Standard NCLEX)"
     },
     {
       "id": "supp_15",
       "slide": 99,
-      "question": "Full thickness burns (3rd degree) appear:",
+      "question": "The leading cause of death in children 1-14 years is:",
       "options": [
-        "Pink and painful",
-        "Red and blistered",
-        "White, leathery, painless",
-        "Only superficial"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Full thickness: white/charred, leathery, painless (nerve destruction). (Standard NCLEX)"
-    },
-    {
-      "id": "supp_16",
-      "slide": 99,
-      "question": "For a burn, cool the area with:",
-      "options": [
-        "Butter",
-        "Oil",
-        "Cool water for 10-20 minutes",
-        "Ice"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Cool water (not ice) for 10-20 min. Ice causes more tissue damage. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_17",
-      "slide": 99,
-      "question": "Sunburn prevention for children includes:",
-      "options": [
-        "Sunscreen SPF 30+, hats, protective clothing",
-        "Only sunscreen on face",
-        "Sunscreen only at beach",
-        "No sunscreen needed"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Sun protection: SPF 30+ sunscreen, reapply every 2h, hats, shade. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_18",
-      "slide": 99,
-      "question": "Seborrheic dermatitis (cradle cap) in infants:",
-      "options": [
-        "Linear rash",
-        "Pustules",
-        "Vesicles",
-        "Scaly, greasy patches on scalp"
+        "Infection",
+        "Cancer",
+        "Unintentional injuries",
+        "Congenital anomalies"
       ],
       "answer": [
         1
       ],
-      "rationale": "Cradle cap: greasy yellow scales on scalp. Treat with mineral oil, brush gently. (Standard NCLEX)"
+      "rationale": "The correct answer is Cancer. Unintentional injuries (MVAs, drowning, burns, poisoning) are #1 cause of death in children. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_16",
+      "slide": 99,
+      "question": "Bike helmet use should begin:",
+      "options": [
+        "At age 5",
+        "When child starts riding a bike",
+        "At age 10",
+        "Never needed"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is At age 10. Bike helmet: required for all ages. Proper fit: level on head, snug straps. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_17",
+      "slide": 99,
+      "question": "Stranger danger education should be:",
+      "options": [
+        "Scary and detailed",
+        "Age-appropriate, focus on trusted adults",
+        "Only for girls",
+        "Not discussed"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Scary and detailed. Stranger safety: teach trusted adults, 'no, go, tell', never go with strangers. (Standard NCLEX)"
+    },
+    {
+      "id": "supp_18",
+      "slide": 99,
+      "question": "Sun exposure prevention for infants:",
+      "options": [
+        "Sunglasses only",
+        "Nothing needed",
+        "Avoid direct sun, hats, light clothing",
+        "Sunscreen only"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Sunglasses only. Infants <6 months: avoid direct sun. Use hats, lightweight clothing, shade. (Standard NCLEX)"
     },
     {
       "id": "q_matrix_development",
@@ -436,7 +635,7 @@
           "correct_col_idx": 2
         }
       ],
-      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+      "rationale": "The correct answer is Option 1. Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
     },
     {
       "id": "q_cloze_peds",
@@ -455,7 +654,7 @@
         "BLANK1": "age-appropriate",
         "BLANK2": "family"
       },
-      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+      "rationale": "The correct answer is Option 1. Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
     },
     {
       "id": "q_highlight_normal",
@@ -473,7 +672,7 @@
         "Growth follows expected percentiles",
         "engages with caregivers appropriately"
       ],
-      "rationale": "All are normal pediatric findings. (Slide 25)"
+      "rationale": "The correct answers are Option age-appropriate milestones1, Option Growth follows expected percentiles1, Option engages with caregivers appropriately1. All are normal pediatric findings. (Slide 25)"
     },
     {
       "id": "q_bowtie",
@@ -511,7 +710,7 @@
           "Parent education"
         ]
       },
-      "rationale": "Early identification and family support are key. (Slide 30)"
+      "rationale": "The correct answer is Option 1. Early identification and family support are key. (Slide 30)"
     }
   ]
 }

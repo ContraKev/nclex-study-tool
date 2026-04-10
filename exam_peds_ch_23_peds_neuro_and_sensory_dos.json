@@ -4,64 +4,214 @@
   "type": "exam",
   "scenarios": [
     {
-      "id": "q_definition_11",
-      "slide": 11,
-      "question": "Which statement best describes Also known as  cross?",
+      "id": "q_kohlberg_stage_5",
+      "slide": 5,
+      "question": "Kohlberg's conventional level of moral development is characterized by:",
       "options": [
-        "This is an outdated concept no longer taught",
-        "This is not a recognized term in pediatric nursing",
-        "This only applies to adult patients, not children",
-        "eye Child is not able to direct both eyes in same direction Lack of coordination..."
+        "No concern for others' feelings",
+        "Personal gain and avoiding punishment",
+        "Maintaining social order, meeting expectations, and following rules",
+        "Universal ethical principles"
       ],
       "answer": [
         1
       ],
-      "rationale": "Also known as  cross: eye Child is not able to direct both eyes in same direction Lack of coordination between the eye muscles that direct movement of the eyes When coordin (Slide 11)"
+      "rationale": "The correct answer is Personal gain and avoiding punishment. Conventional morality (typical in school-age/adolescents) focuses on social approval (Stage 3: good boy/girl) and maintaining social order (Stage 4: law and order). Rules are followed to fit in or uphold society. (Slide 5)"
+    },
+    {
+      "id": "q_definition_5",
+      "slide": 5,
+      "question": "Which statement best describes Broad?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "spectrum antibiotics Eardrops—to instill, pull pinna down and back for infants; ..."
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Broad: spectrum antibiotics Eardrops—to instill, pull pinna down and back for infants; for children, pull the pinna up and back Surgical intervention when co (Slide 5)"
+    },
+    {
+      "id": "q_definition_6",
+      "slide": 6,
+      "question": "Which statement best describes Two types?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
+        "congenital deafness or acquired Can acquire it from common colds, medications, e..."
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is congenital deafness or acquired Can acquire it from common colds, medications, e.... Two types: congenital deafness or acquired Can acquire it from common colds, medications, exposure to loud noise levels, certain infectious diseases Hearing loss (Slide 6)"
+    },
+    {
+      "id": "q_definition_11",
+      "slide": 11,
+      "question": "Which statement best describes Also known as cross?",
+      "options": [
+        "eye Child is not able to direct both eyes in same direction Lack of coordination...",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is eye Child is not able to direct both eyes in same direction Lack of coordination.... Also known as cross: eye Child is not able to direct both eyes in same direction Lack of coordination between the eye muscles that direct movement of the eyes When coordin (Slide 11)"
+    },
+    {
+      "id": "q_definition_11",
+      "slide": 11,
+      "question": "Which statement best describes Several types?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "nonparalytic and paralytic 11 === NOTES === Treatment for Nonparalytic Strabismu..."
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Several types: nonparalytic and paralytic 11 === NOTES === Treatment for Nonparalytic Strabismus If found in infancy, parents are instructed to patch the unaffected (Slide 11)"
     },
     {
       "id": "q_definition_14",
       "slide": 14,
       "question": "Which statement best describes Appears as a bright?",
       "options": [
-        "red or dark-red spot in front of the lower portion of the iris Treatment Bedrest...",
-        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing",
         "This is an outdated concept no longer taught",
-        "This is not a recognized term in pediatric nursing"
+        "This only applies to adult patients, not children",
+        "red or dark-red spot in front of the lower portion of the iris Treatment Bedrest..."
       ],
       "answer": [
-        3
+        1
       ],
-      "rationale": "Appears as a bright: red or dark-red spot in front of the lower portion of the iris Treatment Bedrest with HOB elevated 30 to 45 degrees decreases intraocular pressure and (Slide 14)"
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Appears as a bright: red or dark-red spot in front of the lower portion of the iris Treatment Bedrest with HOB elevated 30 to 45 degrees decreases intraocular pressure and (Slide 14)"
+    },
+    {
+      "id": "q_definition_15",
+      "slide": 15,
+      "question": "Which statement best describes External?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "beam irradiation Usually removal of the affected eye if no possibility exists to..."
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. External: beam irradiation Usually removal of the affected eye if no possibility exists to save the vision (Slide 15)"
+    },
+    {
+      "id": "q_definition_23",
+      "slide": 23,
+      "question": "Which statement best describes Discuss signs and symptoms?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "ICP Headache Vomiting Drowsiness Seizures Nystagmus Strabismus Papilledema Ataxi..."
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Discuss signs and symptoms: ICP Headache Vomiting Drowsiness Seizures Nystagmus Strabismus Papilledema Ataxia Head tilt Behavioral changes In infants, cerebral enlargement (Slide 23)"
     },
     {
       "id": "q_definition_24",
       "slide": 24,
       "question": "Which statement best describes Tonic?",
       "options": [
-        "clonic or grand mal Three distinct phases Partial Account for 40% Consciousness ...",
         "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
         "This is not a recognized term in pediatric nursing",
+        "clonic or grand mal Three distinct phases Partial Account for 40% Consciousness ..."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Tonic: clonic or grand mal Three distinct phases Partial Account for 40% Consciousness may be intact or slightly impaired Can have simple or complex seizures (Slide 24)"
+    },
+    {
+      "id": "q_definition_24",
+      "slide": 24,
+      "question": "Which statement best describes Tonic?",
+      "options": [
+        "clonic seizure Postictal Most commonly observed neurologic dysfunction in childr...",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Tonic: clonic seizure Postictal Most commonly observed neurologic dysfunction in children Etiology varies Sudden, intermittent episodes of ALOC that last sec (Slide 24)"
+    },
+    {
+      "id": "q_definition_27",
+      "slide": 27,
+      "question": "Which statement best describes Breath?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "holding spells Cough syncope Prolonged QT syndrome Rage attacks or episodic dysc...",
         "This is an outdated concept no longer taught"
       ],
       "answer": [
         3
       ],
-      "rationale": "Tonic: clonic or grand mal Three distinct phases Partial Account for 40% Consciousness may be intact or slightly impaired Can have simple or complex seizures (Slide 24)"
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Breath: holding spells Cough syncope Prolonged QT syndrome Rage attacks or episodic dyscontrol syndrome Give examples of mild and severe forms (Slide 27)"
+    },
+    {
+      "id": "q_definition_28",
+      "slide": 28,
+      "question": "Which statement best describes Short?",
+      "options": [
+        "This is an outdated concept no longer taught",
+        "term memory Long-term memory Perceptions Thought processes Insight Judgment Affe...",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Short: term memory Long-term memory Perceptions Thought processes Insight Judgment Affect Mood Expressive language Vocabulary Abstract thinking Intelligence (Slide 28)"
+    },
+    {
+      "id": "q_definition_30",
+      "slide": 30,
+      "question": "Which statement best describes Discuss self?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "help activities that the nurse can promote in a child with this disorder",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Discuss self: help activities that the nurse can promote in a child with this disorder (Slide 30)"
     },
     {
       "id": "q_definition_33",
       "slide": 33,
       "question": "Which statement best describes Symptoms can include?",
       "options": [
-        "Headache (manifested as fussiness in a toddler) Drowsiness Blurred vision Vomiti...",
-        "This is an outdated concept no longer taught",
         "This is not a recognized term in pediatric nursing",
-        "This only applies to adult patients, not children"
+        "Headache (manifested as fussiness in a toddler) Drowsiness Blurred vision Vomiti...",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught"
       ],
       "answer": [
-        1
+        2
       ],
-      "rationale": "Symptoms can include: Headache (manifested as fussiness in a toddler) Drowsiness Blurred vision Vomiting Dyspnea In severe cases, child may be completely unconscious (Slide 33)"
+      "rationale": "The correct answer is This only applies to adult patients, not children. Symptoms can include: Headache (manifested as fussiness in a toddler) Drowsiness Blurred vision Vomiting Dyspnea In severe cases, child may be completely unconscious (Slide 33)"
     },
     {
       "id": "q_definition_34",
@@ -70,43 +220,103 @@
       "options": [
         "This is an outdated concept no longer taught",
         "Injured Child Subtle clues to change can be missed unless the nurse performs agg...",
-        "This is not a recognized term in pediatric nursing",
-        "This only applies to adult patients, not children"
+        "This only applies to adult patients, not children",
+        "This is not a recognized term in pediatric nursing"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Brain: Injured Child Subtle clues to change can be missed unless the nurse performs aggressive assessment in looking for them (Slide 34)"
+    },
+    {
+      "id": "q_nursing_action_3",
+      "slide": 3,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Exclude family members from care decisions",
+        "cross imaginary line drawn from outer canthus of eye to the occiput",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients"
       ],
       "answer": [
         1
       ],
-      "rationale": "Brain: Injured Child Subtle clues to change can be missed unless the nurse performs aggressive assessment in looking for them (Slide 34)"
+      "rationale": "The correct answer is cross imaginary line drawn from outer canthus of eye to the occiput. cross imaginary line drawn from outer canthus of eye to the occiput. Family-centered, age-appropriate care is essential in pediatrics. (Slide 3)"
+    },
+    {
+      "id": "q_nursing_action_6",
+      "slide": 6,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "or parent can assess hearing response in an infant",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is Exclude family members from care decisions. or parent can assess hearing response in an infant. Family-centered, age-appropriate care is essential in pediatrics. (Slide 6)"
+    },
+    {
+      "id": "q_nursing_action_7",
+      "slide": 7,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "be taken at a time to ensure they are at their peak effect when needed",
+        "Exclude family members from care decisions",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is be taken at a time to ensure they are at their peak effect when needed. be taken at a time to ensure they are at their peak effect when needed. Family-centered, age-appropriate care is essential in pediatrics. (Slide 7)"
+    },
+    {
+      "id": "q_nursing_action_27",
+      "slide": 27,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "technology to encourage self-care and promote growth and development",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is Use the same approach as with adult patients. technology to encourage self-care and promote growth and development. Family-centered, age-appropriate care is essential in pediatrics. (Slide 27)"
     },
     {
       "id": "q_nursing_action_30",
       "slide": 30,
       "question": "When caring for pediatric patients, the nurse should:",
       "options": [
-        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "Use the same approach as with adult patients",
+        "parents to provide experiences that the child can be successful in",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Exclude family members from care decisions. parents to provide experiences that the child can be successful in. Family-centered, age-appropriate care is essential in pediatrics. (Slide 30)"
+    },
+    {
+      "id": "q_nursing_action_30",
+      "slide": 30,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
         "Use the same approach as with adult patients",
         "Exclude family members from care decisions",
-        "parents to provide experiences that the child can be successful in"
+        "Focus only on the child's physical symptoms",
+        "needs to obtain The child’s stage of maturation and ability Self-help "
       ],
       "answer": [
         1
       ],
-      "rationale": "parents to provide experiences that the child can be successful in. Family-centered, age-appropriate care is essential in pediatrics. (Slide 30)"
-    },
-    {
-      "id": "q_nursing_action_34",
-      "slide": 34,
-      "question": "When caring for pediatric patients, the nurse should:",
-      "options": [
-        "Focus only on the child's physical symptoms",
-        "Exclude family members from care decisions",
-        "Use the same approach as with adult patients",
-        "performs aggressive assessment in looking for them"
-      ],
-      "answer": [
-        2
-      ],
-      "rationale": "performs aggressive assessment in looking for them. Family-centered, age-appropriate care is essential in pediatrics. (Slide 34)"
+      "rationale": "The correct answer is Exclude family members from care decisions. needs to obtain The child’s stage of maturation and ability Self-help . Family-centered, age-appropriate care is essential in pediatrics. (Slide 30)"
     },
     {
       "id": "q_clinical_finding_4",
@@ -122,7 +332,23 @@
       "answer": [
         0
       ],
-      "rationale": "Tympanic membrane is normal Rule out the presence of a forei is a characteristic finding. Otitis Externa An acute infection of the external canal Often referred to as  sw... (Slide 4)"
+      "rationale": "The correct answer is Tympanic membrane is normal Rule out the presence of a forei. Tympanic membrane is normal Rule out the presence of a forei is a characteristic finding. Otitis Externa An acute infection of the external canal Often referred to as swi... (Slide 4)"
+    },
+    {
+      "id": "q_clinical_finding_9",
+      "type": "sata",
+      "slide": 9,
+      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
+      "options": [
+        "and symptoms that a child with dyslexia might exhibit",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is and symptoms that a child with dyslexia might exhibit. and symptoms that a child with dyslexia might exhibit is a characteristic finding. Dyslexia Reading disability Involves a defect in the cortex of the brain that pr... (Slide 9)"
     },
     {
       "id": "q_clinical_finding_12",
@@ -138,7 +364,7 @@
       "answer": [
         0
       ],
-      "rationale": "Inflammation Aching or burning Squinting Short attention spa is a characteristic finding. Eye Strain Symptoms Inflammation Aching or burning Squinting Short attention spa... (Slide 12)"
+      "rationale": "The correct answer is Inflammation Aching or burning Squinting Short attention spa. Inflammation Aching or burning Squinting Short attention spa is a characteristic finding. Eye Strain Symptoms Inflammation Aching or burning Squinting Short attention spa... (Slide 12)"
     },
     {
       "id": "q_clinical_finding_13",
@@ -154,23 +380,7 @@
       "answer": [
         0
       ],
-      "rationale": "include Itching Tearing of one or both eyes Edema of the eye is a characteristic finding. Conjunctivitis Inflammation of the conjunctiva or mucous membrane that lines the... (Slide 13)"
-    },
-    {
-      "id": "q_clinical_finding_15",
-      "type": "sata",
-      "slide": 15,
-      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
-      "options": [
-        "Yellowish white reflex is seen in the pupil because of a tum",
-        "Findings opposite to what was described",
-        "Signs only seen in adults",
-        "Symptoms that indicate immediate emergency"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Yellowish white reflex is seen in the pupil because of a tum is a characteristic finding. Retinoblastoma A malignant tumor of the retina Manifestations Yellowish white re... (Slide 15)"
+      "rationale": "The correct answer is include Itching Tearing of one or both eyes Edema of the eye. include Itching Tearing of one or both eyes Edema of the eye is a characteristic finding. Conjunctivitis Inflammation of the conjunctiva or mucous membrane that lines the... (Slide 13)"
     },
     {
       "id": "q_clinical_finding_16",
@@ -186,7 +396,39 @@
       "answer": [
         0
       ],
-      "rationale": "of increased intracranial pressure in a child is a characteristic finding. Lesson 23.2  Objectives Discuss the functions of the 12 cranial nerves and nursi... (Slide 16)"
+      "rationale": "The correct answer is of increased intracranial pressure in a child. of increased intracranial pressure in a child is a characteristic finding. Lesson 23.2 Objectives Discuss the functions of the 12 cranial nerves and nursin... (Slide 16)"
+    },
+    {
+      "id": "q_clinical_finding_19",
+      "type": "sata",
+      "slide": 19,
+      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
+      "options": [
+        "Ammonia accumulates in the blood because of liver involvemen",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is Ammonia accumulates in the blood because of liver involvemen. Ammonia accumulates in the blood because of liver involvemen is a characteristic finding. Reye’s Syndrome Acute noninflammatory encephalopathy and hepatopathy that follow... (Slide 19)"
+    },
+    {
+      "id": "q_clinical_finding_20",
+      "type": "sata",
+      "slide": 20,
+      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
+      "options": [
+        "and symptoms of multiorgan dysfunction syndrome? Manifestati",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is and symptoms of multiorgan dysfunction syndrome? Manifestati. and symptoms of multiorgan dysfunction syndrome? Manifestati is a characteristic finding. Sepsis Systemic response to infection with bacteria; also results from viral or ... (Slide 20)"
     },
     {
       "id": "q_clinical_finding_21",
@@ -202,7 +444,7 @@
       "answer": [
         0
       ],
-      "rationale": "If bacterial, symptoms are a result of intracranial irritati is a characteristic finding. Meningitis Manifestations If bacterial, symptoms are a result of intracranial ir... (Slide 21)"
+      "rationale": "The correct answer is If bacterial, symptoms are a result of intracranial irritati. If bacterial, symptoms are a result of intracranial irritati is a characteristic finding. Meningitis Manifestations If bacterial, symptoms are a result of intracranial ir... (Slide 21)"
     },
     {
       "id": "q_clinical_finding_22",
@@ -210,7 +452,7 @@
       "slide": 22,
       "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
       "options": [
-        "result from the CNS\u2019s response to irritation Headache follow",
+        "result from the CNS’s response to irritation Headache follow",
         "Findings opposite to what was described",
         "Signs only seen in adults",
         "Symptoms that indicate immediate emergency"
@@ -218,55 +460,7 @@
       "answer": [
         0
       ],
-      "rationale": "result from the CNS\u2019s response to irritation Headache follow is a characteristic finding. Encephalitis Inflammation of the brain Also known as  encephalomyelitis  when th... (Slide 22)"
-    },
-    {
-      "id": "q_clinical_finding_23",
-      "type": "sata",
-      "slide": 23,
-      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
-      "options": [
-        "and symptoms directly related to location and size of tumor ",
-        "Findings opposite to what was described",
-        "Signs only seen in adults",
-        "Symptoms that indicate immediate emergency"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "and symptoms directly related to location and size of tumor  is a characteristic finding. Brain Tumors Second most common type of neoplasm in children Most occur in lower... (Slide 23)"
-    },
-    {
-      "id": "q_clinical_finding_27",
-      "type": "sata",
-      "slide": 27,
-      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
-      "options": [
-        "Vary with each child May range from mild to severe Intellect",
-        "Findings opposite to what was described",
-        "Signs only seen in adults",
-        "Symptoms that indicate immediate emergency"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Vary with each child May range from mild to severe Intellect is a characteristic finding. Cerebral Palsy (CP)  Manifestations Vary with each child May range from mild to ... (Slide 27)"
-    },
-    {
-      "id": "q_clinical_finding_33",
-      "type": "sata",
-      "slide": 33,
-      "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
-      "options": [
-        "can include: Headache (manifested as fussiness in a toddler)",
-        "Findings opposite to what was described",
-        "Signs only seen in adults",
-        "Symptoms that indicate immediate emergency"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "can include: Headache (manifested as fussiness in a toddler) is a characteristic finding. Shaken Baby Syndrome Infants who are roughly shaken can sustain retinal, subarac... (Slide 33)"
+      "rationale": "The correct answer is result from the CNS’s response to irritation Headache follow. result from the CNS’s response to irritation Headache follow is a characteristic finding. Encephalitis Inflammation of the brain Also known as encephalomyelitis when the ... (Slide 22)"
     },
     {
       "id": "q_clinical_finding_36",
@@ -274,7 +468,7 @@
       "slide": 36,
       "question": "Which of the following are expected findings in CH 23 Peds neuro and sensory DOs? (Select all that apply.)",
       "options": [
-        "immediate treatment of  Hypoxia Aspiration Hypothermia  CNS ",
+        "immediate treatment of Hypoxia Aspiration Hypothermia CNS in",
         "Findings opposite to what was described",
         "Signs only seen in adults",
         "Symptoms that indicate immediate emergency"
@@ -282,67 +476,37 @@
       "answer": [
         0
       ],
-      "rationale": "immediate treatment of  Hypoxia Aspiration Hypothermia  CNS  is a characteristic finding. Near-Drowning Accidental or near-drowning is the fourth leading cause of death i... (Slide 36)"
+      "rationale": "The correct answer is immediate treatment of Hypoxia Aspiration Hypothermia CNS in. immediate treatment of Hypoxia Aspiration Hypothermia CNS in is a characteristic finding. Near-Drowning Accidental or near-drowning is the fourth leading cause of death i... (Slide 36)"
     },
     {
       "id": "q_treatment_2",
       "slide": 2,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "No treatment is available",
         "Observation only without intervention",
-        "of paralytic and nonparalytic strabismus",
-        "Treatment used only in adults"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "of paralytic and nonparalytic strabismus. Lesson 23.1  Objectives Define each key word listed. Discuss the prevention and ... (Slide 2)"
-    },
-    {
-      "id": "q_treatment_4",
-      "slide": 4,
-      "question": "What is the primary treatment approach for this pediatric condition?",
-      "options": [
         "Treatment used only in adults",
-        "Irrigation and topical antibiotics or antivirals4",
-        "No treatment is available",
-        "Observation only without intervention"
+        "of paralytic and nonparalytic strabismus",
+        "No treatment is available"
       ],
       "answer": [
-        3
+        2
       ],
-      "rationale": "Irrigation and topical antibiotics or antivirals4. Otitis Externa An acute infection of the external canal Often referred to as  sw... (Slide 4)"
+      "rationale": "The correct answer is of paralytic and nonparalytic strabismus. of paralytic and nonparalytic strabismus. Lesson 23.1 Objectives Define each key word listed. Discuss the prevention and t... (Slide 2)"
     },
     {
       "id": "q_treatment_10",
       "slide": 10,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "No treatment is available",
-        "Glasses, opaque contact lens, or patching the good eye  Forces the wea",
-        "Treatment used only in adults",
-        "Observation only without intervention"
-      ],
-      "answer": [
-        2
-      ],
-      "rationale": "Glasses, opaque contact lens, or patching the good eye  Forces the wea. Amblyopia Reduction or loss of vision that usually occurs in children who strong... (Slide 10)"
-    },
-    {
-      "id": "q_treatment_20",
-      "slide": 20,
-      "question": "What is the primary treatment approach for this pediatric condition?",
-      "options": [
         "Observation only without intervention",
-        "can lead to septic shock, multiorgan dysfunction syndrome (MODS), and ",
+        "Glasses, opaque contact lens, or patching the good eye Forces the weak",
         "Treatment used only in adults",
         "No treatment is available"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "can lead to septic shock, multiorgan dysfunction syndrome (MODS), and . Sepsis Systemic response to infection with bacteria; also results from viral or ... (Slide 20)"
+      "rationale": "The correct answer is Observation only without intervention. Glasses, opaque contact lens, or patching the good eye Forces the weak. Amblyopia Reduction or loss of vision that usually occurs in children who strong... (Slide 10)"
     },
     {
       "id": "q_treatment_25",
@@ -351,43 +515,58 @@
       "options": [
         "Determine type, site, or cause Multiple diagnostic techniques can be u",
         "Observation only without intervention",
-        "No treatment is available",
-        "Treatment used only in adults"
+        "Treatment used only in adults",
+        "No treatment is available"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "Determine type, site, or cause Multiple diagnostic techniques can be u. Seizure Diagnosis and Treatment Determine type, site, or cause Multiple diagnost... (Slide 25)"
+      "rationale": "The correct answer is Determine type, site, or cause Multiple diagnostic techniques can be u. Determine type, site, or cause Multiple diagnostic techniques can be u. Seizure Diagnosis and Treatment Determine type, site, or cause Multiple diagnost... (Slide 25)"
+    },
+    {
+      "id": "q_treatment_32",
+      "slide": 32,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Treatment used only in adults",
+        "No treatment is available",
+        "Observation only without intervention",
+        "examples of situations that could cause head injuries in the infant"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is No treatment is available. examples of situations that could cause head injuries in the infant. Head Injuries Major cause of death in children older than 1 year of age A concus... (Slide 32)"
     },
     {
       "id": "supp_0",
       "slide": 99,
       "question": "When caring for pediatric patients, the nurse should:",
       "options": [
+        "Treat all children the same as adults",
         "Exclude parents during procedures",
         "Focus only on the child's medical diagnosis",
-        "Treat all children the same as adults",
         "Include family in care decisions and use age-appropriate communication"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
+      "rationale": "The correct answer is Treat all children the same as adults. Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
     },
     {
       "id": "supp_1",
       "slide": 99,
       "question": "Pain assessment in non-verbal children uses:",
       "options": [
-        "Wong-Baker FACES (if verbal)",
         "Numeric rating scale (0-10)",
+        "Asking the child to describe pain",
         "FLACC scale (Face, Legs, Activity, Cry, Consolability)",
-        "Asking the child to describe pain"
+        "Wong-Baker FACES (if verbal)"
       ],
       "answer": [
-        0
+        1
       ],
-      "rationale": "FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
+      "rationale": "The correct answer is Asking the child to describe pain. FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
     },
     {
       "id": "supp_2",
@@ -395,224 +574,44 @@
       "question": "The most reliable indicator of pain in infants is:",
       "options": [
         "Vital signs",
-        "Parental report",
         "Self-report",
-        "Behavioral changes (crying, facial expression)"
+        "Behavioral changes (crying, facial expression)",
+        "Parental report"
       ],
       "answer": [
-        3
+        1
       ],
-      "rationale": "Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
+      "rationale": "The correct answer is Self-report. Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
     },
     {
       "id": "supp_3",
       "slide": 99,
       "question": "Which vital sign changes first in a deteriorating pediatric patient?",
       "options": [
-        "Heart rate",
-        "Temperature",
         "Respiratory rate",
-        "Blood pressure"
+        "Temperature",
+        "Blood pressure",
+        "Heart rate"
       ],
       "answer": [
         2
       ],
-      "rationale": "Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
+      "rationale": "The correct answer is Blood pressure. Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
     },
     {
       "id": "supp_4",
       "slide": 99,
       "question": "What is the correct pediatric CPR ratio?",
       "options": [
-        "30:2 for single rescuer, 15:2 for two rescuers",
-        "Same as adults",
         "15:1",
+        "Same as adults",
+        "30:2 for single rescuer, 15:2 for two rescuers",
         "30:1"
       ],
       "answer": [
-        2
-      ],
-      "rationale": "Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_5",
-      "slide": 99,
-      "question": "The leading cause of death in children over 1 year is:",
-      "options": [
-        "Congenital anomalies",
-        "Unintentional injuries",
-        "Cancer",
-        "Infection"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Unintentional injuries (drowning, MVAs, burns) are #1 cause of death in children >1 year. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_6",
-      "slide": 99,
-      "question": "When should car seats face rearward?",
-      "options": [
-        "Until age 2 or until child exceeds weight/height limits",
-        "Until age 4",
-        "Until age 8",
-        "Until age 1"
-      ],
-      "answer": [
-        2
-      ],
-      "rationale": "AAP: rear-facing until age 2 or until exceeding car seat limits. Then forward-facing with harness. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_7",
-      "slide": 99,
-      "question": "What is the recommended daily water intake for a 5-year-old?",
-      "options": [
-        "10 cups",
-        "1 cup",
-        "Unlimited",
-        "Approximately 5 cups (40 oz)"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Children 4-8 years: ~5 cups/day fluids. More with activity/heat. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_8",
-      "slide": 99,
-      "question": "Which is the best way to prevent childhood obesity?",
-      "options": [
-        "Weighing child weekly",
-        "Restricting all fats",
-        "Skipping meals",
-        "Healthy diet and regular physical activity"
-      ],
-      "answer": [
         1
       ],
-      "rationale": "Prevention: balanced diet, 60 min/day physical activity, limit screen time, family meals. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_9",
-      "slide": 99,
-      "question": "A child who is choking and cannot cough or speak needs:",
-      "options": [
-        "Back blows only",
-        "Nothing \u2014 wait",
-        "Abdominal thrusts (Heimlich)",
-        "CPR"
-      ],
-      "answer": [
-        2
-      ],
-      "rationale": "Choking: abdominal thrusts for conscious child >1 year. For infant: 5 back blows + 5 chest thrusts. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_10",
-      "slide": 99,
-      "question": "The safest car seat position for infants is:",
-      "options": [
-        "Rear-facing in the back seat",
-        "Front-facing in the back seat",
-        "Any position",
-        "Rear-facing in the front seat"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Infants: rear-facing until age 2 or until exceeding car seat limits. Back seat only. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_11",
-      "slide": 99,
-      "question": "When should children transition to a booster seat?",
-      "options": [
-        "When they outgrow forward-facing harness (typically 4-8 years)",
-        "At age 12",
-        "At age 2",
-        "Never"
-      ],
-      "answer": [
-        1
-      ],
-      "rationale": "Booster: when child exceeds forward-facing harness limits (~40-65 lbs). Until seat belt fits properly (usually 8-12 years). (Standard NCLEX)"
-    },
-    {
-      "id": "supp_12",
-      "slide": 99,
-      "question": "Drowning prevention includes:",
-      "options": [
-        "Fencing pools, close supervision, CPR training",
-        "Only fencing",
-        "Only supervision",
-        "Swim lessons only"
-      ],
-      "answer": [
-        3
-      ],
-      "rationale": "Drowning prevention: 4-sided fencing, constant supervision, CPR training, water safety education. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_13",
-      "slide": 99,
-      "question": "Lead poisoning prevention includes:",
-      "options": [
-        "Only screening",
-        "Hand washing, removing paint chips, iron-rich diet",
-        "Only supplements",
-        "Nothing"
-      ],
-      "answer": [
-        1
-      ],
-      "rationale": "Lead: hand washing, wet mopping, removing peeling paint, iron/calcium-rich diet. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_14",
-      "slide": 99,
-      "question": "Poison prevention: keep medications:",
-      "options": [
-        "Locked up and in original containers",
-        "On kitchen counter",
-        "In purse",
-        "In easy reach"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Poison prevention: locked cabinets, original containers, childproof caps, poison control number posted. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_15",
-      "slide": 99,
-      "question": "The leading cause of death in children 1-14 years is:",
-      "options": [
-        "Cancer",
-        "Unintentional injuries",
-        "Congenital anomalies",
-        "Infection"
-      ],
-      "answer": [
-        1
-      ],
-      "rationale": "Unintentional injuries (MVAs, drowning, burns, poisoning) are #1 cause of death in children. (Standard NCLEX)"
-    },
-    {
-      "id": "supp_16",
-      "slide": 99,
-      "question": "Bike helmet use should begin:",
-      "options": [
-        "When child starts riding a bike",
-        "At age 5",
-        "At age 10",
-        "Never needed"
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "Bike helmet: required for all ages. Proper fit: level on head, snug straps. (Standard NCLEX)"
+      "rationale": "The correct answer is Same as adults. Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
     },
     {
       "id": "q_matrix_development",
@@ -638,7 +637,7 @@
           "correct_col_idx": 2
         }
       ],
-      "rationale": "Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
+      "rationale": "The correct answer is Option 1. Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
     },
     {
       "id": "q_cloze_peds",
@@ -657,7 +656,7 @@
         "BLANK1": "age-appropriate",
         "BLANK2": "family"
       },
-      "rationale": "Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
+      "rationale": "The correct answer is Option 1. Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
     },
     {
       "id": "q_highlight_normal",
@@ -675,7 +674,7 @@
         "Growth follows expected percentiles",
         "engages with caregivers appropriately"
       ],
-      "rationale": "All are normal pediatric findings. (Slide 25)"
+      "rationale": "The correct answers are Option age-appropriate milestones1, Option Growth follows expected percentiles1, Option engages with caregivers appropriately1. All are normal pediatric findings. (Slide 25)"
     },
     {
       "id": "q_bowtie",
@@ -713,163 +712,7 @@
           "Parent education"
         ]
       },
-      "rationale": "Early identification and family support are key. (Slide 30)"
-    },
-    {
-      "id": "quizlet_lab_lead",
-      "question": "A 4-year-old has a blood lead level of 14 mcg/dL. What is the priority nursing action?",
-      "options": [
-        "No action needed, this is normal",
-        "Report to the provider and initiate lead exposure assessment",
-        "Administer chelation therapy immediately",
-        "Reassure parents this is expected"
-      ],
-      "answer": "Report to the provider and initiate lead exposure assessment",
-      "rationale": "Lead level \u22655 mcg/dL requires intervention. Assess home for lead sources (paint, pipes), teach handwashing, iron-rich diet. Chelation is for higher levels (\u226545 mcg/dL). (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_lab_sodium",
-      "question": "A child on high-dose prednisone has sodium of 150 mEq/L. What is the likely cause?",
-      "options": [
-        "Dehydration from vomiting",
-        "Medication side effect causing sodium retention",
-        "Kidney failure",
-        "Excessive salt intake"
-      ],
-      "answer": "Medication side effect causing sodium retention",
-      "rationale": "Corticosteroids like prednisone cause sodium retention and potassium loss. Monitor for edema, hypertension. Teach low-sodium diet if needed. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_lab_anc",
-      "question": "A child with acute lymphoblastic leukemia (ALL) has an absolute neutrophil count (ANC) of 400/mm\u00b3. What precaution is indicated?",
-      "options": [
-        "Standard precautions only",
-        "Neutropenic precautions (avoid crowds, hand hygiene, no fresh flowers)",
-        "Airborne isolation",
-        "Droplet precautions"
-      ],
-      "answer": "Neutropenic precautions (avoid crowds, hand hygiene, no fresh flowers)",
-      "rationale": "ANC <500 = severe neutropenia. Risk for opportunistic infection. Avoid crowds, sick contacts, raw foods, fresh flowers/plants, and use strict hand hygiene. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_med_ferrous",
-      "question": "How should ferrous sulfate be administered to maximize absorption?",
-      "options": [
-        "With milk to prevent stomach upset",
-        "With orange juice on an empty stomach",
-        "With a high-fiber meal",
-        "At bedtime only"
-      ],
-      "answer": "With orange juice on an empty stomach",
-      "rationale": "Vitamin C (ascorbic acid) in orange juice enhances iron absorption. Give on empty stomach if tolerated (or with small snack). Avoid calcium/milk which inhibits absorption. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_med_digoxin",
-      "question": "Before giving digoxin to an infant, the nurse should check:",
-      "options": [
-        "Respiratory rate",
-        "Apical pulse for 1 full minute",
-        "Blood pressure",
-        "Oxygen saturation"
-      ],
-      "answer": "Apical pulse for 1 full minute",
-      "rationale": "Hold digoxin if HR <60-100 bpm (age-dependent). Check apical pulse 1 full minute. Notify provider if below threshold. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_med_prednisone",
-      "question": "A child taking oral prednisone long-term should be monitored for:",
-      "options": [
-        "Hypotension and bradycardia",
-        "Hyperglycemia, weight gain, and infection risk",
-        "Constipation and dry skin",
-        "Decreased appetite"
-      ],
-      "answer": "Hyperglycemia, weight gain, and infection risk",
-      "rationale": "Corticosteroids cause sodium retention (edema), hyperglycemia, weight gain, moon face, increased infection risk, and can suppress growth. Monitor glucose and weight. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_dz_glomerulonephritis",
-      "question": "A child with acute post-streptococcal glomerulonephritis should follow which diet?",
-      "options": [
-        "High-protein, high-sodium",
-        "Low-sodium, fluid-restricted",
-        "High-fat, low-carb",
-        "No dietary restrictions"
-      ],
-      "answer": "Low-sodium, fluid-restricted",
-      "rationale": "Glomerulonephritis causes fluid retention, hypertension, edema. Low-sodium diet and fluid restriction help reduce edema and control BP. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_dz_jia",
-      "question": "A child with juvenile idiopathic arthritis (JIA) should use nighttime splints for:",
-      "options": [
-        "Only painful joints",
-        "Knees, wrists, and hands to maintain function and reduce pain",
-        "Only during flares",
-        "Never - splints worsen stiffness"
-      ],
-      "answer": "Knees, wrists, and hands to maintain function and reduce pain",
-      "rationale": "Night splinting of affected joints (knees, wrists, hands) reduces pain and maintains range of motion. Encourage ROM exercises during day. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_dz_croup",
-      "question": "A 2-year-old presents with barky cough, inspiratory stridor, and hoarseness. What is the first-line treatment?",
-      "options": [
-        "IV antibiotics",
-        "Cool mist and oral corticosteroids",
-        "Chest physiotherapy",
-        "Intubation"
-      ],
-      "answer": "Cool mist and oral corticosteroids",
-      "rationale": "Croup (laryngotracheobronchitis): viral inflammation of larynx/trachea. Cool mist humidifies airways, corticosteroids reduce edema. Racemic epinephrine for severe stridor. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_dz_rsv",
-      "question": "An infant with bronchiolitis (RSV) is admitted. What is the priority nursing intervention?",
-      "options": [
-        "Administer antibiotics",
-        "Provide humidified oxygen and nasal suctioning",
-        "Start chest physiotherapy",
-        "Isolate from other infants"
-      ],
-      "answer": "Provide humidified oxygen and nasal suctioning",
-      "rationale": "RSV bronchiolitis: supportive care. Infants are obligate nose breathers \u2014 suctioning clears secretions. Oxygen for hypoxemia. Hydration. Contact precautions. Antibiotics not indicated (viral). (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_pain_flacc",
-      "question": "Which pain scale is most appropriate for a 6-month-old nonverbal infant?",
-      "options": [
-        "Numeric 0-10",
-        "Wong-Baker FACES",
-        "FLACC (Face, Legs, Activity, Cry, Consolability)",
-        "Oucher scale"
-      ],
-      "answer": "FLACC (Face, Legs, Activity, Cry, Consolability)",
-      "rationale": "FLACC is validated for infants/young children who cannot self-report. Scores 0-2 in 5 categories. FACES for 3+ years, numeric for 8+ years. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_cultural_jehova",
-      "question": "An adolescent who is a Jehovah's Witness refuses a blood transfusion. What is the priority nursing action?",
-      "options": [
-        "Administer the transfusion anyway",
-        "Respect the refusal and notify the provider and parents",
-        "Call security",
-        "Transfer to another hospital"
-      ],
-      "answer": "Respect the refusal and notify the provider and parents",
-      "rationale": "Respect religious/cultural beliefs. Involve parents in discussion. Document refusal. Explore alternatives (erythropoietin, volume expanders). Ethics consultation if needed. (Quizlet: ATI CMS Peds Practice A)"
-    },
-    {
-      "id": "quizlet_immun_tdap",
-      "question": "An adolescent completed all immunizations through age 6. Which vaccine is needed now?",
-      "options": [
-        "No vaccines until age 18",
-        "Tdap booster",
-        "MMR only",
-        "Varicella only"
-      ],
-      "answer": "Tdap booster",
-      "rationale": "Tdap is recommended at age 11-12 (or catch-up). Also: MCV4, HPV series. Adolescents who completed DTaP through age 6 need Tdap booster. (Quizlet: ATI CMS Peds Practice A)"
+      "rationale": "The correct answer is Option 1. Early identification and family support are key. (Slide 30)"
     }
   ]
 }

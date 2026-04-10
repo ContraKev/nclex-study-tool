@@ -56,13 +56,13 @@
       "slide": 14,
       "question": "What is the primary treatment approach for this pediatric condition?",
       "options": [
-        "Observation only without intervention",
+        "No treatment is available",
         "Treatment used only in adults",
         "and Nursing Care Assorted medical and surgical treatments are currentl",
-        "No treatment is available"
+        "Observation only without intervention"
       ],
       "answer": [
-        0
+        3
       ],
       "rationale": "and Nursing Care Assorted medical and surgical treatments are currentl. General Treatment and Nursing Care Assorted medical and surgical treatments are ... (Slide 14)"
     },
@@ -71,10 +71,10 @@
       "slide": 99,
       "question": "What is the most common congenital heart defect?",
       "options": [
-        "Patent ductus arteriosus",
-        "Ventricular septal defect (VSD)",
         "Atrial septal defect",
-        "Tetralogy of Fallot"
+        "Ventricular septal defect (VSD)",
+        "Tetralogy of Fallot",
+        "Patent ductus arteriosus"
       ],
       "answer": [
         0
@@ -86,9 +86,9 @@
       "slide": 99,
       "question": "A child with a cyanotic heart defect presents with:",
       "options": [
+        "Yellowish skin",
         "Bluish skin, lips, nail beds",
         "Pallor",
-        "Yellowish skin",
         "Pink, well-perfused skin"
       ],
       "answer": [
@@ -107,7 +107,7 @@
         "Seizures"
       ],
       "answer": [
-        0
+        2
       ],
       "rationale": "Tet spells: acute cyanosis from increased R\u2192L shunting during stress. Knee-chest position, oxygen, morphine. (Standard NCLEX)"
     },
@@ -117,12 +117,12 @@
       "question": "The nurse should place a child in knee-chest position for:",
       "options": [
         "Heart failure",
-        "Rheumatic fever",
         "Kawasaki disease",
+        "Rheumatic fever",
         "Tet spells in Tetralogy of Fallot"
       ],
       "answer": [
-        0
+        3
       ],
       "rationale": "Knee-chest position increases systemic vascular resistance, decreasing R\u2192L shunt during cyanotic spells. (Standard NCLEX)"
     },
@@ -131,13 +131,13 @@
       "slide": 99,
       "question": "What is the priority assessment in a child with suspected Kawasaki disease?",
       "options": [
-        "Blood pressure",
         "Respiratory rate",
+        "Blood pressure",
         "Mucocutaneuos inflammation (strawberry tongue, rash, conjunctivitis)",
         "Heart murmur"
       ],
       "answer": [
-        2
+        0
       ],
       "rationale": "Kawasaki: fever \u22655 days + 4/5 criteria (rash, conjunctivitis, strawberry tongue, lymphadenopathy, extremity changes). Risk of coronary aneurysms. (Standard NCLEX)"
     },
@@ -147,9 +147,9 @@
       "question": "Rheumatic fever is caused by:",
       "options": [
         "Rheumatoid arthritis",
-        "Autoimmune disorder",
         "Group A Streptococcus infection",
-        "Viral infection"
+        "Viral infection",
+        "Autoimmune disorder"
       ],
       "answer": [
         0
@@ -161,13 +161,13 @@
       "slide": 99,
       "question": "What is the major complication of untreated strep throat?",
       "options": [
-        "Pneumonia",
         "Rheumatic fever and glomerulonephritis",
         "Meningitis",
+        "Pneumonia",
         "Sinusitis"
       ],
       "answer": [
-        1
+        2
       ],
       "rationale": "Untreated GAS \u2192 rheumatic fever (heart damage) or post-streptococcal glomerulonephritis. Treat with penicillin. (Standard NCLEX)"
     },
@@ -176,13 +176,13 @@
       "slide": 99,
       "question": "A child with heart failure presents with:",
       "options": [
-        "Hypertension and bradycardia",
         "Tachypnea, tachycardia, hepatomegaly, poor feeding",
+        "Fever and rash",
         "Seizures",
-        "Fever and rash"
+        "Hypertension and bradycardia"
       ],
       "answer": [
-        0
+        3
       ],
       "rationale": "HF in children: tachypnea, tachycardia, diaphoresis with feeding, hepatomegaly, weight gain (fluid). (Standard NCLEX)"
     },
@@ -191,13 +191,13 @@
       "slide": 99,
       "question": "What is the purpose of prostaglandin E1 in a newborn with duct-dependent lesion?",
       "options": [
-        "Keep ductus arteriosus open until surgery",
-        "Close the ductus",
         "Reduce heart rate",
-        "Lower pulmonary pressure"
+        "Lower pulmonary pressure",
+        "Close the ductus",
+        "Keep ductus arteriosus open until surgery"
       ],
       "answer": [
-        0
+        2
       ],
       "rationale": "PGE1 maintains PDA patency in duct-dependent lesions (HLHS, critical PS) until surgical intervention. (Standard NCLEX)"
     },
@@ -206,13 +206,13 @@
       "slide": 99,
       "question": "Digoxin is used in pediatric heart failure to:",
       "options": [
+        "Increase cardiac contractility and slow heart rate",
         "Prevent infection",
         "Reduce blood pressure",
-        "Dilate coronary arteries",
-        "Increase cardiac contractility and slow heart rate"
+        "Dilate coronary arteries"
       ],
       "answer": [
-        1
+        0
       ],
       "rationale": "Digoxin: positive inotrope, negative chronotrope. Monitor for toxicity (nausea, bradycardia, vision changes). (Standard NCLEX)"
     },
@@ -221,13 +221,13 @@
       "slide": 99,
       "question": "A VSD causes blood to shunt:",
       "options": [
-        "No shunting due to high LV pressure",
         "Increased left atrial pressure",
         "Right to left, decreased pulmonary flow, cyanosis",
-        "Left to right, increased pulmonary flow, no cyanosis"
+        "Left to right, increased pulmonary flow, no cyanosis",
+        "No shunting due to high LV pressure"
       ],
       "answer": [
-        2
+        3
       ],
       "rationale": "VSD: L\u2192R shunt (higher LV pressure) \u2192 increased pulmonary flow, no cyanosis. Acyanotic defect. (Quizlet Cardio)"
     },
@@ -236,13 +236,13 @@
       "slide": 99,
       "question": "Classic VSD finding on auscultation:",
       "options": [
-        "Loud, harsh murmur with systolic thrill at left sternal border",
         "BP higher in arms than legs",
         "Cyanosis when crying",
-        "Machinery-like murmur"
+        "Machinery-like murmur",
+        "Loud, harsh murmur with systolic thrill at left sternal border"
       ],
       "answer": [
-        3
+        0
       ],
       "rationale": "VSD: loud harsh systolic murmur + thrill at left sternal border. (Quizlet Cardio)"
     },
@@ -251,9 +251,9 @@
       "slide": 99,
       "question": "Coarctation of the aorta causes BP:",
       "options": [
-        "Lower in legs than arms",
         "Higher in legs than arms",
         "Equal in all extremities",
+        "Lower in legs than arms",
         "Only elevated in right arm"
       ],
       "answer": [
@@ -266,13 +266,13 @@
       "slide": 99,
       "question": "Which defects cause increased pulmonary blood flow?",
       "options": [
-        "PDA and ASD (left-to-right shunts)",
         "Pulmonary stenosis",
+        "PDA and ASD (left-to-right shunts)",
         "Coarctation of aorta",
         "TOF and tricuspid atresia"
       ],
       "answer": [
-        3
+        0
       ],
       "rationale": "PDA, ASD: L\u2192R shunts \u2192 increased pulmonary flow. TOF, tricuspid atresia: decreased flow. (Quizlet Cardio)"
     },
@@ -281,13 +281,13 @@
       "slide": 99,
       "question": "Manifestations of Tetralogy of Fallot include:",
       "options": [
-        "Only murmur",
-        "Hypertension, pallor",
         "Polycythemia, clubbing, FTT, murmur",
+        "Hypertension, pallor",
+        "Only murmur",
         "Normal growth"
       ],
       "answer": [
-        1
+        0
       ],
       "rationale": "TOF (decreased pulmonary flow): polycythemia, clubbing, FTT, systolic murmur. (Quizlet Cardio)"
     },
@@ -296,13 +296,13 @@
       "slide": 99,
       "question": "Kawasaki disease affects the:",
       "options": [
-        "Lungs",
         "Coronary arteries (risk of aneurysms)",
+        "Kidneys",
         "Brain only",
-        "Kidneys"
+        "Lungs"
       ],
       "answer": [
-        2
+        1
       ],
       "rationale": "Kawasaki: vasculitis \u2192 coronary aneurysms if untreated. IVIG + aspirin. (Standard NCLEX)"
     },
@@ -311,13 +311,13 @@
       "slide": 99,
       "question": "Rheumatic heart disease results from:",
       "options": [
-        "Untreated Group A strep infection",
-        "Viral infection",
         "Autoimmune disease",
+        "Viral infection",
+        "Untreated Group A strep infection",
         "Genetic defect"
       ],
       "answer": [
-        1
+        2
       ],
       "rationale": "Rheumatic fever \u2192 heart valve damage (especially mitral). Prevent with penicillin for strep. (Standard NCLEX)"
     },
@@ -341,13 +341,13 @@
       "slide": 99,
       "question": "Digoxin toxicity signs include:",
       "options": [
+        "Diarrhea only",
         "Tachycardia, hypertension",
         "Fever, rash",
-        "Nausea, bradycardia, vision changes (yellow halos)",
-        "Diarrhea only"
+        "Nausea, bradycardia, vision changes (yellow halos)"
       ],
       "answer": [
-        3
+        1
       ],
       "rationale": "Digoxin toxicity: GI (nausea, vomiting), cardiac (bradycardia), visual (halos). (Standard NCLEX)"
     },
@@ -356,13 +356,13 @@
       "slide": 99,
       "question": "Acyanotic heart defects include:",
       "options": [
+        "Tricuspid atresia",
         "TOF, transposition",
         "VSD, ASD, PDA, coarctation",
-        "Pulmonary atresia",
-        "Tricuspid atresia"
+        "Pulmonary atresia"
       ],
       "answer": [
-        2
+        3
       ],
       "rationale": "Acyanotic (L\u2192R): VSD, ASD, PDA, coarctation. Cyanotic (R\u2192L): TOF, transposition, tricuspid atresia. (Standard NCLEX)"
     }

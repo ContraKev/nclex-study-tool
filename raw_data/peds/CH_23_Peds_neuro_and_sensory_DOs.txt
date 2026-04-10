@@ -1,112 +1,835 @@
-=== CH_23_Peds_neuro_and_sensory_DOs ===
 
 === SLIDE 1 ===
-The  Child with a Sensory or Neurological Condition Chapter 23 Copyright © 2019, Elsevier Inc. All rights reserved.
+The  Child with a Sensory or Neurological Condition
+Chapter 23
+Copyright © 2019, Elsevier Inc. All rights reserved.
+
+=== NOTES ===
+Note: Italic words throughout are key terms.
 
 === SLIDE 2 ===
-Lesson 23.1  Objectives Define each key word listed. Discuss the prevention and treatment of ear infections. Outline the nursing approach to caring for the hearing-impaired child. Discuss the cause and treatment of amblyopia. Compare the treatment of paralytic and nonparalytic strabismus. Review the prevention of eyestrain in children. Copyright © 2019, Elsevier Inc. All rights reserved. 2
+Lesson 23.1 Objectives
+Define each key word listed.
+Discuss the prevention and treatment of ear infections.
+Outline the nursing approach to caring for the hearing-impaired child.
+Discuss the cause and treatment of amblyopia.
+Compare the treatment of paralytic and nonparalytic strabismus.
+Review the prevention of eyestrain in children.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+2
 
 === SLIDE 3 ===
-Ears Newborn Tympanic membrane almost horizontal More vascular Inconsistent light reflex Eustachian tube is shorter and straighter than in adult Eustachian tube functions Ventilation Protection Drainage  Copyright © 2019, Elsevier Inc. All rights reserved. 3
+Ears
+Newborn
+Tympanic membrane almost horizontal
+More vascular
+Inconsistent light reflex
+Eustachian tube is shorter and straighter than in adult
+
+
+Eustachian tube functions
+Ventilation
+Protection
+Drainage 
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+3
+
+=== NOTES ===
+Discuss the differences of the newborn’s ear versus an adult’s ear.
+Discuss how the eustachian tube functions.
+
+Contains the receptors of the eighth cranial (acoustic) nerve
+Two main functions
+Hearing
+Balance
+Three divisions
+External
+Middle
+Internal
+
+Ear alignment is observed.
+Top of ear should cross imaginary line drawn from outer canthus of eye to the occiput.
+Low-set ears may be associated with kidney disorders.
+
+Demonstrate how to measure ear alignment.
+What is the significance of ear alignment?
+
+Before instilling ear drops in infants, gently pull the pinna of the ear down and back.
+In children, gently pull the pinna of the ear up and back to straighten the external auditory canal.
 
 === SLIDE 4 ===
-Otitis Externa An acute infection of the external canal Often referred to as  swimmer’s   ear Pain and tenderness on manipulating the pinna or tragus Signs Tympanic membrane is normal Rule out the presence of a foreign body, cellulitis, diabetes mellitus, or herpes zoster  Treatment Irrigation and topical antibiotics or antivirals Copyright © 2019, Elsevier Inc. All rights reserved. 4
+Otitis Externa
+An acute infection of the external canal
+Often referred to as swimmer’s ear
+Pain and tenderness on manipulating the pinna or tragus
+Signs
+Tympanic membrane is normal
+Rule out the presence of a foreign body, cellulitis, diabetes mellitus, or herpes zoster 
+Treatment
+Irrigation and topical antibiotics or antivirals
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+4
+
+=== NOTES ===
+Discuss the instillation of a wick after instilling drops.
 
 === SLIDE 5 ===
-Acute Otitis Media Pathophysiology Inflammation of the middle ear Structures lined by mucous membranes Mastoid sinuses Middle ear Eustachian tube Protects middle ear Provides drainage Equalizes air pressure Infection of the throat can easily spread to the middle ear and mastoid. Copyright © 2019, Elsevier Inc. All rights reserved. 5
+Acute Otitis Media
+Pathophysiology
+Inflammation of the middle ear
+Structures lined by mucous membranes
+Mastoid sinuses
+Middle ear
+Eustachian tube
+Protects middle ear
+Provides drainage
+Equalizes air pressure
+Infection of the throat can easily spread to the middle ear and mastoid.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+5
+
+=== NOTES ===
+Occurs most often after upper respiratory infection.
+Caused by various microorganisms, such as Streptococcal pneumoniae and Haemophilus influenzae.
+Infants more prone because of ear anatomy.
+Infant’s humoral defense mechanisms are immature.
+
+What is the reason for increased incidence of OM in infants versus older children?
+
+Manifestations
+Tympanic membrane is reddened and bulging
+Eardrum can rupture if an abscess forms
+OM is considered chronic if the condition persists for more than 3 months.
+
+Treatment
+Broad-spectrum antibiotics
+Eardrops—to instill, pull pinna down and back for infants; for children, pull the pinna up and back
+Surgical intervention when conventional methods are not successful
+
+Which surgical procedures would assist in treating chronic OM?
+What nursing interventions should be implemented if the tympanic membrane ruptures?
 
 === SLIDE 6 ===
-Hearing Impairment  Hearing loss can result from  Defects in the transmission of sound to the middle ear Damage to the auditory nerve or ear structures A mixed loss involving both a defect in nerve pathways and interference with sound transmission Behavior problems may arise because these children do not understand verbal directions. Copyright © 2019, Elsevier Inc. All rights reserved. 6
+Hearing Impairment 
+Hearing loss can result from 
+Defects in the transmission of sound to the middle ear
+Damage to the auditory nerve or ear structures
+A mixed loss involving both a defect in nerve pathways and interference with sound transmission
+Behavior problems may arise because these children do not understand verbal directions.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+6
+
+=== NOTES ===
+Discuss how chronic ear infections could cause hearing impairment.
+Discuss how cerumen can safely be removed from the ear canal.
+
+What behaviors might a child with hearing impairment exhibit?
+
+Can affect speech, language, social and emotional development, behavior, and academic achievement
+Two types: congenital deafness or acquired
+Can acquire it from common colds, medications, exposure to loud noise levels, certain infectious diseases
+Hearing loss can also be from cerumen (earwax) accumulation or from a foreign body being inserted in the ear canal.
+
+Diagnosis
+Routine newborn hearing screens are performed before discharge.
+Lack of a response by the infant to sounds or music or the lack of a startle reflex in infants younger than 4 months of age are the first signs that a hearing impairment may exist.
+Medical or surgical treatment
+Hearing aids
+Cochlear implants
+
+Give an example of situations in which a nurse or parent can assess hearing response in an infant.
+Discuss the method of insertion and function of cochlear implants.
+
+Nursing Care
+Some means of communicating with the hearing-impaired include
+Lip reading, sign language, writing, visual aids
+Body language communicates a lot.
+
+What are examples of visual aids that could enhance communication?
+Give examples of body language that an infant and toddler could understand.
 
 === SLIDE 7 ===
-Barotrauma An injury that occurs when the pressure in the atmosphere between a closed space and the surrounding area changes Airplane descent Underwater diving Copyright © 2019, Elsevier Inc. All rights reserved. 7
+Barotrauma
+An injury that occurs when the pressure in the atmosphere between a closed space and the surrounding area changes
+Airplane descent
+Underwater diving
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+7
+
+=== NOTES ===
+Yawning, chewing gum, or sucking on a bottle will help prevent this from occurring when descending in an airplane. 
+Decongestants can also be taken but must be taken at a time to ensure they are at their peak effect when needed for descent. 
+Discuss how underwater diving can cause organisms to migrate to the middle ear because of the pressure.
+Descent should be slow to allow for equalization of pressure. 
+Sensory hearing loss and vertigo with nausea and vomiting may be early signs of decompression sickness when it occurs during the ascent phase of diving. 
+Diver should be referred for medical care.
 
 === SLIDE 8 ===
-The Eyes Begin to develop in a 4-week-old embryo Newborn sight is not mature. Shape of eye is less spherical in a newborn. Tears are not present until 1 to 3 months of age. Depth perception does not begin to develop until about 9 months of age. Copyright © 2019, Elsevier Inc. All rights reserved. 8
+The Eyes
+Begin to develop in a 4-week-old embryo
+Newborn sight is not mature.
+Shape of eye is less spherical in a newborn.
+Tears are not present until 1 to 3 months of age.
+Depth perception does not begin to develop until about 9 months of age.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+8
+
+=== NOTES ===
+Discuss how objects might appear to a newborn.
+Discuss depth perception.
+
+Visual Acuity Tests
+The ability of an infant to fixate and focus on an object can be demonstrated by 6 weeks of age.
+The object should not emit a sound.
+Testing should begin at 2 to 3 years of age.
 
 === SLIDE 9 ===
-Dyslexia Reading disability Involves a defect in the cortex of the brain that processes graphic symbols Treatment involves remedial instruction Copyright © 2019, Elsevier Inc. All rights reserved. 9
+Dyslexia
+Reading disability
+Involves a defect in the cortex of the brain that processes graphic symbols
+Treatment involves remedial instruction
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+9
+
+=== NOTES ===
+Discuss signs and symptoms that a child with dyslexia might exhibit.
+How could remedial instruction assist a child with dyslexia?
 
 === SLIDE 10 ===
-Amblyopia Reduction or loss of vision that usually occurs in children who strongly favor one eye Treatment Glasses, opaque contact lens, or patching the good eye  Forces the weaker eye to be used Copyright © 2019, Elsevier Inc. All rights reserved. 10
+Amblyopia
+Reduction or loss of vision that usually occurs in children who strongly favor one eye
+Treatment
+Glasses, opaque contact lens, or patching the good eye 
+Forces the weaker eye to be used
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+10
+
+=== NOTES ===
+Discuss strabismus.
+When abnormal binocular interaction occurs (in strabismus), the prognosis depends on how long the eye has been affected and the age of the child when treatment begins. 
+Occurs as a result of sensory deprivation of the affected eye; children are at risk for developing the problem until visual stability occurs, usually around 9 years of age
+Discuss the nurse’s role in assisting the child and family with this disorder.
 
 === SLIDE 11 ===
-Strabismus Also known as  cross-eye Child is not able to direct both eyes in same direction Lack of coordination between the eye muscles that direct movement of the eyes When coordination does not occur, the brain will disable one eye to provide a clear image. The disabled eye can develop permanent visual impairment because of sensory deprivation. Several types: nonparalytic and paralytic Copyright © 2019, Elsevier Inc. All rights reserved. 11
+Strabismus
+Also known as cross-eye
+Child is not able to direct both eyes in same direction
+Lack of coordination between the eye muscles that direct movement of the eyes
+When coordination does not occur, the brain will disable one eye to provide a clear image.
+The disabled eye can develop permanent visual impairment because of sensory deprivation.
+Several types: nonparalytic and paralytic
+Copyright © 2019, Elsevier Inc. All rights reserved.
+11
+
+=== NOTES ===
+Treatment for Nonparalytic Strabismus 
+If found in infancy, parents are instructed to patch the unaffected eye because it may improve through use.
+Glasses and eye exercises usually correct the problem.
+Surgery if neither of the above works
 
 === SLIDE 12 ===
-Eye Strain Symptoms Inflammation Aching or burning Squinting Short attention span Frequent headaches Difficulties with schoolwork Inability to see the board at the front of the class Nursing interventions Observe Teach Prevent Refer Rehabilitate Copyright © 2019, Elsevier Inc. All rights reserved. 12
+Eye Strain
+Symptoms
+Inflammation
+Aching or burning
+Squinting
+Short attention span
+Frequent headaches
+Difficulties with schoolwork
+Inability to see the board at the front of the class
+Nursing interventions
+Observe
+Teach
+Prevent
+Refer
+Rehabilitate
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+12
 
 === SLIDE 13 ===
-Conjunctivitis Inflammation of the conjunctiva or mucous membrane that lines the eyelids Caused by a variety of bacterial and viral organisms or from a blocked lacrimal duct Acute form is commonly called  pink eye Common forms respond to warm compresses, topical antibiotic eye drops, or eye ointments. Symptoms include Itching Tearing of one or both eyes Edema of the eyelids and periorbital tissues  Child may appear distracted or irritable Copyright © 2019, Elsevier Inc. All rights reserved. 13
+Conjunctivitis
+Inflammation of the conjunctiva or mucous membrane that lines the eyelids
+Caused by a variety of bacterial and viral organisms or from a blocked lacrimal duct
+Acute form is commonly called pink eye
+Common forms respond to warm compresses, topical antibiotic eye drops, or eye ointments.
+Symptoms include
+Itching
+Tearing of one or both eyes
+Edema of the eyelids and periorbital tissues 
+Child may appear distracted or irritable
+
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+13
+
+=== NOTES ===
+What is the rationale for warm compresses?
 
 === SLIDE 14 ===
-Hyphema Presence of blood in the anterior chamber of the eye One of the most common ocular injuries Appears as a bright-red or dark-red spot in front of the lower portion of the iris Treatment Bedrest with HOB elevated 30 to 45 degrees decreases intraocular pressure and intracranial pressure if there is an associated head injury. Topical medications may also be prescribed. Copyright © 2019, Elsevier Inc. All rights reserved. 14
+Hyphema
+Presence of blood in the anterior chamber of the eye
+One of the most common ocular injuries
+Appears as a bright-red or dark-red spot in front of the lower portion of the iris
+Treatment
+Bedrest with HOB elevated 30 to 45 degrees decreases intraocular pressure and intracranial pressure if there is an associated head injury.
+Topical medications may also be prescribed.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+14
+
+=== NOTES ===
+In what situations could a child experience an eye injury?
 
 === SLIDE 15 ===
-Retinoblastoma A malignant tumor of the retina Manifestations Yellowish white reflex is seen in the pupil because of a tumor behind the lens Called the cat’s eye reflex or leukokoria May be accompanied by loss of vision, strabismus, hyphema, and in advanced tumors, pain Copyright © 2019, Elsevier Inc. All rights reserved. 15
+Retinoblastoma
+A malignant tumor of the retina
+Manifestations
+Yellowish white reflex is seen in the pupil because of a tumor behind the lens
+Called the cat’s eye reflex or leukokoria
+May be accompanied by loss of vision, strabismus, hyphema, and in advanced tumors, pain
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+15
+
+=== NOTES ===
+Describe the cat’s eye reflex.
+Treatment
+Laser photocoagulation
+Chemotherapy
+External-beam irradiation
+Usually removal of the affected eye if no possibility exists to save the vision
 
 === SLIDE 16 ===
-Lesson 23.2  Objectives Discuss the functions of the 12 cranial nerves and nursing interventions for dysfunction. Describe the components of a “neurological check.” Discuss neurological monitoring of infants and children. Outline the prevention, treatment, and nursing care for the child with Reye’s syndrome. Discuss the symptoms of meningitis in a child.  Describe signs of increased intracranial pressure in a child. Discuss the various types of seizures and the nursing responsibilities. Copyright © 2019, Elsevier Inc. All rights reserved. 16
+Lesson 23.2 Objectives
+Discuss the functions of the 12 cranial nerves and nursing interventions for dysfunction.
+Describe the components of a “neurological check.”
+Discuss neurological monitoring of infants and children.
+Outline the prevention, treatment, and nursing care for the child with Reye’s syndrome.
+Discuss the symptoms of meningitis in a child. 
+Describe signs of increased intracranial pressure in a child.
+Discuss the various types of seizures and the nursing responsibilities.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+16
 
 === SLIDE 17 ===
-The Nervous System The body’s communication center Transmits messages to all parts of the body Records experiences Integrates certain stimuli Most neurologic disabilities in childhood result from congenital malformation, brain injury, or infection. Copyright © 2019, Elsevier Inc. All rights reserved. 17
+The Nervous System
+The body’s communication center
+Transmits messages to all parts of the body
+Records experiences
+Integrates certain stimuli
+Most neurologic disabilities in childhood result from congenital malformation, brain injury, or infection.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+17
 
 === SLIDE 18 ===
-Causes of Altered Level of Consciousness (ALOC) A fall to 60 mm Hg, or below, of PaCO 2 A rise above 45 mm Hg of PaCO 2 Low blood pressure causing cerebral hypoxia Fever (1° F rise in fever increases oxygen need by 10%) Drugs (sedatives, antiepileptics) Seizures (postictal state) Increased  intracranial pressure (ICP) Copyright © 2019, Elsevier Inc. All rights reserved. 18
+Causes of Altered Level of Consciousness (ALOC)
+A fall to 60 mm Hg, or below, of PaCO2
+A rise above 45 mm Hg of PaCO2
+Low blood pressure causing cerebral hypoxia
+Fever (1° F rise in fever increases oxygen need by 10%)
+Drugs (sedatives, antiepileptics)
+Seizures (postictal state)
+Increased intracranial pressure (ICP)
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+18
+
+=== NOTES ===
+Discuss the pathophysiology that causes ALOC in the postictal state.
 
 === SLIDE 19 ===
-Reye’s Syndrome Acute noninflammatory encephalopathy and hepatopathy that follows a viral infection in children May be a relationship between the use of aspirin during a viral flu or illness Some studies show that a genetic metabolic defect triggers Reye syndrome when the stress of a viral illness produces vomiting and hypoglycemia. Copyright © 2019, Elsevier Inc. All rights reserved. 19
+Reye’s Syndrome
+Acute noninflammatory encephalopathy and hepatopathy that follows a viral infection in children
+May be a relationship between the use of aspirin during a viral flu or illness
+Some studies show that a genetic metabolic defect triggers Reye syndrome when the stress of a viral illness produces vomiting and hypoglycemia.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+19
+
+=== NOTES ===
+Manifestations
+Ammonia accumulates in the blood because of liver involvement.
+In children, effortless vomiting and altered behavior, or ALOC after a viral illness, are characteristic of Reye’s syndrome
+Toxic levels of ammonia cause cerebral manifestations, such as ALOC, behavioral changes, seizures, and coma.
+
+Treatment
+If early, can result in complete recovery
+Goals are
+Reducing ICP
+Maintaining a patent airway
+Cerebral oxygenation
+Fluid and electrolyte balance
+Observe for signs of bleeding caused by liver dysfunction.
+
+Discuss methods to maintain a patent airway.
+Discuss typical diagnostic and routine labs to obtain for a child with this condition.
 
 === SLIDE 20 ===
-Sepsis Systemic response to infection with bacteria; also results from viral or fungal infections Causes a systemic inflammatory response syndrome (SIRS) due to the endotoxin of the bacteria that causes tissue damage Untreated can lead to septic shock, multiorgan dysfunction syndrome (MODS), and death Copyright © 2019, Elsevier Inc. All rights reserved. 20
+Sepsis
+Systemic response to infection with bacteria; also results from viral or fungal infections
+Causes a systemic inflammatory response syndrome (SIRS) due to the endotoxin of the bacteria that causes tissue damage
+Untreated can lead to septic shock, multiorgan dysfunction syndrome (MODS), and death
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+20
+
+=== NOTES ===
+What are signs and symptoms of multiorgan dysfunction syndrome?
+
+Manifestations include
+Fever
+Chills
+Tachypnea
+Tachycardia
+Neurological signs, such as lethargy
+
+In infants, septic shock is not diagnosed by a decrease in BP because initially the infant’s body compensates for the poor circulation and tissue perfusion by increasing the heart rate and vasoconstriction of peripheral blood vessels. 
+Hypotension in an infant is an ominous sign that may indicate the body is no longer able to compensate adequately and cardiorespiratory arrest is about to occur.
 
 === SLIDE 21 ===
-Meningitis Manifestations If bacterial, symptoms are a result of intracranial irritation from the purulent toxins released by the bacteria The presence of petechiae suggests meningococcal infection. Copyright © 2019, Elsevier Inc. All rights reserved. 21
+Meningitis
+Manifestations
+If bacterial, symptoms are a result of intracranial irritation from the purulent toxins released by the bacteria
+The presence of petechiae suggests meningococcal infection.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+21
+
+=== NOTES ===
+An inflammation of the meninges (the covering of the brain and spinal cord)
+Caused by bacterial, viral, or fungal (rare in immune-competent person) infection, Haemophilus influenzae most common
+Invades the meninges indirectly by way of the bloodstream (sepsis)
+Bacterial meningitis often referred to as purulent because of pus forming that can occur
+
+What methods help prevent or limit a child’s exposure to these organisms?
+Peak incidence for bacterial meningitis is 6 to 12 months of age. 
+Less common in children older than 4 years of age
+
+Symptoms
+Severe headache
+Drowsiness
+Delirium
+Irritability
+Restlessness
+Fever
+Vomiting
+Stiffness of the neck (nuchal rigidity)
+High-pitched cry in infants
+Seizures are common
+Coma may occur
+Discuss the pathophysiology behind the signs and symptoms.
+
+Diagnosis confirmed by examination of the CSF
+Treatment
+The child is placed in droplet isolation until 24 hours after the appropriate antimicrobials have been initiated.
+Nursing care
+Neurologic checks as ordered by physician
+Report findings such as weakness of the limbs, speech difficulties, mental confusion, and behavior problems
+Maintain accurate recording of vital signs and intake and output.
+Maintain a quiet environment to help decrease stimuli.
+
+Discuss neurologic assessment.
+What is the rationale of decreasing environmental stimuli?
 
 === SLIDE 22 ===
-Encephalitis Inflammation of the brain Also known as  encephalomyelitis  when the spinal cord is also infected Symptoms result from the CNS’s response to irritation Headache followed by drowsiness May proceed to coma Convulsions are seen, especially in infants Fever, cramps, abdominal pain, vomiting, nuchal rigidity, delirium, muscle twitching, abnormal eye movements Copyright © 2019, Elsevier Inc. All rights reserved. 22
+Encephalitis
+Inflammation of the brain
+Also known as encephalomyelitis when the spinal cord is also infected
+Symptoms result from the CNS’s response to irritation
+Headache followed by drowsiness
+May proceed to coma
+Convulsions are seen, especially in infants
+Fever, cramps, abdominal pain, vomiting, nuchal rigidity, delirium, muscle twitching, abnormal eye movements
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+22
+
+=== NOTES ===
+Discuss the difference between meningitis and encephalitis.
+
+Treatment
+Supportive
+Provide relief from specific symptoms.
+Sedatives and antipyretics may be ordered.
+Seizure precautions are taken.
+Provide for adequate fluid and nutrition.
+Supplemental oxygen may be needed.
+
+Discuss nursing interventions that are supportive and relieve symptoms.
+What are some examples of seizure precautions?
 
 === SLIDE 23 ===
-Brain Tumors Second most common type of neoplasm in children Most occur in lower part of the brain and commonly in school-age children Signs and symptoms directly related to location and size of tumor Diagnosis is made by clinical presentation, laboratory tests, head CT or MRI, EEG Surgical intervention in some cases; chemotherapy and/or radiation therapy in others Copyright © 2019, Elsevier Inc. All rights reserved. 23
+Brain Tumors
+Second most common type of neoplasm in children
+Most occur in lower part of the brain and commonly in school-age children
+Signs and symptoms directly related to location and size of tumor
+Diagnosis is made by clinical presentation, laboratory tests, head CT or MRI, EEG
+Surgical intervention in some cases; chemotherapy and/or radiation therapy in others
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+23
+
+=== NOTES ===
+Discuss nystagmus and papilledema.
+
+Discuss signs and symptoms: 
+ICP
+Headache
+Vomiting
+Drowsiness
+Seizures
+Nystagmus
+Strabismus
+Papilledema
+Ataxia
+Head tilt
+Behavioral changes
+In infants, cerebral enlargement
 
 === SLIDE 24 ===
-Types of Seizures Febrile Epilepsy Classified as Generalized Tonic-clonic or grand mal Three distinct phases Partial Account for 40% Consciousness may be intact or slightly impaired Can have simple or complex seizures Copyright © 2019, Elsevier Inc. All rights reserved. 24
+Types of Seizures
+Febrile
+Epilepsy
+Classified as
+Generalized
+Tonic-clonic or grand mal
+Three distinct phases
+Partial
+Account for 40%
+Consciousness may be intact or slightly impaired
+Can have simple or complex seizures
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+24
+
+=== NOTES ===
+Discuss and give examples of the difference between generalized and partial seizures.
+Describe the three phases of generalized seizures.
+Aura
+Tonic-clonic seizure
+Postictal
+
+Most commonly observed neurologic dysfunction in children
+Etiology varies
+Sudden, intermittent episodes of ALOC that last seconds to minutes and may include involuntary tonic and clonic movements
+
+Intracranial
+Epilepsy
+Congenital anomaly
+Birth injury
+Infection
+Trauma
+Degenerative disease
+Vascular disorder
+
+Extracranial
+Fever
+Heart disease
+Metabolic disorders
+Hypocalcemia
+Hypoglycemia
+Dehydration and malnutrition
+
+Toxic
+Anesthetics
+Drugs
+Poisons
+With which potential drugs and poisons might a child come into contact?
 
 === SLIDE 25 ===
-Seizure Diagnosis and Treatment Determine type, site, or cause Multiple diagnostic techniques can be used CT/MRI, EEG Laboratory tests to rule out poisoning or electrolyte abnormalities Drug of choice depends on the type of seizure. Diet changes may be needed for patients who do not respond well to anticonvulsants. Copyright © 2019, Elsevier Inc. All rights reserved. 25
+Seizure Diagnosis and Treatment
+Determine type, site, or cause
+Multiple diagnostic techniques can be used
+CT/MRI, EEG
+Laboratory tests to rule out poisoning or electrolyte abnormalities
+Drug of choice depends on the type of seizure.
+Diet changes may be needed for patients who do not respond well to anticonvulsants.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+25
+
+=== NOTES ===
+Discuss the nurse’s role regarding medications: 
+Drowsiness is a common side effect.
+Take medications at same time every day.
+Do not stop drug suddenly because it can cause status epilepticus (prolonged seizures).
+
+Discuss the nurse’s role regarding diet: 
+Ketogenic diet—high in fats and low in carbohydrates—produces ketoacidosis, which appears to reduce convulsive episodes
 
 === SLIDE 26 ===
-Lesson 23.3  Objectives Describe four types of cerebral palsy and the nursing goals involved in care. Formulate a nursing care plan for the child with a decreased level of consciousness. Prepare a plan for success in the care of intellectually or developmentally disabled child. Copyright © 2019, Elsevier Inc. All rights reserved. 26
+Lesson 23.3 Objectives
+Describe four types of cerebral palsy and the nursing goals involved in care.
+Formulate a nursing care plan for the child with a decreased level of consciousness.
+Prepare a plan for success in the care of intellectually or developmentally disabled child.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+26
+
+=== NOTES ===
+Other conditions causing decreased level of consciousness
 
 === SLIDE 27 ===
-Cerebral Palsy (CP)  Manifestations Vary with each child May range from mild to severe Intellectual and developmental disabilities sometimes seen Suspected during infancy if  There are feeding problems. Convulsions not associated with high fevers Developmental milestones are not being achieved at expected age level. Copyright © 2019, Elsevier Inc. All rights reserved. 27
+Cerebral Palsy (CP) 
+Manifestations
+Vary with each child
+May range from mild to severe
+Intellectual and developmental disabilities sometimes seen
+Suspected during infancy if 
+There are feeding problems.
+Convulsions not associated with high fevers
+Developmental milestones are not being achieved at expected age level.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+27
+
+=== NOTES ===
+A group of motor disorders caused by dysfunction of various motor centers in the brain and often related to antenatal or developmental factors
+Can be precipitated by many factors, such as birth injuries, congenital anomalies, neonatal anoxia, prematurity, subdural hemorrhage, and prenatal infection
+
+Discuss precipitating factors and the pathophysiology which contributes to CP.
+
+Can be mistaken for seizures because of the paroxysmal ALOC
+These conditions do not respond to antiepileptic medications
+Conditions are
+Benign paroxysmal vertigo
+Night terrors
+Breath-holding spells
+Cough syncope
+Prolonged QT syndrome
+Rage attacks or episodic dyscontrol syndrome
+
+Give examples of mild and severe forms.
+What milestones might be delayed for an infant and toddler with this condition?
+
+Treatment of CP
+Botulinum toxin has been used to manage spasticity problems
+Levodopa has helped to control some of the athetoid problems
+Specific treatment is highly individualized.
+Good skin care is essential.
+All precautions taken to prevent contractures.
+Braces are often used to treat these.
+Orthopedic surgery is sometimes indicated.
+
+Discuss the pathophysiology regarding botulinum toxin to manage spasticity.
+Discuss criteria which would provide a supportive environment for a child with CP.
+
+Treatment Protocol for CP
+Establish communication.
+Establish locomotion.
+Use and optimize existing motor functions.
+Provide intellectual stimulation.
+Promote socialization.
+Provide technology to encourage self-care and promote growth and development.
+Provide multidisciplinary approach to care.
 
 === SLIDE 28 ===
-Cognitive Impairment Elements involved in mental functioning Level of consciousness Thought processes Expressive language Copyright © 2019, Elsevier Inc. All rights reserved. 28
+Cognitive Impairment
+Elements involved in mental functioning
+Level of consciousness
+Thought processes
+Expressive language
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+28
+
+=== NOTES ===
+What is the typical IQ of a child with intellectual and developmental disabilities?
+Discuss the particular aspects of each element involved in mental functioning. 
+Level of consciousness
+Attention
+Short-term memory
+Long-term memory
+Perceptions
+Thought processes
+Insight 
+Judgment
+Affect
+Mood
+Expressive language
+Vocabulary
+Abstract thinking
+            Intelligence
 
 === SLIDE 29 ===
-Intellectual Impairment  Limitations in at least two of the following Communication Self-care Home living Social skills Community use Self-direction Health and safety Functional academics Leisure Work  Copyright © 2019, Elsevier Inc. All rights reserved. 29
+Intellectual Impairment 
+Limitations in at least two of the following
+Communication
+Self-care
+Home living
+Social skills
+Community use
+Self-direction
+Health and safety
+Functional academics
+Leisure
+Work 
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+29
+
+=== NOTES ===
+Discuss the Stanford-Binet test.
+The American Association on Intellectual and Developmental Disabilities (AAIDD): 
+Mild or severe 
+IQ below 70
+Numerous test to measure intelligence
+Stanford-Binet
+All tests have limitations.
+Accuracy depends on abilities of the person interpreting the results.
+
+Some causes of intellectual impairment
+
+Neonatal period
+PKU
+Hypothyroidism
+Fetal alcohol syndrome
+Down syndrome
+Malformations of the brain
+Maternal infections
+Birth injuries or anoxia during or shortly after delivery
+
+Discuss the pathophysiology regarding these causes.
+
+Heredity
+During childhood
+Meningitis
+Lead poisoning
+Neoplasms
+Encephalitis
+Living in a physically or emotionally deprived environment 
+
+Discuss the pathophysiology regarding these causes.
 
 === SLIDE 30 ===
-Approach to the Intellectually Impaired Child Teach parents to provide experiences that the child can be successful in. Concentrate on strengths, not weaknesses. Constant failure can cause child to become angry, which can cloud the problem and interfere with successful therapy. Copyright © 2019, Elsevier Inc. All rights reserved. 30
+Approach to the Intellectually Impaired Child
+Teach parents to provide experiences that the child can be successful in.
+Concentrate on strengths, not weaknesses.
+Constant failure can cause child to become angry, which can cloud the problem and interfere with successful therapy.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+30
+
+=== NOTES ===
+Give an example of a situation in which parents might help their child to become successful.
+
+Individualized plan of care
+Initial step is to present the findings to the family
+Provide emotional support.
+The child’s competence and adaptive behaviors should be discussed along with the deficiencies.
+If child is in the hospital, the nurse needs to obtain
+The child’s stage of maturation and ability
+Self-help activities
+Home routines
+
+Discuss how the nurse can assess the child’s stage of maturation and ability.
+Discuss self-help activities that the nurse can promote in a child with this disorder.
 
 === SLIDE 31 ===
-Lesson 23.4  Objectives Describe three types of posturing that may indicate brain damage. State a method of determining level of consciousness in an infant. Identify the priority goals in the care of a child who experienced near-drowning. Copyright © 2019, Elsevier Inc. All rights reserved. 31
+Lesson 23.4 Objectives
+Describe three types of posturing that may indicate brain damage.
+State a method of determining level of consciousness in an infant.
+Identify the priority goals in the care of a child who experienced near-drowning.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+31
 
 === SLIDE 32 ===
-Head Injuries Major cause of death in children older than 1 year of age A concussion is a temporary disturbance of the brain that is usually followed by a period of unconsciousness. A child’s response to a head injury may differ from that of an adult. Copyright © 2019, Elsevier Inc. All rights reserved. 32
+Head Injuries
+Major cause of death in children older than 1 year of age
+A concussion is a temporary disturbance of the brain that is usually followed by a period of unconsciousness.
+A child’s response to a head injury may differ from that of an adult.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+32
+
+=== NOTES ===
+Give examples of situations that could cause head injuries in the infant.
+How could a child’s response differ from an adult who has experienced a head injury?
+
+Hypoxia, increased ICP, cerebral edema, and infection can occur within a few days of a head injury
+Hypoxia causes the brain to need increased energy, which increases cerebral blood flow
+Increased blood flow causes cerebral edema
+If ICP rises too high, cerebral perfusion diminishes, and brain damage or death results.
 
 === SLIDE 33 ===
-Shaken Baby Syndrome Infants who are roughly shaken can sustain retinal, subarachnoid, and subdural hemorrhages in the brain, as well as high-level cervical spine injuries. Can result in permanent brain injury or death Symptoms can include: Headache (manifested as fussiness in a toddler) Drowsiness Blurred vision Vomiting Dyspnea In severe cases, child may be completely unconscious. Copyright © 2019, Elsevier Inc. All rights reserved. 33
+Shaken Baby Syndrome
+Infants who are roughly shaken can sustain retinal, subarachnoid, and subdural hemorrhages in the brain, as well as high-level cervical spine injuries.
+Can result in permanent brain injury or death
+Symptoms can include:
+Headache (manifested as fussiness in a toddler)
+Drowsiness
+Blurred vision
+Vomiting
+Dyspnea
+In severe cases, child may be completely unconscious.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+33
+
+=== NOTES ===
+Observe child for signs of ICP.
+Four components of a cranial or neurologic check 
+LOC
+Pupil and eye movement
+Vital signs
+Motor activity
+Discuss assessment of each of these components.
 
 === SLIDE 34 ===
-Nursing Care of a Brain-Injured Child Subtle clues to change can be missed unless the nurse performs aggressive assessment in looking for them. The lack of the child’s ability to communicate and cooperate poses a challenge in the neurologic assessment of infants, but knowledge of normal growth and development aids the nurse in evaluating the status of the patient. Copyright © 2019, Elsevier Inc. All rights reserved. 34
+Nursing Care of a Brain-Injured Child
+Subtle clues to change can be missed unless the nurse performs aggressive assessment in looking for them.
+The lack of the child’s ability to communicate and cooperate poses a challenge in the neurologic assessment of infants, but knowledge of normal growth and development aids the nurse in evaluating the status of the patient.
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+34
+
+=== NOTES ===
+Give examples of subtle changes the nurse might miss in a child who shows improvement.
 
 === SLIDE 35 ===
-Neurological Monitoring of Infants and Children Pain stimuli response LOC Arousal awareness Cranial nerve response Motor response Posturing Pupil response of the eyes Bulging fontanels Scalp vein distention Ataxia; spasticity of lower extremities Moro or tonic neck with withdrawal reflexes Copyright © 2019, Elsevier Inc. All rights reserved. 35
+Neurological Monitoring of Infants and Children
+Pain stimuli response
+LOC
+Arousal awareness
+Cranial nerve response
+Motor response
+Posturing
+
+Pupil response of the eyes
+Bulging fontanels
+Scalp vein distention
+Ataxia; spasticity of lower extremities
+Moro or tonic neck with withdrawal reflexes
+
+Copyright © 2019, Elsevier Inc. All rights reserved.
+35
+
+=== NOTES ===
+Discuss methods for assessing each component.
 
 === SLIDE 36 ===
-Near-Drowning Accidental or near-drowning is the fourth leading cause of death in children younger than 19 years of age. Near-drowning is defined as survival beyond 24 hours after submersion. Priorities include immediate treatment of  Hypoxia Aspiration Hypothermia  CNS injury remains the major cause of death or long-term disability. Copyright © 2019, Elsevier Inc. All rights reserved. 36
+Near-Drowning
+Accidental or near-drowning is the fourth leading cause of death in children younger than 19 years of age.
+Near-drowning is defined as survival beyond 24 hours after submersion.
+Priorities include immediate treatment of 
+Hypoxia
+Aspiration
+Hypothermia 
+CNS injury remains the major cause of death or long-term disability.
+Copyright © 2019, Elsevier Inc. All rights reserved.
+36
+
+=== NOTES ===
+Submersion for more than 10 minutes with failure to regain consciousness at the scene or within 24 hours is an ominous sign and indicates severe neurologic deficits if the child survives.
+
+What neurologic deficits might this child exhibit?
 
 === SLIDE 37 ===
-Copyright © 2019, Elsevier Inc. All rights reserved. 37
+Copyright © 2019, Elsevier Inc. All rights reserved.
+37

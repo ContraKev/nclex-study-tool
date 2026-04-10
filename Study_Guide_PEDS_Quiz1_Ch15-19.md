@@ -363,6 +363,66 @@
 
 ---
 
+## 🏥 MAINTENANCE OF THE HOSPITALIZED CHILD
+
+### Major Stressors by Age Group
+| Age | Primary Stressor | Nursing Interventions |
+|-----|------------------|-----------------------|
+| **Infant** | Stranger anxiety, separation from parents | Consistent caregivers, parental presence, transitional objects |
+| **Toddler** | Loss of control, routine disruption | Familiar objects, choices when possible, maintain rituals |
+| **Preschool** | Fear of bodily injury/mutilation, magical thinking | Prepare with concrete explanations, use dolls/toys to demonstrate |
+| **School-age** | Loss of control, privacy, separation from peers | Allow choices, privacy, maintain school contact |
+| **Adolescent** | Threat to independence, body image, peer relationships | Privacy, involve in decisions, peer contact |
+
+### Separation Anxiety Phases
+| Phase | Behavior | Nursing Response |
+|-------|----------|------------------|
+| **Protest** | Cries, clings, rejects strangers | Encourage parental presence |
+| **Despair** | Quiet, withdrawn, sad | Provide comfort, involve parents |
+| **Detachment** | Appears "adjusted" but apathetic | Recognize as coping; keep parents involved |
+
+### Atraumatic Care Principles
+- Prepare child in advance using age-appropriate language
+- Use therapeutic play / child-life specialists
+- Involve family as constant presence
+- Minimize pain and procedures when possible
+- Promote coping through choices and control
+
+### Family-Centered Care
+- Family is the child's constant — involve them in all care
+- Sibling visits may help reduce separation anxiety
+- Teach parents what to expect; provide written instructions
+- Encourage parents to participate in care (feeding, bathing)
+
+### Pain Assessment & Management
+- **FLACC** scale for infants/toddlers (Face, Legs, Activity, Cry, Consolability)
+- **FACES** scale for 3+ years
+- **Numeric** (0-10) for 8+ years
+- Nonpharmacologic: distraction, music, comfort positioning, sucrose for infants
+- Pharmacologic: weight-based dosing; acetaminophen/ibuprofen first line
+
+### Hospital Play & Therapeutic Play
+- **Medical play**: Child plays with equipment (stethoscope, syringe without needle)
+- **Dramatic play**: Acting out procedures on dolls
+- **Art/play therapy**: Expresses feelings nonverbally
+- Play should be **noncompetitive** for ill children
+
+### Communication Tips
+- Use concrete, simple terms (preschoolers take words literally)
+- Allow time for silence — especially culturally (e.g., Native American children)
+- Speak at eye level; use play for demonstration
+- Explain "why" to school-age/adolescents — they understand reasoning
+
+### Additional Quizlet/Studocu Key Points
+- **Ordinal position** (birth order) influences development — youngest may have less need to communicate independently
+- **Cephalocaudal** = head-to-toe development; **Proximodistal** = center-to-periphery
+- **Blended family** = parents have children from previous relationships + together
+- **Cooperative play** = group play with assigned roles (preschool age)
+- **Push-pull toys** appropriate for 10-month infant; model airport for 5-year-old
+- **Picky eater** = selective but growth maintained; **Feeding disorder** = refusal → weight loss
+
+---
+
 ## 🧠 MEMORY AIDS
 
 | Acronym | Meaning |
@@ -371,9 +431,10 @@
 | **FLACC** | Face, Legs, Activity, Cry, Consolability (pain) |
 | **ABCs** | Airway, Breathing, Circulation (always first) |
 | **Erikson** | Trust → Autonomy → Initiative → Industry → Identity... |
+| **SIDS** | Back to sleep, Firm mattress, No loose bedding, No co-sleeping |
 
 ---
 
-*Study Guide for PEDS Quiz 1 — Chapters 15-19*
-*Based on class notes + lecture content from Unitek College Pediatric Nursing*
+*Study Guide for PEDS Quiz 1 — Chapters 15-19 + Hospitalized Child*
+*Compiled from: Class notes, lecture content (Unitek College), Quizlet sets (PEDS Q 1 The Family...), Studocu review materials*
 *Good luck on your first exam! 💪*

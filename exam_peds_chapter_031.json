@@ -4,34 +4,94 @@
   "type": "exam",
   "scenarios": [
     {
+      "id": "q_definition_7",
+      "slide": 7,
+      "question": "Which statement best describes Disorders?",
+      "options": [
+        "This only applies to adult patients, not children",
+        "Hypothyroidism 7 === NOTES === Review the pathophysiology of metabolic control r...",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Disorders: Hypothyroidism 7 === NOTES === Review the pathophysiology of metabolic control regulated by the thyroid (Slide 7)"
+    },
+    {
+      "id": "q_definition_16",
+      "slide": 16,
+      "question": "Which statement best describes Random?",
+      "options": [
+        "Blood is drawn at any time, no preparation; results should be within normal limi...",
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. Random: Blood is drawn at any time, no preparation; results should be within normal limits for both patients with and without diabetes Fasting blood glucose: (Slide 16)"
+    },
+    {
+      "id": "q_definition_16",
+      "slide": 16,
+      "question": "Which statement best describes Glucose tolerance test?",
+      "options": [
+        "blood glucose level above 200 mg/dL and has classic symptoms is diagnostic of DM...",
+        "This is not a recognized term in pediatric nursing",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is blood glucose level above 200 mg/dL and has classic symptoms is diagnostic of DM.... Glucose tolerance test: blood glucose level above 200 mg/dL and has classic symptoms is diagnostic of DM Glycosylated hemoglobin (HbA1c): Values of 6% to 9% represent very go (Slide 16)"
+    },
+    {
+      "id": "q_definition_21",
+      "slide": 21,
+      "question": "Which statement best describes School?",
+      "options": [
+        "This is not a recognized term in pediatric nursing",
+        "age children may grieve over the diagnosis",
+        "This is an outdated concept no longer taught",
+        "This only applies to adult patients, not children"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is This only applies to adult patients, not children. School: age children may grieve over the diagnosis (Slide 21)"
+    },
+    {
       "id": "q_definition_23",
       "slide": 23,
       "question": "Which statement best describes Blood glucose self?",
       "options": [
-        "This is not a recognized term in pediatric nursing",
-        "This only applies to adult patients, not children",
+        "This is an outdated concept no longer taught",
         "monitoring Diet therapy (glycemic index of foods and cholesterol intake) Insulin...",
-        "This is an outdated concept no longer taught"
+        "This is not a recognized term in pediatric nursing",
+        "This only applies to adult patients, not children"
       ],
       "answer": [
-        1
+        2
       ],
-      "rationale": "Blood glucose self: monitoring Diet therapy (glycemic index of foods and cholesterol intake) Insulin management Exercise Skin care Foot care Infections Emotional upsets U (Slide 23)"
+      "rationale": "The correct answer is This is not a recognized term in pediatric nursing. Blood glucose self: monitoring Diet therapy (glycemic index of foods and cholesterol intake) Insulin management Exercise Skin care Foot care Infections Emotional upsets U (Slide 23)"
     },
     {
       "id": "q_definition_23",
       "slide": 23,
       "question": "Which statement best describes Glucose?",
       "options": [
-        "This is not a recognized term in pediatric nursing",
         "This is an outdated concept no longer taught",
+        "insulin imbalances Travel Follow-up care Illness or surgery === NOTES === Discus...",
         "This only applies to adult patients, not children",
-        "insulin imbalances Travel Follow-up care Illness or surgery"
+        "This is not a recognized term in pediatric nursing"
       ],
       "answer": [
-        1
+        0
       ],
-      "rationale": "Glucose: insulin imbalances Travel Follow-up care Illness or surgery (Slide 23)"
+      "rationale": "The correct answer is This is an outdated concept no longer taught. Glucose: insulin imbalances Travel Follow-up care Illness or surgery === NOTES === Discuss the glycemic index and give examples of foods that are high on the g (Slide 23)"
     },
     {
       "id": "q_nursing_action_15",
@@ -39,14 +99,29 @@
       "question": "When caring for pediatric patients, the nurse should:",
       "options": [
         "Exclude family members from care decisions",
+        "closely monitor blood glucose levels to avoid complications === NOTES ",
+        "Focus only on the child's physical symptoms",
+        "Use the same approach as with adult patients"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is Use the same approach as with adult patients. closely monitor blood glucose levels to avoid complications === NOTES . Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+    },
+    {
+      "id": "q_nursing_action_16",
+      "slide": 16,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "be within normal limits for both patients with and without diabetes Fa",
         "Use the same approach as with adult patients",
-        "closely monitor blood glucose levels to avoid complications",
-        "Focus only on the child's physical symptoms"
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions"
       ],
       "answer": [
         1
       ],
-      "rationale": "closely monitor blood glucose levels to avoid complications. Family-centered, age-appropriate care is essential in pediatrics. (Slide 15)"
+      "rationale": "The correct answer is Use the same approach as with adult patients. be within normal limits for both patients with and without diabetes Fa. Family-centered, age-appropriate care is essential in pediatrics. (Slide 16)"
     },
     {
       "id": "q_nursing_action_21",
@@ -54,119 +129,352 @@
       "question": "When caring for pediatric patients, the nurse should:",
       "options": [
         "Exclude family members from care decisions",
-        "Focus only on the child's physical symptoms",
+        "be considered when developing a teaching plan For example, pork-based ",
         "Use the same approach as with adult patients",
-        "be considered when developing a teaching plan For example, pork-based "
+        "Focus only on the child's physical symptoms"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "be considered when developing a teaching plan For example, pork-based . Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. be considered when developing a teaching plan For example, pork-based . Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
     },
     {
-      "id": "q_treatment_23",
-      "slide": 23,
-      "question": "What is the primary treatment approach for this pediatric condition?",
+      "id": "q_nursing_action_21",
+      "slide": 21,
+      "question": "When caring for pediatric patients, the nurse should:",
       "options": [
-        "No treatment is available",
-        "Treatment used only in adults",
-        "(glycemic index of foods and cholesterol intake) Insulin management Ex",
-        "Observation only without intervention"
+        "Exclude family members from care decisions",
+        "encounter? Children with DM are growing; additional dimensions of the ",
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms"
       ],
       "answer": [
         2
       ],
-      "rationale": "(glycemic index of foods and cholesterol intake) Insulin management Ex. 23 Teaching Plan for a Child with Diabetes MellitusPhysiology of the pancreas an... (Slide 23)"
+      "rationale": "The correct answer is Use the same approach as with adult patients. encounter? Children with DM are growing; additional dimensions of the . Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
+    },
+    {
+      "id": "q_nursing_action_21",
+      "slide": 21,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "responsibilities Onset of puberty may require insulin adjustments",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions"
+      ],
+      "answer": [
+        1
+      ],
+      "rationale": "The correct answer is responsibilities Onset of puberty may require insulin adjustments. responsibilities Onset of puberty may require insulin adjustments. Family-centered, age-appropriate care is essential in pediatrics. (Slide 21)"
+    },
+    {
+      "id": "q_nursing_action_23",
+      "slide": 23,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "Use the same approach as with adult patients",
+        "Focus only on the child's physical symptoms",
+        "Exclude family members from care decisions",
+        "consist of complex carbohydrates that absorb slowly and do not cause s"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is consist of complex carbohydrates that absorb slowly and do not cause s. consist of complex carbohydrates that absorb slowly and do not cause s. Family-centered, age-appropriate care is essential in pediatrics. (Slide 23)"
+    },
+    {
+      "id": "q_nursing_action_24",
+      "slide": 24,
+      "question": "When caring for pediatric patients, the nurse should:",
+      "options": [
+        "not inject into areas that would have a temporarily increased circulat",
+        "Use the same approach as with adult patients",
+        "Exclude family members from care decisions",
+        "Focus only on the child's physical symptoms"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is Focus only on the child's physical symptoms. not inject into areas that would have a temporarily increased circulat. Family-centered, age-appropriate care is essential in pediatrics. (Slide 24)"
+    },
+    {
+      "id": "q_clinical_finding_3",
+      "type": "sata",
+      "slide": 3,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "or screening tests that can be performed in utero",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is or screening tests that can be performed in utero. or screening tests that can be performed in utero is a characteristic finding. Endocrine System (1 of 3) 3 === NOTES === Briefly discuss the manner in which th... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_3",
+      "type": "sata",
+      "slide": 3,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "of an inborn error of metabolism in the newborn",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of an inborn error of metabolism in the newborn. of an inborn error of metabolism in the newborn is a characteristic finding. Endocrine System (1 of 3) 3 === NOTES === Briefly discuss the manner in which th... (Slide 3)"
+    },
+    {
+      "id": "q_clinical_finding_7",
+      "type": "sata",
+      "slide": 7,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "and diagnosis similar to congenital hypothyroidism",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is and diagnosis similar to congenital hypothyroidism. and diagnosis similar to congenital hypothyroidism is a characteristic finding. Endocrine Disorders: Hypothyroidism 7 === NOTES === Review the pathophysiology o... (Slide 7)"
+    },
+    {
+      "id": "q_clinical_finding_8",
+      "type": "sata",
+      "slide": 8,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "of too much thyroid replacement Rapid pulse rate Dyspnea Irr",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of too much thyroid replacement Rapid pulse rate Dyspnea Irr. of too much thyroid replacement Rapid pulse rate Dyspnea Irr is a characteristic finding. Treatment for Hypothyroidism 8 === NOTES === Discuss the pathophysiology regardi... (Slide 8)"
+    },
+    {
+      "id": "q_clinical_finding_10",
+      "type": "sata",
+      "slide": 10,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "ed to Optimize growth and development Minimize complications",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is ed to Optimize growth and development Minimize complications. ed to Optimize growth and development Minimize complications is a characteristic finding. Diabetes Mellitus (DM) 10 === NOTES === Discuss the effects of hyperglycemia on ... (Slide 10)"
+    },
+    {
+      "id": "q_clinical_finding_13",
+      "type": "sata",
+      "slide": 13,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "of Type 1 \u000bDiabetes Mellitus 13 === NOTES === Define each sy",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of Type 1 \u000bDiabetes Mellitus 13 === NOTES === Define each sy. of Type 1 \u000bDiabetes Mellitus 13 === NOTES === Define each sy is a characteristic finding. Manifestations of Type 1 \u000bDiabetes Mellitus 13 === NOTES === Define each symptom... (Slide 13)"
+    },
+    {
+      "id": "q_clinical_finding_16",
+      "type": "sata",
+      "slide": 16,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "is diagnostic of DM Glycosylated hemoglobin (HbA1c): Values ",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is is diagnostic of DM Glycosylated hemoglobin (HbA1c): Values . is diagnostic of DM Glycosylated hemoglobin (HbA1c): Values  is a characteristic finding. Diagnostic Tests for DM 16 === NOTES === Discuss each test and patient education... (Slide 16)"
+    },
+    {
+      "id": "q_clinical_finding_26",
+      "type": "sata",
+      "slide": 26,
+      "question": "Which of the following are expected findings in Chapter 031? (Select all that apply.)",
+      "options": [
+        "of insulin reaction Irritability May behave poorly Pale May ",
+        "Findings opposite to what was described",
+        "Signs only seen in adults",
+        "Symptoms that indicate immediate emergency"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is of insulin reaction Irritability May behave poorly Pale May . of insulin reaction Irritability May behave poorly Pale May  is a characteristic finding. Insulin Shock (1 of 2) 26 === NOTES === Give an example of a situation in which ... (Slide 26)"
+    },
+    {
+      "id": "q_treatment_5",
+      "slide": 5,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "No treatment is available",
+        "examples of diseases or disorders that can be detected by each diagnos",
+        "Observation only without intervention",
+        "Treatment used only in adults"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is No treatment is available. examples of diseases or disorders that can be detected by each diagnos. 5 Endocrine System (3 of 3) === NOTES === Give examples of diseases or disorders... (Slide 5)"
+    },
+    {
+      "id": "q_treatment_12",
+      "slide": 12,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "No treatment is available",
+        "a rationale for the child in a ketoacidotic state and this incident be"
+      ],
+      "answer": [
+        2
+      ],
+      "rationale": "The correct answer is No treatment is available. a rationale for the child in a ketoacidotic state and this incident be. Type 1 Diabetes Mellitus 12 === NOTES === Discuss the effects of growth and deve... (Slide 12)"
+    },
+    {
+      "id": "q_treatment_20",
+      "slide": 20,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Goals of \u000bDiabetes Mellitus 20 === NOTES === Discuss methods to ensure",
+        "Observation only without intervention",
+        "Treatment used only in adults",
+        "No treatment is available"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is No treatment is available. Goals of \u000bDiabetes Mellitus 20 === NOTES === Discuss methods to ensure. Treatment Goals of \u000bDiabetes Mellitus 20 === NOTES === Discuss methods to ensure... (Slide 20)"
+    },
+    {
+      "id": "q_treatment_22",
+      "slide": 22,
+      "question": "What is the primary treatment approach for this pediatric condition?",
+      "options": [
+        "Observation only without intervention",
+        "No treatment is available",
+        "Treatment used only in adults",
+        "for\u000bDiabetes Mellitus 22 === NOTES === Give an example of a child whos"
+      ],
+      "answer": [
+        3
+      ],
+      "rationale": "The correct answer is for\u000bDiabetes Mellitus 22 === NOTES === Give an example of a child whos. for\u000bDiabetes Mellitus 22 === NOTES === Give an example of a child whos. Triad of Management for\u000bDiabetes Mellitus 22 === NOTES === Give an example of a ... (Slide 22)"
     },
     {
       "id": "supp_0",
       "slide": 99,
       "question": "When caring for pediatric patients, the nurse should:",
       "options": [
-        "Treat all children the same as adults",
-        "Focus only on the child's medical diagnosis",
+        "Exclude parents during procedures",
         "Include family in care decisions and use age-appropriate communication",
-        "Exclude parents during procedures"
+        "Treat all children the same as adults",
+        "Focus only on the child's medical diagnosis"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
+      "rationale": "The correct answer is Exclude parents during procedures. Family-centered care is essential. Include caregivers, use age-appropriate language, consider developmental needs. (Standard NCLEX)"
     },
     {
       "id": "supp_1",
       "slide": 99,
       "question": "Pain assessment in non-verbal children uses:",
       "options": [
-        "Asking the child to describe pain",
-        "Wong-Baker FACES (if verbal)",
         "Numeric rating scale (0-10)",
-        "FLACC scale (Face, Legs, Activity, Cry, Consolability)"
+        "Wong-Baker FACES (if verbal)",
+        "FLACC scale (Face, Legs, Activity, Cry, Consolability)",
+        "Asking the child to describe pain"
       ],
       "answer": [
         1
       ],
-      "rationale": "FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
+      "rationale": "The correct answer is Wong-Baker FACES (if verbal). FLACC is validated for infants/young children. FACES for 3+ years. Numeric for 8+ years. (Standard NCLEX)"
     },
     {
       "id": "supp_2",
       "slide": 99,
       "question": "The most reliable indicator of pain in infants is:",
       "options": [
-        "Self-report",
         "Vital signs",
+        "Self-report",
         "Parental report",
         "Behavioral changes (crying, facial expression)"
       ],
       "answer": [
-        1
+        2
       ],
-      "rationale": "Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
+      "rationale": "The correct answer is Parental report. Infants: observe behavioral cues (facial expression, body posture, cry quality). FLACC scale. (Standard NCLEX)"
     },
     {
       "id": "supp_3",
       "slide": 99,
       "question": "Which vital sign changes first in a deteriorating pediatric patient?",
       "options": [
-        "Heart rate",
-        "Respiratory rate",
         "Blood pressure",
-        "Temperature"
+        "Heart rate",
+        "Temperature",
+        "Respiratory rate"
       ],
       "answer": [
-        1
+        0
       ],
-      "rationale": "Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
+      "rationale": "The correct answer is Blood pressure. Respiratory rate changes first in children (compensatory mechanism). BP is a late sign of decompensation. (Standard NCLEX)"
     },
     {
       "id": "supp_4",
       "slide": 99,
       "question": "What is the correct pediatric CPR ratio?",
       "options": [
+        "30:2 for single rescuer, 15:2 for two rescuers",
         "Same as adults",
         "30:1",
-        "15:1",
-        "30:2 for single rescuer, 15:2 for two rescuers"
+        "15:1"
       ],
       "answer": [
-        2
+        3
       ],
-      "rationale": "Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
+      "rationale": "The correct answer is 15:1. Infant/child CPR: 30:2 single, 15:2 two rescuers. Compression depth: 1/3 chest depth. (Standard NCLEX)"
     },
     {
       "id": "supp_5",
       "slide": 99,
       "question": "The leading cause of death in children over 1 year is:",
       "options": [
-        "Congenital anomalies",
         "Unintentional injuries",
+        "Infection",
         "Cancer",
-        "Infection"
+        "Congenital anomalies"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "Unintentional injuries (drowning, MVAs, burns) are #1 cause of death in children >1 year. (Standard NCLEX)"
+      "rationale": "The correct answer is Congenital anomalies. Unintentional injuries (drowning, MVAs, burns) are #1 cause of death in children >1 year. (Standard NCLEX)"
     },
     {
       "id": "supp_6",
@@ -179,69 +487,69 @@
         "Until age 2 or until child exceeds weight/height limits"
       ],
       "answer": [
-        0
+        3
       ],
-      "rationale": "AAP: rear-facing until age 2 or until exceeding car seat limits. Then forward-facing with harness. (Standard NCLEX)"
+      "rationale": "The correct answer is Until age 2 or until child exceeds weight/height limits. AAP: rear-facing until age 2 or until exceeding car seat limits. Then forward-facing with harness. (Standard NCLEX)"
     },
     {
       "id": "supp_7",
       "slide": 99,
       "question": "What is the recommended daily water intake for a 5-year-old?",
       "options": [
-        "10 cups",
-        "Approximately 5 cups (40 oz)",
+        "1 cup",
         "Unlimited",
-        "1 cup"
+        "10 cups",
+        "Approximately 5 cups (40 oz)"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "Children 4-8 years: ~5 cups/day fluids. More with activity/heat. (Standard NCLEX)"
+      "rationale": "The correct answer is 1 cup. Children 4-8 years: ~5 cups/day fluids. More with activity/heat. (Standard NCLEX)"
     },
     {
       "id": "supp_8",
       "slide": 99,
       "question": "Which is the best way to prevent childhood obesity?",
       "options": [
-        "Skipping meals",
         "Weighing child weekly",
+        "Healthy diet and regular physical activity",
         "Restricting all fats",
-        "Healthy diet and regular physical activity"
+        "Skipping meals"
       ],
       "answer": [
-        3
+        2
       ],
-      "rationale": "Prevention: balanced diet, 60 min/day physical activity, limit screen time, family meals. (Standard NCLEX)"
+      "rationale": "The correct answer is Restricting all fats. Prevention: balanced diet, 60 min/day physical activity, limit screen time, family meals. (Standard NCLEX)"
     },
     {
       "id": "supp_9",
       "slide": 99,
       "question": "A child who is choking and cannot cough or speak needs:",
       "options": [
-        "Nothing \u2014 wait",
+        "Nothing — wait",
+        "Abdominal thrusts (Heimlich)",
         "Back blows only",
-        "CPR",
-        "Abdominal thrusts (Heimlich)"
+        "CPR"
       ],
       "answer": [
-        2
+        0
       ],
-      "rationale": "Choking: abdominal thrusts for conscious child >1 year. For infant: 5 back blows + 5 chest thrusts. (Standard NCLEX)"
+      "rationale": "The correct answer is Nothing — wait. Choking: abdominal thrusts for conscious child >1 year. For infant: 5 back blows + 5 chest thrusts. (Standard NCLEX)"
     },
     {
       "id": "supp_10",
       "slide": 99,
       "question": "The safest car seat position for infants is:",
       "options": [
+        "Front-facing in the back seat",
         "Any position",
         "Rear-facing in the back seat",
-        "Rear-facing in the front seat",
-        "Front-facing in the back seat"
+        "Rear-facing in the front seat"
       ],
       "answer": [
-        3
+        0
       ],
-      "rationale": "Infants: rear-facing until age 2 or until exceeding car seat limits. Back seat only. (Standard NCLEX)"
+      "rationale": "The correct answer is Front-facing in the back seat. Infants: rear-facing until age 2 or until exceeding car seat limits. Back seat only. (Standard NCLEX)"
     },
     {
       "id": "supp_11",
@@ -249,119 +557,160 @@
       "question": "When should children transition to a booster seat?",
       "options": [
         "Never",
+        "When they outgrow forward-facing harness (typically 4-8 years)",
         "At age 12",
-        "At age 2",
-        "When they outgrow forward-facing harness (typically 4-8 years)"
+        "At age 2"
       ],
       "answer": [
-        2
+        1
       ],
-      "rationale": "Booster: when child exceeds forward-facing harness limits (~40-65 lbs). Until seat belt fits properly (usually 8-12 years). (Standard NCLEX)"
+      "rationale": "The correct answer is When they outgrow forward-facing harness (typically 4-8 years). Booster: when child exceeds forward-facing harness limits (~40-65 lbs). Until seat belt fits properly (usually 8-12 years). (Standard NCLEX)"
     },
     {
       "id": "supp_12",
       "slide": 99,
       "question": "Drowning prevention includes:",
       "options": [
-        "Only fencing",
-        "Only supervision",
         "Fencing pools, close supervision, CPR training",
-        "Swim lessons only"
+        "Swim lessons only",
+        "Only fencing",
+        "Only supervision"
       ],
       "answer": [
-        1
+        2
       ],
-      "rationale": "Drowning prevention: 4-sided fencing, constant supervision, CPR training, water safety education. (Standard NCLEX)"
+      "rationale": "The correct answer is Only fencing. Drowning prevention: 4-sided fencing, constant supervision, CPR training, water safety education. (Standard NCLEX)"
     },
     {
       "id": "supp_13",
       "slide": 99,
       "question": "Lead poisoning prevention includes:",
       "options": [
-        "Only screening",
         "Nothing",
         "Hand washing, removing paint chips, iron-rich diet",
-        "Only supplements"
+        "Only supplements",
+        "Only screening"
       ],
       "answer": [
-        2
+        3
       ],
-      "rationale": "Lead: hand washing, wet mopping, removing peeling paint, iron/calcium-rich diet. (Standard NCLEX)"
+      "rationale": "The correct answer is Only screening. Lead: hand washing, wet mopping, removing peeling paint, iron/calcium-rich diet. (Standard NCLEX)"
     },
     {
       "id": "supp_14",
       "slide": 99,
       "question": "Poison prevention: keep medications:",
       "options": [
-        "On kitchen counter",
         "Locked up and in original containers",
-        "In easy reach",
-        "In purse"
+        "In purse",
+        "On kitchen counter",
+        "In easy reach"
       ],
       "answer": [
         1
       ],
-      "rationale": "Poison prevention: locked cabinets, original containers, childproof caps, poison control number posted. (Standard NCLEX)"
+      "rationale": "The correct answer is In purse. Poison prevention: locked cabinets, original containers, childproof caps, poison control number posted. (Standard NCLEX)"
     },
     {
-      "id": "supp_15",
-      "slide": 99,
-      "question": "The leading cause of death in children 1-14 years is:",
-      "options": [
-        "Congenital anomalies",
-        "Infection",
-        "Cancer",
-        "Unintentional injuries"
+      "id": "q_matrix_development",
+      "type": "matrix",
+      "slide": 15,
+      "question": "Match each developmental theorist with their key concept.",
+      "columns": [
+        "Erikson",
+        "Piaget",
+        "Kohlberg"
       ],
-      "answer": [
-        3
+      "rows": [
+        {
+          "text": "Psychosocial stages (Trust vs Mistrust, etc.)",
+          "correct_col_idx": 0
+        },
+        {
+          "text": "Cognitive stages (Sensorimotor, Preoperational, etc.)",
+          "correct_col_idx": 1
+        },
+        {
+          "text": "Moral development levels (Preconventional, etc.)",
+          "correct_col_idx": 2
+        }
       ],
-      "rationale": "Unintentional injuries (MVAs, drowning, burns, poisoning) are #1 cause of death in children. (Standard NCLEX)"
+      "rationale": "The correct answer is Option 1. Erikson: psychosocial crises. Piaget: cognitive development. Kohlberg: moral reasoning. (Slide 15-20)"
     },
     {
-      "id": "supp_16",
-      "slide": 99,
-      "question": "Bike helmet use should begin:",
-      "options": [
-        "When child starts riding a bike",
-        "Never needed",
-        "At age 10",
-        "At age 5"
+      "id": "q_cloze_peds",
+      "type": "drag_drop_cloze",
+      "slide": 10,
+      "question": "Complete the statement about pediatric care.",
+      "cloze_text": "Pediatric nursing requires [[BLANK1]] care and consideration of [[BLANK2]] in all interactions.",
+      "drag_options": [
+        "age-appropriate",
+        "family",
+        "adult",
+        "isolation",
+        "medication"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Bike helmet: required for all ages. Proper fit: level on head, snug straps. (Standard NCLEX)"
+      "answer": {
+        "BLANK1": "age-appropriate",
+        "BLANK2": "family"
+      },
+      "rationale": "The correct answer is Option 1. Family-centered, age-appropriate care is fundamental in pediatrics. (Slide 10)"
     },
     {
-      "id": "supp_17",
-      "slide": 99,
-      "question": "Stranger danger education should be:",
-      "options": [
-        "Age-appropriate, focus on trusted adults",
-        "Not discussed",
-        "Only for girls",
-        "Scary and detailed"
+      "id": "q_highlight_normal",
+      "type": "highlight",
+      "slide": 25,
+      "question": "Click on the normal developmental findings.",
+      "highlight_text": "The child demonstrates age-appropriate milestones. Growth follows expected percentiles. The child engages with caregivers appropriately.",
+      "highlight_options": [
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
       ],
       "answer": [
-        2
+        "age-appropriate milestones",
+        "Growth follows expected percentiles",
+        "engages with caregivers appropriately"
       ],
-      "rationale": "Stranger safety: teach trusted adults, 'no, go, tell', never go with strangers. (Standard NCLEX)"
+      "rationale": "The correct answers are Option age-appropriate milestones1, Option Growth follows expected percentiles1, Option engages with caregivers appropriately1. All are normal pediatric findings. (Slide 25)"
     },
     {
-      "id": "supp_18",
-      "slide": 99,
-      "question": "Sun exposure prevention for infants:",
-      "options": [
-        "Avoid direct sun, hats, light clothing",
-        "Sunglasses only",
-        "Sunscreen only",
-        "Nothing needed"
-      ],
-      "answer": [
-        1
-      ],
-      "rationale": "Infants <6 months: avoid direct sun. Use hats, lightweight clothing, shade. (Standard NCLEX)"
+      "id": "q_bowtie",
+      "type": "bowtie",
+      "slide": 30,
+      "question": "A child presents with concerning developmental findings.",
+      "left_actions": {
+        "options": [
+          "Perform developmental screening",
+          "Obtain detailed history",
+          "Ignore parental concerns",
+          "Delay assessment"
+        ],
+        "answer": [
+          "Perform developmental screening",
+          "Obtain detailed history"
+        ]
+      },
+      "center_condition": {
+        "options": [
+          "Possible developmental concern requiring evaluation",
+          "Normal variation, no action needed",
+          "Immediate emergency"
+        ],
+        "answer": "Possible developmental concern requiring evaluation"
+      },
+      "right_monitor": {
+        "options": [
+          "Follow-up assessments",
+          "Parent education",
+          "No follow-up needed"
+        ],
+        "answer": [
+          "Follow-up assessments",
+          "Parent education"
+        ]
+      },
+      "rationale": "The correct answer is Option 1. Early identification and family support are key. (Slide 30)"
     }
   ]
 }
