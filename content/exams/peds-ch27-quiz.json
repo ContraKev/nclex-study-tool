@@ -1,39 +1,901 @@
 {
   "id": "peds_ch27_quiz",
-  "name": "PEDS Hematologic Disorders Quiz (2 Q)",
+  "name": "PEDS Chapter 27: Hematologic Disorders \u2014 Comprehensive NCLEX/ATI Exam (52 Q)",
   "category": "Pediatrics",
   "questions": [
     {
-      "id": "ch27_1",
+      "id": "q_3_7931",
       "slide": 3,
-      "question": "According to the lecture (Slide 3): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 3?",
       "options": [
-        "1\u000bObjectives (2 of 2)\n\n3\nRecommend four food sources of iron for a child with iron deficiency anemia",
+        "Examine the pathology and signs and symptoms of sickle cell disease.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 3: 1\u000bObjectives (2 of 2)\n\n3\nRecommend four food sources of iron for a child with iron deficiency anemia",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 3. Examine the pathology and signs and symptoms of sickle cell disease.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch27_2",
-      "slide": 18,
-      "question": "According to the lecture (Slide 18): which is accurate?",
+      "id": "q_3_4085",
+      "slide": 3,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 3?",
       "options": [
-        "2\u000bObjectives\n18\nRecognize the effects on the bone marrow of increased red blood cell production caused by thal...",
+        "Describe four types of sickle cell crises.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 18: 2\u000bObjectives\n18\nRecognize the effects on the bone marrow of increased red blood cell production caused by thalassemia",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 3. Describe four types of sickle cell crises.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_3_4686",
+      "slide": 3,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 3?",
+      "options": [
+        "Devise a nursing care plan for a child with sickle cell disease.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 3. Devise a nursing care plan for a child with sickle cell disease.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_3_7598",
+      "slide": 3,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 3:",
+      "options": [
+        "Examine the pathology and signs and symptoms of sickle cell disease....",
+        "Describe four types of sickle cell crises....",
+        "Devise a nursing care plan for a child with sickle cell disease....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 3. Examine the pathology and signs and symptoms of sickle cell disease.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_3_7598",
+      "slide": 3,
+      "type": "matrix",
+      "question": "For each statement from Slide 3, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Examine the pathology and signs and symptoms of sickle cell ",
+        "Describe four types of sickle cell crises.",
+        "Devise a nursing care plan for a child with sickle cell dise"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 3. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_18_3475",
+      "slide": 18,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 18?",
+      "options": [
+        "Recall the pathophysiology and signs and symptoms of hemophilia A and B.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 18. Recall the pathophysiology and signs and symptoms of hemophilia A and B.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_18_4307",
+      "slide": 18,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 18?",
+      "options": [
+        "Identify the nursing interventions necessary to prevent hemarthrosis in a child with hemophilia.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 18. Identify the nursing interventions necessary to prevent hemarthrosis in a child with hemophilia.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_18_1556",
+      "slide": 18,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 18?",
+      "options": [
+        "Compare and contrast four manifestations of bleeding into the skin.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 18. Compare and contrast four manifestations of bleeding into the skin.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_18_1568",
+      "slide": 18,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 18?",
+      "options": [
+        "Recognize normal blood values of infants and children.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 18. Recognize normal blood values of infants and children.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_18_1727",
+      "slide": 18,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 18:",
+      "options": [
+        "Recall the pathophysiology and signs and symptoms of hemophilia A and B....",
+        "Identify the nursing interventions necessary to prevent hemarthrosis in a child ...",
+        "Compare and contrast four manifestations of bleeding into the skin....",
+        "Recognize normal blood values of infants and children....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 18. Recall the pathophysiology and signs and symptoms of hemophilia A and B.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_18_1727",
+      "slide": 18,
+      "type": "matrix",
+      "question": "For each statement from Slide 18, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Recall the pathophysiology and signs and symptoms of hemophi",
+        "Identify the nursing interventions necessary to prevent hema",
+        "Compare and contrast four manifestations of bleeding into th"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 18. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_30_5294",
+      "slide": 30,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 30?",
+      "options": [
+        "Review the nursing care of a child receiving a blood transfusion.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 30. Review the nursing care of a child receiving a blood transfusion.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_30_5250",
+      "slide": 30,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 30?",
+      "options": [
+        "Discuss the effects of chronic illness on the growth and development of children.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 30. Discuss the effects of chronic illness on the growth and development of children.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_30_6825",
+      "slide": 30,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 30:",
+      "options": [
+        "Review the nursing care of a child receiving a blood transfusion....",
+        "Discuss the effects of chronic illness on the growth and development of children...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 30. Review the nursing care of a child receiving a blood transfusion.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "q_36_4964",
+      "slide": 36,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 36?",
+      "options": [
+        "Treatment of Leukemia \n\n36\nRadiation and chemotherapy target specific cells.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 36. Treatment of Leukemia \n\n36\nRadiation and chemotherapy target specific cells.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_44_7235",
+      "slide": 44,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 44?",
+      "options": [
+        "Developmental Disabilities\n\n44\nChildren with developmental disabilities may often be overprotected, unable to break away...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 44. Developmental Disabilities\n\n44\nChildren with developmental disabilities may often be overprotected, unable to break away from supervision, and deprived of necessary peer relationships.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_44_286",
+      "slide": 44,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 44?",
+      "options": [
+        "The pubertal process with its emerging sexuality concerns parents and may precipitate a family crisis.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 44. The pubertal process with its emerging sexuality concerns parents and may precipitate a family crisis.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_44_5631",
+      "slide": 44,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 44:",
+      "options": [
+        "Developmental Disabilities\n\n44\nChildren with developmental disabilities may ofte...",
+        "The pubertal process with its emerging sexuality concerns parents and may precip...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 44. Developmental Disabilities\n\n44\nChildren with developmental disabilities may often be overprotected, unable to break away from supervision, and deprive... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "q_46_6377",
+      "slide": 46,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 46?",
+      "options": [
+        "Formulate techniques the nurse can use to facilitate the grieving process.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 46. Formulate techniques the nurse can use to facilitate the grieving process.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_46_2592",
+      "slide": 46,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 46?",
+      "options": [
+        "Contrast age-appropriate responses to a sibling\u2019s death and the nursing interventions required.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 46. Contrast age-appropriate responses to a sibling\u2019s death and the nursing interventions required.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_46_4058",
+      "slide": 46,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 46?",
+      "options": [
+        "Recall the stages of dying.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 46. Recall the stages of dying.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_46_7179",
+      "slide": 46,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 46:",
+      "options": [
+        "Formulate techniques the nurse can use to facilitate the grieving process....",
+        "Contrast age-appropriate responses to a sibling\u2019s death and the nursing interven...",
+        "Recall the stages of dying....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 46. Formulate techniques the nurse can use to facilitate the grieving process.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_46_7179",
+      "slide": 46,
+      "type": "matrix",
+      "question": "For each statement from Slide 46, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Formulate techniques the nurse can use to facilitate the gri",
+        "Contrast age-appropriate responses to a sibling\u2019s death and ",
+        "Recall the stages of dying."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 46. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_0_793",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What are the signs and symptoms of anemia?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What are the signs and symptoms of anemia?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_7137",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss the reasons this age group is more susceptible to iron deficiency anemia.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the reasons this age group is more susceptible to iron deficiency anemia.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1641",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss the pathophysiology of the pain a child experiences.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the pathophysiology of the pain a child experiences.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9655",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss why meperidine (Demerol) is not recommended for use in a child with sickle cell anemia.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss why meperidine (Demerol) is not recommended for use in a child with sickle cell anemia.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_4709",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What ethnic population is mainly affected by thalassemia?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What ethnic population is mainly affected by thalassemia?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_3069",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss how a PTT can detect this disorder.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss how a PTT can detect this disorder.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9914",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss the pathophysiology of the symptoms listed.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the pathophysiology of the symptoms listed.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9327",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss the procedure for bone marrow aspiration.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the procedure for bone marrow aspiration.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_3041",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss a proper neurological assessment.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss a proper neurological assessment.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9674",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What is the rationale for a splenectomy?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What is the rationale for a splenectomy?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9914",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss the pathophysiology of the symptoms listed.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the pathophysiology of the symptoms listed.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_4700",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss what changes could be seen on x-ray examination of the long bones.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss what changes could be seen on x-ray examination of the long bones.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_6058",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What are the effects of chemotherapy on the kidneys and liver?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What are the effects of chemotherapy on the kidneys and liver?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_7305",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss each of these stages of the treatment regimen.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss each of these stages of the treatment regimen.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_8386",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What are ways to assess for infection?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What are ways to assess for infection?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2501",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss nursing interventions to provide good hygiene.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss nursing interventions to provide good hygiene.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_7154",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "A painless lump along the neck\nFew other manifestations\nMore advanced cases: may be unexplained low-grade fever, anorexi...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. A painless lump along the neck\nFew other manifestations\nMore advanced cases: may be unexplained low-grade fever, anorexia, unexplained weight loss, night sweats, general malaise, rash, and itching\n\n=... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_200",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What information will parents and the family need in caring for this child?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What information will parents and the family need in caring for this child?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9970",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss the nurse\u2019s role in managing a child and family when dealing with a chronic illness.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the nurse\u2019s role in managing a child and family when dealing with a chronic illness.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2217",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss nursing interventions that can assist the parent deal with these growth and development issues.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss nursing interventions that can assist the parent deal with these growth and development issues.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_6304",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How can the nurse involve the family in the care of a chronically ill child?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How can the nurse involve the family in the care of a chronically ill child?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_4615",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give examples of cultural beliefs regarding death.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give examples of cultural beliefs regarding death.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_5885",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give examples of how a nurse could support a parent who is angry at the loss of a child.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give examples of how a nurse could support a parent who is angry at the loss of a child.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_445",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Review the Health Promotion box in the textbook and Nursing Care Plan 27-1 (pp.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Review the Health Promotion box in the textbook and Nursing Care Plan 27-1 (pp.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1838",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How would the nurse explain the dying process to the parents?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How would the nurse explain the dying process to the parents?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9969",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How will you know if your teaching was effective?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How will you know if your teaching was effective?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1502",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss and provide examples of how the nurse can assist an individual through each stage.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss and provide examples of how the nurse can assist an individual through each stage.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_0_5007",
+      "slide": 0,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 0:",
+      "options": [
+        "What are the signs and symptoms of anemia?...",
+        "Discuss the reasons this age group is more susceptible to iron deficiency anemia...",
+        "Discuss the pathophysiology of the pain a child experiences....",
+        "Discuss why meperidine (Demerol) is not recommended for use in a child with sick...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 0. What are the signs and symptoms of anemia?... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_0_5007",
+      "slide": 0,
+      "type": "matrix",
+      "question": "For each statement from Slide 0, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "What are the signs and symptoms of anemia?",
+        "Discuss the reasons this age group is more susceptible to ir",
+        "Discuss the pathophysiology of the pain a child experiences."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 0. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
     }
   ]
 }

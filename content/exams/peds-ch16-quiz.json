@@ -1,183 +1,2099 @@
 {
   "id": "peds_ch16_quiz",
-  "name": "PEDS The Infant Quiz (11 Q)",
+  "name": "PEDS Chapter 16: The Infant \u2014 Comprehensive NCLEX/ATI Exam (118 Q)",
   "category": "Pediatrics",
   "questions": [
     {
-      "id": "ch16_1",
+      "id": "q_2_9201",
       "slide": 2,
-      "question": "According to the lecture (Slide 2): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 2?",
       "options": [
-        "1\u000bObjectives (1 of 2)\nDefine each key word listed",
+        "Discuss the major aspects of cognitive development in the first year of life.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 2: 1\u000bObjectives (1 of 2)\nDefine each key word listed",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 2. Discuss the major aspects of cognitive development in the first year of life.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_2",
+      "id": "q_2_7877",
+      "slide": 2,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 2?",
+      "options": [
+        "Describe normal vital signs for a 1-year-old infant.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 2. Describe normal vital signs for a 1-year-old infant.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_2_9228",
+      "slide": 2,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 2?",
+      "options": [
+        "Describe the physical and psychosocial development of infants from age 1 to 12 months, listing age-specific events and g...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 2. Describe the physical and psychosocial development of infants from age 1 to 12 months, listing age-specific events and guidance when appropriate.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_2_6954",
+      "slide": 2,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 2?",
+      "options": [
+        "Identify the approximate age for each of the following: posterior fontanelle has closed, central incisors appear, birth ...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 2. Identify the approximate age for each of the following: posterior fontanelle has closed, central incisors appear, birth weight has tripled, child can sit steadily alone, child shows fear of strangers.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_2_4305",
+      "slide": 2,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 2?",
+      "options": [
+        "Relate the nursing responsibilities in health promotion and illness prevention in infants in the first year of life.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 2. Relate the nursing responsibilities in health promotion and illness prevention in infants in the first year of life.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_2_999",
+      "slide": 2,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 2:",
+      "options": [
+        "Discuss the major aspects of cognitive development in the first year of life....",
+        "Describe normal vital signs for a 1-year-old infant....",
+        "Describe the physical and psychosocial development of infants from age 1 to 12 m...",
+        "Identify the approximate age for each of the following: posterior fontanelle has...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 2. Discuss the major aspects of cognitive development in the first year of life.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_2_999",
+      "slide": 2,
+      "type": "matrix",
+      "question": "For each statement from Slide 2, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Discuss the major aspects of cognitive development in the fi",
+        "Describe normal vital signs for a 1-year-old infant.",
+        "Describe the physical and psychosocial development of infant"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 2. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_4_8336",
       "slide": 4,
-      "question": "According to the lecture (Slide 4): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 4?",
       "options": [
-        "Oral Stage\n\nSucking brings comfort and relief from tension",
+        "Oral Stage\n\nSucking brings comfort and relief from tension.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 4: Oral Stage\n\nSucking brings comfort and relief from tension",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 4. Oral Stage\n\nSucking brings comfort and relief from tension.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_3",
+      "id": "q_4_44",
+      "slide": 4,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 4?",
+      "options": [
+        "Important to hold infant during feedings\nAllow sufficient time for infant to suck.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 4. Important to hold infant during feedings\nAllow sufficient time for infant to suck.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_4_4343",
+      "slide": 4,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 4?",
+      "options": [
+        "Infants on IV fluid or nutrition need additional attention and a pacifier to ensure the need for sucking is satisfied.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 4. Infants on IV fluid or nutrition need additional attention and a pacifier to ensure the need for sucking is satisfied.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_4_3140",
+      "slide": 4,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 4?",
+      "options": [
+        "When infants are able to use their hands more skillfully, they will gradually derive pleasure and comfort from other sou...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 4. When infants are able to use their hands more skillfully, they will gradually derive pleasure and comfort from other sources.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_4_734",
+      "slide": 4,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 4:",
+      "options": [
+        "Oral Stage\n\nSucking brings comfort and relief from tension....",
+        "Important to hold infant during feedings\nAllow sufficient time for infant to suc...",
+        "Infants on IV fluid or nutrition need additional attention and a pacifier to ens...",
+        "When infants are able to use their hands more skillfully, they will gradually de...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 4. Oral Stage\n\nSucking brings comfort and relief from tension.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_4_734",
+      "slide": 4,
+      "type": "matrix",
+      "question": "For each statement from Slide 4, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Oral Stage\n\nSucking brings comfort and relief from tension.",
+        "Important to hold infant during feedings\nAllow sufficient ti",
+        "Infants on IV fluid or nutrition need additional attention a"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 4. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_5_416",
       "slide": 5,
-      "question": "According to the lecture (Slide 5): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 5?",
       "options": [
-        "Motor Development\n\nGrasp reflex disappears around 3 months of age",
+        "Motor Development\n\nGrasp reflex disappears around 3 months of age.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 5: Motor Development\n\nGrasp reflex disappears around 3 months of age",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 5. Motor Development\n\nGrasp reflex disappears around 3 months of age.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_4",
+      "id": "q_5_343",
+      "slide": 5,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 5?",
+      "options": [
+        "Prehension occurs around 5 to 6 months of age and follows an orderly sequence of development.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 5. Prehension occurs around 5 to 6 months of age and follows an orderly sequence of development.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_5_7955",
+      "slide": 5,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 5?",
+      "options": [
+        "Parachute reflex appears around 7 to 9 months as a protective mechanism.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 5. Parachute reflex appears around 7 to 9 months as a protective mechanism.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_5_640",
+      "slide": 5,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 5?",
+      "options": [
+        "Pincer grasp well-established by 1 year of age.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 5. Pincer grasp well-established by 1 year of age.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_5_914",
+      "slide": 5,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 5:",
+      "options": [
+        "Motor Development\n\nGrasp reflex disappears around 3 months of age....",
+        "Prehension occurs around 5 to 6 months of age and follows an orderly sequence of...",
+        "Parachute reflex appears around 7 to 9 months as a protective mechanism....",
+        "Pincer grasp well-established by 1 year of age....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 5. Motor Development\n\nGrasp reflex disappears around 3 months of age.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_5_914",
+      "slide": 5,
+      "type": "matrix",
+      "question": "For each statement from Slide 5, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Motor Development\n\nGrasp reflex disappears around 3 months o",
+        "Prehension occurs around 5 to 6 months of age and follows an",
+        "Parachute reflex appears around 7 to 9 months as a protectiv"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 5. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_6_9395",
       "slide": 6,
-      "question": "According to the lecture (Slide 6): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 6?",
       "options": [
-        "Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of ...",
+        "Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of a healthy ...",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 6: Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of a healthy personality",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 6. Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of a healthy personality.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_5",
+      "id": "q_6_49",
+      "slide": 6,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 6?",
+      "options": [
+        "Infants who are consistently picked up when they cry tend to have fewer crying episodes and less aggressive behavior as ...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 6. Infants who are consistently picked up when they cry tend to have fewer crying episodes and less aggressive behavior as toddlers.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_6_7073",
+      "slide": 6,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 6?",
+      "options": [
+        "Infants will easily accomplish various activities if they are not forced before they reach readiness.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 6. Infants will easily accomplish various activities if they are not forced before they reach readiness.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_6_1059",
+      "slide": 6,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 6?",
+      "options": [
+        "When infant shows readiness to learn a task, parents should provide encouragement.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 6. When infant shows readiness to learn a task, parents should provide encouragement.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_6_7351",
+      "slide": 6,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 6:",
+      "options": [
+        "Emotional Development\n\nConsistency must be established to develop trust, which i...",
+        "Infants who are consistently picked up when they cry tend to have fewer crying e...",
+        "Infants will easily accomplish various activities if they are not forced before ...",
+        "When infant shows readiness to learn a task, parents should provide encouragemen...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 6. Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of a healthy personality.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_6_7351",
+      "slide": 6,
+      "type": "matrix",
+      "question": "For each statement from Slide 6, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Emotional Development\n\nConsistency must be established to de",
+        "Infants who are consistently picked up when they cry tend to",
+        "Infants will easily accomplish various activities if they ar"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 6. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_8_5178",
       "slide": 8,
-      "question": "According to the lecture (Slide 8): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 8?",
       "options": [
-        "2\u000bObjectives\nDiscuss the approach and care of an infant with colic",
+        "Discuss the development of favorable sleep patterns.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 8: 2\u000bObjectives\nDiscuss the approach and care of an infant with colic",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 8. Discuss the development of favorable sleep patterns.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_6",
+      "id": "q_8_8569",
+      "slide": 8,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 8?",
+      "options": [
+        "Discuss the nutritional needs of growing infants.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 8. Discuss the nutritional needs of growing infants.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_8_8670",
+      "slide": 8,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 8?",
+      "options": [
+        "Examine nutrition counseling for the infant.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 8. Examine nutrition counseling for the infant.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_8_9139",
+      "slide": 8,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 8?",
+      "options": [
+        "List four common concerns of parents about the feeding of infants.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 8. List four common concerns of parents about the feeding of infants.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_8_3067",
+      "slide": 8,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 8:",
+      "options": [
+        "Discuss the development of favorable sleep patterns....",
+        "Discuss the nutritional needs of growing infants....",
+        "Examine nutrition counseling for the infant....",
+        "List four common concerns of parents about the feeding of infants....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 8. Discuss the development of favorable sleep patterns.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_8_3067",
+      "slide": 8,
+      "type": "matrix",
+      "question": "For each statement from Slide 8, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Discuss the development of favorable sleep patterns.",
+        "Discuss the nutritional needs of growing infants.",
+        "Examine nutrition counseling for the infant."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 8. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_11_5414",
       "slide": 11,
-      "question": "According to the lecture (Slide 11): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 11?",
       "options": [
-        "Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting d...",
+        "Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting down\u201d and s...",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 11: Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting down\u201d and sleeping",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 11. Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting down\u201d and sleeping.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_7",
+      "id": "q_11_3999",
+      "slide": 11,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 11?",
+      "options": [
+        "Coping strategies include:\n\nAvoid bright lights.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 11. Coping strategies include:\n\nAvoid bright lights.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_11_4237",
+      "slide": 11,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 11?",
+      "options": [
+        "Move and handle the infant slowly and gently.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 11. Move and handle the infant slowly and gently.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_11_9447",
+      "slide": 11,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 11?",
+      "options": [
+        "Sit the infant upright at intervals.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 11. Sit the infant upright at intervals.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_11_6267",
+      "slide": 11,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 11?",
+      "options": [
+        "Slowly dress and undress the infant.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 11. Slowly dress and undress the infant.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_11_889",
+      "slide": 11,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 11:",
+      "options": [
+        "Coping with the Lethargic Infant\nSome infants respond to an excessively stimulat...",
+        "Coping strategies include:\n\nAvoid bright lights....",
+        "Move and handle the infant slowly and gently....",
+        "Sit the infant upright at intervals....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 11. Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting down\u201d and sleeping.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_11_889",
+      "slide": 11,
+      "type": "matrix",
+      "question": "For each statement from Slide 11, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Coping with the Lethargic Infant\nSome infants respond to an ",
+        "Coping strategies include:\n\nAvoid bright lights.",
+        "Move and handle the infant slowly and gently."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 11. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_12_5170",
       "slide": 12,
-      "question": "According to the lecture (Slide 12): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 12?",
       "options": [
-        "Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals",
+        "Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 12: Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 12. Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_8",
+      "id": "q_12_3370",
+      "slide": 12,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 12?",
+      "options": [
+        "By 4 to 6 months, can be up to 8 hours\nSynchronizing circadian rhythm of infant to family routine is a learned behavior.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 12. By 4 to 6 months, can be up to 8 hours\nSynchronizing circadian rhythm of infant to family routine is a learned behavior.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_12_535",
+      "slide": 12,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 12?",
+      "options": [
+        "Position infants on their backs on a firm mattress.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 12. Position infants on their backs on a firm mattress.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_12_2730",
+      "slide": 12,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 12?",
+      "options": [
+        "Infants rely on parent to soothe them back to sleep if awakened during the night.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 12. Infants rely on parent to soothe them back to sleep if awakened during the night.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_12_3242",
+      "slide": 12,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 12?",
+      "options": [
+        "Assist infant to learn self-soothing behaviors.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 12. Assist infant to learn self-soothing behaviors.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_12_5054",
+      "slide": 12,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 12:",
+      "options": [
+        "Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals....",
+        "By 4 to 6 months, can be up to 8 hours\nSynchronizing circadian rhythm of infant ...",
+        "Position infants on their backs on a firm mattress....",
+        "Infants rely on parent to soothe them back to sleep if awakened during the night...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 12. Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_12_5054",
+      "slide": 12,
+      "type": "matrix",
+      "question": "For each statement from Slide 12, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Developing Positive Sleep Patterns\nNewborns sleep in 4-hour ",
+        "By 4 to 6 months, can be up to 8 hours\nSynchronizing circadi",
+        "Position infants on their backs on a firm mattress."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 12. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_13_9268",
       "slide": 13,
-      "question": "According to the lecture (Slide 13): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 13?",
       "options": [
-        "Illness Prevention: Parent Education\nStress importance of periodic health checks",
+        "Illness Prevention: Parent Education\nStress importance of periodic health checks.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 13: Illness Prevention: Parent Education\nStress importance of periodic health checks",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 13. Illness Prevention: Parent Education\nStress importance of periodic health checks.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_9",
+      "id": "q_13_4902",
+      "slide": 13,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 13?",
+      "options": [
+        "Ensure infant receives recommended vaccinations at appropriate times.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 13. Ensure infant receives recommended vaccinations at appropriate times.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_13_778",
+      "slide": 13,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 13?",
+      "options": [
+        "Provide education and anticipatory guidance for the developmental changes that occur.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 13. Provide education and anticipatory guidance for the developmental changes that occur.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_13_8734",
+      "slide": 13,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 13?",
+      "options": [
+        "Stress importance of changing diaper when it becomes wet or soiled.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 13. Stress importance of changing diaper when it becomes wet or soiled.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_13_6568",
+      "slide": 13,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 13?",
+      "options": [
+        "Monitor growth of infant by documenting measurements on a growth chart.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 13. Monitor growth of infant by documenting measurements on a growth chart.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_13_6764",
+      "slide": 13,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 13?",
+      "options": [
+        "Ensure adequate fluid and nutrition are provided.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 13. Ensure adequate fluid and nutrition are provided.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_13_592",
+      "slide": 13,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 13:",
+      "options": [
+        "Illness Prevention: Parent Education\nStress importance of periodic health checks...",
+        "Ensure infant receives recommended vaccinations at appropriate times....",
+        "Provide education and anticipatory guidance for the developmental changes that o...",
+        "Stress importance of changing diaper when it becomes wet or soiled....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 13. Illness Prevention: Parent Education\nStress importance of periodic health checks.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_13_592",
+      "slide": 13,
+      "type": "matrix",
+      "question": "For each statement from Slide 13, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Illness Prevention: Parent Education\nStress importance of pe",
+        "Ensure infant receives recommended vaccinations at appropria",
+        "Provide education and anticipatory guidance for the developm"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 13. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_14_9052",
       "slide": 14,
-      "question": "According to the lecture (Slide 14): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 14?",
       "options": [
-        "Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at least five times in the...",
+        "Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at least five times in the first yea...",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 14: Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at least five times in the first year\nHearing and vision assessments as indicated\nScreening tests administered as required\nGrowth grids and developmental screening\nImmunizations\nNutritional counseling\nProvide appropriate education and explanations to the parents",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 14. Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at least five times in the first year\nHearing and vision assessments as indicated\nScreening tests administered as re... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_10",
+      "id": "q_15_3324",
       "slide": 15,
-      "question": "According to the lecture (Slide 15): which is accurate?",
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 15?",
       "options": [
-        "Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child",
+        "Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 15: Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 15. Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
     },
     {
-      "id": "ch16_11",
-      "slide": 19,
-      "question": "According to the lecture (Slide 19): which is accurate?",
+      "id": "q_15_4930",
+      "slide": 15,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 15?",
       "options": [
-        "Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months",
+        "Community referrals may be needed.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 19: Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months",
-      "type": "mcq"
+      "rationale": "The correct answer is supported by the lecture material on Slide 15. Community referrals may be needed.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_15_6435",
+      "slide": 15,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 15?",
+      "options": [
+        "Early therapies may be needed (e.g., speech, cognitive, neurodevelopmental).",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 15. Early therapies may be needed (e.g., speech, cognitive, neurodevelopmental).... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_15_300",
+      "slide": 15,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 15:",
+      "options": [
+        "Infants with Special Needs\nEarly intervention is essential to attain the best ou...",
+        "Community referrals may be needed....",
+        "Early therapies may be needed (e.g., speech, cognitive, neurodevelopmental)....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 15. Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_15_300",
+      "slide": 15,
+      "type": "matrix",
+      "question": "For each statement from Slide 15, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Infants with Special Needs\nEarly intervention is essential t",
+        "Community referrals may be needed.",
+        "Early therapies may be needed (e.g., speech, cognitive, neur"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 15. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_19_6058",
+      "slide": 19,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 19?",
+      "options": [
+        "Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 19. Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_19_4274",
+      "slide": 19,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 19?",
+      "options": [
+        "The infant has at least six wet diapers per day.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 19. The infant has at least six wet diapers per day.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_19_4555",
+      "slide": 19,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 19?",
+      "options": [
+        "The infant sleeps peacefully for several hours after feedings.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 19. The infant sleeps peacefully for several hours after feedings.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_19_8392",
+      "slide": 19,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 19:",
+      "options": [
+        "Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the fi...",
+        "The infant has at least six wet diapers per day....",
+        "The infant sleeps peacefully for several hours after feedings....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 19. Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_19_8392",
+      "slide": 19,
+      "type": "matrix",
+      "question": "For each statement from Slide 19, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz",
+        "The infant has at least six wet diapers per day.",
+        "The infant sleeps peacefully for several hours after feeding"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 19. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_25_1015",
+      "slide": 25,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 25?",
+      "options": [
+        "Adding Solid Foods\nDo not introduce new food if infant is ill because adverse effects such as allergic reactions may not...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 25. Adding Solid Foods\nDo not introduce new food if infant is ill because adverse effects such as allergic reactions may not be appropriately identified.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_25_5538",
+      "slide": 25,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 25?",
+      "options": [
+        "Rice cereal is recommended as first food.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 25. Rice cereal is recommended as first food.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_25_126",
+      "slide": 25,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 25?",
+      "options": [
+        "Do not mix cereal or baby food in a bottle with formula.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 25. Do not mix cereal or baby food in a bottle with formula.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_25_7008",
+      "slide": 25,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 25?",
+      "options": [
+        "Introduce one food at a time in small amounts.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 25. Introduce one food at a time in small amounts.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_25_2815",
+      "slide": 25,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 25?",
+      "options": [
+        "Delay introduction of foods known to cause allergic responses, such as orange juice, fish, nuts, strawberries, chocolate...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 25. Delay introduction of foods known to cause allergic responses, such as orange juice, fish, nuts, strawberries, chocolate, and egg whites.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_25_808",
+      "slide": 25,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 25:",
+      "options": [
+        "Adding Solid Foods\nDo not introduce new food if infant is ill because adverse ef...",
+        "Rice cereal is recommended as first food....",
+        "Do not mix cereal or baby food in a bottle with formula....",
+        "Introduce one food at a time in small amounts....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 25. Adding Solid Foods\nDo not introduce new food if infant is ill because adverse effects such as allergic reactions may not be appropriately identified.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_25_808",
+      "slide": 25,
+      "type": "matrix",
+      "question": "For each statement from Slide 25, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Adding Solid Foods\nDo not introduce new food if infant is il",
+        "Rice cereal is recommended as first food.",
+        "Do not mix cereal or baby food in a bottle with formula."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 25. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_33_3265",
+      "slide": 33,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 33?",
+      "options": [
+        "Summary of Major Developmental Changes in the First Year (1 of 2)\nWeight doubles by 6 months of age and triples by 1 yea...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 33. Summary of Major Developmental Changes in the First Year (1 of 2)\nWeight doubles by 6 months of age and triples by 1 year of age.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_33_1671",
+      "slide": 33,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 33?",
+      "options": [
+        "Head and chest circumference are equal by 1 year of age.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 33. Head and chest circumference are equal by 1 year of age.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_33_349",
+      "slide": 33,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 33?",
+      "options": [
+        "Maternal iron stores decrease by age 6 months.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 33. Maternal iron stores decrease by age 6 months.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_33_571",
+      "slide": 33,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 33?",
+      "options": [
+        "Depth perception begins to develop at age 9 months.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 33. Depth perception begins to develop at age 9 months.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_33_5098",
+      "slide": 33,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 33:",
+      "options": [
+        "Summary of Major Developmental Changes in the First Year (1 of 2)\nWeight doubles...",
+        "Head and chest circumference are equal by 1 year of age....",
+        "Maternal iron stores decrease by age 6 months....",
+        "Depth perception begins to develop at age 9 months....",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 33. Summary of Major Developmental Changes in the First Year (1 of 2)\nWeight doubles by 6 months of age and triples by 1 year of age.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_33_5098",
+      "slide": 33,
+      "type": "matrix",
+      "question": "For each statement from Slide 33, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Summary of Major Developmental Changes in the First Year (1 ",
+        "Head and chest circumference are equal by 1 year of age.",
+        "Maternal iron stores decrease by age 6 months."
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 33. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
+    },
+    {
+      "id": "q_0_4638",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Note: Italic words throughout are key terms.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Note: Italic words throughout are key terms.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9168",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give an example of a normal sleep\u2013wake cycle for an infant.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of a normal sleep\u2013wake cycle for an infant.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_7411",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "When does an infant begin to smile?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. When does an infant begin to smile?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_8449",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "When does the infant begin to drink from a cup?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. When does the infant begin to drink from a cup?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1057",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How does an infant relieve tension?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How does an infant relieve tension?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9878",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why do infants need to suck?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why do infants need to suck?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9309",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What is the pincer grasp?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What is the pincer grasp?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2018",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give an example of when a parent must allow an infant to be ready for a task.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of when a parent must allow an infant to be ready for a task.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_8854",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How does a sense of trust promote emotional development?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How does a sense of trust promote emotional development?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_5032",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Describe how sensory stimulation is important to the development of an infant\u2019s cognition.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Describe how sensory stimulation is important to the development of an infant\u2019s cognition.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1451",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give an example of an infant\u2019s actions that convey recognition of warmth and affection.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of an infant\u2019s actions that convey recognition of warmth and affection.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_5344",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How does the environment affect an irritable infant?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How does the environment affect an irritable infant?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_6217",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give an example of when an infant might become lethargic and shut down from a situation.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of when an infant might become lethargic and shut down from a situation.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1880",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss what the parent can do to teach an infant to self-soothe.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss what the parent can do to teach an infant to self-soothe.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1105",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Discuss why the chin position is important to note in an infant who is placed in a car seat.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss why the chin position is important to note in an infant who is placed in a car seat.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_7698",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What are the guidelines for well-baby checks in the United States?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What are the guidelines for well-baby checks in the United States?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_5179",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why are vaccinations encouraged in the United States?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why are vaccinations encouraged in the United States?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2277",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Give an example of anticipatory guidance.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of anticipatory guidance.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_7718",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why is skin care such an issue for infants?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why is skin care such an issue for infants?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9296",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How might the nurse educate parents regarding skin care for the infant who has a diaper rash?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How might the nurse educate parents regarding skin care for the infant who has a diaper rash?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_5862",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Describe a method with which the nurse can assess whether an infant is receiving adequate nutrition.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Describe a method with which the nurse can assess whether an infant is receiving adequate nutrition.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2195",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "How does the nurse determine whether an infant is receiving adequate nutrition with a mother who is breastfeeding and a ...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. How does the nurse determine whether an infant is receiving adequate nutrition with a mother who is breastfeeding and a mother who is bottle feeding?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2470",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Describe how growth and developmental screenings assist in illness prevention.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Describe how growth and developmental screenings assist in illness prevention.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_389",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Describe an incident in which nutritional counseling would be appropriate from the nurse.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Describe an incident in which nutritional counseling would be appropriate from the nurse.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2386",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Bottle versus breastfeeding was discussed in earlier chapters.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Bottle versus breastfeeding was discussed in earlier chapters.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2397",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "It may be helpful to review specific points in this area, including how to heat formula, how to determine if infant is g...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. It may be helpful to review specific points in this area, including how to heat formula, how to determine if infant is getting enough to eat based on number of wet diapers, the ability of infant to sl... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2520",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Refer to Table 16-3 in the textbook for more detailed information on the various formulas and their nutritional componen...",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Refer to Table 16-3 in the textbook for more detailed information on the various formulas and their nutritional components.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_9831",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why should new foods not be introduced when an infant is ill?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why should new foods not be introduced when an infant is ill?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_3671",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why is rice cereal preferred over other cereals?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why is rice cereal preferred over other cereals?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_3704",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why should baby formula not be mixed with cereal or foods?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why should baby formula not be mixed with cereal or foods?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_3980",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why are orange juice, fish, strawberries, chocolate, and egg whites more likely to cause food allergies?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why are orange juice, fish, strawberries, chocolate, and egg whites more likely to cause food allergies?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_1143",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why do infants require more calories than toddlers, preschoolers, school-age children, and adults?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why do infants require more calories than toddlers, preschoolers, school-age children, and adults?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_6052",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "To maintain their rapid growth and development in the first year of life\nWhy are fats essential for infants?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. To maintain their rapid growth and development in the first year of life\nWhy are fats essential for infants?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_4269",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Provide a rationale for providing solid foods before milk feedings in an infant.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Provide a rationale for providing solid foods before milk feedings in an infant.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_134",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "If milk or formula feedings decrease as solid foods increase, how does the nurse determine hydration status?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. If milk or formula feedings decrease as solid foods increase, how does the nurse determine hydration status?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_8612",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why should food be placed on the back of the tongue in an infant who is learning how to eat solid foods?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why should food be placed on the back of the tongue in an infant who is learning how to eat solid foods?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_3868",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Why should an infant be placed in a rear-facing car seat?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Why should an infant be placed in a rear-facing car seat?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_8807",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "What measures can be taken to prevent infant injury from a swimming pool, electrical outlets, stairs, and pets?",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. What measures can be taken to prevent infant injury from a swimming pool, electrical outlets, stairs, and pets?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "q_0_2134",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement best describes the concept from Slide 0?",
+      "options": [
+        "Describe toys that are not appropriate for an infant.",
+        "This applies only to adult patients.",
+        "This is not considered standard practice.",
+        "This contradicts current pediatric guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported by the lecture material on Slide 0. Describe toys that are not appropriate for an infant.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+    },
+    {
+      "id": "sata_0_4330",
+      "slide": 0,
+      "type": "sata",
+      "question": "Select all that apply regarding the content on Slide 0:",
+      "options": [
+        "Note: Italic words throughout are key terms....",
+        "Give an example of a normal sleep\u2013wake cycle for an infant....",
+        "When does an infant begin to smile?...",
+        "When does the infant begin to drink from a cup?...",
+        "This is not a nursing responsibility.",
+        "This is contraindicated in pediatrics."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "The correct selections are all supported by the lecture content on Slide 0. Note: Italic words throughout are key terms.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+    },
+    {
+      "id": "matrix_0_4330",
+      "slide": 0,
+      "type": "matrix",
+      "question": "For each statement from Slide 0, indicate if it is True, False, or Not Discussed:",
+      "rows": [
+        "Note: Italic words throughout are key terms.",
+        "Give an example of a normal sleep\u2013wake cycle for an infant.",
+        "When does an infant begin to smile?"
+      ],
+      "columns": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "All listed statements are supported by the lecture content on Slide 0. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ]
     }
   ]
 }
