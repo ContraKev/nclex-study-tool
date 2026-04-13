@@ -1,5 +1,5 @@
 {
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "NCLEX Study Tool Content Manifest - Modular content registry for easy additions",
   "exams": [
     {
@@ -497,6 +497,21 @@
       "id": "pptx-remastered",
       "file": "study-guides/pptx-remastered.md",
       "title": "PPTX Questions (Remastered)"
+    },
+    {
+      "id": "peds-ch15-19-comprehensive",
+      "file": "study-guides/peds-ch15-19-comprehensive.md",
+      "title": "PEDS Ch15-19: Growth, Development & Nutrition \u2014 Comprehensive"
+    },
+    {
+      "id": "peds-ch20-24-comprehensive",
+      "file": "study-guides/peds-ch20-24-comprehensive.md",
+      "title": "PEDS Ch20-24+: Adolescent & Disorders \u2014 Comprehensive"
+    },
+    {
+      "id": "ati-cms-peds-practice-a",
+      "file": "study-guides/ati-cms-peds-practice-a.md",
+      "title": "ATI CMS Pediatrics Practice A \u2014 Comprehensive Study Guide"
     }
   ],
   "notes": "To add new content: 1. Add JSON/MD to appropriate content/ subdir 2. Update this manifest if new category 3. Run 'python tools/build.py' 4. Test in browser. Validation will catch errors.",

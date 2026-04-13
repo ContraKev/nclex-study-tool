@@ -2,6 +2,17 @@
 
 All notable changes to the NCLEX Study Tool are documented here.
 
+## [5.0.3] — 2026-04-13
+
+### Added
+- **PEDS Ch15-19 Comprehensive Study Guide**: 1,483 lines raw → `content/study-guides/peds-ch15-19-comprehensive.md` (milestones, vital signs, Erikson/Piaget tables)
+- **PEDS Ch20-24+ Comprehensive Study Guide**: 4,163 lines raw → `content/study-guides/peds-ch20-24-comprehensive.md` (adolescent, disorders, respiratory/GI/Heme/CV/Neuro)
+- **ATI CMS Peds Practice A Study Guide**: Web research (Quizlet/Studocu topics) + lectures → `content/study-guides/ati-cms-peds-practice-a.md` (burns, respiratory, GI, infection, MSK, Heme/Onc, endocrine, dev, meds)
+- **Manifest**: 20 study guides (up from 17)
+
+### Fixed
+- OB Ch13/14 schema: added `questions` and `category` fields
+
 ## [5.0.2] — 2026-04-13
 
 ### Added
