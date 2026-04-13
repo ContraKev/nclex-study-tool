@@ -3,7 +3,11 @@ window.drugDB = [];
 
 function mergeData(groupData) {
     if (Array.isArray(groupData)) {
-        window.drugDB = window.drugDB.concat(groupData);
+        groupData.forEach(d => {
+            if (!window.drugDB.some(existing => existing.g === d.g)) {
+                window.drugDB.push(d);
+            }
+        });
     }
 }
 
@@ -43,10 +47,9 @@ if (typeof data_diabetes_insulins_part1 !== 'undefined') mergeData(data_diabetes
 if (typeof data_diabetes_insulins_part2 !== 'undefined') mergeData(data_diabetes_insulins_part2);
 
 // Pain Management Atomic Loads
-if (typeof data_pain_nonopioid !== 'undefined') mergeData(data_pain_nonopioid);
+if (typeof data_pain_adjuvants !== 'undefined') mergeData(data_pain_adjuvants);
 if (typeof data_pain_opioid_agonists !== 'undefined') mergeData(data_pain_opioid_agonists);
 if (typeof data_pain_partial_antagonists !== 'undefined') mergeData(data_pain_partial_antagonists);
-if (typeof data_pain_adjuvants !== 'undefined') mergeData(data_pain_adjuvants);
 
 // Antimicrobials Atomic Loads
 if (typeof data_antimicrobials_part1 !== 'undefined') mergeData(data_antimicrobials_part1);

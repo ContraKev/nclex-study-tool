@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Drug Reference Card",
+  "type": "object",
+  "required": ["g", "c", "cat", "m", "ind", "con", "aec", "aes", "dosage", "admin", "nurse"],
+  "properties": {
+    "g": {"type": "string", "description": "Generic name"},
+    "b": {"type": "string", "description": "Brand names"},
+    "c": {"type": "string", "description": "Class"},
+    "cat": {"type": "string", "enum": ["cv", "dm", "pain", "abx", "resp", "immun", "cns", "gi", "endo", "neuro", "repro", "uro", "ophthal", "msk", "derm", "heme", "emerg"]},
+    "m": {"type": "string", "minLength": 20},
+    "ind": {"type": "string"},
+    "con": {"type": "string"},
+    "aec": {"type": "string"},
+    "aes": {"type": "string"},
+    "inter": {"type": "array", "items": {"type": "object", "required": ["d", "m", "s"]}},
+    "dosage": {"type": "string"},
+    "admin": {"type": "string"},
+    "nurse": {"type": "string", "minLength": 10}
+  }
+}

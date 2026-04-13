@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NCLEX Exam Module",
+  "type": "object",
+  "required": ["id", "name", "category", "questions"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "category": {"type": "string"},
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "question", "options", "answer", "rationale"],
+        "properties": {
+          "id": {"type": "string"},
+          "slide": {"type": "integer"},
+          "type": {"type": "string", "enum": ["mcq", "sata", "matrix", "bowtie", "cloze", "highlight"]},
+          "question": {"type": "string", "minLength": 10},
+          "options": {"type": "array", "items": {"type": "string"}, "minItems": 2},
+          "answer": {"type": "array", "items": {"type": "integer"}},
+          "rationale": {"type": "string", "minLength": 20}
+        }
+      }
+    }
+  }
+}

@@ -110,7 +110,8 @@ function sync() {
 
     // 2. Replace or insert the push + log block
     const pushRe = new RegExp(`window\\.availableExams\\.push\\(\\{[^}]*id:\\s*['"]${id}['"][\\s\\S]*?\\}\\);`, 'm');
-    const pushBlock = `window.availableExams.push({id: '${id}', name: '${name}', category: 'Pediatrics', data: window.${varName}});\nconsole.log('Created exam module: ${name} with ' + window.${varName}.length + ' questions');`;
+    const escapedName = name.replace(/'/g, "\\'");
+    const pushBlock = `window.availableExams.push({id: '${id}', name: '${escapedName}', category: 'Pediatrics', data: window.${varName}});\nconsole.log('Created exam module: ${escapedName} with ' + window.${varName}.length + ' questions');`;
     if (pushRe.test(html)) {
       html = html.replace(pushRe, pushBlock);
     } else {

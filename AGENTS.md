@@ -146,6 +146,35 @@ Each block = `const data_xxx = [...]` array, loaded via `mergeData()` in data_lo
 - [ ] Stripe payment integration
 - [ ] hCaptcha integration (currently disabled)
 
+## v5.0 Modular Content Architecture (Redesigned for Maintainability)
+
+Previous ad-hoc scripts (regex patches into giant HTML, one-off generators, manual data_loader edits) caused breakage on every content addition. 
+
+**New System:**
+- `content/` is the single source of truth (JSON + MD, never edit dist/ directly)
+- `schemas/*.schema.json` enforce structure (exam, drug, mission)
+- `tools/build.py` validates + will generate dist/index.html from template + content/
+- `content/manifest.json` registers everything — update when adding new category
+- Legacy data (data_*.js, lectureexam.js, etc.) still works; migration to content/ is incremental
+- Peds exams (added by previous model) contain low-quality generated data with bad distractors/answers — excluded from new manifest until regenerated with proper process
+
+**How to Add New Content (No More Breakage):**
+1. Create JSON in content/exams/new-exam.json (follow exam.schema.json)
+   OR content/drugs/new-cat.json (array of drug cards)
+   OR MD in content/study-guides/new.md
+2. Update content/manifest.json with the new entry
+3. Run `python3 tools/build.py` — fails fast on schema violation or missing fields
+4. (Future) It will rebuild dist/index.html cleanly
+5. Test, git add content/ dist/index.html, push
+
+**Benefits:**
+- Validation prevents garbage data (e.g., "This is an outdated concept..." placeholders)
+- Adding = drop file + manifest + build (no touching 500KB HTML or 30 if-checks)
+- Raw lecture extracts stay in raw_data/; generation scripts moved to tools/
+- Clean repo: clutter (versioned HTMLs, debug scripts) can be archived
+
+Run `python3 tools/build.py` after any content change.
+
 ## Owner
 Kevin McAndrews (ContraKev) — LVN student at Unitek College
 Email: kevin.c.s.mcandrews@gmail.com
