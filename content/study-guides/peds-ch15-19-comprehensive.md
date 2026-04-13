@@ -271,6 +271,164 @@ Provide age-appropriate education to parents before child reaches next stage.
 
 ---
 
+
+
+## 🏥 Family-Centered Care (FCC) — Core Philosophy
+
+**Family is the constant in the child's life.** Nurses partner with families, not just care for children.
+
+### Key FCC Principles
+- Family is the expert on their child
+- Involve family in all decisions and care
+- Provide atraumatic care (minimize separation, pain, loss of control)
+- Culturally sensitive and respectful
+- Health promotion across continuum (well-child, acute, chronic, end-of-life)
+
+### Nurse Roles in FCC
+- Direct care provider
+- Educator (teach family)
+- Advocate (for child and family)
+- Case manager
+- Support person
+
+### Atraumatic Care Principles
+- Minimize separation from family
+- Prevent/minimize bodily injury/pain
+- Promote sense of control
+- Use therapeutic play to prepare and process
+
+---
+
+## 📊 Leading Causes of Death (High-Yield)
+
+### Infants (<1 year)
+1. Congenital anomalies (birth defects) — #1
+2. Preterm birth / Low birth weight
+3. SIDS (reduced by Back to Sleep campaign)
+4. Maternal pregnancy complications
+5. Unintentional injuries (after age 1, injuries become #1)
+
+### Children (1-18 years)
+1. **Unintentional injuries** — #1 cause of death
+2. Congenital anomalies
+3. Cancer
+4. Homicide (adolescents)
+5. Suicide (adolescents — males higher risk)
+
+---
+
+## 🌍 Cultural Considerations
+
+- Assess family beliefs, health practices, and preferences
+- Incorporate cultural practices into care plan (when safe)
+- Use interpreters for non-English speaking families
+- Respect hot/cold balance beliefs (some cultures)
+- Family structure varies (nuclear, extended, blended, single-parent)
+- Be aware of religious practices (circumcision, dietary restrictions)
+
+**Nursing:** Provide culturally humble, non-judgmental care. Ask families about their beliefs.
+
+---
+
+## 🍎 Childhood Obesity — Most Common Nutritional Problem
+
+- Leading nutritional issue in children
+- Risk factors: sedentary lifestyle, high-calorie diet, screen time, genetics
+- Consequences: hypertension, dyslipidemia, type 2 diabetes, psychological effects
+- Prevention: promote activity (60 min/day), limit screen time (2 hr max), healthy diet
+
+---
+
+## 💉 Immunizations (CDC Schedule Highlights)
+
+### Birth
+- Hep B #1
+
+### 2 months
+- DTaP #1, Hib #1, PCV13 #1, IPV #1, Rotavirus #1
+
+### 4 months
+- DTaP #2, Hib #2, PCV13 #2, IPV #2, Rotavirus #2
+
+### 6 months
+- DTaP #3, Hib #3 (if 4-dose), PCV13 #3, IPV #3
+- Rotavirus #3 (if 3-dose)
+- Flu (annual, 6+ months)
+
+### 12 months
+- MMR #1, Varicella #1, Hep A #1
+
+### 15-18 months
+- DTaP #4, Hib #4 (if needed), PCV13 #4
+
+### 4-6 years
+- DTaP #5, IPV #4, MMR #2, Varicella #2
+
+**Contraindications:** Severe allergic reaction to previous dose, immunocompromise (for live vaccines), pregnancy (for live vaccines).
+
+---
+
+## 🧬 Inborn Errors of Metabolism (Genetics)
+
+### PKU (Phenylketonuria)
+- Autosomal recessive — cannot metabolize phenylalanine
+- Newborn screening at 24-48 hrs
+- **Treatment:** Low-phenylalanine diet (avoid high-protein foods like milk, meat)
+- If untreated: intellectual disability
+
+### Galactosemia
+- Cannot metabolize galactose (in breast milk, lactose)
+- **Treatment:** Stop breastfeeding, use soy-based formula
+- Screen newborn — stop milk immediately if positive
+
+### Cystic Fibrosis
+- Autosomal recessive, affects lungs, pancreas, sweat glands
+- **Early sign:** Meconium ileus in newborn
+- **Symptoms:** Chronic respiratory infections, steatorrhea, salty skin
+- **Diagnosis:** Sweat chloride test
+- **Treatment:** Chest physiotherapy, enzyme supplements, antibiotics
+
+### Down Syndrome (Trisomy 21)
+- Extra chromosome 21
+- **Risk:** Advanced maternal age
+- **Features:** Low-set ears, flat nasal bridge, single palmar crease, hypotonia
+- **Associated:** Congenital heart defects, GI issues, intellectual disability
+
+---
+
+## ✅ Exam Prep — High-Yield Summary
+
+### Must-Know Theories
+- Erikson stages (trust → identity)
+- Piaget stages (sensorimotor → formal operational)
+- Growth vs development definitions
+
+### Must-Know Milestones
+- Fontanelle closure (posterior 2-3mo, anterior 9-18mo)
+- Weight doubles by 6mo, triples by 12mo
+- Key milestones by age (2, 4, 6, 9, 12 mo)
+
+### Must-Know Nutrition
+- Breast milk/formula only 0-6mo
+- Solids at 6mo (iron cereal first)
+- No honey <1yr, no cow's milk <1yr
+
+### Must-Know Safety
+- SIDS prevention: back to sleep
+- Car seat: rear-facing until age 2
+- Leading cause of death >1yr: unintentional injury
+
+### Must-Know FCC
+- Family is the constant
+- Atraumatic care principles
+- Cultural sensitivity
+
+### Must-Know Genetics
+- PKU: low phenylalanine diet
+- Galactosemia: no breast milk/lactose
+- CF: sweat test, chest PT, enzymes
+- Down syndrome: maternal age risk
+
 ## ✅ Exam Prep — High-Yield Topics
 
 1. **Erikson stages** — know age ranges and key tasks
