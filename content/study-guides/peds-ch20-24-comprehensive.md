@@ -49,21 +49,17 @@
 
 ## Key Content from Lectures
 
-- === SLIDE 1 ===
-The  Adolescent
+- The  Adolescent
 Chapter 20
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-Note: Italic words throughout are key terms.
+- Note: Italic words throughout are key terms.
 - 1Objectives
 Copyright © 2019, Elsevier Inc.
-- === SLIDE 3 ===
-
+- 
 
 General Characteristics of Adolescence 
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-sex organs (primary sex characteristics)
+- sex organs (primary sex characteristics)
 Define secondary sex characteristics.
 - Differences in size between sexes are also considered secondary sexual characteristics.
 - In humans, visible secondary sex characteristics include enlarged breasts and widened hips of females, facial hair and Adam's apples on males, and pubic hair on both.
@@ -73,21 +69,16 @@ Perhaps one of the most characteristic features of adolescence is its uncertaint
 The major tasks of adolescence include establishing an identity, separating from family, initiating intimacy, and developing career choices for economic independence.
 - T
 
-=== SLIDE 4 ===
 Developmental Tasks
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-Give an example of a situation which explains each of these characteristics:
+- Give an example of a situation which explains each of these characteristics:
 Erikson’s stage of intimacy
 Piaget’s abstract reasoning
 Freud’s genital stage
 
-=== SLIDE 5 ===
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-Page 459
+- Page 459
 
-=== SLIDE 6 ===
 
 
 Growth and Development Physical Development
@@ -102,7 +93,6 @@ Copyright © 2019, Elsevier Inc.
 - The sweat glands are very active, and oily skin and acne are common.
 - Both sexes mature earlier and grow taller and heavier than in past generations
 
-=== SLIDE 7 ===
 Puberty: Tanner’s stages pg.
 - 462
 Guys
@@ -121,13 +111,10 @@ Teach self breast exam
 
 
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-Boys: taught how to examine testicle and check monthly  for lumps.
-- === SLIDE 8 ===
-Psychosocial Development
+- Boys: taught how to examine testicle and check monthly  for lumps.
+- Psychosocial Development
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-How does an adolescent’s identity fluctuate at this stage in life?
+- How does an adolescent’s identity fluctuate at this stage in life?
 Give an example of a situation in which an adolescent learns by trial and error.
 - Self concept fluctuates
 
@@ -153,13 +140,10 @@ Identify two ways in which a person’s cultural background might contribute to 
 - Summarize the nutritional requirements of the adolescent.
 - List three guidelines of importance for the adolescent participating in sports.
 - Discuss the common problems of adolescence and the nursing approach.
-- === SLIDE 10 ===
-Culture and Its Effect on Behavior
+- Culture and Its Effect on Behavior
 Copyright © 2019, Elsevier Inc.
-- === NOTES ===
-Adolescents can understand abstract concepts and symbols, and exposure to religion and religious practices other than those experienced within their own traditional family can help them stabilize their group identity
+- Adolescents can understand abstract concepts and symbols, and exposure to religion and religious practices other than those experienced within their own traditional family can help them stabilize their group identity
 
-=== SLIDE 11 ===
 
 Peer Relationships
 Help adolescents feel like they belong
@@ -170,12 +154,10 @@ Vitally important in helping adolescents define themselves
 Social norms and pressures exerted by peers may cause problems.
 - This Photo by Unknown Author is licensed under CC BY-SA
 
-=== NOTES ===
 Discuss how peer relationships change from childhood to adolescence.
 - Give an example of a situation in which an adolescent might learn from a personal, intimate relationship.
 - Stable best friend experiences often precede successful heterosexual relationships in later life.
-- === SLIDE 12 ===
-Career Plans 
+- Career Plans 
 To choose a career that is best-suited for them, they must first know themselves
 Parents should observe interests of their children and encourage them to take advantage of their talents.
 - School guidance counselor administers aptitude tests.
