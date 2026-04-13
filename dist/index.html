@@ -11903,14 +11903,26 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         }
 
         function showStudyGuides() {
-            const guides = Object.keys(window.studyGuideContent || {});
-            const listHtml = guides.length ? guides.map(key => `
+            const guides = [
+                "ob_cheatsheet",
+                "ob_comprehensive",
+                "cms_maternal_cheatsheet",
+                "cms_maternal_comprehensive",
+                "ob_ch678_cheatsheet",
+                "ob_ch678_comprehensive",
+                "ob_ch912_cheatsheet",
+                "ob_ch912_comprehensive",
+                "peds_ch15_19_comprehensive",
+                "peds_ch20_24_comprehensive",
+                "ati_cms_peds_practice_a"
+            ];
+            const listHtml = guides.map(key => `
                 <div class="col-md-6 mb-3">
                     <div class="nexus-card p-3" style="cursor:pointer" onclick="viewStudyGuide('${key}')">
                         <h5 class="text-white mb-1">${key.replace(/_/g, ' ')}</h5>
                         <small class="text-secondary">Click to open</small>
                     </div>
-                </div>`).join('') : '<div class="text-white-50">No study guides loaded.</div>';
+                </div>`).join('');
             const modal = `<div id="studyGuideModal" style="position:fixed;top:0;left:0;width:100%;height:100%;background:var(--primary);z-index:2100;overflow:auto;padding:40px;">
                 <div class="container" style="max-width:1000px;">
                     <div class="d-flex justify-content-between mb-4 border-bottom pb-3">
