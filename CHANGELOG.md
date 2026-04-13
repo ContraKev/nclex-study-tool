@@ -2,6 +2,17 @@
 
 All notable changes to the NCLEX Study Tool are documented here.
 
+## [5.0.4] — 2026-04-13
+
+### Fixed
+- **Study Guides UI**: `showStudyGuides()` and `viewStudyGuide()` now display manifest titles (e.g., "PEDS Ch15-19: Growth, Development & Nutrition — Comprehensive") instead of raw keys like `peds_ch15_19_comprehensive`
+- **Duplicate peds study guides removed**: Deleted `peds-quiz1-ch15-19.md`, `peds-quiz2-ch20-24.md`, `peds-ch17-comprehensive.md` — now only ONE version per section (comprehensive)
+- Updated `content/manifest.json` to remove duplicate study guide entries
+- Cleaned inlined `studyGuideContent` in `dist/index.html` to remove old quiz keys
+
+### Removed
+- Duplicate peds study guide files (kept only comprehensive versions)
+
 ## [5.0.3] — 2026-04-13
 
 ### Added
