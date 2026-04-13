@@ -25,11 +25,11 @@
       "type": "sata",
       "question": "Based on Slide 8:",
       "options": [
-        "Examine nutrition counseling for the infant....",
+        "Examine nutrition counseling for the infant. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_27096",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -76,8 +76,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 33: The nurse should _____ when caring for this patient.",
       "options": [
-        "Depth perception begins to develop at age 9 months....",
-        "Option B",
+        "Depth perception begins to develop at age 9 months. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -92,7 +92,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 11.",
       "options": [
-        "Coping strategies include:\n\nAvoid bright lights....",
+        "Coping strategies include:\n\nAvoid bright lights. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -107,7 +107,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 2?",
       "options": [
-        "Describe the physical and psychosocial development of infants from age 1 to 12 months, listing age-specific ev...",
+        "Describe the physical and psychosocial development of infants from age 1 to 12 months, listing age-specific ev as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -123,11 +123,11 @@
       "type": "sata",
       "question": "Based on Slide 11:",
       "options": [
-        "Coping with the Lethargic Infant\nSome infants respond to an excessivel...",
+        "Coping with the Lethargic Infant\nSome infants respond to an excessivel as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -174,8 +174,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 2: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss the major aspects of cognitive development in the first year of life....",
-        "Option B",
+        "Discuss the major aspects of cognitive development in the first year of life. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_70463",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Why should new foods not be introduced when an infant is ill?...",
+        "Why should new foods not be introduced when an infant is ill? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_19007",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Why do infants need to suck?...",
+        "Why do infants need to suck? as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_18940",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Why are orange juice, fish, strawberries, chocolate, and egg whites more likely ...",
-        "Option B",
+        "Why are orange juice, fish, strawberries, chocolate, and egg whites more likely  as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -288,7 +288,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 4.",
       "options": [
-        "When infants are able to use their hands more skillfully, they will gradually derive pleas...",
+        "When infants are able to use their hands more skillfully, they will gradually derive pleas as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_75240",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "It may be helpful to review specific points in this area, including ho...",
+        "It may be helpful to review specific points in this area, including ho as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -366,12 +366,12 @@
     },
     {
       "id": "q_0_cloze_82407",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss why the chin position is important to note in an infant who is placed in...",
-        "Option B",
+        "Discuss why the chin position is important to note in an infant who is placed in as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -386,7 +386,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 14.",
       "options": [
-        "Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at lea...",
+        "Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at lea as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_26106",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

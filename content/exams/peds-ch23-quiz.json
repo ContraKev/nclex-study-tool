@@ -5,11 +5,11 @@
   "questions": [
     {
       "id": "q_0_mcq_26863",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Hypoxia, increased ICP, cerebral edema, and infection can occur within a few days of a head injury\nHypoxia cau...",
+        "Hypoxia, increased ICP, cerebral edema, and infection can occur within a few days of a head injury\nHypoxia cau as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_37606",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Sensory hearing loss and vertigo with nausea and vomiting may be early...",
+        "Sensory hearing loss and vertigo with nausea and vomiting may be early as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_57103",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_69797",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_13013",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "What milestones might be delayed for an infant and toddler with this condition?...",
-        "Option B",
+        "What milestones might be delayed for an infant and toddler with this condition? as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -88,11 +88,11 @@
     },
     {
       "id": "q_0_highlight_35091",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "What is the rationale of decreasing environmental stimuli?...",
+        "What is the rationale of decreasing environmental stimuli? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": "q_0_mcq_48464",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -123,11 +123,11 @@
       "type": "sata",
       "question": "Based on Slide 14:",
       "options": [
-        "Hyphema\nPresence of blood in the anterior chamber of the eye\nOne of th...",
+        "Hyphema\nPresence of blood in the anterior chamber of the eye\nOne of th as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_30303",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_86157",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss the difference between meningitis and encephalitis....",
-        "Option B",
+        "Discuss the difference between meningitis and encephalitis. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_1872",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Describe the cat\u2019s eye reflex....",
+        "Describe the cat\u2019s eye reflex. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_76947",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_44351",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Occurs as a result of sensory deprivation of the affected eye; childre...",
+        "Occurs as a result of sensory deprivation of the affected eye; childre as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_98871",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_40706",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_34917",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "What is the typical IQ of a child with intellectual and developmental disabiliti...",
-        "Option B",
+        "What is the typical IQ of a child with intellectual and developmental disabiliti as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_59507",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Discuss signs and symptoms that a child with dyslexia might exhibit....",
+        "Discuss signs and symptoms that a child with dyslexia might exhibit. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -299,11 +299,11 @@
     },
     {
       "id": "q_0_mcq_18048",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Can affect speech, language, social and emotional development, behavior, and academic achievement\nTwo types: c...",
+        "Can affect speech, language, social and emotional development, behavior, and academic achievement\nTwo types: c as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -319,11 +319,11 @@
       "type": "sata",
       "question": "Based on Slide 16:",
       "options": [
-        "Discuss the various types of seizures and the nursing responsibilities...",
+        "Discuss the various types of seizures and the nursing responsibilities as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_53336",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_61521",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -370,8 +370,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 26: The nurse should _____ when caring for this patient.",
       "options": [
-        "Formulate a nursing care plan for the child with a decreased level of consciousn...",
-        "Option B",
+        "Formulate a nursing care plan for the child with a decreased level of consciousn as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_74313",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Treatment\nIf early, can result in complete recovery\nGoals are\nReducing ICP\nMaintaining a p...",
+        "Treatment\nIf early, can result in complete recovery\nGoals are\nReducing ICP\nMaintaining a p as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -401,7 +401,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 6?",
       "options": [
-        "Hearing Impairment \nHearing loss can result from \nDefects in the transmission of sound to the middle ear\nDamag...",
+        "Hearing Impairment \nHearing loss can result from \nDefects in the transmission of sound to the middle ear\nDamag as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."

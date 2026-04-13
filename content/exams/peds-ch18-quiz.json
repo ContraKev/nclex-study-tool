@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "q_0_mcq_90379",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -25,11 +25,11 @@
       "type": "sata",
       "question": "Based on Slide 14:",
       "options": [
-        "Consistency and modeling significantly influence behaviors....",
+        "Consistency and modeling significantly influence behaviors. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_16710",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_57422",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -76,8 +76,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 13: The nurse should _____ when caring for this patient.",
       "options": [
-        "Guidance: Discipline and \u000bLimit-Setting (1 of 2)\nChildren need limits for their ...",
-        "Option B",
+        "Guidance: Discipline and \u000bLimit-Setting (1 of 2)\nChildren need limits for their  as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -92,7 +92,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 11.",
       "options": [
-        "Bedtime Habits\nEngage child in quiet activities before bedtime....",
+        "Bedtime Habits\nEngage child in quiet activities before bedtime. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": "q_0_mcq_43767",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -119,15 +119,15 @@
     },
     {
       "id": "q_0_sata_63203",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Provide examples of restrictive versus nonrestrictive clothing....",
+        "Provide examples of restrictive versus nonrestrictive clothing. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_49830",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_87211",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "In what ways is play important to the physical, psychosocial, and emotional deve...",
-        "Option B",
+        "In what ways is play important to the physical, psychosocial, and emotional deve as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -190,7 +190,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 11.",
       "options": [
-        "Attention-getting behavior that results in taking the child into the parent\u2019s bed should b...",
+        "Attention-getting behavior that results in taking the child into the parent\u2019s bed should b as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_57204",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_38234",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "How is a preschool child\u2019s language development affected by those in t...",
+        "How is a preschool child\u2019s language development affected by those in t as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_56374",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_63663",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_11700",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Give examples of situations in which the child might not visit the playroom or i...",
-        "Option B",
+        "Give examples of situations in which the child might not visit the playroom or i as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_79105",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "How does the preschool child\u2019s memory and attention span differ from that of a toddler?...",
+        "How does the preschool child\u2019s memory and attention span differ from that of a toddler? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_50237",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Give examples of situations in which mental age differs from chronolog...",
+        "Give examples of situations in which mental age differs from chronolog as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_85564",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -370,8 +370,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 26: The nurse should _____ when caring for this patient.",
       "options": [
-        "Repetition of play experiences is necessary....",
-        "Option B",
+        "Repetition of play experiences is necessary. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_547",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Give an example of how culture affects the sense of initiative....",
+        "Give an example of how culture affects the sense of initiative. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_69271",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

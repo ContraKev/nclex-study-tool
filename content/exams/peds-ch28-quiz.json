@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "q_0_mcq_13807",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_90119",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Caffeinated beverages act as a diuretic and worsen dehydration....",
+        "Caffeinated beverages act as a diuretic and worsen dehydration. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_8767",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_59688",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_77713",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss areas in which edema might be present....",
-        "Option B",
+        "Discuss areas in which edema might be present. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -88,11 +88,11 @@
     },
     {
       "id": "q_0_highlight_7327",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Skin problems may be related to pruritus, irritation from frequent bowel movements, or oth...",
+        "Skin problems may be related to pruritus, irritation from frequent bowel movements, or oth as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": "q_0_mcq_90716",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -123,11 +123,11 @@
       "type": "sata",
       "question": "Based on Slide 25:",
       "options": [
-        "25\nIn children younger than 2 years of age, surface area is important ...",
+        "25\nIn children younger than 2 years of age, surface area is important  as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -138,7 +138,7 @@
     },
     {
       "id": "q_0_matrix_18870",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_75144",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Lead settles in soft tissues and bones....",
-        "Option B",
+        "Lead settles in soft tissues and bones. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_33598",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Assessment of the newborn during the first feeding for signs or symptoms of TEF is essenti...",
+        "Assessment of the newborn during the first feeding for signs or symptoms of TEF is essenti as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_49027",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_91709",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Emergent surgery is indicated in this type of situation....",
+        "Emergent surgery is indicated in this type of situation. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_39940",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_50584",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_42202",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Blood lead levels are primary screening test....",
-        "Option B",
+        "Blood lead levels are primary screening test. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_65448",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Is dependent on type of electrolyte imbalance child has\nIf child has a hypertonic type of ...",
+        "Is dependent on type of electrolyte imbalance child has\nIf child has a hypertonic type of  as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -299,11 +299,11 @@
     },
     {
       "id": "q_0_mcq_72177",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Blood and mucus with no feces are common about 12 hours after onset of obstruction, called currant jelly stool...",
+        "Blood and mucus with no feces are common about 12 hours after onset of obstruction, called currant jelly stool as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_16514",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Maintenance fluid therapy replaces normal water and electrolyte losses...",
+        "Maintenance fluid therapy replaces normal water and electrolyte losses as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_84039",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_53738",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -370,8 +370,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 2: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss dietary management of celiac disease....",
-        "Option B",
+        "Discuss dietary management of celiac disease. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_28399",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Chelating agents may be taken for several months....",
+        "Chelating agents may be taken for several months. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_85450",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

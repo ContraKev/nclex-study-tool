@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_14655",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "What IM sites are preferred for various age groups?...",
+        "What IM sites are preferred for various age groups? as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_40489",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -76,8 +76,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 6: The nurse should _____ when caring for this patient.",
       "options": [
-        "Send to laboratory according to hospital policy....",
-        "Option B",
+        "Send to laboratory according to hospital policy. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -88,11 +88,11 @@
     },
     {
       "id": "q_0_highlight_39172",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Give an example of toxic symptoms the nurse might assess in a child....",
+        "Give an example of toxic symptoms the nurse might assess in a child. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -119,15 +119,15 @@
     },
     {
       "id": "q_0_sata_71316",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "What is the importance of proper documentation when obtaining and send...",
+        "What is the importance of proper documentation when obtaining and send as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -138,7 +138,7 @@
     },
     {
       "id": "q_0_matrix_93073",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_19032",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_93760",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss what could happen if one of the six rights is not followed....",
-        "Option B",
+        "Discuss what could happen if one of the six rights is not followed. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_35939",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "What are some examples of negative responses to medications?...",
+        "What are some examples of negative responses to medications? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -205,7 +205,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 6?",
       "options": [
-        "Record in nurses\u2019 notes and on intake and output record what specimens were obtained and, where appropriate, t...",
+        "Record in nurses\u2019 notes and on intake and output record what specimens were obtained and, where appropriate, t as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_46627",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "VERY important to calculate the dosage correctly\n\n=...",
+        "VERY important to calculate the dosage correctly\n\n= as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -284,7 +284,7 @@
     },
     {
       "id": "q_0_mcq_14655",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -316,7 +316,7 @@
     },
     {
       "id": "q_0_mcq_40489",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

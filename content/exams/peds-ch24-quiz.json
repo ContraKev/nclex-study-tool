@@ -5,11 +5,11 @@
   "questions": [
     {
       "id": "q_0_mcq_72938",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Manifestations\nExperiences pain and swelling at the site\nMay be lessened by flexing the extremity\nPathologic f...",
+        "Manifestations\nExperiences pain and swelling at the site\nMay be lessened by flexing the extremity\nPathologic f as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_18086",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Curves 20 degrees to 40 degrees require the use of a brace.....",
+        "Curves 20 degrees to 40 degrees require the use of a brace.. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_37223",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_20147",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss assessment of an extremity to rule out compartment syndrome....",
-        "Option B",
+        "Discuss assessment of an extremity to rule out compartment syndrome. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -88,11 +88,11 @@
     },
     {
       "id": "q_0_highlight_86547",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Reporting Suspected Abuse or Neglect \nCan report to Child Protective Services anonymously\n...",
+        "Reporting Suspected Abuse or Neglect \nCan report to Child Protective Services anonymously\n as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -107,7 +107,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 10?",
       "options": [
-        "10\nThis Photo by Unknown Author is licensed under CC BY-SA-NC\nThis Photo by Unknown Author is licensed under C...",
+        "10\nThis Photo by Unknown Author is licensed under CC BY-SA-NC\nThis Photo by Unknown Author is licensed under C as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -119,15 +119,15 @@
     },
     {
       "id": "q_0_sata_1913",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Arises from the mesoderm in the embryo\nA great portion of skeletal gro...",
+        "Arises from the mesoderm in the embryo\nA great portion of skeletal gro as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -138,7 +138,7 @@
     },
     {
       "id": "q_0_matrix_65203",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_20856",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_46349",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "By 6 years of age, the gait and arm swing are similar to an adult....",
-        "Option B",
+        "By 6 years of age, the gait and arm swing are similar to an adult. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_44212",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Diagnostics\nElevated WBC and ESR\nX-ray may initially fail to reveal infection\nBone scan ma...",
+        "Diagnostics\nElevated WBC and ESR\nX-ray may initially fail to reveal infection\nBone scan ma as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_39109",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss ROM for a child with this disorder....",
+        "Discuss ROM for a child with this disorder. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_75550",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_54615",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_22805",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Health care workers are mandated reporters in all states....",
-        "Option B",
+        "Health care workers are mandated reporters in all states. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_67583",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Give examples of how joint function can be preserved....",
+        "Give examples of how joint function can be preserved. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -299,7 +299,7 @@
     },
     {
       "id": "q_0_mcq_44446",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_57436",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Becker MD has a slower progression....",
+        "Becker MD has a slower progression. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_85756",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_3239",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -366,12 +366,12 @@
     },
     {
       "id": "q_0_cloze_12004",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Long-term disease characterized by periods of remissions and exacerbations\nThe n...",
-        "Option B",
+        "Long-term disease characterized by periods of remissions and exacerbations\nThe n as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_12939",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Promote mobility and preserve joint function....",
+        "Promote mobility and preserve joint function. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,11 +397,11 @@
     },
     {
       "id": "q_0_mcq_39816",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Long bones contain few phagocytic cells to fight bacteria that may come to the bone from another part of the b...",
+        "Long bones contain few phagocytic cells to fight bacteria that may come to the bone from another part of the b as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."

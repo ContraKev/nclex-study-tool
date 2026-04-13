@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "q_0_mcq_37640",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_87227",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Marijuana (hemp plant)\nSmoked or ingested\nCauses the person to experie...",
+        "Marijuana (hemp plant)\nSmoked or ingested\nCauses the person to experie as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_26356",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_12544",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_87794",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss effective and ineffective coping skills for a child who has experienced ...",
-        "Option B",
+        "Discuss effective and ineffective coping skills for a child who has experienced  as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -88,11 +88,11 @@
     },
     {
       "id": "q_0_highlight_43444",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Discuss impulsive behaviors a parent or nurse might assess....",
+        "Discuss impulsive behaviors a parent or nurse might assess. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,11 +103,11 @@
     },
     {
       "id": "q_0_mcq_17919",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "May be genetic\nCharacteristics\nAverage to superior intelligence\nOverachievers who expect to be perfect in all ...",
+        "May be genetic\nCharacteristics\nAverage to superior intelligence\nOverachievers who expect to be perfect in all  as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -119,15 +119,15 @@
     },
     {
       "id": "q_0_sata_164",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss the immediate priorities the nurse should teach the child in a...",
+        "Discuss the immediate priorities the nurse should teach the child in a as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_16580",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Depression \nA prolonged behavioral change from baseline that interferes with sch...",
-        "Option B",
+        "Depression \nA prolonged behavioral change from baseline that interferes with sch as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_57221",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "How are these products abused?...",
+        "How are these products abused? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_67491",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_68930",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss the appropriate methods of approach and communication that sho...",
+        "Discuss the appropriate methods of approach and communication that sho as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_97678",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_64436",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_39462",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Suicidal Ideation\nThoughts of suicide\nSuicidal gestures\nAn attempt at suicidal a...",
-        "Option B",
+        "Suicidal Ideation\nThoughts of suicide\nSuicidal gestures\nAn attempt at suicidal a as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_38513",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "What are some examples of social withdrawal?...",
+        "What are some examples of social withdrawal? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -299,7 +299,7 @@
     },
     {
       "id": "q_0_mcq_55191",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_22246",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss educating parents about signs and symptoms to assess for abuse...",
+        "Discuss educating parents about signs and symptoms to assess for abuse as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_88696",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_93396",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -366,12 +366,12 @@
     },
     {
       "id": "q_0_cloze_41862",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Illegal use of drugs, alcohol, or tobacco for the purpose of achieving an altere...",
-        "Option B",
+        "Illegal use of drugs, alcohol, or tobacco for the purpose of achieving an altere as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_23772",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Discuss the pathophysiology regarding tooth enamel erosion and purging....",
+        "Discuss the pathophysiology regarding tooth enamel erosion and purging. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_65222",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

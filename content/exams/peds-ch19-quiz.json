@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "q_0_mcq_27959",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_16445",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss the paradigm between physical size and maturity....",
+        "Discuss the paradigm between physical size and maturity. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_56025",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_50022",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Give an example of a boy displaying timid behavior and a girl displaying aggress...",
-        "Option B",
+        "Give an example of a boy displaying timid behavior and a girl displaying aggress as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -88,11 +88,11 @@
     },
     {
       "id": "q_0_highlight_43791",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "How is a school-age child\u2019s role different within the family versus the school?...",
+        "How is a school-age child\u2019s role different within the family versus the school? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -107,7 +107,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 10?",
       "options": [
-        "Develop heightened awareness for things such as attendance problems, tardiness, and signs of loneliness or dep...",
+        "Develop heightened awareness for things such as attendance problems, tardiness, and signs of loneliness or dep as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -123,11 +123,11 @@
       "type": "sata",
       "question": "Based on Slide 22:",
       "options": [
-        "Children with disabilities especially benefit from interacting with pe...",
+        "Children with disabilities especially benefit from interacting with pe as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -138,7 +138,7 @@
     },
     {
       "id": "q_0_matrix_3893",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_53754",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_21781",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss heroes this age group might admire....",
-        "Option B",
+        "Discuss heroes this age group might admire. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_73813",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "How are scare tactics used versus factual comments regarding drugs and STIs?...",
+        "How are scare tactics used versus factual comments regarding drugs and STIs? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,11 +201,11 @@
     },
     {
       "id": "q_0_mcq_52262",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Have students work together to describe each above stage\u2026.10 to 15 minute activity \n\nGive an example of Freud\u2019...",
+        "Have students work together to describe each above stage\u2026.10 to 15 minute activity \n\nGive an example of Freud\u2019 as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_27838",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Give a similar example of a situation in which a school-age child woul...",
+        "Give a similar example of a situation in which a school-age child woul as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_86009",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_52914",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -272,8 +272,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 22: The nurse should _____ when caring for this patient.",
       "options": [
-        "Pet Ownership (1 of 2)\n\nPets that have close contact with children have the pote...",
-        "Option B",
+        "Pet Ownership (1 of 2)\n\nPets that have close contact with children have the pote as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_24683",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Give examples of acquiring and using an allowance....",
+        "Give examples of acquiring and using an allowance. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -299,7 +299,7 @@
     },
     {
       "id": "q_0_mcq_74921",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_33803",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Give examples of food preferences for this age group....",
+        "Give examples of food preferences for this age group. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_84238",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_59801",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -370,8 +370,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 8: The nurse should _____ when caring for this patient.",
       "options": [
-        "Correct names for genitalia should also be used....",
-        "Option B",
+        "Correct names for genitalia should also be used. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_25873",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "What group activities would interest this age group?...",
+        "What group activities would interest this age group? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_91405",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

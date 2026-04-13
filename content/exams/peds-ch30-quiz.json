@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "q_0_mcq_68482",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_95795",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Infants and children with eczema should not be exposed to adults with ...",
+        "Infants and children with eczema should not be exposed to adults with  as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_75407",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_38028",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_26733",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss the treatment options for impetigo....",
-        "Option B",
+        "Discuss the treatment options for impetigo. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -92,7 +92,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 4.",
       "options": [
-        "Skin tests can be used to diagnose allergies....",
+        "Skin tests can be used to diagnose allergies. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": "q_0_mcq_79879",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -123,11 +123,11 @@
       "type": "sata",
       "question": "Based on Slide 34:",
       "options": [
-        "A deep purple flush appears with the return of sensation, which is acc...",
+        "A deep purple flush appears with the return of sensation, which is acc as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_57649",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -174,8 +174,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 20: The nurse should _____ when caring for this patient.",
       "options": [
-        "Pediculosis\n\nThree types\nPediculosis capitis\u2014head lice\nPediculosis corporis\u2014body...",
-        "Option B",
+        "Pediculosis\n\nThree types\nPediculosis capitis\u2014head lice\nPediculosis corporis\u2014body as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_49421",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "What is the rationale for cleansing and d\u00e9briding wounds?...",
+        "What is the rationale for cleansing and d\u00e9briding wounds? as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_56712",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -221,11 +221,11 @@
       "type": "sata",
       "question": "Based on Slide 34:",
       "options": [
-        "Frostbite\n\n\n34\nResults from freezing of a body part\nChilblain: a cold ...",
+        "Frostbite\n\n\n34\nResults from freezing of a body part\nChilblain: a cold  as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_91945",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_7019",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_54171",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Burn victims have an increased demand on metabolism and require high-protein die...",
-        "Option B",
+        "Burn victims have an increased demand on metabolism and require high-protein die as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_55501",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Give examples of how staphylococcus is spread from one infant to another....",
+        "Give examples of how staphylococcus is spread from one infant to another. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -299,7 +299,7 @@
     },
     {
       "id": "q_0_mcq_55065",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_16702",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Leading cause of accidental death between 1 and 4 years of age\nSometim...",
+        "Leading cause of accidental death between 1 and 4 years of age\nSometim as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -334,7 +334,7 @@
     },
     {
       "id": "q_0_matrix_73809",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_59916",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -366,12 +366,12 @@
     },
     {
       "id": "q_0_cloze_94513",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Providing emotional support to the child and family is essential....",
-        "Option B",
+        "Providing emotional support to the child and family is essential. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_64893",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Along with the central nervous system, there are four basic skin sensations\nPain\nTemperatu...",
+        "Along with the central nervous system, there are four basic skin sensations\nPain\nTemperatu as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -401,7 +401,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 4?",
       "options": [
-        "Skin Disorders and Variations\nSkin condition may be a manifestation of a systemic disease; others may be conge...",
+        "Skin Disorders and Variations\nSkin condition may be a manifestation of a systemic disease; others may be conge as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."

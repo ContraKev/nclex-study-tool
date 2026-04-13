@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_9254",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss positive and negative body language cues....",
+        "Discuss positive and negative body language cues. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_80969",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "q_0_bowtie_39951",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_24109",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Pain is whatever the person says it is....",
-        "Option B",
+        "Pain is whatever the person says it is. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -92,7 +92,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 24.",
       "options": [
-        "An emancipated minor is no longer under the parents\u2019 authority....",
+        "An emancipated minor is no longer under the parents\u2019 authority. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": "q_0_mcq_61480",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -119,15 +119,15 @@
     },
     {
       "id": "q_0_sata_73483",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss the nurse\u2019s role in monitoring and relieving pain....",
+        "Discuss the nurse\u2019s role in monitoring and relieving pain. as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -138,7 +138,7 @@
     },
     {
       "id": "q_0_matrix_69865",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_43516",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_15582",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Discuss the issue of previous hospitalizations and how they will affect the chil...",
-        "Option B",
+        "Discuss the issue of previous hospitalizations and how they will affect the chil as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -190,7 +190,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 19.",
       "options": [
-        "The Nurse\u2019s Role in Hospital Admission\nMust be prepared to meet the emotional needs of tho...",
+        "The Nurse\u2019s Role in Hospital Admission\nMust be prepared to meet the emotional needs of tho as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_14260",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_81528",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Give an example of a scenario in which a parent is providing too much ...",
+        "Give an example of a scenario in which a parent is providing too much  as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_94719",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_30940",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -268,12 +268,12 @@
     },
     {
       "id": "q_0_cloze_40098",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Their cry is continuous until they fall asleep in exhaustion....",
-        "Option B",
+        "Their cry is continuous until they fall asleep in exhaustion. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_56350",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Pain is the fifth vital sign and is assessed and recorded with routine documentation....",
+        "Pain is the fifth vital sign and is assessed and recorded with routine documentation. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -303,7 +303,7 @@
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 4?",
       "options": [
-        "Preparing the Child for a Treatment or Procedure\n\nInfants\nToddlers and preschoolers\nSchool-aged children\nAdole...",
+        "Preparing the Child for a Treatment or Procedure\n\nInfants\nToddlers and preschoolers\nSchool-aged children\nAdole as taught.",
         "This is not standard pediatric practice.",
         "This applies only to adult patients.",
         "This is contradicted by current evidence."
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_75485",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Discuss nursing interventions in which the nurse assists the parents a...",
+        "Discuss nursing interventions in which the nurse assists the parents a as taught.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material.",
+        "This is not supported by the lecture material."
       ],
       "answer": [
         0,
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_98507",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -366,12 +366,12 @@
     },
     {
       "id": "q_0_cloze_25692",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "May be verbally or nonverbally expressed....",
-        "Option B",
+        "May be verbally or nonverbally expressed. as taught.",
+        "This is not supported by the lecture material.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_69357",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Discuss nursing interventions that can assist the child through these stages....",
+        "Discuss nursing interventions that can assist the child through these stages. as taught.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_53801",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [

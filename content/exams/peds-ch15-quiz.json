@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": "q_0_mcq_66384",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -21,15 +21,15 @@
     },
     {
       "id": "q_0_sata_5732",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "How do these different types affect children of school age?...",
+        "How do these different types affect children of school age? as taught in this chapter.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material on this topic.",
+        "This is not supported by the lecture material on this topic."
       ],
       "answer": [
         0,
@@ -40,7 +40,7 @@
     },
     {
       "id": "q_0_matrix_1798",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -72,12 +72,12 @@
     },
     {
       "id": "q_0_cloze_1333",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Give examples of growth and developmental skills for each of these categories: p...",
-        "Option B",
+        "Give examples of growth and developmental skills for each of these categories: p as taught in this chapter.",
+        "This is not supported by the lecture material on this topic.",
         "Option C",
         "Option D"
       ],
@@ -92,7 +92,7 @@
       "type": "highlight",
       "question": "Highlight the key finding from Slide 24.",
       "options": [
-        "Hydrochloric acid and rennin in the stomach and trypsin found in the intestines aid in the...",
+        "Hydrochloric acid and rennin in the stomach and trypsin found in the intestines aid in the as taught in this chapter.",
         "Other finding A",
         "Other finding B"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "id": "q_0_mcq_4138",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -119,15 +119,15 @@
     },
     {
       "id": "q_0_sata_57741",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Why should parents avoid tasting their baby\u2019s food?...",
+        "Why should parents avoid tasting their baby\u2019s food? as taught in this chapter.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material on this topic.",
+        "This is not supported by the lecture material on this topic."
       ],
       "answer": [
         0,
@@ -138,7 +138,7 @@
     },
     {
       "id": "q_0_matrix_36123",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "q_0_bowtie_93753",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -170,12 +170,12 @@
     },
     {
       "id": "q_0_cloze_18540",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "Give an example of how time, money, and space can be manipulated to solve a fami...",
-        "Option B",
+        "Give an example of how time, money, and space can be manipulated to solve a fami as taught in this chapter.",
+        "This is not supported by the lecture material on this topic.",
         "Option C",
         "Option D"
       ],
@@ -186,11 +186,11 @@
     },
     {
       "id": "q_0_highlight_38443",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "At what age should toothbrushing begin?...",
+        "At what age should toothbrushing begin? as taught in this chapter.",
         "Other finding A",
         "Other finding B"
       ],
@@ -201,7 +201,7 @@
     },
     {
       "id": "q_0_mcq_97916",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
@@ -217,15 +217,15 @@
     },
     {
       "id": "q_0_sata_6366",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Why is it important for the permanent teeth to develop in alignment?...",
+        "Why is it important for the permanent teeth to develop in alignment? as taught in this chapter.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material on this topic.",
+        "This is not supported by the lecture material on this topic."
       ],
       "answer": [
         0,
@@ -236,7 +236,7 @@
     },
     {
       "id": "q_0_matrix_64358",
-      "slide": 0,
+      "slide": 1,
       "type": "matrix",
       "question": "Based on Slide 0:",
       "options": [
@@ -253,7 +253,7 @@
     },
     {
       "id": "q_0_bowtie_40777",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -272,8 +272,8 @@
       "type": "cloze",
       "question": "Complete the statement based on Slide 4: The nurse should _____ when caring for this patient.",
       "options": [
-        "The Impact of Growth and Development on Nursing Care\nDevelopmental needs have an...",
-        "Option B",
+        "The Impact of Growth and Development on Nursing Care\nDevelopmental needs have an as taught in this chapter.",
+        "This is not supported by the lecture material on this topic.",
         "Option C",
         "Option D"
       ],
@@ -284,11 +284,11 @@
     },
     {
       "id": "q_0_highlight_70771",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Give an example of progressing development of a preschool child....",
+        "Give an example of progressing development of a preschool child. as taught in this chapter.",
         "Other finding A",
         "Other finding B"
       ],
@@ -315,15 +315,15 @@
     },
     {
       "id": "q_0_sata_51662",
-      "slide": 0,
+      "slide": 1,
       "type": "sata",
       "question": "Based on Slide 0:",
       "options": [
-        "Affection: Overt and covert emotional interactions among family member...",
+        "Affection: Overt and covert emotional interactions among family member as taught in this chapter.",
         "Related concept 0",
         "Related concept 1",
-        "Incorrect distractor A",
-        "Incorrect distractor B"
+        "This is not supported by the lecture material on this topic.",
+        "This is not supported by the lecture material on this topic."
       ],
       "answer": [
         0,
@@ -351,7 +351,7 @@
     },
     {
       "id": "q_0_bowtie_96174",
-      "slide": 0,
+      "slide": 1,
       "type": "bowtie",
       "question": "Based on Slide 0:",
       "options": [
@@ -366,12 +366,12 @@
     },
     {
       "id": "q_0_cloze_54823",
-      "slide": 0,
+      "slide": 1,
       "type": "cloze",
       "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
       "options": [
-        "At what age are complex carbohydrates digested efficiently?...",
-        "Option B",
+        "At what age are complex carbohydrates digested efficiently? as taught in this chapter.",
+        "This is not supported by the lecture material on this topic.",
         "Option C",
         "Option D"
       ],
@@ -382,11 +382,11 @@
     },
     {
       "id": "q_0_highlight_35417",
-      "slide": 0,
+      "slide": 1,
       "type": "highlight",
       "question": "Highlight the key finding from Slide 0.",
       "options": [
-        "Recognizing developmental and growth delays will assist the nurse in formulating his or he...",
+        "Recognizing developmental and growth delays will assist the nurse in formulating his or he as taught in this chapter.",
         "Other finding A",
         "Other finding B"
       ],
@@ -397,7 +397,7 @@
     },
     {
       "id": "q_0_mcq_32094",
-      "slide": 0,
+      "slide": 1,
       "type": "mcq",
       "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
