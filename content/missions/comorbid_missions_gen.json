@@ -1,0 +1,1588 @@
+{
+  "id": "comorbid_missions_gen",
+  "name": "Comorbidities & Complex Care (Generated)",
+  "scenarios": [
+    {
+      "id": "M-031",
+      "type": "mission",
+      "numerical_id": 31,
+      "title": "The Fluid War: CHF vs Kidney",
+      "category": "Combined / Complex",
+      "difficulty": "Advanced",
+      "patient_profile": {
+        "demographics": {
+          "name": "Kenny Rogers",
+          "age": 78,
+          "gender": "Male",
+          "mrn": "3131-KR",
+          "dob": "08/21/1948",
+          "weight": "100 kg",
+          "height": "180 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Shortness of breath and swelling.",
+        "hpi": "Mr. Rogers has HFrEF (EF 25%) and Diabetic Nephropathy (CKD 4). He presents with worsening dyspnea. His creatinine is 2.5 (Baseline 1.8).",
+        "pmh": "Type 2 Diabetes, Heart Failure, CKD.",
+        "ros": {
+          "resp": "Crackles halfway up.",
+          "cardio": "+3 Pitting Edema.",
+          "gu": "Decreased urine output.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Chef. High sodium diet. Smokes cigars occasionally. Social drinker."
+      },
+      "exhibits": [
+        {
+          "title": "Labs",
+          "type": "table",
+          "data": [
+            {
+              "lab": "BNP",
+              "val": "2400",
+              "status": "Critical High"
+            },
+            {
+              "lab": "Creatinine",
+              "val": "2.8 mg/dL",
+              "status": "Rising (AKI)"
+            },
+            {
+              "lab": "Potassium",
+              "val": "5.5 mEq/L",
+              "status": "High"
+            },
+            {
+              "lab": "Glucose",
+              "val": "280 mg/dL",
+              "status": "High"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Evaluate the treatment conflict: Heart vs Kidney.",
+          "rows": [
+            "Administer High-Dose IV Furosemide",
+            "Administer IV Fluids (NS)",
+            "Administer ACE Inhibitor (Lisinopril)",
+            "Administer Spironolactone"
+          ],
+          "columns": [
+            "Helps Heart / Hurts Kidney",
+            "Helps Kidney / Hurts Heart",
+            "Bad for Both"
+          ],
+          "answer": {
+            "Administer High-Dose IV Furosemide": "Helps Heart / Hurts Kidney",
+            "Administer IV Fluids (NS)": "Helps Kidney / Hurts Heart",
+            "Administer ACE Inhibitor (Lisinopril)": "Helps Heart / Hurts Kidney",
+            "Administer Spironolactone": "Bad for Both"
+          },
+          "rationale": "Diuretics offload the heart but can cause pre-renal AKI. Fluids fix the kidney (perfuse it) but drown the heart. ACEs protect the heart remodeling but lower GFR initially. Spironolactone causes Hyperkalemia (K=5.5), so it's bad for this patient."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "The provider orders 'Bumex drip'. Which monitoring is essential? Select all that apply.",
+          "options": [
+            "Hourly Urine Output",
+            "Daily Weights",
+            "Monitor Potassium (Hypokalemia)",
+            "Monitor Magnesium",
+            "Monitor BP for hypotension",
+            "Check Blood Glucose q1h"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Strong loop diuretics (Bumetanide) cause massive electrolyte loss (K+, Mg++) and can tank BP. Glucose monitoring isn't strictly q1h for diuretics compared to insulin."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Creatinine jumps to 3.5. Urine output stops (Anuria). Lung sounds wet. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Cardiorenal Syndrome",
+              "Urinary Retention",
+              "Dehydration",
+              "Sepsis"
+            ],
+            "answer": "Cardiorenal Syndrome"
+          },
+          "left_actions": {
+            "options": [
+              "Prepare for Dialysis (CRRT)",
+              "Give 2L Fluid Bolus",
+              "Increase Diuretic",
+              "Give Kayexalate",
+              "Reassure the patient"
+            ],
+            "answer": [
+              "Prepare for Dialysis (CRRT)"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Oxygen Saturation",
+              "Daily Weight",
+              "Foley Catheter",
+              "Neuro Status",
+              "Urine Color"
+            ],
+            "answer": [
+              "Oxygen Saturation",
+              "Foley Catheter"
+            ]
+          },
+          "rationale": "The kidneys have shut down (Anuria) despite/because of heart treatment. Diuretics won't work if kidneys can't filter. CRRT (Continuous Dialysis) is needed to pull fluid without crashing BP."
+        }
+      ]
+    },
+    {
+      "id": "M-032",
+      "type": "mission",
+      "numerical_id": 32,
+      "title": "The Masked Threat: Beta Blockers",
+      "category": "Combined / Pharma",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Bruce Banner",
+          "age": 40,
+          "gender": "Male",
+          "mrn": "3232-BB",
+          "dob": "12/18/1986",
+          "weight": "80 kg",
+          "height": "175 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Passed out at work.",
+        "hpi": "Mr. Banner has T1DM and recently had a heart attack, so he was started on Metoprolol. He reports he 'didn't feel anything coming' before he woke up on the floor with paramedics.",
+        "pmh": "Type 1 Diabetes, CAD (Post-MI Stent).",
+        "ros": {
+          "cardio": "HR 58 bpm (Resting). BP 110/70.",
+          "neuro": "Groggy.",
+          "gen": "Sweaty (Diaphoretic).",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Retired veteran. Lives in assisted living. Former smoker (quit 20 years ago)."
+      },
+      "exhibits": [
+        {
+          "title": "Medication List",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Metoprolol Tartrate",
+              "dose": "50mg BID",
+              "class": "Beta Blocker"
+            },
+            {
+              "drug": "Insulin Glargine",
+              "dose": "20 units HS",
+              "class": "Long Acting"
+            },
+            {
+              "drug": "Insulin Lispro",
+              "dose": "Sliding Scale",
+              "class": "Rapid Acting"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Evaluate the signs of Hypoglycemia in a patient on Beta Blockers.",
+          "rows": [
+            "Tachycardia (Palpitations)",
+            "Tremors / Shaking",
+            "Diaphoresis (Sweating)",
+            "Hunger",
+            "Anxiety"
+          ],
+          "columns": [
+            "Masked/Blocked by Metoprolol",
+            "NOT Blocked (Still visible)"
+          ],
+          "answer": {
+            "Tachycardia (Palpitations)": "Masked/Blocked by Metoprolol",
+            "Tremors / Shaking": "Masked/Blocked by Metoprolol",
+            "Diaphoresis (Sweating)": "NOT Blocked (Still visible)",
+            "Hunger": "NOT Blocked (Still visible)",
+            "Anxiety": "Masked/Blocked by Metoprolol"
+          },
+          "rationale": "Beta blockers block the sympathetic 'fight or flight' response (High HR, Shaking). They do NOT block Cholinergic symptoms like Sweating and Hunger. The patient must rely on sweating as their warning sign."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "What teaching is CRITICAL for this patient? Select all that apply.",
+          "options": [
+            "You must check your blood sugar more frequently, especially before driving",
+            "If you sweat excessively, check your sugar immediately",
+            "Stop taking Metoprolol if you feel low",
+            "Carry a glucagon kit and glucose tabs",
+            "Eat a high protein diet to prevent lows"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Since the early warning system (palpitations) is broken, frequent checking is the only safety net. Sweating is the one reliable sign left. Never stop cardiac meds abruptly."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Mr. Banner's HR drops to 40 and BG is 45. He is conscious. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Beta Blocker Toxicity",
+              "Severe Hypoglycemia with Bradycardia",
+              "Heart Block",
+              "Stroke"
+            ],
+            "answer": "Severe Hypoglycemia with Bradycardia"
+          },
+          "left_actions": {
+            "options": [
+              "Administer IV D50W / Oral Glucose",
+              "Administer Atropine",
+              "Administer Glucagon (IV)",
+              "Start Pacing",
+              "Apply warm compress"
+            ],
+            "answer": [
+              "Administer IV D50W / Oral Glucose"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Blood Glucose Re-check",
+              "Heart Rate Recovery",
+              "Troponin",
+              "Temperature",
+              "Bowel Sounds"
+            ],
+            "answer": [
+              "Blood Glucose Re-check",
+              "Heart Rate Recovery"
+            ]
+          },
+          "rationale": "Hypoglycemia must be treated first. Unlike non-BB patients, his HR won't spike to compensate. Glucagon *might* ensure sugar release but IV D50 is definitive if available. Glucagon is also the antidote for Beta Blocker overdose (increases contractility)."
+        }
+      ]
+    },
+    {
+      "id": "M-033",
+      "type": "mission",
+      "numerical_id": 33,
+      "title": "Breath vs Sugar: Steroid Spike",
+      "category": "Combined / Endocrine",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Darth Vader (Breathing issues)",
+          "age": 65,
+          "gender": "Male",
+          "mrn": "3333-DV",
+          "dob": "11/01/1961",
+          "weight": "110 kg",
+          "height": "200 cm",
+          "allergies": "Latex"
+        },
+        "chief_complaint": "COPD Exacerbation.",
+        "hpi": "Patient admitted for wheezing and low O2. Started on IV Solu-Medrol (Methylprednisolone) q6h. Now his blood sugar is skyrocketing.",
+        "pmh": "COPD, Type 2 Diabetes.",
+        "ros": {
+          "resp": "Wheezing resolved.",
+          "endo": "Polydipsia/Polyuria.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Truck driver. Divorced. Smokes 2 packs/day. Sedentary lifestyle."
+      },
+      "exhibits": [
+        {
+          "title": "Glucose Log",
+          "type": "text",
+          "content": "Admission: 140.<br>Day 1 on Steroids: 280.<br>Day 2 on Steroids: 350.<br>Day 3 on Steroids: 440."
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Understanding Glucocorticoids. Match the effect to the system.",
+          "rows": [
+            "Increases Liver Gluconeogenesis (Sugar production)",
+            "Increases Insulin Resistance in cells",
+            "Reduces Inflammation in airways",
+            "Causes Sodium/Water Retention"
+          ],
+          "columns": [
+            "Desired Effect (Lungs)",
+            "Adverse Effect (Diabetes)",
+            "Adverse Effect (Heart)"
+          ],
+          "answer": {
+            "Increases Liver Gluconeogenesis (Sugar production)": "Adverse Effect (Diabetes)",
+            "Increases Insulin Resistance in cells": "Adverse Effect (Diabetes)",
+            "Reduces Inflammation in airways": "Desired Effect (Lungs)",
+            "Causes Sodium/Water Retention": "Adverse Effect (Heart)"
+          },
+          "rationale": "Steroids are a double-edged sword. They save the lungs but wreck the sugar control and raise BP (fluid retention)."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "How should the nurse adjust the care plan? Select all that apply.",
+          "options": [
+            "Increase frequency of BG checks (q4h or q6h)",
+            "Request increased Insulin coverage (Sliding scale + Basal)",
+            "Stop the steroids immediately",
+            "Restrict oral fluid intake",
+            "Monitor for signs of infection (Steroids suppress immune system)"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "We cannot stop the steroids (breathing is priority). We must chase the sugar with MORE insulin. Infection risk is high due to hyperglycemia + immune suppression."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Mr. Vader becomes confused and develops deep, rapid breathing. Ketones are Trace. Glucose 550. Prioritize.",
+          "center_condition": {
+            "options": [
+              "HHS",
+              "DKA",
+              "COPD Narcosis",
+              "Stroke"
+            ],
+            "answer": "HHS"
+          },
+          "left_actions": {
+            "options": [
+              "Start IV Insulin Infusion",
+              "IV Fluids 0.9% NS",
+              "BiPAP",
+              "Give 2 amps Bicarb",
+              "Administer IV Acetaminophen"
+            ],
+            "answer": [
+              "Start IV Insulin Infusion",
+              "IV Fluids 0.9% NS"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Serum Osmolality",
+              "pH",
+              "CO2 Level",
+              "WBC",
+              "Clotting time"
+            ],
+            "answer": [
+              "Serum Osmolality",
+              "pH"
+            ]
+          },
+          "rationale": "High sugar + Confusion + Trace Ketones (not large) favors HHS, though DKA is possible. Steroids push T2DM into HHS territory. Hydration and Insulin are the fix."
+        }
+      ]
+    },
+    {
+      "id": "M-034",
+      "type": "mission",
+      "numerical_id": 34,
+      "title": "Cheap & Effective: Thiazide Risks",
+      "category": "Combined / Pharma",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Penny Pincher",
+          "age": 65,
+          "gender": "Female",
+          "mrn": "3434-PP",
+          "dob": "04/04/1961",
+          "weight": "85 kg",
+          "height": "160 cm",
+          "allergies": "Sulfa (Mild rash)"
+        },
+        "chief_complaint": "Gout flare and High Sugar.",
+        "hpi": "Prescribed Hydrochlorothiazide (HCTZ) 25mg for HTN 1 month ago. Now her big toe hurts (Podagra) and her fasting sugars are up.",
+        "pmh": "Hypertension, Pre-Diabetes, Gout.",
+        "ros": {
+          "musc": "Red, hot, swollen right great toe.",
+          "endo": "Thirsty.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Software engineer. Works from home. High stress. Enjoys hiking."
+      },
+      "exhibits": [
+        {
+          "title": "Metabolic Panel",
+          "type": "table",
+          "data": [
+            {
+              "lab": "Glucose",
+              "val": "160 mg/dL",
+              "status": "High (Prev 110)"
+            },
+            {
+              "lab": "Uric Acid",
+              "val": "9.5 mg/dL",
+              "status": "High"
+            },
+            {
+              "lab": "Potassium",
+              "val": "3.3 mEq/L",
+              "status": "Low"
+            },
+            {
+              "lab": "Calcium",
+              "val": "10.5 mg/dL",
+              "status": "High Normal"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Identify the metabolic side effects of Thiazide Diuretics.",
+          "rows": [
+            "Effect on Blood Glucose",
+            "Effect on Uric Acid",
+            "Effect on Potassium",
+            "Effect on Calcium",
+            "Effect on Lipids (Cholesterol)"
+          ],
+          "columns": [
+            "Increases (Hyper)",
+            "Decreases (Hypo)"
+          ],
+          "answer": {
+            "Effect on Blood Glucose": "Increases (Hyper)",
+            "Effect on Uric Acid": "Increases (Hyper)",
+            "Effect on Potassium": "Decreases (Hypo)",
+            "Effect on Calcium": "Increases (Hyper)",
+            "Effect on Lipids (Cholesterol)": "Increases (Hyper)"
+          },
+          "rationale": "HyperGLUC (Glycemia, Lipids, Uric Acid, Calcium). Hypokalemia. HCTZ is cheap but metabolically 'dirty'."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Ms. Pincher has a Sulfa allergy. Which actions are appropriate? Select all that apply.",
+          "options": [
+            "Stop HCTZ immediately",
+            "Monitor for cross-sensitivity reaction",
+            "Prescribe Losartan (ARB) instead",
+            "Prescribe Furosemide (Lasix) instead",
+            "Increase HCTZ dose"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Thiazides are Sulfonamides. While cross-reaction is rare, a rash history makes it risky. ARBs are safe and metabolically neutral. Lasix is ALSO a Sulfa drug!"
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Patient develops severe leg cramps and palpitations. EKG shows U-waves. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Hypokalemia",
+              "Hypercalcemia",
+              "Gout Attack",
+              "Stroke"
+            ],
+            "answer": "Hypokalemia"
+          },
+          "left_actions": {
+            "options": [
+              "Oral Potassium Replacement",
+              "IV Potassium Bolus",
+              "Muscle Relaxers",
+              "Magnesium Sulfate",
+              "Apply warm compress"
+            ],
+            "answer": [
+              "Oral Potassium Replacement"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Telemetry / EKG",
+              "Urine pH",
+              "Serum Potassium",
+              "Calcium",
+              "Pedal Pulses"
+            ],
+            "answer": [
+              "Telemetry / EKG",
+              "Serum Potassium"
+            ]
+          },
+          "rationale": "Leg cramps + U waves = Hypokalemia (Low K). Thiazides waste potassium. Oral replacement is preferred if stable; IV if unstable/critical."
+        }
+      ]
+    },
+    {
+      "id": "M-035",
+      "type": "mission",
+      "numerical_id": 35,
+      "title": "Sugar in Urine: SGLT2 Risks",
+      "category": "Combined / Pharma",
+      "difficulty": "Functions",
+      "patient_profile": {
+        "demographics": {
+          "name": "Candace Sweet",
+          "age": 45,
+          "gender": "Female",
+          "mrn": "3535-CS",
+          "dob": "02/02/1981",
+          "weight": "90 kg",
+          "height": "165 cm",
+          "allergies": "Yeast"
+        },
+        "chief_complaint": "Vaginal itching and nausea.",
+        "hpi": "Started Empagliflozin (Jardiance) 2 weeks ago for T2DM and Heart Failure prevention. Reports severe itching and now feels 'sick to her stomach'.",
+        "pmh": "Type 2 Diabetes, Heart Failure (HFpEF).",
+        "ros": {
+          "gu": "Thick white discharge (Yeast infection).",
+          "gi": "Nausea/Vomiting.",
+          "resp": "Mild tachypnea.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Retired veteran. Lives in assisted living. Former smoker (quit 20 years ago)."
+      },
+      "exhibits": [
+        {
+          "title": "Labs",
+          "type": "table",
+          "data": [
+            {
+              "lab": "Blood Glucose",
+              "val": "180 mg/dL",
+              "status": "Mildly Elevated"
+            },
+            {
+              "lab": "pH",
+              "val": "7.28",
+              "status": "Acidotic"
+            },
+            {
+              "lab": "Bicarbonate",
+              "val": "16 mEq/L",
+              "status": "Low"
+            },
+            {
+              "lab": "Anion Gap",
+              "val": "18",
+              "status": "High"
+            },
+            {
+              "lab": "Urine Ketones",
+              "val": "Large",
+              "status": "Critical"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Evaluate the mechanism of SGLT2 Inhibitors.",
+          "rows": [
+            "Blocks reabsorption of glucose in kidneys",
+            "Causes Glycosuria (Sugar in urine)",
+            "Increases risk of UTI / Yeast infections",
+            "Reduces Heart Failure hospitalizations"
+          ],
+          "columns": [
+            "True",
+            "False"
+          ],
+          "answer": {
+            "Blocks reabsorption of glucose in kidneys": "True",
+            "Causes Glycosuria (Sugar in urine)": "True",
+            "Increases risk of UTI / Yeast infections": "True",
+            "Reduces Heart Failure hospitalizations": "True"
+          },
+          "rationale": "SGLT2s (Flozins) make you pee out sugar. Sugar loves bacteria/yeast, hence infections. They are miracle drugs for Heart Failure."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "The patient has 'Euglycemic DKA' (DKA with normal-ish sugar). Why? Select all that apply.",
+          "options": [
+            "The drug lowers blood sugar via urine, masking the severity",
+            "The body is starving for carbs and breaking down fat (Ketones)",
+            "The patient stopped taking Insulin",
+            "The patient is dehydrated",
+            "Only occurs in Type 1 Diabetes"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Euglycemic DKA is a rare but dangerous SGLT2 side effect. The sugar is low (peed out), but the acidosis (ketones) is raging. Providers miss it because the glucometer says '180', not '600'."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "The diagnosis is Euglycemic DKA. Prioritize the plan.",
+          "center_condition": {
+            "options": [
+              "Euglycemic DKA",
+              "Yeast Infection",
+              "Gastroenteritis",
+              "Lactic Acidosis"
+            ],
+            "answer": "Euglycemic DKA"
+          },
+          "left_actions": {
+            "options": [
+              "Stop SGLT2 Inhibitor",
+              "Start Insulin Drip + Dextrose",
+              "Give Oral Fluconazole",
+              "Give Antibiotics",
+              "Check tympanic temperature"
+            ],
+            "answer": [
+              "Stop SGLT2 Inhibitor",
+              "Start Insulin Drip + Dextrose"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Anion Gap closure",
+              "Urine Culture",
+              "Vaginal pH",
+              "Daily Weight",
+              "Serum Albumin"
+            ],
+            "answer": [
+              "Anion Gap closure"
+            ]
+          },
+          "rationale": "We must turn off the ketosis with Insulin. But since sugar is already low (180), we MUST give Dextrose (Sugar) WITH the insulin to prevent hypoglycemia. This is counter-intuitive but life-saving."
+        }
+      ]
+    },
+    {
+      "id": "M-036",
+      "type": "mission",
+      "numerical_id": 36,
+      "title": "The Golden Hour: Sepsis",
+      "category": "Critical Care / Sepsis",
+      "difficulty": "Critical",
+      "patient_profile": {
+        "demographics": {
+          "name": "Florence Nightinghost",
+          "age": 88,
+          "gender": "Female",
+          "mrn": "3636-FN",
+          "dob": "05/12/1938",
+          "weight": "50 kg",
+          "height": "160 cm",
+          "allergies": "Penicillin"
+        },
+        "chief_complaint": "Confusion and shaking chills.",
+        "hpi": "Ms. Nightinghost comes from a SNF with a Foley catheter. She is obtunded and febrile. Staff report decreased urine output for 24 hours.",
+        "pmh": "Dementia, Bedbound, History of UTIs.",
+        "ros": {
+          "gen": "Temp 103.5 F (39.7 C). BP 80/40. HR 125.",
+          "resp": "RR 28. O2 Sat 92% RA.",
+          "skin": "Mottled extremities.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Yoga instructor. Vegans diet. Nonsmoker. No alcohol."
+      },
+      "exhibits": [
+        {
+          "title": "Lactate",
+          "type": "text",
+          "content": "5.5 mmol/L (Critical High)"
+        },
+        {
+          "title": "Urinalysis",
+          "type": "text",
+          "content": "Positive for Nitrites, Leukocyte Esterase, and WBCs (TNTC)."
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Prioritize the Sepsis Core Measure (1-Hour Bundle).",
+          "rows": [
+            "Measure Lactate Level",
+            "Obtain Blood Cultures",
+            "Administer Broad Spectrum Antibiotics",
+            "Administer 30ml/kg Crystalloid Bolus",
+            "Start Vasopressors"
+          ],
+          "columns": [
+            "First 15 Mins",
+            "Within 1 Hour",
+            "Only if Fluid Resuscitation Fails"
+          ],
+          "answer": {
+            "Measure Lactate Level": "First 15 Mins",
+            "Obtain Blood Cultures": "First 15 Mins",
+            "Administer Broad Spectrum Antibiotics": "Within 1 Hour",
+            "Administer 30ml/kg Crystalloid Bolus": "Within 1 Hour",
+            "Start Vasopressors": "Only if Fluid Resuscitation Fails"
+          },
+          "rationale": "Lactate and Cultures MUST come first. Antibiotics cannot be given until cultures are drawn (unless delay > 45 mins). Fluids are given concurrently. Pressors are only for refractory hypotension."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "The patient weighs 50kg. The provider orders 30ml/kg Normal Saline. Calculate and implement.",
+          "options": [
+            "Total Volume = 1500 mL",
+            "Total Volume = 3000 mL",
+            "Set pump rate to 999 ml/hr (Wide Open)",
+            "Run over 24 hours",
+            "Monitor for crackles (Pulmonary Edema)",
+            "Warm the fluids if possible"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "50kg * 30ml = 1500ml. This is a BOLUS, meaning give it FAST (999 rate). Warming prevents hypothermia. Lung checks are vital in elderly patients to prevent overload."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "After 1500ml fluid, BP is still 85/50. Lactate is 6.0. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Septic Shock",
+              "Cardiogenic Shock",
+              "Anaphylaxis",
+              "Fluid Overload"
+            ],
+            "answer": "Septic Shock"
+          },
+          "left_actions": {
+            "options": [
+              "Start Norepinephrine (Levophed)",
+              "Give Albumin",
+              "Give Lasix",
+              "Start Dopamine",
+              "Offer ice chips"
+            ],
+            "answer": [
+              "Start Norepinephrine (Levophed)"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "MAP > 65",
+              "CVP",
+              "Urine Output",
+              "Pupils",
+              "Hand Grip Strength"
+            ],
+            "answer": [
+              "MAP > 65",
+              "Urine Output"
+            ]
+          },
+          "rationale": "Fluid refractory hypotension = Septic Shock. The drug of choice is Norepinephrine (Levophed). The goal is Mean Arterial Pressure (MAP) > 65 to perfuse organs (Kidneys/Brain)."
+        }
+      ]
+    },
+    {
+      "id": "M-037",
+      "type": "mission",
+      "numerical_id": 37,
+      "title": "White Out: ARDS",
+      "category": "Critical Care / Respiratory",
+      "difficulty": "Critical",
+      "patient_profile": {
+        "demographics": {
+          "name": "Bane (Mask guy)",
+          "age": 45,
+          "gender": "Male",
+          "mrn": "3737-BB",
+          "dob": "07/19/1981",
+          "weight": "120 kg",
+          "height": "190 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Can't breathe.",
+        "hpi": "Admitted for severe Pancreatitis. Now developing worsening hypoxia despite 100% BiPAP.",
+        "pmh": "Alcohol Use Disorder, Pancreatitis.",
+        "ros": {
+          "resp": "RR 40. SpO2 82% on 100% FiO2.",
+          "cv": "Tachycardic.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Librarian. Lives with 3 cats. Nonsmoker. Occasional glass of wine."
+      },
+      "exhibits": [
+        {
+          "title": "Chest X-Ray",
+          "type": "text",
+          "content": "Bilateral diffuse fluffy infiltrates ('White Out'). No cardiomegaly."
+        },
+        {
+          "title": "ABG",
+          "type": "text",
+          "content": "ph 7.20, pO2 55, pCO2 60, HCO3 22. (Combined Acidosis with Hypoxia)."
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Diagnose ARDS based on the Berlin Criteria.",
+          "rows": [
+            "Timing: Within 1 week of insult",
+            "Chest Imaging: Bilateral Opacities",
+            "Edema Origin: Not fully explained by Heart Failure",
+            "Oxygenation: PaO2/FiO2 ratio < 300"
+          ],
+          "columns": [
+            "Met",
+            "Not Met"
+          ],
+          "answer": {
+            "Timing: Within 1 week of insult": "Met",
+            "Chest Imaging: Bilateral Opacities": "Met",
+            "Edema Origin: Not fully explained by Heart Failure": "Met",
+            "Oxygenation: PaO2/FiO2 ratio < 300": "Met"
+          },
+          "rationale": "Pancreatitis triggers systemic inflammation -> Leaky lung capillaries -> Non-cardiogenic pulmonary edema (ARDS). P/F ratio = 55 / 1.0 = 55 (Severe ARDS < 100)."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "The patient is intubated. Which ventilator strategies protect the lung? Select all that apply.",
+          "options": [
+            "Low Tidal Volume (6ml/kg PBW)",
+            "High Tidal Volume (10-12ml/kg)",
+            "High PEEP (Positive End Expiratory Pressure)",
+            "Zero PEEP",
+            "Permissive Hypercapnia (Allowing high CO2)",
+            "Maintain Plateau Pressure < 30 cmH2O"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Baby Lungs concept: Use Low Volumes to prevent volutrauma. Use High PEEP to recruit alveoli. Allow CO2 to rise (as long as pH > 7.2) to spare the lungs. Keep pressure low."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "O2 Sat remains 85% despite optimal vent settings. Prioritize the rescue therapy.",
+          "center_condition": {
+            "options": [
+              "Refractory Hypoxemia",
+              "Pneumothorax",
+              "Ventilator Disconnect",
+              "Sedation Failure"
+            ],
+            "answer": "Refractory Hypoxemia"
+          },
+          "left_actions": {
+            "options": [
+              "Prone Positioning (Face Down)",
+              "Administer Neuromuscular Blockade (Paralysis)",
+              "Start Nitric Oxide",
+              "ECMO Consult",
+              "Suction"
+            ],
+            "answer": [
+              "Prone Positioning (Face Down)",
+              "Administer Neuromuscular Blockade (Paralysis)"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "P/F Ratio",
+              "Train of Four (Twitch monitor)",
+              "Facial Pressure Ulcers",
+              "Bowel Sounds",
+              "Capillary Refill"
+            ],
+            "answer": [
+              "P/F Ratio",
+              "Train of Four (Twitch monitor)"
+            ]
+          },
+          "rationale": "Proning recruits the posterior lung fields (where most alveoli are). Paralysis (Nimbex) reduces oxygen consumption by muscles. Train of Four ensures they are paralyzed enough but not overdosed."
+        }
+      ]
+    },
+    {
+      "id": "M-038",
+      "type": "mission",
+      "numerical_id": 38,
+      "title": "The Headache: Pediatric DKA",
+      "category": "Critical Care / Peds",
+      "difficulty": "Critical",
+      "patient_profile": {
+        "demographics": {
+          "name": "Eleven (Stranger Things)",
+          "age": 12,
+          "gender": "Female",
+          "mrn": "3838-EL",
+          "dob": "11/11/2014",
+          "weight": "40 kg",
+          "height": "150 cm",
+          "allergies": "Waffles"
+        },
+        "chief_complaint": "Vomiting and breathing funny.",
+        "hpi": "Newly diagnosed T1DM. Parents report she has been drinking water from the toilet bowl (polydipsia). Now drowsy.",
+        "pmh": "None.",
+        "ros": {
+          "resp": "Kussmaul respirations (Deep/Fast). Fruity odor.",
+          "neuro": "GCS 10 (Confused).",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Yoga instructor. Vegans diet. Nonsmoker. No alcohol."
+      },
+      "exhibits": [
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "Glucose: 700. pH: 7.05. HCO3: 8. Anion Gap: 24."
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Fluid management in Pediatric DKA is controversial. Weigh the risks.",
+          "rows": [
+            "Rapid bolus of 40ml/kg",
+            "Slow correction over 48 hours",
+            "Risk of Cerebral Edema",
+            "Risk of Shock"
+          ],
+          "columns": [
+            "Too Fast (Dangerous)",
+            "Standard Care (Safe)"
+          ],
+          "answer": {
+            "Rapid bolus of 40ml/kg": "Too Fast (Dangerous)",
+            "Slow correction over 48 hours": "Standard Care (Safe)",
+            "Risk of Cerebral Edema": "Too Fast (Dangerous)",
+            "Risk of Shock": "Standard Care (Safe)"
+          },
+          "rationale": "In kids, dropping osmolarity too fast creates a gradient where fluid rushes into the brain -> Cerebral Edema (Fatal). We give moderate fluids (10-20ml/kg) and correct slowly."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Which signs indicate developing Cerebral Edema? Select all that apply.",
+          "options": [
+            "Sudden severe headache",
+            "Bradypnea (respiratory slowing)",
+            "Hypertension with Bradycardia (Cushing's Triad)",
+            "Improved mental status",
+            "Incontinence",
+            "Fixed dilated pupils"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Any neurological deterioration in a DKA kid is Cerebral Edema until proven otherwise. Cushing's Triad is a late sign of herniation."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Eleven grabs her head, screams, and becomes unresponsive. HR 50. BP 160/90. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Cerebral Herniation",
+              "Hypoglycemia",
+              "Stroke",
+              "Seizure"
+            ],
+            "answer": "Cerebral Herniation"
+          },
+          "left_actions": {
+            "options": [
+              "Mannitol IV Push",
+              "Hypertonic Saline (3%)",
+              "Lay flat",
+              "Elevate Head of Bed",
+              "Decrease IV Rate"
+            ],
+            "answer": [
+              "Mannitol IV Push",
+              "Elevate Head of Bed"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Pupillary Response",
+              "GCS",
+              "Urine Output",
+              "Serum Na",
+              "Clotting time"
+            ],
+            "answer": [
+              "Pupillary Response",
+              "GCS"
+            ]
+          },
+          "rationale": "Cushing's Triad confirmed. The brain is herniating. We must shrink the brain NOW. Mannitol or 3% Saline draws water out. Elevate head to drain venous blood. Reduce maintenance fluids."
+        }
+      ]
+    },
+    {
+      "id": "M-039",
+      "type": "mission",
+      "numerical_id": 39,
+      "title": "The Pressure Cooker: HTN Crisis",
+      "category": "Critical Care / CV",
+      "difficulty": "Advanced",
+      "patient_profile": {
+        "demographics": {
+          "name": "Pressure Pete",
+          "age": 50,
+          "gender": "Male",
+          "mrn": "3939-PP",
+          "dob": "10/10/1976",
+          "weight": "90 kg",
+          "height": "175 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Worst headache of my life and blurred vision.",
+        "hpi": "Ran out of BP meds 3 days ago. Now presents with confusion and chest pain.",
+        "pmh": "Resistant Hypertension, CKD.",
+        "ros": {
+          "cv": "BP 240/140.",
+          "neuro": "Papilledema (swollen optic disc) on exam.",
+          "mi": "ST depression in V5.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Truck driver. Divorced. Smokes 2 packs/day. Sedentary lifestyle."
+      },
+      "exhibits": [
+        {
+          "title": "Meds Available",
+          "type": "text",
+          "content": "Nitroprusside, Labetalol, Nicardipine, Hydralazine."
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Distinguish Hypertensive Urgency vs Emergency.",
+          "rows": [
+            "BP > 180/120",
+            "Evidence of End Organ Damage (Heart, Brain, Kidney)",
+            "Requires IV Drip Admission",
+            "Treat with Oral agents slowly",
+            "Headache alone"
+          ],
+          "columns": [
+            "Urgency",
+            "Emergency",
+            "Both"
+          ],
+          "answer": {
+            "BP > 180/120": "Both",
+            "Evidence of End Organ Damage (Heart, Brain, Kidney)": "Emergency",
+            "Requires IV Drip Admission": "Emergency",
+            "Treat with Oral agents slowly": "Urgency",
+            "Headache alone": "Urgency"
+          },
+          "rationale": "The number (180/120) is the same. The difference is Organ Damage. Pete has chest pain (Heart) and confusion (Brain), so it is EMERGENCY."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "We start a Nitroprusside drip. What are the rules? Select all that apply.",
+          "options": [
+            "Protect the IV bag from light (Opaque cover)",
+            "Monitor Thiocyanate/Cyanide levels if used > 24hrs",
+            "Lower BP to 120/80 within 1 hour",
+            "Lower BP by max 25% in first hour",
+            "Monitor continuous arterial line BP"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Nitroprusside turns into CYANIDE in the light/body. Never drop BP too fast (stroke risk from hypoperfusion) - max 25% drop initially. Art line is mandatory for potent vasodilators."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "After 24 hours, Pete becomes confused again and smells like 'bitter almonds'. Lactic acid is rising. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Cyanide Toxicity",
+              "Stroke",
+              "Hypotension",
+              "Renal Failure"
+            ],
+            "answer": "Cyanide Toxicity"
+          },
+          "left_actions": {
+            "options": [
+              "Stop Nitroprusside",
+              "Administer Sodium Thiosulfate",
+              "Start dialysis",
+              "Increase oxygen",
+              "Administer IV Acetaminophen"
+            ],
+            "answer": [
+              "Stop Nitroprusside",
+              "Administer Sodium Thiosulfate"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Thiocyanate Level",
+              "Lactate",
+              "Pupils",
+              "BP",
+              "Urine Color"
+            ],
+            "answer": [
+              "Thiocyanate Level",
+              "Lactate"
+            ]
+          },
+          "rationale": "Bitter almonds + Acidosis on Nitroprusside = Cyanide Poisoning. Stop the drug. Give Thiosulfate (antidote)."
+        }
+      ]
+    },
+    {
+      "id": "M-040",
+      "type": "mission",
+      "numerical_id": 40,
+      "title": "Flatline: Code Blue",
+      "category": "Critical Care / ACLS",
+      "difficulty": "Critical",
+      "patient_profile": {
+        "demographics": {
+          "name": "John Doe",
+          "age": 60,
+          "gender": "Male",
+          "mrn": "4040-JD",
+          "dob": "01/01/1966",
+          "weight": "80 kg",
+          "height": "180 cm",
+          "allergies": "Unknown"
+        },
+        "chief_complaint": "Unresponsive.",
+        "hpi": "Patient found unresponsive in the public bathroom by housekeeping staff. CPR was initiated immediately by bystanders. EMS reported downtime of approximately 8 minutes before arrival. Defibrillated x1 in field with return of pulse, then lost pulse again during transport.",
+        "pmh": "Unknown.",
+        "ros": {
+          "gen": "Pulseless. Apneic.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Retired veteran. Lives in assisted living. Former smoker (quit 20 years ago)."
+      },
+      "exhibits": [
+        {
+          "title": "Monitor",
+          "type": "text",
+          "content": "Shows Ventricular Fibrillation (V-Fib)."
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Review the ACLS Algorithms. Match the treatment to the rhythm.",
+          "rows": [
+            "Ventricular Fibrillation (V-Fib)",
+            "Ventricular Tachycardia (Pulseless)",
+            "Asystole (Flatline)",
+            "PEA (Rhythm but no pulse)"
+          ],
+          "columns": [
+            "Shockable",
+            "Not Shockable"
+          ],
+          "answer": {
+            "Ventricular Fibrillation (V-Fib)": "Shockable",
+            "Ventricular Tachycardia (Pulseless)": "Shockable",
+            "Asystole (Flatline)": "Not Shockable",
+            "PEA (Rhythm but no pulse)": "Not Shockable"
+          },
+          "rationale": "If they are dead (pulseless), check if the heart is shaking (Fib/Tach). If yes, SHOCK IT. If it's silent (Asystole/PEA), shocking does nothing. Just CPR + Epi."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "You are running the code. Which actions are High Quality CPR? Select all that apply.",
+          "options": [
+            "Rate 100-120 compressions/min",
+            "Depth at least 2 inches (5cm)",
+            "Allow full chest recoil",
+            "Minimize interruptions (< 10 seconds)",
+            "Give breaths every 6 seconds (if advanced airway)",
+            "Switch compressor every 5 cycles (2 mins)",
+            "Hyperventilate to blow off CO2"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Hyperventilation kills (increases intrathoracic pressure, decreases venous return). Everything else is standard ACLS."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "We get ROSC (Return of Spontaneous Circulation). Patient follows commands? NO. Prioritize post-arrest care.",
+          "center_condition": {
+            "options": [
+              "Targeted Temperature Management (TTM)",
+              "Dialysis",
+              "Immediate Extubation",
+              "Family meeting"
+            ],
+            "answer": "Targeted Temperature Management (TTM)"
+          },
+          "left_actions": {
+            "options": [
+              "Cool to 32-36 C",
+              "Maintain Normothermia",
+              "Sedate and Paralyze (if shivering)",
+              "Obtain 12-Lead ECG",
+              "Change bed linens"
+            ],
+            "answer": [
+              "Cool to 32-36 C",
+              "Sedate and Paralyze (if shivering)"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Core Temperature (Esophageal)",
+              "EEG",
+              "Blood Glucose",
+              "Urine Output",
+              "Hand Grip Strength"
+            ],
+            "answer": [
+              "Core Temperature (Esophageal)",
+              "EEG"
+            ]
+          },
+          "rationale": "If the patient doesn't wake up after ROSC, we cool them (Therapeutic Hypothermia) to preserve brain function. Shivering fights the cooling and must be stopped. 12-Lead is also crucial to look for STEMI."
+        }
+      ]
+    }
+  ]
+}

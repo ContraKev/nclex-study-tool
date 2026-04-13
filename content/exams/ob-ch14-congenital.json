@@ -1,0 +1,247 @@
+{
+  "id": "ob_ch14_congenital_malformations",
+  "name": "OB Chapter 14: Newborn with Perinatal Injury or Congenital Malformation Quiz",
+  "type": "exam",
+  "scenarios": [
+    {
+      "id": "hydrocephalus_definition",
+      "question": "Hydrocephalus is characterized by:",
+      "options": [
+        "Decreased CSF within the brain",
+        "Increase in cerebrospinal fluid (CSF) within the brain's ventricles causing pressure changes",
+        "Blood accumulation in the brain",
+        "Lack of brain development"
+      ],
+      "answer": [1],
+      "rationale": "Hydrocephalus is an increase in CSF within the brain's ventricles, causing pressure changes and potentially increased head size. It results from imbalance between CSF production and absorption."
+    },
+    {
+      "id": "hydrocephalus_signs",
+      "question": "Signs of increasing intracranial pressure in a newborn with hydrocephalus include:",
+      "options": [
+        "Decreased BP, increased pulse",
+        "High-pitched cry, bulging fontanelles, unequal pupils",
+        "Clear lung sounds and regular respirations",
+        "Hyperreflexia and hyperactivity"
+      ],
+      "answer": [1],
+      "rationale": "ICP signs in infants: ↑ BP, ↓ pulse, ↓ respirations, high-pitched cry, unequal pupils or poor response to light, bulging fontanelles, irritability or lethargy, vomiting, poor feeding."
+    },
+    {
+      "id": "vp_shunt",
+      "question": "The primary treatment for hydrocephalus is:",
+      "options": [
+        "Antibiotics and antivirals",
+        "Ventriculoperitoneal (VP) shunt to bypass the obstruction",
+        "Phototherapy",
+        "Exchange transfusion"
+      ],
+      "answer": [1],
+      "rationale": "VP shunt is the primary treatment—it acts as a bypass for CSF. The shunt may become a focal point for infection and may need revision. Medications can reduce CSF production but surgery is definitive."
+    },
+    {
+      "id": "spina_bifida_types",
+      "question": "Which type of spina bifida contains both membranes AND spinal cord, carrying the highest risk of paralysis?",
+      "options": [
+        "Spina bifida occulta",
+        "Meningocele",
+        "Meningomyelocele",
+        "All types carry equal risk"
+      ],
+      "answer": [2],
+      "rationale": "Meningomyelocele contains membranes AND spinal cord (most serious). Meningocele contains only membranes/CSF. Occulta is hidden and often asymptomatic."
+    },
+    {
+      "id": "folic_acid",
+      "question": "Prevention of neural tube defects like spina bifida includes:",
+      "options": [
+        "Iron supplements starting in third trimester",
+        "Folic acid 0.4 mg/day before pregnancy and through the 12th week",
+        "Calcium supplements",
+        "Vitamin D supplementation"
+      ],
+      "answer": [1],
+      "rationale": "Folic acid 0.4 mg/day before conception and through week 12 significantly reduces neural tube defect risk. This is a key preventive measure."
+    },
+    {
+      "id": "cleft_lip_timing",
+      "question": "Initial repair of cleft lip (cheiloplasty) is typically performed:",
+      "options": [
+        "At 12-18 months of age",
+        "By 3 months of age",
+        "After the child starts school",
+        "Only if speech is affected"
+      ],
+      "answer": [1],
+      "rationale": "Cheiloplasty (cleft lip repair) is performed by 3 months of age. Cleft palate repair is typically later (6-12 months)."
+    },
+    {
+      "id": "cleft_feeding",
+      "question": "Until cleft lip/palate surgery, the infant may need:",
+      "options": [
+        "Standard bottle and nipple",
+        "Special feeding devices (special syringe or bottle) and elbow restraints",
+        "Only breast milk",
+        "No feeding until surgery"
+      ],
+      "answer": [1],
+      "rationale": "Special feeding devices help the infant feed before surgery. Elbow restraints prevent the infant from scratching/traumatizing the surgical site."
+    },
+    {
+      "id": "clubfoot_treatment",
+      "question": "Conservative treatment for clubfoot includes:",
+      "options": [
+        "Immediate surgery",
+        "Splinting, casting, and passive stretching exercises",
+        "No treatment needed",
+        "Only physical therapy at age 2"
+      ],
+      "answer": [1],
+      "rationale": "Conservative treatment: Splinting/casting to hold foot in correct position, passive stretching. If not effective after ~3 months, surgery is indicated."
+    },
+    {
+      "id": "hip_dysplasia_test",
+      "question": "The Ortolani sign is used to assess for:",
+      "options": [
+        "Cleft palate",
+        "Developmental hip dysplasia",
+        "Clubfoot severity",
+        "Hydrocephalus"
+      ],
+      "answer": [1],
+      "rationale": "Ortolani sign (click): Provider feels/hears the femoral head slip back into the acetabulum under gentle pressure—indicates hip dysplasia."
+    },
+    {
+      "id": "pavlik_harness",
+      "question": "The Pavlik harness is used to treat:",
+      "options": [
+        "Spina bifida",
+        "Developmental hip dysplasia",
+        "Cleft lip",
+        "PKU"
+      ],
+      "answer": [1],
+      "rationale": "Pavlik harness maintains hips in constant flexion and abduction for 4-8 weeks, keeping the femoral head within the hip socket and allowing the acetabulum to deepen."
+    },
+    {
+      "id": "pku_definition",
+      "question": "Phenylketonuria (PKU) is caused by:",
+      "options": [
+        "Inability to metabolize lactose",
+        "Faulty metabolism of phenylalanine, an amino acid in all protein foods",
+        "Excessive bilirubin production",
+        "Chromosomal abnormality"
+      ],
+      "answer": [1],
+      "rationale": "PKU: Infant cannot metabolize phenylalanine (in all protein). Phenylalanine accumulates in blood and urine → severe mental retardation if untreated."
+    },
+    {
+      "id": "pku_treatment",
+      "question": "Treatment for PKU includes:",
+      "options": [
+        "High-protein diet",
+        "Special diet low in phenylalanine; avoid aspartame",
+        "Phototherapy",
+        "Antibiotics"
+      ],
+      "answer": [1],
+      "rationale": "PKU treatment: Low phenylalanine diet, avoid aspartame (contains phenylalanine). Regular blood tests and dietitian follow-up. Newborn screening mandatory."
+    },
+    {
+      "id": "galactosemia",
+      "question": "An infant with galactosemia cannot metabolize:",
+      "options": [
+        "Glucose",
+        "Galactose and lactose",
+        "Phenylalanine",
+        "Branched-chain amino acids"
+      ],
+      "answer": [1],
+      "rationale": "Galactosemia: Enzyme needed to convert galactose → glucose is defective/missing. Results in galactosemia (blood) and galactosuria (urine). Untreated → cirrhosis, cataracts, mental retardation."
+    },
+    {
+      "id": "galactosemia_feeding",
+      "question": "Feeding management for galactosemia includes:",
+      "options": [
+        "Increased cow's milk intake",
+        "Eliminate milk and lactose; use soy-based or lactose-free formula",
+        "High galactose diet",
+        "No dietary changes needed"
+      ],
+      "answer": [1],
+      "rationale": "Galactosemia: Breastfeeding must stop. Use lactose-free or soy protein–based formulas. Parental support and education essential."
+    },
+    {
+      "id": "down_syndrome_risk",
+      "question": "Risk for Down syndrome increases significantly with:",
+      "options": [
+        "Maternal age <20",
+        "Maternal age ≥35 and paternal age ≥55",
+        "First pregnancy",
+        "Multiple births"
+      ],
+      "answer": [1],
+      "rationale": "Down syndrome (most common chromosomal abnormality) risk increases with maternal age ≥35 and paternal age ≥55."
+    },
+    {
+      "id": "erythroblastosis",
+      "question": "Erythroblastosis fetalis (hemolytic disease) occurs when:",
+      "options": [
+        "Mother is Rh-positive and fetus is Rh-negative",
+        "Mother is Rh-negative and fetus is Rh-positive",
+        "Both mother and fetus are Rh-negative",
+        "Both are Rh-positive"
+      ],
+      "answer": [1],
+      "rationale": "Rh-negative mother produces antibodies against Rh-positive fetal cells. These antibodies cross the placenta and destroy fetal RBCs → anemia, jaundice."
+    },
+    {
+      "id": "rhogam",
+      "question": "RhoGAM is given to Rh-negative mothers to:",
+      "options": [
+        "Treat the newborn's jaundice",
+        "Prevent maternal antibody formation against fetal Rh-positive cells",
+        "Increase fetal hemoglobin",
+        "Stimulate fetal lung maturity"
+      ],
+      "answer": [1],
+      "rationale": "RhoGAM (Rh(D) immune globulin) is given at 28 weeks and within 72 hours after delivery to prevent maternal sensitization and antibody formation."
+    },
+    {
+      "id": "phototherapy_nursing",
+      "question": "During phototherapy, the nurse should:",
+      "options": [
+        "Keep the infant fully clothed",
+        "Cover the infant's eyes with protective patches and maximize skin exposure",
+        "Avoid turning the infant",
+        "Restrict all fluids"
+      ],
+      "answer": [1],
+      "rationale": "Phototherapy: Cover eyes to prevent retinal damage, maximize skin exposure (diaper only), turn frequently, monitor temperature, increase fluids."
+    },
+    {
+      "id": "nas_signs",
+      "question": "Neonatal Abstinence Syndrome (NAS) may present with:",
+      "options": [
+        "Lethargy and poor reflexes",
+        "High-pitched cry, tremors, sneezing, vomiting, seizures",
+        "Bradycardia and hypothermia",
+        "Clear skin and regular feeding"
+      ],
+      "answer": [1],
+      "rationale": "NAS (drug withdrawal): High-pitched cry, tremors, sneezing, vomiting, diarrhea, seizures. Supportive care, low-stimulation environment, medications as needed."
+    },
+    {
+      "id": "macrosomia_hypoglycemia",
+      "question": "An infant of a diabetic mother (macrosomic) is at high risk for hypoglycemia after birth because:",
+      "options": [
+        "The mother had low blood sugar during pregnancy",
+        "Fetal pancreas produced excess insulin in response to maternal glucose; after birth, insulin continues while glucose supply stops",
+        "The infant has no glycogen stores",
+        "The infant is too small to feed"
+      ],
+      "answer": [1],
+      "rationale": "Macrosomia: Excess glucose crosses placenta → fetal hyperglycemia → fetal pancreas produces excess insulin. After birth, insulin continues but glucose supply stops → hypoglycemia (<45 mg/dL)."
+    }
+  ]
+}

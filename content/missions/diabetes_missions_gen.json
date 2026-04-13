@@ -1,0 +1,1465 @@
+{
+  "id": "diabetes_missions_gen",
+  "name": "Diabetes NGN Missions (Generated)",
+  "scenarios": [
+    {
+      "id": "M-021",
+      "type": "mission",
+      "numerical_id": 21,
+      "title": "The Sweet Coma: HHS Management",
+      "category": "Diabetes / Emergency",
+      "difficulty": "Advanced",
+      "patient_profile": {
+        "demographics": {
+          "name": "Esther Williams",
+          "age": 82,
+          "gender": "Female",
+          "mrn": "2121-EW",
+          "dob": "11/11/1944",
+          "weight": "70 kg",
+          "height": "162 cm",
+          "allergies": "Latex"
+        },
+        "chief_complaint": "Valid confusion and profound weakness found by son.",
+        "hpi": "Ms. Williams has had a UTI for 1 week but didn't take her antibiotics. She has been drinking juice to 'flush it out'. Her son found her lethargic and unable to stand. He states she has been urinating frequently for days.",
+        "pmh": "Type 2 Diabetes, Dementia (Mild), Hypertension.",
+        "ros": {
+          "neuro": "Lethargic, disoriented to time/place. GCS 13.",
+          "gen": "Severe dehydration, dry mucous membranes, poor skin turgor.",
+          "resp": "No Kussmaul respirations. Breath does NOT smell fruity.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Retired veteran. Lives in assisted living. Former smoker (quit 20 years ago)."
+      },
+      "exhibits": [
+        {
+          "title": "Stat Labs",
+          "type": "table",
+          "data": [
+            {
+              "lab": "Glucose",
+              "val": "850 mg/dL",
+              "status": "Critical High"
+            },
+            {
+              "lab": "pH",
+              "val": "7.38",
+              "status": "Normal"
+            },
+            {
+              "lab": "Bicarbonate",
+              "val": "24 mEq/L",
+              "status": "Normal"
+            },
+            {
+              "lab": "Ketones",
+              "val": "Negative",
+              "status": "Normal"
+            },
+            {
+              "lab": "Serum Osmolality",
+              "val": "340 mOsm/kg",
+              "status": "Critical High (>320)"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Electrolytes",
+          "type": "text",
+          "content": "Sodium: 148 mEq/L (Hypernatremia due to dehydration). Potassium: 4.8 mEq/L. BUN: 60 mg/dL (Pre-renal azotemia)."
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "The nurse reviews the lab results. Differentiate HHS from DKA based on Ms. Williams' presentation.",
+          "rows": [
+            "Blood Glucose > 600 mg/dL",
+            "Presence of Serum Ketones",
+            "Acidosis (pH < 7.35)",
+            "Profound Dehydration (>10L deficit)",
+            "Mental Status Changes (Coma/Stupor)"
+          ],
+          "columns": [
+            "HHS",
+            "DKA",
+            "Both"
+          ],
+          "answer": {
+            "Blood Glucose > 600 mg/dL": "Both",
+            "Presence of Serum Ketones": "DKA",
+            "Acidosis (pH < 7.35)": "DKA",
+            "Profound Dehydration (>10L deficit)": "HHS",
+            "Mental Status Changes (Coma/Stupor)": "HHS"
+          },
+          "rationale": "HHS (Hyperosmolar Hyperglycemic State) is characterized by extreme hyperglycemia (>600) and hyperosmolarity (>320) leading to profound dehydration and neurological changes. Unlike DKA, there is enough circulating insulin to prevent ketosis/acidosis."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Which orders does the nurse anticipate for initial resuscitation? Select all that apply.",
+          "options": [
+            "Start IV Fluids (0.9% NS) at 1L/hr",
+            "Administer IV Regular Insulin Bolus (0.1 units/kg)",
+            "Administer IV Sodium Bicarbonate",
+            "Monitor Potassium levels hourly",
+            "Insert Foley Catheter",
+            "Start D5W Infusion"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Fluid resuscitation is the absolute priority to fix the hyperosmolarity. IV Insulin is used to lower BG. Potassium must be monitored as insulin shifts K+ into cells. A Foley is needed to track output accurately during massive fluid replacement."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "During treatment, the patient becomes responsive but complains of muscle cramps. Her K+ drops to 3.2 mEq/L. Prioritize the plan.",
+          "center_condition": {
+            "options": [
+              "Hypokalemia",
+              "Cerebral Edema",
+              "Fluid Overload",
+              "Hypoglycemia"
+            ],
+            "answer": "Hypokalemia"
+          },
+          "left_actions": {
+            "options": [
+              "Hold Insulin Infusion",
+              "Add Potassium Chloride to IV Fluids",
+              "Give Kayexalate",
+              "Administer IV Calcium Gluconate",
+              "Start D50W Ampule"
+            ],
+            "answer": [
+              "Hold Insulin Infusion",
+              "Add Potassium Chloride to IV Fluids"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Continuous EKG",
+              "Hourly Neuro Checks",
+              "Daily Weights",
+              "Fingerstick Glucose",
+              "Urine Specific Gravity"
+            ],
+            "answer": [
+              "Continuous EKG",
+              "Fingerstick Glucose"
+            ]
+          },
+          "rationale": "Insulin drives Potassium into the cell. If K+ drops below 3.3, insulin MUST be held to prevent life-threatening arrhythmias (VT/VF). Repletion (IV KCl) is urgent. EKG provides real-time monitoring of cardiac stability."
+        }
+      ]
+    },
+    {
+      "id": "M-022",
+      "type": "mission",
+      "numerical_id": 22,
+      "title": "The Rule of 15: Acute Hypoglycemia",
+      "category": "Diabetes / Acute",
+      "difficulty": "Basic",
+      "patient_profile": {
+        "demographics": {
+          "name": "Ben Carter",
+          "age": 19,
+          "gender": "Male",
+          "mrn": "2290-BC",
+          "dob": "07/04/2007",
+          "weight": "75 kg",
+          "height": "178 cm",
+          "allergies": "Peanuts"
+        },
+        "chief_complaint": "Shaking, sweating, and 'feeling disconnected'.",
+        "hpi": "Ben just finished soccer practice. He took his insulin before practice but didn't eat his snack. He is alert but anxious.",
+        "pmh": "Type 1 Diabetes (Diagnosed age 10).",
+        "ros": {
+          "neuro": "Tremors, anxiety, slight confusion.",
+          "cardio": "Results in Tachycardia (105 bpm).",
+          "global": "Diaphoresis (Sweating) and Hunger.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Check feet for ulcers.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Retired school teacher. Lives with spouse. Nonsmoker. Occasional alcohol."
+      },
+      "exhibits": [
+        {
+          "title": "Fingerstick Glucose",
+          "type": "text",
+          "content": "<strong>Result:</strong> 52 mg/dL"
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Classify the patient's symptoms as Adrenergic (catecholamine release) or Neuroglycopenic (brain glucose deprivation).",
+          "rows": [
+            "Tremors / Shaking",
+            "Confusion / Difficulty Concentrating",
+            "Diaphoresis (Sweating)",
+            "Tachycardia (Palpitations)",
+            "Slurred Speech / Drowsiness"
+          ],
+          "columns": [
+            "Adrenergic (Warning Signs)",
+            "Neuroglycopenic (Late Signs)"
+          ],
+          "answer": {
+            "Tremors / Shaking": "Adrenergic (Warning Signs)",
+            "Confusion / Difficulty Concentrating": "Neuroglycopenic (Late Signs)",
+            "Diaphoresis (Sweating)": "Adrenergic (Warning Signs)",
+            "Tachycardia (Palpitations)": "Adrenergic (Warning Signs)",
+            "Slurred Speech / Drowsiness": "Neuroglycopenic (Late Signs)"
+          },
+          "rationale": "The body releases epinephrine to raise BG, causing shaking/sweating/tachycardia. If uncorrected, the brain runs out of fuel, causing confusion/coma (Neuroglycopenia)."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Ben is conscious and can swallow. Which food items serve as appropriate '15g' rapid-acting carbohydrates? Select all that apply.",
+          "options": [
+            "4 oz (1/2 cup) Apple Juice",
+            "1 tablespoon of Honey",
+            "1 cup of Diet Soda",
+            "3-4 Glucose Tablets",
+            "A chocolate bar (Snickers)",
+            "Standard size Bagel with Cream Cheese"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Treatment requires simple sugars. Diet soda has no sugar. Chocolate and Bagels contain fat/protein which delays absorption."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Ben's roommate finds him later unconscious and unable to swallow. BG is 30 mg/dL. Prioritize the emergency response.",
+          "center_condition": {
+            "options": [
+              "Severe Hypoglycemia",
+              "Diabetic Ketoacidosis",
+              "Seizure Disorder",
+              "Vasovagal Syncope"
+            ],
+            "answer": "Severe Hypoglycemia"
+          },
+          "left_actions": {
+            "options": [
+              "Administer IM Glucagon",
+              "Force feed oral juice",
+              "Administer IV D50W (If access)",
+              "Call 911",
+              "Start Insulin Drip"
+            ],
+            "answer": [
+              "Administer IM Glucagon",
+              "Call 911"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Airway/Aspiration risk",
+              "Return of Consciousness",
+              "Urine Ketones",
+              "Deep Tendon Reflexes",
+              "Pupillary Response"
+            ],
+            "answer": [
+              "Airway/Aspiration risk",
+              "Return of Consciousness"
+            ]
+          },
+          "rationale": "An unconscious patient is an aspiration risk; NEVER put anything in their mouth. IM Glucagon mobilizes liver glycogen. 911 is needed. Monitoring airway (side-lying position) is critical due to vomiting risk from Glucagon."
+        }
+      ]
+    },
+    {
+      "id": "M-023",
+      "type": "mission",
+      "numerical_id": 23,
+      "title": "Tech Failure: Insulin Pump Malfunction",
+      "category": "Diabetes / Technology",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Lisa Kudrow (Not that one)",
+          "age": 28,
+          "gender": "Female",
+          "mrn": "2323-LK",
+          "dob": "05/05/1998",
+          "weight": "60 kg",
+          "height": "165 cm",
+          "allergies": "Adhesive tape"
+        },
+        "chief_complaint": "Persistent Hyperglycemia and pump alarm 'Occlusion'.",
+        "hpi": "Lisa notes her BG has been >300 mg/dL for 4 hours despite bolusing via pump. Pump shows 'No Delivery'. She feels nauseous.",
+        "pmh": "Type 1 Diabetes (Pump user x 5 years).",
+        "ros": {
+          "gen": "Increased thirst, frequent urination, fatigue.",
+          "skin": "Pump site is red and tender (possible kink/infection).",
+          "gi": "Mild nausea.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gu": "No complaints. Urine clear.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Construction worker. Lives alone. Smokes 1 pack/day. Social drinker."
+      },
+      "exhibits": [
+        {
+          "title": "Glucose Log",
+          "type": "text",
+          "content": "12:00 - 180 mg/dL<br>14:00 - 240 mg/dL (Bolused)<br>16:00 - 350 mg/dL (Now)"
+        },
+        {
+          "title": "Ketone Strip",
+          "type": "text",
+          "content": "Result: Moderate Ketones Detected. (Risk of DKA)"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Troubleshoot the pump failure. Match the potential cause to the component.",
+          "rows": [
+            "Cannula kinked under skin",
+            "Tubing caught in door/zipper",
+            "Reservoir empty",
+            "Battery dead",
+            "Bad absorption (Scar tissue)"
+          ],
+          "columns": [
+            "Infusion Site Issue",
+            "Mechanical/Tubing Issue",
+            "Device Power Issue"
+          ],
+          "answer": {
+            "Cannula kinked under skin": "Infusion Site Issue",
+            "Tubing caught in door/zipper": "Mechanical/Tubing Issue",
+            "Reservoir empty": "Mechanical/Tubing Issue",
+            "Battery dead": "Device Power Issue",
+            "Bad absorption (Scar tissue)": "Infusion Site Issue"
+          },
+          "rationale": "Systematic troubleshooting: Check the Site (kinks, infection), the Line (air bubbles, clogs), and the Pump (battery, settings)."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "The pump is confirmed to be malfunctioning. What are the priority actions to prevent DKA? Select all that apply.",
+          "options": [
+            "Disconnect the pump immediately",
+            "Administer a correction bolus via syringe/pen (Manual injection)",
+            "Keep bolusing with the pump until alarm clears",
+            "Calculate total daily dose for backup plan",
+            "Change the infusion set and new site rotation",
+            "Check for ketones"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Manual insulin is required to fix the high BG immediately because the pump is unreliable. Disconnecting prevents accidental bolus if it suddenly works. Ketones confirm insulin deficiency."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Ketones are positive. The patient needs a backup plan while the pump is off. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Impending DKA",
+              "HHS",
+              "Pump Failure",
+              "Hypoglycemia"
+            ],
+            "answer": "Pump Failure"
+          },
+          "left_actions": {
+            "options": [
+              "Give stat Long-Acting Insulin (Glargine)",
+              "Give stat Rapid-Acting Insulin (Lispro)",
+              "Resume pump immediately",
+              "Call Tech Support",
+              "Change bed linens"
+            ],
+            "answer": [
+              "Give stat Long-Acting Insulin (Glargine)",
+              "Give stat Rapid-Acting Insulin (Lispro)"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "BG every 2 hours",
+              "Ketones every void",
+              "Pump settings",
+              "Battery life",
+              "Clotting time"
+            ],
+            "answer": [
+              "BG every 2 hours",
+              "Ketones every void"
+            ]
+          },
+          "rationale": "Only Short-acting insulin is in the pump. When disconnected, the patient has NO basal insulin. They need manual Long-Acting (Basal) and Rapid-Acting (Bolus) to survive until the pump is replaced. Monitoring for ketone clearance is vital."
+        }
+      ]
+    },
+    {
+      "id": "M-024",
+      "type": "mission",
+      "numerical_id": 24,
+      "title": "Morning Highs: Somogyi vs Dawn",
+      "category": "Diabetes / Chronic",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Gary Oldman (maybe?)",
+          "age": 60,
+          "gender": "Male",
+          "mrn": "2424-GO",
+          "dob": "03/21/1966",
+          "weight": "82 kg",
+          "height": "175 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Waking up with high blood sugar every morning.",
+        "hpi": "Mr. Oldman reports his fasting BG is ~250 mg/dL every morning for the past week. He thought his insulin wasn't working, so he INCREASED his bedtime NPH dose 3 days ago, but the morning numbers got WORSE. He reports vivid nightmares and night sweats.",
+        "pmh": "Type 2 Diabetes (Insulin dependent), Obstructive Sleep Apnea.",
+        "ros": {
+          "neuro": "Morning headaches. Groggy.",
+          "gen": "Waking up with damp sheets (Night sweats).",
+          "endo": "Polyuria upon waking.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Software engineer. Works from home. High stress. Enjoys hiking."
+      },
+      "exhibits": [
+        {
+          "title": "Glucose Log",
+          "type": "text",
+          "content": "Bedtime (2200): 110 mg/dL<br>3 AM: 55 mg/dL (Hypoglycemia)<br>Breakfast (0700): 260 mg/dL (Rebound Hyperglycemia)"
+        },
+        {
+          "title": "Current Meds",
+          "type": "table",
+          "data": [
+            {
+              "drug": "NPH Insulin",
+              "dose": "30 units",
+              "freq": "Bedtime (2200)"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "1000 mg",
+              "freq": "BID"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Interpret the cause of morning hyperglycemia based on the 3AM check.",
+          "rows": [
+            "3AM Glucose is Low (< 70)",
+            "3AM Glucose is Normal/High (> 100)",
+            "Patient reports Night Sweats / Nightmares",
+            "Caused by rebound hormone release (Glucagon/Epi)",
+            "Caused by natural Growth Hormone release"
+          ],
+          "columns": [
+            "Somogyi Effect",
+            "Dawn Phenomenon"
+          ],
+          "answer": {
+            "3AM Glucose is Low (< 70)": "Somogyi Effect",
+            "3AM Glucose is Normal/High (> 100)": "Dawn Phenomenon",
+            "Patient reports Night Sweats / Nightmares": "Somogyi Effect",
+            "Caused by rebound hormone release (Glucagon/Epi)": "Somogyi Effect",
+            "Caused by natural Growth Hormone release": "Dawn Phenomenon"
+          },
+          "rationale": "Somogyi = Rebound hyperglycemia following nocturnal hypoglycemia (Low at 3AM). The body panic-dumps sugar. Dawn = Natural circadian rhythm GH release causing insulin resistance (High/Normal at 3AM). Night sweats are a sign of hypoglycemia."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Based on the diagnosis of Somogyi Effect, which interventions are appropriate? Select all that apply.",
+          "options": [
+            "Increase the bedtime NPH dose",
+            "Decrease the bedtime NPH dose",
+            "Add a protein-heavy bedtime snack",
+            "Check BG at 3 AM for the next few nights",
+            "Switch dinner to an earlier time"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "The problem is Hypoglycemia while sleeping. We need to prevent the drop. Decreasing the insulin or adding a snack helps carry the sugar through the night. Increasing the dose (which the patient did) worsens the effect."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "A month later, Gary returns. His 3AM BG is now 140, but his morning fasting is 180. Prioritize the new plan.",
+          "center_condition": {
+            "options": [
+              "Dawn Phenomenon",
+              "Somogyi Effect",
+              "Insulin Resistance",
+              "Medication Non-compliance"
+            ],
+            "answer": "Dawn Phenomenon"
+          },
+          "left_actions": {
+            "options": [
+              "Increase Bedtime NPH",
+              "Decrease Bedtime NPH",
+              "Stop bedtime snack",
+              "Start Glipizide",
+              "Offer ice chips"
+            ],
+            "answer": [
+              "Increase Bedtime NPH"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Fasting Morning Glucose",
+              "3AM Glucose",
+              "HbA1c",
+              "Urine Microalbumin",
+              "Pain Score"
+            ],
+            "answer": [
+              "Fasting Morning Glucose",
+              "3AM Glucose"
+            ]
+          },
+          "rationale": "If the 3AM blood sugar is normal/high, and morning is high, it is Dawn Phenomenon (not enough insulin to cover the GH surge). The treatment is to INCREASE the insulin to cover the dawn rise."
+        }
+      ]
+    },
+    {
+      "id": "M-025",
+      "type": "mission",
+      "numerical_id": 25,
+      "title": "Flu Season: Sick Day Rules",
+      "category": "Diabetes / Education",
+      "difficulty": "Basic",
+      "patient_profile": {
+        "demographics": {
+          "name": "Tina Fey (Not really)",
+          "age": 42,
+          "gender": "Female",
+          "mrn": "2525-TF",
+          "dob": "05/18/1984",
+          "weight": "65 kg",
+          "height": "165 cm",
+          "allergies": "Sulfa"
+        },
+        "chief_complaint": "Flu symptoms and loss of appetite.",
+        "hpi": "Tina has the flu. She hasn't eaten in 24 hours due to nausea. She called the clinic asking if she should skip her Lantus (Basal) insulin tonight because she 'didn't eat dinner'.",
+        "pmh": "Type 1 Diabetes.",
+        "ros": {
+          "gi": "Nausea, vomiting x1.",
+          "gen": "Fever 101.5 F, Chills, Body Aches.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Nursing home resident. Widowed. Assistance required for ADLs."
+      },
+      "exhibits": [
+        {
+          "title": "Blood Glucose",
+          "type": "text",
+          "content": "<strong>Current:</strong> 245 mg/dL (Elevated due to stress response)"
+        },
+        {
+          "title": "Ketones",
+          "type": "text",
+          "content": "Trace Ketones in urine."
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "extended_sata",
+          "prompt": "The nurse educates Tina on 'Sick Day Rules'. Which instructions are vital? Select all that apply.",
+          "options": [
+            "NEVER stop taking your insulin, even if not eating",
+            "Check blood glucose every 3-4 hours",
+            "Check urine ketones if BG > 240 mg/dL",
+            "Force fluids (4-6 oz every 30 mins) to prevent dehydration",
+            "If you cannot eat solid food, drink sugar-containing liquids (juice/gatorade) to maintain BG",
+            "Go to the ER immediately for temperature > 100 F"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Illness increases cortisol, which raises BG even without food. Hydration is key to flushing ketones. Carbohydrates are still needed to prevent starvation ketosis, so liquid calories are used if solids aren't tolerated. Fever alone isn't an ER trip unless persistent/high."
+        },
+        {
+          "type": "matrix",
+          "prompt": "Tina asks when she needs to call the doctor or go to the ER. Classify the scenarios.",
+          "rows": [
+            "Vomiting more than once / unable to verify fluids",
+            "Blood Glucose > 250 for > 24 hours despite extra insulin",
+            "Moderate to Large Ketones in urine",
+            "Temperature of 100.5 F",
+            "Confusion or heavy breathing (Kussmaul)"
+          ],
+          "columns": [
+            "Call Provider / Seek Emergency Care",
+            "Continue Sick Day Management at Home"
+          ],
+          "answer": {
+            "Vomiting more than once / unable to verify fluids": "Call Provider / Seek Emergency Care",
+            "Blood Glucose > 250 for > 24 hours despite extra insulin": "Call Provider / Seek Emergency Care",
+            "Moderate to Large Ketones in urine": "Call Provider / Seek Emergency Care",
+            "Temperature of 100.5 F": "Continue Sick Day Management at Home",
+            "Confusion or heavy breathing (Kussmaul)": "Call Provider / Seek Emergency Care"
+          },
+          "rationale": "Inability to keep fluids down is an emergency (DKA risk). Moderate/Large ketones indicate impending DKA. Mild fever is expected with flu."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Tina calls back 6 hours later. She can't stop vomiting and feels 'breathless'. Prioritize the complication.",
+          "center_condition": {
+            "options": [
+              "Diabetic Ketoacidosis (DKA)",
+              "Hypoglycemia",
+              "Gastroenteritis",
+              "Dehydration"
+            ],
+            "answer": "Diabetic Ketoacidosis (DKA)"
+          },
+          "left_actions": {
+            "options": [
+              "Advise to go to ER immediately",
+              "Take extra Zofran",
+              "Drink more water",
+              "Take extra Lantus",
+              "Document findings in chart"
+            ],
+            "answer": [
+              "Advise to go to ER immediately"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Anion Gap / ABG",
+              "Serum Amylase",
+              "Urine Culture",
+              "Stool for Ova/Parasites",
+              "Hand Grip Strength"
+            ],
+            "answer": [
+              "Anion Gap / ABG"
+            ]
+          },
+          "rationale": "Persistent vomiting + Breathlessness (Kussmaul) + T1DM = DKA until proven otherwise. Home management has failed. She needs IV fluids and insulin. We monitor the Anion Gap to gauge acidosis severity."
+        }
+      ]
+    },
+    {
+      "id": "M-026",
+      "type": "mission",
+      "numerical_id": 26,
+      "title": "Sugar for Two: Gestational Diabetes",
+      "category": "Diabetes / OB",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Maria Von Trapp",
+          "age": 32,
+          "gender": "Female",
+          "mrn": "2626-MT",
+          "dob": "02/14/1994",
+          "weight": "85 kg",
+          "height": "165 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Failed 1-hour Glucose Tolerance Test.",
+        "hpi": "Maria is G3 P2 at 26 weeks gestation. Her 1-hour GTT came back at 155 mg/dL. She admits to craving pasta and ice cream.",
+        "pmh": "Polycystic Ovarian Syndrome (PCOS), Obesity (BMI 31). Prev baby was 9lbs 2oz.",
+        "ros": {
+          "gen": "Fatigue.",
+          "abdo": "Fundal height 28cm (Large for dates).",
+          "gu": "Frequency of urination (normal for pregnancy?).",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "neuro": "Sensation intact in extremities (or diminished if neuropathy).",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "skin": "Check feet for ulcers.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Office manager. Married with 2 children. Nonsmoker. Denies alcohol use."
+      },
+      "exhibits": [
+        {
+          "title": "3-Hour GTT Results",
+          "type": "table",
+          "data": [
+            {
+              "time": "Fasting",
+              "val": "98 mg/dL",
+              "status": "High (>95)"
+            },
+            {
+              "time": "1 Hour",
+              "val": "190 mg/dL",
+              "status": "High (>180)"
+            },
+            {
+              "time": "2 Hour",
+              "val": "165 mg/dL",
+              "status": "High (>155)"
+            },
+            {
+              "time": "3 Hour",
+              "val": "130 mg/dL",
+              "status": "Normal (<140)"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "The patient is diagnosed with GDM. Assess the risks to the Fetus vs the Mother.",
+          "rows": [
+            "Macrosomia (Large size)",
+            "Neonatal Hypoglycemia",
+            "Type 2 Diabetes later in life",
+            "Pre-eclampsia",
+            "Shoulder Dystocia (Birth Injury)"
+          ],
+          "columns": [
+            "Fetal Risk",
+            "Maternal Risk",
+            "Both"
+          ],
+          "answer": {
+            "Macrosomia (Large size)": "Fetal Risk",
+            "Neonatal Hypoglycemia": "Fetal Risk",
+            "Type 2 Diabetes later in life": "Both",
+            "Pre-eclampsia": "Maternal Risk",
+            "Shoulder Dystocia (Birth Injury)": "Fetal Risk"
+          },
+          "rationale": "High sugar crosses the placenta (fat baby), but insulin does NOT. The baby makes its own insulin, leading to hypoglycemia at birth. Mom is at risk for Pre-eclampsia and future T2DM."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Maria asks about diet changes. Which instructions are appropriate? Select all that apply.",
+          "options": [
+            "Eliminate ALL carbohydrates from your diet",
+            "Eat 3 meals and 3 snacks spaced evenly",
+            "Monitor ketones in morning urine",
+            "Bedtime snack should include protein",
+            "Aim for weight loss of 5-10 lbs during remainder of pregnancy"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "We NEVER restrict calories to cause weight loss in pregnancy (ketosis hurts the baby). We spread carbs out to prevent spikes. Protein at bedtime prevents morning hypoglycemia."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Post-delivery, the baby weighs 10lbs 5oz. At 1 hour of life, the baby is jittery and lethargic. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Neonatal Hypoglycemia",
+              "Sepsis",
+              "Respiratory Distress Syndrome",
+              "Drug Withdrawal"
+            ],
+            "answer": "Neonatal Hypoglycemia"
+          },
+          "left_actions": {
+            "options": [
+              "Breastfeed immediately",
+              "Give IV Dextrose",
+              "Check Heelstick Glucose",
+              "Place under warmer",
+              "Call NICU"
+            ],
+            "answer": [
+              "Breastfeed immediately",
+              "Check Heelstick Glucose"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Temperature",
+              "Rooting Reflex",
+              "Bilirubin",
+              "O2 Sat",
+              "Deep Tendon Reflexes"
+            ],
+            "answer": [
+              "Temperature",
+              "Rooting Reflex"
+            ]
+          },
+          "rationale": "The baby's pancreas is pumping out insulin to handle Mom's sugar. Now that the cord is cut, the sugar supply is gone, but the insulin remains. Result: Crash. Feed immediately to neutralize the insulin."
+        }
+      ]
+    },
+    {
+      "id": "M-027",
+      "type": "mission",
+      "numerical_id": 27,
+      "title": "Recess Emergency: Pediatric T1DM",
+      "category": "Diabetes / Peds",
+      "difficulty": "Basic",
+      "patient_profile": {
+        "demographics": {
+          "name": "Timmy Turner",
+          "age": 8,
+          "gender": "Male",
+          "mrn": "2727-TT",
+          "dob": "05/05/2018",
+          "weight": "28 kg",
+          "height": "130 cm",
+          "allergies": "Bees"
+        },
+        "chief_complaint": "Stomach ache and bedwetting.",
+        "hpi": "Timmy's mother brings him in because he has started wetting the bed again after being potty trained for years. He has lost 5 lbs in 2 weeks despite eating 'like a horse'.",
+        "pmh": "None.",
+        "ros": {
+          "gen": "Polydipsia (Thirsty), Polyphagia (Hungry), Polyuria.",
+          "gi": "Vague abdominal pain.",
+          "neuro": "Irritable.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity."
+        },
+        "sh": "Nursing home resident. Widowed. Assistance required for ADLs."
+      },
+      "exhibits": [
+        {
+          "title": "Random Glucose",
+          "type": "text",
+          "content": "450 mg/dL"
+        },
+        {
+          "title": "HbA1c",
+          "type": "text",
+          "content": "11.2% (Diagnostic for Diabetes)"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Compare the 'Honeymoon Phase' vs 'Diagnosis' in Type 1 Diabetes.",
+          "rows": [
+            "Pancreas produces NO insulin",
+            "Pancreas produces SOME insulin temporarily",
+            "Insulin requirements decrease drastically",
+            "Risk of DKA is highest",
+            "Occurs shortly after starting insulin therapy"
+          ],
+          "columns": [
+            "Diagnosis Phase",
+            "Honeymoon Phase"
+          ],
+          "answer": {
+            "Pancreas produces NO insulin": "Diagnosis Phase",
+            "Pancreas produces SOME insulin temporarily": "Honeymoon Phase",
+            "Insulin requirements decrease drastically": "Honeymoon Phase",
+            "Risk of DKA is highest": "Diagnosis Phase",
+            "Occurs shortly after starting insulin therapy": "Honeymoon Phase"
+          },
+          "rationale": "After starting insulin, the rested pancreas may sputter out a last bit of insulin (Honeymoon), making control easy. Parents think 'he's cured'. He is not. It will fail completely soon."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Timmy is ready for school. What must be in his backpack? Select all that apply.",
+          "options": [
+            "Glucagon Emergency Kit",
+            "Snacks (Granola bar/Juice box)",
+            "Insulin Pen",
+            "A note excusing him from Gym class",
+            "Blood Glucose Meter",
+            "Sharps container"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "T1DM kids MUST participate in Gym (exercise helps), but they need snacks to prevent lows. Glucagon is for emergencies. Sharps are usually kept in the nurse's office, not the backpack (safety)."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "At a birthday party, Timmy eats cake and plays tag. He gets shaky and pale. BG is 60. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Exercise-Induced Hypoglycemia",
+              "Hyperglycemia",
+              "Sugar Crash",
+              "Anxiety"
+            ],
+            "answer": "Exercise-Induced Hypoglycemia"
+          },
+          "left_actions": {
+            "options": [
+              "Give 4oz Juice",
+              "Give Insulin Bolus",
+              "Send him home",
+              "Give Glucagon",
+              "Give Diet Soda"
+            ],
+            "answer": [
+              "Give 4oz Juice"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Recheck BG in 15 mins",
+              "Call 911",
+              "Urine Ketones",
+              "Temperature",
+              "Pain Score"
+            ],
+            "answer": [
+              "Recheck BG in 15 mins"
+            ]
+          },
+          "rationale": "Exercise increases insulin sensitivity + Cake bolus = Mismatch. Consuming simple sugar (Juice) is the Rule of 15. Glucagon is only if unconscious. Recheck in 15 mins."
+        }
+      ]
+    },
+    {
+      "id": "M-028",
+      "type": "mission",
+      "numerical_id": 28,
+      "title": "The Hidden Nail: Neuropathy",
+      "category": "Diabetes / Chronic",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Lt. Dan",
+          "age": 55,
+          "gender": "Male",
+          "mrn": "2828-LD",
+          "dob": "09/01/1971",
+          "weight": "90 kg",
+          "height": "180 cm",
+          "allergies": "Iodine"
+        },
+        "chief_complaint": "Foot smells bad.",
+        "hpi": "Lt. Dan noticed a foul odor when taking off his boots. He found a rusty nail embedded in his left heel. He felt NO pain. He recalls stepping on something 'crunchy' 3 weeks ago.",
+        "pmh": "Type 2 Diabetes (Uncontrolled A1c 10%), Smoker.",
+        "ros": {
+          "neuro": "Loss of protective sensation (Monofilament test).",
+          "skin": "2cm ulcer on calcaneus. Purulent drainage. Redness ascending the ankle.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Retired school teacher. Lives with spouse. Nonsmoker. Occasional alcohol."
+      },
+      "exhibits": [
+        {
+          "title": "Wound Culture",
+          "type": "text",
+          "content": "Polymicrobial growth (Gram + Cocci and Gram - Rods)."
+        },
+        {
+          "title": "X-Ray Foot",
+          "type": "text",
+          "content": "Air in soft tissue. Possible Osteomyelitis (bone infection)."
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Differentiate Neuropathic Pain vs Ischemic Pain in the diabetic foot.",
+          "rows": [
+            "Burning / Tingling / Electric Shocks",
+            "Pain with walking (Claudication)",
+            "Worse at night (under covers)",
+            "Relieved by dangling legs",
+            "Loss of sensation (Numbness)"
+          ],
+          "columns": [
+            "Neuropathic",
+            "Ischemic"
+          ],
+          "answer": {
+            "Burning / Tingling / Electric Shocks": "Neuropathic",
+            "Pain with walking (Claudication)": "Ischemic",
+            "Worse at night (under covers)": "Neuropathic",
+            "Relieved by dangling legs": "Ischemic",
+            "Loss of sensation (Numbness)": "Neuropathic"
+          },
+          "rationale": "Neuropathy is nerve damage (burning/numbness). Ischemia is blood flow block (pain with demand). Dan has neuropathy (didn't feel the nail)."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "The nurse teaches foot care. Which statements by Lt. Dan indicate understanding? Select all that apply.",
+          "options": [
+            "I will soak my feet in hot water daily to clean them.",
+            "I will use a mirror to inspect the bottom of my feet daily.",
+            "I will cut my toenails in a rounded curve.",
+            "I will never walk barefoot, even at home.",
+            "I will apply lotion between my toes to keep them moist.",
+            "I will shake out my shoes before putting them on."
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Soaking softens skin (bad). Hot water burns (he can't feel it). Cutting rounded causes ingrown nails (cut straight across). Lotion between toes causes fungus (Athlete's foot)."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "The redness spreads up the calf. Fever 102 F. BG 350. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Sepsis 2/2 Osteomyelitis",
+              "Gout Flare",
+              "Deep Vein Thrombosis",
+              "Charcot Foot"
+            ],
+            "answer": "Sepsis 2/2 Osteomyelitis"
+          },
+          "left_actions": {
+            "options": [
+              "Start IV Broad Spectrum Abx",
+              "Prepare for Amputation/Debridement",
+              "Apply Compression",
+              "Administer Colchicine",
+              "Blood Cultures x2"
+            ],
+            "answer": [
+              "Start IV Broad Spectrum Abx",
+              "Blood Cultures x2"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Lactate Level",
+              "WBC Trend",
+              "Uric Acid",
+              "D-Dimer",
+              "Pain Score"
+            ],
+            "answer": [
+              "Lactate Level",
+              "WBC Trend"
+            ]
+          },
+          "rationale": "Ascending redness + Fever = Systemic Infection (Sepsis). Osteomyelitis is hard to cure. Antibiotics and Debridement are key. Lactate tracks sepsis severity."
+        }
+      ]
+    },
+    {
+      "id": "M-029",
+      "type": "mission",
+      "numerical_id": 29,
+      "title": "Blurred Lines: Retinopathy",
+      "category": "Diabetes / Chronic",
+      "difficulty": "Intermediate",
+      "patient_profile": {
+        "demographics": {
+          "name": "Stevie Wonder (Musician)",
+          "age": 60,
+          "gender": "Male",
+          "mrn": "2929-SW",
+          "dob": "05/13/1966",
+          "weight": "75 kg",
+          "height": "175 cm",
+          "allergies": "NKDA"
+        },
+        "chief_complaint": "Lots of 'floaters' and sudden vision loss in right eye.",
+        "hpi": "Mr. Wonder reports seeing 'black spiderwebs' for a week. Today, a 'curtain' fell over his right eye vision.",
+        "pmh": "Type 1 Diabetes (40 years), Hypertension.",
+        "ros": {
+          "eye": "Visual acuity 20/200 OD, 20/40 OS.",
+          "neuro": "No pain. Just visual loss.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "resp": "Lungs clear to auscultation bilaterally. No distress.",
+          "gi": "Abdomen soft, non-tender. Bowel sounds active.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "musc": "Full ROM. No deformity.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Librarian. Lives with 3 cats. Nonsmoker. Occasional glass of wine."
+      },
+      "exhibits": [
+        {
+          "title": "Fundoscopy",
+          "type": "text",
+          "content": "Proliferative Retinopathy. Neovascularization. Vitreous Hemorrhage visible."
+        },
+        {
+          "title": "Current Medications",
+          "type": "table",
+          "data": [
+            {
+              "drug": "Lisinopril",
+              "dose": "10mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Atorvastatin",
+              "dose": "40mg daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Multivitamin",
+              "dose": "1 tab daily",
+              "route": "PO"
+            },
+            {
+              "drug": "Metformin",
+              "dose": "500mg BID",
+              "route": "PO"
+            }
+          ],
+          "content": "Information not available"
+        },
+        {
+          "title": "Labs",
+          "type": "text",
+          "content": "WBC: 8.5, Hgb: 14.2, Plt: 250, Na: 140, K: 4.2, BUN: 18, Cr: 1.0"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Match the eye complication to the symptom.",
+          "rows": [
+            "Curtain falling over vision / Flashes of light",
+            "Cloudy / Blurry vision (gradual)",
+            "Central vision loss (wavy lines)",
+            "Tunnel vision (peripheral loss)",
+            "Floating spots / Spiderwebs"
+          ],
+          "columns": [
+            "Retinal Detachment",
+            "Cataracts",
+            "Macular Degeneration",
+            "Glaucoma",
+            "Vitreous Hemorrhage"
+          ],
+          "answer": {
+            "Curtain falling over vision / Flashes of light": "Retinal Detachment",
+            "Cloudy / Blurry vision (gradual)": "Cataracts",
+            "Central vision loss (wavy lines)": "Macular Degeneration",
+            "Tunnel vision (peripheral loss)": "Glaucoma",
+            "Floating spots / Spiderwebs": "Vitreous Hemorrhage"
+          },
+          "rationale": "High sugar damages vessels --> New weak vessels grow (Neovascularization) --> They bleed (Hemorrhage/Floaters) or pull the retina off (Detachment/Curtain)."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Mr. Wonder is scheduled for Vitrectomy. Which pre-op instructions are vital? Select all that apply.",
+          "options": [
+            "You must stop anticoagulant medications",
+            "You will need to maintain 'face-down' positioning post-op",
+            "Control blood pressure strictly",
+            "Avoid heavy lifting or straining (Valsalva)",
+            "Eye drops will be needed for weeks",
+            "You can drive yourself home"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Bleeding is the enemy. BP and straining increase ocular pressure. Face-down positioning is for gas bubbles (often used, but straining/BP are universal priorities)."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Post-op, he complains of severe pain and nausea. Eye is rock hard. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Acute Glaucoma (IOP spike)",
+              "Infection",
+              "Normal Healing",
+              "Migraine"
+            ],
+            "answer": "Acute Glaucoma (IOP spike)"
+          },
+          "left_actions": {
+            "options": [
+              "Administer IV Mannitol",
+              "Administer Morphine",
+              "Apply eye patch",
+              "Keep head of bed elevated",
+              "Change bed linens"
+            ],
+            "answer": [
+              "Administer IV Mannitol",
+              "Keep head of bed elevated"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Intraocular Pressure",
+              "WBC",
+              "Temperature",
+              "Pupil Shape",
+              "Pupillary Response"
+            ],
+            "answer": [
+              "Intraocular Pressure"
+            ]
+          },
+          "rationale": "Severe pain + Nausea + 'Rock Hard' Eye = Acute Angle Closure Glaucoma. The drainage is blocked. Mannitol draws fluid out. Elevation helps drain. This causes permanent blindness if not fixed."
+        }
+      ]
+    },
+    {
+      "id": "M-030",
+      "type": "mission",
+      "numerical_id": 30,
+      "title": "The Contrast Clash: Lactic Acidosis",
+      "category": "Diabetes / Pharma",
+      "difficulty": "Advanced",
+      "patient_profile": {
+        "demographics": {
+          "name": "Stan Lee",
+          "age": 75,
+          "gender": "Male",
+          "mrn": "3030-SL",
+          "dob": "12/28/1951",
+          "weight": "70 kg",
+          "height": "170 cm",
+          "allergies": "Shellfish"
+        },
+        "chief_complaint": "Muscle pain and hyperventilation.",
+        "hpi": "Mr. Lee had a CT Scan with contrast 2 days ago for abdominal pain. He didn't stop his Metformin. Now he feels weak, muscles ache, and he is breathing fast.",
+        "pmh": "Type 2 Diabetes, CKD Stage 3.",
+        "ros": {
+          "resp": "Kussmaul breathing (Deep/Rapid).",
+          "musc": "Generalized myalgia.",
+          "gi": "Abdominal pain/diarrhea.",
+          "cardio": "Regular rate and rhythm. S1/S2 audible. No murmurs.",
+          "neuro": "Alert and oriented x3. PEERLA.",
+          "gu": "No complaints. Urine clear.",
+          "skin": "Warm and dry. No rashes.",
+          "gen": "Temp 98.6\u00b0F, HR 72, RR 16, BP 120/80, O2 Sat 98% on RA"
+        },
+        "sh": "Librarian. Lives with 3 cats. Nonsmoker. Occasional glass of wine."
+      },
+      "exhibits": [
+        {
+          "title": "Arterial Blood Gas (ABG)",
+          "type": "text",
+          "content": "pH: 7.25 (Acidotic)<br>pCO2: 30 mmHg (Low - Compensating)<br>HCO3: 14 mEq/L (Low - Metabolic)"
+        },
+        {
+          "title": "Lactate",
+          "type": "text",
+          "content": "6.5 mmol/L (Critical High)"
+        },
+        {
+          "title": "Creatinine",
+          "type": "text",
+          "content": "2.8 mg/dL (Acute Kidney Injury)"
+        }
+      ],
+      "steps": [
+        {
+          "type": "matrix",
+          "prompt": "Analyze the drug-drug/disease interaction.",
+          "rows": [
+            "Metformin mechanism",
+            "IV Contrast effect",
+            "Result of combination",
+            "Kidney's role"
+          ],
+          "columns": [
+            "Increases Glucose Uptake",
+            "Causes Vasoconstriction/AKI",
+            "Inhibits Lactate clearance",
+            "Excretes Metformin"
+          ],
+          "answer": {
+            "Metformin mechanism": "Increases Glucose Uptake",
+            "IV Contrast effect": "Causes Vasoconstriction/AKI",
+            "Result of combination": "Inhibits Lactate clearance",
+            "Kidney's role": "Excretes Metformin"
+          },
+          "rationale": "Contrast dye hurts the kidneys (AKI). The kidneys excrete Metformin. If kidneys fail, Metformin builds up to toxic levels. Metformin blocks the liver from recycling lactate. Result: Lactic Acidosis."
+        },
+        {
+          "type": "extended_sata",
+          "prompt": "Which interventions are appropriate for Lactic Acidosis? Select all that apply.",
+          "options": [
+            "IV Sodium Bicarbonate (if pH < 7.1)",
+            "Hemodialysis",
+            "Administer IV Insulin",
+            "Fluid Resuscitation",
+            "Stop Metformin indefinitely",
+            "Administer Acetylcysteine (Mucomyst)"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "rationale": "Dialysis is the most effective way to remove both the Metformin and the Acid. Fluids flush the kidneys. Mucomyst protects kidneys from contrast (though late now). Insulin is for DKA, not Lactic Acidosis."
+        },
+        {
+          "type": "bowtie",
+          "prompt": "Mr. Lee's pH drops to 7.10. He becomes bradycardic. Prioritize.",
+          "center_condition": {
+            "options": [
+              "Refractory Acidosis / Cardiac Instability",
+              "Hypoglycemia",
+              "Respiratory Failure",
+              "Anaphylaxis"
+            ],
+            "answer": "Refractory Acidosis / Cardiac Instability"
+          },
+          "left_actions": {
+            "options": [
+              "Emergent Dialysis",
+              "Intubate and Hyperventilate",
+              "Give Atropine",
+              "Give Epinephrine",
+              "Place patient in Reverse Trendelenburg"
+            ],
+            "answer": [
+              "Emergent Dialysis",
+              "Intubate and Hyperventilate"
+            ]
+          },
+          "right_monitor": {
+            "options": [
+              "Potassium (Correction of acidosis shifts K)",
+              "O2 Sat",
+              "BP",
+              "Temp",
+              "Hand Grip Strength"
+            ],
+            "answer": [
+              "Potassium (Correction of acidosis shifts K)",
+              "BP"
+            ]
+          },
+          "rationale": "Severe acidosis stops the heart (denatures proteins/enzymes). Dialysis is the only fix. Hyperventilation (mechanical) helps blow off CO2 to compensate for the metabolic acid."
+        }
+      ]
+    }
+  ]
+}
