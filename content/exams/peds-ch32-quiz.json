@@ -1,39 +1,415 @@
 {
   "id": "peds_ch32_quiz",
-  "name": "PEDS Communicable Diseases Quiz (2 Q)",
+  "name": "PEDS Chapter 32: Communicable Diseases \u2014 Comprehensive NCLEX/ATI Exam (25 Q)",
   "category": "Pediatrics",
   "questions": [
     {
-      "id": "ch32_1",
-      "slide": 4,
-      "question": "According to the lecture (Slide 4): which is accurate?",
+      "id": "q_0_mcq_18949",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Review of Terms (2 of 2)\nPandemic\u2014a worldwide high incidence of a communicable disease (e",
+        "How can the nurse assist the child in formulating a positive self-attitude?",
+        "This is not standard pediatric practice.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is contradicted by current evidence."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 4: Review of Terms (2 of 2)\nPandemic\u2014a worldwide high incidence of a communicable disease (e",
-      "type": "mcq"
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. How can the nurse assist the child in formulating a positive self-attitude?... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     },
     {
-      "id": "ch32_2",
-      "slide": 13,
-      "question": "According to the lecture (Slide 13): which is accurate?",
+      "id": "q_0_sata_66857",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
       "options": [
-        "Protective Environment Isolation\nUsed for patients who are not communicable but have high susceptibility to in...",
-        "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "Discuss the rationale for each item listed....",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Discuss the rationale for each item listed.... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_65845",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. What are some examples of supportive treatment?... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_44733",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 13: Protective Environment Isolation\nUsed for patients who are not communicable but have high susceptibility to infection, such as a neutropenic patient or hematopoietic stem cell transplant (HSCT) recipient\nStrict adherence to standard or transmission-based precautions is required at all times; this includes any visitors",
-      "type": "mcq"
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Discuss how artificial nails and jewelry increase the risk of transmitting infec... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_80989",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Diagnosis: CD4+ cell count is measure of damage to the immune system caused by H...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Diagnosis: CD4+ cell count is measure of damage to the immun...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_87706",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Discuss the nurse\u2019s role in providing emotional support for the child who is placed in pro...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Discuss the nurse\u2019s role in providing emotional support for the child ...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_72118",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Varicella must be given same day as MMR or no less than 1 month later.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Varicella must be given same day as MMR or no less than 1 month later.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_11772",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Serious adverse events must be reported to the national VAERS....",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Serious adverse events must be reported to the national VAERS.... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_60228",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Give an example of a nursing intervention that applies to each technique listed\n\n=... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_98679",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Give an example of a common skin lesion for each rash listed.... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_36121",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Development of \u201cgene gun\u201d to blast vaccine through intact skin\nDevelopment of im...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Development of \u201cgene gun\u201d to blast vaccine through intact sk...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_38016",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "What type of patient would require protective isolation?...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'What type of patient would require protective isolation?...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_95804",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Discuss how each factor affects the disease process.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Discuss how each factor affects the disease process.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_1280",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Why should the child be monitored for 20 minutes after administration?...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Why should the child be monitored for 20 minutes after administration?... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_13_matrix_43965",
+      "slide": 13,
+      "type": "matrix",
+      "question": "Based on Slide 13:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 13. Protective Environment Isolation\nUsed for patients who are not communicable but have high susceptibi... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_89716",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Discuss the rationale for the immediate availability of epinephrine.... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_16483",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "A tuberculin skin test (PPD) should not be given within 6 weeks of MMR or varice...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'A tuberculin skin test (PPD) should not be given within 6 we...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_42239",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Prevention and control are the key factors in managing infectious disease\nHIV, hepatitis, ...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Prevention and control are the key factors in managing infectious dise...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_19964",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "The nurse must know and be alert to signs and symptoms of communicable disease because air travel enables rapi...",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. The nurse must know and be alert to signs and symptoms of communicable disease because air travel enables rapid transmission around the world.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_42646",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Discuss the importance of having drills and emergency contact numbers ...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Discuss the importance of having drills and emergency contact numbers out of state.... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_49405",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. TV coverage of terrorist attacks can affect child\u2019s feeling of safety in the home and can alter beha... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_5737",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Discuss the rationale for avoiding sandboxes.... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_93671",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Give an example of a nurse providing a safe, nonjudgmental environment....",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Give an example of a nurse providing a safe, nonjudgmental e...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_67057",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Discuss the impact of increased international mobility and how it affects communicable dis...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Discuss the impact of increased international mobility and how it affe...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_26208",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Give examples of resources available within a community.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Give examples of resources available within a community.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     }
   ]
 }

@@ -1,86 +1,49 @@
 {
   "id": "peds_ch29_quiz",
-  "name": "PEDS Chapter 29: GU Disorders \u2014 Comprehensive NCLEX/ATI Exam (52 Q)",
+  "name": "PEDS Chapter 29: GU Disorders \u2014 Comprehensive NCLEX/ATI Exam (25 Q)",
   "category": "Pediatrics",
   "questions": [
     {
-      "id": "q_7_882",
-      "slide": 7,
+      "id": "q_0_mcq_95582",
+      "slide": 0,
       "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 7?",
+      "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterior wall of bladder are missing.",
+        "Older children are treated at home with oral antimicrobials.",
+        "This is not standard pediatric practice.",
         "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
+        "This is contradicted by current evidence."
       ],
       "answer": [
         0
       ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 7. Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterior wall of bladder are missing.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Older children are treated at home with oral antimicrobials.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     },
     {
-      "id": "q_7_1306",
-      "slide": 7,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 7?",
-      "options": [
-        "Noticeable on fetal sonogram\nUrinary bladder lies open and exposed on abdomen.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 7. Noticeable on fetal sonogram\nUrinary bladder lies open and exposed on abdomen.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_7_4785",
-      "slide": 7,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 7?",
-      "options": [
-        "Urine leaks continually from the bladder, and skin becomes excoriated.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 7. Urine leaks continually from the bladder, and skin becomes excoriated.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "sata_7_3369",
-      "slide": 7,
+      "id": "q_0_sata_19788",
+      "slide": 0,
       "type": "sata",
-      "question": "Select all that apply regarding the content on Slide 7:",
+      "question": "Based on Slide 0:",
       "options": [
-        "Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterio...",
-        "Noticeable on fetal sonogram\nUrinary bladder lies open and exposed on abdomen....",
-        "Urine leaks continually from the bladder, and skin becomes excoriated....",
-        "This is not a nursing responsibility.",
-        "This is contraindicated in pediatrics."
+        "Surgery may be indicated if the child cannot stand to void, which may ...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
       ],
       "answer": [
         0,
         1,
         2
       ],
-      "rationale": "The correct selections are all supported by the lecture content on Slide 7. Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterior wall of bladder are missing.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Surgery may be indicated if the child cannot stand to void, which may cause psychological issues, or if there may be dif... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
     },
     {
-      "id": "matrix_7_3369",
-      "slide": 7,
+      "id": "q_0_matrix_63093",
+      "slide": 0,
       "type": "matrix",
-      "question": "For each statement from Slide 7, indicate if it is True, False, or Not Discussed:",
-      "rows": [
-        "Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdomi",
-        "Noticeable on fetal sonogram\nUrinary bladder lies open and e",
-        "Urine leaks continually from the bladder, and skin becomes e"
-      ],
-      "columns": [
+      "question": "Based on Slide 0:",
+      "options": [
         "True",
         "False",
         "Not Discussed"
@@ -90,765 +53,95 @@
         0,
         0
       ],
-      "rationale": "All listed statements are supported by the lecture content on Slide 7. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
-      "options": [
-        "True",
-        "False",
-        "Not Discussed"
-      ]
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Signs and symptoms depend on the age of the child.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
     },
     {
-      "id": "q_0_3109",
+      "id": "q_7_bowtie_34367",
+      "slide": 7,
+      "type": "bowtie",
+      "question": "Based on Slide 7:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 7: Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterio... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_51116",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Discuss the rationale for monitoring and recording weight, urine protein levels,...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Discuss the rationale for monitoring and recording weight, u...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_25232",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Provide a reason for the ineffectiveness of diuretics with this disorder....",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Provide a reason for the ineffectiveness of diuretics with this disord...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_54740",
       "slide": 0,
       "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
+      "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
         "Discuss each diagnostic test and how it assists in the assessment of the urinary system.",
+        "This is not standard pediatric practice.",
         "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
+        "This is contradicted by current evidence."
       ],
       "answer": [
         0
       ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss each diagnostic test and how it assists in the assessment of the urinary system.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Discuss each diagnostic test and how it assists in the assessment of the urinary system.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     },
     {
-      "id": "q_0_2067",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Development of Urinary Tract\nConsists of two kidneys, two ureters, the urinary bladder, and urethra\nFunction is to rid b...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Development of Urinary Tract\nConsists of two kidneys, two ureters, the urinary bladder, and urethra\nFunction is to rid body of waste products and maintain body fluid homeostasis\nProduce a substance (E... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_719",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Development of Reproductive System\nGender is determined at time of fertilization.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Development of Reproductive System\nGender is determined at time of fertilization.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7039",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Tests to diagnose conditions of the reproductive tract\nPap\nBlood tests\nCultures\nUltrasound\nPregnancy\n\nDiscuss the differ...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Tests to diagnose conditions of the reproductive tract\nPap\nBlood tests\nCultures\nUltrasound\nPregnancy\n\nDiscuss the differences between the male and female reproductive systems.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_257",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Define and describe each dysfunction listed.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Define and describe each dysfunction listed.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_1641",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Surgery may be indicated if the child cannot stand to void, which may cause psychological issues, or if there may be dif...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Surgery may be indicated if the child cannot stand to void, which may cause psychological issues, or if there may be difficulties in future sexual relationships.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_1547",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the nurse\u2019s approach in assessing a distended bladder.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the nurse\u2019s approach in assessing a distended bladder.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6597",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss characteristics of each of the disorders listed.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss characteristics of each of the disorders listed.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_56",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Calculi, tumors, strictures, and scarring\nCongenital or acquired\nPartial or complete blockage\nHydronephrosis\nDistention ...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Calculi, tumors, strictures, and scarring\nCongenital or acquired\nPartial or complete blockage\nHydronephrosis\nDistention of the renal pelvis caused by obstruction\nBecomes enlarged and cysts form\nPolycy... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_3478",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Signs and symptoms depend on the age of the child.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Signs and symptoms depend on the age of the child.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_5943",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Treatment\nInfants younger than 1 year old are usually hospitalized for IV antimicrobials.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Treatment\nInfants younger than 1 year old are usually hospitalized for IV antimicrobials.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_321",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Older children are treated at home with oral antimicrobials.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Older children are treated at home with oral antimicrobials.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_4470",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Parent teaching stresses the need for proper amounts of fluid to maintain sterility and flushing of the bladder.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Parent teaching stresses the need for proper amounts of fluid to maintain sterility and flushing of the bladder.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7910",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss parental teaching regarding UTIs.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss parental teaching regarding UTIs.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_369",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "What are the age-dependent symptoms of UTI?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. What are the age-dependent symptoms of UTI?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_694",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Infants: fever, frequent urination, foul-smelling urine, persistent diaper rash\nOlder children: urinary frequency, pain ...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Infants: fever, frequent urination, foul-smelling urine, persistent diaper rash\nOlder children: urinary frequency, pain during micturition, onset of bedwetting in a previously \u201cdry\u201d child, and abdomin... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_3997",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Generalized edema\nWeight gain\nPale, irritable, listless\nPoor appetite\nBlood pressure usually normal\nUrine exam reveals m...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Generalized edema\nWeight gain\nPale, irritable, listless\nPoor appetite\nBlood pressure usually normal\nUrine exam reveals massive albumin and a few RBCs\nProne to infection when absolute granulocyte count... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_9899",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "How can medication toxicity occur with this disorder?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. How can medication toxicity occur with this disorder?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_1078",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Working units of the kidneys that filter the blood become damaged and allow albumin and blood cells in the urine.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Working units of the kidneys that filter the blood become damaged and allow albumin and blood cells in the urine.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_3650",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Level of protein in blood falls, called hypoalbuminemia.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Level of protein in blood falls, called hypoalbuminemia.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_1114",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Treatment\nSteroids to reduce proteinuria and edema\nSteroids mask infection; therefore, it is important to monitor the ch...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Treatment\nSteroids to reduce proteinuria and edema\nSteroids mask infection; therefore, it is important to monitor the child for signs of infection.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6592",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Diuretics have not been effective in reducing nephrotic edema.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Diuretics have not been effective in reducing nephrotic edema.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7693",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Avoid adding salt to foods whenever edema is present.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Avoid adding salt to foods whenever edema is present.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7197",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Fluids generally are not restricted except when massive edema is present.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Fluids generally are not restricted except when massive edema is present.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6289",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Provide a reason for the ineffectiveness of diuretics with this disorder.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Provide a reason for the ineffectiveness of diuretics with this disorder.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_688",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the rationale for monitoring and recording weight, urine protein levels, and medications.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the rationale for monitoring and recording weight, urine protein levels, and medications.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_892",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the pathophysiology of manifestations.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the pathophysiology of manifestations.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_4127",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Periorbital edema upon wakening in the morning\nUrine is smoky brown or bloody.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Periorbital edema upon wakening in the morning\nUrine is smoky brown or bloody.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6544",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Urine output may be decreased.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Urine output may be decreased.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_9807",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Urine specific gravity is high; albumin, RBC, WBC, and casts may be found on exam.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Urine specific gravity is high; albumin, RBC, WBC, and casts may be found on exam.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_5477",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Hyperkalemia, BUN, creatinine, and sedimentation rate are elevated.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Hyperkalemia, BUN, creatinine, and sedimentation rate are elevated.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_8301",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Embryonal adenosarcoma is thought to have a genetic basis.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Embryonal adenosarcoma is thought to have a genetic basis.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_2877",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Most discovered before age 3 years\nOne of the most common malignancies of early life\nFew or no symptoms during the early...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Most discovered before age 3 years\nOne of the most common malignancies of early life\nFew or no symptoms during the early stages of growth\nAbdominal mass usually found by parent or during routine healt... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_2530",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the rationale regarding combination therapy of radiation and chemotherapy.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the rationale regarding combination therapy of radiation and chemotherapy.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_1055",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the difference between a simple hydrocele and a hydrocele with herniation.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the difference between a simple hydrocele and a hydrocele with herniation.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_2975",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Treatment\nHormonal management before surgery consists of the administration of human chorionic gonadotropin (hCG).",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Treatment\nHormonal management before surgery consists of the administration of human chorionic gonadotropin (hCG).... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_2249",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "May precipitate descent of the testes into the scrotal sac\nOrchiopexy improves the condition; fertility rate among these...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. May precipitate descent of the testes into the scrotal sac\nOrchiopexy improves the condition; fertility rate among these patients may be reduced.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_4604",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Increased risk of testicular tumors as the child reaches adulthood\nWhat is the importance of a monthly testicular self-e...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Increased risk of testicular tumors as the child reaches adulthood\nWhat is the importance of a monthly testicular self-exam?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7374",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Nursing Care \nScrotal support\nPrevent contamination of suture line.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Nursing Care \nScrotal support\nPrevent contamination of suture line.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_2418",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Psychological and emotional support\nSurgery on \u201cprivate parts\u201d can be embarrassing.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Psychological and emotional support\nSurgery on \u201cprivate parts\u201d can be embarrassing.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6263",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Nurse assures the child that his penis will not be affected.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Nurse assures the child that his penis will not be affected.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7308",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the rationale for scrotal support after an orchiopexy.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the rationale for scrotal support after an orchiopexy.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6892",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "What is a possible result of orchiopexy?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. What is a possible result of orchiopexy?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_77",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Give examples of growth and development issues that could occur for children between the ages of 3 and 10 years.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give examples of growth and development issues that could occur for children between the ages of 3 and 10 years.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_804",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Give examples of growth and development issues that could occur for adolescents.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give examples of growth and development issues that could occur for adolescents.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "sata_0_8952",
+      "id": "q_0_sata_88971",
       "slide": 0,
       "type": "sata",
-      "question": "Select all that apply regarding the content on Slide 0:",
+      "question": "Based on Slide 0:",
       "options": [
-        "Discuss each diagnostic test and how it assists in the assessment of the urinary...",
-        "Development of Urinary Tract\nConsists of two kidneys, two ureters, the urinary b...",
-        "Development of Reproductive System\nGender is determined at time of fertilization...",
-        "Tests to diagnose conditions of the reproductive tract\nPap\nBlood tests\nCultures\n...",
-        "This is not a nursing responsibility.",
-        "This is contraindicated in pediatrics."
+        "Treatment\nInfants younger than 1 year old are usually hospitalized for...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
       ],
       "answer": [
         0,
         1,
-        2,
-        3
+        2
       ],
-      "rationale": "The correct selections are all supported by the lecture content on Slide 0. Discuss each diagnostic test and how it assists in the assessment of the urinary system.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Treatment\nInfants younger than 1 year old are usually hospitalized for IV antimicrobials.... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
     },
     {
-      "id": "matrix_0_8952",
-      "slide": 0,
+      "id": "q_7_matrix_71690",
+      "slide": 7,
       "type": "matrix",
-      "question": "For each statement from Slide 0, indicate if it is True, False, or Not Discussed:",
-      "rows": [
-        "Discuss each diagnostic test and how it assists in the asses",
-        "Development of Urinary Tract\nConsists of two kidneys, two ur",
-        "Development of Reproductive System\nGender is determined at t"
-      ],
-      "columns": [
+      "question": "Based on Slide 7:",
+      "options": [
         "True",
         "False",
         "Not Discussed"
@@ -858,12 +151,265 @@
         0,
         0
       ],
-      "rationale": "All listed statements are supported by the lecture content on Slide 0. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "rationale": "Each statement is evaluated against the lecture content on Slide 7. Noticeable on fetal sonogram\nUrinary bladder lies open and exposed on abdomen.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_45403",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Calculi, tumors, strictures, and scarring\nCongenital or acquired\nPartial or comp... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_72567",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Urine output may be decreased....",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Urine output may be decreased....'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_36945",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Nursing Care \nScrotal support\nPrevent contamination of suture line....",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Nursing Care \nScrotal support\nPrevent contamination of suture line....'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_40694",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Treatment\nSteroids to reduce proteinuria and edema\nSteroids mask infection; therefore, it is important to moni...",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Treatment\nSteroids to reduce proteinuria and edema\nSteroids mask infection; therefore, it is important to monitor the child for signs of infection.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_88736",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Give examples of growth and development issues that could occur for ch...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Give examples of growth and development issues that could occur for children between the ages of 3 and 10 years.... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_45622",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
       "options": [
         "True",
         "False",
         "Not Discussed"
-      ]
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Level of protein in blood falls, called hypoalbuminemia.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_71595",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Psychological and emotional support\nSurgery on \u201cprivate parts\u201d can be embarrassi... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_29868",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Urine specific gravity is high; albumin, RBC, WBC, and casts may be found on exa...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Urine specific gravity is high; albumin, RBC, WBC, and casts...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_33282",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Tests to diagnose conditions of the reproductive tract\nPap\nBlood tests\nCultures\nUltrasound...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Tests to diagnose conditions of the reproductive tract\nPap\nBlood tests...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_62343",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Discuss the rationale for scrotal support after an orchiopexy.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Discuss the rationale for scrotal support after an orchiopexy.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_64371",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "May precipitate descent of the testes into the scrotal sac\nOrchiopexy ...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. May precipitate descent of the testes into the scrotal sac\nOrchiopexy improves the condition; fertility rate among these... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_74654",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Hyperkalemia, BUN, creatinine, and sedimentation rate are elevated.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_86351",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Treatment\nHormonal management before surgery consists of the administration of h... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_24395",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Discuss the difference between a simple hydrocele and a hydrocele with herniatio...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Discuss the difference between a simple hydrocele and a hydr...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_36981",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "What are the age-dependent symptoms of UTI?...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'What are the age-dependent symptoms of UTI?...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_17764",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Give examples of growth and development issues that could occur for adolescents.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Give examples of growth and development issues that could occur for adolescents.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     }
   ]
 }

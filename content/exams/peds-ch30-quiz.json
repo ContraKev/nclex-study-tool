@@ -1,39 +1,415 @@
 {
   "id": "peds_ch30_quiz",
-  "name": "PEDS Chapter 30 Quiz (2 Q)",
+  "name": "PEDS Chapter 30 \u2014 Comprehensive NCLEX/ATI Exam (25 Q)",
   "category": "Pediatrics",
   "questions": [
     {
-      "id": "ch30_1",
-      "slide": 4,
-      "question": "According to the lecture (Slide 4): which is accurate?",
+      "id": "q_0_mcq_68482",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
       "options": [
-        "Skin Disorders and Variations\nSkin condition may be a manifestation of a systemic disease; others may be conge...",
+        "Discuss differences between physical sunscreens and chemical sunscreens.",
+        "This is not standard pediatric practice.",
         "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "This is contradicted by current evidence."
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 4: Skin Disorders and Variations\nSkin condition may be a manifestation of a systemic disease; others may be congenital,\nSkin color is an important diagnostic criterion in certain diseases",
-      "type": "mcq"
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Discuss differences between physical sunscreens and chemical sunscreens.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     },
     {
-      "id": "ch30_2",
-      "slide": 20,
-      "question": "According to the lecture (Slide 20): which is accurate?",
+      "id": "q_0_sata_95795",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
       "options": [
-        "Pediculosis\n\nThree types\nPediculosis capitis\u2014head lice\nPediculosis corporis\u2014body lice\nPediculosis pubis\u2014pubic ...",
-        "This applies only to adult patients.",
-        "This is not a standard consideration.",
-        "This is contradicted by current guidelines."
+        "Infants and children with eczema should not be exposed to adults with ...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Infants and children with eczema should not be exposed to adults with cold sores because they may develop a systemic rea... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_75407",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Can involve skin or mucous membranes\nIf burned near face, flames may have been inhaled.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_38028",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
       ],
       "answer": [
         0
       ],
-      "rationale": "Slide 20: Pediculosis\n\nThree types\nPediculosis capitis\u2014head lice\nPediculosis corporis\u2014body lice\nPediculosis pubis\u2014pubic lice, known as crabs\nSurvival of lice depends on blood extracted from infected person",
-      "type": "mcq"
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Smaller muscle and fat content in the body results in protein and caloric defici... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_26733",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Discuss the treatment options for impetigo....",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Discuss the treatment options for impetigo....'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_4_highlight_6596",
+      "slide": 4,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 4.",
+      "options": [
+        "Skin tests can be used to diagnose allergies....",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Skin tests can be used to diagnose allergies....'. This is the most significant finding from the lecture material on Slide 4. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_79879",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Discuss the pathophysiology regarding the increased metabolic rate of burn victims.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Discuss the pathophysiology regarding the increased metabolic rate of burn victims.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_34_sata_21096",
+      "slide": 34,
+      "type": "sata",
+      "question": "Based on Slide 34:",
+      "options": [
+        "A deep purple flush appears with the return of sensation, which is acc...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 34. A deep purple flush appears with the return of sensation, which is accompanied by extreme pain.... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_4_matrix_69095",
+      "slide": 4,
+      "type": "matrix",
+      "question": "Based on Slide 4:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 4. Condition of hair can change based on nutrition or disease status.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_57649",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Give examples of various materials which might be appropriate to apply to a burn... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_20_cloze_78013",
+      "slide": 20,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 20: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Pediculosis\n\nThree types\nPediculosis capitis\u2014head lice\nPediculosis corporis\u2014body...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Pediculosis\n\nThree types\nPediculosis capitis\u2014head lice\nPedic...'. This comes directly from the lecture content on Slide 20. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_49421",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "What is the rationale for cleansing and d\u00e9briding wounds?...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'What is the rationale for cleansing and d\u00e9briding wounds?...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_56712",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "Immediately report signs of infections\nObserve for fluid overload.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. Immediately report signs of infections\nObserve for fluid overload.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_34_sata_38750",
+      "slide": 34,
+      "type": "sata",
+      "question": "Based on Slide 34:",
+      "options": [
+        "Frostbite\n\n\n34\nResults from freezing of a body part\nChilblain: a cold ...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 34. Frostbite\n\n\n34\nResults from freezing of a body part\nChilblain: a cold injury with erythema and formation of vesicles and... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_91945",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Skin more elastic, causing pulling on the scarring areas and resulting in formation of a larger scar... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_7019",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: What factors should be considered when purchasing sunglasses?... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_54171",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Burn victims have an increased demand on metabolism and require high-protein die...",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Burn victims have an increased demand on metabolism and requ...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_55501",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Give examples of how staphylococcus is spread from one infant to another....",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Give examples of how staphylococcus is spread from one infant to anoth...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_0_mcq_55065",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "How do you stop the burning process?",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. How do you stop the burning process?... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_16702",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Leading cause of accidental death between 1 and 4 years of age\nSometim...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. Leading cause of accidental death between 1 and 4 years of age\nSometimes result of child abuse or neglect\nMost likely to... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_73809",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. How do the hair and skin appear if nutrition is inadequate?... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_59916",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Refer to Figure 30-14 (p.... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_94513",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Providing emotional support to the child and family is essential....",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Providing emotional support to the child and family is essen...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_64893",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Along with the central nervous system, there are four basic skin sensations\nPain\nTemperatu...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Along with the central nervous system, there are four basic skin sensa...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_4_mcq_96266",
+      "slide": 4,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 4?",
+      "options": [
+        "Skin Disorders and Variations\nSkin condition may be a manifestation of a systemic disease; others may be conge...",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 4. Skin Disorders and Variations\nSkin condition may be a manifestation of a systemic disease; others may be congenital,\nSkin color is an important diagno... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     }
   ]
 }

@@ -1,361 +1,49 @@
 {
   "id": "peds_ch22_quiz",
-  "name": "PEDS Chapter 22: Health Care Adaptations \u2014 Comprehensive NCLEX/ATI Exam (21 Q)",
+  "name": "PEDS Chapter 22: Health Care Adaptations \u2014 Comprehensive NCLEX/ATI Exam (20 Q)",
   "category": "Pediatrics",
   "questions": [
     {
-      "id": "q_3_4297",
-      "slide": 3,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 3?",
-      "options": [
-        "Admission to the Pediatric Unit \u2013 \nNursing Responsibilities \n\n\n=",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 3. Admission to the Pediatric Unit \u2013 \nNursing Responsibilities \n\n\n=... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_6_6571",
-      "slide": 6,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 6?",
-      "options": [
-        "Obtain lab requisitions, correct containers, and supplies.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 6. Obtain lab requisitions, correct containers, and supplies.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_6_6784",
-      "slide": 6,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 6?",
-      "options": [
-        "Label clearly and attach proper forms.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 6. Label clearly and attach proper forms.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_6_6558",
-      "slide": 6,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 6?",
-      "options": [
-        "Send to laboratory according to hospital policy.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 6. Send to laboratory according to hospital policy.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_6_998",
-      "slide": 6,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 6?",
-      "options": [
-        "Record in nurses\u2019 notes and on intake and output record what specimens were obtained and, where appropriate, the amount ...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 6. Record in nurses\u2019 notes and on intake and output record what specimens were obtained and, where appropriate, the amount of output.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "sata_6_4276",
-      "slide": 6,
-      "type": "sata",
-      "question": "Select all that apply regarding the content on Slide 6:",
-      "options": [
-        "Obtain lab requisitions, correct containers, and supplies....",
-        "Label clearly and attach proper forms....",
-        "Send to laboratory according to hospital policy....",
-        "Record in nurses\u2019 notes and on intake and output record what specimens were obta...",
-        "This is not a nursing responsibility.",
-        "This is contraindicated in pediatrics."
-      ],
-      "answer": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "rationale": "The correct selections are all supported by the lecture content on Slide 6. Obtain lab requisitions, correct containers, and supplies.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
-    },
-    {
-      "id": "matrix_6_4276",
-      "slide": 6,
-      "type": "matrix",
-      "question": "For each statement from Slide 6, indicate if it is True, False, or Not Discussed:",
-      "rows": [
-        "Obtain lab requisitions, correct containers, and supplies.",
-        "Label clearly and attach proper forms.",
-        "Send to laboratory according to hospital policy."
-      ],
-      "columns": [
-        "True",
-        "False",
-        "Not Discussed"
-      ],
-      "answer": [
-        0,
-        0,
-        0
-      ],
-      "rationale": "All listed statements are supported by the lecture content on Slide 6. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
-      "options": [
-        "True",
-        "False",
-        "Not Discussed"
-      ]
-    },
-    {
-      "id": "q_9_9907",
+      "id": "q_9_mcq_17569",
       "slide": 9,
       "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 9?",
-      "options": [
-        "Nursing Responsibilities in Administering Medications to Infants and Children\n9\n\nObserve for toxic symptoms.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 9. Nursing Responsibilities in Administering Medications to Infants and Children\n9\n\nObserve for toxic symptoms.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_9_5868",
-      "slide": 9,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 9?",
+      "question": "Which statement is correct regarding the content on Slide 9?",
       "options": [
         "Safe dose should be calculated before administration.",
+        "This is not standard pediatric practice.",
         "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
+        "This is contradicted by current evidence."
       ],
       "answer": [
         0
       ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 9. Safe dose should be calculated before administration.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 9. Safe dose should be calculated before administration.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     },
     {
-      "id": "sata_9_3040",
-      "slide": 9,
-      "type": "sata",
-      "question": "Select all that apply regarding the content on Slide 9:",
-      "options": [
-        "Nursing Responsibilities in Administering Medications to Infants and Children\n9\n...",
-        "Safe dose should be calculated before administration....",
-        "This is not a nursing responsibility.",
-        "This is contraindicated in pediatrics."
-      ],
-      "answer": [
-        0,
-        1
-      ],
-      "rationale": "The correct selections are all supported by the lecture content on Slide 9. Nursing Responsibilities in Administering Medications to Infants and Children\n9\n\nObserve for toxic symptoms.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
-    },
-    {
-      "id": "q_0_4116",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Give an example of a situation in which informed consent is necessary and communicate the information to a child.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of a situation in which informed consent is necessary and communicate the information to a child.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_7951",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "What is the importance of proper documentation when obtaining and sending a specimen to the lab?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. What is the importance of proper documentation when obtaining and sending a specimen to the lab?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_6465",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "VERY important to calculate the dosage correctly\n\n=",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. VERY important to calculate the dosage correctly\n\n=... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_3934",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Give an example of toxic symptoms the nurse might assess in a child.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Give an example of toxic symptoms the nurse might assess in a child.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_9125",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "What are some examples of negative responses to medications?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. What are some examples of negative responses to medications?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_1445",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss the various online drug references now available to nurses; e.g., www.DrugGuide.com , www.pdr.net and how they c...",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss the various online drug references now available to nurses; e.g., www.DrugGuide.com , www.pdr.net and how they can aid in the safe administration of medications.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_2970",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "What IM sites are preferred for various age groups?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. What IM sites are preferred for various age groups?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_4947",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "Discuss what could happen if one of the six rights is not followed.",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. Discuss what could happen if one of the six rights is not followed.... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "q_0_4272",
-      "slide": 0,
-      "type": "mcq",
-      "question": "Which statement best describes the concept from Slide 0?",
-      "options": [
-        "What is the proper technique when administering a gavage feeding?",
-        "This applies only to adult patients.",
-        "This is not considered standard practice.",
-        "This contradicts current pediatric guidelines."
-      ],
-      "answer": [
-        0
-      ],
-      "rationale": "The correct answer is supported by the lecture material on Slide 0. What is the proper technique when administering a gavage feeding?... This concept is essential for understanding pediatric nursing care. The distractors are incorrect because they either misstate the fact, apply adult principles, or contradict the evidence. Understanding this distinction is critical for safe clinical practice and NCLEX success."
-    },
-    {
-      "id": "sata_0_4484",
+      "id": "q_0_sata_14655",
       "slide": 0,
       "type": "sata",
-      "question": "Select all that apply regarding the content on Slide 0:",
+      "question": "Based on Slide 0:",
       "options": [
-        "Give an example of a situation in which informed consent is necessary and commun...",
-        "What is the importance of proper documentation when obtaining and sending a spec...",
-        "VERY important to calculate the dosage correctly\n\n=...",
-        "Give an example of toxic symptoms the nurse might assess in a child....",
-        "This is not a nursing responsibility.",
-        "This is contraindicated in pediatrics."
+        "What IM sites are preferred for various age groups?...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
       ],
       "answer": [
         0,
         1,
-        2,
-        3
+        2
       ],
-      "rationale": "The correct selections are all supported by the lecture content on Slide 0. Give an example of a situation in which informed consent is necessary and communicate the information to a child.... These are all valid nursing considerations. The incorrect options are wrong because they either misrepresent the content, apply to the wrong age group, or are not taught in this chapter."
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. What IM sites are preferred for various age groups?... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
     },
     {
-      "id": "matrix_0_4484",
-      "slide": 0,
+      "id": "q_6_matrix_14408",
+      "slide": 6,
       "type": "matrix",
-      "question": "For each statement from Slide 0, indicate if it is True, False, or Not Discussed:",
-      "rows": [
-        "Give an example of a situation in which informed consent is ",
-        "What is the importance of proper documentation when obtainin",
-        "VERY important to calculate the dosage correctly\n\n="
-      ],
-      "columns": [
+      "question": "Based on Slide 6:",
+      "options": [
         "True",
         "False",
         "Not Discussed"
@@ -365,12 +53,282 @@
         0,
         0
       ],
-      "rationale": "All listed statements are supported by the lecture content on Slide 0. Understanding these distinctions is essential. Any statement marked False or Not Discussed would contradict or go beyond what was taught.",
+      "rationale": "Each statement is evaluated against the lecture content on Slide 6. Obtain lab requisitions, correct containers, and supplies.... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_40489",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: What is the proper technique when administering a gavage feeding?... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_6_cloze_44172",
+      "slide": 6,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 6: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Send to laboratory according to hospital policy....",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Send to laboratory according to hospital policy....'. This comes directly from the lecture content on Slide 6. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_39172",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "Give an example of toxic symptoms the nurse might assess in a child....",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'Give an example of toxic symptoms the nurse might assess in a child....'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_6_mcq_57867",
+      "slide": 6,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 6?",
+      "options": [
+        "Label clearly and attach proper forms.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 6. Label clearly and attach proper forms.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_71316",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "What is the importance of proper documentation when obtaining and send...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. What is the importance of proper documentation when obtaining and sending a specimen to the lab?... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_0_matrix_93073",
+      "slide": 0,
+      "type": "matrix",
+      "question": "Based on Slide 0:",
       "options": [
         "True",
         "False",
         "Not Discussed"
-      ]
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 0. Discuss the various online drug references now available to nurses; e.g., www.DrugGuide.com , www.pd... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_0_bowtie_19032",
+      "slide": 0,
+      "type": "bowtie",
+      "question": "Based on Slide 0:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 0: Give an example of a situation in which informed consent is necessary and commun... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_0_cloze_93760",
+      "slide": 0,
+      "type": "cloze",
+      "question": "Complete the statement based on Slide 0: The nurse should _____ when caring for this patient.",
+      "options": [
+        "Discuss what could happen if one of the six rights is not followed....",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct completion is: 'Discuss what could happen if one of the six rights is not fo...'. This comes directly from the lecture content on Slide 0. The other options represent common errors or incomplete understanding."
+    },
+    {
+      "id": "q_0_highlight_35939",
+      "slide": 0,
+      "type": "highlight",
+      "question": "Highlight the key finding from Slide 0.",
+      "options": [
+        "What are some examples of negative responses to medications?...",
+        "Other finding A",
+        "Other finding B"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The highlighted content is: 'What are some examples of negative responses to medications?...'. This is the most significant finding from the lecture material on Slide 0. Identifying priority information is a core NCLEX skill."
+    },
+    {
+      "id": "q_6_mcq_38474",
+      "slide": 6,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 6?",
+      "options": [
+        "Record in nurses\u2019 notes and on intake and output record what specimens were obtained and, where appropriate, t...",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 6. Record in nurses\u2019 notes and on intake and output record what specimens were obtained and, where appropriate, the amount of output.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_sata_46627",
+      "slide": 0,
+      "type": "sata",
+      "question": "Based on Slide 0:",
+      "options": [
+        "VERY important to calculate the dosage correctly\n\n=...",
+        "Related concept 0",
+        "Related concept 1",
+        "Incorrect distractor A",
+        "Incorrect distractor B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "All three selected options are accurate based on the lecture content from Slide 0. VERY important to calculate the dosage correctly\n\n=... These represent key nursing interventions or observations. The distractors are not supported by the lecture material and may reflect common misconceptions. SATA questions require selecting all correct responses \u2014 partial credit is not awarded on NCLEX."
+    },
+    {
+      "id": "q_3_matrix_23790",
+      "slide": 3,
+      "type": "matrix",
+      "question": "Based on Slide 3:",
+      "options": [
+        "True",
+        "False",
+        "Not Discussed"
+      ],
+      "answer": [
+        0,
+        0,
+        0
+      ],
+      "rationale": "Each statement is evaluated against the lecture content on Slide 3. Admission to the Pediatric Unit \u2013 \nNursing Responsibilities \n\n\n=... The matrix format tests your ability to categorize information correctly. Understanding when to apply, avoid, or recognize absence of a concept is critical for clinical judgment."
+    },
+    {
+      "id": "q_9_bowtie_48646",
+      "slide": 9,
+      "type": "bowtie",
+      "question": "Based on Slide 9:",
+      "options": [
+        "Condition A",
+        "Condition B",
+        "Condition C"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The bowtie format requires identifying the most likely condition and matching appropriate actions. Based on Slide 9: Nursing Responsibilities in Administering Medications to Infants and Children\n9\n... Understanding the relationship between assessment findings, nursing actions, and outcomes is essential."
+    },
+    {
+      "id": "q_9_mcq_17569",
+      "slide": 9,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 9?",
+      "options": [
+        "Safe dose should be calculated before administration.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 9. Safe dose should be calculated before administration.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_mcq_14655",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "What IM sites are preferred for various age groups?",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. What IM sites are preferred for various age groups?... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_6_mcq_14408",
+      "slide": 6,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 6?",
+      "options": [
+        "Obtain lab requisitions, correct containers, and supplies.",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 6. Obtain lab requisitions, correct containers, and supplies.... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
+    },
+    {
+      "id": "q_0_mcq_40489",
+      "slide": 0,
+      "type": "mcq",
+      "question": "Which statement is correct regarding the content on Slide 0?",
+      "options": [
+        "What is the proper technique when administering a gavage feeding?",
+        "This is not standard pediatric practice.",
+        "This applies only to adult patients.",
+        "This is contradicted by current evidence."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "The correct answer is supported directly by the lecture material presented on Slide 0. What is the proper technique when administering a gavage feeding?... This concept is fundamental to pediatric nursing care. The distractors are incorrect because they either apply adult principles to pediatric patients, misrepresent the content, or contradict what was taught in this chapter. Understanding this distinction ensures safe clinical practice and accurate NCLEX/ATI performance."
     }
   ]
 }
