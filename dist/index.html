@@ -11903,29 +11903,11 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
         }
 
         function showStudyGuides() {
-            const guideTitles = {
-                "ob_cheatsheet": "OB Cheat Sheet: Fetal Development (Ch 3-5)",
-                "ob_comprehensive": "OB Comprehensive: Fetal Development (Ch 3-5)",
-                "ob_ch678_cheatsheet": "OB Cheat Sheet: Labor & Birth (Ch 6-8)",
-                "ob_ch678_comprehensive": "OB Comprehensive: Labor & Birth (Ch 6-8)",
-                "ob_ch912_cheatsheet": "OB Cheat Sheet: Postpartum & Newborn (Ch 9-10,12)",
-                "ob_ch912_comprehensive": "OB Comprehensive: Postpartum & Newborn (Ch 9-10,12)",
-                "cms_maternal_cheatsheet": "ATI CMS Maternal & Newborn — Cheat Sheet",
-                "cms_maternal_comprehensive": "ATI CMS Maternal & Newborn — Comprehensive",
-                "peds_ch15_19_comprehensive": "PEDS Ch15-19: Growth, Development & Nutrition — Comprehensive",
-                "peds_ch20_24_comprehensive": "PEDS Ch20-24+: Adolescent & Disorders — Comprehensive",
-                "ati_cms_peds_practice_a": "ATI CMS Pediatrics Practice A — Comprehensive Study Guide",
-                "pharmacology_8point": "Pharmacology 8-Point Study Guide",
-                "pharmacology_exhaustive": "Pharmacology Exhaustive Guide",
-                "pharmacology_professional": "Pharmacology Professional Guide",
-                "pptx_questions": "PPTX Questions (Raw)",
-                "pptx_remastered": "PPTX Questions (Remastered)"
-            };
             const guides = Object.keys(window.studyGuideContent || {});
             const listHtml = guides.length ? guides.map(key => `
                 <div class="col-md-6 mb-3">
                     <div class="nexus-card p-3" style="cursor:pointer" onclick="viewStudyGuide('${key}')">
-                        <h5 class="text-white mb-1">${guideTitles[key] || key.replace(/_/g, ' ')}</h5>
+                        <h5 class="text-white mb-1">${key.replace(/_/g, ' ')}</h5>
                         <small class="text-secondary">Click to open</small>
                     </div>
                 </div>`).join('') : '<div class="text-white-50">No study guides loaded.</div>';
@@ -11941,26 +11923,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             document.body.insertAdjacentHTML('beforeend', modal);
         }
         function viewStudyGuide(key) {
-            const guideTitles = {
-                "ob_cheatsheet": "OB Cheat Sheet: Fetal Development (Ch 3-5)",
-                "ob_comprehensive": "OB Comprehensive: Fetal Development (Ch 3-5)",
-                "ob_ch678_cheatsheet": "OB Cheat Sheet: Labor & Birth (Ch 6-8)",
-                "ob_ch678_comprehensive": "OB Comprehensive: Labor & Birth (Ch 6-8)",
-                "ob_ch912_cheatsheet": "OB Cheat Sheet: Postpartum & Newborn (Ch 9-10,12)",
-                "ob_ch912_comprehensive": "OB Comprehensive: Postpartum & Newborn (Ch 9-10,12)",
-                "cms_maternal_cheatsheet": "ATI CMS Maternal & Newborn — Cheat Sheet",
-                "cms_maternal_comprehensive": "ATI CMS Maternal & Newborn — Comprehensive",
-                "peds_ch15_19_comprehensive": "PEDS Ch15-19: Growth, Development & Nutrition — Comprehensive",
-                "peds_ch20_24_comprehensive": "PEDS Ch20-24+: Adolescent & Disorders — Comprehensive",
-                "ati_cms_peds_practice_a": "ATI CMS Pediatrics Practice A — Comprehensive Study Guide",
-                "pharmacology_8point": "Pharmacology 8-Point Study Guide",
-                "pharmacology_exhaustive": "Pharmacology Exhaustive Guide",
-                "pharmacology_professional": "Pharmacology Professional Guide",
-                "pptx_questions": "PPTX Questions (Raw)",
-                "pptx_remastered": "PPTX Questions (Remastered)"
-            };
             const raw = (window.studyGuideContent || {})[key] || 'Not found';
-            const title = guideTitles[key] || key.replace(/_/g, ' ');
             const render = () => {
                 let html = raw;
                 if (window.marked && window.marked.parse) {
@@ -11969,7 +11932,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 const modal = `<div id="guideViewer" style="position:fixed;top:0;left:0;width:100%;height:100%;background:var(--primary);z-index:2200;overflow:auto;padding:40px;">
                     <div class="container" style="max-width:900px;background:var(--secondary);padding:30px;border-radius:8px;">
                         <button class="btn btn-sm btn-outline-light float-end" onclick="document.getElementById('guideViewer').remove()">Close</button>
-                        <h3 class="text-white mb-4">${title}</h3>
+                        <h3 class="text-white mb-4">${key.replace(/_/g,' ')}</h3>
                         <div class="study-guide-content" style="color:#e2e8f0;font-size:0.95rem;line-height:1.6;">${html}</div>
                     </div>
                 </div>`;
