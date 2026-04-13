@@ -1,0 +1,55 @@
+{
+  "id": "peds_ch19_quiz",
+  "name": "PEDS The School-Age Child Quiz (3 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch19_1",
+      "slide": 7,
+      "question": "According to the lecture (Slide 7): which is accurate?",
+      "options": [
+        "Gender Identity\n\nSex role development influenced by parents\nDifferential treatment and identification\nIn the f...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 7: Gender Identity\n\nSex role development influenced by parents\nDifferential treatment and identification\nIn the family\nIn society\nInfluence of school environment\nAggressive behavior more accepted in boys than girls\nIncorporation of traditionally masculine and feminine positive attributes may lead to fuller human functioning",
+      "type": "mcq"
+    },
+    {
+      "id": "ch19_2",
+      "slide": 8,
+      "question": "According to the lecture (Slide 8): which is accurate?",
+      "options": [
+        "Sex Education\n\n\nLifelong process\nAccomplished less by talking or formal instruction than by the whole climate ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 8: Sex Education\n\n\nLifelong process\nAccomplished less by talking or formal instruction than by the whole climate of the home\nQuestions should be answered simply",
+      "type": "mcq"
+    },
+    {
+      "id": "ch19_3",
+      "slide": 10,
+      "question": "According to the lecture (Slide 10): which is accurate?",
+      "options": [
+        "School-Related Tasks \u000b\n\nParents and children should set realistic goals",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 10: School-Related Tasks \u000b\n\nParents and children should set realistic goals",
+      "type": "mcq"
+    }
+  ]
+}

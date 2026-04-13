@@ -1,0 +1,71 @@
+{
+  "id": "peds_ch28_quiz",
+  "name": "PEDS GI Disorders Quiz (4 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch28_1",
+      "slide": 2,
+      "question": "According to the lecture (Slide 2): which is accurate?",
+      "options": [
+        "Discuss three common gastrointestinal anomalies in infants",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 2: Discuss three common gastrointestinal anomalies in infants",
+      "type": "mcq"
+    },
+    {
+      "id": "ch28_2",
+      "slide": 5,
+      "question": "According to the lecture (Slide 5): which is accurate?",
+      "options": [
+        "Congenital Disorders\nEsophageal atresia (tracheoesophageal fistula [TEF]) \nTEF is caused by a failure of the t...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 5: Congenital Disorders\nEsophageal atresia (tracheoesophageal fistula [TEF]) \nTEF is caused by a failure of the tissues of the GI tract to separate properly in prenatal life",
+      "type": "mcq"
+    },
+    {
+      "id": "ch28_3",
+      "slide": 7,
+      "question": "According to the lecture (Slide 7): which is accurate?",
+      "options": [
+        "Pyloric Stenosis\nObstruction of the lower end of the stomach caused by overgrowth of the circular muscles of t...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 7: Pyloric Stenosis\nObstruction of the lower end of the stomach caused by overgrowth of the circular muscles of the pylorus or spasms of the sphincter\nCommonly classified as a congenital anomaly\nSymptoms usually do not appear until an infant is 2 or 3 weeks old",
+      "type": "mcq"
+    },
+    {
+      "id": "ch28_4",
+      "slide": 13,
+      "question": "According to the lecture (Slide 13): which is accurate?",
+      "options": [
+        "Intussusception\nA slipping of one part of the intestine into another part just below it\nOften seen at the ileo...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 13: Intussusception\nA slipping of one part of the intestine into another part just below it\nOften seen at the ileocecal valve\nThe mesentery, a double fan-shaped fold of peritoneum that covers most of intestine and is filled with blood vessels and nerves, is also pulled along",
+      "type": "mcq"
+    }
+  ]
+}

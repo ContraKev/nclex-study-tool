@@ -1,0 +1,87 @@
+{
+  "id": "peds_ch15_quiz",
+  "name": "PEDS Growth, Development & Nutrition Quiz (5 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch15_1",
+      "slide": 3,
+      "question": "According to the lecture (Slide 3): which is accurate?",
+      "options": [
+        "Growth and Development\nDifferences between adult and child\nA child is in a continuous process of growth and de...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 3: Growth and Development\nDifferences between adult and child\nA child is in a continuous process of growth and development",
+      "type": "mcq"
+    },
+    {
+      "id": "ch15_2",
+      "slide": 4,
+      "question": "According to the lecture (Slide 4): which is accurate?",
+      "options": [
+        "The Impact of Growth and Development on Nursing Care\nDevelopmental needs have an impact on a child\u2019s response ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 4: The Impact of Growth and Development on Nursing Care\nDevelopmental needs have an impact on a child\u2019s response to illness",
+      "type": "mcq"
+    },
+    {
+      "id": "ch15_3",
+      "slide": 9,
+      "question": "According to the lecture (Slide 9): which is accurate?",
+      "options": [
+        "Growth Charts\nChildren who are in good health tend to follow a consistent pattern of growth",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 9: Growth Charts\nChildren who are in good health tend to follow a consistent pattern of growth",
+      "type": "mcq"
+    },
+    {
+      "id": "ch15_4",
+      "slide": 10,
+      "question": "According to the lecture (Slide 10): which is accurate?",
+      "options": [
+        "Developmental Screening\nDenver Developmental Screening Test\nAssesses the developmental status of children duri...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 10: Developmental Screening\nDenver Developmental Screening Test\nAssesses the developmental status of children during the first 6 years of life in four categories",
+      "type": "mcq"
+    },
+    {
+      "id": "ch15_5",
+      "slide": 17,
+      "question": "According to the lecture (Slide 17): which is accurate?",
+      "options": [
+        "Piaget\u2019s Theory of Cognitive Development\n\n\n\nIntellectual ability\nIntellectual maturity is attained through fou...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 17: Piaget\u2019s Theory of Cognitive Development\n\n\n\nIntellectual ability\nIntellectual maturity is attained through four orderly and distinct stages of development; all are interrelated",
+      "type": "mcq"
+    }
+  ]
+}

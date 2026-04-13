@@ -1,0 +1,71 @@
+{
+  "id": "peds_ch24_quiz",
+  "name": "PEDS Musculoskeletal Disorders Quiz (4 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch24_1",
+      "slide": 6,
+      "question": "According to the lecture (Slide 6): which is accurate?",
+      "options": [
+        "Overview and Observation\nMuscular and skeletal systems work together",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 6: Overview and Observation\nMuscular and skeletal systems work together",
+      "type": "mcq"
+    },
+    {
+      "id": "ch24_2",
+      "slide": 10,
+      "question": "According to the lecture (Slide 10): which is accurate?",
+      "options": [
+        "Traumatic Fractures\nA fracture is a break in a bone and is mainly caused by accident",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 10: Traumatic Fractures\nA fracture is a break in a bone and is mainly caused by accident",
+      "type": "mcq"
+    },
+    {
+      "id": "ch24_3",
+      "slide": 12,
+      "question": "According to the lecture (Slide 12): which is accurate?",
+      "options": [
+        "Casts and Splints\nCan be made from a variety of materials\nChild is at increased risk for \nImpaired skin integr...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 12: Casts and Splints\nCan be made from a variety of materials\nChild is at increased risk for \nImpaired skin integrity\nCompartment syndrome\nProgressive loss of tissue perfusion because of an increase in pressure caused by edema or swelling that presses on the vessels and tissues\nIf not carefully monitored, significant complications can occur",
+      "type": "mcq"
+    },
+    {
+      "id": "ch24_4",
+      "slide": 14,
+      "question": "According to the lecture (Slide 14): which is accurate?",
+      "options": [
+        "14\nThis Photo by Unknown Author is licensed under CC BY-SA\n\n=",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 14: 14\nThis Photo by Unknown Author is licensed under CC BY-SA\n\n=",
+      "type": "mcq"
+    }
+  ]
+}

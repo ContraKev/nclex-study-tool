@@ -1,0 +1,39 @@
+{
+  "id": "peds_ch33_quiz",
+  "name": "PEDS Chapter 33 Quiz (2 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch33_1",
+      "slide": 3,
+      "question": "According to the lecture (Slide 3): which is accurate?",
+      "options": [
+        "1\u000bObjectives (2 of 2)\n\nDiscuss behavioral therapy and how it is applied to obsessive-compulsive disorders and ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 3: 1\u000bObjectives (2 of 2)\n\nDiscuss behavioral therapy and how it is applied to obsessive-compulsive disorders and depression in children",
+      "type": "mcq"
+    },
+    {
+      "id": "ch33_2",
+      "slide": 8,
+      "question": "According to the lecture (Slide 8): which is accurate?",
+      "options": [
+        "2\u000bObjectives (1 of 2)\n\nCompare and contrast the characteristics of bulimia and anorexia nervosa",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 8: 2\u000bObjectives (1 of 2)\n\nCompare and contrast the characteristics of bulimia and anorexia nervosa",
+      "type": "mcq"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "peds_ch17_quiz",
+  "name": "PEDS The Toddler Quiz (3 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch17_1",
+      "slide": 4,
+      "question": "According to the lecture (Slide 4): which is accurate?",
+      "options": [
+        "5 years of age\nRate of brain growth slows\nBody proportions change\nHead and trunk grow more slowly\nMusculoskele...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 4: 5 years of age\nRate of brain growth slows\nBody proportions change\nHead and trunk grow more slowly\nMusculoskeletal system grows and bones begin to ossify\nProtuberant abdomen flattens when muscle fibers increase in size and strength\nMyelination of spinal cord nearly complete by 2 years\nBowel and bladder control usually complete by 2",
+      "type": "mcq"
+    },
+    {
+      "id": "ch17_2",
+      "slide": 8,
+      "question": "According to the lecture (Slide 8): which is accurate?",
+      "options": [
+        "Screening for Signs of Autism\nPreliminary symptoms may include\nNo pointing, gesturing (e",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 8: Screening for Signs of Autism\nPreliminary symptoms may include\nNo pointing, gesturing (e",
+      "type": "mcq"
+    },
+    {
+      "id": "ch17_3",
+      "slide": 15,
+      "question": "According to the lecture (Slide 15): which is accurate?",
+      "options": [
+        "Must meet families\u2019 \nPersonal preferences\nCultural perspectives\nFinancial and special needs\nShould be state-ap...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 15: Must meet families\u2019 \nPersonal preferences\nCultural perspectives\nFinancial and special needs\nShould be state-approved\n\nDay Care\n\n=",
+      "type": "mcq"
+    }
+  ]
+}

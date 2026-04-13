@@ -1,0 +1,23 @@
+{
+  "id": "peds_ch29_quiz",
+  "name": "PEDS GU Disorders Quiz (1 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch29_1",
+      "slide": 7,
+      "question": "According to the lecture (Slide 7): which is accurate?",
+      "options": [
+        "Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterior wall of bladder are missing",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 7: Exstrophy of the Bladder (1 of 2)\n7\n\nLower portion of abdominal wall and anterior wall of bladder are missing",
+      "type": "mcq"
+    }
+  ]
+}

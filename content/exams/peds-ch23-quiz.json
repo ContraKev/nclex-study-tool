@@ -1,0 +1,119 @@
+{
+  "id": "peds_ch23_quiz",
+  "name": "PEDS Neuro & Sensory Disorders Quiz (7 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch23_1",
+      "slide": 2,
+      "question": "According to the lecture (Slide 2): which is accurate?",
+      "options": [
+        "1 Objectives\nDefine each key word listed",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 2: 1 Objectives\nDefine each key word listed",
+      "type": "mcq"
+    },
+    {
+      "id": "ch23_2",
+      "slide": 5,
+      "question": "According to the lecture (Slide 5): which is accurate?",
+      "options": [
+        "Acute Otitis Media\nPathophysiology\nInflammation of the middle ear\nStructures lined by mucous membranes\nMastoid...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 5: Acute Otitis Media\nPathophysiology\nInflammation of the middle ear\nStructures lined by mucous membranes\nMastoid sinuses\nMiddle ear\nEustachian tube\nProtects middle ear\nProvides drainage\nEqualizes air pressure\nInfection of the throat can easily spread to the middle ear and mastoid",
+      "type": "mcq"
+    },
+    {
+      "id": "ch23_3",
+      "slide": 6,
+      "question": "According to the lecture (Slide 6): which is accurate?",
+      "options": [
+        "Hearing Impairment \nHearing loss can result from \nDefects in the transmission of sound to the middle ear\nDamag...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 6: Hearing Impairment \nHearing loss can result from \nDefects in the transmission of sound to the middle ear\nDamage to the auditory nerve or ear structures\nA mixed loss involving both a defect in nerve pathways and interference with sound transmission\nBehavior problems may arise because these children do not understand verbal directions",
+      "type": "mcq"
+    },
+    {
+      "id": "ch23_4",
+      "slide": 8,
+      "question": "According to the lecture (Slide 8): which is accurate?",
+      "options": [
+        "The Eyes\nBegin to develop in a 4-week-old embryo\nNewborn sight is not mature",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 8: The Eyes\nBegin to develop in a 4-week-old embryo\nNewborn sight is not mature",
+      "type": "mcq"
+    },
+    {
+      "id": "ch23_5",
+      "slide": 11,
+      "question": "According to the lecture (Slide 11): which is accurate?",
+      "options": [
+        "Strabismus\nAlso known as cross-eye\nChild is not able to direct both eyes in same direction\nLack of coordinatio...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 11: Strabismus\nAlso known as cross-eye\nChild is not able to direct both eyes in same direction\nLack of coordination between the eye muscles that direct movement of the eyes\nWhen coordination does not occur, the brain will disable one eye to provide a clear image",
+      "type": "mcq"
+    },
+    {
+      "id": "ch23_6",
+      "slide": 14,
+      "question": "According to the lecture (Slide 14): which is accurate?",
+      "options": [
+        "Hyphema\nPresence of blood in the anterior chamber of the eye\nOne of the most common ocular injuries\nAppears as...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 14: Hyphema\nPresence of blood in the anterior chamber of the eye\nOne of the most common ocular injuries\nAppears as a bright-red or dark-red spot in front of the lower portion of the iris\nTreatment\nBedrest with HOB elevated 30 to 45 degrees decreases intraocular pressure and intracranial pressure if there is an associated head injury",
+      "type": "mcq"
+    },
+    {
+      "id": "ch23_7",
+      "slide": 16,
+      "question": "According to the lecture (Slide 16): which is accurate?",
+      "options": [
+        "2 Objectives\nDiscuss the functions of the 12 cranial nerves and nursing interventions for dysfunction",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 16: 2 Objectives\nDiscuss the functions of the 12 cranial nerves and nursing interventions for dysfunction",
+      "type": "mcq"
+    }
+  ]
+}

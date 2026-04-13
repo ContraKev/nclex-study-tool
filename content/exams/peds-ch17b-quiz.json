@@ -1,0 +1,23 @@
+{
+  "id": "peds_ch17b_quiz",
+  "name": "PEDS The Toddler (alt) Quiz (1 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch17b_1",
+      "slide": 15,
+      "question": "According to the lecture (Slide 15): which is accurate?",
+      "options": [
+        "Must meet families\u2019  Personal preferences Cultural perspectives Financial and special needs Should be state-ap...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 15: Must meet families\u2019  Personal preferences Cultural perspectives Financial and special needs Should be state-approved Day Care\n\n=",
+      "type": "mcq"
+    }
+  ]
+}

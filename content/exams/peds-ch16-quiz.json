@@ -1,0 +1,183 @@
+{
+  "id": "peds_ch16_quiz",
+  "name": "PEDS The Infant Quiz (11 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch16_1",
+      "slide": 2,
+      "question": "According to the lecture (Slide 2): which is accurate?",
+      "options": [
+        "1\u000bObjectives (1 of 2)\nDefine each key word listed",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 2: 1\u000bObjectives (1 of 2)\nDefine each key word listed",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_2",
+      "slide": 4,
+      "question": "According to the lecture (Slide 4): which is accurate?",
+      "options": [
+        "Oral Stage\n\nSucking brings comfort and relief from tension",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 4: Oral Stage\n\nSucking brings comfort and relief from tension",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_3",
+      "slide": 5,
+      "question": "According to the lecture (Slide 5): which is accurate?",
+      "options": [
+        "Motor Development\n\nGrasp reflex disappears around 3 months of age",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 5: Motor Development\n\nGrasp reflex disappears around 3 months of age",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_4",
+      "slide": 6,
+      "question": "According to the lecture (Slide 6): which is accurate?",
+      "options": [
+        "Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 6: Emotional Development\n\nConsistency must be established to develop trust, which is vital to the development of a healthy personality",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_5",
+      "slide": 8,
+      "question": "According to the lecture (Slide 8): which is accurate?",
+      "options": [
+        "2\u000bObjectives\nDiscuss the approach and care of an infant with colic",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 8: 2\u000bObjectives\nDiscuss the approach and care of an infant with colic",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_6",
+      "slide": 11,
+      "question": "According to the lecture (Slide 11): which is accurate?",
+      "options": [
+        "Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting d...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 11: Coping with the Lethargic Infant\nSome infants respond to an excessively stimulating environment by \u201cshutting down\u201d and sleeping",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_7",
+      "slide": 12,
+      "question": "According to the lecture (Slide 12): which is accurate?",
+      "options": [
+        "Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 12: Developing Positive Sleep Patterns\nNewborns sleep in 4-hour intervals",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_8",
+      "slide": 13,
+      "question": "According to the lecture (Slide 13): which is accurate?",
+      "options": [
+        "Illness Prevention: Parent Education\nStress importance of periodic health checks",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 13: Illness Prevention: Parent Education\nStress importance of periodic health checks",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_9",
+      "slide": 14,
+      "question": "According to the lecture (Slide 14): which is accurate?",
+      "options": [
+        "Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at least five times in the...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 14: Illness Prevention: Physical Examination\nPhysical examination in the clinic setting at least five times in the first year\nHearing and vision assessments as indicated\nScreening tests administered as required\nGrowth grids and developmental screening\nImmunizations\nNutritional counseling\nProvide appropriate education and explanations to the parents",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_10",
+      "slide": 15,
+      "question": "According to the lecture (Slide 15): which is accurate?",
+      "options": [
+        "Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 15: Infants with Special Needs\nEarly intervention is essential to attain the best outcome for the infant or child",
+      "type": "mcq"
+    },
+    {
+      "id": "ch16_11",
+      "slide": 19,
+      "question": "According to the lecture (Slide 19): which is accurate?",
+      "options": [
+        "Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 19: Determining Adequacy of Diet\nThe infant has gained 4 to 7 oz per week for the first 6 months",
+      "type": "mcq"
+    }
+  ]
+}

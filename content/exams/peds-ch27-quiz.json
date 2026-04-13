@@ -1,0 +1,39 @@
+{
+  "id": "peds_ch27_quiz",
+  "name": "PEDS Hematologic Disorders Quiz (2 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch27_1",
+      "slide": 3,
+      "question": "According to the lecture (Slide 3): which is accurate?",
+      "options": [
+        "1\u000bObjectives (2 of 2)\n\n3\nRecommend four food sources of iron for a child with iron deficiency anemia",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 3: 1\u000bObjectives (2 of 2)\n\n3\nRecommend four food sources of iron for a child with iron deficiency anemia",
+      "type": "mcq"
+    },
+    {
+      "id": "ch27_2",
+      "slide": 18,
+      "question": "According to the lecture (Slide 18): which is accurate?",
+      "options": [
+        "2\u000bObjectives\n18\nRecognize the effects on the bone marrow of increased red blood cell production caused by thal...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 18: 2\u000bObjectives\n18\nRecognize the effects on the bone marrow of increased red blood cell production caused by thalassemia",
+      "type": "mcq"
+    }
+  ]
+}

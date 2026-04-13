@@ -1,0 +1,39 @@
+{
+  "id": "peds_ch26_quiz",
+  "name": "PEDS Cardiovascular Disorders Quiz (2 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch26_1",
+      "slide": 13,
+      "question": "According to the lecture (Slide 13): which is accurate?",
+      "options": [
+        "This Photo by Unknown Author is licensed under CC BY-SA\n\n=",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 13: This Photo by Unknown Author is licensed under CC BY-SA\n\n=",
+      "type": "mcq"
+    },
+    {
+      "id": "ch26_2",
+      "slide": 14,
+      "question": "According to the lecture (Slide 14): which is accurate?",
+      "options": [
+        "General Treatment and Nursing Care\nAssorted medical and surgical treatments are currently available",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 14: General Treatment and Nursing Care\nAssorted medical and surgical treatments are currently available",
+      "type": "mcq"
+    }
+  ]
+}

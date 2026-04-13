@@ -1,0 +1,39 @@
+{
+  "id": "peds_ch32_quiz",
+  "name": "PEDS Communicable Diseases Quiz (2 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch32_1",
+      "slide": 4,
+      "question": "According to the lecture (Slide 4): which is accurate?",
+      "options": [
+        "Review of Terms (2 of 2)\nPandemic\u2014a worldwide high incidence of a communicable disease (e",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 4: Review of Terms (2 of 2)\nPandemic\u2014a worldwide high incidence of a communicable disease (e",
+      "type": "mcq"
+    },
+    {
+      "id": "ch32_2",
+      "slide": 13,
+      "question": "According to the lecture (Slide 13): which is accurate?",
+      "options": [
+        "Protective Environment Isolation\nUsed for patients who are not communicable but have high susceptibility to in...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 13: Protective Environment Isolation\nUsed for patients who are not communicable but have high susceptibility to infection, such as a neutropenic patient or hematopoietic stem cell transplant (HSCT) recipient\nStrict adherence to standard or transmission-based precautions is required at all times; this includes any visitors",
+      "type": "mcq"
+    }
+  ]
+}

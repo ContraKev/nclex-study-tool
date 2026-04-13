@@ -1,0 +1,135 @@
+{
+  "id": "peds_ch21_quiz",
+  "name": "PEDS Hospitalization Experience Quiz (8 Q)",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "ch21_1",
+      "slide": 2,
+      "question": "According to the lecture (Slide 2): which is accurate?",
+      "options": [
+        "Identify various health care delivery settings",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 2: Identify various health care delivery settings",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_2",
+      "slide": 4,
+      "question": "According to the lecture (Slide 4): which is accurate?",
+      "options": [
+        "Preparing the Child for a Treatment or Procedure\n\nInfants\nToddlers and preschoolers\nSchool-aged children\nAdole...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 4: Preparing the Child for a Treatment or Procedure\n\nInfants\nToddlers and preschoolers\nSchool-aged children\nAdolescents\n\nSee Box 21",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_3",
+      "slide": 12,
+      "question": "According to the lecture (Slide 12): which is accurate?",
+      "options": [
+        "Response to Drugs\n\nElimination of the drug may be prolonged because of an immature liver enzyme system",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 12: Response to Drugs\n\nElimination of the drug may be prolonged because of an immature liver enzyme system",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_4",
+      "slide": 14,
+      "question": "According to the lecture (Slide 14): which is accurate?",
+      "options": [
+        "Conscious Sedation\n\nThe administration of IV drugs to a patient to impair consciousness but retain protective ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 14: Conscious Sedation\n\nThe administration of IV drugs to a patient to impair consciousness but retain protective reflexes, the ability to maintain a patent airway, and the ability to respond to physical and verbal stimuli",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_5",
+      "slide": 16,
+      "question": "According to the lecture (Slide 16): which is accurate?",
+      "options": [
+        "Cultural Response\nShowing cultural sensitivity decreases anxiety",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 16: Cultural Response\nShowing cultural sensitivity decreases anxiety",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_6",
+      "slide": 17,
+      "question": "According to the lecture (Slide 17): which is accurate?",
+      "options": [
+        "Intercultural Communication: Responses to Hospitalization\nApproaches to various cultures involve knowing what ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 17: Intercultural Communication: Responses to Hospitalization\nApproaches to various cultures involve knowing what is and is not acceptable as it relates to\nPersonal space\nSmiling\nEye contact\nTouch\nFocus\nIt is important for the nurse to take the time to become familiar with culturally acceptable behaviors",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_7",
+      "slide": 19,
+      "question": "According to the lecture (Slide 19): which is accurate?",
+      "options": [
+        "The Nurse\u2019s Role in Hospital Admission\nMust be prepared to meet the emotional needs of those involved\nParents ...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 19: The Nurse\u2019s Role in Hospital Admission\nMust be prepared to meet the emotional needs of those involved\nParents should try to be as matter-of-fact as possible about this new experience for their child",
+      "type": "mcq"
+    },
+    {
+      "id": "ch21_8",
+      "slide": 22,
+      "question": "According to the lecture (Slide 22): which is accurate?",
+      "options": [
+        "Adjustment to Illness\nCan understand the implications of disease\nAre capable of participating in decisions rel...",
+        "This applies only to adult patients.",
+        "This is not a standard consideration.",
+        "This is contradicted by current guidelines."
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "Slide 22: Adjustment to Illness\nCan understand the implications of disease\nAre capable of participating in decisions related to treatment and care\nA nurse who recognizes these skills and encourages their practice helps the adolescent gain confidence",
+      "type": "mcq"
+    }
+  ]
+}
