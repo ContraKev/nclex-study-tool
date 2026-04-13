@@ -11961,7 +11961,13 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 "peds_ch20_24_comprehensive": "PEDS Ch20-24: Adolescent & Disorders",
                 "ati_cms_peds_practice_a": "ATI CMS Peds Practice A — Comprehensive"
             };
-            const raw = (window.studyGuideContent || {})[key] || 'Not found';
+            const content = window.studyGuideContent || {};
+            const raw = content[key];
+            if (!raw) {
+                console.error('viewStudyGuide: key not found in studyGuideContent:', key, 'Available keys:', Object.keys(content));
+                alert('Error: Study guide content not found for ' + key);
+                return;
+            }
             const title = titles[key] || key.replace(/_/g, ' ');
             const render = () => {
                 let html = raw;
