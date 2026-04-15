@@ -16488,7 +16488,7 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             document.getElementById('feedbackContainer').classList.add('d-none');
             let qHtml = `<h2 class="text-white mb-4">${window.currentQuestionIndex + 1}. ${q.question}</h2>`;
             if (q.type === 'matrix') {
-                qHtml += `<div class="table-responsive"><table class="table table-dark table-bordered align-middle"><thead><tr><th class="text-white-50">Finding</th>${q.columns.map(c => `<th class="text-center text-warning">${c}</th>`).join('')}</tr></thead><tbody>${q.rows.map((r, ri) => `<tr><td class="text-white">${r.text}</td>${q.columns.map((c, ci) => `<td class="text-center"><input type="radio" name="matrix-row-${ri}" value="${ci}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+                qHtml += `<div class="table-responsive"><table class="table table-dark table-bordered align-middle"><thead><tr><th class="text-white-50">Finding</th>${q.columns.map(c => `<th class="text-center text-warning">${c}</th>`).join('')}</tr></thead><tbody>${q.rows.map((r, ri) => `<tr><td class="text-white">${typeof r === 'string' ? r : (r.text || 'Unknown')}</td>${q.columns.map((c, ci) => `<td class="text-center"><input type="radio" name="matrix-row-${ri}" value="${ci}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
             } else if (q.type === 'bowtie') {
                 const leftOpts = shuffleArray(q.left_actions.options);
                 const centerOpts = shuffleArray(q.center_condition.options);
@@ -16513,8 +16513,8 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             if (q.type === 'matrix') {
                 const allAnswered = q.rows.every((_, ri) => document.querySelector(`input[name="matrix-row-${ri}"]:checked`));
                 if (!allAnswered) return;
-                isCorrect = q.rows.every((r, ri) => parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value) === r.correct_col_idx);
-                sel = q.rows.map((r, ri) => ({ row: r.text, selected: q.columns[parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value)] }));
+                isCorrect = q.rows.every((_, ri) => parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value) === q.answer[ri]);
+                sel = q.rows.map((r, ri) => ({ row: typeof r === 'string' ? r : (r.text || 'Unknown'), selected: q.columns[parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value)] }));
             } else if (q.type === 'bowtie') {
                 const diag = document.getElementById('bw-c')?.value;
                 const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
