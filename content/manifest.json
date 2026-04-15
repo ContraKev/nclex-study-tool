@@ -136,137 +136,18 @@
       "questions": 38
     },
     {
-      "id": "peds-ch15-quiz",
-      "file": "exams/peds-ch15-quiz.json",
-      "name": "PEDS CH15 Quiz",
+      "id": "peds_exam_1",
+      "file": "exams/peds-ch15-19-quiz.json",
+      "name": "PEDS Exam 1 — Chapters 15-19",
       "category": "Pediatrics",
-      "questions": 5
+      "questions": 70
     },
     {
-      "id": "peds-ch16-quiz",
-      "file": "exams/peds-ch16-quiz.json",
-      "name": "PEDS CH16 Quiz",
+      "id": "peds_exam_2",
+      "file": "exams/peds-ch20-24-quiz.json",
+      "name": "PEDS Exam 2 — Chapters 20-24",
       "category": "Pediatrics",
-      "questions": 11
-    },
-    {
-      "id": "peds-ch17-quiz",
-      "file": "exams/peds-ch17-quiz.json",
-      "name": "PEDS CH17 Quiz",
-      "category": "Pediatrics",
-      "questions": 3
-    },
-    {
-      "id": "peds-ch17b-quiz",
-      "file": "exams/peds-ch17b-quiz.json",
-      "name": "PEDS CH17B Quiz",
-      "category": "Pediatrics",
-      "questions": 1
-    },
-    {
-      "id": "peds-ch18-quiz",
-      "file": "exams/peds-ch18-quiz.json",
-      "name": "PEDS CH18 Quiz",
-      "category": "Pediatrics",
-      "questions": 5
-    },
-    {
-      "id": "peds-ch19-quiz",
-      "file": "exams/peds-ch19-quiz.json",
-      "name": "PEDS CH19 Quiz",
-      "category": "Pediatrics",
-      "questions": 3
-    },
-    {
-      "id": "peds-ch20-quiz",
-      "file": "exams/peds-ch20-quiz.json",
-      "name": "PEDS CH20 Quiz",
-      "category": "Pediatrics",
-      "questions": 5
-    },
-    {
-      "id": "peds-ch21-quiz",
-      "file": "exams/peds-ch21-quiz.json",
-      "name": "PEDS CH21 Quiz",
-      "category": "Pediatrics",
-      "questions": 8
-    },
-    {
-      "id": "peds-ch22-quiz",
-      "file": "exams/peds-ch22-quiz.json",
-      "name": "PEDS CH22 Quiz",
-      "category": "Pediatrics",
-      "questions": 3
-    },
-    {
-      "id": "peds-ch23-quiz",
-      "file": "exams/peds-ch23-quiz.json",
-      "name": "PEDS CH23 Quiz",
-      "category": "Pediatrics",
-      "questions": 7
-    },
-    {
-      "id": "peds-ch24-quiz",
-      "file": "exams/peds-ch24-quiz.json",
-      "name": "PEDS CH24 Quiz",
-      "category": "Pediatrics",
-      "questions": 4
-    },
-    {
-      "id": "peds-ch26-quiz",
-      "file": "exams/peds-ch26-quiz.json",
-      "name": "PEDS CH26 Quiz",
-      "category": "Pediatrics",
-      "questions": 2
-    },
-    {
-      "id": "peds-ch27-quiz",
-      "file": "exams/peds-ch27-quiz.json",
-      "name": "PEDS CH27 Quiz",
-      "category": "Pediatrics",
-      "questions": 2
-    },
-    {
-      "id": "peds-ch28-quiz",
-      "file": "exams/peds-ch28-quiz.json",
-      "name": "PEDS CH28 Quiz",
-      "category": "Pediatrics",
-      "questions": 4
-    },
-    {
-      "id": "peds-ch29-quiz",
-      "file": "exams/peds-ch29-quiz.json",
-      "name": "PEDS CH29 Quiz",
-      "category": "Pediatrics",
-      "questions": 1
-    },
-    {
-      "id": "peds-ch30-quiz",
-      "file": "exams/peds-ch30-quiz.json",
-      "name": "PEDS CH30 Quiz",
-      "category": "Pediatrics",
-      "questions": 2
-    },
-    {
-      "id": "peds-ch31-quiz",
-      "file": "exams/peds-ch31-quiz.json",
-      "name": "PEDS CH31 Quiz",
-      "category": "Pediatrics",
-      "questions": 1
-    },
-    {
-      "id": "peds-ch32-quiz",
-      "file": "exams/peds-ch32-quiz.json",
-      "name": "PEDS CH32 Quiz",
-      "category": "Pediatrics",
-      "questions": 2
-    },
-    {
-      "id": "peds-ch33-quiz",
-      "file": "exams/peds-ch33-quiz.json",
-      "name": "PEDS CH33 Quiz",
-      "category": "Pediatrics",
-      "questions": 2
+      "questions": 70
     }
   ],
   "missions": [
