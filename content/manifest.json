@@ -148,6 +148,13 @@
       "name": "PEDS Exam 2 — Chapters 20-24",
       "category": "Pediatrics",
       "questions": 70
+    },
+    {
+      "id": "ati_cms_peds_practice_a",
+      "file": "exams/ati-cms-peds-practice-a-quiz.json",
+      "name": "ATI CMS Peds Practice A — Comprehensive",
+      "category": "Pediatrics",
+      "questions": 90
     }
   ],
   "missions": [

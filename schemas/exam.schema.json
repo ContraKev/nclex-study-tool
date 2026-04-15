@@ -15,7 +15,7 @@
         "properties": {
           "id": {"type": "string"},
           "slide": {"type": "integer"},
-          "type": {"type": "string", "enum": ["mcq", "sata", "matrix", "bowtie", "cloze", "highlight"]},
+          "type": {"type": "string", "enum": ["mcq", "sata", "matrix", "bowtie", "cloze", "highlight", "ordering"]},
           "question": {"type": "string", "minLength": 10},
           "options": {"type": "array", "items": {"type": "string"}, "minItems": 2},
           "rows": {"type": "array", "items": {"type": "string"}},

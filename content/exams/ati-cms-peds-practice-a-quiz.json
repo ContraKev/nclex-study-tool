@@ -1,0 +1,1328 @@
+{
+  "id": "ati_cms_peds_practice_a",
+  "name": "ATI CMS Peds Practice A — Comprehensive",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "q1_mcq_erikson_infancy",
+      "type": "mcq",
+      "question": "A nurse is caring for a 6-month-old infant at a well-child visit. The parent asks how to promote healthy development. Based on Erikson's psychosocial theory, which nursing intervention best supports the infant's developmental task?",
+      "options": [
+        "Provide consistent, responsive care and meet needs promptly",
+        "Offer choices to promote independence",
+        "Encourage fantasy play with role assignments",
+        "Support achievement of academic tasks"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Trust vs Mistrust (0–1 year) requires consistent, responsive caregiving. Promptly meeting needs (feeding, comfort, diaper changes) builds trust. Option B (Autonomy vs Shame) is for toddlers 1–3 years. Option C (Initiative vs Guilt) is for preschoolers 3–6 years. Option D (Industry vs Inferiority) is for school-age 6–12 years. This tests knowledge of Erikson's age-specific stages.",
+      "slide": 15
+    },
+    {
+      "id": "q2_sata_milestones_infancy",
+      "type": "sata",
+      "question": "A nurse is assessing a 9-month-old infant. Which developmental milestones are expected at this age? (Select all that apply.)",
+      "options": [
+        "Pincer grasp with thumb and index finger",
+        "Independent walking without assistance",
+        "Stranger anxiety and separation distress",
+        "Sitting unsupported and crawling",
+        "Saying 'mama' and 'dada' with meaning"
+      ],
+      "answer": [0, 2, 3, 4],
+      "rationale": "Correct: 9-month milestones include pincer grasp (fine motor), stranger anxiety (social/emotional), sitting unsupported and crawling (gross motor), and meaningful 'mama/dada' (language). Option B (independent walking) is 12–15 months. This tests knowledge of infant developmental milestones per Bright Futures/ATI standards.",
+      "slide": 16
+    },
+    {
+      "id": "q3_mcq_safety_car_seat",
+      "type": "mcq",
+      "question": "A parent of a 10-month-old infant asks about car seat safety. Which teaching by the nurse is correct?",
+      "options": [
+        "Rear-facing car seat in the back seat until the infant is at least 1 year and 20 pounds",
+        "Forward-facing car seat is appropriate once the infant can sit alone",
+        "The infant can ride in the front seat if the airbag is disabled",
+        "Booster seat is appropriate starting at 12 months"
+      ],
+      "answer": [0],
+      "rationale": "Correct: AAP guidelines and ATI safety teaching recommend rear-facing car seats in the back seat until age 2 or manufacturer max height/weight (whichever comes last). Option B is incorrect — forward-facing too early increases injury risk. Option C is unsafe — front seats are never recommended for infants. Option D (booster) is for older children. This tests age-specific injury prevention.",
+      "slide": 15
+    },
+    {
+      "id": "q4_sata_safety_toddler",
+      "type": "sata",
+      "question": "A nurse is providing anticipatory guidance to parents of a 2-year-old. Which safety measures should be included? (Select all that apply.)",
+      "options": [
+        "Turn pot handles to the back of the stove",
+        "Keep all medications and cleaning supplies locked",
+        "Allow the child to sleep in a car seat at home for convenience",
+        "Use a forward-facing car seat after the child turns 1 year",
+        "Supervise near water and empty pools/bathtubs immediately"
+      ],
+      "answer": [0, 1, 4],
+      "rationale": "Correct: Pot handles back (burn prevention), locked cabinets (poisoning prevention), and water supervision (drowning prevention — leading cause of death in toddlers) are all essential. Option C is unsafe — car seats are for vehicles, not sleeping (risk of positional asphyxia). Option D is incorrect — AAP recommends rear-facing until age 2. This tests toddler-specific injury prevention.",
+      "slide": 17
+    },
+    {
+      "id": "q5_mcq_piaget_sensorimotor",
+      "type": "mcq",
+      "question": "A 10-month-old infant is observed searching for a toy hidden under a cloth. This behavior demonstrates which Piaget cognitive concept?",
+      "options": [
+        "Object permanence",
+        "Egocentrism",
+        "Conservation",
+        "Abstract reasoning"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Object permanence develops around 8–10 months in the sensorimotor stage. The infant understands the toy still exists when hidden. Option B (egocentrism) is preoperational (2–7 years). Option C (conservation) is concrete operational (7–11 years). Option D (abstract reasoning) is formal operational (11+ years). This tests Piaget's cognitive development stages.",
+      "slide": 15
+    },
+    {
+      "id": "q6_matrix_family_types",
+      "type": "matrix",
+      "question": "Match each family description with the correct classification:",
+      "rows": [
+        "Biological parents and their children living together",
+        "A parent remarries, bringing children from previous relationships",
+        "A single parent raising children alone",
+        "Grandparents living with parents and children"
+      ],
+      "columns": [
+        "Nuclear family",
+        "Blended family",
+        "Single-parent family",
+        "Extended family"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Correct: Nuclear (biological parents + children) → A. Blended (remarriage with stepchildren) → B. Single-parent → C. Extended (grandparents/other relatives) → D. This tests family structure knowledge from Chapter 15 and ATI content.",
+      "slide": 15
+    },
+    {
+      "id": "q7_mcq_sids_prevention",
+      "type": "mcq",
+      "question": "A nurse is teaching new parents about SIDS prevention. Which statement indicates understanding?",
+      "options": [
+        "We will place our baby on her back to sleep and use a firm mattress",
+        "We will place soft bedding and pillows in the crib for comfort",
+        "We will co-sleep with the baby in our bed for bonding",
+        "We will place the baby on her stomach when she has a cold"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Back to sleep on a firm mattress with no soft bedding is the AAP Safe Sleep recommendation to reduce SIDS risk. Option B increases suffocation risk. Option C (co-sleeping) increases SIDS risk per AAP. Option D is dangerous — prone position increases SIDS. This tests safety teaching for infancy.",
+      "slide": 16
+    },
+    {
+      "id": "q8_sata_dehydration_infants",
+      "type": "sata",
+      "question": "A nurse is assessing an infant for dehydration. Which findings indicate moderate dehydration? (Select all that apply.)",
+      "options": [
+        "Sunken fontanelle and dry mucous membranes",
+        "Capillary refill greater than 3 seconds",
+        "Increased urine output",
+        "Tachycardia and irritability",
+        "Skin turgor that returns slowly"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Sunken fontanelle, dry mucous membranes, delayed capillary refill, tachycardia, irritability, and slow skin turgor are signs of moderate dehydration. Option C is incorrect — decreased urine output is expected. This tests fluid/electrolyte assessment from the CMS study guide.",
+      "slide": 22
+    },
+    {
+      "id": "q9_mcq_burns_pot_safety",
+      "type": "mcq",
+      "question": "A parent reports that their 3-year-old pulled a pot of boiling water off the stove, sustaining burns to the face and chest. Which teaching should the nurse provide to prevent future burns?",
+      "options": [
+        "Keep pot handles turned to the back of the stove and cook on back burners",
+        "Allow the child to help cook to promote autonomy",
+        "Keep hot beverages on low tables within reach",
+        "Test bath water with the child's hand before bathing"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Pot handles to the back and using back burners prevent toddlers from grabbing hot items. Option B is unsafe — young children should not help cook near hot surfaces. Option C is dangerous — hot liquids within reach cause burns. Option D is incorrect — use a thermometer or wrist/elbow to test. This tests preschooler safety.",
+      "slide": 18
+    },
+    {
+      "id": "q10_mcq_dental_health",
+      "type": "mcq",
+      "question": "A nurse is providing oral health teaching for parents of an 18-month-old. Which statement is correct?",
+      "options": [
+        "Brush the child's teeth twice daily with a soft brush and fluoridated toothpaste (pea-sized amount)",
+        "Avoid fluoride until age 6 years to prevent fluorosis",
+        "Give a bottle of juice at bedtime for comfort",
+        "Start brushing at age 3 years when the child can cooperate"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Brush twice daily with soft brush and pea-sized fluoridated toothpaste starting with first tooth. Option B is incorrect — fluoride is recommended starting at 6 months. Option C causes nursing bottle caries. Option D is incorrect — brushing should start with first tooth, not delayed. This tests oral health promotion from Chapter 15.",
+      "slide": 15
+    },
+    {
+      "id": "q11_mcq_prioritization_abc",
+      "type": "mcq",
+      "question": "A nurse receives report on four pediatric clients. Which client should the nurse see first?",
+      "options": [
+        "A 6-month-old with nasal flaring, grunting, and oxygen saturation of 88%",
+        "A 3-year-old with a fever of 38.5°C and a mild cough",
+        "A 7-year-old with a history of asthma who is playing quietly",
+        "A 12-year-old with a sprained ankle requesting pain medication"
+      ],
+      "answer": [0],
+      "rationale": "Correct: ABCs — this infant has respiratory distress (nasal flaring, grunting, SpO2 88%). This is an emergency requiring immediate intervention. Option B (stable fever, mild cough) is lower priority. Option C (playing quietly) is stable asthma. Option D (sprain, requesting pain med) is non-urgent. This tests prioritization using ABCs and recognizing pediatric respiratory decompensation.",
+      "slide": 22
+    },
+    {
+      "id": "q12_sata_dehydration_signs",
+      "type": "sata",
+      "question": "A nurse is assessing a 2-year-old with gastroenteritis for dehydration. Which findings require immediate intervention? (Select all that apply.)",
+      "options": [
+        "Sunken eyes and fontanelle",
+        "Capillary refill of 4 seconds",
+        "Moist mucous membranes",
+        "Absence of tears when crying",
+        "Alert and playful behavior"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: Sunken eyes/fontanelle, delayed capillary refill (>3 sec), and absence of tears indicate moderate-severe dehydration requiring intervention (IV fluids, rehydration). Option C (moist membranes) and Option E (alert/playful) indicate adequate hydration. This tests dehydration assessment per CMS/ATI standards.",
+      "slide": 22
+    },
+    {
+      "id": "q13_mcq_pain_faces",
+      "type": "mcq",
+      "question": "A 4-year-old child is crying and pointing to their knee after a fall. Which pain assessment tool is most appropriate for this age?",
+      "options": [
+        "FACES Pain Scale",
+        "Numeric 0–10 Scale",
+        "FLACC Behavioral Scale",
+        "Oucher Scale (photographic)"
+      ],
+      "answer": [0],
+      "rationale": "Correct: FACES is appropriate for children 3+ years who can point to a face matching their pain. Option B (numeric) requires abstract thinking (best for 8+ years). Option C (FLACC) is for nonverbal/infants. Option D (Oucher) is also valid for 3+ but FACES is more commonly used per ATI. This tests age-appropriate pain assessment.",
+      "slide": 22
+    },
+    {
+      "id": "q14_matrix_pain_tools",
+      "type": "matrix",
+      "question": "Match each pain assessment tool with the correct age group:",
+      "rows": [
+        "FACES Scale",
+        "FLACC Scale",
+        "Numeric 0–10 Scale",
+        "CRIES Scale"
+      ],
+      "columns": [
+        "Infants (0–6 months)",
+        "Infants/Toddlers (nonverbal)",
+        "Preschool/School-age (3+ years)",
+        "School-age/Adolescents (8+ years)"
+      ],
+      "answer": [2, 1, 3, 0],
+      "rationale": "Correct: FACES (3+ years, can point to faces) → C. FLACC (nonverbal, behavioral cues) → B. Numeric (abstract thinking required) → D. CRIES (infants, Crying/Requires O2/Increased vitals/Expression/Sleeplessness) → A. This tests knowledge of age-specific pain scales per ATI/CMS.",
+      "slide": 22
+    },
+    {
+      "id": "q15_mcq_triage_pediatric",
+      "type": "mcq",
+      "question": "In the pediatric ED, a nurse is triaging using the Pediatric Assessment Triangle. Which child requires emergent (immediate) care?",
+      "options": [
+        "An infant with poor muscle tone, grunting respirations, and pale skin",
+        "A toddler with a rash and mild fever, playing with toys",
+        "A school-age child with a laceration on the arm, stable vitals",
+        "An adolescent with a sprained wrist, walking independently"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Poor tone, abnormal breathing (grunting), and abnormal circulation (pallor) = all three PAT components abnormal → emergent care. Option B is stable. Option C (laceration, stable vitals) is urgent but not emergent. Option D is minor injury. This tests the Pediatric Assessment Triangle (PAT) for triage.",
+      "slide": 22
+    },
+    {
+      "id": "q16_sata_pain_interventions",
+      "type": "sata",
+      "question": "A nurse is preparing a 6-year-old for a painful dressing change. Which interventions should be included? (Select all that apply.)",
+      "options": [
+        "Administer prescribed analgesic 30–60 minutes before the procedure",
+        "Allow the child to hold a comfort object during the procedure",
+        "Explain the procedure in detail including all technical terms",
+        "Use distraction techniques (bubbles, music, video)",
+        "Perform the dressing change without warning the child"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: Premedicate (30–60 min before), allow comfort objects, and use distraction reduce pain perception. Option C is inappropriate — use simple, concrete terms for this age. Option E is unethical and increases fear. This tests pre-procedural pain management and age-appropriate communication.",
+      "slide": 22
+    },
+    {
+      "id": "q17_mcq_maslow_pediatric",
+      "type": "mcq",
+      "question": "A nurse is prioritizing care for a hospitalized 5-year-old. Using Maslow's hierarchy, which need should be addressed first?",
+      "options": [
+        "Maintaining adequate hydration and nutrition",
+        "Providing age-appropriate toys for play",
+        "Allowing the child to call parents on video chat",
+        "Praising the child for completing a puzzle"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Physiological needs (hydration, nutrition) are the foundation of Maslow's hierarchy and must be met first. Option B (play) is belonging/esteem. Option C (video call) is belonging. Option D (praise) is esteem. This tests prioritization using Maslow in pediatric care.",
+      "slide": 22
+    },
+    {
+      "id": "q18_sata_preop_peds",
+      "type": "sata",
+      "question": "A nurse is preparing a 4-year-old for surgery. Which interventions reduce preoperative anxiety? (Select all that apply.)",
+      "options": [
+        "Allow the child to play with medical equipment (mask, stethoscope)",
+        "Provide simple, honest explanations of what to expect",
+        "Separate the child from parents during preparation",
+        "Use therapeutic play (dolls, drawings) to explain the procedure",
+        "Promise the child there will be no pain"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: Medical play, simple explanations, and therapeutic play reduce fear and give a sense of control. Option C is incorrect — parental presence reduces separation anxiety. Option E is false reassurance — some pain is expected. This tests preoperative preparation and family-centered care.",
+      "slide": 21
+    },
+    {
+      "id": "q19_mcq_fluid_intake",
+      "type": "mcq",
+      "question": "A 3-year-old with vomiting and diarrhea has had 4 wet diapers in 24 hours. The parent is concerned. Which response by the nurse is correct?",
+      "options": [
+        "Four wet diapers per day is adequate hydration for a 3-year-old",
+        "The child needs at least 8 wet diapers per day to be considered hydrated",
+        "We should start IV fluids immediately",
+        "The child is severely dehydrated and needs hospitalization"
+      ],
+      "answer": [0],
+      "rationale": "Correct: 4–6 wet diapers per day is adequate for a toddler. Infants should have 6–8, but toddlers have larger bladders. Option B is for infants. Option C/D are not indicated — child is not severely dehydrated (wet diapers, alert). This tests age-specific hydration assessment.",
+      "slide": 22
+    },
+    {
+      "id": "q20_mcq_preemptive_pain",
+      "type": "mcq",
+      "question": "A nurse is planning care for a 5-year-old scheduled for a dressing change. Which statement reflects best practice for pain management?",
+      "options": [
+        "Administer pain medication 30–60 minutes before the dressing change",
+        "Wait until the child reports pain before giving medication",
+        "Use distraction alone without medication for painful procedures",
+        "Avoid opioids in children due to respiratory depression risk"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Premedication 30–60 minutes before painful procedures prevents pain escalation and reduces anticipatory anxiety. Option B (PRN only) allows pain to escalate. Option C (distraction alone) is insufficient for moderate-severe pain. Option D is incorrect — opioids are appropriate for severe pain with monitoring. This tests preemptive pain management.",
+      "slide": 22
+    },
+    {
+      "id": "q21_mcq_asthma_peak_flow",
+      "type": "mcq",
+      "question": "A school-age child with asthma is using a peak flow meter. Which reading indicates the child should use quick-relief medication and may need to call the provider?",
+      "options": [
+        "Yellow zone (50–79% of personal best)",
+        "Green zone (80–100% of personal best)",
+        "Red zone (below 50% of personal best)",
+        "Any reading is acceptable if the child feels fine"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Yellow zone (50–79%) means caution — use quick-relief inhaler, follow action plan, may limit activity. Green zone is good control. Red zone is emergency (below 50%) — seek immediate care. This tests asthma management and peak flow interpretation per ATI.",
+      "slide": 23
+    },
+    {
+      "id": "q22_sata_cystic_fibrosis",
+      "type": "sata",
+      "question": "A nurse is teaching parents about home care for a child with cystic fibrosis. Which interventions should be included? (Select all that apply.)",
+      "options": [
+        "Perform chest physiotherapy twice daily",
+        "Give pancreatic enzymes with every meal and snack",
+        "Restrict fluids to reduce mucus production",
+        "Provide a high-calorie, high-protein diet",
+        "Administer fat-soluble vitamin supplements (A, D, E, K)"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: CPT clears mucus, enzymes with meals aid digestion (CF blocks pancreatic ducts), high-calorie/protein combats malabsorption, and ADEK vitamins replace fat-soluble vitamins not absorbed. Option C is incorrect — hydration is essential to thin mucus. This tests CF management per CMS/ATI.",
+      "slide": 23
+    },
+    {
+      "id": "q23_mcq_croup_intervention",
+      "type": "mcq",
+      "question": "A 2-year-old presents with a barking cough, stridor, and mild retractions at rest. Which intervention is most appropriate?",
+      "options": [
+        "Administer nebulized racemic epinephrine and oral corticosteroids",
+        "Prepare for immediate intubation",
+        "Perform a throat examination to assess epiglottis",
+        "Discharge home with no treatment"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Moderate croup (stridor at rest, retractions) is treated with nebulized racemic epinephrine (reduces airway swelling) and corticosteroids (dexamethasone reduces inflammation). Option B is for severe respiratory failure. Option C is contraindicated — may trigger epiglottitis. Option D is unsafe. This tests croup management per ATI.",
+      "slide": 23
+    },
+    {
+      "id": "q24_mcq_bronchiolitis_rsv",
+      "type": "mcq",
+      "question": "A 4-month-old with bronchiolitis (RSV) is admitted. Which intervention is the priority?",
+      "options": [
+        "Suction nasal passages before feeding and monitor oxygen saturation",
+        "Administer antibiotics immediately",
+        "Place in a mist tent with cool humidified air",
+        "Isolate from other infants on the unit"
+      ],
+      "answer": [0],
+      "rationale": "Correct: RSV causes nasal congestion blocking breathing — suctioning before feeds ensures adequate nutrition/hydration. Monitor SpO2 for hypoxia. Option B is incorrect — RSV is viral. Option C (mist tent) is outdated. Option D (isolation) is contact precautions, but priority is airway. This tests bronchiolitis care per CMS/ATI.",
+      "slide": 23
+    },
+    {
+      "id": "q25_sata_asthma_triggers",
+      "type": "sata",
+      "question": "A nurse is teaching a family about asthma trigger avoidance. Which factors should be avoided? (Select all that apply.)",
+      "options": [
+        "Secondhand smoke and pet dander",
+        "Cold air and respiratory infections",
+        "Daily physical exercise",
+        "Dust mites and mold",
+        "Inhaled corticosteroids"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: Smoke, pet dander, cold air, infections, dust mites, and mold are common triggers. Option C is incorrect — exercise is beneficial (pre-treat with albuterol). Option E (inhaled steroids) is a controller medication, not a trigger. This tests asthma trigger education.",
+      "slide": 23
+    },
+    {
+      "id": "q26_mcq_epiglottitis",
+      "type": "mcq",
+      "question": "A 3-year-old presents with high fever, drooling, and tripod positioning. The nurse suspects epiglottitis. Which action is the priority?",
+      "options": [
+        "Prepare for emergency airway management; do not inspect the throat",
+        "Immediately perform a throat culture",
+        "Place in supine position for comfort",
+        "Administer a nebulized bronchodilator"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Epiglottitis is a medical emergency — the swollen epiglottis can completely obstruct the airway. Never inspect the throat (may trigger spasm). Prepare for intubation. Option B is unsafe. Option C is dangerous — upright position is preferred. Option D is ineffective for epiglottitis. This tests epiglottitis recognition and airway priority.",
+      "slide": 23
+    },
+    {
+      "id": "q27_matrix_respiratory_signs",
+      "type": "matrix",
+      "question": "Match each respiratory condition with its characteristic sign:",
+      "rows": [
+        "Croup",
+        "Epiglottitis",
+        "Bronchiolitis",
+        "Cystic Fibrosis"
+      ],
+      "columns": [
+        "Barking cough, stridor",
+        "Drooling, tripod position",
+        "Wheezing, crackles, nasal flaring",
+        "Steatorrhea, chronic cough, failure to thrive"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Correct: Croup → A (barking cough, stridor). Epiglottitis → B (drooling, tripod). Bronchiolitis (RSV) → C (wheezing, crackles, nasal flaring). CF → D (steatorrhea from malabsorption, chronic respiratory symptoms). This tests recognition of pediatric respiratory disorders.",
+      "slide": 23
+    },
+    {
+      "id": "q28_mcq_asthma_green_zone",
+      "type": "mcq",
+      "question": "A parent asks what the green zone on a peak flow meter means. Which response is correct?",
+      "options": [
+        "Good asthma control — continue routine medications",
+        "Caution — use quick-relief inhaler and monitor closely",
+        "Medical emergency — seek immediate care",
+        "The child should stop all medications"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Green zone (80–100% personal best) means good control — continue routine controller and rescue medications as prescribed. Yellow zone is caution. Red zone is emergency. Option D is dangerous — never stop medications without provider guidance. This tests asthma action plan teaching.",
+      "slide": 23
+    },
+    {
+      "id": "q29_sata_croup_home",
+      "type": "sata",
+      "question": "Parents call about their 18-month-old with mild croup (barking cough, no stridor at rest). Which home care instructions are appropriate? (Select all that apply.)",
+      "options": [
+        "Use a cool mist humidifier in the child's room",
+        "Have the child breathe cool night air",
+        "Give warm milk to soothe the throat",
+        "Position the child upright for sleep",
+        "Seek immediate care if stridor is present at rest"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Cool mist, cool air, upright positioning, and seeking care for stridor at rest are appropriate. Option C (warm milk) is not harmful but not therapeutic. This tests mild croup home management and red flags for seeking care.",
+      "slide": 23
+    },
+    {
+      "id": "q30_mcq_cystic_fibrosis_enzymes",
+      "type": "mcq",
+      "question": "A parent asks when to give pancreatic enzymes to their child with cystic fibrosis. Which teaching is correct?",
+      "options": [
+        "With every meal and snack to aid digestion",
+        "Only with breakfast and dinner",
+        "On an empty stomach 30 minutes before eating",
+        "Only when the child has abdominal pain"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Pancreatic enzymes must be given with all meals and snacks because the child's pancreas does not produce adequate enzymes for fat/protein digestion. Missing doses leads to malabsorption, steatorrhea, and poor growth. This tests CF enzyme replacement therapy.",
+      "slide": 23
+    },
+    {
+      "id": "q31_mcq_rsv_prevention",
+      "type": "mcq",
+      "question": "Which intervention is most effective for preventing RSV bronchiolitis in high-risk infants?",
+      "options": [
+        "Palivizumab (Synagis) monthly during RSV season",
+        "Yearly influenza vaccination only",
+        "Daily oral antibiotics",
+        "Avoiding all contact with other children"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Palivizumab (monoclonal antibody) is given monthly during RSV season (Nov–March) to high-risk infants (preterm, chronic lung disease, cardiac disease) to prevent severe RSV. Option B is for flu. Option C is not used for viral prevention. Option D is impractical. This tests RSV prophylaxis.",
+      "slide": 23
+    },
+    {
+      "id": "q32_sata_respiratory_distress",
+      "type": "sata",
+      "question": "A nurse is monitoring a child with respiratory distress. Which findings indicate worsening respiratory status requiring immediate intervention? (Select all that apply.)",
+      "options": [
+        "Nasal flaring and grunting",
+        "Oxygen saturation of 92% on room air",
+        "Use of accessory muscles",
+        "Alert and interactive behavior",
+        "Cyanosis around lips and nail beds"
+      ],
+      "answer": [0, 2, 4],
+      "rationale": "Correct: Nasal flaring/grunting, accessory muscle use, and cyanosis indicate severe respiratory distress. Option B (SpO2 92%) is borderline but not alone alarming. Option D (alert) indicates compensation. This tests recognition of pediatric respiratory failure.",
+      "slide": 23
+    },
+    {
+      "id": "q33_mcq_congenital_heart",
+      "type": "mcq",
+      "question": "A 3-month-old with a known VSD presents with tachypnea, diaphoresis during feeding, and poor weight gain. Which nursing intervention is the priority?",
+      "options": [
+        "Provide small, frequent feedings with rest periods",
+        "Encourage the infant to finish entire bottle at each feeding",
+        "Place infant supine during and after feeds",
+        "Restrict fluid intake to prevent pulmonary edema"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Small, frequent feedings with rest periods reduce energy expenditure and prevent fatigue in heart failure. Option B (finishing bottle) increases workload. Option C is incorrect — upright position reduces work of breathing. Option D is incorrect — adequate hydration is needed. This tests nursing care of infants with congenital heart disease and heart failure.",
+      "slide": 24
+    },
+    {
+      "id": "q34_sata_kawasaki",
+      "type": "sata",
+      "question": "A child with Kawasaki disease is admitted. Which findings are classic for this condition? (Select all that apply.)",
+      "options": [
+        "Strawberry tongue and red cracked lips",
+        "Conjunctivitis without exudate",
+        "Peeling skin on palms and soles",
+        "High fever lasting more than 5 days",
+        "Bilateral cervical lymphadenopathy"
+      ],
+      "answer": [0, 1, 2, 3, 4],
+      "rationale": "Correct: All are classic Kawasaki signs — strawberry tongue, non-exudative conjunctivitis, desquamation of palms/soles, prolonged fever (>5 days), and cervical lymphadenopathy. This is a vasculitis affecting coronary arteries. IVIG and aspirin are key treatments. This tests Kawasaki disease recognition per CMS/ATI.",
+      "slide": 24
+    },
+    {
+      "id": "q35_mcq_tet_spells",
+      "type": "mcq",
+      "question": "A 2-year-old with tetralogy of Fallot has a hypercyanotic (tet) spell. Which intervention should the nurse implement first?",
+      "options": [
+        "Place the child in knee-chest position",
+        "Administer oxygen via non-rebreather mask",
+        "Prepare for emergency cardiac surgery",
+        "Administer IV fluid bolus"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Knee-chest position increases systemic vascular resistance, which reduces right-to-left shunting and improves oxygenation. This is the immediate first intervention. Option B (O2) is next. Option C is not immediate. Option D may help but position is first. This tests tet spell management.",
+      "slide": 24
+    },
+    {
+      "id": "q36_mcq_post_cardiac_cath",
+      "type": "mcq",
+      "question": "A child returns from cardiac catheterization. Which assessment finding requires immediate notification of the provider?",
+      "options": [
+        "Diminished or absent pedal pulses in the catheterized leg",
+        "Mild swelling and bruising at the insertion site",
+        "Small amount of clear drainage on the dressing",
+        "Complaints of mild discomfort at the site"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Diminished or absent pulses indicate possible arterial thrombosis or vessel occlusion — a complication requiring immediate intervention (anticoagulation, possible thrombectomy). Option B (mild swelling/bruising) is expected. Options C/D are minor findings. This tests post-cardiac catheterization care and complication recognition.",
+      "slide": 24
+    },
+    {
+      "id": "q37_sata_rheumatic_fever",
+      "type": "sata",
+      "question": "A child with a history of strep throat now has joint pain, rash, and a heart murmur. Which interventions are appropriate? (Select all that apply.)",
+      "options": [
+        "Administer long-term penicillin prophylaxis",
+        "Monitor for signs of heart failure",
+        "Restrict activity during acute phase",
+        "Teach parents to seek care for sore throat promptly",
+        "Give aspirin for arthritis and fever"
+      ],
+      "answer": [0, 1, 2, 3, 4],
+      "rationale": "Correct: All are appropriate for rheumatic fever — penicillin prevents recurrence and protects valves, monitor for HF (carditis is major complication), rest during acute phase, teach prompt strep treatment, and aspirin for inflammation. This tests rheumatic fever management and prevention of recurrence.",
+      "slide": 24
+    },
+    {
+      "id": "q38_mcq_chf_diaphoresis",
+      "type": "mcq",
+      "question": "A parent reports that their infant with a VSD sweats excessively during feeds and has poor weight gain. What does this indicate?",
+      "options": [
+        "Heart failure — the infant is working hard to breathe and feed",
+        "Normal infant behavior — infants often sweat during feeds",
+        "Hyperthyroidism — the infant has increased metabolism",
+        "Infection — the infant is running a fever"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Excessive diaphoresis during feeds and poor weight gain in an infant with a VSD indicate heart failure — the infant is expending excessive energy on breathing and feeding due to pulmonary overcirculation. This is a classic sign of CHF in infants. This tests recognition of heart failure signs.",
+      "slide": 24
+    },
+    {
+      "id": "q39_mcq_digoxin_peds",
+      "type": "mcq",
+      "question": "A nurse is preparing to administer digoxin to a 6-month-old with heart failure. Which finding should prompt the nurse to withhold the dose?",
+      "options": [
+        "Heart rate of 88 beats per minute",
+        "Serum potassium of 4.0 mEq/L",
+        "Respiratory rate of 32 breaths per minute",
+        "Weight gain of 2 ounces since yesterday"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Hold digoxin if HR <90–100 in infants (varies by age). HR 88 is below the threshold — giving digoxin could cause severe bradycardia. Option B (K+ 4.0) is normal. Option C (RR 32) is normal for infant. Option D (2 oz gain) is expected. This tests digoxin administration and toxicity prevention.",
+      "slide": 24
+    },
+    {
+      "id": "q40_sata_chd_teaching",
+      "type": "sata",
+      "question": "A nurse is providing discharge teaching for parents of a child with a repaired VSD. Which instructions are essential? (Select all that apply.)",
+      "options": [
+        "Follow up with cardiology as scheduled",
+        "Report fever, weight loss, or signs of infection promptly",
+        "No activity restrictions are needed after healing",
+        "Complete antibiotic prophylaxis before dental procedures",
+        "Monitor for signs of heart failure (poor feeding, sweating, tachypnea)"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Cardiology follow-up, prompt infection reporting, SBE prophylaxis before dental procedures, and HF monitoring are all essential. Option C is incorrect — activity may be restricted initially or long-term depending on repair. This tests postoperative care and long-term management of congenital heart disease.",
+      "slide": 24
+    },
+    {
+      "id": "q41_mcq_meningitis_signs",
+      "type": "mcq",
+      "question": "A 4-year-old presents with fever, headache, neck stiffness, and photophobia. The nurse notes a positive Kernig sign. Which action is the priority?",
+      "options": [
+        "Prepare for lumbar puncture and initiate droplet precautions",
+        "Administer oral acetaminophen for fever",
+        "Place in Trendelenburg position",
+        "Offer fluids to maintain hydration"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Meningitis (fever, nuchal rigidity, Kernig/Brudzinski signs, photophobia) is a medical emergency. Lumbar puncture for diagnosis and antibiotics are priority. Droplet precautions until 24 hours after antibiotics. Option B is secondary. Options C/D are not priorities. This tests meningitis recognition and management.",
+      "slide": 23
+    },
+    {
+      "id": "q42_sata_seizure_precautions",
+      "type": "sata",
+      "question": "A child with a history of seizures is admitted. Which precautions should be implemented? (Select all that apply.)",
+      "options": [
+        "Pad bed side rails",
+        "Keep suction and oxygen at bedside",
+        "Restrain the child during a seizure",
+        "Place the child on their side during a seizure",
+        "Insert an oral airway during a seizure"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: Padded rails, suction/O2 at bedside, and side-lying position (prevents aspiration) are standard seizure precautions. Option C (restrain) can cause injury. Option E (oral airway) is dangerous — do not insert anything in mouth during seizure. This tests seizure safety per CMS/ATI.",
+      "slide": 23
+    },
+    {
+      "id": "q43_mcq_hydroceph_signs",
+      "type": "mcq",
+      "question": "A 3-month-old with hydrocephalus has which characteristic finding?",
+      "options": [
+        "Increasing head circumference and bulging fontanelle",
+        "Small head size and closed fontanelle",
+        "Sunken eyes and dry fontanelle",
+        "High fever and rash"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Hydrocephalus causes CSF accumulation → increased head circumference (crosses percentiles), bulging fontanelle, setting-sun sign, irritability. Option B is microcephaly. Option C is dehydration. Option D is infection. This tests hydroceph recognition and shunt malfunction signs.",
+      "slide": 23
+    },
+    {
+      "id": "q44_mcq_reye_syndrome",
+      "type": "mcq",
+      "question": "A parent asks about giving aspirin to their child with a fever. Which teaching is correct?",
+      "options": [
+        "Never give aspirin to children with viral illness — it is linked to Reye syndrome",
+        "Aspirin is the preferred antipyretic for all children",
+        "Aspirin is safe in children under 2 years",
+        "Aspirin can be given with acetaminophen for stronger effect"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Aspirin is contraindicated in children with viral illness (flu, chickenpox) due to risk of Reye syndrome (acute encephalopathy + fatty liver). Acetaminophen or ibuprofen are preferred. This tests Reye syndrome prevention per CMS/ATI.",
+      "slide": 23
+    },
+    {
+      "id": "q45_matrix_neuro_disorders",
+      "type": "matrix",
+      "question": "Match each neurological condition with its key nursing intervention:",
+      "rows": [
+        "Meningitis",
+        "Seizures",
+        "Hydroceph with VP shunt",
+        "Cerebral palsy"
+      ],
+      "columns": [
+        "Droplet precautions, monitor ICP",
+        "Side-lying, suction at bedside, time seizure",
+        "Monitor for shunt malfunction (headache, vomiting)",
+        "Positioning, PT/OT, prevent contractures"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Correct: Meningitis → A (droplet precautions, ICP monitoring). Seizures → B (position, suction, time). Hydroceph/shunt → C (monitor for malfunction). CP → D (positioning, therapy, prevent contractures). This tests neurological disorder nursing interventions.",
+      "slide": 23
+    },
+    {
+      "id": "q46_mcq_cerebral_palsy",
+      "type": "mcq",
+      "question": "A 4-year-old with cerebral palsy presents with increased muscle tone, scissoring gait, and difficulty with fine motor tasks. Which intervention is most important?",
+      "options": [
+        "Provide physical and occupational therapy to prevent contractures",
+        "Restrict all physical activity to prevent injury",
+        "Focus only on cognitive development — motor skills will improve naturally",
+        "Avoid stretching exercises — they cause pain"
+      ],
+      "answer": [0],
+      "rationale": "Correct: CP is non-progressive but motor impairments persist. PT/OT maintain range of motion, prevent contractures, and maximize function. Option B is incorrect — activity is important. Option C is false — motor skills need active intervention. Option D is incorrect — stretching is part of therapy. This tests CP management.",
+      "slide": 23
+    },
+    {
+      "id": "q47_sata_shunt_malfunction",
+      "type": "sata",
+      "question": "A child with a VP shunt for hydroceph presents with headache, vomiting, and irritability. Which actions are appropriate? (Select all that apply.)",
+      "options": [
+        "Notify the provider immediately",
+        "Elevate the head of bed",
+        "Prepare for possible shunt revision",
+        "Give antiemetics and observe at home",
+        "Monitor fontanelle and head circumference"
+      ],
+      "answer": [0, 1, 2, 4],
+      "rationale": "Correct: Shunt malfunction is an emergency — notify provider, elevate HOB, prepare for revision, monitor fontanelle/HC. Option D (antiemetics and home) is unsafe — these signs indicate increased ICP. This tests VP shunt malfunction recognition and management.",
+      "slide": 23
+    },
+    {
+      "id": "q48_mcq_spina_bifida_latex",
+      "type": "mcq",
+      "question": "A newborn with myelomeningocele is admitted. Which precaution is essential?",
+      "options": [
+        "Latex precautions — high risk for latex allergy",
+        "Strict NPO status for 48 hours",
+        "Place infant supine only",
+        "Restrict fluid intake"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Children with spina bifida/myelomeningocele have high latex allergy risk due to frequent catheterizations, surgeries, and exposure. Use latex-free gloves, catheters, and supplies. This is a standard precaution per CMS/ATI. This tests spina bifida care.",
+      "slide": 23
+    },
+    {
+      "id": "q49_sata_meningitis_complications",
+      "type": "sata",
+      "question": "A child is recovering from bacterial meningitis. Which complications should parents be educated to monitor for? (Select all that apply.)",
+      "options": [
+        "Hearing loss",
+        "Developmental delays",
+        "Seizures",
+        "Increased risk for repeat meningitis",
+        "Improved vision"
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Correct: Meningitis complications include hearing loss (most common), developmental delays, seizures, and cognitive deficits. Option D is not a typical long-term outcome. Option E is incorrect. This tests post-meningitis follow-up and parent education.",
+      "slide": 23
+    },
+    {
+      "id": "q50_mcq_seizure_med_adherence",
+      "type": "mcq",
+      "question": "A parent of a child on phenytoin for seizures asks about medication compliance. Which teaching is correct?",
+      "options": [
+        "Do not stop medication abruptly — seizures may increase or status epilepticus may occur",
+        "It is safe to miss doses occasionally if the child feels fine",
+        "Double the dose if a dose is missed",
+        "The child can stop medication after 6 months seizure-free"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Abrupt discontinuation of antiepileptics can trigger breakthrough seizures or status epilepticus. Medication should only be tapered under provider guidance. Options B/C/D are unsafe. This tests medication compliance and seizure management.",
+      "slide": 23
+    },
+    {
+      "id": "q51_mcq_sickle_crisis",
+      "type": "mcq",
+      "question": "A 6-year-old with sickle cell disease is in vaso-occlusive crisis. Which intervention is the priority?",
+      "options": [
+        "Administer IV fluids and pain medication",
+        "Restrict fluids to prevent pulmonary edema",
+        "Apply ice packs to painful joints",
+        "Encourage ambulation to reduce stiffness"
+      ],
+      "answer": [0],
+      "rationale": "Correct: IV hydration maintains blood flow and prevents further sickling; pain management (opioids + NSAIDs) is essential. Option B is incorrect — hydration is critical. Option C (ice) can worsen vasoconstriction. Option D is unsafe during crisis. This tests sickle cell crisis management per CMS/ATI.",
+      "slide": 25
+    },
+    {
+      "id": "q52_sata_hemophilia",
+      "type": "sata",
+      "question": "A child with hemophilia A has a joint bleed (hemarthrosis) in the knee. Which interventions are appropriate? (Select all that apply.)",
+      "options": [
+        "Administer factor VIII replacement immediately",
+        "Apply ice and elevate the joint",
+        "Encourage passive range of motion",
+        "Avoid NSAIDs and aspirin",
+        "Immobilize the joint"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Factor replacement is priority for acute bleed; RICE (rest, ice, compression, elevation) — ice and elevation are appropriate. NSAIDs/aspirin are avoided (interfere with platelet function). Immobilize during acute phase. Option C (passive ROM) is avoided during acute bleed. This tests hemophilia management.",
+      "slide": 25
+    },
+    {
+      "id": "q53_mcq_leukemia_neutropenia",
+      "type": "mcq",
+      "question": "A child undergoing chemotherapy for leukemia has an ANC of 400. Which precaution is most important?",
+      "options": [
+        "Neutropenic precautions — hand hygiene, avoid crowds, no fresh flowers",
+        "Bleeding precautions only — monitor for petechiae",
+        "Contact precautions — gown and gloves",
+        "Droplet precautions — mask and eye protection"
+      ],
+      "answer": [0],
+      "rationale": "Correct: ANC <500 indicates severe neutropenia — infection risk is critical. Neutropenic precautions include strict hand hygiene, avoiding crowds/fresh flowers/raw foods, and monitoring for fever. Option B is secondary. Options C/D are for other conditions. This tests leukemia/chemotherapy nursing care.",
+      "slide": 25
+    },
+    {
+      "id": "q54_mcq_iron_deficiency",
+      "type": "mcq",
+      "question": "A 2-year-old is diagnosed with iron-deficiency anemia. Which teaching is correct?",
+      "options": [
+        "Give iron supplement with vitamin C (orange juice) on an empty stomach or between meals",
+        "Give iron with milk to improve absorption",
+        "Iron supplements cause diarrhea — stop if this occurs",
+        "No dietary changes are needed with supplements"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Iron is best absorbed on empty stomach with vitamin C (enhances absorption). Avoid milk/calcium with iron (inhibits absorption). Iron causes constipation, not diarrhea. Iron-rich foods (meat, beans, fortified cereal) are important. This tests iron-deficiency anemia management.",
+      "slide": 25
+    },
+    {
+      "id": "q55_sata_leukemia_teaching",
+      "type": "sata",
+      "question": "Parents of a child with leukemia ask about home care. Which instructions should be included? (Select all that apply.)",
+      "options": [
+        "Wash hands frequently and avoid sick contacts",
+        "Monitor for fever and report immediately",
+        "Avoid fresh fruits and vegetables",
+        "Encourage the child to attend school normally",
+        "Report bleeding, bruising, or petechiae promptly"
+      ],
+      "answer": [0, 1, 2, 4],
+      "rationale": "Correct: Hand hygiene and avoiding sick contacts prevent infection. Fever is an emergency in neutropenia. Fresh produce can carry pathogens (avoid during neutropenia). Monitor for bleeding (thrombocytopenia). Option D is incorrect — school exposes to illness; home schooling or limited contact may be needed. This tests leukemia parent education.",
+      "slide": 25
+    },
+    {
+      "id": "q56_mcq_wilms_tumor",
+      "type": "mcq",
+      "question": "A child is suspected of having Wilms tumor. Which action is contraindicated?",
+      "options": [
+        "Palpating the abdomen to assess the tumor",
+        "Obtaining a CT scan of the abdomen",
+        "Monitoring blood pressure",
+        "Administering preoperative chemotherapy"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Never palpate the abdomen in Wilms tumor — it can cause tumor rupture and spread. Avoid rough handling. Diagnosis is by imaging (CT/MRI) and surgery. This is a critical safety teaching point for Wilms tumor. This tests Wilms tumor precautions.",
+      "slide": 25
+    },
+    {
+      "id": "q57_mcq_anemia_pallor",
+      "type": "mcq",
+      "question": "A toddler with iron-deficiency anemia is pale, fatigued, and irritable. The nurse notes tachycardia. Which finding indicates the anemia is improving?",
+      "options": [
+        "Increased energy and improved appetite",
+        "Increased heart rate",
+        "Pallor becoming more pronounced",
+        "Decreased hemoglobin level"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Improved energy and appetite indicate treatment response. Option B (tachycardia) is a sign of anemia. Option C (worsening pallor) is deterioration. Option D (decreasing Hgb) is worsening. This tests anemia response to treatment.",
+      "slide": 25
+    },
+    {
+      "id": "q58_sata_leukemia_labs",
+      "type": "sata",
+      "question": "A child with leukemia presents with petechiae and epistaxis. Which lab values would the nurse expect? (Select all that apply.)",
+      "options": [
+        "Low platelet count",
+        "Low hemoglobin and hematocrit",
+        "Elevated white blood cell count",
+        "Prolonged PT/PTT",
+        "Low ANC"
+      ],
+      "answer": [0, 1, 4],
+      "rationale": "Correct: Leukemia causes bone marrow suppression → low platelets (bleeding), low Hgb/Hct (anemia), low ANC (neutropenia). Option C is variable — WBC may be high (leukemia cells) or low (suppression). Option D (PT/PTT) is for coagulation disorders. This tests leukemia lab interpretation.",
+      "slide": 25
+    },
+    {
+      "id": "q59_mcq_lead_poisoning",
+      "type": "mcq",
+      "question": "A 3-year-old is diagnosed with lead poisoning (blood lead level 65 µg/dL). Which intervention is priority?",
+      "options": [
+        "Initiate chelation therapy (succimer or EDTA)",
+        "Provide nutritional education only",
+        "Monitor and recheck in 6 months",
+        "Give iron supplements to treat anemia"
+      ],
+      "answer": [0],
+      "rationale": "Correct: BLL >45 µg/dL requires chelation (succimer oral or EDTA IV/IM). This removes lead from tissues. Option B alone is insufficient. Option C is for lower levels. Option D (iron) treats anemia but not lead poisoning. This tests lead poisoning management.",
+      "slide": 25
+    },
+    {
+      "id": "q60_sata_sickle_prevention",
+      "type": "sata",
+      "question": "A nurse is teaching a family about preventing sickle cell crisis. Which measures should be included? (Select all that apply.)",
+      "options": [
+        "Maintain adequate hydration at all times",
+        "Avoid extreme temperatures (hot or cold)",
+        "Promptly treat infections with antibiotics",
+        "Encourage contact sports for cardiovascular health",
+        "Ensure yearly influenza vaccination"
+      ],
+      "answer": [0, 1, 2, 4],
+      "rationale": "Correct: Hydration prevents sickling, extreme temps cause vasoconstriction, infections trigger crisis (treat promptly), flu vaccine prevents respiratory infections. Option D is unsafe — contact sports can cause trauma and sickling. This tests sickle cell crisis prevention.",
+      "slide": 25
+    },
+    {
+      "id": "q61_mcq_ddh_pavlik",
+      "type": "mcq",
+      "question": "Parents of an infant in a Pavlik harness for DDH ask about care. Which statement is correct?",
+      "options": [
+        "The harness should be worn 23–24 hours per day as prescribed",
+        "Parents should adjust the straps if they seem too tight",
+        "Remove the harness at night for comfortable sleep",
+        "It is safe to place the infant prone in the harness"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Pavlik harness is worn 23–24 hours/day (may remove briefly for bathing per provider). Parents should NOT adjust straps — provider adjusts. Prone is unsafe. This tests DDH management and Pavlik harness teaching per CMS/ATI.",
+      "slide": 24
+    },
+    {
+      "id": "q62_sata_fracture_assessment",
+      "type": "sata",
+      "question": "A child with a fractured forearm has a cast. Which findings indicate possible compartment syndrome? (Select all that apply.)",
+      "options": [
+        "Severe pain not relieved by medication",
+        "Pallor and coolness of the fingers",
+        "Numbness and tingling in the hand",
+        "Capillary refill of 2 seconds",
+        "Inability to move fingers"
+      ],
+      "answer": [0, 1, 2, 4],
+      "rationale": "Correct: Unrelieved pain, pallor/coolness, paresthesia (numbness/tingling), and paralysis (inability to move) are classic 5 P's of compartment syndrome. Option D (CR 2 sec) is normal. This tests fracture/compartment syndrome recognition.",
+      "slide": 24
+    },
+    {
+      "id": "q63_mcq_scoliosis_screening",
+      "type": "mcq",
+      "question": "A nurse is screening an adolescent for scoliosis. Which finding is most concerning?",
+      "options": [
+        "Uneven shoulders and a rib hump visible on forward bend test",
+        "Mild back pain after sports",
+        "Height increase of 2 inches in 6 months",
+        "Slight asymmetry of the waist"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Uneven shoulders and rib hump (Adams forward bend test) indicate significant spinal curvature requiring evaluation. Mild pain (B) and height increase (C) are normal. Slight asymmetry (D) may be observed. This tests scoliosis screening per CMS/ATI.",
+      "slide": 24
+    },
+    {
+      "id": "q64_mcq_jia_morning_stiffness",
+      "type": "mcq",
+      "question": "A child with juvenile idiopathic arthritis (JIA) has morning stiffness and swollen knees. Which intervention is most helpful?",
+      "options": [
+        "Apply warm compresses or take a warm bath in the morning",
+        "Apply ice packs to the joints",
+        "Restrict all physical activity",
+        "Administer pain medication only at bedtime"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Warm compresses/bath reduces morning stiffness in JIA. Ice is for acute injury. Activity (with PT) is important. Pain medication timing should be before activity. This tests JIA management and symptom relief.",
+      "slide": 24
+    },
+    {
+      "id": "q65_sata_traction_care",
+      "type": "sata",
+      "question": "A child is in Bryant's traction for a femur fracture. Which nursing interventions are essential? (Select all that apply.)",
+      "options": [
+        "Ensure weights hang freely and off the floor",
+        "Perform frequent neurovascular checks",
+        "Elevate the head of bed to 45 degrees",
+        "Remove weights briefly for repositioning",
+        "Monitor for skin breakdown under straps"
+      ],
+      "answer": [0, 1, 4],
+      "rationale": "Correct: Weights must hang freely (countertraction), frequent neurovascular checks (5 P's), and skin monitoring are essential. Option C is incorrect — HOB should be flat or minimal elevation for traction. Option D is unsafe — never remove weights without provider order. This tests traction nursing care.",
+      "slide": 24
+    },
+    {
+      "id": "q66_mcq_clubfoot_ponseti",
+      "type": "mcq",
+      "question": "A newborn is diagnosed with clubfoot. Which treatment approach is the gold standard?",
+      "options": [
+        "Ponseti method — serial casting followed by bracing",
+        "Immediate surgical release",
+        "Observation — most cases resolve spontaneously",
+        "Physical therapy alone"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Ponseti method (serial manipulation and casting starting at birth, followed by abduction bracing) is the gold standard for clubfoot. Surgery is for cases that don't respond. Observation is incorrect — treatment is urgent. This tests clubfoot management.",
+      "slide": 24
+    },
+    {
+      "id": "q67_mcq_osteomyelitis",
+      "type": "mcq",
+      "question": "A 7-year-old with osteomyelitis is on IV antibiotics. Which finding indicates the infection is improving?",
+      "options": [
+        "Decreased pain and ability to bear weight",
+        "Increased localized swelling and redness",
+        "Persistent fever and chills",
+        "Elevated ESR and WBC"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Decreased pain and improved mobility indicate response to antibiotics. Options B/C/D indicate worsening infection. This tests osteomyelitis response to treatment.",
+      "slide": 24
+    },
+    {
+      "id": "q68_sata_cast_care",
+      "type": "sata",
+      "question": "A parent is caring for a child with a new cast. Which instructions are essential? (Select all that apply.)",
+      "options": [
+        "Keep the cast dry — cover for bathing",
+        "Elevate the extremity for the first 24–48 hours",
+        "Insert objects into the cast to scratch itch",
+        "Monitor for increased pain, swelling, or numbness",
+        "Petal the edges if they become rough"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Keep cast dry, elevate to reduce swelling, monitor for compartment syndrome signs (pain, swelling, numbness), and petal rough edges. Option C (objects in cast) is dangerous — can cause skin breakdown. This tests cast care teaching.",
+      "slide": 24
+    },
+    {
+      "id": "q69_mcq_celiac_disease",
+      "type": "mcq",
+      "question": "A child with celiac disease is being discharged. Which dietary instruction is correct?",
+      "options": [
+        "Avoid all foods containing wheat, rye, and barley — read labels carefully",
+        "A gluten-free diet is only needed during symptom flare-ups",
+        "Oats are always safe for children with celiac disease",
+        "Rice and corn products should also be avoided"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Celiac disease requires strict lifelong gluten-free diet — wheat, rye, barley, and contaminated oats must be avoided. Labels must be checked. Option B is incorrect — diet is lifelong. Option C is wrong — oats are often contaminated. Option D is incorrect — rice and corn are gluten-free. This tests celiac disease dietary management.",
+      "slide": 26
+    },
+    {
+      "id": "q70_mcq_nephrotic_syndrome",
+      "type": "mcq",
+      "question": "A child with nephrotic syndrome has significant edema and low albumin. Which dietary restriction is most important?",
+      "options": [
+        "Sodium restriction to reduce fluid retention",
+        "Protein restriction to protect the kidneys",
+        "Carbohydrate restriction to prevent hyperglycemia",
+        "No dietary restrictions are needed"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Sodium restriction reduces fluid retention and edema. Protein is actually needed (losses in urine) — not restricted. This tests nephrotic syndrome management per CMS/ATI.",
+      "slide": 26
+    },
+    {
+      "id": "q71_sata_dehydration_home",
+      "type": "sata",
+      "question": "Parents ask about home management for mild diarrhea in their 18-month-old. Which instructions are appropriate? (Select all that apply.)",
+      "options": [
+        "Continue breastfeeding or formula as usual",
+        "Offer oral rehydration solution in small frequent amounts",
+        "Give juice and sports drinks to replace fluids",
+        "Return to regular diet as tolerated",
+        "Seek care if vomiting persists or signs of dehydration appear"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Continue milk/breastfeeding, use ORS in small amounts, return to regular diet, and seek care for red flags. Option C is incorrect — juice/sports drinks can worsen diarrhea (high sugar). This tests gastroenteritis home management.",
+      "slide": 26
+    },
+    {
+      "id": "q72_mcq_appendicitis",
+      "type": "mcq",
+      "question": "A 9-year-old presents with abdominal pain, nausea, and vomiting. The pain started around the umbilicus and is now in the RLQ. Which finding is most concerning?",
+      "options": [
+        "Sudden relief of pain with abdominal rigidity",
+        "Mild RLQ tenderness",
+        "Low-grade fever of 100.4°F",
+        "Nausea without vomiting"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Sudden pain relief with rigidity suggests perforation — an emergency requiring immediate surgery. Option B is expected. Option C is common. Option D is early. This tests appendicitis complication recognition.",
+      "slide": 26
+    },
+    {
+      "id": "q73_mcq_diabetes_hypoglycemia",
+      "type": "mcq",
+      "question": "A child with type 1 diabetes has a blood glucose of 52 mg/dL and is shaky and sweaty. Which action is correct?",
+      "options": [
+        "Give 15 grams of fast-acting carbohydrate and recheck in 15 minutes",
+        "Administer insulin immediately",
+        "Have the child exercise to lower glucose further",
+        "Send to ED — this is a medical emergency"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Hypoglycemia (<70 mg/dL) is treated with 15g fast-acting carb (juice, glucose tabs), recheck in 15 min. If unconscious or <50, use glucagon. Option B (insulin) would worsen it. Option C (exercise) would worsen it. Option D is for severe/unresponsive. This tests diabetes management.",
+      "slide": 27
+    },
+    {
+      "id": "q74_sata_glomerulonephritis",
+      "type": "sata",
+      "question": "A child with acute poststreptococcal glomerulonephritis (APSGN) is admitted. Which findings are expected? (Select all that apply.)",
+      "options": [
+        "Hematuria and proteinuria",
+        "Hypertension",
+        "Periorbital and generalized edema",
+        "Increased urine output",
+        "History of recent strep throat"
+      ],
+      "answer": [0, 1, 2, 4],
+      "rationale": "Correct: APSGN presents with hematuria, proteinuria, hypertension, edema, and history of strep 1–3 weeks prior. Option D is incorrect — decreased urine output (oliguria) is expected. This tests glomerulonephritis clinical presentation.",
+      "slide": 26
+    },
+    {
+      "id": "q75_mcq_diabetes_sick_day",
+      "type": "mcq",
+      "question": "A parent calls about their child with type 1 diabetes who has a cold. Which advice is correct?",
+      "options": [
+        "Check blood glucose more frequently and never skip insulin even if not eating",
+        "Skip insulin doses until the child feels better",
+        "Give extra insulin to cover the illness",
+        "Stop insulin and monitor glucose only"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Sick days require frequent glucose checks and insulin should NEVER be skipped — illness can cause hyperglycemia. May need extra insulin. Option B/C/D are incorrect. This tests diabetes sick-day rules.",
+      "slide": 27
+    },
+    {
+      "id": "q76_mcq_diabetes_dka_signs",
+      "type": "mcq",
+      "question": "A child with type 1 diabetes presents with polyuria, polydipsia, vomiting, and fruity breath. Which action is the priority?",
+      "options": [
+        "Initiate IV fluid resuscitation and insulin infusion",
+        "Give oral glucose tablets",
+        "Administer antiemetic medication",
+        "Send home with sick-day instructions"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Fruity breath + polyuria/polydipsia + vomiting = DKA — a medical emergency. IV fluids (rehydration) and insulin infusion are priority. Option B (glucose) is for hypoglycemia. Option C/D are unsafe. This tests DKA recognition and management.",
+      "slide": 27
+    },
+    {
+      "id": "q77_mcq_ngn_matrix_pain",
+      "type": "matrix",
+      "question": "Match each child with the appropriate pain assessment tool:",
+      "rows": [
+        "A 4-month-old postoperative infant",
+        "A 3-year-old with a fractured arm",
+        "A 9-year-old with abdominal pain",
+        "A 14-year-old with a sprained ankle"
+      ],
+      "columns": [
+        "FLACC Scale",
+        "FACES Scale",
+        "Numeric 0–10 Scale",
+        "Oucher or Numeric Scale"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Correct: Infant (nonverbal) → FLACC (A). Preschooler → FACES (B). School-age → Numeric (C). Adolescent → Oucher or Numeric (D). This tests age-appropriate pain assessment.",
+      "slide": 22
+    },
+    {
+      "id": "q78_mcq_ngn_bowtie_asthma",
+      "type": "bowtie",
+      "question": "A child presents with wheezing, cough, and dyspnea. Identify the primary concern and appropriate intervention.",
+      "options": [
+        "Asthma exacerbation",
+        "Bronchiolitis",
+        "Epiglottitis",
+        "Administer albuterol nebulizer",
+        "Prepare for intubation",
+        "Administer racemic epinephrine"
+      ],
+      "answer": [0, 3],
+      "rationale": "Correct: Asthma exacerbation (wheezing, cough, dyspnea) → albuterol nebulizer. Option B is RSV (crackles, nasal flaring). Option C is epiglottitis (drooling, tripod). Option E is for severe airway compromise. Option F is for croup. This tests asthma recognition and acute management.",
+      "slide": 23
+    },
+    {
+      "id": "q79_mcq_ngn_cloze_dehydration",
+      "type": "cloze",
+      "question": "A dehydrated infant presents with _____ fontanelle and _____ mucous membranes. The priority intervention is _____ _____ fluids.",
+      "options": [
+        "sunken",
+        "dry",
+        "IV",
+        "oral rehydration"
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Correct: Sunken fontanelle and dry mucous membranes indicate dehydration. Priority is IV fluids for moderate-severe dehydration. This tests dehydration assessment and management.",
+      "slide": 22
+    },
+    {
+      "id": "q80_mcq_ngn_highlight_safety",
+      "type": "highlight",
+      "question": "Select the statement that indicates correct understanding of toddler safety: 'I will keep all medications locked up and turn pot handles to the back of the stove.'",
+      "options": [
+        "I will keep all medications locked up and turn pot handles to the back of the stove.",
+        "I will let my toddler play near the pool unsupervised.",
+        "I will place my toddler in a forward-facing car seat.",
+        "I will give my toddler honey for cough."
+      ],
+      "answer": [0],
+      "rationale": "Correct: Locked medications (poison prevention) and pot handles back (burn prevention) are correct toddler safety. Option B is unsafe (drowning risk). Option C is incorrect (rear-facing until 2). Option D is unsafe (botulism). This tests safety understanding.",
+      "slide": 17
+    },
+    {
+      "id": "q81_sata_ngn_sickle",
+      "type": "sata",
+      "question": "A child with sickle cell disease presents with severe pain, fever, and tachypnea. Which interventions are priority? (Select all that apply.)",
+      "options": [
+        "Administer IV fluids and oxygen",
+        "Administer pain medication promptly",
+        "Apply ice to painful joints",
+        "Monitor oxygen saturation and respiratory status",
+        "Encourage ambulation"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: IV hydration and O2 (maintain blood flow, prevent sickling), pain management, and respiratory monitoring are priority. Option C (ice) worsens vasoconstriction. Option E is unsafe during crisis. This tests sickle cell crisis management.",
+      "slide": 25
+    },
+    {
+      "id": "q82_mcq_ngn_ordering_diabetes",
+      "type": "ordering",
+      "question": "Order the steps for treating a child with type 1 diabetes experiencing mild hypoglycemia:",
+      "options": [
+        "Recheck blood glucose in 15 minutes",
+        "Give 15 grams of fast-acting carbohydrate",
+        "Recognize signs of shakiness and sweating",
+        "If glucose still low, repeat carbohydrate and notify provider"
+      ],
+      "answer": [2, 1, 0, 3],
+      "rationale": "Correct: Recognize signs → Give carb → Recheck 15 min → Repeat if needed. This tests hypoglycemia management sequence.",
+      "slide": 27
+    },
+    {
+      "id": "q83_mcq_ngn_prioritization",
+      "type": "mcq",
+      "question": "A nurse has four pediatric patients. Which should be seen first?",
+      "options": [
+        "A child with leukemia, ANC 200, and temperature 102°F",
+        "A child with asthma in green zone, requesting albuterol",
+        "A child with DDH in Pavlik harness, parents requesting education",
+        "A child with sickle cell, pain score 4/10, requesting pain medication"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Neutropenia + fever = neutropenic fever — a medical emergency requiring immediate antibiotics. Options B/D are stable/lower priority. Option C is education. This tests prioritization with multiple patients.",
+      "slide": 25
+    },
+    {
+      "id": "q84_sata_ngn_cystic",
+      "type": "sata",
+      "question": "A child with cystic fibrosis is admitted with respiratory distress. Which interventions are appropriate? (Select all that apply.)",
+      "options": [
+        "Administer dornase alfa nebulizer",
+        "Perform chest physiotherapy",
+        "Restrict fluids",
+        "Provide high-calorie diet",
+        "Monitor SpO2 and respiratory status"
+      ],
+      "answer": [0, 1, 3, 4],
+      "rationale": "Correct: Dornase alfa (mucus thinner), CPT (clear secretions), high-calorie diet, and SpO2 monitoring are appropriate. Option C is incorrect — hydration thins mucus. This tests CF acute management.",
+      "slide": 23
+    },
+    {
+      "id": "q85_mcq_ngn_triage",
+      "type": "mcq",
+      "question": "Using the Pediatric Assessment Triangle, which child requires emergent triage?",
+      "options": [
+        "An infant who is limp, has grunting respirations, and mottled skin",
+        "A toddler crying with a scraped knee",
+        "A school-age child with a cough and fever of 101°F",
+        "An adolescent with a sprained ankle"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Limp tone (appearance abnormal), grunting (breathing abnormal), mottled skin (circulation abnormal) = all three PAT components abnormal → emergent. Other options are minor. This tests PAT triage.",
+      "slide": 22
+    },
+    {
+      "id": "q86_mcq_ngn_pain",
+      "type": "mcq",
+      "question": "A 6-year-old is crying and rates pain as 8/10 before a dressing change. Which action is most appropriate?",
+      "options": [
+        "Administer prescribed analgesic 30–60 minutes before the procedure",
+        "Proceed with the dressing change without medication",
+        "Use distraction only",
+        "Tell the child it won't hurt"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Premedicate 30–60 min before painful procedures. Options B/C/D are inadequate or inappropriate. This tests preemptive pain management.",
+      "slide": 22
+    },
+    {
+      "id": "q87_sata_ngn_respiratory",
+      "type": "sata",
+      "question": "A child presents with respiratory distress. Which findings indicate immediate intervention is needed? (Select all that apply.)",
+      "options": [
+        "Nasal flaring and grunting",
+        "Cyanosis",
+        "SpO2 95% on room air",
+        "Use of accessory muscles",
+        "Alert and talking in full sentences"
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Correct: Nasal flaring/grunting, cyanosis, and accessory muscle use indicate severe respiratory distress. Option C (95%) is borderline. Option E indicates compensation. This tests respiratory distress recognition.",
+      "slide": 23
+    },
+    {
+      "id": "q88_mcq_ngn_safety",
+      "type": "mcq",
+      "question": "Which teaching indicates correct understanding of infant safety?",
+      "options": [
+        "I will place my baby on the back to sleep and use a firm mattress",
+        "I will place my baby on the stomach to prevent choking",
+        "I will co-sleep with my baby for bonding",
+        "I will give my baby honey for constipation"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Back to sleep + firm mattress = Safe Sleep (SIDS prevention). Options B/C/D are unsafe. This tests infant safety.",
+      "slide": 16
+    },
+    {
+      "id": "q89_sata_ngn_meningitis",
+      "type": "sata",
+      "question": "A child with suspected meningitis has photophobia and neck stiffness. Which interventions are priority? (Select all that apply.)",
+      "options": [
+        "Initiate droplet precautions",
+        "Prepare for lumbar puncture",
+        "Monitor for seizures and increased ICP",
+        "Administer antibiotics after cultures",
+        "Place in Trendelenburg position"
+      ],
+      "answer": [0, 1, 2, 3],
+      "rationale": "Correct: Droplet precautions, LP, ICP/seizure monitoring, and antibiotics (after cultures) are priority. Option E is unsafe. This tests meningitis management.",
+      "slide": 23
+    },
+    {
+      "id": "q90_mcq_ngn_leukemia",
+      "type": "mcq",
+      "question": "A child with leukemia and ANC of 300 presents with fever of 103°F. Which action is most urgent?",
+      "options": [
+        "Administer broad-spectrum antibiotics immediately",
+        "Give antipyretics and monitor",
+        "Draw blood cultures and wait for results",
+        "Send home with fever instructions"
+      ],
+      "answer": [0],
+      "rationale": "Correct: Neutropenic fever is an emergency — antibiotics must be given immediately (within 1 hour). Cultures should be drawn but not delay antibiotics. This tests neutropenic fever management.",
+      "slide": 25
+    }
+  ]
+}
