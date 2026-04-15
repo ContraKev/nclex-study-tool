@@ -11,14 +11,16 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "question", "options", "answer", "rationale"],
+        "required": ["id", "question", "answer", "rationale"],
         "properties": {
           "id": {"type": "string"},
           "slide": {"type": "integer"},
           "type": {"type": "string", "enum": ["mcq", "sata", "matrix", "bowtie", "cloze", "highlight"]},
           "question": {"type": "string", "minLength": 10},
           "options": {"type": "array", "items": {"type": "string"}, "minItems": 2},
-          "answer": {"type": "array", "items": {"type": "integer"}},
+          "rows": {"type": "array", "items": {"type": "string"}},
+          "columns": {"type": "array", "items": {"type": "string"}},
+          "answer": {"oneOf": [{"type": "array", "items": {"type": "integer"}}, {"type": "integer"}]},
           "rationale": {"type": "string", "minLength": 20}
         }
       }
