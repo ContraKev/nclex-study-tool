@@ -4234,6 +4234,36 @@ Stages of Dying and the Nurse’s Role
 Discuss and provide examples of how the nurse can assist an individual through each stage.
 
 
+
+
+---
+
+## 📚 Additional CMS Topics from Quizlet/Studocu
+
+### Lactose Intolerance
+- Inability to digest lactose (milk sugar)
+- Teaching: Lactase enzyme supplements, calcium/vitamin D fortified alternatives
+- Avoid dairy or use lactose-free products
+- Symptoms: Abdominal pain, bloating, diarrhea after dairy
+
+### Appendicitis
+- RLQ pain (McBurney point), rebound tenderness, fever
+- **Priority**: NPO, IV, surgery (appendectomy)
+- Post-op: Monitor for peritonitis signs (distention, rigid abdomen, absent bowel sounds)
+
+### Spina Bifida / Myelomeningocele
+- Neural tube defect; latex allergy precautions (high risk)
+- Neurogenic bladder/bowel management
+- VP shunt for hydrocephalus
+- Positioning: Prone or side-lying (avoid supine to protect sac)
+
+### Cleft Lip / Palate
+- Feeding: Special nipples, upright position
+- Post-op: Elbow restraints, supine with HOB elevated
+- Speech therapy referral; follow-up with ENT/plastic surgery
+
+---
+
 *284 unique blocks*
 
 ---

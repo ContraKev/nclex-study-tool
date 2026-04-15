@@ -467,6 +467,109 @@ Provide age-appropriate education to parents before child reaches next stage.
 - Transposition of great arteries
 - Truncus arteriosus
 
+## 📝 Unitek PEDS Quiz 1 — Additional Topics
+
+### Growth & Development Principles
+
+**Cephalocaudal Development**
+- Proceeds head-to-toe (cephalo = head, caudal = tail)
+- Infant raises head before sitting; gains trunk control before walking
+- Example: Baby can lift head at 2-3mo, but sits unsupported at 6-8mo
+
+**Proximodistal Development**
+- From center/midline outward to periphery
+- Infant grasps with whole hand before using pincer grasp (thumb + index finger)
+- Example: Baby reaches with arm before manipulating fingers
+
+**Metabolic Rate**
+- Infants have higher metabolic rate and fluid/calorie needs per kg than adults
+- More fluid intake needed; faster drug metabolism
+
+---
+
+### Family Structures
+
+**Blended Family**
+- Remarriage of persons with children from previous relationships
+- Step-parents, combining families, shared custody dynamics
+
+**Latchkey Children**
+- Left unsupervised after school due to working parents/absent extended family
+- May have increased anxiety, self-care skills, or safety risks
+
+---
+
+### Play Types by Age
+
+**Parallel Play (Toddlers 1-3 years)**
+- Play beside but not with others
+- Side-by-side independent play; imitation without interaction
+
+**Competitive Play (School-Age 7+ years)**
+- Structured games with rules, teams, winners/losers
+- Teaches cooperation, rules, sportsmanship
+
+---
+
+### Age-Specific Highlights
+
+**Teeth**
+- 20 deciduous (baby) teeth; ~6 by first birthday
+- Erupt ~6-7mo, complete by ~2.5 years
+- Permanent teeth begin ~6 years
+- Brush after eruption; bedtime brushing critical
+- No tetracycline (stains teeth); fluoride after 6 months
+
+**Head Control**
+- Raise head prone by 2-3 months
+- Report to provider if unable to lift head at 3 months (neurologic concern)
+
+**Solids Introduction**
+- Start around 4-6 months
+- First food: iron-fortified rice cereal
+- One food at a time, wait 3-5 days for allergies
+- 1 Tbsp solid food per year of age
+
+**Colic**
+- Excessive crying in infants, often in evening
+- Interventions: prone positioning over arm, pacifier, back massage, white noise
+- Usually resolves by 3 months
+
+**Time-Out**
+- 1 minute per year of age
+- No interaction or eye contact during time-out
+- Wait until calm to start timing; praise after
+
+**Centering (Piaget Preoperational)**
+- Child focuses on one characteristic, ignoring others
+- Example: 4yo refuses peas "because they're green" (ignores taste, nutrition)
+
+---
+
+### Hospitalized Child — Toys & Pain Assessment
+
+**Age-Appropriate Toys**
+- 4-year-old hospitalized: Modeling clay (expressive, therapeutic)
+- 10-month-old: Push-pull toy (supports locomotion/mobility)
+
+**Pain Assessment Tools**
+- **FLACC** (infants/nonverbal): Face, Legs, Activity, Cry, Consolability
+- **FACES** (preschool 3+): Child points to face matching pain
+- **Numeric** (school-age+): 0-10 scale
+
+---
+
+### Oral Health & Medications
+
+**Oral Health**
+- Deciduous teeth: 20 total, serve as space maintainers
+- Brush after each meal/snack; avoid sharing utensils (prevents caries)
+- Replace toothbrush every 3 months or after illness
+- Fluoride after 6 months; avoid bedtime bottle (nursing caries)
+
+**Tetracycline Warning**
+- Never give tetracycline to children — stains developing teeth permanently
+
 ---
 
 ## ✅ Exam Prep — High-Yield Summary
