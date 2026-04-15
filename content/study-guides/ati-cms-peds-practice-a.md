@@ -1,92 +1,10 @@
 # ATI CMS Pediatrics Practice A — Comprehensive Study Guide
 
-> 321 content blocks from 23 peds files
-> All Quizlet topics covered
+> Synthesized by topic from lecture slides + Quizlet tested content
 
 ---
 
-## Quizlet High-Yield Topics
-- Burns
-- Respiratory
-- GI
-- Infection
-- MSK
-- Heme/Onc
-- Endocrine
-- Dev
-- Meds
-
----
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 1
-
-Chapter 26 The Child with a  Cardiovascular Disorder 
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 3
-
-Signs Related to Suspected Cardiac Pathology 3 
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 5
-
-Congenital Heart Disease (2 of 5) 5 
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 7
-
-Congenital Heart Disease (4 of 5) 7 Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
-
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 9
-
-Restrictive Defects 9 Restriction usually from some form of stenosis of the vessel Coarctation of the aorta Narrowing or constriction of the aortic arch or of the descending aorta Hemodynamically, increased pressure proximal to the defect and decreased pressure distally Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
-
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 11
-
-Tetralogy of Fallot 11 Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
-
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 13
-
-Defects that Cause Mixed Pathology 13 Hypoplastic left heart syndrome Underdevelopment of the left side of the heart Usually results in an absent or nonfunctional left ventricle and hypoplasia of the ascending aorta Can be diagnosed before birth, and infant is placed on a heart transplant list early Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
-
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 15
-
-Parent Teaching on General Treatment and Nursing Care 15 
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 17
-
-Lesson 26.2 Objectives (2 of 2) 17 
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 19
-
-Congestive Heart Failure (CHF) 19 
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 23
-
-Modified Jones Criteria Major criteria Carditis Polyarthritis Erythema marginatum Chorea Subcutaneous nodules Copyright © 2019, Elsevier Inc. All rights reserved. 23
-
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 27
-
-27 Systemic Hypertension (2 of 2)  
-=
-
-### Chapter_026_CV_DOs_peds_(1).txt — Slide 29
-
-Kawasaki Disease (KD) (1 of 2)  29 
-=
+## Musculoskeletal
 
 ### Chapter_024_musculoskeletal_DOs_peds-1.pptx.txt — Slide 1
 
@@ -357,6 +275,520 @@ What are some examples of assertive skills?
 How could you enhance a child’s coping mechanisms?
 Why should documentation of interventions be factual and objective?
 
+=
+
+---
+
+## Gastrointestinal
+
+### Chapter_028_GI_peds.txt — Slide 1
+
+Chapter 28
+The Child with a Gastrointestinal Condition
+
+
+Note: Italic words throughout are key terms.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 3
+
+Overview of the Gastrointestinal (GI) Tract
+Transports and metabolizes nutrients necessary for the life of the cell
+Extends from mouth to anus
+Nutrients are broken down into absorbable products by enzymes from various digestive organs.
+
+3
+This Photo by Unknown Author is licensed under CC BY
+
+Laboratory and Diagnostic Studies in the textbook.
+Clinical laboratory
+CBC with differential: anemia, infections, chronic illness
+Erythrocyte sedimentation rate (ESR) is indicative of inflammation
+Comprehensive chemistry panel will reveal electrolyte and chemical imbalances
+Liver function test (LFT)
+Stool cultures
+X-ray studies
+GI series, barium enema, flat plates of the abdomen
+
+Endoscopy allows direct visualization and biopsy of the GI tract 
+Upper—esophagus, stomach, duodenum, bile and pancreatic ducts
+Can remove foreign objects and cauterize bleeding vessels
+Lower colon—sigmoidoscopy
+Entire colon—colonoscopy
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 5
+
+Congenital Disorders
+Esophageal atresia (tracheoesophageal fistula [TEF]) 
+TEF is caused by a failure of the tissues of the GI tract to separate properly in prenatal life.
+Four types
+Upper and lower esophagus (from the stomach) end in a blind pouch.
+Upper esophagus ends in a blind pouch; lower esophagus (from stomach) connects to the trachea.
+Upper esophagus is attached to trachea; lower esophagus (from stomach) also attached to trachea.
+Upper esophagus connects to trachea; lower esophagus (from stomach) ends in a blind pouch.
+
+5
+
+This Photo by Unknown Author is licensed under CC BY
+
+Refer to Figure 28-2 (p. 660) in the textbook.
+
+Manifestations
+Earliest sign is when mother develops polyhydramnios.
+If it ends in blind pouch, fetus cannot swallow amniotic fluid, and it will accumulate.
+At birth, the infant will vomit and choke when the first feeding is introduced.
+Drooling may also be present at birth and is related to atresia.
+If upper esophagus enters trachea, the first feeding will enter the trachea and result in coughing, choking, cyanosis, and apnea.
+If lower end of esophagus enters trachea, air will enter stomach each time infant breathes, causing abdominal distention.
+
+Nursing Care
+Prevent pneumonia, choking, and apnea in the newborn.
+Assessment of the newborn during the first feeding for signs or symptoms of TEF is essential.
+Feeding usually is with clear water or colostrum to minimize seriousness of aspiration.
+Surgical repair is essential for survival.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 7
+
+Pyloric Stenosis
+Obstruction of the lower end of the stomach caused by overgrowth of the circular muscles of the pylorus or spasms of the sphincter
+Commonly classified as a congenital anomaly
+Symptoms usually do not appear until an infant is 2 or 3 weeks old.
+Most common surgical condition of GI tract in infancy
+Incidence is higher in boys.
+7
+
+
+Manifestations
+Projectile vomiting is outstanding symptom from force or pressure being exerted on the pylorus.
+Vomitus contains mucus and ingested milk.
+Infant is constantly hungry and will eat again immediately after vomiting.
+Dehydration and olive-shaped mass may be felt in upper right quadrant of abdomen.
+
+Describe the symptom of projectile vomiting.
+Discuss the significance of an olive-shaped mass.
+Refer to Figure 28-3 (p. 661) in the textbook.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 9
+
+9
+Celiac Disease (2 of 2) 
+
+Infant presents with FTT.
+Infant is irritable.
+Stools are large, bulky, and frothy.
+Diagnosis confirmed by serum immunoglobulin A (IgA) and small bowel biopsy.
+Treatment
+Lifelong diet restricted in wheat, barley, oats, and rye
+Detailed parent teaching is essential.
+A professional nutritionist or dietitian can aid in identifying foods that are gluten free.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 11
+
+Hirschsprung Disease (Aganglionic Megacolon) (2 of 3)
+
+11
+
+If untreated, other signs of intestinal obstruction and shock may be seen.
+Enterocolitis (inflammation of the small bowel and colon) is a serious condition.
+Fever, explosive stools, and depletion of strength
+Diagnostics
+Barium enema
+Rectal biopsy
+Anorectal manometry
+Measures pressure in anal sphincter
+
+Discuss the barium enema and the nurse’s role in educating the parents about this procedure.
+Describe how anorectal manometry is performed.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 13
+
+Intussusception
+A slipping of one part of the intestine into another part just below it
+Often seen at the ileocecal valve
+The mesentery, a double fan-shaped fold of peritoneum that covers most of intestine and is filled with blood vessels and nerves, is also pulled along.
+
+
+
+13
+
+
+
+
+
+Discuss the severity of this condition and the need for urgent medical treatment.
+
+Generally occurs in boys between 3 months and 6 years
+Frequency decreases after age 36 months
+Can have spontaneous reduction
+Onset is usually sudden
+May have a fever as high as 41.1°C (106° F) 
+As it progresses, child may show signs of shock, sweating, weak pulse, and shallow, grunting respirations; abdomen is rigid.
+In infants, severe pain in abdomen, loud cries, straining efforts, and kicking and drawing of legs toward abdomen.
+Child vomits green or greenish-yellow fluid (bilious).
+Bowel movements diminish; little flatus is passed.
+Blood and mucus with no feces are common about 12 hours after onset of obstruction, called currant jelly stools.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 15
+
+Treatment of Intussusception 
+15
+
+What is the rationale for a barium enema as a treatment option for this condition?
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 17
+
+Hernias
+
+
+
+17
+
+
+
+
+Discuss the difference between inguinal and umbilical hernias.
+
+May be present at birth (congenital) or acquired
+Is reducible if it can be put back into place by gentle pressure.
+If it cannot be put back, it is irreducible or incarcerated.
+Strangulated hernia is when intestine becomes caught in the passage and the blood supply is diminished.
+Child may vomit and have severe abdominal pain.
+Emergent surgery is indicated in this type of situation.
+In most cases, same-day surgery is performed.
+
+Define incarcerated and strangulated hernias.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 19
+
+Disorders of Motility Gastroenteritis
+
+19
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 21
+
+Vomiting
+
+21
+
+
+Give examples of improper feeding techniques.
+
+Nursing Care
+Carefully feed and burp infant.
+Place infant on side after feeding to prevent aspiration if vomiting occurs.
+When an older child vomits, turn head to one side and offer emesis basin.
+IV fluids may be ordered.
+Slowly introduce foods to allow stomach to rest.
+
+Discuss and describe how to slowly reintroduce foods.
+
+Documentation
+Time, amount, color, consistency, force, frequency, and whether vomiting was preceded by nausea or feedings
+Administration of antiemetic agents should also be documented, including time given and if or when vomiting subsided
+
+Give an example of proper documentation of emesis.
+What other antiemetics might be administered?
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 23
+
+Diarrhea
+
+
+
+23
+
+Symptoms
+Stools watery and explosive; may be yellowish-green
+Listlessness, refusal to eat, weight loss, temperature may be elevated, possible vomiting
+Dehydration evidenced by sunken eyes and fontanelle; dry skin, tongue, and mucous membranes; less frequent urination
+In severe cases, excessive loss of bicarbonate from GI tract results in acidosis.
+
+Discuss the treatment of and nursing care for patients with diarrhea. 
+Intestine rested by reducing intake of solid foods. 
+ORS solutions, such as Pedialyte or Infalyte, in liquid or frozen form are given with gradual introduction of a soft, bland diet. 
+Clear fluids, fruit juice (without pulp), gelatin, and carbonated drinks have low electrolyte content and should be avoided. 
+Caffeinated beverages act as a diuretic and worsen dehydration. 
+Chicken broth is high in sodium and not advised. 
+BRAT diet is not nutritionally sound enough to support growth and development, so should slowly reintroduce regular nutrition or meals to prevent nausea and vomiting. Sometimes will see BRATY; the y is for yogurt, which helps reintroduce some of the natural bowel flora.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 25
+
+Fluid and Electrolyte Imbalance
+
+25
+In children younger than 2 years of age, surface area is important because more water is lost through the skin than through the kidneys.
+Metabolic rate and heat production are also two to three times greater in infants per kilogram of body weight.
+Produces more waste products, which must be diluted to be excreted
+Stimulates respirations, which increase evaporation through the lungs
+Greater percentage of body water in children younger than 2 years is contained in extracellular compartment
+
+
+
+Discuss surface area, metabolic rate, and heat production.
+Surface area of the infant is two to three times greater than in an adult (see Fig. 28-10, p. 672). 
+
+Fluid turnover is rapid, and dehydration occurs more quickly in infants than in adults.
+A sick infant does not adapt as readily to shift in intake and output.
+Less able to concentrate urine and require more water than an adult’s kidneys to excrete a given amount of solute
+
+Electrolyte balance depends on fluid balance and cardiovascular, renal, adrenal, pituitary, parathyroid, and pulmonary regulatory mechanisms.
+Signs of dehydration may not be evident until the fluid loss reaches 4%, and severe dehydration may not be evident until the fluid loss reaches 10%.
+Can treat with oral fluids or parenteral fluids
+
+Describe the signs and symptoms of dehydration in infants and children.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 27
+
+Overhydration
+
+27
+
+
+Discuss areas in which edema might be present.
+
+Treatment
+IV therapy is ordered, and child is monitored.
+Is dependent on type of electrolyte imbalance child has
+If child has a hypertonic type of dehydration, tomato juice should not be offered.
+If child has a hypotonic type of dehydration, plain water should not be offered.
+
+Discuss the rationale for IV therapy for overhydration.
+Why should tomato juice be avoided when a child is experiencing hypertonic dehydration?
+
+Nursing Care
+Early detection and management of edema are essential.
+Accurate daily weight, vital signs, observing physical appearance, and noting changes in urine output
+Important for nurse to monitor clinical laboratory results and adjust fluids and foods offered to the child.
+
+Discuss laboratory results the nurse should monitor for a child who is dehydrated.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 29
+
+Failure to Thrive
+29
+
+Multidisciplinary approach in accordance with circumstances
+In some cases, child is removed from home environment and placed elsewhere.
+Assigning the same nursing staff to care for the child may increase nurturing and interaction with the infant and parent.
+
+Discuss resources available for an infant with a diagnosis of FTT.
+
+Essential that the nurse supports rather than rejects the mother
+Encourages mother to assist with daily care of child
+Points out developmental patterns and provides anticipatory guidance in this area
+Prognosis is uncertain.
+Emotional starvation, particularly in the early years, can be psychologically traumatic.
+Inadequacies in intelligence, language, and social behavior have been documented in children with FTT.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 31
+
+Rickets
+31
+
+
+Describe rachitic rosary.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 35
+
+Thrush (Oral Candidiasis) 
+
+35
+
+What is the importance of the swish and swallow technique when administering nystatin?
+What are the physical manifestations of thrush? 
+White patches that resemble milk curds appear on tongue, inner lips, gums, and oral mucosa
+Painless but cannot be wiped away
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 37
+
+Poisoning
+37
+
+Discuss how to access the poison control center in your community.
+
+Detecting the poison by specific odor of vomitus
+Odor of Vomitus	 Probable Content
+Sweet	 	Chloroform, acetone
+Bitter almond	 	Cyanide
+Pear	 	Chloral hydrate
+Garlic	 	Organophosphate (chemical fertilizer), arsenic
+Shoe polish	 	Nitrobenzene
+Violet	 	Turpentine
+Rotten eggs		Natural gas leak
+
+Give examples of household products that could contain these poisons.
+
+General Concepts
+Volume of swallow
+Principles of care—education
+Activated charcoal—given for some substances
+Charcoal or any gastric lavage is not effective if administered after 1 hour after ingestion
+
+Discuss the rationale for not administering ipecac syrup.
+Discuss why charcoal or lavage is not effective after 1 hour after ingestion.
+
+Poisons commonly encountered in pediatrics
+Acids
+Alkalines
+Medications
+Cyanide
+Ethanol
+Petroleum distillates
+Carbon monoxide
+Lead
+Arthropods, insect stings
+Snakes
+Poisonous plants
+
+Discuss why it is important to know the dose, time of ingestion, presence of symptoms, history of other medical conditions, and presence of co-ingestants in all patients without evidence of self-harm in the event of ingestion.
+
+=
+
+### Chapter_028_GI_peds.txt — Slide 39
+
+Foreign Bodies
+80% of all ingestions occur in children between 6 months and 3 years of age.
+About 80% of items ingested pass through the GI tract without difficulty.
+May take up to 6 days to occur
+Caution parents not to use laxatives and to maintain a normal diet to avoid intestinal spasms.
+
+
+
+
+39
+
+
+
+
+
+If an object is small enough to pass through a standard, cardboard roll of toilet paper, children should not be allowed to play with it.
+Discuss the use of the Pediatric Capsule Endoscopy and parent education needed for this type of diagnostic procedure to be most effective.
+
+---
+
+## Other
+
+# ATI CMS Pediatrics Practice A — Comprehensive Study Guide
+
+> 321 content blocks from 23 peds files
+> All Quizlet topics covered
+
+---
+
+## Quizlet High-Yield Topics
+- Burns
+- Respiratory
+- GI
+- Infection
+- MSK
+- Heme/Onc
+- Endocrine
+- Dev
+- Meds
+
+---
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 1
+
+Chapter 26 The Child with a  Cardiovascular Disorder 
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 3
+
+Signs Related to Suspected Cardiac Pathology 3 
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 5
+
+Congenital Heart Disease (2 of 5) 5 
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 7
+
+Congenital Heart Disease (4 of 5) 7 Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
+
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 9
+
+Restrictive Defects 9 Restriction usually from some form of stenosis of the vessel Coarctation of the aorta Narrowing or constriction of the aortic arch or of the descending aorta Hemodynamically, increased pressure proximal to the defect and decreased pressure distally Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
+
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 11
+
+Tetralogy of Fallot 11 Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
+
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 13
+
+Defects that Cause Mixed Pathology 13 Hypoplastic left heart syndrome Underdevelopment of the left side of the heart Usually results in an absent or nonfunctional left ventricle and hypoplasia of the ascending aorta Can be diagnosed before birth, and infant is placed on a heart transplant list early Copyright © 2019, Elsevier Inc. All rights reserved. This Photo  by Unknown Author is licensed under  CC BY-SA
+
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 15
+
+Parent Teaching on General Treatment and Nursing Care 15 
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 17
+
+Lesson 26.2 Objectives (2 of 2) 17 
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 19
+
+Congestive Heart Failure (CHF) 19 
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 23
+
+Modified Jones Criteria Major criteria Carditis Polyarthritis Erythema marginatum Chorea Subcutaneous nodules Copyright © 2019, Elsevier Inc. All rights reserved. 23
+
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 27
+
+27 Systemic Hypertension (2 of 2)  
+=
+
+### Chapter_026_CV_DOs_peds_(1).txt — Slide 29
+
+Kawasaki Disease (KD) (1 of 2)  29 
 =
 
 ### Chapter_031.txt — Slide 1
@@ -2924,422 +3356,6 @@ Discuss methods for assessing each component.
 
 =
 
-### Chapter_028_GI_peds.txt — Slide 1
-
-Chapter 28
-The Child with a Gastrointestinal Condition
-
-
-Note: Italic words throughout are key terms.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 3
-
-Overview of the Gastrointestinal (GI) Tract
-Transports and metabolizes nutrients necessary for the life of the cell
-Extends from mouth to anus
-Nutrients are broken down into absorbable products by enzymes from various digestive organs.
-
-3
-This Photo by Unknown Author is licensed under CC BY
-
-Laboratory and Diagnostic Studies in the textbook.
-Clinical laboratory
-CBC with differential: anemia, infections, chronic illness
-Erythrocyte sedimentation rate (ESR) is indicative of inflammation
-Comprehensive chemistry panel will reveal electrolyte and chemical imbalances
-Liver function test (LFT)
-Stool cultures
-X-ray studies
-GI series, barium enema, flat plates of the abdomen
-
-Endoscopy allows direct visualization and biopsy of the GI tract 
-Upper—esophagus, stomach, duodenum, bile and pancreatic ducts
-Can remove foreign objects and cauterize bleeding vessels
-Lower colon—sigmoidoscopy
-Entire colon—colonoscopy
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 5
-
-Congenital Disorders
-Esophageal atresia (tracheoesophageal fistula [TEF]) 
-TEF is caused by a failure of the tissues of the GI tract to separate properly in prenatal life.
-Four types
-Upper and lower esophagus (from the stomach) end in a blind pouch.
-Upper esophagus ends in a blind pouch; lower esophagus (from stomach) connects to the trachea.
-Upper esophagus is attached to trachea; lower esophagus (from stomach) also attached to trachea.
-Upper esophagus connects to trachea; lower esophagus (from stomach) ends in a blind pouch.
-
-5
-
-This Photo by Unknown Author is licensed under CC BY
-
-Refer to Figure 28-2 (p. 660) in the textbook.
-
-Manifestations
-Earliest sign is when mother develops polyhydramnios.
-If it ends in blind pouch, fetus cannot swallow amniotic fluid, and it will accumulate.
-At birth, the infant will vomit and choke when the first feeding is introduced.
-Drooling may also be present at birth and is related to atresia.
-If upper esophagus enters trachea, the first feeding will enter the trachea and result in coughing, choking, cyanosis, and apnea.
-If lower end of esophagus enters trachea, air will enter stomach each time infant breathes, causing abdominal distention.
-
-Nursing Care
-Prevent pneumonia, choking, and apnea in the newborn.
-Assessment of the newborn during the first feeding for signs or symptoms of TEF is essential.
-Feeding usually is with clear water or colostrum to minimize seriousness of aspiration.
-Surgical repair is essential for survival.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 7
-
-Pyloric Stenosis
-Obstruction of the lower end of the stomach caused by overgrowth of the circular muscles of the pylorus or spasms of the sphincter
-Commonly classified as a congenital anomaly
-Symptoms usually do not appear until an infant is 2 or 3 weeks old.
-Most common surgical condition of GI tract in infancy
-Incidence is higher in boys.
-7
-
-
-Manifestations
-Projectile vomiting is outstanding symptom from force or pressure being exerted on the pylorus.
-Vomitus contains mucus and ingested milk.
-Infant is constantly hungry and will eat again immediately after vomiting.
-Dehydration and olive-shaped mass may be felt in upper right quadrant of abdomen.
-
-Describe the symptom of projectile vomiting.
-Discuss the significance of an olive-shaped mass.
-Refer to Figure 28-3 (p. 661) in the textbook.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 9
-
-9
-Celiac Disease (2 of 2) 
-
-Infant presents with FTT.
-Infant is irritable.
-Stools are large, bulky, and frothy.
-Diagnosis confirmed by serum immunoglobulin A (IgA) and small bowel biopsy.
-Treatment
-Lifelong diet restricted in wheat, barley, oats, and rye
-Detailed parent teaching is essential.
-A professional nutritionist or dietitian can aid in identifying foods that are gluten free.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 11
-
-Hirschsprung Disease (Aganglionic Megacolon) (2 of 3)
-
-11
-
-If untreated, other signs of intestinal obstruction and shock may be seen.
-Enterocolitis (inflammation of the small bowel and colon) is a serious condition.
-Fever, explosive stools, and depletion of strength
-Diagnostics
-Barium enema
-Rectal biopsy
-Anorectal manometry
-Measures pressure in anal sphincter
-
-Discuss the barium enema and the nurse’s role in educating the parents about this procedure.
-Describe how anorectal manometry is performed.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 13
-
-Intussusception
-A slipping of one part of the intestine into another part just below it
-Often seen at the ileocecal valve
-The mesentery, a double fan-shaped fold of peritoneum that covers most of intestine and is filled with blood vessels and nerves, is also pulled along.
-
-
-
-13
-
-
-
-
-
-Discuss the severity of this condition and the need for urgent medical treatment.
-
-Generally occurs in boys between 3 months and 6 years
-Frequency decreases after age 36 months
-Can have spontaneous reduction
-Onset is usually sudden
-May have a fever as high as 41.1°C (106° F) 
-As it progresses, child may show signs of shock, sweating, weak pulse, and shallow, grunting respirations; abdomen is rigid.
-In infants, severe pain in abdomen, loud cries, straining efforts, and kicking and drawing of legs toward abdomen.
-Child vomits green or greenish-yellow fluid (bilious).
-Bowel movements diminish; little flatus is passed.
-Blood and mucus with no feces are common about 12 hours after onset of obstruction, called currant jelly stools.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 15
-
-Treatment of Intussusception 
-15
-
-What is the rationale for a barium enema as a treatment option for this condition?
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 17
-
-Hernias
-
-
-
-17
-
-
-
-
-Discuss the difference between inguinal and umbilical hernias.
-
-May be present at birth (congenital) or acquired
-Is reducible if it can be put back into place by gentle pressure.
-If it cannot be put back, it is irreducible or incarcerated.
-Strangulated hernia is when intestine becomes caught in the passage and the blood supply is diminished.
-Child may vomit and have severe abdominal pain.
-Emergent surgery is indicated in this type of situation.
-In most cases, same-day surgery is performed.
-
-Define incarcerated and strangulated hernias.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 19
-
-Disorders of Motility Gastroenteritis
-
-19
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 21
-
-Vomiting
-
-21
-
-
-Give examples of improper feeding techniques.
-
-Nursing Care
-Carefully feed and burp infant.
-Place infant on side after feeding to prevent aspiration if vomiting occurs.
-When an older child vomits, turn head to one side and offer emesis basin.
-IV fluids may be ordered.
-Slowly introduce foods to allow stomach to rest.
-
-Discuss and describe how to slowly reintroduce foods.
-
-Documentation
-Time, amount, color, consistency, force, frequency, and whether vomiting was preceded by nausea or feedings
-Administration of antiemetic agents should also be documented, including time given and if or when vomiting subsided
-
-Give an example of proper documentation of emesis.
-What other antiemetics might be administered?
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 23
-
-Diarrhea
-
-
-
-23
-
-Symptoms
-Stools watery and explosive; may be yellowish-green
-Listlessness, refusal to eat, weight loss, temperature may be elevated, possible vomiting
-Dehydration evidenced by sunken eyes and fontanelle; dry skin, tongue, and mucous membranes; less frequent urination
-In severe cases, excessive loss of bicarbonate from GI tract results in acidosis.
-
-Discuss the treatment of and nursing care for patients with diarrhea. 
-Intestine rested by reducing intake of solid foods. 
-ORS solutions, such as Pedialyte or Infalyte, in liquid or frozen form are given with gradual introduction of a soft, bland diet. 
-Clear fluids, fruit juice (without pulp), gelatin, and carbonated drinks have low electrolyte content and should be avoided. 
-Caffeinated beverages act as a diuretic and worsen dehydration. 
-Chicken broth is high in sodium and not advised. 
-BRAT diet is not nutritionally sound enough to support growth and development, so should slowly reintroduce regular nutrition or meals to prevent nausea and vomiting. Sometimes will see BRATY; the y is for yogurt, which helps reintroduce some of the natural bowel flora.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 25
-
-Fluid and Electrolyte Imbalance
-
-25
-In children younger than 2 years of age, surface area is important because more water is lost through the skin than through the kidneys.
-Metabolic rate and heat production are also two to three times greater in infants per kilogram of body weight.
-Produces more waste products, which must be diluted to be excreted
-Stimulates respirations, which increase evaporation through the lungs
-Greater percentage of body water in children younger than 2 years is contained in extracellular compartment
-
-
-
-Discuss surface area, metabolic rate, and heat production.
-Surface area of the infant is two to three times greater than in an adult (see Fig. 28-10, p. 672). 
-
-Fluid turnover is rapid, and dehydration occurs more quickly in infants than in adults.
-A sick infant does not adapt as readily to shift in intake and output.
-Less able to concentrate urine and require more water than an adult’s kidneys to excrete a given amount of solute
-
-Electrolyte balance depends on fluid balance and cardiovascular, renal, adrenal, pituitary, parathyroid, and pulmonary regulatory mechanisms.
-Signs of dehydration may not be evident until the fluid loss reaches 4%, and severe dehydration may not be evident until the fluid loss reaches 10%.
-Can treat with oral fluids or parenteral fluids
-
-Describe the signs and symptoms of dehydration in infants and children.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 27
-
-Overhydration
-
-27
-
-
-Discuss areas in which edema might be present.
-
-Treatment
-IV therapy is ordered, and child is monitored.
-Is dependent on type of electrolyte imbalance child has
-If child has a hypertonic type of dehydration, tomato juice should not be offered.
-If child has a hypotonic type of dehydration, plain water should not be offered.
-
-Discuss the rationale for IV therapy for overhydration.
-Why should tomato juice be avoided when a child is experiencing hypertonic dehydration?
-
-Nursing Care
-Early detection and management of edema are essential.
-Accurate daily weight, vital signs, observing physical appearance, and noting changes in urine output
-Important for nurse to monitor clinical laboratory results and adjust fluids and foods offered to the child.
-
-Discuss laboratory results the nurse should monitor for a child who is dehydrated.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 29
-
-Failure to Thrive
-29
-
-Multidisciplinary approach in accordance with circumstances
-In some cases, child is removed from home environment and placed elsewhere.
-Assigning the same nursing staff to care for the child may increase nurturing and interaction with the infant and parent.
-
-Discuss resources available for an infant with a diagnosis of FTT.
-
-Essential that the nurse supports rather than rejects the mother
-Encourages mother to assist with daily care of child
-Points out developmental patterns and provides anticipatory guidance in this area
-Prognosis is uncertain.
-Emotional starvation, particularly in the early years, can be psychologically traumatic.
-Inadequacies in intelligence, language, and social behavior have been documented in children with FTT.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 31
-
-Rickets
-31
-
-
-Describe rachitic rosary.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 35
-
-Thrush (Oral Candidiasis) 
-
-35
-
-What is the importance of the swish and swallow technique when administering nystatin?
-What are the physical manifestations of thrush? 
-White patches that resemble milk curds appear on tongue, inner lips, gums, and oral mucosa
-Painless but cannot be wiped away
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 37
-
-Poisoning
-37
-
-Discuss how to access the poison control center in your community.
-
-Detecting the poison by specific odor of vomitus
-Odor of Vomitus	 Probable Content
-Sweet	 	Chloroform, acetone
-Bitter almond	 	Cyanide
-Pear	 	Chloral hydrate
-Garlic	 	Organophosphate (chemical fertilizer), arsenic
-Shoe polish	 	Nitrobenzene
-Violet	 	Turpentine
-Rotten eggs		Natural gas leak
-
-Give examples of household products that could contain these poisons.
-
-General Concepts
-Volume of swallow
-Principles of care—education
-Activated charcoal—given for some substances
-Charcoal or any gastric lavage is not effective if administered after 1 hour after ingestion
-
-Discuss the rationale for not administering ipecac syrup.
-Discuss why charcoal or lavage is not effective after 1 hour after ingestion.
-
-Poisons commonly encountered in pediatrics
-Acids
-Alkalines
-Medications
-Cyanide
-Ethanol
-Petroleum distillates
-Carbon monoxide
-Lead
-Arthropods, insect stings
-Snakes
-Poisonous plants
-
-Discuss why it is important to know the dose, time of ingestion, presence of symptoms, history of other medical conditions, and presence of co-ingestants in all patients without evidence of self-harm in the event of ingestion.
-
-=
-
-### Chapter_028_GI_peds.txt — Slide 39
-
-Foreign Bodies
-80% of all ingestions occur in children between 6 months and 3 years of age.
-About 80% of items ingested pass through the GI tract without difficulty.
-May take up to 6 days to occur
-Caution parents not to use laxatives and to maintain a normal diet to avoid intestinal spasms.
-
-
-
-
-39
-
-
-
-
-
-If an object is small enough to pass through a standard, cardboard roll of toilet paper, children should not be allowed to play with it.
-Discuss the use of the Pediatric Capsule Endoscopy and parent education needed for this type of diagnostic procedure to be most effective.
-
 ### Chapter_029_GU_peds.txt — Slide 1
 
 Chapter 29
@@ -4379,3 +4395,109 @@ Dose (mg) = Weight (kg) × Ordered dose (mg/kg)
 - Double-check with another nurse for high-risk meds
 
 ---
+
+---
+
+
+
+# Comprehensive Topic Coverage
+
+## Prioritization & Triage
+
+- **ABC first**: Airway, Breathing, Circulation
+- **Acute over chronic**: Unstable asthma > stable asthma
+- **Vision changes in sickle cell**: EMERGENCY (stroke risk)
+- **Substernal retractions**: Immediate intervention
+- **Meningitis + photophobia**: Droplet precautions
+
+## Growth & Development
+
+| Age | Key Milestones |
+|-----|----------------|
+| 0-12 mo | Birth weight triples by 12 mo; head control 2-3 mo; pincer grasp 9-12 mo |
+| 1-3 yrs | Autonomy; parallel play; stranger anxiety; time-out = 1 min/year |
+| 3-6 yrs | Initiative; fantasy play; centration; FACES pain scale |
+| 6-12 yrs | Industry; task mastery; competitive play; concrete thinking |
+| 12-18 yrs | Identity; Tanner stages; HEADSS; abstract thinking |
+
+## Safety & Prevention
+
+- **Car seats**: Rear-facing until 1yr AND 20-22 lb
+- **SIDS**: Supine, firm mattress, no soft bedding, pacifier
+- **Burns**: Pot handles back, water <120°F
+- **Abuse**: Symmetric burns, inconsistent stories
+- **Lead**: Screen at 12/24 mo; chelation if >45 µg/dL
+- **Sun**: SPF 15+, waterproof, reapply q2h
+
+## Pain Management
+
+- **FACES**: Ages 3+ (point to face)
+- **FLACC**: Nonverbal/infants
+- **Premedicate**: Before painful procedures
+- **Non-pharm**: Distraction, positioning, rhythmic rocking
+
+## Respiratory Disorders
+
+- **Asthma**: Peak flow green zone = good; use albuterol PRN
+- **Cystic fibrosis**: High-calorie diet, pancreatic enzymes with meals
+- **Tonsillectomy**: Monitor frequent swallowing (bleeding sign)
+- **Epiglottitis**: Do NOT inspect throat, keep calm
+
+## Infectious Disease
+
+- **Meningitis**: Droplet 24h after antibiotics; Kernig/Brudzinski
+- **MMR**: Contraindicated with neomycin allergy
+- **Tdap**: At 11-12 years
+- **RSV/Bronchiolitis**: Suction, hydration, O2
+- **Reye syndrome**: Avoid aspirin with viral illness
+
+## Neurological Disorders
+
+- **Seizures**: Side-lying, clear area, time it, protect head
+- **Head injury**: Epidural = LOC then lucid interval
+- **Myelomeningocele**: Latex precautions
+- **Cerebral palsy**: Most common = spastic
+- **Hydrocephalus**: Increasing head circ, bulging fontanelle
+
+## Musculoskeletal Disorders
+
+- **DDH**: Ortolani/Barlow; Pavlik harness 23h/day
+- **Clubfoot**: Ponseti method (serial casting)
+- **Scoliosis**: Adams forward bend; brace 25-45°; surgery >45°
+- **Traction**: Check 5 P's q4h; weights hang freely
+- **Fractures**: 5 P's neurovascular assessment
+
+## Renal/Fluid/Electrolyte
+
+- **Nephrotic syndrome**: Low sodium, daily weights, corticosteroids
+- **APSGN**: Monitor BP, hematuria, edema
+- **Dehydration**: Assess I&O, wet diapers, fontanelle
+- **Diarrhea**: Avoid juice; maintain hydration
+
+## GI Disorders
+
+- **Appendicitis**: Absent bowel sounds post-op expected
+- **Celiac**: Gluten-free diet
+- **GERD**: HOB 30° after feeds
+- **Diaper dermatitis**: Zinc oxide
+
+## Hematologic/Oncologic
+
+- **Sickle cell**: Pain crisis, hydration, avoid cold; vision changes = emergency
+- **Hemophilia**: Ice to joint after bleed; factor replacement
+- **Leukemia**: Neutropenia precautions; avoid crowds
+- **Anemia**: Ferrous sulfate with orange juice
+
+## Medications
+
+- **Digoxin**: Monitor toxicity (bradycardia, nausea, vision changes)
+- **Ferrous sulfate**: With vitamin C; brush teeth after liquid
+- **Antibiotics**: Finish full course; report allergies
+- **Pain**: Premedicate before procedures
+
+## Cultural & Communication
+
+- **Jehovah's Witness**: Blood products - involve parents, respect beliefs
+- **Hearing loss**: Speak at eye level, good lighting, lip reading
+- **Language barriers**: Use interpreter, avoid family members
+

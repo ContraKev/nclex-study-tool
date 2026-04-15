@@ -16,7 +16,7 @@
       "answer": [
         3
       ],
-      "rationale": "Correct (D): According to Erikson, toddlers (1\u20133 years) are in the Autonomy vs Shame and Doubt stage. Successfully completing tasks like puzzles, schoolwork, or crafts builds a sense of competence, industry, and self-worth. The child's pride in finishing the puzzle is a classic example. A is incorrect because Trust vs Mistrust (0\u20131 year) focuses on consistent caregiving building hope. B is incorrect because Industry vs Inferiority (6\u201312 years) is about task mastery. C is incorrect because Initiative vs Guilt (3\u20136 years) is about fantasy play and taking initiative. D is incorrect because Autonomy vs Shame and Doubt (1\u20133 years) is about independence and toilet training.",
+      "rationale": "Correct: According to Erikson, toddlers (1\u20133 years) are in the Autonomy vs Shame and Doubt stage. Successfully completing tasks like puzzles, schoolwork, or crafts builds a sense of competence, industry, and self-worth. The child's pride in finishing the puzzle is a classic example. Trust vs Mistrust is \u0001 because Trust vs Mistrust (0\u20131 year) focuses on consistent caregiving building hope. Industry vs Inferiority is \u0001 because Industry vs Inferiority (6\u201312 years) is about task mastery. Initiative vs Guilt is \u0001 because Initiative vs Guilt (3\u20136 years) is about fantasy play and taking initiative. Autonomy vs Shame and Doubt is \u0001 because Autonomy vs Shame and Doubt (1\u20133 years) is about independence and toilet training.",
       "slide": 15
     },
     {
@@ -35,7 +35,7 @@
         2,
         3
       ],
-      "rationale": "Correct (A, C, D): A is correct \u2014 cephalocaudal means head-to-toe, so infants gain head control (2\u20133 months) before trunk control and sitting (6\u20138 months). C is correct \u2014 growth is measurable (weight, height, head circumference). D is correct \u2014 development moves from general (whole arm reach) to specific (pincer grasp). B is incorrect \u2014 proximodistal is center-to-periphery, so infants use whole hand grasp before fine pincer grasp with fingers. E is incorrect \u2014 infants have HIGHER metabolic rates per kg than adults, requiring more calories and fluids proportionally.",
+      "rationale": "Correct (A, C, D): A is correct \u2014 cephalocaudal means head-to-toe, so infants gain head control (2\u20133 months) before trunk control and sitting (6\u20138 months). C is correct \u2014 growth is measurable (weight, height, head circumference). D is correct \u2014 development moves from general (whole arm reach) to specific (pincer grasp). Proximodistal development means infants grasp with fingers before using whole hand. is \u0001 \u2014 proximodistal is center-to-periphery, so infants use whole hand grasp before fine pincer grasp with fingers. Infants have lower metabolic rates per kilogram than adults. is \u0001 \u2014 infants have HIGHER metabolic rates per kg than adults, requiring more calories and fluids proportionally.",
       "slide": 15
     },
     {
@@ -51,7 +51,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Centration is a hallmark of Piaget's Preoperational stage (2\u20137 years). The child focuses on ONE characteristic (color = green) while ignoring others (taste, nutrition, texture). This is why the peas are 'yucky' based on color alone. A is incorrect \u2014 object permanence develops in Sensorimotor stage (~8\u20139 months). C is incorrect \u2014 conservation (understanding quantity doesn't change with appearance) is Concrete Operational (7\u201311 years). D is incorrect \u2014 formal operational (abstract/hypothetical thinking) begins at 11+ years.",
+      "rationale": "Correct: Centration is a hallmark of Piaget's Preoperational stage (2\u20137 years). The child focuses on ONE characteristic (color = green) while ignoring others (taste, nutrition, texture). This is why the peas are 'yucky' based on color alone. Object permanence is \u0001 \u2014 object permanence develops in Sensorimotor stage (~8\u20139 months). Conservation is \u0001 \u2014 conservation (understanding quantity doesn't change with appearance) is Concrete Operational (7\u201311 years). Formal operational reasoning is \u0001 \u2014 formal operational (abstract/hypothetical thinking) begins at 11+ years.",
       "slide": 18
     },
     {
@@ -67,7 +67,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Birth weight typically doubles by 5\u20136 months and triples by 12 months. 7 lb 11 oz \u00d7 3 \u2248 23 pounds. This is a key milestone \u2014 failure to meet weight expectations may indicate nutritional or developmental concerns. A is incorrect (this is roughly double, not triple). C and D are incorrect \u2014 those would indicate overgrowth or obesity concerns.",
+      "rationale": "Correct: Birth weight typically doubles by 5\u20136 months and triples by 12 months. 7 lb 11 oz \u00d7 3 \u2248 23 pounds. This is a key milestone \u2014 failure to meet weight expectations may indicate nutritional or developmental concerns. Approximately 15 pounds is \u0001 (this is roughly double, not triple). C and D are incorrect \u2014 those would indicate overgrowth or obesity concerns.",
       "slide": 16
     },
     {
@@ -84,7 +84,7 @@
         0,
         3
       ],
-      "rationale": "Correct (A and D): A blended family (also called step-family) is formed when persons with children from previous relationships remarry or cohabitate. This family has children from both parents' prior relationships plus a shared child. B is incorrect \u2014 nuclear family is traditional (parents + their biological children only, no stepchildren). C is incorrect \u2014 extended family includes grandparents, aunts, uncles, etc. living together.",
+      "rationale": "Correct (A and D): A blended family (also called step-family) is formed when persons with children from previous relationships remarry or cohabitate. This family has children from both parents' prior relationships plus a shared child. Nuclear family is \u0001 \u2014 nuclear family is traditional (parents + their biological children only, no stepchildren). Extended family is \u0001 \u2014 extended family includes grandparents, aunts, uncles, etc. living together.",
       "slide": 15
     },
     {
@@ -100,7 +100,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): The Denver II (Denver Developmental Screening Test) screens four domains: personal-social, fine motor-adaptive, language, and gross motor. It identifies children NOT performing at age level \u2014 it is NOT an intelligence test. A is incorrect \u2014 Denver II is NOT an IQ test; it screens for developmental delays. C is incorrect \u2014 nurses and trained professionals can perform it. D is incorrect \u2014 low scores indicate need for follow-up and possible intervention, but children often catch up with support.",
+      "rationale": "Correct: The Denver II (Denver Developmental Screening Test) screens four domains: personal-social, fine motor-adaptive, language, and gross motor. It identifies children NOT performing at age level \u2014 it is NOT an intelligence test. It is an IQ test that determines intelligence. is \u0001 \u2014 Denver II is NOT an IQ test; it screens for developmental delays. It should be performed only by licensed psychologists. is \u0001 \u2014 nurses and trained professionals can perform it. A low score indicates the child will not catch up developmentally. is \u0001 \u2014 low scores indicate need for follow-up and possible intervention, but children often catch up with support.",
       "slide": 15
     },
     {
@@ -142,7 +142,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Parallel play is characteristic of toddlers (1\u20133 years). Children play beside each other with similar toys but do not interact or share. A is incorrect \u2014 cooperative play involves playing together with shared goals (preschool 3\u20136 yrs). C is incorrect \u2014 associative play is early group play with some interaction (late preschool). D is incorrect \u2014 competitive play with rules and teams is school-age (7+ years).",
+      "rationale": "Correct: Parallel play is characteristic of toddlers (1\u20133 years). Children play beside each other with similar toys but do not interact or share. Cooperative play is \u0001 \u2014 cooperative play involves playing together with shared goals (preschool 3\u20136 yrs). Associative play is \u0001 \u2014 associative play is early group play with some interaction (late preschool). Competitive play is \u0001 \u2014 competitive play with rules and teams is school-age (7+ years).",
       "slide": 17
     },
     {
@@ -161,7 +161,7 @@
         2,
         3
       ],
-      "rationale": "Correct (A, C, D): A is correct \u2014 pincer grasp develops 9\u201312 months. C is correct \u2014 first meaningful words (mama, dada) appear ~10\u201312 months. D is correct \u2014 stranger anxiety peaks 6\u20138 months and continues through 12 months. B is incorrect \u2014 most infants cruise or take first steps 9\u201312 months, but independent walking is typically 12\u201315 months. E is incorrect \u2014 posterior fontanelle closes by 2\u20133 months.",
+      "rationale": "Correct (A, C, D): A is correct \u2014 pincer grasp develops 9\u201312 months. C is correct \u2014 first meaningful words (mama, dada) appear ~10\u201312 months. D is correct \u2014 stranger anxiety peaks 6\u20138 months and continues through 12 months. Walking independently without assistance is \u0001 \u2014 most infants cruise or take first steps 9\u201312 months, but independent walking is typically 12\u201315 months. Posterior fontanelle still open is \u0001 \u2014 posterior fontanelle closes by 2\u20133 months.",
       "slide": 16
     },
     {
@@ -177,7 +177,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Push-pull toys are ideal for 10-month-olds \u2014 they encourage locomotion (crawling, cruising) and support motor development. A is incorrect \u2014 modeling clay is for preschoolers (3\u20135 years). C is incorrect \u2014 board games with rules are for school-age children (6+ years). D is incorrect \u2014 complex building sets require fine motor skills beyond 10-month-olds.",
+      "rationale": "Correct: Push-pull toys are ideal for 10-month-olds \u2014 they encourage locomotion (crawling, cruising) and support motor development. Modeling clay is \u0001 \u2014 modeling clay is for preschoolers (3\u20135 years). A board game with rules is \u0001 \u2014 board games with rules are for school-age children (6+ years). A complex building set is \u0001 \u2014 complex building sets require fine motor skills beyond 10-month-olds.",
       "slide": 21
     },
     {
@@ -193,7 +193,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Time-out duration is 1 minute per year of age. For a 3-year-old, that is 3 minutes. The child should be calm before timing begins, and no interaction or eye contact should occur during the time-out.",
+      "rationale": "Correct: Time-out duration is 1 minute per year of age. For a 3-year-old, that is 3 minutes. The child should be calm before timing begins, and no interaction or eye contact should occur during the time-out.",
       "slide": 17
     },
     {
@@ -212,7 +212,7 @@
         1,
         3
       ],
-      "rationale": "Correct (A, B, D): A is correct \u2014 preschoolers play house as family, take roles (cooperative/associative). B is correct \u2014 parallel play is toddlers. D is correct \u2014 school-age children play organized games with rules. C is incorrect \u2014 school-age focus on concrete tasks and peer relationships, not fantasy. E is incorrect \u2014 infants are in solitary play, not parallel play.",
+      "rationale": "Correct (A, B, D): A is correct \u2014 preschoolers play house as family, take roles (cooperative/associative). B is correct \u2014 parallel play is toddlers. D is correct \u2014 school-age children play organized games with rules. School-age children (6\u201312 years) prefer fantasy and imaginary play. is \u0001 \u2014 school-age focus on concrete tasks and peer relationships, not fantasy. Parallel play is the primary play type for infants under 12 months. is \u0001 \u2014 infants are in solitary play, not parallel play.",
       "slide": 17
     },
     {
@@ -228,7 +228,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Infants should be able to lift their head when prone by 2\u20133 months. Inability at 3 months is a red flag for possible neurological concern and should be reported. A is incorrect \u2014 head control should be present by 3 months, not 6. C is incorrect \u2014 supine for sleep does not replace tummy time for development. D is incorrect \u2014 even premature infants should show head control by corrected age.",
+      "rationale": "Correct: Infants should be able to lift their head when prone by 2\u20133 months. Inability at 3 months is a red flag for possible neurological concern and should be reported. This is normal; head control develops by 6 months. is \u0001 \u2014 head control should be present by 3 months, not 6. The infant should be placed supine only to prevent SIDS. is \u0001 \u2014 supine for sleep does not replace tummy time for development. This is expected if the baby was born prematurely. is \u0001 \u2014 even premature infants should show head control by corrected age.",
       "slide": 16
     },
     {
@@ -270,7 +270,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Deciduous (baby) teeth total 20 and are typically complete by 2.5 years of age. The first tooth (usually lower central incisor) erupts around 6\u201310 months, and ~6 teeth are present by the first birthday. A is incorrect \u2014 6 months is when first tooth erupts. B is incorrect \u2014 only ~6 teeth by 1 year. D is incorrect \u2014 all baby teeth are in by 2.5 years.",
+      "rationale": "Correct: Deciduous (baby) teeth total 20 and are typically complete by 2.5 years of age. The first tooth (usually lower central incisor) erupts around 6\u201310 months, and ~6 teeth are present by the first birthday. By 6 months of age is \u0001 \u2014 6 months is when first tooth erupts. By 1 year of age is \u0001 \u2014 only ~6 teeth by 1 year. By 4 years of age is \u0001 \u2014 all baby teeth are in by 2.5 years.",
       "slide": 15
     },
     {
@@ -289,7 +289,7 @@
         1,
         3
       ],
-      "rationale": "Correct (A, B, D): A is correct \u2014 solids introduced 4\u20136 months when infant shows readiness. B is correct \u2014 iron-fortified rice cereal is first food (iron stores deplete by 6 months). D is correct \u2014 no honey <1 year (botulism risk). C is incorrect \u2014 no cow's milk until 12 months (causes iron-deficiency anemia, poor digestion). E is incorrect \u2014 breastfeeding continues alongside solids; gradual weaning.",
+      "rationale": "Correct (A, B, D): A is correct \u2014 solids introduced 4\u20136 months when infant shows readiness. B is correct \u2014 iron-fortified rice cereal is first food (iron stores deplete by 6 months). D is correct \u2014 no honey <1 year (botulism risk). Whole cow's milk can be given at 6 months of age. is \u0001 \u2014 no cow's milk until 12 months (causes iron-deficiency anemia, poor digestion). Breastfeeding should stop completely when solids begin. is \u0001 \u2014 breastfeeding continues alongside solids; gradual weaning.",
       "slide": 16
     },
     {
@@ -305,7 +305,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Colic interventions include prone positioning over the arm (gas relief), pacifier, back massage, white noise, and caregiver breaks. Colic usually resolves by 3 months. A is incorrect \u2014 infants should not be left alone while crying excessively. C is incorrect \u2014 overfeeding can worsen colic. D is incorrect \u2014 quiet, dim environment is soothing.",
+      "rationale": "Correct: Colic interventions include prone positioning over the arm (gas relief), pacifier, back massage, white noise, and caregiver breaks. Colic usually resolves by 3 months. Place the infant supine and leave alone is \u0001 \u2014 infants should not be left alone while crying excessively. Give the infant a large bottle of formula is \u0001 \u2014 overfeeding can worsen colic. Keep the infant in bright, noisy environment is \u0001 \u2014 quiet, dim environment is soothing.",
       "slide": 16
     },
     {
@@ -321,7 +321,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Brush at eruption (around 6 months) and use fluoride after 6 months if not in water. A is incorrect \u2014 brushing starts with first tooth. B is incorrect \u2014 fluoride after 6 months. D is incorrect \u2014 sharing utensils transmits cariogenic bacteria (cavities).",
+      "rationale": "Correct: Brush at eruption (around 6 months) and use fluoride after 6 months if not in water. Brush teeth starting at 2 years of age is \u0001 \u2014 brushing starts with first tooth. Avoid fluoride until age 3 is \u0001 \u2014 fluoride after 6 months. Share utensils to build immunity is \u0001 \u2014 sharing utensils transmits cariogenic bacteria (cavities).",
       "slide": 15
     },
     {
@@ -341,7 +341,7 @@
         3,
         4
       ],
-      "rationale": "Correct (A, B, D, E): A is correct \u2014 unintentional injuries (MVA, drowning, poisoning) are #1 cause of death after 1 year. B is correct \u2014 rear-facing until 1yr AND 20-22lb minimum. D is correct \u2014 anticipatory guidance for toddlers includes 'hot,' traffic, stair safety. E is correct \u2014 obesity prevention: activity 60 min/day, limit screen time, family meals. C is incorrect \u2014 school-age children still at risk (bike, sports, strangers).",
+      "rationale": "Correct (A, B, D, E): A is correct \u2014 unintentional injuries (MVA, drowning, poisoning) are #1 cause of death after 1 year. B is correct \u2014 rear-facing until 1yr AND 20-22lb minimum. D is correct \u2014 anticipatory guidance for toddlers includes 'hot,' traffic, stair safety. E is correct \u2014 obesity prevention: activity 60 min/day, limit screen time, family meals. Accidents are rare in school-age children. is \u0001 \u2014 school-age children still at risk (bike, sports, strangers).",
       "slide": 19
     },
     {
@@ -357,7 +357,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Centration is a Preoperational stage characteristic (2\u20137 years). The child focuses on ONE feature (color = green) and ignores others (taste, nutrition). This is why peas are 'yucky' based on color alone. A is incorrect \u2014 conservation is Concrete Operational (7\u201311 yrs). C is incorrect \u2014 object permanence is Sensorimotor (~9 mo). D is incorrect \u2014 not a moral level (Piaget cognitive stage).",
+      "rationale": "Correct: Centration is a Preoperational stage characteristic (2\u20137 years). The child focuses on ONE feature (color = green) and ignores others (taste, nutrition). This is why peas are 'yucky' based on color alone. Conservation is \u0001 \u2014 conservation is Concrete Operational (7\u201311 yrs). Object permanence is \u0001 \u2014 object permanence is Sensorimotor (~9 mo). Formal operational thinking is \u0001 \u2014 not a moral level (Piaget cognitive stage).",
       "slide": 18
     },
     {
@@ -373,7 +373,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Tetracycline causes permanent tooth staining in developing teeth. It should NEVER be given to children under 8 years. A is incorrect \u2014 tetracycline is contraindicated in children. C is incorrect \u2014 dairy decreases tetracycline absorption. D is incorrect \u2014 tetracycline is contraindicated in children and pregnancy.",
+      "rationale": "Correct: Tetracycline causes permanent tooth staining in developing teeth. It should NEVER be given to children under 8 years. Tetracycline is the best antibiotic for children. is \u0001 \u2014 tetracycline is contraindicated in children. Tetracycline should be taken with dairy products. is \u0001 \u2014 dairy decreases tetracycline absorption. Tetracycline is safe for all ages. is \u0001 \u2014 tetracycline is contraindicated in children and pregnancy.",
       "slide": 15
     },
     {
@@ -389,7 +389,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Protest is the first stage of separation anxiety. The child cries loudly, calls for parents, and may hit or push away strangers. This is normal and indicates attachment. B is incorrect \u2014 detachment (third stage) appears as 'adjustment' but is actually emotional withdrawal. A is incorrect \u2014 despair (second stage) shows withdrawal and depression. D is incorrect \u2014 denial is not a standard stage.",
+      "rationale": "Correct: Protest is the first stage of separation anxiety. The child cries loudly, calls for parents, and may hit or push away strangers. This is normal and indicates attachment. Detachment is \u0001 \u2014 detachment (third stage) appears as 'adjustment' but is actually emotional withdrawal. Despair is \u0001 \u2014 despair (second stage) shows withdrawal and depression. Denial is \u0001 \u2014 denial is not a standard stage.",
       "slide": 21
     },
     {
@@ -409,7 +409,7 @@
         3,
         4
       ],
-      "rationale": "Correct (A, B, D, E): A is correct \u2014 parent presence reduces separation anxiety. B is correct \u2014 routines provide security. D is correct \u2014 comfort items (blanket, stuffed animal) reduce stress. E is correct \u2014 therapeutic play helps children process and prepare. C is incorrect \u2014 use simple, concrete explanations at the child's level.",
+      "rationale": "Correct (A, B, D, E): A is correct \u2014 parent presence reduces separation anxiety. B is correct \u2014 routines provide security. D is correct \u2014 comfort items (blanket, stuffed animal) reduce stress. E is correct \u2014 therapeutic play helps children process and prepare. Explain procedures in medical jargon is \u0001 \u2014 use simple, concrete explanations at the child's level.",
       "slide": 21
     },
     {
@@ -425,7 +425,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Modeling clay is expressive and therapeutic for preschoolers. It allows them to work through feelings about hospitalization, procedures, and fears. A is incorrect \u2014 passive activity doesn't allow expression. C is incorrect \u2014 school-age appropriate, not 4-year-old. D is incorrect \u2014 competitive play is for older children; may increase stress.",
+      "rationale": "Correct: Modeling clay is expressive and therapeutic for preschoolers. It allows them to work through feelings about hospitalization, procedures, and fears. Watching television is \u0001 \u2014 passive activity doesn't allow expression. Completing a math workbook is \u0001 \u2014 school-age appropriate, not 4-year-old. Playing a competitive board game is \u0001 \u2014 competitive play is for older children; may increase stress.",
       "slide": 21
     },
     {
@@ -441,7 +441,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): FLACC (Face, Legs, Activity, Cry, Consolability) is for nonverbal infants and children. It scores 0\u20132 in each category for a total 0\u201310. A and D are incorrect \u2014 numeric and visual scales require verbal/cognitive ability (school-age+). B is incorrect \u2014 FACES is for children 3+ who can point to faces.",
+      "rationale": "Correct: FLACC (Face, Legs, Activity, Cry, Consolability) is for nonverbal infants and children. It scores 0\u20132 in each category for a total 0\u201310. A and D are incorrect \u2014 numeric and visual scales require verbal/cognitive ability (school-age+). FACES scale is \u0001 \u2014 FACES is for children 3+ who can point to faces.",
       "slide": 21
     },
     {
@@ -460,7 +460,7 @@
         2,
         3
       ],
-      "rationale": "Correct (A, C, D): A is correct \u2014 toddlers: just before, simple words. C is correct \u2014 school-age children can touch equipment and ask questions. D is correct \u2014 adolescents: oral + written info, involvement in decisions. B is incorrect \u2014 use simple, concrete terms. E is incorrect \u2014 preschoolers: day before is fine, too early causes anxiety.",
+      "rationale": "Correct (A, C, D): A is correct \u2014 toddlers: just before, simple words. C is correct \u2014 school-age children can touch equipment and ask questions. D is correct \u2014 adolescents: oral + written info, involvement in decisions. Use medical jargon so children understand better. is \u0001 \u2014 use simple, concrete terms. Preschoolers should be prepared days in advance. is \u0001 \u2014 preschoolers: day before is fine, too early causes anxiety.",
       "slide": 21
     },
     {
@@ -476,7 +476,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Modeling clay allows expressive, creative play for preschoolers. It helps children process feelings about illness and hospitalization. A is incorrect \u2014 push-pull toy is for 9\u201312 month infants. C is incorrect \u2014 competitive games are for school-age. D is incorrect \u2014 rattles are for infants.",
+      "rationale": "Correct: Modeling clay allows expressive, creative play for preschoolers. It helps children process feelings about illness and hospitalization. A push-pull toy is \u0001 \u2014 push-pull toy is for 9\u201312 month infants. A competitive board game is \u0001 \u2014 competitive games are for school-age. An infant rattle is \u0001 \u2014 rattles are for infants.",
       "slide": 21
     },
     {
@@ -492,7 +492,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): The FACES scale uses faces from smiling (0, no pain) to crying/frowning (10, worst pain). A frown with tears indicates moderate to severe pain. This scale is appropriate for children 3+ years who can point to the face matching their pain. A is incorrect \u2014 smiling face = no pain. C and D are incorrect \u2014 not related to pain assessment.",
+      "rationale": "Correct: The FACES scale uses faces from smiling (0, no pain) to crying/frowning (10, worst pain). A frown with tears indicates moderate to severe pain. This scale is appropriate for children 3+ years who can point to the face matching their pain. The child is not in pain is \u0001 \u2014 smiling face = no pain. C and D are incorrect \u2014 not related to pain assessment.",
       "slide": 21
     },
     {
@@ -508,7 +508,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Obesity prevention includes physical activity (60 min/day), limiting screen time (\u22642 hours), family meals, appropriate portions, and role modeling. A is incorrect \u2014 healthy snacks are appropriate; restriction causes rebound overeating. C is incorrect \u2014 vitamins don't prevent obesity. D is incorrect \u2014 daily weighing increases anxiety, not prevention.",
+      "rationale": "Correct: Obesity prevention includes physical activity (60 min/day), limiting screen time (\u22642 hours), family meals, appropriate portions, and role modeling. Restrict all snacks between meals is \u0001 \u2014 healthy snacks are appropriate; restriction causes rebound overeating. Give vitamin supplements is \u0001 \u2014 vitamins don't prevent obesity. Weigh the child daily is \u0001 \u2014 daily weighing increases anxiety, not prevention.",
       "slide": 19
     },
     {
@@ -527,7 +527,7 @@
         1,
         3
       ],
-      "rationale": "Correct (A, B, D): A is correct \u2014 food jags are normal toddler behavior. B is correct \u2014 excess juice causes dental caries and poor nutrition. D is correct \u2014 self-feeding builds autonomy (Erikson). C is incorrect \u2014 >24 oz milk/day causes iron-deficiency anemia. E is incorrect \u2014 picky eating is normal, not a disorder.",
+      "rationale": "Correct (A, B, D): A is correct \u2014 food jags are normal toddler behavior. B is correct \u2014 excess juice causes dental caries and poor nutrition. D is correct \u2014 self-feeding builds autonomy (Erikson). Milk intake should exceed 32 ounces per day. is \u0001 \u2014 >24 oz milk/day causes iron-deficiency anemia. Picky eating is a sign of a disorder. is \u0001 \u2014 picky eating is normal, not a disorder.",
       "slide": 17
     },
     {
@@ -543,7 +543,7 @@
       "answer": [
         0
       ],
-      "rationale": "Correct (A): Total daily dose = 10 mg/kg \u00d7 20 kg = 200 mg/day. Divided q8h (3 times) = 200 \u00f7 3 = 66.6 mg per dose. B is incorrect \u2014 that's the total daily dose. C is incorrect \u2014 100 mg would be for q12h. D is incorrect \u2014 50 mg is too low.",
+      "rationale": "Correct: Total daily dose = 10 mg/kg \u00d7 20 kg = 200 mg/day. Divided q8h (3 times) = 200 \u00f7 3 = 66.6 mg per dose. 200 mg is \u0001 \u2014 that's the total daily dose. 100 mg is \u0001 \u2014 100 mg would be for q12h. 50 mg is \u0001 \u2014 50 mg is too low.",
       "slide": 22
     },
     {
@@ -559,7 +559,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): At 2 months, infants receive DTaP #1, IPV #1, Hib #1, HepB #2 (if not at birth), Rotavirus #1, PCV13 #1. A is incorrect \u2014 MMR and Varicella are at 12 months. C is incorrect \u2014 Tdap at 11\u201312 years, Meningococcal at 11\u201312 and 16 years. D is incorrect \u2014 flu starts at 6 months annually.",
+      "rationale": "Correct: At 2 months, infants receive DTaP #1, IPV #1, Hib #1, HepB #2 (if not at birth), Rotavirus #1, PCV13 #1. MMR and Varicella is \u0001 \u2014 MMR and Varicella are at 12 months. Tetanus and Meningococcal is \u0001 \u2014 Tdap at 11\u201312 years, Meningococcal at 11\u201312 and 16 years. Influenza only is \u0001 \u2014 flu starts at 6 months annually.",
       "slide": 16
     },
     {
@@ -575,7 +575,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Regression (returning to earlier behaviors) is NORMAL during stress/illness/hospitalization. It resolves when stress is removed. Parents should praise appropriate behavior and ignore regression. A is incorrect \u2014 normal during stress. C is incorrect \u2014 not acting out, it's a coping mechanism. D is incorrect \u2014 not indicative of UTI without other symptoms.",
+      "rationale": "Correct: Regression (returning to earlier behaviors) is NORMAL during stress/illness/hospitalization. It resolves when stress is removed. Parents should praise appropriate behavior and ignore regression. This is abnormal and needs immediate intervention. is \u0001 \u2014 normal during stress. The child is acting out and needs discipline. is \u0001 \u2014 not acting out, it's a coping mechanism. This indicates a urinary tract infection. is \u0001 \u2014 not indicative of UTI without other symptoms.",
       "slide": 21
     },
     {
@@ -594,7 +594,7 @@
         1,
         3
       ],
-      "rationale": "Correct (A, B, D): A is correct \u2014 solids at 4\u20136 months. B is correct \u2014 back to sleep (SIDS prevention). D is correct \u2014 childproofing for mobile infant. C is incorrect \u2014 potty training is 18\u201324 months (toddler). E is incorrect \u2014 stranger danger is preschool/school-age teaching.",
+      "rationale": "Correct (A, B, D): A is correct \u2014 solids at 4\u20136 months. B is correct \u2014 back to sleep (SIDS prevention). D is correct \u2014 childproofing for mobile infant. Start potty training is \u0001 \u2014 potty training is 18\u201324 months (toddler). Teach stranger danger is \u0001 \u2014 stranger danger is preschool/school-age teaching.",
       "slide": 16
     },
     {
@@ -610,7 +610,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Latchkey children (unsupervised after school) may experience anxiety, loneliness, or develop independence/self-care skills. Risk depends on child maturity, neighborhood, and preparation. A is incorrect \u2014 not always unsafe. C is incorrect \u2014 no fixed age; depends on child and situation. D is incorrect \u2014 not automatically neglect.",
+      "rationale": "Correct: Latchkey children (unsupervised after school) may experience anxiety, loneliness, or develop independence/self-care skills. Risk depends on child maturity, neighborhood, and preparation. This is always unsafe and should be reported. is \u0001 \u2014 not always unsafe. Parents should never leave children alone before age 12. is \u0001 \u2014 no fixed age; depends on child and situation. This is child neglect in all cases. is \u0001 \u2014 not automatically neglect.",
       "slide": 19
     },
     {
@@ -626,7 +626,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Unintentional injuries (motor vehicle accidents, drowning, poisoning, burns) are the leading cause of death after age 1 year. A is incorrect \u2014 cancer is a significant cause but not leading. B is incorrect \u2014 congenital anomalies are leading in infants <1 year. D is incorrect \u2014 infectious diseases are lower due to vaccines.",
+      "rationale": "Correct: Unintentional injuries (motor vehicle accidents, drowning, poisoning, burns) are the leading cause of death after age 1 year. Cancer is \u0001 \u2014 cancer is a significant cause but not leading. Congenital anomalies is \u0001 \u2014 congenital anomalies are leading in infants <1 year. Infectious diseases is \u0001 \u2014 infectious diseases are lower due to vaccines.",
       "slide": 19
     },
     {
@@ -642,7 +642,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Car seats should be rear-facing until the child is at least 1 year old AND 20\u201322 pounds (varies by seat). This protects the head, neck, and spine in a crash. A is incorrect \u2014 sitting up is not the criterion. B is incorrect \u2014 6 months is too young. D is incorrect \u2014 3 years is too late; most children can face forward earlier.",
+      "rationale": "Correct: Car seats should be rear-facing until the child is at least 1 year old AND 20\u201322 pounds (varies by seat). This protects the head, neck, and spine in a crash. As soon as the infant can sit up is \u0001 \u2014 sitting up is not the criterion. At 6 months of age is \u0001 \u2014 6 months is too young. At 3 years of age is \u0001 \u2014 3 years is too late; most children can face forward earlier.",
       "slide": 16
     },
     {
@@ -661,7 +661,7 @@
         1,
         3
       ],
-      "rationale": "Correct (A, B, D): A is correct \u2014 10\u201320 words by 18 months. B is correct \u2014 climbs stairs with help. D is correct \u2014 removes some clothing. C is incorrect \u2014 runs by 18 months but jumping is later (2\u20132.5 years). E is incorrect \u2014 drawing a circle is a 3-year milestone.",
+      "rationale": "Correct (A, B, D): A is correct \u2014 10\u201320 words by 18 months. B is correct \u2014 climbs stairs with help. D is correct \u2014 removes some clothing. Runs and jumps independently is \u0001 \u2014 runs by 18 months but jumping is later (2\u20132.5 years). Draws a circle is \u0001 \u2014 drawing a circle is a 3-year milestone.",
       "slide": 17
     },
     {
@@ -677,7 +677,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Preconventional moral reasoning (ages ~4\u20137) is based on punishment and reward. The child obeys to avoid punishment. A is incorrect \u2014 postconventional is 13+ years (ethical principles). B is incorrect \u2014 conventional is 9\u201313 years (social approval). D is incorrect \u2014 not a moral level (Piaget cognitive stage).",
+      "rationale": "Correct: Preconventional moral reasoning (ages ~4\u20137) is based on punishment and reward. The child obeys to avoid punishment. Postconventional is \u0001 \u2014 postconventional is 13+ years (ethical principles). Conventional is \u0001 \u2014 conventional is 9\u201313 years (social approval). Formal operational is \u0001 \u2014 not a moral level (Piaget cognitive stage).",
       "slide": 18
     },
     {
@@ -693,7 +693,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Always calculate pediatric doses by weight (mg/kg) and verify against safe dose range. This prevents overdose/under-dose. A is incorrect \u2014 preference doesn't affect safety. C is incorrect \u2014 mixing with essential foods may cause refusal. D is incorrect \u2014 safety over speed.",
+      "rationale": "Correct: Always calculate pediatric doses by weight (mg/kg) and verify against safe dose range. This prevents overdose/under-dose. Ask the parent if the child likes the medication is \u0001 \u2014 preference doesn't affect safety. Mix the medication with juice is \u0001 \u2014 mixing with essential foods may cause refusal. Give the medication as quickly as possible is \u0001 \u2014 safety over speed.",
       "slide": 22
     },
     {
@@ -709,7 +709,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Brush teeth at first eruption (~6 months). Daily brushing removes plaque and establishes good habits. A is incorrect \u2014 too late (all teeth in by 2.5 years). C is incorrect \u2014 should start much earlier. D is incorrect \u2014 baby teeth are important for eating, speech, and space maintenance.",
+      "rationale": "Correct: Brush teeth at first eruption (~6 months). Daily brushing removes plaque and establishes good habits. When all 20 teeth are in is \u0001 \u2014 too late (all teeth in by 2.5 years). At 2 years of age is \u0001 \u2014 should start much earlier. Never; baby teeth don't need brushing is \u0001 \u2014 baby teeth are important for eating, speech, and space maintenance.",
       "slide": 15
     },
     {
@@ -725,7 +725,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Pincer grasp (thumb and index finger) develops 9\u201312 months. It demonstrates fine motor development. A is incorrect \u2014 grasp reflex is present at birth and fades. B is incorrect \u2014 palmar grasp uses the whole hand (earlier). D is incorrect \u2014 raking grasp uses fingers together (earlier than pincer).",
+      "rationale": "Correct: Pincer grasp (thumb and index finger) develops 9\u201312 months. It demonstrates fine motor development. Grasp reflex is \u0001 \u2014 grasp reflex is present at birth and fades. Palmar grasp is \u0001 \u2014 palmar grasp uses the whole hand (earlier). Raking grasp is \u0001 \u2014 raking grasp uses fingers together (earlier than pincer).",
       "slide": 16
     },
     {
@@ -745,7 +745,7 @@
         2,
         3
       ],
-      "rationale": "Correct (A, B, C, D): A is correct \u2014 heredity provides genetic blueprint. B is correct \u2014 environment (nutrition, stimulation, safety) affects development. C is correct \u2014 birth order affects (e.g., youngest may have delayed language). D is correct \u2014 temperament affects how children respond to environment. E is incorrect \u2014 income is one factor but not the only one.",
+      "rationale": "Correct (A, B, C, D): A is correct \u2014 heredity provides genetic blueprint. B is correct \u2014 environment (nutrition, stimulation, safety) affects development. C is correct \u2014 birth order affects (e.g., youngest may have delayed language). D is correct \u2014 temperament affects how children respond to environment. Only parental income is \u0001 \u2014 income is one factor but not the only one.",
       "slide": 15
     },
     {
@@ -761,7 +761,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Autonomy vs Shame and Doubt (1\u20133 years). Self-feeding builds independence and autonomy. The mess is normal; parents should encourage attempts. A is incorrect \u2014 trust is infant. C is incorrect \u2014 initiative is preschool. D is incorrect \u2014 industry is school-age.",
+      "rationale": "Correct: Autonomy vs Shame and Doubt (1\u20133 years). Self-feeding builds independence and autonomy. The mess is normal; parents should encourage attempts. Trust is \u0001 \u2014 trust is infant. Initiative is \u0001 \u2014 initiative is preschool. Industry is \u0001 \u2014 industry is school-age.",
       "slide": 17
     },
     {
@@ -777,7 +777,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Double-checking pediatric medication calculations with another nurse is critical to prevent errors. Weight-based dosing (mg/kg) must be verified. A is incorrect \u2014 parents may not know safe doses. C is incorrect \u2014 safety first. D is incorrect \u2014 mixing with essential foods may cause refusal.",
+      "rationale": "Correct: Double-checking pediatric medication calculations with another nurse is critical to prevent errors. Weight-based dosing (mg/kg) must be verified. Ask the parent if the dose looks right is \u0001 \u2014 parents may not know safe doses. Give the medication quickly is \u0001 \u2014 safety first. Mix the medication with the child's favorite food is \u0001 \u2014 mixing with essential foods may cause refusal.",
       "slide": 22
     },
     {
@@ -793,7 +793,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Brush at bedtime (most important) and after meals. Baby teeth are space maintainers. A is incorrect \u2014 baby teeth are critical. C is incorrect \u2014 fluoride after 6 months prevents cavities. D is incorrect \u2014 sharing transmits bacteria.",
+      "rationale": "Correct: Brush at bedtime (most important) and after meals. Baby teeth are space maintainers. Baby teeth don't matter since they fall out is \u0001 \u2014 baby teeth are critical. Avoid fluoride completely is \u0001 \u2014 fluoride after 6 months prevents cavities. Sharing utensils prevents cavities is \u0001 \u2014 sharing transmits bacteria.",
       "slide": 15
     },
     {
@@ -809,7 +809,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): 'No' is normal for Autonomy vs Shame and Doubt (1\u20133 years). It's the child's way of asserting independence. A is incorrect \u2014 normal. C is incorrect \u2014 not hearing. D is incorrect \u2014 not a disorder.",
+      "rationale": "Correct: 'No' is normal for Autonomy vs Shame and Doubt (1\u20133 years). It's the child's way of asserting independence. Abnormal behavior is \u0001 \u2014 normal. Sign of hearing loss is \u0001 \u2014 not hearing. Behavioral disorder is \u0001 \u2014 not a disorder.",
       "slide": 17
     },
     {
@@ -829,7 +829,7 @@
         3,
         4
       ],
-      "rationale": "Correct (A, B, D, E): A is correct \u2014 growth is quantitative. B is correct \u2014 development is qualitative. D is correct \u2014 sequence is predictable. E is correct \u2014 environment matters. C is incorrect \u2014 rate varies by individual.",
+      "rationale": "Correct (A, B, D, E): A is correct \u2014 growth is quantitative. B is correct \u2014 development is qualitative. D is correct \u2014 sequence is predictable. E is correct \u2014 environment matters. All children develop at the exact same rate is \u0001 \u2014 rate varies by individual.",
       "slide": 15
     },
     {
@@ -845,7 +845,7 @@
       "answer": [
         0
       ],
-      "rationale": "Correct (A): Magical thinking is normal in Preoperational stage (2\u20137 years). The child believes the moon follows them or that wishes come true. B is incorrect \u2014 not hallucination. C is incorrect \u2014 not autism sign. D is incorrect \u2014 not vision.",
+      "rationale": "Correct: Magical thinking is normal in Preoperational stage (2\u20137 years). The child believes the moon follows them or that wishes come true. Hallucination is \u0001 \u2014 not hallucination. Sign of autism is \u0001 \u2014 not autism sign. Vision problem is \u0001 \u2014 not vision.",
       "slide": 18
     },
     {
@@ -861,7 +861,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Therapeutic play allows children to process feelings about hospitalization and procedures. Playing doctor/nurse helps them understand and cope. A is incorrect \u2014 normal. C is incorrect \u2014 not regression. D is incorrect \u2014 not attention seeking.",
+      "rationale": "Correct: Therapeutic play allows children to process feelings about hospitalization and procedures. Playing doctor/nurse helps them understand and cope. Abnormal play is \u0001 \u2014 normal. Regression is \u0001 \u2014 not regression. Attention seeking is \u0001 \u2014 not attention seeking.",
       "slide": 21
     },
     {
@@ -877,7 +877,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Numeric 0\u201310 scale is appropriate for school-age children (6+ years) who can understand numbers. A is for nonverbal infants. B is for preschool 3+ years. D is incorrect \u2014 only C is appropriate here.",
+      "rationale": "Correct: Numeric 0\u201310 scale is appropriate for school-age children (6+ years) who can understand numbers. A is for nonverbal infants. B is for preschool 3+ years. All of the above is \u0001 \u2014 only C is appropriate here.",
       "slide": 21
     },
     {
@@ -893,7 +893,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Autonomy vs Shame and Doubt (1\u20133 years). Self-dressing (even if imperfect) builds independence. A is incorrect \u2014 trust is infant. C is incorrect \u2014 initiative is preschool. D is incorrect \u2014 industry is school-age.",
+      "rationale": "Correct: Autonomy vs Shame and Doubt (1\u20133 years). Self-dressing (even if imperfect) builds independence. Trust is \u0001 \u2014 trust is infant. Initiative is \u0001 \u2014 initiative is preschool. Industry is \u0001 \u2014 industry is school-age.",
       "slide": 17
     },
     {
@@ -909,7 +909,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Brush after each meal/snack and at bedtime. This removes plaque and prevents cavities. A is incorrect \u2014 once daily is insufficient. C is incorrect \u2014 too infrequent. D is incorrect \u2014 appearance is not the indicator.",
+      "rationale": "Correct: Brush after each meal/snack and at bedtime. This removes plaque and prevents cavities. Once a day is \u0001 \u2014 once daily is insufficient. Once a week is \u0001 \u2014 too infrequent. Only when teeth look dirty is \u0001 \u2014 appearance is not the indicator.",
       "slide": 15
     },
     {
@@ -925,7 +925,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Solids at 4\u20136 months when infant shows readiness (sitting with support, head control, interest in food). A is incorrect \u2014 breast/formula only 0\u20136 months. B is incorrect \u2014 too early. D is incorrect \u2014 solids should be well-established by 1 year.",
+      "rationale": "Correct: Solids at 4\u20136 months when infant shows readiness (sitting with support, head control, interest in food). At birth is \u0001 \u2014 breast/formula only 0\u20136 months. At 2 months is \u0001 \u2014 too early. At 1 year is \u0001 \u2014 solids should be well-established by 1 year.",
       "slide": 16
     },
     {
@@ -945,7 +945,7 @@
         2,
         4
       ],
-      "rationale": "Correct (A, B, C, D): A is correct \u2014 poison prevention. B is correct \u2014 burn prevention. C is correct \u2014 drowning prevention. D is correct \u2014 rear-facing car seat. E is incorrect \u2014 unsupervised street play is dangerous.",
+      "rationale": "Correct (A, B, C, D): A is correct \u2014 poison prevention. B is correct \u2014 burn prevention. C is correct \u2014 drowning prevention. D is correct \u2014 rear-facing car seat. Use rear-facing car seat is \u0001 \u2014 unsupervised street play is dangerous.",
       "slide": 17
     },
     {
@@ -961,7 +961,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): The Denver II screens four domains: personal-social, fine motor-adaptive, language, and gross motor. It identifies children not meeting age-level expectations. A is incorrect \u2014 not an IQ test. C is incorrect \u2014 academic subjects are for school-age. D is incorrect \u2014 vision/hearing are separate screens.",
+      "rationale": "Correct: The Denver II screens four domains: personal-social, fine motor-adaptive, language, and gross motor. It identifies children not meeting age-level expectations. IQ, memory, attention, behavior is \u0001 \u2014 not an IQ test. Reading, writing, math, science is \u0001 \u2014 academic subjects are for school-age. Vision, hearing, speech, mobility is \u0001 \u2014 vision/hearing are separate screens.",
       "slide": 15
     },
     {
@@ -1053,7 +1053,7 @@
       "answer": [
         2
       ],
-      "rationale": "Correct (C): Children have 20 baby teeth, which are typically all present by 2.5 years of age. These are eventually replaced by 32 permanent teeth. A is incorrect \u2014 10 is half. B is incorrect \u2014 16 is not a standard count. D is incorrect \u2014 32 is the permanent adult count.",
+      "rationale": "Correct: Children have 20 baby teeth, which are typically all present by 2.5 years of age. These are eventually replaced by 32 permanent teeth. 10 is \u0001 \u2014 10 is half. 16 is \u0001 \u2014 16 is not a standard count. 32 is \u0001 \u2014 32 is the permanent adult count.",
       "slide": 15
     },
     {
@@ -1073,7 +1073,7 @@
         3,
         4
       ],
-      "rationale": "Correct (A, B, D, E): Birth weight doubles by 5\u20136 months (A), triples by 12 months (B), 5-7 oz/week first 6 months (D), 3-5 oz/week second 6 months (E). C is incorrect \u2014 birth weight quadruples by about 30 months, not 24.",
+      "rationale": "Correct (A, B, D, E): Birth weight doubles by 5\u20136 months (A), triples by 12 months (B), 5-7 oz/week first 6 months (D), 3-5 oz/week second 6 months (E). Birth weight quadruples by 24 months is \u0001 \u2014 birth weight quadruples by about 30 months, not 24.",
       "slide": 16
     },
     {
@@ -1089,7 +1089,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Cephalocaudal development means head-to-toe (cephalo = head, caudal = tail). Infants gain head control before sitting, walking, etc. A is incorrect \u2014 that is proximodistal (center-to-periphery). C is incorrect \u2014 that is general-to-specific (motor development). D is incorrect \u2014 development varies by individual.",
+      "rationale": "Correct: Cephalocaudal development means head-to-toe (cephalo = head, caudal = tail). Infants gain head control before sitting, walking, etc. Development proceeds from center to periphery is \u0001 \u2014 that is proximodistal (center-to-periphery). Development proceeds from general to specific is \u0001 \u2014 that is general-to-specific (motor development). Development is the same in all children is \u0001 \u2014 development varies by individual.",
       "slide": 15
     },
     {
@@ -1105,7 +1105,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Proximodistal development means center-to-periphery (proximo = near, distal = far). Infants use whole arm reach before fine finger grasp. A is incorrect \u2014 that is cephalocaudal (head-to-toe). C is incorrect \u2014 that is general-to-specific (motor development). D is incorrect \u2014 development varies by individual.",
+      "rationale": "Correct: Proximodistal development means center-to-periphery (proximo = near, distal = far). Infants use whole arm reach before fine finger grasp. Development proceeds from head to toe is \u0001 \u2014 that is cephalocaudal (head-to-toe). Development proceeds from general to specific is \u0001 \u2014 that is general-to-specific (motor development). Development is the same in all children is \u0001 \u2014 development varies by individual.",
       "slide": 15
     },
     {
@@ -1125,7 +1125,7 @@
         2,
         4
       ],
-      "rationale": "Correct (A, B, C, E): A is correct \u2014 nuclear family is parents + biological children. B is correct \u2014 blended family includes stepchildren. C is correct \u2014 extended family includes relatives. E is correct \u2014 foster families are temporary placements. D is incorrect \u2014 single-parent families are a valid family type.",
+      "rationale": "Correct (A, B, C, E): A is correct \u2014 nuclear family is parents + biological children. B is correct \u2014 blended family includes stepchildren. C is correct \u2014 extended family includes relatives. E is correct \u2014 foster families are temporary placements. A single-parent family is not considered a family type. is \u0001 \u2014 single-parent families are a valid family type.",
       "slide": 15
     },
     {
@@ -1160,7 +1160,7 @@
       "answer": [
         1
       ],
-      "rationale": "Correct (B): Infants have HIGHER metabolic rates per kilogram than adults, meaning they require more calories and fluids proportionally. This is why infants need frequent feedings. A is incorrect \u2014 opposite. C is incorrect \u2014 infants cannot tolerate long periods without eating. D is incorrect \u2014 infants have higher oxygen needs.",
+      "rationale": "Correct: Infants have HIGHER metabolic rates per kilogram than adults, meaning they require more calories and fluids proportionally. This is why infants need frequent feedings. Infants need fewer calories per kg is \u0001 \u2014 opposite. Infants can tolerate long periods without eating is \u0001 \u2014 infants cannot tolerate long periods without eating. Infants have lower oxygen needs is \u0001 \u2014 infants have higher oxygen needs.",
       "slide": 15
     },
     {
@@ -1180,7 +1180,7 @@
         2,
         4
       ],
-      "rationale": "Correct (A, B, C, E): A is correct \u2014 parallel play is toddlers. B is correct \u2014 cooperative play is preschoolers. C is correct \u2014 competitive play is school-age. E is correct \u2014 solitary play is infants. D is incorrect \u2014 fantasy play is preschoolers (3-5 years), not infants.",
+      "rationale": "Correct (A, B, C, E): A is correct \u2014 parallel play is toddlers. B is correct \u2014 cooperative play is preschoolers. C is correct \u2014 competitive play is school-age. E is correct \u2014 solitary play is infants. Fantasy play is characteristic of infants (0-12 months). is \u0001 \u2014 fantasy play is preschoolers (3-5 years), not infants.",
       "slide": 17
     },
     {
