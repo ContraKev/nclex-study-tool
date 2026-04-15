@@ -1,178 +1,509 @@
-# PEDS Comprehensive Study Guide — Chapters 20-24+
-## Adolescent | Hospitalization | Health Adaptations | Neuro/Sensory/MSK/CV/Heme/GI/GU Disorders
+# PEDS Comprehensive Study Guide — Chapters 20-24
 
-> **Source:** Lecture slides + notes from raw_data/peds/
-> **Coverage:** All content from Ch20-29 lectures (adolescent through GU disorders)
+## Adolescence | Hospitalization | Health Adaptations | Neuro/Sensory | Musculoskeletal Disorders
 
----
-
-## 📊 Quick Reference: Disorders & Interventions
-
-### Respiratory Disorders
-
-| Disorder | Key Signs | Priority Intervention |
-|----------|-----------|----------------------|
-| Croup | Barky cough, stridor | Racemic epi, cool mist, steroids |
-| Bronchiolitis (RSV) | Wheezes, retractions | Supportive, hydration, O2 |
-| Epiglottitis | Drooling, tripod, stridor | EMERGENCY — do NOT examine throat |
-| Asthma | Wheezes, prolonged exp | Albuterol, steroids, monitor silent chest |
-| Cystic Fibrosis | Thick secretions, malabsorption | Chest PT, enzymes, antibiotics |
-
-### GI Disorders
-
-| Disorder | Key Signs | Priority Intervention |
-|----------|-----------|----------------------|
-| Pyloric Stenosis | Projectile vomiting, olive mass | Pyloromyotomy, NPO preop |
-| Intussusception | Currant jelly stool, sausage mass | Air enema, surgery if needed |
-| Appendicitis | RLQ pain, rebound, rigid | NPO, IV, surgery |
-| Celiac Disease | Chronic diarrhea, failure to thrive | Strict gluten-free diet |
-| Biliary Atresia | Jaundice, dark urine, pale stool | Kasai procedure, transplant |
-
-### Hematologic Disorders
-
-| Disorder | Key Signs | Priority Intervention |
-|----------|-----------|----------------------|
-| Sickle Cell Crisis | Pain, swelling, fever | Hydration, O2, pain control, transfusion |
-| Hemophilia | Joint bleeding, bruises | Factor replacement, RICE, avoid IM |
-| Leukemia | Bruising, infection, fatigue | Chemo, infection precautions |
-| Iron Deficiency Anemia | Pallor, fatigue | Iron + vitamin C, diet education |
-
-### Cardiovascular: Congenital Defects
-
-| Defect | Type | Signs | Intervention |
-|--------|------|-------|-------------|
-| VSD/ASD | Left→Right | CHF, poor weight gain | Diuretics, surgery |
-| Tetralogy of Fallot | Right→Left | Cyanosis, hypercyanotic spells | Knee-to-chest, O2, morphine |
-| Coarctation | Obstructive | ↓LE pulses, ↑UE BP | Prostaglandin E1, surgery |
+> **Complete synthesis of all lecture slides + instructor notes**
+> **Covers: Ch20-24 | PEDS Exam 1**
 
 ---
 
-## Key Content from Lectures
+## 🎯 Exam Objectives — What You'll Be Tested On
 
-- The  Adolescent
-Chapter 20
-Copyright © 2019, Elsevier Inc.
-- Note: Italic words throughout are key terms.
-- 1Objectives
-Copyright © 2019, Elsevier Inc.
-- 
+### Chapter 20: The Adolescent
+- Erikson: Identity vs Role Confusion
+- Piaget: Formal operational (abstract thinking)
+- Tanner stages, puberty, growth spurt
+- HEADSS assessment, health promotion, vaccines
+- Risk-taking, depression, eating disorders
 
-General Characteristics of Adolescence 
-Copyright © 2019, Elsevier Inc.
-- sex organs (primary sex characteristics)
-Define secondary sex characteristics.
-- Differences in size between sexes are also considered secondary sexual characteristics.
-- In humans, visible secondary sex characteristics include enlarged breasts and widened hips of females, facial hair and Adam's apples on males, and pubic hair on both.
-- [4][6]
+### Chapter 21: Hospitalization
+- Separation anxiety (3 stages: protest → despair → detachment)
+- Age-appropriate preparation for procedures
+- Regression, fear, atraumatic care
 
-Perhaps one of the most characteristic features of adolescence is its uncertainty
-The major tasks of adolescence include establishing an identity, separating from family, initiating intimacy, and developing career choices for economic independence.
-- T
+### Chapter 22: Health Care Adaptations
+- Admission, consent/assent
+- Medication administration (7 rights)
+- IV, gavage, specimen collection
+- Pain assessment (FACES, FLACC)
 
-Developmental Tasks
-Copyright © 2019, Elsevier Inc.
-- Give an example of a situation which explains each of these characteristics:
-Erikson’s stage of intimacy
-Piaget’s abstract reasoning
-Freud’s genital stage
+### Chapter 23: Neuro/Sensory Disorders
+- Meningitis, seizures, hydrocephalus, cerebral palsy
+- Otitis media, hearing impairment, strabismus, amblyopia
+- Increased ICP, Reye syndrome
 
-Copyright © 2019, Elsevier Inc.
-- Page 459
-
-
-
-Growth and Development Physical Development
-
-Copyright © 2019, Elsevier Inc.
-- Puberty is a period of rapid change in the lives of boys and girls during which the reproductive systems mature and become capable of reproduction.
-- Puberty begins when the secondary sex characteristics (e.
-- Puberty ends when mature sperm are formed or when regular menstrual cycles occur.
-- The age of puberty varies and is somewhat earlier for girls than for boys.
-- The final 20% of mature height that is achieved during adolescence is called the growth spurt and usually occurs by 18 years of age.
-- he general appearance of the adolescent tends to be awkward – that is, long legged and gangling; this growth characteristic is termed asynchrony, because different body parts mature at different rates.
-- The sweat glands are very active, and oily skin and acne are common.
-- Both sexes mature earlier and grow taller and heavier than in past generations
-
-Puberty: Tanner’s stages pg.
-- 462
-Guys
-Hormone changes 10-13yr
-Voice deepens
-Hair growth face, chest, axillae, pubic areas
-Enlargement of testicles followed by enlargement of penis
-Teach testicular self assessments
-Gals
-6 months to 2 years before boys
-Onset of menstruation begins puberty
-Menarche 10-15 years
-Breast development
-Teach self breast exam
-
-
-
-Copyright © 2019, Elsevier Inc.
-- Boys: taught how to examine testicle and check monthly  for lumps.
-- Psychosocial Development
-Copyright © 2019, Elsevier Inc.
-- How does an adolescent’s identity fluctuate at this stage in life?
-Give an example of a situation in which an adolescent learns by trial and error.
-- Self concept fluctuates
-
-The adolescent’s desire for freedom and independence is extremely important and necessary for developing individuality.
-- To accomplish this, young persons must reject their childhood self and often the people most closely associated with it.
-- Erikson identifies the major task of this group as identity versus role confusion.
-- Emancipation is a critical element in the establishment of identity.
-- Developing intimacy is closely entwined with the resolving of a person’s sense of identity.
-- Avoidance of building these relationships may lead to a deep sense of isolation.
-- Adolescence is a period of trying and testing.
-- Disagreements with parents often revolve around dating, the family car, money, chores, school grades, choice of friends, smoking, sex, and the use of illicit drugs.
-- The young person questions parental values and morals and is particularly sensitive to hypocrisy.
-- Cultural/Spiritual Considerations: As part of a search for their identity, adolescents focus on the values and ideals of the family and decide either to embrace them or to separate from them.
-- Adolescents can understand abstract concepts and symbols, and exposure to religion and religious practices other than those experienced within their own traditional family can help them stabilize their group identity 
-
-Body Image:  This preoccupation with self is normal and accounts for the constant hair combing and makeup repairing
-Chronic illness or eating disorders (see Chapter 33) may complicate or exacerbate unresolved problems of body image.
-- 2 Objectives
-Identify two ways in which a person’s cultural background might contribute to behavior.
-- Discuss the importance of peer groups, cliques, and best friends in the developmental process of an adolescent.
-- Describe menstruation to a 13-year-old girl.
-- List a source for planning sex education programs for adolescents.
-- Summarize the nutritional requirements of the adolescent.
-- List three guidelines of importance for the adolescent participating in sports.
-- Discuss the common problems of adolescence and the nursing approach.
-- Culture and Its Effect on Behavior
-Copyright © 2019, Elsevier Inc.
-- Adolescents can understand abstract concepts and symbols, and exposure to religion and religious practices other than those experienced within their own traditional family can help them stabilize their group identity
-
-
-Peer Relationships
-Help adolescents feel like they belong
-School assumes important role.
-- Belonging to a group is extremely important.
-- Develops close personal relationship with one peer of the same sex
-Vitally important in helping adolescents define themselves
-Social norms and pressures exerted by peers may cause problems.
-- This Photo by Unknown Author is licensed under CC BY-SA
-
-Discuss how peer relationships change from childhood to adolescence.
-- Give an example of a situation in which an adolescent might learn from a personal, intimate relationship.
-- Stable best friend experiences often precede successful heterosexual relationships in later life.
-- Career Plans 
-To choose a career that is best-suited for them, they must first know themselves
-Parents should observe interests of their children and encourage them to take advantage of their talents.
-- School guidance counselor administers aptitude tests.
+### Chapter 24: Musculoskeletal Disorders
+- Scoliosis (Adams test), DDH (Ortolani/Barlow/Pavlik)
+- Fractures, cast care, traction (Bryant/Russell)
+- Duchenne MD, Legg-Calvé-Perthes, SCFE
 
 ---
 
-## Age-Appropriate Care
+## 👦 ADOLESCENCE (Ch 20) — Identity & Growth
 
-### Hospitalization by Developmental Stage
+### Developmental Theories
 
-| Age | Impact | Interventions |
-|-----|--------|---------------|
-| Infant | Stranger anxiety | Rooming-in, consistent caregivers |
-| Toddler | Separation anxiety, regression | Familiar objects, limit procedures |
-| Preschool | Magical thinking, guilt | Therapeutic play, explain simply |
-| School-age | Loss of control, fear of death | Choices, explain procedures |
-| Adolescent | Body image, independence | Privacy, peer support, involve in decisions |
+**Erikson: Identity vs Role Confusion (12-18 years)**
+- Core task: "Who am I?" — establish identity, separate from family
+- Success: Fidelity (loyalty to values, sense of self)
+- Failure: Role confusion, uncertainty about future
+- Nursing: Provide choices, respect privacy, support peer relationships
 
+**Piaget: Formal Operational (11+ years)**
+- Abstract reasoning, hypothetical thinking ("what if")
+- Can consider multiple perspectives, future planning
+- Imaginary audience: "Everyone is watching me" (normal)
+- Personal fable: "I'm invincible" (leads to risk-taking)
+
+### Physical Growth & Puberty
+
+**Growth Spurt**
+- Final ~25% of adult height gained in adolescence
+- Girls: +5-20 cm height, +7-25 kg weight; growth stops ~2 years after menarche
+- Boys: +10-30 cm height, +7-30 kg; continues until 18-20
+- Girls mature ~2 years earlier than boys
+
+**Tanner Stages (Sexual Maturation)**
+
+| Stage | Girls | Boys |
+|-------|-------|------|
+| 1 | Prepuberty | Prepuberty |
+| 2 | Breast budding (thelarche), some pubic hair | Testicular enlargement, some pubic hair |
+| 3 | Breast growth, more hair | Penis growth, more hair |
+| 4 | Areola secondary mound, armpit hair | Penis grows, armpit hair, voice starts |
+| 5 | Mature breast, hair to inner thigh | Mature genitals, facial hair, adult voice |
+
+**Menarche**: 10-15 years (avg 12-13). Growth slows ~2 years after menarche.
+
+### Psychosocial Development
+
+**Key Behaviors (Normal)**
+- Imaginary audience (self-conscious, appearance focus)
+- Personal fable (invincibility → risk-taking)
+- Peer relationships critical (cliques, best friends)
+- Question parental values, test boundaries
+- Body image preoccupations (hair, makeup, clothes)
+
+**HEADSS Assessment (Adolescent Interview)**
+- **H**ome: Who lives at home? Relationships?
+- **E**ducation/Employment: School? Grades? Work?
+- **A**ctivities: Sports? Hobbies? Screen time?
+- **D**rugs: Alcohol? Tobacco? Other substances?
+- **S**exuality: Relationships? Contraception? STIs?
+- **S**uicide/Depression: Mood? Hopelessness? Plan?
+
+### Health Promotion
+
+**Vaccines (11-12 years)**
+- Tdap (tetanus, diphtheria, pertussis)
+- HPV (human papillomavirus) — 2-3 doses
+- Meningococcal (MenACWY) — booster at 16
+
+**Nutrition**
+- Increased needs: calcium, iron, zinc
+- Brain foods: fish, nuts, seeds (good vegetarian sources)
+- Incorporate teen preferences for compliance
+- Limit soda, fast food
+
+**Leading Cause of Death**: Unintentional injuries (motor vehicle accidents) — teach seatbelts, no distracted driving, helmet use
+
+### Common Adolescent Issues
+
+**Depression & Suicide**
+- Signs: withdrawal, school performance drop, sleep/appetite changes, irritability
+- Suicide: 2nd leading cause of death in teens
+- **Red flags**: Previous attempt, specific plan, access to means
+- Screen routinely; refer immediately if plan present
+
+**Eating Disorders**
+- **Anorexia**: Restriction, low BMI, lanugo, amenorrhea, bradycardia
+- **Bulimia**: Binge-purge cycle, dental erosion, electrolyte imbalance (hypokalemia)
+- Treatment: Multidisciplinary (nutrition, therapy, family)
+
+**Risk-Taking**
+- Normal part of development (identity formation)
+- Use CRAFFT screening for substance use
+- Education on consequences without judgment
+
+**Acne**
+- Common; NOT caused by poor hygiene
+- Treatment: benzoyl peroxide, topical retinoids, antibiotics
+- Teach gentle cleansing, avoid picking
+
+**Confidentiality**
+- Establish trust: "I won't tell parents unless you're in danger"
+- Mandatory reporting for abuse, suicide risk, self-harm
+- Allow privacy, peer visits, own clothing
+
+---
+
+## 🏥 HOSPITALIZATION (Ch 21) — Stress & Support
+
+### Effects of Hospitalization by Age
+
+| Age | Greatest Fear | Common Reactions | Nursing Interventions |
+|-----|---------------|------------------|----------------------|
+| Infant | Stranger anxiety | Crying, withdrawing | Consistent caregivers, comfort objects |
+| Toddler | Separation from parents | Protest → Despair → Detachment | Parent rooming-in, routines, familiar items |
+| Preschool | Bodily harm, pain | Magical thinking, regression | Simple explanations, therapeutic play |
+| School-age | Loss of control, peers | Regression, worry about school | Allow choices, peer contact, schoolwork |
+| Adolescent | Loss of independence, privacy | Refusal, anger, withdrawal | Choices, privacy, peer visitors |
+
+### Separation Anxiety (3 Stages)
+
+1. **Protest**: Loud crying, calling for parents, rejects strangers
+2. **Despair**: Sad, withdrawn, inactive, may refuse food/play
+3. **Detachment**: Appears "fine" but detached — coping mechanism
+
+**Nursing**: Encourage parent presence, maintain routines, provide comfort objects, prepare for procedures
+
+### Fear & Regression
+
+**Fears in Hospital**
+- Intrusive procedures (IVs, blood draws, surgery)
+- Unknown environment, loss of control
+- Separation from family, pain
+
+**Regression**: Child returns to earlier behavior (bedwetting, thumb sucking, baby talk)
+- **Normal** during stress/illness
+- Do NOT punish — praise appropriate behavior, ignore regression
+- Regression resolves when stress removed
+
+### Atraumatic Care
+
+- Minimize separation from family
+- Prepare child for procedures (age-appropriate)
+- Use therapeutic play to process experiences
+- Allow choices and control where possible
+- Pain management: nonpharmacologic + pharmacologic
+
+### Preparation for Procedures (Age-Appropriate)
+
+- **Infants**: No preparation (react to parent anxiety)
+- **Toddlers**: Just before, simple words, allow to touch equipment
+- **Preschool**: Day before, simple explanations, play with equipment
+- **School-age**: Day before, thorough explanation, allow questions
+- **Adolescent**: Oral + written info, involve in decisions
+
+---
+
+## 📋 HEALTH CARE ADAPTATIONS (Ch 22) — Care & Meds
+
+### Admission & Consent
+
+**Admission Responsibilities**
+- Collect basic data: growth, development, interaction level, history
+- Physical survey: vital signs, pain, weight, height, head circumference (infants)
+- Specimen collection: verify order, label clearly, document
+
+**Consent & Assent**
+- **Consent**: Parents/legal guardians give legal consent
+- **Assent**: Children 7+ should give agreement (assent) to procedures
+- Adolescents: Can consent for STI treatment, contraception (varies by state)
+
+### Medication Administration (7 Rights)
+
+1. **Right Patient** — verify ID bracelet
+2. **Right Drug** — check label 3 times
+3. **Right Dose** — calculate weight-based (mg/kg)
+4. **Right Time** — scheduled intervals
+5. **Right Route** — oral, IV, IM, etc.
+6. **Right Reason** — indication documented
+7. **Right Documentation** — after administration
+
+**IM Sites by Age**
+- Infants: Vastus lateralis (thigh)
+- Toddlers+: Vastus lateralis or deltoid
+- Avoid dorsogluteal in children (nerve risk)
+
+### IV Therapy & Feeding
+
+**IV Considerations**
+- Smallest gauge possible for age
+- Secure with arm board if needed
+- Monitor for infiltration, phlebitis
+- Use infusion pump for accuracy
+
+**Gavage/Gastrostomy Feeding**
+- Check tube placement (pH, aspiration)
+- Elevate head of bed 30-45°
+- Feed slowly, monitor for intolerance
+- Flush with water before/after
+
+**Enema**
+- Lubricate tip, insert gently
+- Use age-appropriate volume
+- Position side-lying or knee-chest
+
+### Pain Assessment
+
+**Tools by Age**
+- **Infants**: FLACC (Face, Legs, Activity, Cry, Consolability)
+- **Preschool (3+)**: FACES scale (0-10 with faces)
+- **School-age+**: Numeric 0-10 scale
+
+**Nonpharmacologic Pain Relief**
+- Distraction (toys, bubbles, videos)
+- Positioning, swaddling (infants)
+- Cold/heat, massage
+- Guided imagery, music
+
+---
+
+## 🧠 NEUROLOGICAL & SENSORY DISORDERS (Ch 23)
+
+### Meningitis
+
+**Signs & Symptoms**
+- Fever, headache, stiff neck (nuchal rigidity)
+- Photophobia, vomiting
+- Kernig's sign (resistance to leg extension)
+- Brudzinski's sign (neck flexion → hip/knee flexion)
+- Infants: bulging fontanel, high-pitched cry, irritability
+
+**CSF Findings (Lumbar Puncture)**
+| Type | Appearance | WBC | Protein | Glucose |
+|------|------------|-----|---------|---------|
+| Bacterial | Cloudy | ↑↑ (neutrophils) | ↑↑ | ↓↓ |
+| Viral | Clear | ↑ (lymphocytes) | ↑ | Normal |
+
+**Nursing Care**
+- Droplet precautions (first 24 hrs)
+- Antibiotics ASAP (after cultures)
+- Monitor ICP, seizure precautions
+- Reduce stimuli, keep quiet environment
+
+### Seizures
+
+**Types**
+- **Generalized (tonic-clonic)**: Aura → tonic → clonic → postictal
+- **Partial (focal)**: One area, consciousness may be preserved
+- **Febrile**: With fever, common in infants
+
+**Nursing During Seizure**
+- **Do NOT restrain or put anything in mouth**
+- Position side-lying, protect head
+- Time the seizure, clear area of hazards
+- Administer rescue med (rectal diazepam) if ordered
+
+**Teaching**
+- Take antiepileptics at same time daily
+- Do not stop suddenly (status epilepticus risk)
+- Ketogenic diet (high fat, low carb) may help refractory cases
+- Medical alert bracelet
+
+### Hydrocephalus
+
+**Signs**
+- Infants: Bulging fontanel, rapid head growth, sunset eyes
+- Older: Headache, vomiting, vision changes, papilledema
+
+**VP Shunt Care**
+- Monitor for malfunction: vomiting, headache, altered LOC, sunset eyes
+- Infection signs: fever, redness along shunt tract
+- Measure head circumference regularly
+
+### Cerebral Palsy (CP)
+
+**Types**
+- **Spastic**: Most common, stiff muscles, scissoring gait
+- **Dyskinetic/Athetoid**: Involuntary movements
+- **Ataxic**: Poor balance, coordination
+- **Mixed**
+
+**Nursing Care**
+- Prevent contractures (ROM, braces)
+- Promote nutrition, communication, mobility
+- Multidisciplinary: PT, OT, speech, nutrition
+- Botulinum toxin for spasticity
+
+### Sensory Disorders
+
+**Strabismus**: Eye misalignment
+- Nonparalytic: Corrected with lenses or patching
+- Paralytic: May need surgery
+
+**Amblyopia** ("Lazy Eye")
+- Reduced vision in one eye from disuse
+- Treatment: Patch the GOOD eye to strengthen the weak one
+
+**Hearing Impairment**
+- Congenital or acquired (infections, noise)
+- Newborn screening mandatory
+- Cochlear implants, hearing aids
+- Sign language, lip reading, visual aids
+
+**Otitis Media**
+- Most common childhood infection
+- Infants prone (short, straight Eustachian tubes)
+- Treatment: Antibiotics, ear drops (pull pinna DOWN/BACK for infants, UP/BACK for children)
+
+### Reye Syndrome
+
+- Follows viral illness (flu, chickenpox)
+- **Avoid aspirin/salicylates** in children/adolescents
+- Signs: Vomiting, altered LOC, liver dysfunction
+- Treatment: Reduce ICP, support airway, ICU care
+
+### Increased ICP
+
+**Signs**
+- Infants: Bulging fontanel, irritability, high-pitched cry
+- Children: Headache, vomiting, altered LOC, pupil changes
+- Late: Cushing's triad (hypertension, bradycardia, irregular respirations)
+
+**Interventions**
+- Elevate HOB 30°
+- Avoid neck flexion, valsalva
+- Monitor neuro checks frequently
+- Osmotic diuretics (mannitol) if ordered
+
+---
+
+## 🦴 MUSCULOSKELETAL DISORDERS (Ch 24)
+
+### Scoliosis
+
+**Screening**: Adams forward bend test (child bends forward, observe for rib hump/asymmetry)
+
+**Treatment**
+- <20°: Exercise, monitor
+- 20-40°: Bracing (Milwaukee, Boston)
+- >40°: Spinal fusion surgery
+
+**Post-Op Care**
+- Logroll for turning
+- Neurovascular checks (5 P's)
+- Pain management, incentive spirometer
+- Monitor for body image concerns
+
+### Developmental Dysplasia of the Hip (DDH)
+
+**Assessment**
+- Ortolani: Abduct hips → click = positive
+- Barlow: Adduct hips → click/dislocation = positive
+- Galeazzi: Unequal knee heights supine
+
+**Treatment**
+- Infants: Pavlik harness (6-12 weeks)
+- Older: Spica cast or surgery
+
+**Pavlik Teaching**
+- Worn continuously (except bathing)
+- Diapers UNDER straps
+- Skin checks for irritation
+- Follow-up x-rays
+
+### Clubfoot (Talipes Equinovarus)
+
+- Foot plantarflexed and inverted
+- **Ponseti method**: Serial casting, gentle manipulation
+- May need Achilles tenotomy
+- Bracing after casting (night splints)
+
+### Fractures & Cast Care
+
+**Children's Bones**
+- Heal faster (thick periosteum, active growth)
+- Remodeling corrects mild misalignment
+- Growth plate (epiphysis) injury = serious
+
+**5 P's Neurovascular Checks**
+1. **Pain** — out of proportion?
+2. **Pallor** — pale/cool?
+3. **Paresthesia** — tingling/numbness?
+4. **Pulselessness** — weak/absent?
+5. **Paralysis** — can't move?
+
+**Cast Care**
+- Fiberglass: Can get wet (pat dry)
+- Plaster: Keep dry
+- Elevate limb 24-48 hrs
+- "Window" for incision care
+- Spica cast: "Belly hole" to prevent cast syndrome, high-fiber diet
+
+### Traction
+
+**Types**
+- **Bryant**: For femoral fracture (infants) — legs suspended
+- **Buck**: Skin traction for hip/leg
+- **Russell**: Sling under knee + weights
+
+**Nursing**
+- Weights hang free (never resting)
+- Trapeze for repositioning
+- Neurovascular checks
+- Skin integrity (pressure points)
+- Pin care for skeletal traction
+
+### Muscular Dystrophy (Duchenne)
+
+- X-linked recessive (primarily boys)
+- **Gower's sign**: Uses hands to "walk up" legs when rising from floor
+- Pseudohypertrophy of calves
+- Progressive weakness → wheelchair by adolescence
+- Supportive care, respiratory/cardiac monitoring
+- Death usually from respiratory or cardiac failure
+
+### Legg-Calvé-Perthes Disease
+
+- Avascular necrosis of femoral head (school-age)
+- Limp, hip/knee pain, limited ROM
+- Treatment: Rest, bracing, surgery
+- Teach: May develop arthritis later
+
+### Slipped Capital Femoral Epiphysis (SCFE)
+
+- Displacement of femoral head at growth plate
+- Common in obese adolescents during growth spurt
+- Pain, limp, limited internal rotation
+- Treatment: Surgical pinning
+- Buck traction may be used pre-op
+
+### Osgood-Schlatter Disease
+
+- Traction apophysitis at tibial tubercle
+- Active adolescents (sports)
+- Knee pain/swelling worsened by activity
+- Treatment: RICE, activity modification, stretching
+
+### Juvenile Idiopathic Arthritis (JIA)
+
+- Persistent joint inflammation >6 weeks
+- Types: Systemic, Polyarticular, Pauciarticular
+- Treatment: NSAIDs, DMARDs, PT
+- Goal: Reduce pain, preserve joint function
+
+---
+
+## ✅ Exam Prep — High-Yield Summary
+
+### Must-Know Theories
+- Erikson: Identity vs Role Confusion (adolescence)
+- Piaget: Formal operational (abstract thinking)
+- Tanner stages and puberty timing
+
+### Must-Know Assessments
+- HEADSS for adolescents
+- Adams forward bend (scoliosis)
+- Ortolani/Barlow (DDH)
+- 5 P's neurovascular checks
+- Kernig's/Brudzinski (meningitis)
+
+### Must-Know Interventions
+- Atraumatic care, preparation by age
+- Separation anxiety stages
+- Seizure precautions (side-lying, no mouth)
+- Reye prevention (no aspirin)
+- Cast/traction care
+
+### Must-Know Conditions
+- Meningitis: CSF findings, droplet precautions
+- Scoliosis: Screening, bracing, fusion
+- DDH: Pavlik harness, diapers under straps
+- Duchenne: Gower's sign, progressive
+
+---
+
+*Complete study guide for PEDS Exam 1 (Ch20-24)*
+*Synthesized from all lecture slides and instructor notes*

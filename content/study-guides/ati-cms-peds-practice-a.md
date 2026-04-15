@@ -4235,3 +4235,117 @@ Discuss and provide examples of how the nurse can assist an individual through e
 
 
 *284 unique blocks*
+
+---
+
+## 📚 Additional High-Yield Topics from Quizlet/Studocu
+
+### Pain Assessment (FACES & FLACC)
+
+**FACES Scale (3+ years)**
+- Child points to face that best describes their pain
+- 0 = no hurt, 10 = hurts worst
+- Use with verbal children who can point
+
+**FLACC Scale (Infants/Toddlers/Nonverbal)**
+- **F**ace: Grimace, frown, quivering chin
+- **L**egs: Kicking, legs drawn up
+- **A**ctivity: Squirming, arched, rigid
+- **C**ry: Moans, whimpers, screams
+- **C**onsolability: Distractible or not
+- Score 0-10: 0=no pain, 1-3=mild, 4-6=moderate, 7-10=severe
+
+**Nonpharmacologic Interventions**
+- Distraction (videos, bubbles, music)
+- Swaddling, kangaroo care (infants)
+- Positioning, ice/heat
+- Guided imagery, breathing techniques
+
+---
+
+### Bronchiolitis & RSV
+
+**Bronchiolitis (RSV — Respiratory Syncytial Virus)**
+- Most common lower respiratory infection in infants <2 years
+- Signs: Wheezing, retractions, nasal flaring, poor feeding
+- **Priority**: Supportive care — hydration, nasal suctioning, O2 if needed
+- **Do NOT** use routine bronchodilators or antibiotics (viral)
+- Contact precautions, hand hygiene
+
+**Nursing Interventions**
+- Suction nares before feeding
+- Elevate head of bed
+- Monitor O2 sat, respiratory effort
+- Small frequent feeds
+- Teach: Avoid smoke, hand washing, palivizumab (Synagis) for high-risk infants
+
+---
+
+### Scoliosis & Pavlik Harness
+
+**Scoliosis Screening**
+- **Adams Forward Bend Test**: Child bends forward at waist with arms dangling
+- Look for rib hump, asymmetry of shoulders/hips
+- More common in adolescent girls (10-14 years)
+
+**Treatment**
+- <20°: Exercise, monitor
+- 20-40°: Bracing (Boston, Milwaukee)
+- >40°: Spinal fusion surgery
+
+**Pavlik Harness (DDH — Developmental Dysplasia of Hip)**
+- Worn continuously for 6-12 weeks (except bathing)
+- **Teaching**: Place diapers UNDER straps
+- Keep harness on at all times as prescribed
+- Skin checks for irritation
+- Follow-up x-rays to assess hip position
+
+---
+
+### Digoxin Teaching
+
+**Administration**
+- **Monitor apical pulse for 1 full minute before each dose**
+- Hold if HR <90 bpm in infants, <70 in children (bradycardia = toxicity)
+- Give 1 hour before or 2 hours after meals
+
+**Signs of Toxicity**
+- Vomiting, nausea
+- Bradycardia, arrhythmia
+- Visual changes (halos, blurred vision)
+- Fatigue, weakness
+
+**Nursing**
+- Brush teeth after liquid digoxin (stains teeth)
+- Teach parents to count pulse
+- Report any signs of toxicity immediately
+
+---
+
+### Dosage Calculations (mg/kg)
+
+**Weight-Based Dosing Formula**
+```
+Dose (mg) = Weight (kg) × Ordered dose (mg/kg)
+```
+
+**Safe Dose Range**
+1. Calculate child's weight in kg (if in lbs: lbs ÷ 2.2 = kg)
+2. Calculate minimum safe dose (min mg/kg × weight kg)
+3. Calculate maximum safe dose (max mg/kg × weight kg)
+4. Compare ordered dose to safe range
+
+**Example**
+- Child weighs 20 kg
+- Ordered: Amoxicillin 400 mg q8h
+- Safe range: 20-40 mg/kg/day divided q8h
+- Min: 20 × 20 = 400 mg/day → 133 mg/dose
+- Max: 40 × 20 = 800 mg/day → 267 mg/dose
+- **400 mg/dose is TOO HIGH** — notify provider
+
+**Nursing**
+- Always verify safe range before giving
+- Round to nearest appropriate increment
+- Double-check with another nurse for high-risk meds
+
+---

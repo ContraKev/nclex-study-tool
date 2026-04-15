@@ -394,6 +394,79 @@ Provide age-appropriate education to parents before child reaches next stage.
 - **Features:** Low-set ears, flat nasal bridge, single palmar crease, hypotonia
 - **Associated:** Congenital heart defects, GI issues, intellectual disability
 
+## 📚 Additional Topics from Practice Questions
+
+### Assent & Consent
+- **Assent**: Children 7+ years should give assent (agreement) for procedures/research
+- **Consent**: Parents/legal guardians give legal consent
+- School-age and adolescents should participate in decisions to their maturity level
+
+### Separation Anxiety (Greatest Fear)
+- **Toddlers**: Separation from parents is the GREATEST fear in hospitalization
+- 3 stages: Protest → Despair → Denial/Detachment
+- **Nursing**: Encourage parents to stay; provide comfort items; maintain routines
+
+### Digoxin (Cardiac Medication)
+- Used for heart failure/congenital heart disease
+- **Monitor HR before each dose**: Hold if <90 bpm in infants (bradycardia = toxicity)
+- Signs of toxicity: vomiting, bradycardia, visual changes
+- Give 1 hour before or 2 hours after meals
+
+### Vital Signs by Age (Normal Ranges)
+| Age | HR (bpm) | RR (breaths/min) | BP (systolic) |
+|-----|----------|------------------|---------------|
+| Newborn | 120-160 | 30-60 | 60-90 |
+| Infant | 100-140 | 30-50 | 70-100 |
+| Toddler | 90-130 | 25-35 | 80-110 |
+| Preschool | 80-120 | 20-30 | 90-110 |
+| School-age | 70-110 | 20-25 | 95-115 |
+
+### Respiratory Conditions
+**Croup (Laryngotracheobronchitis):**
+- Viral, barking cough, stridor, worse at night
+- Treatment: cool mist, steroids, racemic epinephrine
+- Position: upright, monitor for airway compromise
+
+**Epiglottitis (Emergency):**
+- Bacterial, drooling, high fever, tripod position
+- **Do NOT examine throat** (can cause spasm)
+- Priority: prepare for intubation, keep calm, don't agitate
+
+**Asthma:**
+- Peak flow meter for monitoring
+- Avoid triggers (allergens, cold air, exercise)
+- Albuterol first for acute attack
+- Teach proper inhaler technique
+
+### Inflammatory Conditions
+**Rheumatic Fever:**
+- Follows strep throat (untreated)
+- **Priority**: Auscultate heart sounds (cardiac involvement)
+- Symptoms: fever, joint pain, chorea, rash
+- Treatment: antibiotics, anti-inflammatories, bed rest
+
+**Kawasaki Disease:**
+- Acute vasculitis, fever >5 days, strawberry tongue, rash, conjunctivitis
+- **Priority**: Cardiac monitoring (coronary aneurysms)
+- Treatment: IVIG, aspirin
+- Long-term: cardiac follow-up
+
+### Congenital Heart Defects
+**Increased Pulmonary Blood Flow:**
+- ASD (atrial septal defect)
+- VSD (ventricular septal defect)
+- PDA (patent ductus arteriosus)
+- Signs: poor growth, frequent respiratory infections, CHF
+
+**Decreased Pulmonary Blood Flow:**
+- Tetralogy of Fallot (VSD + PS + overriding aorta + RVH)
+- Signs: cyanosis, clubbing, hypercyanotic ("tet") spells
+- Tet spell: knee-chest position, oxygen, morphine
+
+**Mixed:**
+- Transposition of great arteries
+- Truncus arteriosus
+
 ---
 
 ## ✅ Exam Prep — High-Yield Summary
