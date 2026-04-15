@@ -16490,10 +16490,19 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
             if (q.type === 'matrix') {
                 qHtml += `<div class="table-responsive"><table class="table table-dark table-bordered align-middle"><thead><tr><th class="text-white-50">Finding</th>${q.columns.map(c => `<th class="text-center text-warning">${c}</th>`).join('')}</tr></thead><tbody>${q.rows.map((r, ri) => `<tr><td class="text-white">${typeof r === 'string' ? r : (r.text || 'Unknown')}</td>${q.columns.map((c, ci) => `<td class="text-center"><input type="radio" name="matrix-row-${ri}" value="${ci}" class="form-check-input"></td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
             } else if (q.type === 'bowtie') {
-                const leftOpts = shuffleArray(q.left_actions.options);
-                const centerOpts = shuffleArray(q.center_condition.options);
-                const rightOpts = shuffleArray(q.right_monitor.options);
-                qHtml += `<div class="bowtie-container"><div class="bowtie-wing left"><div class="bowtie-label">Actions (select 2)</div>${leftOpts.map(o => `<label class="bw-option"><input type="checkbox" name="bw-l" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div><div class="bowtie-center"><div class="bowtie-label">Condition</div><select id="bw-c" class="form-select form-select-lg bg-dark text-white border-warning"><option value="" disabled selected>Select Condition...</option>${centerOpts.map(o => `<option value="${o}">${o}</option>`).join('')}</select></div><div class="bowtie-wing right"><div class="bowtie-label">Monitor (select 2)</div>${rightOpts.map(o => `<label class="bw-option"><input type="checkbox" name="bw-r" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div></div>`;
+                if (q.left_actions && q.center_condition && q.right_monitor) {
+                    // Structured bowtie format
+                    const leftOpts = shuffleArray(q.left_actions.options);
+                    const centerOpts = shuffleArray(q.center_condition.options);
+                    const rightOpts = shuffleArray(q.right_monitor.options);
+                    qHtml += `<div class="bowtie-container"><div class="bowtie-wing left"><div class="bowtie-label">Actions (select 2)</div>${leftOpts.map(o => `<label class="bw-option"><input type="checkbox" name="bw-l" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div><div class="bowtie-center"><div class="bowtie-label">Condition</div><select id="bw-c" class="form-select form-select-lg bg-dark text-white border-warning"><option value="" disabled selected>Select Condition...</option>${centerOpts.map(o => `<option value="${o}">${o}</option>`).join('')}</select></div><div class="bowtie-wing right"><div class="bowtie-label">Monitor (select 2)</div>${rightOpts.map(o => `<label class="bw-option"><input type="checkbox" name="bw-r" value="${o}"><span class="text-white">${o}</span></label>`).join('')}</div></div>`;
+                } else if (q.options) {
+                    // Flat bowtie format: options array + answer [idx1, idx2]
+                    const opts = shuffleArray(q.options);
+                    qHtml += `<div class="bowtie-flat"><div class="text-secondary small mb-3">Select the 2 correct answers:</div><div class="list-group">${opts.map((o, i) => `<label class="list-group-item list-group-item-action bg-secondary text-white border-secondary mb-2 py-3 px-4 rounded-4"><input class="form-check-input me-3" type="checkbox" name="bw-flat" value="${o}"><span>${o}</span></label>`).join('')}</div></div>`;
+                } else {
+                    qHtml += `<div class="text-danger">Bowtie question missing options.</div>`;
+                }
             } else if (q.type === 'ordering') {
                 const items = shuffleArray(q.options);
                 qHtml += `<div class="ordering-question"><div class="text-secondary small mb-3"><i class="fas fa-sort me-1"></i>Use the arrows to arrange items in the correct order (top = first):</div><div id="ordering-list" class="list-group">${items.map((item, i) => `<div class="list-group-item bg-secondary text-white border-secondary mb-2 py-3 px-4 rounded-4 d-flex align-items-center justify-content-between ordering-item" data-value="${item}"><span class="ordering-number badge bg-dark me-3">${i + 1}</span><span class="flex-grow-1 fs-5">${item}</span><div class="d-flex flex-column ms-3"><button class="btn btn-sm btn-outline-light mb-1" onclick="moveOrderItem(this, -1)"><i class="fas fa-chevron-up"></i></button><button class="btn btn-sm btn-outline-light" onclick="moveOrderItem(this, 1)"><i class="fas fa-chevron-down"></i></button></div></div>`).join('')}</div></div>`;
@@ -16516,14 +16525,24 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 isCorrect = q.rows.every((_, ri) => parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value) === q.answer[ri]);
                 sel = q.rows.map((r, ri) => ({ row: typeof r === 'string' ? r : (r.text || 'Unknown'), selected: q.columns[parseInt(document.querySelector(`input[name="matrix-row-${ri}"]:checked`).value)] }));
             } else if (q.type === 'bowtie') {
-                const diag = document.getElementById('bw-c')?.value;
-                const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
-                const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
-                if (!diag || l.length === 0 || r.length === 0) return;
-                isCorrect = diag === q.center_condition.answer &&
-                    l.length === 2 && l.every(v => q.left_actions.answer.includes(v)) &&
-                    r.length === 2 && r.every(v => q.right_monitor.answer.includes(v));
-                sel = { condition: diag, actions: l, monitors: r };
+                if (q.left_actions && q.center_condition && q.right_monitor) {
+                    // Structured bowtie format
+                    const diag = document.getElementById('bw-c')?.value;
+                    const l = Array.from(document.querySelectorAll('input[name="bw-l"]:checked')).map(i => i.value);
+                    const r = Array.from(document.querySelectorAll('input[name="bw-r"]:checked')).map(i => i.value);
+                    if (!diag || l.length === 0 || r.length === 0) return;
+                    isCorrect = diag === q.center_condition.answer &&
+                        l.length === 2 && l.every(v => q.left_actions.answer.includes(v)) &&
+                        r.length === 2 && r.every(v => q.right_monitor.answer.includes(v));
+                    sel = { condition: diag, actions: l, monitors: r };
+                } else if (q.options) {
+                    // Flat bowtie format: options array + answer [idx1, idx2]
+                    const checked = Array.from(document.querySelectorAll('input[name="bw-flat"]:checked')).map(i => i.value);
+                    if (checked.length !== 2) return;
+                    const correctOpts = q.answer.map(i => q.options[i]);
+                    isCorrect = checked.length === 2 && checked.every(v => correctOpts.includes(v));
+                    sel = checked;
+                }
             } else if (q.type === 'ordering') {
                 const items = Array.from(document.querySelectorAll('.ordering-item')).map(el => el.dataset.value);
                 if (items.length === 0) return;
