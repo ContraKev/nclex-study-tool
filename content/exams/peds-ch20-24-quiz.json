@@ -1430,6 +1430,20 @@
       "answer": 1,
       "rationale": "CORRECT: 'Notify the provider immediately' — because increasing pain, numbness, and paralysis are signs of compartment syndrome or compromised circulation — a surgical emergency. INCORRECT: 'Elevate the arm higher' — because elevation may help swelling but the priority is provider notification. INCORRECT: 'Apply ice to reduce swelling' — because ice may help but the emergency is circulation compromise. INCORRECT: 'Give additional pain medication' — because pain unrelieved by medication indicates a serious problem, not just pain.",
       "slide": 24
+    },
+    {
+      "id": "q86_mcq_perthes",
+      "type": "mcq",
+      "question": "A 7-year-old boy presents with a limp, hip pain, and limited range of motion. X-ray shows avascular necrosis of the femoral head. What condition is suspected?",
+      "options": [
+        "Developmental dysplasia of the hip",
+        "Legg-Calvé-Perthes disease",
+        "Slipped capital femoral epiphysis",
+        "Osgood-Schlatter disease"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Legg-Calvé-Perthes disease' — because avascular necrosis of the femoral head in school-age children (typically boys 4-10) is Legg-Calvé-Perthes. Treatment includes rest, bracing, or surgery. Long-term risk is degenerative arthritis. INCORRECT: 'Developmental dysplasia of the hip' — because DDH presents in infancy with Ortolani/Barlow. INCORRECT: 'Slipped capital femoral epiphysis' — because SCFE is posterior displacement of femoral head, typically in obese adolescents. INCORRECT: 'Osgood-Schlatter disease' — because traction apophysitis at tibial tubercle, not femoral head.",
+      "slide": 24
     }
   ]
 }
