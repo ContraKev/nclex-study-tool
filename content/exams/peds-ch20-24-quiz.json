@@ -1,6 +1,6 @@
 {
   "id": "peds_exam_2",
-  "name": "PEDS Exam 2 \u2014 Chapters 20-24: Adolescence, Hospitalization, Neuro/Sensory & Musculoskeletal",
+  "name": "PEDS Exam 2 — Chapters 20-24: Adolescence, Hospitalization, Neuro/Sensory & Musculoskeletal",
   "category": "Pediatrics",
   "questions": [
     {
@@ -13,10 +13,8 @@
         "Intimacy vs Isolation",
         "Generativity vs Stagnation"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Identity vs Role Confusion (12\u201318 years) involves questioning values, experimenting with roles, and developing a sense of self. Industry vs Inferiority is \u0001 \u2014 Industry vs Inferiority is school-age (6\u201312 years). Intimacy vs Isolation is \u0001 \u2014 Intimacy vs Isolation is young adult (18\u201340 years). Generativity vs Stagnation is \u0001 \u2014 Generativity vs Stagnation is middle adult (40\u201365 years).",
+      "answer": 1,
+      "rationale": "Correct: Identity vs Role Confusion (12–18 years) involves questioning values, experimenting with roles, and developing a sense of self. Industry vs Inferiority is \u0001 — Industry vs Inferiority is school-age (6–12 years). Intimacy vs Isolation is \u0001 — Intimacy vs Isolation is young adult (18–40 years). Generativity vs Stagnation is \u0001 — Generativity vs Stagnation is middle adult (40–65 years).",
       "slide": 20
     },
     {
@@ -36,7 +34,7 @@
         2,
         4
       ],
-      "rationale": "Correct: Tanner 1 is prepubertal. Tanner 5 is mature adult. breast development precedes pubic hair in girls. E is correct \u2014 Tanner stages assess pubertal development. Boys develop pubic hair before testicular growth. is \u0001 \u2014 testicular growth precedes pubic hair in boys.",
+      "rationale": "Correct: Tanner 1 is prepubertal. Tanner 5 is mature adult. breast development precedes pubic hair in girls. E is correct — Tanner stages assess pubertal development. Boys develop pubic hair before testicular growth. is \u0001 — testicular growth precedes pubic hair in boys.",
       "slide": 20
     },
     {
@@ -49,10 +47,8 @@
         "Hobbies",
         "Hormones"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: HEADSS is a psychosocial screening tool for adolescents: Home, Education/Employment, Activities, Drugs, Sexuality, Suicide/Depression. Health is \u0001 \u2014 H is Home, not Health. Hobbies is \u0001 \u2014 Activities (not Hobbies). Hormones is \u0001 \u2014 not Hormones.",
+      "answer": 1,
+      "rationale": "Correct: HEADSS is a psychosocial screening tool for adolescents: Home, Education/Employment, Activities, Drugs, Sexuality, Suicide/Depression. Health is \u0001 — H is Home, not Health. Hobbies is \u0001 — Activities (not Hobbies). Hormones is \u0001 — not Hormones.",
       "slide": 20
     },
     {
@@ -65,10 +61,8 @@
         "Suicide",
         "Infectious diseases"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Motor vehicle accidents (MVA) are the leading cause of death in adolescents (ages 13\u201319). Risk factors include inexperience, distraction (phones), speeding, and not wearing seat belts. Cancer is \u0001 \u2014 cancer is significant but not leading. Suicide is \u0001 \u2014 suicide is second leading. Infectious diseases is \u0001 \u2014 infections are lower due to immunity/vaccines.",
+      "answer": 1,
+      "rationale": "Correct: Motor vehicle accidents (MVA) are the leading cause of death in adolescents (ages 13–19). Risk factors include inexperience, distraction (phones), speeding, and not wearing seat belts. Cancer is \u0001 — cancer is significant but not leading. Suicide is \u0001 — suicide is second leading. Infectious diseases is \u0001 — infections are lower due to immunity/vaccines.",
       "slide": 20
     },
     {
@@ -88,7 +82,7 @@
         2,
         4
       ],
-      "rationale": "Correct: MenACWY at 11-12 and 16 years. HPV at 11-12 years (2-3 doses). Tdap at 11-12 years. E is correct \u2014 annual flu. Measles, mumps, rubella (MMR) booster is \u0001 \u2014 MMR is given at 12 months and 4-6 years; booster not routine in adolescence.",
+      "rationale": "Correct: MenACWY at 11-12 and 16 years. HPV at 11-12 years (2-3 doses). Tdap at 11-12 years. E is correct — annual flu. Measles, mumps, rubella (MMR) booster is \u0001 — MMR is given at 12 months and 4-6 years; booster not routine in adolescence.",
       "slide": 20
     },
     {
@@ -101,10 +95,8 @@
         "Prescribe an antidepressant",
         "Recommend a social media detox"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Screen for suicidal ideation and notify the healthcare provider. Depression in adolescents is serious \u2014 suicide is the second leading cause of death in this age group. Tell the teen to cheer up and be more social is \u0001 \u2014 dismissive and dangerous. Prescribe an antidepressant is \u0001 \u2014 nurses don't prescribe. Recommend a social media detox is \u0001 \u2014 not the priority action.",
+      "answer": 1,
+      "rationale": "Correct: Screen for suicidal ideation and notify the healthcare provider. Depression in adolescents is serious — suicide is the second leading cause of death in this age group. Tell the teen to cheer up and be more social is \u0001 — dismissive and dangerous. Prescribe an antidepressant is \u0001 — nurses don't prescribe. Recommend a social media detox is \u0001 — not the priority action.",
       "slide": 20
     },
     {
@@ -129,7 +121,7 @@
         2,
         3
       ],
-      "rationale": "Correct: Formal Operational (abstract thinking) \u2192 A. Identity vs Role Confusion (role experimentation) \u2192 B. Intimacy vs Isolation (intimate relationships) \u2192 C. Generativity vs Stagnation (contributing to society) \u2192 D. These are the correct Piaget and Erikson stages for adolescents and adults.",
+      "rationale": "Correct: Formal Operational (abstract thinking) → A. Identity vs Role Confusion (role experimentation) → B. Intimacy vs Isolation (intimate relationships) → C. Generativity vs Stagnation (contributing to society) → D. These are the correct Piaget and Erikson stages for adolescents and adults.",
       "slide": 20
     },
     {
@@ -142,10 +134,8 @@
         "Detachment",
         "Denial"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Despair is the second stage of separation anxiety. The child becomes quiet, withdrawn, depressed, and may refuse to eat or play. Protest is \u0001 \u2014 protest is loud crying and resistance. Detachment is \u0001 \u2014 detachment appears as 'adjustment' but is emotional withdrawal. Denial is \u0001 \u2014 not a standard stage.",
+      "answer": 1,
+      "rationale": "Correct: Despair is the second stage of separation anxiety. The child becomes quiet, withdrawn, depressed, and may refuse to eat or play. Protest is \u0001 — protest is loud crying and resistance. Detachment is \u0001 — detachment appears as 'adjustment' but is emotional withdrawal. Denial is \u0001 — not a standard stage.",
       "slide": 21
     },
     {
@@ -165,7 +155,7 @@
         2,
         3
       ],
-      "rationale": "Correct: FLACC for nonverbal infants/children. FACES for children 3+ years. numeric for school-age who understand numbers. CRIES for neonates. Visual analog scale for preschoolers is \u0001 \u2014 visual analog is for school-age+.",
+      "rationale": "Correct: FLACC for nonverbal infants/children. FACES for children 3+ years. numeric for school-age who understand numbers. CRIES for neonates. Visual analog scale for preschoolers is \u0001 — visual analog is for school-age+.",
       "slide": 21
     },
     {
@@ -178,10 +168,8 @@
         "Kernig: neck flexion causes leg extension; Brudzinski: knee flexion causes neck pain",
         "Kernig and Brudzinski are not used in children"
       ],
-      "answer": [
-        0
-      ],
-      "rationale": "Correct: Kernig's sign: with patient supine, flex hip and knee, then extend knee \u2014 pain/resistance is positive. Brudzinski's sign: passive neck flexion causes hip/knee flexion. Both indicate meningeal irritation. B, C are incorrect descriptions. Kernig and Brudzinski are not used in children is \u0001 \u2014 these signs are used in children.",
+      "answer": 0,
+      "rationale": "Correct: Kernig's sign: with patient supine, flex hip and knee, then extend knee — pain/resistance is positive. Brudzinski's sign: passive neck flexion causes hip/knee flexion. Both indicate meningeal irritation. B, C are incorrect descriptions. Kernig and Brudzinski are not used in children is \u0001 — these signs are used in children.",
       "slide": 23
     },
     {
@@ -194,10 +182,8 @@
         "Clear the area of hazards and protect the head",
         "Insert a tongue blade between teeth"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: Protect the child during seizure: clear area of hazards, protect head, loosen tight clothing, position on side after seizure. Restrain the child to prevent injury is \u0001 \u2014 restraint can cause injury. Place the child in a supine position is \u0001 \u2014 position on side after seizure. Insert a tongue blade between teeth is \u0001 \u2014 never insert objects in mouth (aspiration risk).",
+      "answer": 2,
+      "rationale": "Correct: Protect the child during seizure: clear area of hazards, protect head, loosen tight clothing, position on side after seizure. Restrain the child to prevent injury is \u0001 — restraint can cause injury. Place the child in a supine position is \u0001 — position on side after seizure. Insert a tongue blade between teeth is \u0001 — never insert objects in mouth (aspiration risk).",
       "slide": 23
     },
     {
@@ -217,7 +203,7 @@
         2,
         3
       ],
-      "rationale": "Correct: head circumference increases. fontanelle bulges. setting sun sign. high-pitched cry. Narrowing of suture lines is \u0001 \u2014 suture lines widen in hydrocephalus, not narrow.",
+      "rationale": "Correct: head circumference increases. fontanelle bulges. setting sun sign. high-pitched cry. Narrowing of suture lines is \u0001 — suture lines widen in hydrocephalus, not narrow.",
       "slide": 23
     },
     {
@@ -230,10 +216,8 @@
         "Spastic",
         "Mixed"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: Spastic cerebral palsy is the most common type (~70-80%). It is characterized by increased muscle tone, hyperreflexia, and scissor gait. Dyskinetic (athetoid) is \u0001 \u2014 dyskinetic is ~10-20%. Ataxic is \u0001 \u2014 ataxic is ~5-10%. Mixed is \u0001 \u2014 mixed is combination.",
+      "answer": 2,
+      "rationale": "Correct: Spastic cerebral palsy is the most common type (~70-80%). It is characterized by increased muscle tone, hyperreflexia, and scissor gait. Dyskinetic (athetoid) is \u0001 — dyskinetic is ~10-20%. Ataxic is \u0001 — ataxic is ~5-10%. Mixed is \u0001 — mixed is combination.",
       "slide": 23
     },
     {
@@ -258,7 +242,7 @@
         2,
         3
       ],
-      "rationale": "Correct: Meningitis (fever, stiff neck, Kernig's) \u2192 A. Epilepsy (repeated seizures) \u2192 B. Hydrocephalus (abnormal head growth, bulging fontanelle) \u2192 C. Cerebral Palsy (involuntary movements, coordination difficulty) \u2192 D. This tests key features of common pediatric neurological disorders.",
+      "rationale": "Correct: Meningitis (fever, stiff neck, Kernig's) → A. Epilepsy (repeated seizures) → B. Hydrocephalus (abnormal head growth, bulging fontanelle) → C. Cerebral Palsy (involuntary movements, coordination difficulty) → D. This tests key features of common pediatric neurological disorders.",
       "slide": 23
     },
     {
@@ -271,10 +255,8 @@
         "Early treatment is important to prevent amblyopia",
         "Surgery is always the first-line treatment"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: Early treatment of strabismus is critical to prevent amblyopia (lazy eye). Treatment includes patching the stronger eye, glasses, or surgery. This is normal in preschoolers and will resolve is \u0001 \u2014 intermittent strabismus after 6 months requires evaluation. Covering the stronger eye is not an effective treatment is \u0001 \u2014 patching is effective. Surgery is always the first-line treatment is \u0001 \u2014 patching/glasses often tried first.",
+      "answer": 2,
+      "rationale": "Correct: Early treatment of strabismus is critical to prevent amblyopia (lazy eye). Treatment includes patching the stronger eye, glasses, or surgery. This is normal in preschoolers and will resolve is \u0001 — intermittent strabismus after 6 months requires evaluation. Covering the stronger eye is not an effective treatment is \u0001 — patching is effective. Surgery is always the first-line treatment is \u0001 — patching/glasses often tried first.",
       "slide": 23
     },
     {
@@ -294,7 +276,7 @@
         2,
         3
       ],
-      "rationale": "Correct: aspirin + viral illness (flu, chickenpox) triggers Reye. encephalopathy and fatty liver infiltration. under 15 years. acetaminophen is safe alternative. It is a common childhood illness. is \u0001 \u2014 Reye is rare, especially with aspirin warnings.",
+      "rationale": "Correct: aspirin + viral illness (flu, chickenpox) triggers Reye. encephalopathy and fatty liver infiltration. under 15 years. acetaminophen is safe alternative. It is a common childhood illness. is \u0001 — Reye is rare, especially with aspirin warnings.",
       "slide": 23
     },
     {
@@ -307,10 +289,8 @@
         "Developmental dysplasia of the hip",
         "Cerebral palsy"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: The Adams forward bend test screens for scoliosis. The child bends forward \u2014 asymmetry in the back (rib hump) indicates possible scoliosis. Clubfoot is \u0001 \u2014 clubfoot is foot deformity. Developmental dysplasia of the hip is \u0001 \u2014 DDH uses Ortolani/Barlow tests. Cerebral palsy is \u0001 \u2014 CP is neurological.",
+      "answer": 1,
+      "rationale": "Correct: The Adams forward bend test screens for scoliosis. The child bends forward — asymmetry in the back (rib hump) indicates possible scoliosis. Clubfoot is \u0001 — clubfoot is foot deformity. Developmental dysplasia of the hip is \u0001 — DDH uses Ortolani/Barlow tests. Cerebral palsy is \u0001 — CP is neurological.",
       "slide": 24
     },
     {
@@ -323,10 +303,8 @@
         "Gower's sign",
         "Babinski reflex"
       ],
-      "answer": [
-        0
-      ],
-      "rationale": "Correct: Barlow test: adduction with posterior pressure to check for dislocation. Ortolani test: abduction with anterior pressure to check for reduction. A click or clunk is positive. Adams forward bend test is \u0001 \u2014 for scoliosis. Gower's sign is \u0001 \u2014 for Duchenne muscular dystrophy. Babinski reflex is \u0001 \u2014 for neurological testing.",
+      "answer": 0,
+      "rationale": "Correct: Barlow test: adduction with posterior pressure to check for dislocation. Ortolani test: abduction with anterior pressure to check for reduction. A click or clunk is positive. Adams forward bend test is \u0001 — for scoliosis. Gower's sign is \u0001 — for Duchenne muscular dystrophy. Babinski reflex is \u0001 — for neurological testing.",
       "slide": 24
     },
     {
@@ -360,10 +338,8 @@
         "Remove weights for comfort",
         "Keep the bed flat with no elevation"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Frequent neurovascular checks (5 P's) are critical with any traction to detect compartment syndrome or nerve/vascular compromise. Allow the child to move freely in bed is \u0001 \u2014 child should be positioned correctly. Remove weights for comfort is \u0001 \u2014 weights should never be removed. Keep the bed flat with no elevation is \u0001 \u2014 bed may be elevated for counter-traction.",
+      "answer": 1,
+      "rationale": "Correct: Frequent neurovascular checks (5 P's) are critical with any traction to detect compartment syndrome or nerve/vascular compromise. Allow the child to move freely in bed is \u0001 — child should be positioned correctly. Remove weights for comfort is \u0001 — weights should never be removed. Keep the bed flat with no elevation is \u0001 — bed may be elevated for counter-traction.",
       "slide": 24
     },
     {
@@ -376,10 +352,8 @@
         "Inability to sit without support",
         "Scissor gait"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Gower's sign is when a child uses hands to push off knees and 'walk up' the legs when rising from sitting or squatting. It indicates proximal muscle weakness. Walking on toes is \u0001 \u2014 toe walking may occur but not Gower's. Inability to sit without support is \u0001 \u2014 not the sign. Scissor gait is \u0001 \u2014 scissor gait is spastic CP.",
+      "answer": 1,
+      "rationale": "Correct: Gower's sign is when a child uses hands to push off knees and 'walk up' the legs when rising from sitting or squatting. It indicates proximal muscle weakness. Walking on toes is \u0001 — toe walking may occur but not Gower's. Inability to sit without support is \u0001 — not the sign. Scissor gait is \u0001 — scissor gait is spastic CP.",
       "slide": 24
     },
     {
@@ -392,10 +366,8 @@
         "APGAR",
         "Denver II"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: PHQ-9 (Patient Health Questionnaire-9) is a validated depression screening tool for adolescents and adults. Glasgow Coma Scale is \u0001 \u2014 GCS for neurological status. APGAR is \u0001 \u2014 APGAR for newborn. Denver II is \u0001 \u2014 Denver II for developmental screening.",
+      "answer": 1,
+      "rationale": "Correct: PHQ-9 (Patient Health Questionnaire-9) is a validated depression screening tool for adolescents and adults. Glasgow Coma Scale is \u0001 — GCS for neurological status. APGAR is \u0001 — APGAR for newborn. Denver II is \u0001 — Denver II for developmental screening.",
       "slide": 20
     },
     {
@@ -415,7 +387,7 @@
         2,
         4
       ],
-      "rationale": "Correct: anorexia is restriction and fear of weight gain. bulimia is binge + purge/compensation. binge eating disorder has no compensation. E is correct \u2014 medical complications are serious. Eating disorders are more common in boys than girls. is \u0001 \u2014 more common in girls.",
+      "rationale": "Correct: anorexia is restriction and fear of weight gain. bulimia is binge + purge/compensation. binge eating disorder has no compensation. E is correct — medical complications are serious. Eating disorders are more common in boys than girls. is \u0001 — more common in girls.",
       "slide": 20
     },
     {
@@ -428,10 +400,8 @@
         "Physical therapy only",
         "Observation until age 2"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: The Ponseti method involves serial casting to gradually correct the deformity, followed by bracing (Denis Browne bar). Surgery is reserved for resistant cases. Immediate surgical correction is \u0001 \u2014 surgery is not first-line. Physical therapy only is \u0001 \u2014 casting is primary. Observation until age 2 is \u0001 \u2014 early treatment is essential.",
+      "answer": 1,
+      "rationale": "Correct: The Ponseti method involves serial casting to gradually correct the deformity, followed by bracing (Denis Browne bar). Surgery is reserved for resistant cases. Immediate surgical correction is \u0001 — surgery is not first-line. Physical therapy only is \u0001 — casting is primary. Observation until age 2 is \u0001 — early treatment is essential.",
       "slide": 24
     },
     {
@@ -450,7 +420,7 @@
         0,
         3
       ],
-      "rationale": "Correct: The symptoms (weight loss, irregular periods, excessive exercise) suggest anorexia nervosa. Immediate hospitalization for stabilization (electrolytes, cardiac monitoring) is critical. this is not normal growth. not hyperthyroidism. E is incorrect \u2014 dismissive. F is incorrect \u2014 dangerous advice.",
+      "rationale": "Correct: The symptoms (weight loss, irregular periods, excessive exercise) suggest anorexia nervosa. Immediate hospitalization for stabilization (electrolytes, cardiac monitoring) is critical. this is not normal growth. not hyperthyroidism. E is incorrect — dismissive. F is incorrect — dangerous advice.",
       "slide": 20
     },
     {
@@ -463,10 +433,8 @@
         "Eye drops",
         "Observation"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Patching the stronger eye forces the weaker eye to work harder, improving vision. Treatment is most effective before age 7-8. Surgery is \u0001 \u2014 surgery may be for strabismus, not amblyopia. Eye drops is \u0001 \u2014 drops may be used but patching is primary. Observation is \u0001 \u2014 amblyopia requires treatment.",
+      "answer": 1,
+      "rationale": "Correct: Patching the stronger eye forces the weaker eye to work harder, improving vision. Treatment is most effective before age 7-8. Surgery is \u0001 — surgery may be for strabismus, not amblyopia. Eye drops is \u0001 — drops may be used but patching is primary. Observation is \u0001 — amblyopia requires treatment.",
       "slide": 23
     },
     {
@@ -485,7 +453,7 @@
         1,
         2
       ],
-      "rationale": "Correct: toddlers: simple, just before. school-age: touch equipment. adolescents: involvement. Preschoolers should be prepared days in advance. is \u0001 \u2014 days in advance causes anxiety in preschoolers. All children should be told 'it won't hurt'. is \u0001 \u2014 never lie; be honest about sensations.",
+      "rationale": "Correct: toddlers: simple, just before. school-age: touch equipment. adolescents: involvement. Preschoolers should be prepared days in advance. is \u0001 — days in advance causes anxiety in preschoolers. All children should be told 'it won't hurt'. is \u0001 — never lie; be honest about sensations.",
       "slide": 21
     },
     {
@@ -510,7 +478,7 @@
         2,
         3
       ],
-      "rationale": "Correct: DDH (Ortolani/Barlow) \u2192 A. Scoliosis (Adams forward bend) \u2192 B. Duchenne (Gower's sign) \u2192 C. Clubfoot (Ponseti method) \u2192 D. This tests key assessment/treatment for common musculoskeletal disorders.",
+      "rationale": "Correct: DDH (Ortolani/Barlow) → A. Scoliosis (Adams forward bend) → B. Duchenne (Gower's sign) → C. Clubfoot (Ponseti method) → D. This tests key assessment/treatment for common musculoskeletal disorders.",
       "slide": 24
     },
     {
@@ -523,10 +491,8 @@
         "Sign of depression",
         "Poor parenting"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Adolescents strive for autonomy and identity. Questioning authority and treatment plans is normal developmental behavior. Abnormal behavior requiring intervention is \u0001 \u2014 not abnormal. Sign of depression is \u0001 \u2014 not depression. Poor parenting is \u0001 \u2014 not parenting issue.",
+      "answer": 1,
+      "rationale": "Correct: Adolescents strive for autonomy and identity. Questioning authority and treatment plans is normal developmental behavior. Abnormal behavior requiring intervention is \u0001 — not abnormal. Sign of depression is \u0001 — not depression. Poor parenting is \u0001 — not parenting issue.",
       "slide": 20
     },
     {
@@ -545,7 +511,7 @@
         1,
         3
       ],
-      "rationale": "Correct: pad rails. suction and oxygen ready. stay with child. Restrain during seizure is \u0001 \u2014 never restrain (causes injury). Insert tongue blade if tongue is bitten is \u0001 \u2014 never insert objects in mouth.",
+      "rationale": "Correct: pad rails. suction and oxygen ready. stay with child. Restrain during seizure is \u0001 — never restrain (causes injury). Insert tongue blade if tongue is bitten is \u0001 — never insert objects in mouth.",
       "slide": 23
     },
     {
@@ -558,10 +524,8 @@
         "Immediate surgery",
         "Physical therapy alone"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Curves 25-45 degrees in growing adolescents are treated with bracing to prevent progression. Surgery is for curves >45-50 degrees. Observation only is \u0001 \u2014 28 degrees requires treatment. Immediate surgery is \u0001 \u2014 surgery for larger curves. Physical therapy alone is \u0001 \u2014 bracing is primary.",
+      "answer": 1,
+      "rationale": "Correct: Curves 25-45 degrees in growing adolescents are treated with bracing to prevent progression. Surgery is for curves >45-50 degrees. Observation only is \u0001 — 28 degrees requires treatment. Immediate surgery is \u0001 — surgery for larger curves. Physical therapy alone is \u0001 — bracing is primary.",
       "slide": 24
     },
     {
@@ -590,10 +554,8 @@
         "11-12 years",
         "16 years"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: MenACWY is recommended at 11-12 years with a booster at 16 years. 6 months is \u0001 \u2014 not at 6 months. 2 years is \u0001 \u2014 not at 2 years. 16 years is \u0001 \u2014 16 years is the booster.",
+      "answer": 2,
+      "rationale": "Correct: MenACWY is recommended at 11-12 years with a booster at 16 years. 6 months is \u0001 — not at 6 months. 2 years is \u0001 — not at 2 years. 16 years is \u0001 — 16 years is the booster.",
       "slide": 20
     },
     {
@@ -612,7 +574,7 @@
         1,
         2
       ],
-      "rationale": "Correct: Pavlik harness treats DDH. maintains flexion and abduction. worn 23 hours/day. It is used for clubfoot correction. is \u0001 \u2014 for clubfoot is Ponseti method. It should be removed for bathing. is \u0001 \u2014 typically left on for bathing.",
+      "rationale": "Correct: Pavlik harness treats DDH. maintains flexion and abduction. worn 23 hours/day. It is used for clubfoot correction. is \u0001 — for clubfoot is Ponseti method. It should be removed for bathing. is \u0001 — typically left on for bathing.",
       "slide": 24
     },
     {
@@ -644,10 +606,8 @@
         "14 years",
         "16 years"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: HPV vaccine is recommended at 11-12 years (can be given as early as 9). Two doses if started before age 15; three doses if started at 15+. 9 years is \u0001 \u2014 can be given but not the standard recommendation. C and D are incorrect \u2014 too late for optimal protection.",
+      "answer": 1,
+      "rationale": "Correct: HPV vaccine is recommended at 11-12 years (can be given as early as 9). Two doses if started before age 15; three doses if started at 15+. 9 years is \u0001 — can be given but not the standard recommendation. C and D are incorrect — too late for optimal protection.",
       "slide": 20
     },
     {
@@ -667,7 +627,7 @@
         2,
         3
       ],
-      "rationale": "Correct: LOC is critical. pupils indicate brain function. motor assessment. vital signs. Sleep patterns is \u0001 \u2014 not part of neuro check (though altered sleep may be noted).",
+      "rationale": "Correct: LOC is critical. pupils indicate brain function. motor assessment. vital signs. Sleep patterns is \u0001 — not part of neuro check (though altered sleep may be noted).",
       "slide": 23
     },
     {
@@ -680,10 +640,8 @@
         "Testicular growth",
         "Axillary hair"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: Testicular growth is the first sign of puberty in boys (Tanner stage 2). This precedes pubic hair and penile growth. Pubic hair growth is \u0001 \u2014 pubic hair follows. Penile growth is \u0001 \u2014 follows testicular growth. Axillary hair is \u0001 \u2014 axillary hair is later.",
+      "answer": 2,
+      "rationale": "Correct: Testicular growth is the first sign of puberty in boys (Tanner stage 2). This precedes pubic hair and penile growth. Pubic hair growth is \u0001 — pubic hair follows. Penile growth is \u0001 — follows testicular growth. Axillary hair is \u0001 — axillary hair is later.",
       "slide": 20
     },
     {
@@ -696,10 +654,8 @@
         "Physical therapy alone",
         "Observation until age 5"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: The Ponseti method uses serial casting (weekly) to gradually correct the deformity, followed by bracing (Denis Browne bar) to maintain correction. Surgery is reserved for resistant cases. Surgery as the first step is \u0001 \u2014 surgery not first. Physical therapy alone is \u0001 \u2014 casting is primary. Observation until age 5 is \u0001 \u2014 early treatment essential.",
+      "answer": 1,
+      "rationale": "Correct: The Ponseti method uses serial casting (weekly) to gradually correct the deformity, followed by bracing (Denis Browne bar) to maintain correction. Surgery is reserved for resistant cases. Surgery as the first step is \u0001 — surgery not first. Physical therapy alone is \u0001 — casting is primary. Observation until age 5 is \u0001 — early treatment essential.",
       "slide": 24
     },
     {
@@ -719,7 +675,7 @@
         2,
         4
       ],
-      "rationale": "Correct: low BMI. fear of weight gain. distorted body image. E is correct \u2014 electrolyte issues. Binge eating episodes is \u0001 \u2014 binge eating is bulimia/binge eating disorder.",
+      "rationale": "Correct: low BMI. fear of weight gain. distorted body image. E is correct — electrolyte issues. Binge eating episodes is \u0001 — binge eating is bulimia/binge eating disorder.",
       "slide": 20
     },
     {
@@ -732,10 +688,8 @@
         "Partial complex",
         "Febrile seizure"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Absence seizures (petit mal) are brief staring spells (5-20 seconds) with abrupt onset and no postictal confusion. Common in children 4-10 years. Generalized tonic-clonic is \u0001 \u2014 tonic-clonic has convulsions. Partial complex is \u0001 \u2014 partial complex has automatisms. Febrile seizure is \u0001 \u2014 related to fever.",
+      "answer": 1,
+      "rationale": "Correct: Absence seizures (petit mal) are brief staring spells (5-20 seconds) with abrupt onset and no postictal confusion. Common in children 4-10 years. Generalized tonic-clonic is \u0001 — tonic-clonic has convulsions. Partial complex is \u0001 — partial complex has automatisms. Febrile seizure is \u0001 — related to fever.",
       "slide": 23
     },
     {
@@ -748,9 +702,7 @@
         "Observation",
         "Casting"
       ],
-      "answer": [
-        0
-      ],
+      "answer": 0,
       "rationale": "Correct: The Pavlik harness is the primary treatment for DDH in infants <6 months. It maintains hips in flexion and abduction. Surgery is for older infants or failed harness. Pavlik harness.",
       "slide": 24
     },
@@ -771,7 +723,7 @@
         2,
         3
       ],
-      "rationale": "Correct: frequent neuro checks. never remove weights. weights hang freely. pin care. Allow child to move freely in bed is \u0001 \u2014 child should be positioned correctly, not move freely.",
+      "rationale": "Correct: frequent neuro checks. never remove weights. weights hang freely. pin care. Allow child to move freely in bed is \u0001 — child should be positioned correctly, not move freely.",
       "slide": 24
     },
     {
@@ -784,10 +736,8 @@
         "8-10 hours",
         "10-12 hours"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: Adolescents need 8-10 hours of sleep per night. Sleep deprivation affects mood, concentration, and school performance. 6-7 hours is \u0001 \u2014 too little. 7-8 hours is \u0001 \u2014 borderline. 10-12 hours is \u0001 \u2014 too much.",
+      "answer": 2,
+      "rationale": "Correct: Adolescents need 8-10 hours of sleep per night. Sleep deprivation affects mood, concentration, and school performance. 6-7 hours is \u0001 — too little. 7-8 hours is \u0001 — borderline. 10-12 hours is \u0001 — too much.",
       "slide": 20
     },
     {
@@ -812,7 +762,7 @@
         2,
         3
       ],
-      "rationale": "Correct: MenACWY (11-12 + 16) \u2192 A. HPV (11-12, 2-3 doses) \u2192 B. Tdap (11-12) \u2192 C. Flu (annually) \u2192 D. These are the standard adolescent vaccine recommendations.",
+      "rationale": "Correct: MenACWY (11-12 + 16) → A. HPV (11-12, 2-3 doses) → B. Tdap (11-12) → C. Flu (annually) → D. These are the standard adolescent vaccine recommendations.",
       "slide": 20
     },
     {
@@ -825,10 +775,8 @@
         "Ataxic CP",
         "Mixed CP"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Dyskinetic (athetoid) CP involves involuntary, writhing movements and difficulty with posture control. It is caused by damage to the basal ganglia. Spastic CP is \u0001 \u2014 spastic is increased tone. Ataxic CP is \u0001 \u2014 ataxic is balance/coordination issues. Mixed CP is \u0001 \u2014 not mixed.",
+      "answer": 1,
+      "rationale": "Correct: Dyskinetic (athetoid) CP involves involuntary, writhing movements and difficulty with posture control. It is caused by damage to the basal ganglia. Spastic CP is \u0001 — spastic is increased tone. Ataxic CP is \u0001 — ataxic is balance/coordination issues. Mixed CP is \u0001 — not mixed.",
       "slide": 23
     },
     {
@@ -868,7 +816,7 @@
         0,
         3
       ],
-      "rationale": "Correct: Severe pain, pallor, and paresthesia (tingling) are signs of compartment syndrome \u2014 a medical emergency. Notify provider immediately for possible fasciotomy. this is not normal pain. not the cause. E is incorrect \u2014 pain med won't fix compartment syndrome. F is incorrect \u2014 elevation may worsen.",
+      "rationale": "Correct: Severe pain, pallor, and paresthesia (tingling) are signs of compartment syndrome — a medical emergency. Notify provider immediately for possible fasciotomy. this is not normal pain. not the cause. E is incorrect — pain med won't fix compartment syndrome. F is incorrect — elevation may worsen.",
       "slide": 24
     },
     {
@@ -881,10 +829,8 @@
         "Refer to addiction treatment",
         "Ignore it as normal adolescent behavior"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Explore further \u2014 ask about frequency, quantity, context, and other substance use. Report to parents immediately is \u0001 \u2014 not mandatory reporting unless safety concern. Refer to addiction treatment is \u0001 \u2014 not first step. Ignore it as normal adolescent behavior is \u0001 \u2014 needs exploration.",
+      "answer": 1,
+      "rationale": "Correct: Explore further — ask about frequency, quantity, context, and other substance use. Report to parents immediately is \u0001 — not mandatory reporting unless safety concern. Refer to addiction treatment is \u0001 — not first step. Ignore it as normal adolescent behavior is \u0001 — needs exploration.",
       "slide": 20
     },
     {
@@ -897,10 +843,8 @@
         "40-50 degrees",
         "60-70 degrees"
       ],
-      "answer": [
-        2
-      ],
-      "rationale": "Correct: Surgery is typically recommended for curves >45-50 degrees to prevent progression and respiratory compromise. 20-25 degrees is \u0001 \u2014 observation or bracing. 25-35 degrees is \u0001 \u2014 bracing. 60-70 degrees is \u0001 \u2014 too severe.",
+      "answer": 2,
+      "rationale": "Correct: Surgery is typically recommended for curves >45-50 degrees to prevent progression and respiratory compromise. 20-25 degrees is \u0001 — observation or bracing. 25-35 degrees is \u0001 — bracing. 60-70 degrees is \u0001 — too severe.",
       "slide": 24
     },
     {
@@ -920,7 +864,7 @@
         2,
         3
       ],
-      "rationale": "Correct: side-lying prevents aspiration. never restrain. protect head. status epilepticus. Insert a tongue blade during seizure. is \u0001 \u2014 never insert objects in mouth.",
+      "rationale": "Correct: side-lying prevents aspiration. never restrain. protect head. status epilepticus. Insert a tongue blade during seizure. is \u0001 — never insert objects in mouth.",
       "slide": 23
     },
     {
@@ -950,10 +894,8 @@
         "It should be worn only at night",
         "Bathing is done with harness off"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: The Pavlik harness is worn 23 hours per day for effective treatment. It maintains hips in flexion and abduction. Removal is only for bathing if provider allows. A, C, D are incorrect \u2014 keep on as prescribed.",
+      "answer": 1,
+      "rationale": "Correct: The Pavlik harness is worn 23 hours per day for effective treatment. It maintains hips in flexion and abduction. Removal is only for bathing if provider allows. A, C, D are incorrect — keep on as prescribed.",
       "slide": 24
     },
     {
@@ -973,7 +915,7 @@
         2,
         4
       ],
-      "rationale": "Correct: calcium for bone. iron needs increase. higher calorie needs. E is correct \u2014 prevention. Skipping meals is healthy for weight control. is \u0001 \u2014 skipping meals is unhealthy.",
+      "rationale": "Correct: calcium for bone. iron needs increase. higher calorie needs. E is correct — prevention. Skipping meals is healthy for weight control. is \u0001 — skipping meals is unhealthy.",
       "slide": 20
     },
     {
@@ -986,10 +928,8 @@
         "More common in girls",
         "Caused by a viral infection"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Duchenne is a progressive, fatal X-linked disorder caused by dystrophin gene mutation. It primarily affects boys. There is no cure, though corticosteroids can slow progression. Curable with medication is \u0001 \u2014 not curable. More common in girls is \u0001 \u2014 boys. Caused by a viral infection is \u0001 \u2014 genetic.",
+      "answer": 1,
+      "rationale": "Correct: Duchenne is a progressive, fatal X-linked disorder caused by dystrophin gene mutation. It primarily affects boys. There is no cure, though corticosteroids can slow progression. Curable with medication is \u0001 — not curable. More common in girls is \u0001 — boys. Caused by a viral infection is \u0001 — genetic.",
       "slide": 24
     },
     {
@@ -1008,7 +948,7 @@
         1,
         3
       ],
-      "rationale": "Correct: Sudden fever (A), stiff neck/Kernig's (B), headache/photophobia (D). petechial rash (meningococcal) does NOT blanch. E is incorrect \u2014 not just runny nose.",
+      "rationale": "Correct: Sudden fever (A), stiff neck/Kernig's (B), headache/photophobia (D). petechial rash (meningococcal) does NOT blanch. E is incorrect — not just runny nose.",
       "slide": 23
     },
     {
@@ -1033,7 +973,7 @@
         2,
         3
       ],
-      "rationale": "Correct: Scoliosis (rib hump) \u2192 A. DDH (Ortolani positive) \u2192 B. Clubfoot (inward foot) \u2192 C. Duchenne (Gower's) \u2192 D.",
+      "rationale": "Correct: Scoliosis (rib hump) → A. DDH (Ortolani positive) → B. Clubfoot (inward foot) → C. Duchenne (Gower's) → D.",
       "slide": 24
     },
     {
@@ -1053,7 +993,7 @@
         2,
         3
       ],
-      "rationale": "Correct: hands-on. routines. detailed explanation. activities. Restrict parent visits is \u0001 \u2014 parent presence reduces stress.",
+      "rationale": "Correct: hands-on. routines. detailed explanation. activities. Restrict parent visits is \u0001 — parent presence reduces stress.",
       "slide": 21
     },
     {
@@ -1066,9 +1006,7 @@
         "Restricting cell phone use",
         "All of the above"
       ],
-      "answer": [
-        3
-      ],
+      "answer": 3,
       "rationale": "Correct: All are effective. Graduated licensing (A), cell phone restrictions (B), and defensive driving education (C) all reduce MVA deaths. Comprehensive approaches are most effective.",
       "slide": 20
     },
@@ -1088,7 +1026,7 @@
         0,
         3
       ],
-      "rationale": "Correct: Tingling, numbness, and severe pain in the calf indicate compartment syndrome \u2014 a surgical emergency. Notify provider immediately. not healing. not infection. E is incorrect \u2014 ice/elevation may worsen. F is incorrect \u2014 pain med won't fix compartment syndrome.",
+      "rationale": "Correct: Tingling, numbness, and severe pain in the calf indicate compartment syndrome — a surgical emergency. Notify provider immediately. not healing. not infection. E is incorrect — ice/elevation may worsen. F is incorrect — pain med won't fix compartment syndrome.",
       "slide": 24
     },
     {
@@ -1108,7 +1046,7 @@
         2,
         3
       ],
-      "rationale": "Correct: phenytoin. carbamazepine. valproic acid. levetiracetam. Ibuprofen is \u0001 \u2014 ibuprofen is analgesic, not antiepileptic.",
+      "rationale": "Correct: phenytoin. carbamazepine. valproic acid. levetiracetam. Ibuprofen is \u0001 — ibuprofen is analgesic, not antiepileptic.",
       "slide": 23
     },
     {
@@ -1139,10 +1077,8 @@
         "Mammography",
         "Bone density scan"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Depression screening (e.g., PHQ-9) should be performed at every adolescent well visit. Suicide is the second leading cause of death in adolescents. Colonoscopy is \u0001 \u2014 not for teens. Mammography is \u0001 \u2014 not for teens. Bone density scan is \u0001 \u2014 not routine.",
+      "answer": 1,
+      "rationale": "Correct: Depression screening (e.g., PHQ-9) should be performed at every adolescent well visit. Suicide is the second leading cause of death in adolescents. Colonoscopy is \u0001 — not for teens. Mammography is \u0001 — not for teens. Bone density scan is \u0001 — not routine.",
       "slide": 20
     },
     {
@@ -1162,7 +1098,7 @@
         2,
         3
       ],
-      "rationale": "Correct: clear hazards. protect head. time seizure. side after. Restrain the child is \u0001 \u2014 never restrain.",
+      "rationale": "Correct: clear hazards. protect head. time seizure. side after. Restrain the child is \u0001 — never restrain.",
       "slide": 23
     },
     {
@@ -1175,10 +1111,8 @@
         "Preschoolers (3-5 years)",
         "School-age (6-12 years)"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Toddlers (1-3 years) have the highest risk for separation anxiety. They have strong attachment to parents and limited understanding of time. Infants (0-12 months) is \u0001 \u2014 infants show distress but less separation anxiety. Preschoolers (3-5 years) is \u0001 \u2014 preschoolers have more understanding. School-age (6-12 years) is \u0001 \u2014 school-age has coping skills.",
+      "answer": 1,
+      "rationale": "Correct: Toddlers (1-3 years) have the highest risk for separation anxiety. They have strong attachment to parents and limited understanding of time. Infants (0-12 months) is \u0001 — infants show distress but less separation anxiety. Preschoolers (3-5 years) is \u0001 — preschoolers have more understanding. School-age (6-12 years) is \u0001 — school-age has coping skills.",
       "slide": 21
     },
     {
@@ -1198,7 +1132,7 @@
         2,
         3
       ],
-      "rationale": "Correct: matrix matches rows to columns. bowtie assesses cause-effect and interventions. cloze is drag-and-drop. highlight selects text. SATA questions have only one correct answer. is \u0001 \u2014 SATA can have multiple correct answers.",
+      "rationale": "Correct: matrix matches rows to columns. bowtie assesses cause-effect and interventions. cloze is drag-and-drop. highlight selects text. SATA questions have only one correct answer. is \u0001 — SATA can have multiple correct answers.",
       "slide": 21
     },
     {
@@ -1223,7 +1157,7 @@
         2,
         3
       ],
-      "rationale": "Correct: Pavlik (DDH) \u2192 A. Ponseti (clubfoot) \u2192 B. Boston brace (scoliosis) \u2192 C. Gower's (Duchenne) \u2192 D.",
+      "rationale": "Correct: Pavlik (DDH) → A. Ponseti (clubfoot) → B. Boston brace (scoliosis) → C. Gower's (Duchenne) → D.",
       "slide": 24
     },
     {
@@ -1236,9 +1170,7 @@
         "Tdap",
         "Varicella"
       ],
-      "answer": [
-        2
-      ],
+      "answer": 2,
       "rationale": "Correct: Tdap (tetanus, diphtheria, pertussis) is given at 11-12 years. Rotavirus (A) is for infants. Pneumococcal (B) is for infants/elderly. Varicella (D) is given at 12 months and 4-6 years.",
       "slide": 20
     },
@@ -1259,7 +1191,7 @@
         2,
         3
       ],
-      "rationale": "Correct: increasing head size. bulging fontanelle. setting sun sign. high-pitched cry. Narrow suture lines is \u0001 \u2014 suture lines widen.",
+      "rationale": "Correct: increasing head size. bulging fontanelle. setting sun sign. high-pitched cry. Narrow suture lines is \u0001 — suture lines widen.",
       "slide": 23
     },
     {
@@ -1272,10 +1204,8 @@
         "Piaget's Concrete Operational",
         "Kohlberg's Postconventional"
       ],
-      "answer": [
-        1
-      ],
-      "rationale": "Correct: Identity vs Role Confusion (12-18 years) involves questioning values, experimenting with roles, and developing a sense of self. Erikson's Industry vs Inferiority is \u0001 \u2014 Industry is school-age. Piaget's Concrete Operational is \u0001 \u2014 Concrete Operational is cognitive, not psychosocial. Kohlberg's Postconventional is \u0001 \u2014 Postconventional is moral reasoning.",
+      "answer": 1,
+      "rationale": "Correct: Identity vs Role Confusion (12-18 years) involves questioning values, experimenting with roles, and developing a sense of self. Erikson's Industry vs Inferiority is \u0001 — Industry is school-age. Piaget's Concrete Operational is \u0001 — Concrete Operational is cognitive, not psychosocial. Kohlberg's Postconventional is \u0001 — Postconventional is moral reasoning.",
       "slide": 20
     }
   ]
