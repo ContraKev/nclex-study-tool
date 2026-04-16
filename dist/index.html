@@ -16726,7 +16726,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 "ob_ch912_comprehensive",
                 "peds_ch15_19_comprehensive",
                 "peds_ch20_24_comprehensive",
-                "ati_cms_peds_practice_a"
+                "ati_cms_peds_practice_a",
+                "peds_ch15_19_cheatsheet",
+                "peds_ch20_24_cheatsheet",
+                "ati_cms_peds_practice_a_cheatsheet"
             ];
             const titles = {
                 "ob_cheatsheet": "OB Cheat Sheet: Fetal Development",
@@ -16739,7 +16742,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 "ob_ch912_comprehensive": "OB Comprehensive: Postpartum & Newborn",
                 "peds_ch15_19_comprehensive": "PEDS Ch15-19: Growth & Development",
                 "peds_ch20_24_comprehensive": "PEDS Ch20-24: Adolescent & Disorders",
-                "ati_cms_peds_practice_a": "ATI CMS Peds Practice A — Comprehensive"
+                "ati_cms_peds_practice_a": "ATI CMS Peds Practice A — Comprehensive",
+                "peds_ch15_19_cheatsheet": "PEDS Ch15-19 Cheatsheet",
+                "peds_ch20_24_cheatsheet": "PEDS Ch20-24 Cheatsheet",
+                "ati_cms_peds_practice_a_cheatsheet": "ATI CMS Peds Practice A Cheatsheet"
             };
             const listHtml = guides.map(key => `
                 <div class="col-md-6 mb-3">
@@ -16771,7 +16777,10 @@ function nextMissionStep() { if (currentStepIndex < currentMission.steps.length 
                 "ob_ch912_comprehensive": "OB Comprehensive: Postpartum & Newborn",
                 "peds_ch15_19_comprehensive": "PEDS Ch15-19: Growth & Development",
                 "peds_ch20_24_comprehensive": "PEDS Ch20-24: Adolescent & Disorders",
-                "ati_cms_peds_practice_a": "ATI CMS Peds Practice A — Comprehensive"
+                "ati_cms_peds_practice_a": "ATI CMS Peds Practice A — Comprehensive",
+                "peds_ch15_19_cheatsheet": "PEDS Ch15-19 Cheatsheet",
+                "peds_ch20_24_cheatsheet": "PEDS Ch20-24 Cheatsheet",
+                "ati_cms_peds_practice_a_cheatsheet": "ATI CMS Peds Practice A Cheatsheet"
             };
             const content = window.studyGuideContent || {};
             const raw = content[key];
