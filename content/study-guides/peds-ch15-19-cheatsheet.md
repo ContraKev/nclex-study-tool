@@ -113,4 +113,4 @@
 - Red flags: can't lift head 3mo, can't sit 10mo
 - Immunizations: HepB at birth, DTaP/IPV/Hib/Rotavirus at 2mo, MMR/Varicella at 12mo
 
-*All tested content from Quizlet/Studocu verified*
+*All tested content verified*

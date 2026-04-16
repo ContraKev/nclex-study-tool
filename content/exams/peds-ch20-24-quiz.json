@@ -1207,6 +1207,229 @@
       "answer": 1,
       "rationale": "CORRECT: 'Erikson's Identity vs Role Confusion' — because Identity vs Role Confusion (12-18 years) involves questioning values, experimenting with roles, and developing a sense of self. INCORRECT: 'Erikson's Industry vs Inferiority' — because Industry is school-age. INCORRECT: 'Piaget's Concrete Operational' — because Concrete Operational is cognitive, not psychosocial. INCORRECT: 'Kohlberg's Postconventional' — because Postconventional is moral reasoning.",
       "slide": 20
+    },
+    {
+      "id": "q71_mcq_pain_5th_vital",
+      "type": "mcq",
+      "question": "A nurse is caring for a hospitalized child who is grimacing and guarding their abdomen but refuses to report pain. What should the nurse understand?",
+      "options": [
+        "Children always accurately report their pain level",
+        "Pain is the 5th vital sign and should be assessed even if the child does not verbalize it",
+        "If a child does not report pain, they are not experiencing it",
+        "Only school-age children can accurately describe pain"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pain is the 5th vital sign and should be assessed even if the child does not verbalize it' — because pain is whatever the person says it is (verbal or nonverbal). Children may not report pain for fear of injection or because they cannot verbalize. INCORRECT: 'Children always accurately report their pain level' — because children may not report due to fear. INCORRECT: 'If a child does not report pain, they are not experiencing it' — because nonverbal signs indicate pain. INCORRECT: 'Only school-age children can accurately describe pain' — because even infants show pain behaviors.",
+      "slide": 21
+    },
+    {
+      "id": "q72_mcq_conscious_sedation",
+      "type": "mcq",
+      "question": "A child is receiving conscious sedation for a procedure. What is the nurse's priority responsibility?",
+      "options": [
+        "Administer the sedation medication",
+        "Maintain a 1:1 nurse-patient ratio until the child returns to presedation level of responsiveness",
+        "Document the procedure only",
+        "Allow family to stay without monitoring"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Maintain a 1:1 nurse-patient ratio until the child returns to presedation level of responsiveness' — because conscious sedation impairs consciousness but protective reflexes remain. The nurse must monitor until stable vitals, age-appropriate motor/verbal abilities, adequate hydration, and presedation responsiveness return. INCORRECT: 'Administer the sedation medication' — because the provider typically administers. INCORRECT: 'Document the procedure only' — because monitoring is priority. INCORRECT: 'Allow family to stay without monitoring' — because the nurse must stay with the child.",
+      "slide": 21
+    },
+    {
+      "id": "q73_mcq_language_interpreter",
+      "type": "mcq",
+      "question": "A non-English speaking parent needs to consent for their child's procedure. What is the correct nursing action?",
+      "options": [
+        "Use the older sibling to translate",
+        "Use a professional language interpreter as required by federal law",
+        "Have the parent sign without explanation",
+        "Ask the provider to explain in English"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Use a professional language interpreter as required by federal law' — because healthcare sites are required by federal law to provide language interpreters at no charge. Family members should never be used because information can be 'lost in translation.' INCORRECT: 'Use the older sibling to translate' — because family should not interpret. INCORRECT: 'Have the parent sign without explanation' — because informed consent requires understanding. INCORRECT: 'Ask the provider to explain in English' — because the parent may not understand.",
+      "slide": 21
+    },
+    {
+      "id": "q74_mcq_cultural_sensitivity",
+      "type": "mcq",
+      "question": "A nurse is caring for a hospitalized child whose family has specific cultural practices around modesty and gender of caregivers. What is the best approach?",
+      "options": [
+        "Ignore cultural requests to maintain hospital efficiency",
+        "Show cultural sensitivity to decrease anxiety and improve compliance with treatment",
+        "Tell the family their practices are not allowed",
+        "Assign any available nurse regardless of preferences"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Show cultural sensitivity to decrease anxiety and improve compliance with treatment' — because effective utilization of healthcare services and compliance with treatment plans are enhanced when the nurse's approach is compatible with cultural needs and beliefs. Nonverbal cues and body language are important in intercultural communication. INCORRECT: 'Ignore cultural requests to maintain hospital efficiency' — because this increases anxiety. INCORRECT: 'Tell the family their practices are not allowed' — because this is disrespectful. INCORRECT: 'Assign any available nurse regardless of preferences' — because cultural needs should be accommodated when possible.",
+      "slide": 21
+    },
+    {
+      "id": "q75_mcq_tpn_nursing",
+      "type": "mcq",
+      "question": "A child is receiving TPN (Total Parenteral Nutrition) via a central line. What is a critical nursing consideration?",
+      "options": [
+        "The TPN line can be used for all medications",
+        "The TPN line is dedicated and should never be used for other medications without pharmacy approval",
+        "TPN does not require sterile technique",
+        "Daily weights are not necessary"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'The TPN line is dedicated and should never be used for other medications without pharmacy approval' — because TPN is a dedicated line. Nursing responsibilities include: strict sterile technique, monitor glucose, check site for infection, daily weights, I&O, and monitoring for complications (hyperglycemia, infection, liver dysfunction, fluid overload). INCORRECT: 'The TPN line can be used for all medications' — because it is dedicated. INCORRECT: 'TPN does not require sterile technique' — because infection risk is high. INCORRECT: 'Daily weights are not necessary' — because weights monitor fluid/nutrition status.",
+      "slide": 22
+    },
+    {
+      "id": "q76_mcq_pyloric_stenosis",
+      "type": "mcq",
+      "question": "An infant presents with projectile vomiting shortly after feeding. The infant remains hungry after vomiting, and the nurse palpates an olive-like mass in the right upper quadrant. What condition is suspected?",
+      "options": [
+        "Gastroesophageal reflux",
+        "Pyloric stenosis",
+        "Intussusception",
+        "Hirschsprung disease"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pyloric stenosis' — because hypertrophy of the pyloric sphincter causes gastric outlet obstruction. Classic signs: projectile non-bilious vomiting, hungry after vomiting, palpable olive-like mass in RUQ. INCORRECT: 'Gastroesophageal reflux' — because GER causes spitting up, not projectile vomiting with mass. INCORRECT: 'Intussusception' — because currant jelly stool, sausage-shaped mass. INCORRECT: 'Hirschsprung disease' — because failure to pass meconium, ribbon-like stools.",
+      "slide": 22
+    },
+    {
+      "id": "q77_mcq_tof_spell",
+      "type": "mcq",
+      "question": "A child with Tetralogy of Fallot becomes suddenly cyanotic and agitated during a tet spell. What is the priority nursing action?",
+      "options": [
+        "Administer oxygen only",
+        "Place the child in knee-chest position",
+        "Give morphine immediately",
+        "Call for rapid response"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Place the child in knee-chest position' — because knee-chest position increases systemic vascular resistance, reduces right-to-left shunting, and improves oxygenation. This is the first action. INCORRECT: 'Administer oxygen only' — because oxygen alone is not sufficient; position first. INCORRECT: 'Give morphine immediately' — because morphine reduces infundibular spasm but position is first. INCORRECT: 'Call for rapid response' — because the nurse should intervene immediately while calling for help.",
+      "slide": 26
+    },
+    {
+      "id": "q78_sata_cf_treatment",
+      "type": "sata",
+      "question": "Which nursing interventions are appropriate for a child with cystic fibrosis? (Select all that apply.)",
+      "options": [
+        "Administer pancreatic enzymes before meals",
+        "Encourage high-calorie, high-protein diet",
+        "Perform chest physiotherapy daily",
+        "Restrict salt intake in hot weather",
+        "Administer fat-soluble vitamin supplements"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Administer pancreatic enzymes before meals' — because pancreatic insufficiency requires enzyme replacement with all meals/snacks. CORRECT: 'Encourage high-calorie, high-protein diet' — because increased metabolic needs due to chronic lung disease. CORRECT: 'Perform chest physiotherapy daily' — because airway clearance is essential to prevent infections. CORRECT: 'Administer fat-soluble vitamin supplements' — because fat malabsorption leads to deficiencies of A, D, E, K. INCORRECT: 'Restrict salt intake in hot weather' — because salt supplementation is needed due to excessive salt loss in sweat.",
+      "slide": 23
+    },
+    {
+      "id": "q79_mcq_otitis_media",
+      "type": "mcq",
+      "question": "A toddler with otitis media tugs at their ear, is irritable, and has a fever. Which risk factor is most associated with this condition?",
+      "options": [
+        "Breastfeeding exclusively",
+        "Pacifier use and bottle propping",
+        "Regular hand hygiene",
+        "Limited daycare exposure"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pacifier use and bottle propping' — because bottle propping allows milk to pool in the nasopharynx, and pacifier use increases pressure in the Eustachian tube. Other risk factors: smoke exposure, allergies, daycare. INCORRECT: 'Breastfeeding exclusively' — because breastfeeding is protective. INCORRECT: 'Regular hand hygiene' — because this prevents infections. INCORRECT: 'Limited daycare exposure' — because less exposure reduces risk.",
+      "slide": 23
+    },
+    {
+      "id": "q80_mcq_tonsillectomy",
+      "type": "mcq",
+      "question": "A child is 4 hours post-tonsillectomy. The nurse observes frequent swallowing and throat clearing. What is the priority action?",
+      "options": [
+        "Offer ice chips",
+        "Assess for bleeding",
+        "Give pain medication",
+        "Encourage rest"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Assess for bleeding' — because frequent swallowing or throat clearing after tonsillectomy indicates bleeding (blood trickling down throat). Bleeding is the most critical post-op complication. INCORRECT: 'Offer ice chips' — because ice is appropriate but bleeding assessment is priority. INCORRECT: 'Give pain medication' — because pain management is important but bleeding is life-threatening. INCORRECT: 'Encourage rest' — because rest is appropriate but bleeding assessment is priority.",
+      "slide": 23
+    },
+    {
+      "id": "q81_mcq_ewing_sarcoma",
+      "type": "mcq",
+      "question": "A 14-year-old presents with localized bone pain worse at night, swelling, and fever. X-ray shows onion-skin periosteal reaction. What bone tumor is suspected?",
+      "options": [
+        "Osteosarcoma",
+        "Ewing sarcoma",
+        "Osteochondroma",
+        "Chondrosarcoma"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Ewing sarcoma' — because Ewing sarcoma is a malignant bone tumor of neuroectodermal origin, peak incidence 10-20 years, presents with bone pain, swelling, fever; X-ray shows onion-skin periosteal reaction. INCORRECT: 'Osteosarcoma' — because most common in knee area, sunburst pattern on X-ray. INCORRECT: 'Osteochondroma' — because benign, cartilage-capped bone projection. INCORRECT: 'Chondrosarcoma' — because rare in children, older adults.",
+      "slide": 24
+    },
+    {
+      "id": "q82_mcq_cerebral_palsy",
+      "type": "mcq",
+      "question": "A child with spastic cerebral palsy exhibits hypertonia, jerky movements, and scissoring gait. What is the primary goal of physical therapy?",
+      "options": [
+        "Cure the underlying brain injury",
+        "Prevent contractures and promote mobility",
+        "Eliminate the need for orthotics",
+        "Restore normal intelligence"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Prevent contractures and promote mobility' — because CP is non-progressive; physical therapy focuses on maintaining range of motion, preventing contractures, and maximizing functional mobility. INCORRECT: 'Cure the underlying brain injury' — because brain injury is permanent and non-progressive. INCORRECT: 'Eliminate the need for orthotics' — because orthotics are often needed. INCORRECT: 'Restore normal intelligence' — because intellectual disability may be present but is not the focus of PT.",
+      "slide": 23
+    },
+    {
+      "id": "q83_mcq_decerebrate",
+      "type": "mcq",
+      "question": "A child exhibits decerebrate posturing: supine with all four limbs extended, hands pronated, and arched back. What does this indicate?",
+      "options": [
+        "Mild concussion",
+        "Severe brain injury with brainstem dysfunction",
+        "Spinal cord injury",
+        "Seizure activity"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Severe brain injury with brainstem dysfunction' — because decerebrate posturing indicates damage to midbrain or pons, with poor prognosis. INCORRECT: 'Mild concussion' — because concussion does not cause posturing. INCORRECT: 'Spinal cord injury' — because posturing indicates brain, not spinal, injury. INCORRECT: 'Seizure activity' — because posturing is not seizure activity.",
+      "slide": 23
+    },
+    {
+      "id": "q84_sata_child_abuse",
+      "type": "sata",
+      "question": "Which findings are suspicious for child abuse? (Select all that apply.)",
+      "options": [
+        "Spiral fracture in a 3-month-old",
+        "Bruises in various stages of healing",
+        "Inconsistent caregiver history",
+        "Delayed presentation for care",
+        "Patterned injuries (belt marks)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Spiral fracture in a 3-month-old' — because spiral fractures in non-ambulatory infants are highly suspicious for abuse. CORRECT: 'Bruises in various stages of healing' — because different colored bruises indicate injuries at different times. CORRECT: 'Inconsistent caregiver history' — because stories that don't match injuries or developmental stage raise concern. CORRECT: 'Delayed presentation for care' — because delay may indicate concealment. CORRECT: 'Patterned injuries (belt marks)' — because patterned injuries suggest inflicted trauma.",
+      "slide": 21
+    },
+    {
+      "id": "q85_mcq_cast_care",
+      "type": "mcq",
+      "question": "A child with a newly casted arm complains of increasing pain unrelieved by medication, numbness, and inability to move fingers. What is the priority nursing action?",
+      "options": [
+        "Elevate the arm higher",
+        "Notify the provider immediately",
+        "Apply ice to reduce swelling",
+        "Give additional pain medication"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Notify the provider immediately' — because increasing pain, numbness, and paralysis are signs of compartment syndrome or compromised circulation — a surgical emergency. INCORRECT: 'Elevate the arm higher' — because elevation may help swelling but the priority is provider notification. INCORRECT: 'Apply ice to reduce swelling' — because ice may help but the emergency is circulation compromise. INCORRECT: 'Give additional pain medication' — because pain unrelieved by medication indicates a serious problem, not just pain.",
+      "slide": 24
     }
   ]
 }

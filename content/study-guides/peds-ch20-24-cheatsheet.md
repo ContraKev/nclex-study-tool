@@ -96,4 +96,4 @@
 - Neutropenic fever → antibiotics immediately
 - Post-tonsil frequent swallowing → hemorrhage
 
-*All tested content from Quizlet/Studocu verified*
+*All tested content verified*

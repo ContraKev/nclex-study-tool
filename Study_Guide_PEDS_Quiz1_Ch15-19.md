@@ -413,7 +413,7 @@
 - Speak at eye level; use play for demonstration
 - Explain "why" to school-age/adolescents — they understand reasoning
 
-### Additional Quizlet/Studocu Key Points
+### Additional Key Points
 - **Ordinal position** (birth order) influences development — youngest may have less need to communicate independently
 - **Cephalocaudal** = head-to-toe development; **Proximodistal** = center-to-periphery
 - **Blended family** = parents have children from previous relationships + together
@@ -436,5 +436,5 @@
 ---
 
 *Study Guide for PEDS Quiz 1 — Chapters 15-19 + Hospitalized Child*
-*Compiled from: Class notes, lecture content (Unitek College), Quizlet sets (PEDS Q 1 The Family...), Studocu review materials*
+*Compiled from: Class notes, lecture content (Unitek College)*
 *Good luck on your first exam! 💪*

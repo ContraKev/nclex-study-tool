@@ -1,6 +1,6 @@
 # ATI CMS Pediatrics Practice A — Comprehensive Study Guide
 
-> Synthesized by topic from lecture slides + Quizlet tested content
+> Synthesized by topic from lecture slides + tested content
 
 ---
 
@@ -704,11 +704,11 @@ Discuss the use of the Pediatric Capsule Endoscopy and parent education needed f
 # ATI CMS Pediatrics Practice A — Comprehensive Study Guide
 
 > 321 content blocks from 23 peds files
-> All Quizlet topics covered
+> All topics covered
 
 ---
 
-## Quizlet High-Yield Topics
+## High-Yield Topics
 - Burns
 - Respiratory
 - GI
@@ -4254,7 +4254,7 @@ Discuss and provide examples of how the nurse can assist an individual through e
 
 ---
 
-## 📚 Additional CMS Topics from Quizlet/Studocu
+## 📚 Additional CMS Topics
 
 ### Lactose Intolerance
 - Inability to digest lactose (milk sugar)
@@ -4284,7 +4284,7 @@ Discuss and provide examples of how the nurse can assist an individual through e
 
 ---
 
-## 📚 Additional High-Yield Topics from Quizlet/Studocu
+## 📚 Additional High-Yield Topics
 
 ### Pain Assessment (FACES & FLACC)
 

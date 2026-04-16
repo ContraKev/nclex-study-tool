@@ -1,6 +1,6 @@
 # ATI CMS Peds Practice A Cheatsheet
 
-**Source:** Quizlet/Studocu "ATI CMS Pediatric Practice A"
+**Source:** ATI CMS Pediatric Practice A
 
 ## BURNS
 - Phases: Emergent (shock, airway, fluids 24-48hr), Intermediate (infection, wound closure, pain), Rehabilitative (contractures, mobility, psych)
@@ -114,4 +114,4 @@
 - DDH: Pavlik, asymmetric folds
 - Scoliosis: Adams test, bracing
 
-*All tested content from Quizlet/Studocu verified*
+*All tested content verified*

@@ -185,6 +185,42 @@
 - **School-age**: Day before, thorough explanation, allow questions
 - **Adolescent**: Oral + written info, involve in decisions
 
+### Pain Management (5th Vital Sign)
+
+**Key Points**
+- Pain is whatever the person says it is (verbal or nonverbal)
+- Children may not report pain for fear of injection
+- Pain = 5th vital sign — assess and document with routine vitals
+- Inadequate pain → focus on pain, delayed healing, more infections, compromised immunity
+
+**Nonpharmacologic Techniques**
+- Drawing, distraction, imagery, relaxation
+- Cognitive (thinking) strategies
+- Backrub or hand massage
+- Therapeutic play
+
+**Drug Response in Children**
+- Immature liver enzyme system → prolonged drug elimination
+- Dosing based on weight (mg/kg) and age-related absorption/metabolism
+- **Preventive pain control**: Around-the-clock dosing at lower amounts is more effective than PRN
+
+**Conscious Sedation**
+- IV drugs impair consciousness but retain protective reflexes, airway, and response to stimuli
+- 1:1 nurse-patient ratio until: stable vitals, age-appropriate motor/verbal abilities, adequate hydration, presedation responsiveness
+- Monitor closely throughout and after procedure
+
+### Communication & Cultural Considerations
+
+**Language Interpreters**
+- Required by federal law at no charge to patient/family
+- Improves communication between parents and healthcare team
+- **Never use family members** — information can be "lost in translation"
+
+**Cultural Response**
+- Showing cultural sensitivity decreases anxiety
+- Compliance with treatment enhanced when approach matches cultural needs/beliefs
+- Nonverbal cues and body language are critical in intercultural communication
+
 ---
 
 ## 📋 HEALTH CARE ADAPTATIONS (Ch 22) — Care & Meds
@@ -229,6 +265,13 @@
 - Elevate head of bed 30-45°
 - Feed slowly, monitor for intolerance
 - Flush with water before/after
+
+**TPN (Total Parenteral Nutrition)**
+- IV nutrition for children who can't eat (GI issues, post-op, severe malnutrition)
+- Contains: glucose, amino acids, lipids, electrolytes, vitamins, trace minerals
+- **Nursing**: Strict sterile technique, monitor glucose, check site for infection, daily weights, I&O
+- TPN line is dedicated — never use for other meds without pharmacy approval
+- Monitor for complications: hyperglycemia, infection, liver dysfunction, fluid overload
 
 **Enema**
 - Lubricate tip, insert gently
@@ -505,5 +548,146 @@
 
 ---
 
-*Complete study guide for PEDS Exam 1 (Ch20-24)*
-*Synthesized from all lecture slides and instructor notes*
+## 🔍 ADDITIONAL TOPICS (Quizlet Flashcard Coverage)
+
+### GI Disorders
+
+**Pyloric Stenosis**
+- **Pathophysiology**: Hypertrophy of pyloric sphincter → gastric outlet obstruction
+- **Classic Presentation**: Projectile vomiting (non-bilious) shortly after feeding; infant remains hungry after vomiting; palpable "olive-like" mass in RUQ; failure to thrive, dehydration
+- **Diagnosis**: Ultrasound (target/bull's-eye sign), upper GI series (string sign)
+- **Treatment**: Pyloromyotomy (surgical incision of pyloric muscle)
+- **Pre-op Nursing**: Correct fluid/electrolyte imbalances (hypokalemic, hypochloremic metabolic alkalosis); small frequent feeds; monitor I&O, weight
+- **Post-op**: Resume feeding 4-6 hrs post-op; start with small frequent feeds, advance as tolerated
+
+---
+
+### Cardiac Disorders
+
+**Tetralogy of Fallot (TOF)**
+- **4 Components**: Pulmonary stenosis, Right ventricular hypertrophy, Overriding aorta, Ventricular septal defect (PROV)
+- **Cyanotic ("Tet") Spells**: Sudden hypercyanosis, tachypnea, agitation; child may squat or assume knee-chest position to increase systemic vascular resistance and reduce right-to-left shunting
+- **Nursing During Spell**: Knee-chest position, calm environment, oxygen, morphine (reduces infundibular spasm), fluids; notify provider
+- **Long-term**: Surgical repair (usually by 1 year); monitor for hypercyanotic episodes; teach parents to recognize early signs
+
+**Cystic Fibrosis (CF)**
+- **Pathophysiology**: Autosomal recessive disorder of CFTR gene → thick, viscous secretions in lungs, pancreas, liver, intestines, reproductive tract
+- **Respiratory**: Chronic cough, recurrent infections, bronchiectasis, barrel chest; Pseudomonas common
+- **GI**: Pancreatic insufficiency → fat malabsorption, steatorrhea; meconium ileus in newborns
+- **Diagnosis**: Sweat chloride test (>60 mEq/L diagnostic); newborn screen (immunoreactive trypsinogen)
+- **Treatment**:
+  - Airway clearance: chest physiotherapy (CPT), positive expiratory pressure (PEP), flutter valve, vest therapy
+  - Medications: bronchodilators, mucolytics (dornase alfa), antibiotics (inhaled tobramycin for Pseudomonas)
+  - Nutrition: High-calorie, high-protein diet; pancreatic enzyme replacement (Creon, Pancreaze) BEFORE meals; fat-soluble vitamin supplements (A, D, E, K); salt supplementation in hot weather
+- **Nursing**: Hand hygiene critical (infection prevention); enzymes with all meals/snacks; monitor growth; genetic counseling for family
+
+---
+
+### ENT Disorders
+
+**Otitis Media (Acute)**
+- **Pathophysiology**: Eustachian tube dysfunction → middle ear fluid accumulation → bacterial infection (S. pneumoniae, H. influenzae, M. catarrhalis)
+- **Risk Factors**: Bottle propping, smoke exposure, allergies, daycare attendance, bottle feeding, pacifier use
+- **Infant/Toddler Signs**: Ear tugging/pulling, irritability, fever, poor feeding, sleep disturbance; may have purulent drainage if tympanic membrane ruptures
+- **Older Child Signs**: Ear pain, fever, hearing loss, tinnitus
+- **Diagnosis**: Otoscopy (bulging, erythematous TM; decreased mobility)
+- **Treatment**: Watchful waiting (mild cases); amoxicillin first-line; myringotomy with tympanostomy tubes for recurrent/chronic cases
+- **Complications**: Hearing loss, speech delay, mastoiditis, chronic otitis media with effusion
+
+**Post-Tonsillectomy Care**
+- **Indications**: Recurrent tonsillitis, obstructive sleep apnea, peritonsillar abscess
+- **Immediate Post-op**: Monitor for bleeding (most critical); assess for frequent swallowing or throat clearing (sign of bleeding); ice collar for pain/swelling
+- **Diet**: Clear/cool liquids, ice pops, sherbet; AVOID red liquids (masks bleeding); advance to soft diet as tolerated
+- **Pain Management**: Acetaminophen, ibuprofen; avoid aspirin (Reye risk)
+- **Activity**: Rest; avoid strenuous activity 1-2 weeks
+- **Red Flags**: Bleeding (report immediately), fever >101°F, dehydration, difficulty breathing
+
+---
+
+### Oncologic Disorders
+
+**Ewing Sarcoma**
+- **Pathophysiology**: Malignant bone tumor of neuroectodermal origin; most common in pelvis, femur, tibia, humerus; peak incidence 10-20 years
+- **Presentation**: Localized bone pain (worse at night), swelling, tenderness, fever, weight loss; may be misdiagnosed as osteomyelitis
+- **Diagnosis**: X-ray (onion-skin periosteal reaction), MRI, bone scan, biopsy (small round blue cells)
+- **Treatment**: Multimodal — chemotherapy (vincristine, doxorubicin, cyclophosphamide, ifosfamide, etoposide), surgery (resection ± limb salvage), radiation (sensitive to radiation)
+- **Prognosis**: 5-year survival ~70-80% with localized disease; lower with metastasis
+- **Nursing**: Pain management, infection prevention (neutropenia), emotional support, physical therapy post-resection
+
+---
+
+### Neurologic Disorders
+
+**Cerebral Palsy (CP) — Spastic Type**
+- **Pathophysiology**: Non-progressive brain injury affecting motor control; most common type (70-80%); often linked to prematurity, periventricular leukomalacia, hypoxia
+- **Characteristics**: Muscle stiffness (hypertonia), jerky/spastic movements, exaggerated reflexes, scissoring gait, contractures
+- **Classification by Distribution**: Hemiplegia (one side), diplegia (lower extremities), quadriplegia (all four limbs)
+- **Associated Problems**: Intellectual disability, seizures, vision/hearing impairment, speech disorders, feeding difficulties
+- **Treatment**: Multidisciplinary — physical/occupational/speech therapy, orthotics, medications (baclofen, botox for spasticity), surgery (tendon lengthening, selective dorsal rhizotomy)
+- **Nursing**: Promote mobility and independence; prevent contractures (ROM exercises, positioning); seizure precautions; support feeding/nutrition; family education and support
+
+**Decerebrate Posturing**
+- **Pathophysiology**: Severe brain injury/damage to midbrain or pons; indicates brainstem dysfunction
+- **Appearance**: Supine with all four limbs extended, hands pronated (palms down), opisthotonos (arched back), clenched jaw
+- **Significance**: Indicates severe, often irreversible brain damage; poor prognosis
+- **Nursing**: Urgent intervention — notify provider immediately, maintain airway, ICP management, seizure precautions; document and monitor changes
+
+---
+
+### Child Abuse & Neglect
+
+**Types**
+- Physical abuse, sexual abuse, emotional abuse, neglect (most common)
+
+**Suspicious Injuries (Red Flags)**
+- **Spiral fractures** in non-ambulatory infants (highly suspicious)
+- Bruises in various stages of healing (different colors)
+- Injuries inconsistent with history or developmental stage
+- Patterned injuries (belt marks, handprints, cigarette burns)
+- Delayed presentation for care
+- Inconsistent caregiver stories
+
+**Assessment**
+- **Skeletal survey** for infants/toddlers with suspicious injuries
+- Ophthalmologic exam (retinal hemorrhages in shaken baby syndrome)
+- Document thoroughly: location, size, color, pattern, caregiver explanation
+
+**Nursing Role**
+- **Mandated reporters**: Legal obligation to report suspected abuse/neglect
+- Report to Child Protective Services (CPS) or law enforcement
+- Maintain non-judgmental approach; focus on child safety
+- Provide emotional support; ensure safety planning
+
+**Shaken Baby Syndrome (Abusive Head Trauma)**
+- Violent shaking → subdural hematoma, retinal hemorrhages, brain injury
+- Signs: Irritability, lethargy, seizures, vomiting, bulging fontanel, retinal hemorrhages
+- Prevention: Never shake a baby; educate parents on coping with crying
+
+---
+
+### Additional Musculoskeletal Care
+
+**Cast Care — Detailed**
+- **Neurovascular Checks (5 P's)**: Pain, Pulse, Pallor, Paresthesia, Paralysis — assess q1-2h initially, then q4h
+- **Elevation**: Elevate casted extremity above heart level first 24-48 hrs to reduce swelling
+- **Skin Care**: Keep cast dry; do NOT insert objects under cast; report foul odor, drainage, hot spots
+- **Mobility**: Use trapeze for repositioning; encourage active ROM of unaffected joints
+- **Red Flags**: Increasing pain unrelieved by meds, numbness/tingling, inability to move fingers/toes, cast feels tight, foul odor, drainage through cast
+
+**Traction — Detailed**
+- **Purpose**: Align fracture, reduce muscle spasm, immobilize joint, correct deformity
+- **Types**:
+  - **Skin traction**: Buck (hip/leg), Bryant (infants <3 yrs with femur fracture or DDH), Russell (hip/knee)
+  - **Skeletal traction**: Pins/wires inserted into bone (e.g., Steinmann pin, Kirschner wire)
+- **Nursing Priorities**:
+  - Maintain alignment: Weights hang freely, ropes intact, knots away from pulleys
+  - Pin care: Cleanse pin sites with saline or prescribed solution; monitor for infection (redness, drainage, loosening)
+  - Neurovascular checks q1-2h initially
+  - Prevent complications: DVT (encourage ankle pumps), constipation (high fiber, fluids), skin breakdown (turn q2h, pressure relief)
+  - Monitor I&O, prevent urinary retention (bedpan, catheter if ordered)
+- **Parent Teaching**: Purpose of traction, visiting schedule, diversional activities for child
+
+---
+
+*Complete study guide for PEDS Exam 2 (Ch20-24) — Updated with Quizlet flashcard coverage*
+*Synthesized from all lecture slides, instructor notes, and cross-referenced with standard pediatric nursing flashcard sets*

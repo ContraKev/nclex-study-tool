@@ -426,7 +426,7 @@ The placenta is a temporary endocrine organ producing **4 hormones**:
 
 ---
 
-*This guide is the most comprehensive version possible from repo content + curriculum knowledge. For Quizlet/Studocu content, use one of the extraction methods above and paste it here — I'll merge it in.*
+*This guide is the most comprehensive version possible from repo content + curriculum knowledge.*
 
 ---
 
