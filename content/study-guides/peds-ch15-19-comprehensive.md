@@ -73,7 +73,13 @@
 
 ### Physical Growth
 
-Growth is measurable (height, weight, head circumference). Weight doubles by 6 months, triples by 1 year. Height increases 50% by age 1. Head circumference is the most important measure for infants. Growth spurts followed by plateaus. Not all body parts mature at same rate. Use growth charts to track — percentile trends matter more than single values.
+Growth is measurable (height, weight, head circumference):
+- Weight doubles by 6 months, triples by 1 year
+- Height increases 50% by age 1
+- Head circumference is the most important measure for infants
+- Growth spurts followed by plateaus
+- Not all body parts mature at same rate
+- Use growth charts — percentile trends > single values
 
 ### Developmental Milestones
 
@@ -86,7 +92,11 @@ Growth is measurable (height, weight, head circumference). Weight doubles by 6 m
 
 ### Cognitive Development
 
-Sensorimotor stage (Piaget). Object permanence develops ~8-9 months. Learns through senses and motor actions. Cause and effect learning. Stranger anxiety peaks around 6-8 months — normal, shows attachment to caregivers.
+Sensorimotor stage (Piaget):
+- Object permanence develops ~8-9 months
+- Learns through senses and motor actions
+- Cause and effect learning
+- Stranger anxiety peaks around 6-8 months (normal, shows attachment)
 
 ### Psychosocial Development
 
