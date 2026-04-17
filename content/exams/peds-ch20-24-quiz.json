@@ -169,7 +169,7 @@
         "Kernig and Brudzinski are not used in children"
       ],
       "answer": 0,
-      "rationale": "CORRECT: 'Kernig: knee flexion causes pain; Brudzinski: neck flexion causes hip flexion' — because Kernig's sign: with patient supine, flex hip and knee, then extend knee — pain/resistance is positive. Brudzinski's sign: passive neck flexion causes hip/knee flexion. Both indicate meningeal irritation. INCORRECT: 'Kernig: hip flexion causes knee pain; Brudzinski: hip extension causes neck pain' — because B is incorrect description. INCORRECT: 'Kernig: neck flexion causes leg extension; Brudzinski: knee flexion causes neck pain' — because C is incorrect description. INCORRECT: 'Kernig and Brudzinski are not used in children' — because these signs are used in children.",
+      "rationale": "CORRECT: 'Kernig: knee flexion causes pain; Brudzinski: neck flexion causes hip flexion' — because Kernig's sign: with patient supine, flex hip and knee, then extend knee — pain/resistance is positive. Brudzinski's sign: passive neck flexion causes hip/knee flexion. Both indicate meningeal irritation. INCORRECT: 'Kernig: hip flexion causes knee pain; Brudzinski: hip extension causes neck pain' — because B is incorrect description. INCORRECT: 'Kernig: neck flexion causes leg extension; Brudzinski: knee flexion causes neck pain' — because C is incorrect description. INCORRECT: 'Kernig and Brudzinski are not used in children' — because these signs are used in children. CORRECT: 'Droplet precautions required' — because bacterial meningitis requires droplet precautions until 24 hours after antibiotics start. CORRECT: 'Droplet precautions required' — because bacterial meningitis requires droplet precautions until 24 hours after antibiotics start. CORRECT: 'Monitor for increased ICP' — because meningitis can cause increased intracranial pressure; watch for Cushing's triad (widening pulse pressure, bradycardia, irregular respirations).",
       "slide": 23
     },
     {
@@ -1348,10 +1348,11 @@
         "Offer ice chips",
         "Assess for bleeding",
         "Give pain medication",
-        "Encourage rest"
+        "Encourage rest",
+        "Avoid red liquids that can mask bleeding"
       ],
       "answer": 1,
-      "rationale": "CORRECT: 'Assess for bleeding' — because frequent swallowing or throat clearing after tonsillectomy indicates bleeding (blood trickling down throat). Bleeding is the most critical post-op complication. INCORRECT: 'Offer ice chips' — because ice is appropriate but bleeding assessment is priority. INCORRECT: 'Give pain medication' — because pain management is important but bleeding is life-threatening. INCORRECT: 'Encourage rest' — because rest is appropriate but bleeding assessment is priority.",
+      "rationale": "CORRECT: 'Assess for bleeding' — because frequent swallowing or throat clearing after tonsillectomy indicates bleeding (blood trickling down throat). Bleeding is the most critical post-op complication. CORRECT: 'Avoid red liquids that can mask bleeding' — because red liquids (cherry, red popsicles) can mask blood, making it hard to detect bleeding. INCORRECT: 'Offer ice chips' — because ice is appropriate but bleeding assessment is priority. INCORRECT: 'Give pain medication' — because pain management is important but bleeding is life-threatening. INCORRECT: 'Encourage rest' — because rest is appropriate but bleeding assessment is priority.",
       "slide": 23
     },
     {
