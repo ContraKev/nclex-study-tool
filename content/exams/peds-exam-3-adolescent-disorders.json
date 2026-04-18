@@ -1,0 +1,500 @@
+{
+  "id": "peds_exam_3_adolescent_disorders",
+  "name": "PEDS Exam 3 \u2014 Disorders and Diseases of Adolescent",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "q1_mcq_thelarche",
+      "type": "mcq",
+      "question": "What is the first sign of puberty in girls?",
+      "options": [
+        "Pubic hair development",
+        "Breast development (thelarche)",
+        "Menarche",
+        "Growth spurt in height"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Breast development (thelarche)' \u2014 because the initial sign of puberty in girls is breast development (thelarche), which precedes pubic hair and menarche. INCORRECT: 'Pubic hair development' \u2014 because pubic hair follows breast development in girls. INCORRECT: 'Menarche' \u2014 because menarche occurs later, typically around age 12-12.5 years in the US after secondary sexual characteristics begin. INCORRECT: 'Growth spurt in height' \u2014 because while growth accelerates, thelarche is the classic first pubertal sign."
+    },
+    {
+      "id": "q2_mcq_erikson_identity",
+      "type": "mcq",
+      "question": "A 15-year-old is questioning their values and experimenting with different roles while becoming self-conscious about body changes. According to Erikson, which stage is this?",
+      "options": [
+        "Industry vs Inferiority",
+        "Identity vs Role Confusion",
+        "Intimacy vs Isolation",
+        "Generativity vs Stagnation"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Identity vs Role Confusion' \u2014 because this stage (12-18 years) involves questioning values, experimenting with roles, self-consciousness about body image/attractiveness, and developing a sense of self during the transition to adulthood. INCORRECT: 'Industry vs Inferiority' \u2014 because this is school-age (6-12 years) focused on competence and productivity. INCORRECT: 'Intimacy vs Isolation' \u2014 because this is young adult (18-40 years). INCORRECT: 'Generativity vs Stagnation' \u2014 because this is middle adult (40-65 years)."
+    },
+    {
+      "id": "q3_mcq_piaget_formal",
+      "type": "mcq",
+      "question": "A 15-year-old begins to think abstractly, consider future consequences, and engage in risk-taking behaviors because the prefrontal cortex is not fully developed. Which cognitive stage from Piaget is this?",
+      "options": [
+        "Sensorimotor",
+        "Preoperational",
+        "Concrete Operational",
+        "Formal Operational"
+      ],
+      "answer": 3,
+      "rationale": "CORRECT: 'Formal Operational' \u2014 because adolescents enter the Formal Operational stage around age 14+, enabling abstract thinking, logic/reasoning about 'what if', future time perspective, and increased risk-taking due to immature prefrontal cortex. INCORRECT: 'Sensorimotor' \u2014 because this is infant stage (0-2 years). INCORRECT: 'Preoperational' \u2014 because this is early childhood (2-7 years) with egocentric and magical thinking. INCORRECT: 'Concrete Operational' \u2014 because this is school-age (7-11/12 years) limited to concrete logic and conservation."
+    },
+    {
+      "id": "q4_mcq_leading_cause_death",
+      "type": "mcq",
+      "question": "What is the leading cause of death in adolescents",
+      "options": [
+        "Suicide",
+        "Homicide",
+        "Motor vehicle crashes (MVA)",
+        "Overdose"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Motor vehicle crashes (MVA)' \u2014 because multiple standard pediatric nursing content / adolescent standard pediatric nursing content content list motor vehicle crashes as the #1 leading cause of death in adolescents, followed by firearms, suicide, and overdose; prevention focuses on seatbelts, no distracted driving, and obeying speed limits. INCORRECT: 'Suicide' \u2014 because while a major cause (especially with depression screening), it is not listed as the absolute leading cause in the standard pediatric nursing content. INCORRECT: 'Homicide' \u2014 because it ranks high but below MVAs in the adolescent mortality data from standard pediatric nursing content. INCORRECT: 'Overdose' \u2014 because it is rising but not the primary leading cause identified."
+    },
+    {
+      "id": "q5_sata_confidentiality",
+      "type": "sata",
+      "question": "Which statements about confidentiality and assessment of adolescents are correct? (Select all that apply.)",
+      "options": [
+        "Interview the adolescent alone to build trust and obtain accurate history.",
+        "Confidentiality can be broken if there is a life-threatening or safety issue.",
+        "Peers provide the primary sense of belonging and can positively or negatively influence behavior.",
+        "The HEADSS assessment is used to screen for Home, Education/Employment, Activities, Drugs, Sexuality, and Suicide/Depression.",
+        "Parents must always be present during the entire visit for legal reasons."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Interview the adolescent alone...' \u2014 because standard pediatric nursing content emphasize privacy (interview alone, keep covered) to build trust and accurate disclosure on sensitive topics. CORRECT: 'Confidentiality can be broken...' \u2014 because safety issues (suicidality, abuse, life-threatening) override confidentiality per the reviewed standard pediatric nursing content content. CORRECT: 'Peers provide the primary sense...' \u2014 because peers are repeatedly highlighted as the most important influence for belonging in adolescence. CORRECT: 'The HEADSS assessment...' \u2014 because HEADSS (Home, Education, Activities, Drugs, Sexuality, Suicide/Depression) is explicitly listed as the screening tool in the standard pediatric nursing content adolescent content. INCORRECT: 'Parents must always be present...' \u2014 because standard pediatric nursing content stress seeing the teen alone first for confidentiality and honest responses (parents can be brought in later for specific questions)."
+    },
+    {
+      "id": "q6_mcq_gawky_growth",
+      "type": "mcq",
+      "question": "During the adolescent growth spurt, extremities and neck grow before the trunk. What feeling does this commonly produce?",
+      "options": [
+        "Increased coordination and grace",
+        "A 'gawky' or awkward appearance and feeling",
+        "Immediate closure of growth plates",
+        "Decreased appetite and sleep needs"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'A 'gawky' or awkward appearance and feeling' \u2014 because specifically note that during the growth spurt, extremities/neck grow first leading to a gangly/'gawky' look and self-conscious feeling; girls grow ~3-3.5 in/year earlier than boys. INCORRECT: 'Increased coordination...' \u2014 because coordination often lags temporarily during asynchrony. INCORRECT: 'Immediate closure...' \u2014 because growth plates close later in middle/late adolescence. INCORRECT: 'Decreased appetite...' \u2014 because standard pediatric nursing content state appetite and sleep needs actually increase during rapid growth."
+    },
+    {
+      "id": "q7_mcq_autism_priority",
+      "type": "mcq",
+      "question": "A child with autism spectrum disorder engages in head banging and lacks eye contact. What is the priority nursing diagnosis?",
+      "options": [
+        "Impaired social interaction",
+        "Risk for injury R/T head banging",
+        "Delayed growth and development",
+        "Ineffective coping"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Risk for injury R/T head banging' \u2014 because the reviewed standard pediatric nursing content state that safety is the top priority for autistic children exhibiting self-injurious behaviors like head banging; 'Risk for injury' is explicitly listed as the priority nursing diagnosis. INCORRECT: 'Impaired social interaction' \u2014 because while relevant, safety takes precedence over social or developmental diagnoses when self-harm is present. INCORRECT: 'Delayed growth and development' \u2014 because standard pediatric nursing content focus on immediate safety rather than long-term developmental delay as the priority. INCORRECT: 'Ineffective coping' \u2014 because the primary concern highlighted is physical safety from repetitive self-injury, not general coping."
+    },
+    {
+      "id": "q8_sata_adhd_autism_signs",
+      "type": "sata",
+      "question": "Which findings are consistent with ADHD or autism spectrum disorder? (Select all that apply.)",
+      "options": [
+        "Inattention, hyperactivity, impulsivity, and excessive talking that impair function (ADHD).",
+        "Poor response to name, lack of eye contact, no pointing or gesturing, and repetitive behaviors (autism).",
+        "Symptoms must be age-inappropriate and present before age 7 for ADHD diagnosis.",
+        "Strong genetic component with higher sibling risk; predisposing factors include congenital rubella or fragile X (autism).",
+        "Hostile, defiant behavior only toward authority figures with no cruelty to animals (ODD, not conduct disorder)."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Inattention, hyperactivity...' \u2014 because standard pediatric nursing content describe ADHD core symptoms as inattention, hyperactivity, impulsivity, and excessive talking that must impair function and be age-inappropriate. CORRECT: 'Poor response to name...' \u2014 because autism signs listed include poor eye contact, no response to name, absence of pointing/gesturing, and repetitive behaviors like spinning or head banging. CORRECT: 'Symptoms must be age-inappropriate...' \u2014 because ADHD behaviors must be inappropriate for developmental age and often diagnosed by early school years (before age 7 in classic criteria). CORRECT: 'Strong genetic component...' \u2014 because the standard pediatric nursing content and child/adolescent disorder content note higher sibling risk and predisposing factors such as congenital rubella, fragile X, or PKU for autism. INCORRECT: 'Hostile, defiant behavior only toward authority...' \u2014 because this describes ODD (less severe, no cruelty/fire-setting); standard pediatric nursing content distinguish it from conduct disorder which involves aggression to people/animals and rule violations."
+    },
+    {
+      "id": "q9_sata_adolescent_depression",
+      "type": "sata",
+      "question": "Which signs support a diagnosis of depression in an adolescent? (Select all that apply.)",
+      "options": [
+        "Poor self-esteem and exaggerated psychosomatic complaints.",
+        "Insomnia or anorexia along with inappropriate anger or sexually acting out.",
+        "Sudden change in behavior lasting weeks, poor school performance, and focus on violence.",
+        "Increased serotonin levels and impulsive extroverted personality.",
+        "History of previous suicide attempt or family issues as risk factors."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Poor self-esteem and exaggerated psychosomatic complaints' \u2014 because the standard pediatric nursing content / adolescent mental health content list poor self-esteem, exaggerated somatic complaints, and psychosomatic symptoms as key signs of depression in teens. CORRECT: 'Insomnia or anorexia along with inappropriate anger...' \u2014 because insomnia/anorexia, sexually acting out, inappropriate anger, and poor self-care are explicitly noted as depression indicators in adolescents. CORRECT: 'Sudden change in behavior lasting weeks...' \u2014 because lasting behavioral change (not just normal puberty) plus poor school performance and focus on violence are highlighted as red flags. CORRECT: 'History of previous suicide attempt...' \u2014 because previous attempt and family issues are listed as major suicide risk factors in standard pediatric nursing content. INCORRECT: 'Increased serotonin levels and impulsive extroverted personality' \u2014 because standard pediatric nursing content state serotonin is typically decreased in depression (not increased) and anorexia is more associated with obsessive-compulsive high-achieving traits rather than impulsive extroversion (more bulimia)."
+    },
+    {
+      "id": "q10_mcq_eating_disorders",
+      "type": "mcq",
+      "question": "An adolescent shows erosion of tooth enamel, normal or slightly elevated weight, and food rituals like cooking for others but not eating. Which eating disorder is most likely?",
+      "options": [
+        "Anorexia nervosa (restricting type)",
+        "Bulimia nervosa",
+        "Binge-eating disorder",
+        "Avoidant/restrictive food intake disorder"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Bulimia nervosa' \u2014 because bulimia by dental enamel erosion from purging/vomiting, normal or slightly higher weight, and food preoccupation/rituals (hoarding, cooking for others) while anorexia is linked to significantly low weight, amenorrhea, and obsessive-compulsive high-achieving traits with marked calorie awareness. INCORRECT: 'Anorexia nervosa (restricting type)' \u2014 because anorexia typically presents with significantly low body weight and amenorrhea; standard pediatric nursing content note bulimia patients often maintain normal weight. INCORRECT: 'Binge-eating disorder' \u2014 because standard pediatric nursing content focus on anorexia vs bulimia distinctions rather than binge-eating as primary. INCORRECT: 'Avoidant/restrictive food intake disorder' \u2014 because this is not the primary comparison in the adolescent eating disorder cards reviewed."
+    },
+    {
+      "id": "q11_mcq_substance_crafft",
+      "type": "mcq",
+      "question": "When screening an adolescent for substance use, the sets recommend asking about the function the drug plays in the adolescent's life. What tool is mentioned for this assessment?",
+      "options": [
+        "HEADSS only",
+        "CRAFFT questionnaire",
+        "PHQ-9 depression screen",
+        "Denver Developmental Screening"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'CRAFFT questionnaire' \u2014 because the reviewed adolescent standard pediatric nursing content specifically mention the CRAFFT tool for substance use screening in teens, alongside assessing the function the drug serves (self-medication for depression/anxiety, peer acceptance, risk-taking). INCORRECT: 'HEADSS only' \u2014 because HEADSS is broader (includes Drugs) but CRAFFT is the targeted substance tool noted. INCORRECT: 'PHQ-9 depression screen' \u2014 because while depression screening is important, standard pediatric nursing content separate it from substance-specific CRAFFT. INCORRECT: 'Denver Developmental Screening' \u2014 because this is for younger children, not adolescent substance assessment."
+    },
+    {
+      "id": "q12_mcq_meningitis_priority",
+      "type": "mcq",
+      "question": "A child is suspected of having bacterial meningitis. What is the priority nursing action?",
+      "options": [
+        "Place in droplet precautions and wait for culture results",
+        "Administer antibiotics as soon as possible",
+        "Perform a lumbar puncture before any treatment",
+        "Minimize environmental stimuli and position side-lying"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Administer antibiotics as soon as possible' \u2014 because the reviewed standard pediatric nursing content neuro content state that for suspected bacterial meningitis, antibiotics must be given ASAP (priority) even before full isolation clarification or culture results; delay increases mortality. INCORRECT: 'Place in droplet precautions and wait for culture results' \u2014 because while droplet precautions are needed until bacterial vs viral is clarified, antibiotics take absolute priority and should not be delayed for cultures. INCORRECT: 'Perform a lumbar puncture before any treatment' \u2014 because LP confirms diagnosis but treatment (antibiotics) starts immediately on clinical suspicion; LP is not the first action. INCORRECT: 'Minimize environmental stimuli and position side-lying' \u2014 because these are important supportive measures (for photophobia and ICP) but secondary to starting antibiotics."
+    },
+    {
+      "id": "q13_sata_icp_signs",
+      "type": "sata",
+      "question": "Which signs indicate increased ICP in infants versus older children/adolescents? (Select all that apply.)",
+      "options": [
+        "Bulging or non-pulsating fontanel and high-pitched shrill cry (infants).",
+        "Headache, vomiting, and irritability (older children/adolescents).",
+        "Cushing triad: hypertension, bradycardia, and irregular respirations (older/adolescents).",
+        "Sunset eyes, lethargy, and vomiting without diarrhea (infants).",
+        "Increased appetite and hyperactivity as early signs."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Bulging or non-pulsating fontanel and high-pitched shrill cry (infants).' \u2014 because standard pediatric nursing content explicitly list bulging/non-pulsating fontanel, high-pitched cry, vomiting without diarrhea, and sunset eyes as infant ICP signs. CORRECT: 'Headache, vomiting, and irritability (older children/adolescents).' \u2014 because older children/adolescents present with headache, vomiting, and irritability as early ICP indicators. CORRECT: 'Cushing triad: hypertension, bradycardia, and irregular respirations (older/adolescents).' \u2014 because Cushing triad (late sign of increased ICP) is highlighted for older children and adolescents. CORRECT: 'Sunset eyes, lethargy, and vomiting without diarrhea (infants).' \u2014 because sunset eyes, lethargy/sleeping more, and vomiting without diarrhea are classic infant ICP findings in the standard pediatric nursing content. INCORRECT: 'Increased appetite and hyperactivity as early signs.' \u2014 because standard pediatric nursing content note decreased alertness/lethargy and poor feeding, not increased appetite or hyperactivity, as ICP signs."
+    },
+    {
+      "id": "q14_mcq_reye_syndrome",
+      "type": "mcq",
+      "question": "An adolescent develops encephalopathy and liver dysfunction after a viral illness. Which factor is most associated with Reye syndrome?",
+      "options": [
+        "Recent aspirin use during the viral illness",
+        "Bacterial superinfection requiring antibiotics",
+        "High-dose corticosteroid therapy",
+        "Prolonged fever above 105\u00b0F (40.6\u00b0C)"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Recent aspirin use during the viral illness' \u2014 because Reye syndrome is strongly associated with aspirin (or salicylate) use during viral infections (influenza, varicella), leading to encephalopathy, liver dysfunction, vomiting, and altered mental status/aggression; supportive care is the main treatment and aspirin should be avoided in febrile children. INCORRECT: 'Bacterial superinfection requiring antibiotics' \u2014 because Reye is linked to viral illness + aspirin, not bacterial infection. INCORRECT: 'High-dose corticosteroid therapy' \u2014 because steroids are not the causative factor identified in standard pediatric nursing content. INCORRECT: 'Prolonged fever above 105\u00b0F (40.6\u00b0C)' \u2014 because while high fever may occur, the key association is aspirin use during viral illness, not fever alone."
+    },
+    {
+      "id": "q15_mcq_vp_shunt",
+      "type": "mcq",
+      "question": "A child with a VP shunt for hydrocephalus shows headache, vomiting, irritability, and changes in level of consciousness. What does this indicate?",
+      "options": [
+        "Normal post-operative recovery",
+        "VP shunt malfunction or infection",
+        "Dehydration from poor oral intake",
+        "Medication side effect from anticonvulsants"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'VP shunt malfunction or infection' \u2014 because list headache, vomiting, irritability, lethargy, bulging fontanel, and blurry vision/LOC changes as classic signs of VP shunt malfunction or infection requiring immediate reporting and intervention. INCORRECT: 'Normal post-operative recovery' \u2014 because these symptoms are red flags, not expected recovery (post-op often involves flat positioning initially). INCORRECT: 'Dehydration from poor oral intake' \u2014 because while vomiting can lead to dehydration, the cluster with LOC change and headache points to shunt issue per standard pediatric nursing content. INCORRECT: 'Medication side effect from anticonvulsants' \u2014 because the primary association in the hydrocephalus/VP shunt cards is malfunction, not medication effects."
+    },
+    {
+      "id": "q16_sata_seizure_unconscious",
+      "type": "sata",
+      "question": "Which interventions and findings apply to seizures or care of the unconscious child with possible ICP? (Select all that apply.)",
+      "options": [
+        "Neonatal seizures are often subtle (lip smacking, tongue thrusting, eye rolling, arching) rather than tonic-clonic.",
+        "Status epilepticus is a prolonged generalized seizure >5 minutes and is an emergency.",
+        "For unconscious child with high fever (105\u00b0F), apply cooling blanket but avoid aspirin due to Reye risk.",
+        "Minimize stimuli, avoid suctioning or head turning that raises ICP, and monitor pupils closely.",
+        "Seizures in infants always present with obvious jerking movements from the start."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Neonatal seizures are often subtle...' \u2014 because standard pediatric nursing content note that neonatal seizures frequently present with subtle signs (lip smacking, tongue thrusting, eye rolling, arching) rather than classic tonic-clonic. CORRECT: 'Status epilepticus is a prolonged generalized seizure >5 minutes...' \u2014 because status epilepticus is defined as prolonged (>5 min in modern practice) and requires emergency intervention. CORRECT: 'For unconscious child with high fever (105\u00b0F), apply cooling blanket but avoid aspirin due to Reye risk.' \u2014 because standard pediatric nursing content specify cooling for hyperpyrexia in unconscious children while avoiding aspirin (Reye risk) and minimizing stimuli/suctioning. CORRECT: 'Minimize stimuli, avoid suctioning or head turning...' \u2014 because these actions raise ICP and are contraindicated; close pupil/LOC monitoring is critical. INCORRECT: 'Seizures in infants always present with obvious jerking movements from the start.' \u2014 because standard pediatric nursing content emphasize that infant/neonatal seizures are often subtle and may not involve obvious jerking initially."
+    },
+    {
+      "id": "q17_mcq_sickle_hydroxyurea",
+      "type": "mcq",
+      "question": "A child with sickle cell anemia is prescribed hydroxyurea. What benefit does the sets attribute to this medication?",
+      "options": [
+        "Increases hemoglobin levels permanently",
+        "Decreases the frequency of painful crises and acute sickling",
+        "Eliminates the need for hydration and pain management",
+        "Prevents all genetic transmission to offspring"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Decreases the frequency of painful crises and acute sickling' \u2014 because the reviewed standard pediatric nursing content / heme content state that hydroxyurea decreases painful crises and acute sickling episodes in sickle cell; it does not cure the disease but reduces complications. Management still requires hydration, pain control, oxygen during crises, and avoidance of triggers (dehydration, infection, fever, hypoxia, stress, extreme temperatures). INCORRECT: 'Increases hemoglobin levels permanently' \u2014 because hydroxyurea does not permanently raise hemoglobin or cure the underlying hemoglobinopathy. INCORRECT: 'Eliminates the need for hydration and pain management' \u2014 because standard crisis care (hydration, pain, O2) remains essential even on hydroxyurea. INCORRECT: 'Prevents all genetic transmission to offspring' \u2014 because genetic counseling is still required; hydroxyurea does not alter the autosomal recessive inheritance."
+    },
+    {
+      "id": "q18_mcq_hemophilia",
+      "type": "mcq",
+      "question": "A child with hemophilia develops hemarthrosis (joint swelling and pain). What is the priority intervention?",
+      "options": [
+        "Apply heat and encourage range of motion",
+        "Administer factor replacement, apply ice, and avoid aspirin",
+        "Perform immediate surgical drainage",
+        "Restrict all physical activity permanently"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Administer factor replacement, apply ice, and avoid aspirin' \u2014 because describe hemophilia as X-linked; hemarthrosis is treated with factor replacement, ice, and avoidance of aspirin (which worsens bleeding). Genetic counseling is important for families. INCORRECT: 'Apply heat and encourage range of motion' \u2014 because heat increases bleeding; ice is preferred and activity is limited during acute bleed. INCORRECT: 'Perform immediate surgical drainage' \u2014 because factor replacement is first-line; surgery is not the initial intervention for hemarthrosis. INCORRECT: 'Restrict all physical activity permanently' \u2014 because while contact sports are avoided, permanent total restriction is not the recommendation; genetic counseling and prompt treatment are emphasized."
+    },
+    {
+      "id": "q19_mcq_agn_glomerulonephritis",
+      "type": "mcq",
+      "question": "A child develops periorbital edema, dark/cola-colored urine, hypertension, and oliguria 10 days after a sore throat. What condition is most likely?",
+      "options": [
+        "Acute post-streptococcal glomerulonephritis (AGN)",
+        "Nephrotic syndrome",
+        "Urinary tract infection (UTI)",
+        "Henoch-Sch\u00f6nlein purpura"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Acute post-streptococcal glomerulonephritis (AGN)' \u2014 because AGN as occurring 1-2 weeks after strep throat or skin infection, with classic signs of periorbital edema, cola-colored urine, hypertension, and oliguria; history of recent sore throat is key. Supportive care includes fluid/salt restriction and BP management. INCORRECT: 'Nephrotic syndrome' \u2014 because nephrotic typically features massive proteinuria, hypoalbuminemia, and edema without the acute post-strep timing or cola urine emphasis. INCORRECT: 'Urinary tract infection (UTI)' \u2014 because UTI usually presents with dysuria, frequency, and fever without the systemic edema/HTN/cola urine picture. INCORRECT: 'Henoch-Sch\u00f6nlein purpura' \u2014 because HSP involves purpuric rash, abdominal pain, and joint issues, not primarily post-strep cola urine and oliguria."
+    },
+    {
+      "id": "q20_mcq_scoliosis_adams",
+      "type": "mcq",
+      "question": "During a scoliosis screening, the nurse asks the adolescent to bend forward at the waist with arms hanging down. What test is being performed?",
+      "options": [
+        "Gower sign",
+        "Adams forward bend test",
+        "Ortolani maneuver",
+        "Barlow test"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Adams forward bend test' \u2014 because the standard pediatric nursing content / MSK content identify the Adams forward bend test as the standard scoliosis screening method to detect asymmetry in shoulders, scapula, or hips; positive findings lead to bracing for moderate curves or surgery for severe. INCORRECT: 'Gower sign' \u2014 because Gower is for Duchenne muscular dystrophy (child uses hands to 'walk' up legs to stand). INCORRECT: 'Ortolani maneuver' \u2014 because Ortolani is for developmental dysplasia of the hip (DDH) in infants. INCORRECT: 'Barlow test' \u2014 because Barlow is also for infant hip instability, not adolescent scoliosis screening."
+    },
+    {
+      "id": "q21_sata_traction_growth_plate",
+      "type": "sata",
+      "question": "Which statements about traction and growth plate fractures are correct per the sets? (Select all that apply.)",
+      "options": [
+        "Bryant traction is used for young children with femur fracture (both legs elevated, buttocks slightly off bed).",
+        "Russell traction is used for older children with femur fracture.",
+        "Growth plate (Salter-Harris) fractures can impair future bone growth and require careful monitoring.",
+        "Neurovascular checks, skin integrity, and alignment are priority assessments in any traction.",
+        "Legg-Calv\u00e9-Perthes disease requires q2h repositioning while in traction."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Bryant traction is used for young children...' \u2014 because standard pediatric nursing content describe Bryant traction for young children with femur fractures (legs elevated, buttocks slightly off bed for countertraction). CORRECT: 'Russell traction is used for older children...' \u2014 because Russell traction is indicated for older children/adolescents with femur fractures. CORRECT: 'Growth plate (Salter-Harris) fractures can impair future bone growth...' \u2014 because Salter-Harris/growth plate fractures are noted as risking future bone growth and needing close follow-up. CORRECT: 'Neurovascular checks, skin integrity, and alignment are priority assessments...' \u2014 because these are universal traction priorities to prevent compartment syndrome, skin breakdown, and misalignment. CORRECT: 'Legg-Calv\u00e9-Perthes disease requires q2h repositioning while in traction.' \u2014 because standard pediatric nursing content mention q2h repositioning for Legg-Calv\u00e9-Perthes patients in traction to maintain alignment and skin integrity."
+    },
+    {
+      "id": "q22_mcq_gastroenteritis_priority",
+      "type": "mcq",
+      "question": "A child with acute gastroenteritis is being assessed for rehydration. What is the priority action?",
+      "options": [
+        "Start intravenous fluids immediately",
+        "Assess if the child can void and determine fluid balance first",
+        "Administer antiemetics to stop vomiting",
+        "Obtain stool culture before any intervention"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Assess if the child can void and determine fluid balance first' \u2014 because the reviewed standard pediatric nursing content state that for acute gastroenteritis, the priority is to assess if the child can void / fluid balance before rehydrating with Pedialyte; this prevents fluid overload or electrolyte issues. INCORRECT: 'Start intravenous fluids immediately' \u2014 because oral rehydration with Pedialyte is preferred unless the child cannot tolerate oral intake; IV is not first-line. INCORRECT: 'Administer antiemetics to stop vomiting' \u2014 because antiemetics are not the priority; assessing fluid status and rehydration come first. INCORRECT: 'Obtain stool culture before any intervention' \u2014 because cultures may be obtained but do not delay assessment and rehydration of fluid balance."
+    },
+    {
+      "id": "q23_sata_rehydration_labs",
+      "type": "sata",
+      "question": "Which lab values are within expected range or relevant for rehydration monitoring? (Select all that apply.)",
+      "options": [
+        "Potassium 3.4\u20134.7 mEq/L",
+        "Urine specific gravity 1.010\u20131.025",
+        "White blood cell count 4,500\u201311,000 (normal range noted for appendicitis context)",
+        "Clear liquids such as gelatin, popsicles, and strained broth after initial rehydration",
+        "Endoscopy to visualize upper GI tract when needed"
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Potassium 3.4\u20134.7 mEq/L' \u2014 because standard pediatric nursing content list this as the normal potassium range to monitor during rehydration. CORRECT: 'Urine specific gravity 1.010\u20131.025' \u2014 because urine SG in this range is expected and used to assess hydration status. CORRECT: 'Clear liquids such as gelatin, popsicles, and strained broth after initial rehydration' \u2014 because the standard pediatric nursing content content note these are acceptable clear liquids once initial rehydration is tolerated. CORRECT: 'Endoscopy to visualize upper GI tract when needed' \u2014 because endoscopy is mentioned for visualizing upper GI when indicated. INCORRECT: 'White blood cell count 4,500\u201311,000 (normal range noted for appendicitis context)' \u2014 because while standard pediatric nursing content mention normal WBC 4,500\u201311,000 in appendicitis context, elevated WBC (not normal) supports appendicitis; the option as stated is the normal range, so it is not the key rehydration lab here."
+    },
+    {
+      "id": "q24_mcq_intussusception",
+      "type": "mcq",
+      "question": "A child presents with intermittent severe abdominal pain and currant-jelly stool. What condition with these findings?",
+      "options": [
+        "Pyloric stenosis",
+        "Intussusception",
+        "Hirschsprung disease",
+        "Celiac disease"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Intussusception' \u2014 because intermittent severe pain and currant-jelly (mucus/bloody) stool to intussusception; air-contrast enema is diagnostic/therapeutic. INCORRECT: 'Pyloric stenosis' \u2014 because pyloric presents with projectile non-bilious vomiting and olive-like mass, not currant-jelly stool. INCORRECT: 'Hirschsprung disease' \u2014 because Hirschsprung involves failure to pass meconium and ribbon stools, not currant-jelly. INCORRECT: 'Celiac disease' \u2014 because celiac is gluten intolerance with chronic symptoms, not acute currant-jelly stool."
+    },
+    {
+      "id": "q25_mcq_appendicitis",
+      "type": "mcq",
+      "question": "A child has RLQ pain and an elevated white blood cell count.What does this suggest?",
+      "options": [
+        "Viral gastroenteritis",
+        "Appendicitis",
+        "Pinworm infestation",
+        "Failure to thrive"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Appendicitis' \u2014 because the standard pediatric nursing content content associate RLQ pain and elevated WBC (above the noted normal 4,500\u201311,000 range) with appendicitis. INCORRECT: 'Viral gastroenteritis' \u2014 because gastroenteritis typically does not localize to RLQ with significant leukocytosis. INCORRECT: 'Pinworm infestation' \u2014 because pinworms cause perianal itching and restlessness, not RLQ pain or elevated WBC. INCORRECT: 'Failure to thrive' \u2014 because FTT is defined as weight/height below 3rd percentile on growth charts, not acute RLQ pain."
+    },
+    {
+      "id": "q26_sata_ftt_pinworms",
+      "type": "sata",
+      "question": "Which findings are associated with failure to thrive (FTT) or pinworms? (Select all that apply.)",
+      "options": [
+        "Weight or height below the 3rd percentile on growth charts (FTT).",
+        "Perianal itching, restlessness, and irritability (pinworms).",
+        "Poor response to name and repetitive behaviors.",
+        "Projective non-bilious vomiting with an olive mass (pyloric).",
+        "Clear liquids such as popsicles and broth tolerated after rehydration."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "rationale": "CORRECT: 'Weight or height below the 3rd percentile on growth charts (FTT).' \u2014 because standard pediatric nursing content define FTT as below 3rd percentile. CORRECT: 'Perianal itching, restlessness, and irritability (pinworms).' \u2014 because pinworms are linked to perianal itching, restlessness, and irritability. INCORRECT: 'Poor response to name and repetitive behaviors (autism overlap noted in standard pediatric nursing content).' \u2014 because this describes autism (already covered in behavioral chunk) and is not FTT or pinworm. INCORRECT: 'Projective non-bilious vomiting with an olive mass (pyloric).' \u2014 because this is pyloric stenosis, not FTT/pinworms. INCORRECT: 'Clear liquids such as popsicles and broth tolerated after rehydration.' \u2014 because this is rehydration teaching, not specific to FTT or pinworms."
+    },
+    {
+      "id": "q27_matrix_icp_age",
+      "type": "matrix",
+      "question": "Match the increased ICP sign to the correct age group (Infant or Older child/adolescent).",
+      "rows": [
+        "Bulging or non-pulsating fontanel",
+        "High-pitched shrill cry",
+        "Headache, vomiting, irritability",
+        "Cushing triad (hypertension, bradycardia, irregular respirations)"
+      ],
+      "columns": [
+        "Infant",
+        "Older child/adolescent"
+      ],
+      "answer": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "rationale": "CORRECT row 0 (Bulging fontanel) \u2192 Infant because standard pediatric nursing content list bulging/non-pulsating fontanel as infant ICP sign. CORRECT row 1 (High-pitched cry) \u2192 Infant because high-pitched shrill cry is infant-specific. CORRECT row 2 (Headache/vomiting/irritability) \u2192 Older child/adolescent because these are the classic signs in older children. CORRECT row 3 (Cushing triad) \u2192 Older child/adolescent because Cushing triad is a late sign highlighted for older/adolescents. INCORRECT pairings would swap infant and older signs (e.g., fontanel in older child is not applicable after closure)."
+    },
+    {
+      "id": "q28_bowtie_meningitis_priority",
+      "type": "bowtie",
+      "question": "For a child with suspected bacterial meningitis, select the priority action and the action to avoid.",
+      "options": [
+        "Administer antibiotics as soon as possible",
+        "Wait for culture results before treatment",
+        "Minimize stimuli and position side-lying with HOB elevated",
+        "Perform throat examination or delay antibiotics"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT priority: 'Administer antibiotics as soon as possible' \u2014 because standard pediatric nursing content emphasize antibiotics ASAP on clinical suspicion to reduce mortality; do not delay for cultures or LP. CORRECT to avoid: 'Perform throat examination or delay antibiotics' \u2014 because throat exam is contraindicated (risk of herniation or spasm) and delay is harmful. INCORRECT: 'Wait for culture results before treatment' \u2014 because treatment starts immediately; cultures confirm but do not precede antibiotics. INCORRECT: 'Minimize stimuli and position side-lying with HOB elevated' \u2014 because these are supportive (for photophobia and ICP) but secondary to starting antibiotics first."
+    },
+    {
+      "id": "q29_matrix_traction_age",
+      "type": "matrix",
+      "question": "Match the traction type or priority assessment to the correct age group or condition.",
+      "rows": [
+        "Bryant traction (legs elevated, buttocks slightly off bed)",
+        "Russell traction",
+        "Neurovascular checks, skin integrity, alignment priority",
+        "q2h repositioning (e.g., Legg-Calv\u00e9-Perthes)"
+      ],
+      "columns": [
+        "Young children (femur fracture)",
+        "Older children/adolescents (femur fracture)",
+        "Any traction patient",
+        "Specific conditions like Legg-Calv\u00e9-Perthes"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT row 0 (Bryant) \u2192 Young children because standard pediatric nursing content specify Bryant for young children with femur fracture. CORRECT row 1 (Russell) \u2192 Older children/adolescents because Russell is for older children/adolescents. CORRECT row 2 (Neurovascular/skin/alignment) \u2192 Any traction patient because these are universal priorities in all traction. CORRECT row 3 (q2h repositioning) \u2192 Specific conditions like Legg-Calv\u00e9-Perthes because standard pediatric nursing content note q2h repositioning for Legg-Calv\u00e9-Perthes in traction. INCORRECT pairings would assign Bryant to older children or universal checks only to specific conditions."
+    },
+    {
+      "id": "q30_matrix_eating_disorder",
+      "type": "matrix",
+      "question": "Match the symptom or characteristic to the correct eating disorder (Anorexia or Bulimia).",
+      "rows": [
+        "Significantly low body weight, amenorrhea possible, obsessive-compulsive high-achieving traits, food rituals (cook for others, hoard)",
+        "Dental enamel erosion from purging, normal or slightly elevated weight, food preoccupation without extreme low weight",
+        "Slow weight restoration goal (~1 kg/week) to avoid refeeding syndrome",
+        "Marked calorie awareness and rituals vs. impulsive/extroverted traits"
+      ],
+      "columns": [
+        "Anorexia nervosa",
+        "Bulimia nervosa"
+      ],
+      "answer": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "rationale": "CORRECT row 0 (low weight, amenorrhea, rituals) \u2192 Anorexia because standard pediatric nursing content describe anorexia with significantly low weight, amenorrhea, and obsessive rituals. CORRECT row 1 (dental erosion, normal weight) \u2192 Bulimia because bulimia features enamel erosion from vomiting and normal/slightly higher weight. CORRECT row 2 (slow refeed 1 kg/week) \u2192 Anorexia because standard pediatric nursing content note slow restoration to avoid refeeding in anorexia patients. CORRECT row 3 (calorie awareness/rituals vs impulsive) \u2192 Anorexia because anorexia is linked to calorie awareness and rituals while bulimia is more impulsive/extroverted. INCORRECT would swap the weight and erosion characteristics."
+    },
+    {
+      "id": "q31_matrix_theories_adolescent",
+      "type": "matrix",
+      "question": "Match the developmental theory or stage to the correct adolescent behavior or age expectation.",
+      "rows": [
+        "Erikson: questioning values, experimenting with roles, self-conscious about body image",
+        "Piaget: abstract thinking begins ~14, future time perspective, increased risk-taking (prefrontal immaturity)",
+        "Peers provide primary sense of belonging; confidentiality builds trust (unless safety issue)",
+        "HEADSS screening (Home, Education, Activities, Drugs, Sexuality, Suicide/Depression)"
+      ],
+      "columns": [
+        "Identity vs Role Confusion (Erikson)",
+        "Formal Operational stage (Piaget)",
+        "Psychosocial assessment priority",
+        "Confidentiality and screening tool"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT row 0 (questioning values, body image) \u2192 Identity vs Role Confusion because standard pediatric nursing content link this Erikson stage to adolescent self-consciousness and role experimentation. CORRECT row 1 (abstract thinking, risk-taking) \u2192 Formal Operational because Piaget Formal Operational enables abstract 'what if' and risk-taking due to prefrontal immaturity. CORRECT row 2 (peers belonging, confidentiality) \u2192 Psychosocial assessment priority because peers and privacy are highlighted as key in adolescent assessment. CORRECT row 3 (HEADSS) \u2192 Confidentiality and screening tool because HEADSS is the explicit screening tool and confidentiality is emphasized unless safety threat. INCORRECT pairings would assign Erikson stage to Piaget or HEADSS to wrong context."
+    }
+  ]
+}
