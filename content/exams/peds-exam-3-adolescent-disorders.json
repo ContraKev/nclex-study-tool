@@ -495,6 +495,273 @@
         3
       ],
       "rationale": "CORRECT row 0 (questioning values, body image) \u2192 Identity vs Role Confusion because standard pediatric nursing content link this Erikson stage to adolescent self-consciousness and role experimentation. CORRECT row 1 (abstract thinking, risk-taking) \u2192 Formal Operational because Piaget Formal Operational enables abstract 'what if' and risk-taking due to prefrontal immaturity. CORRECT row 2 (peers belonging, confidentiality) \u2192 Psychosocial assessment priority because peers and privacy are highlighted as key in adolescent assessment. CORRECT row 3 (HEADSS) \u2192 Confidentiality and screening tool because HEADSS is the explicit screening tool and confidentiality is emphasized unless safety threat. INCORRECT pairings would assign Erikson stage to Piaget or HEADSS to wrong context."
+    },
+    {
+      "id": "q32_mcq_hirschsprung",
+      "type": "mcq",
+      "question": "A 6-month-old infant is being evaluated for chronic constipation and abdominal distention. The parent reports the infant passes ribbon-like stools. The nurse suspects which condition caused by the absence of ganglion cells?",
+      "options": [
+        "Intussusception",
+        "Pyloric stenosis",
+        "Hirschsprung's disease",
+        "Meconium ileus"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Hirschsprung's disease' \u2014 because it is caused by the absence of ganglion cells in the intestine, leading to a lack of peristalsis. Classic signs include a big abdomen (distention), vomiting, accumulation of stool, and ribbon-like stools. INCORRECT: 'Intussusception' \u2014 because this presents with currant-jelly stools and a sausage-shaped mass. INCORRECT: 'Pyloric stenosis' \u2014 because this presents with projectile vomiting and an olive-shaped mass. INCORRECT: 'Meconium ileus' \u2014 because this is a neonatal obstruction typically linked to cystic fibrosis, not chronic ribbon-like stools at 6 months."
+    },
+    {
+      "id": "q33_mcq_pyloric_gerd",
+      "type": "mcq",
+      "question": "An infant presents with failure to thrive and vomiting. The nurse notes the vomiting is forceful and projectile. Which condition is most strongly associated with projectile vomiting and failure to thrive?",
+      "options": [
+        "Gastroesophageal reflux disease (GERD)",
+        "Pyloric stenosis",
+        "Celiac disease",
+        "Appendicitis"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pyloric stenosis' \u2014 because hypertrophy of the pyloric sphincter causes gastric outlet obstruction, classically resulting in projectile vomiting and failure to thrive. INCORRECT: 'Gastroesophageal reflux disease (GERD)' \u2014 because while GERD causes vomiting (spitting up), weight loss, and failure to thrive, the vomiting is typically not projectile. INCORRECT: 'Celiac disease' \u2014 because this causes chronic diarrhea and malabsorption, not acute projectile vomiting. INCORRECT: 'Appendicitis' \u2014 because this presents with RLQ pain and fever."
+    },
+    {
+      "id": "q34_mcq_meconium_ileus",
+      "type": "mcq",
+      "question": "A newborn fails to pass meconium within the first 48 hours of life due to abnormally thick, sticky meconium blocking the ileum (meconium ileus). This finding is strongly linked to which underlying genetic condition?",
+      "options": [
+        "Sickle cell anemia",
+        "Cystic fibrosis",
+        "Beta-thalassemia",
+        "Hemophilia A"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Cystic fibrosis' \u2014 because meconium ileus (neonatal intestinal obstruction caused by dried out, sticky meconium blocking the ileum) is linked to cystic fibrosis in 15-20% of cases. INCORRECT: 'Sickle cell anemia' \u2014 because this is a hemoglobinopathy, not associated with meconium ileus. INCORRECT: 'Beta-thalassemia' \u2014 because this causes chronic anemia, not meconium ileus. INCORRECT: 'Hemophilia A' \u2014 because this is a bleeding disorder."
+    },
+    {
+      "id": "q35_sata_wilms_ewing",
+      "type": "sata",
+      "question": "The nurse is caring for pediatric patients with oncological diagnoses. Which statements regarding Ewing sarcoma and Wilms tumor are correct? (Select all that apply.)",
+      "options": [
+        "Wilms tumor primarily affects the kidneys.",
+        "The abdomen should be frequently palpated in a child with Wilms tumor to assess for growth.",
+        "Ewing sarcoma is typically treated with chemotherapy and radiation.",
+        "Wilms tumor is a cancer of the bone marrow.",
+        "A sign warning against abdominal palpation should be placed on the bed of a child with Wilms tumor."
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Wilms tumor primarily affects the kidneys.' \u2014 because Wilms tumor (nephroblastoma) is a renal malignancy. CORRECT: 'Ewing sarcoma is typically treated with chemotherapy and radiation.' \u2014 because Ewing's sarcoma requires systemic and localized treatment. CORRECT: 'A sign warning against abdominal palpation should be placed...' \u2014 because palpation of the abdomen in Wilms tumor is strictly contraindicated as it can rupture the encapsulated tumor and spread cancer cells. INCORRECT: 'The abdomen should be frequently palpated...' \u2014 because palpation is strictly forbidden. INCORRECT: 'Wilms tumor is a cancer of the bone marrow.' \u2014 because it affects the kidneys, not the bone marrow (leukemia affects bone marrow)."
+    },
+    {
+      "id": "q36_mcq_tet_spell",
+      "type": "mcq",
+      "question": "A toddler with Tetralogy of Fallot begins crying and suddenly develops severe cyanosis and a rapid drop in blood oxygen levels (a 'TET spell'). What is the nurse's priority action?",
+      "options": [
+        "Administer a rapid IV fluid bolus",
+        "Place the child in a knee-to-chest position",
+        "Administer oral digoxin",
+        "Encourage the child to take deep breaths"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Place the child in a knee-to-chest position' \u2014 because the knee-to-chest position (or having an older child squat down) increases systemic vascular resistance, decreasing the right-to-left shunt and improving pulmonary blood flow during a hypercyanotic TET spell. INCORRECT: 'Administer a rapid IV fluid bolus' \u2014 because positioning is the immediate non-pharmacologic priority. INCORRECT: 'Administer oral digoxin' \u2014 because this does not rapidly treat a TET spell. INCORRECT: 'Encourage the child to take deep breaths' \u2014 because an agitated, crying toddler cannot follow this command, and positioning is the physiologic fix."
+    },
+    {
+      "id": "q37_sata_kawasaki",
+      "type": "sata",
+      "question": "A child is admitted with Kawasaki disease. Which clinical manifestations and potential complications should the nurse anticipate? (Select all that apply.)",
+      "options": [
+        "Strawberry tongue",
+        "Inflammation that weakens blood vessels",
+        "High risk for cardiovascular aneurysms",
+        "Currant-jelly stools",
+        "Projectile vomiting"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "CORRECT: 'Strawberry tongue' \u2014 because this is a classic hallmark sign of Kawasaki disease. CORRECT: 'Inflammation that weakens blood vessels' \u2014 because Kawasaki is an acute systemic vasculitis. CORRECT: 'High risk for cardiovascular aneurysms' \u2014 because the weakened blood vessels can lead to coronary artery aneurysms, the most severe complication. INCORRECT: 'Currant-jelly stools' \u2014 because this indicates intussusception. INCORRECT: 'Projectile vomiting' \u2014 because this indicates pyloric stenosis."
+    },
+    {
+      "id": "q38_mcq_rheumatic_fever",
+      "type": "mcq",
+      "question": "A 7-year-old is diagnosed with rheumatic fever. When taking the health history, what previous infection does the nurse expect to find occurring 2 to 4 weeks prior to the current symptoms?",
+      "options": [
+        "Untreated strep throat or scarlet fever",
+        "Influenza A",
+        "Varicella (Chickenpox)",
+        "Respiratory syncytial virus (RSV)"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Untreated strep throat or scarlet fever' \u2014 because rheumatic fever occurs 2-4 weeks after an untreated or partially treated Group A beta-hemolytic streptococcal infection (strep throat or scarlet fever). It is an inflammatory disease that primarily affects the heart muscle and the mitral valve. INCORRECT: 'Influenza A', 'Varicella (Chickenpox)', and 'Respiratory syncytial virus (RSV)' \u2014 because these viral infections do not trigger rheumatic fever."
+    },
+    {
+      "id": "q39_matrix_cardiac_murmurs",
+      "type": "matrix",
+      "question": "Match the congenital heart defect to its classic clinical manifestation or murmur description.",
+      "rows": [
+        "Continuous murmur heard throughout the cardiac cycle, often described as a 'shoes in a dryer' or machinery-like murmur.",
+        "Defect causing increased pulmonary blood flow due to an opening between the upper chambers of the heart.",
+        "Harsh, holosystolic murmur due to an opening between the lower chambers of the heart.",
+        "Increased blood pressure in the arms and decreased pressure in the legs due to narrowing near the ductus arteriosus."
+      ],
+      "columns": [
+        "Atrial Septal Defect (ASD)",
+        "Patent Ductus Arteriosus (PDA)",
+        "Ventricular Septal Defect (VSD)",
+        "Coarctation of the Aorta"
+      ],
+      "answer": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "rationale": "CORRECT row 0 ('shoes in a dryer' murmur) \\u2192 PDA because Patent Ductus Arteriosus classically presents with a continuous machinery-like murmur. CORRECT row 1 (increased pulmonary blood flow, upper chambers) \\u2192 ASD because Atrial Septal Defect causes left-to-right shunting into the right atrium. CORRECT row 2 (harsh, holosystolic murmur, lower chambers) \\u2192 VSD because Ventricular Septal Defect causes this classic murmur. CORRECT row 3 (high pressure arms, low pressure legs) \\u2192 Coarctation of the Aorta because the narrowing restricts flow to the lower extremities while increasing pressure proximal to the defect."
+    },
+    {
+      "id": "q40_mcq_epiglottitis",
+      "type": "mcq",
+      "question": "A child presents to the emergency department suddenly ill, drooling oral secretions, with retractions and sitting up leaning forward (orthopneic/tripod position). The nurse suspects epiglottitis. What is the priority nursing intervention?",
+      "options": [
+        "Attempt to visualize the airway with a tongue depressor",
+        "Prepare the child for a neck radiograph and ensure a tracheostomy/ET kit is at the bedside",
+        "Administer oral antipyretics for fever",
+        "Place the child in a supine position to rest"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Prepare the child for a neck radiograph and ensure a tracheostomy/ET kit is at the bedside' \u2014 because epiglottitis is a sudden, life-threatening emergency. The nurse must remain with the child at all times, keep airway equipment at the bedside, and prepare for imaging. INCORRECT: 'Attempt to visualize the airway with a tongue depressor' \u2014 because this is strictly contraindicated; it can cause laryngospasm and complete airway obstruction. INCORRECT: 'Administer oral antipyretics' \u2014 because oral intake is contraindicated due to airway risk. INCORRECT: 'Place the child in a supine position' \u2014 because the child should remain in the position of comfort (usually tripod/sitting forward) to maximize airway opening."
+    },
+    {
+      "id": "q41_mcq_pursed_lip",
+      "type": "mcq",
+      "question": "The nurse is teaching pursed-lip breathing to a child with a chronic respiratory condition. Which instruction should be included?",
+      "options": [
+        "Exhale quickly and forcefully through an open mouth.",
+        "Inhale deeply with the mouth closed, then exhale through the mouth as if whistling, taking twice as long to exhale.",
+        "Take short, shallow breaths and exhale completely through the nose.",
+        "Hold the breath for 5 seconds between inhalation and exhalation."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Inhale deeply with the mouth closed, then exhale through the mouth as if whistling, taking twice as long to exhale.' \u2014 because this is the exact technique for pursed-lip breathing, which helps keep airways open longer and prolongs exhalation. INCORRECT: 'Exhale quickly and forcefully through an open mouth.' \u2014 because this can cause airway collapse. INCORRECT: 'Take short, shallow breaths...' \u2014 because inhalation should be deep. INCORRECT: 'Hold the breath for 5 seconds...' \u2014 because this is not part of pursed-lip breathing technique."
+    },
+    {
+      "id": "q42_mcq_asthma_sports",
+      "type": "mcq",
+      "question": "An adolescent with asthma asks the nurse about participating in physical education (PE) class and sports. What is the best instruction for the nurse to provide?",
+      "options": [
+        "Avoid all vigorous physical activity and sports to prevent exacerbations.",
+        "Use your short-acting bronchodilator inhaler 15 minutes before sports or PE.",
+        "Use your inhaled corticosteroid immediately after exercising.",
+        "If you experience tachycardia after using your inhaler, report to the emergency department immediately."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Use your short-acting bronchodilator inhaler 15 minutes before sports or PE.' \u2014 because prophylactic use of a bronchodilator (like albuterol) 10-15 minutes before exercise prevents exercise-induced bronchospasm. INCORRECT: 'Avoid all vigorous physical activity...' \u2014 because children with asthma are encouraged to participate in sports with proper management. INCORRECT: 'Use your inhaled corticosteroid immediately after...' \u2014 because corticosteroids are for daily maintenance, not rescue or acute exercise-induced prevention. INCORRECT: 'If you experience tachycardia after using your inhaler...' \u2014 because tachycardia and tremors are expected, normal side effects of albuterol."
+    },
+    {
+      "id": "q43_sata_itp",
+      "type": "sata",
+      "question": "A child is diagnosed with Idiopathic Thrombocytopenic Purpura (ITP). Which findings does the nurse expect to see? (Select all that apply.)",
+      "options": [
+        "Bruising",
+        "Petechiae",
+        "Low platelet count",
+        "Elevated white blood cell count",
+        "Currant-jelly stools"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "CORRECT: 'Bruising', 'Petechiae', and 'Low platelet count' \u2014 because ITP is an autoimmune disorder leading to the destruction of platelets, resulting in a low platelet count, petechiae, and easily bruising. INCORRECT: 'Elevated white blood cell count' \u2014 because ITP primarily affects platelets, not WBCs (unless there is a concurrent infection). INCORRECT: 'Currant-jelly stools' \u2014 because this is a sign of intussusception."
+    },
+    {
+      "id": "q44_matrix_hemophilia",
+      "type": "matrix",
+      "question": "Match the type of hemophilia to its corresponding missing clotting factor.",
+      "rows": [
+        "Missing Factor VIII (8)",
+        "Missing Factor IX (9), also known as 'Christmas Hemophilia'"
+      ],
+      "columns": [
+        "Hemophilia Type A",
+        "Hemophilia Type B"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "rationale": "CORRECT row 0 (Factor VIII) \\u2192 Hemophilia Type A because Type A is the classic form caused by a deficiency in factor 8. CORRECT row 1 (Factor IX, Christmas) \\u2192 Hemophilia Type B because Type B is caused by a deficiency in factor 9 and is historically called Christmas disease."
+    },
+    {
+      "id": "q45_mcq_diaper_math",
+      "type": "mcq",
+      "question": "The nurse is strictly monitoring intake and output for an infant. A wet diaper is weighed and is 40 grams heavier than a dry diaper. How many milliliters (mL) of urine output should the nurse record? (Recall that 1 mL = 1 g = 1 cc).",
+      "options": [
+        "20 mL",
+        "40 mL",
+        "80 mL",
+        "100 mL"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: '40 mL' \u2014 because the standard conversion for diaper weighing is 1 gram of weight equals 1 milliliter (1 mL) of fluid. Therefore, a 40 g increase equals 40 mL of urine output. INCORRECT: '20 mL', '80 mL', '100 mL' \u2014 because these are incorrect conversions."
+    },
+    {
+      "id": "q46_mcq_thalassemia",
+      "type": "mcq",
+      "question": "A child has beta-thalassemia major (Cooley's anemia). Which statements accurately describe this condition? (Select all that apply.)",
+      "options": [
+        "It is a genetically inherited blood disorder.",
+        "It results in chronic anemia that can last throughout life.",
+        "Fever is frequently associated with the condition.",
+        "It is treated by avoiding all iron-chelating therapies.",
+        "It is classified into Major, Intermedia, and Minor forms."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'It is a genetically inherited blood disorder', 'It results in chronic anemia...', 'Fever is frequently associated...', and 'It is classified into Major, Intermedia, and Minor...' \u2014 because B-thalassemia is an inherited disorder of hemoglobin synthesis leading to chronic anemia, requiring frequent transfusions (Major form). Fever is an associated finding. INCORRECT: 'It is treated by avoiding all iron-chelating therapies' \u2014 because frequent transfusions cause iron overload, so iron-chelating therapy (e.g., deferoxamine) is actually REQUIRED, not avoided."
+    },
+    {
+      "id": "q47_mcq_uti_teaching",
+      "type": "mcq",
+      "question": "The nurse is providing discharge teaching to the parents of a young girl with recurrent urinary tract infections (UTIs). Which instructions should the nurse include? (Select all that apply.)",
+      "options": [
+        "Wipe the perineal area from front to back after toileting.",
+        "Have the child wear loose-fitting cotton underwear.",
+        "Encourage the child to hold urine to stretch the bladder capacity.",
+        "Provide daily bubble baths to ensure perineal cleanliness."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "rationale": "CORRECT: 'Wipe the perineal area from front to back' \u2014 because this prevents the transfer of fecal bacteria to the urethra. CORRECT: 'Have the child wear loose-fitting cotton underwear' \u2014 because cotton is breathable and prevents moisture buildup, reducing bacterial growth. INCORRECT: 'Encourage the child to hold urine' \u2014 because urinary stasis promotes infection; frequent voiding should be encouraged. INCORRECT: 'Provide daily bubble baths' \u2014 because bubble baths can irritate the urethra and increase UTI risk."
+    },
+    {
+      "id": "q48_bowtie_cardiac",
+      "type": "bowtie",
+      "question": "A 10-year-old child presents with a headache, nosebleeds, and leg pain after exercise. The nurse assesses blood pressure and finds it is 140/90 in the right arm and 90/50 in the right leg. Complete the bowtie analysis.",
+      "options": [
+        "Coarctation of the aorta",
+        "Patent ductus arteriosus",
+        "Measure BP in all four extremities",
+        "Prepare for immediate knee-to-chest positioning",
+        "Assess femoral pulses for weakness or absence",
+        "Prepare for immediate administration of albuterol"
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "rationale": "CORRECT priority condition: 'Coarctation of the aorta' \u2014 because narrowing of the aorta causes increased pressure proximal to the defect (arms) and decreased pressure distal to the defect (legs). CORRECT actions/monitoring: 'Measure BP in all four extremities' and 'Assess femoral pulses for weakness or absence' \u2014 because confirming the gradient between upper and lower extremities and checking for weak/absent femoral pulses are classic diagnostic assessments for coarctation. INCORRECT options: PDA presents with a continuous murmur. Knee-to-chest positioning is for Tetralogy of Fallot (TET spells). Albuterol is for asthma."
     }
   ]
 }
