@@ -1,0 +1,1450 @@
+{
+  "id": "peds_exam_2",
+  "name": "PEDS Exam 2 — Chapters 20-24: Adolescence, Hospitalization, Neuro/Sensory & Musculoskeletal",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "q1_mcq_erikson_adolescent",
+      "type": "mcq",
+      "question": "A 15-year-old is questioning their values and experimenting with different roles. According to Erikson, which stage is this?",
+      "options": [
+        "Industry vs Inferiority",
+        "Identity vs Role Confusion",
+        "Intimacy vs Isolation",
+        "Generativity vs Stagnation"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Identity vs Role Confusion' — because Identity vs Role Confusion (12-18 years) involves questioning values, experimenting with roles, and developing a sense of self. INCORRECT: 'Industry vs Inferiority' — because Industry vs Inferiority is school-age (6-12 years). INCORRECT: 'Intimacy vs Isolation' — because Intimacy vs Isolation is young adult (18-40 years). INCORRECT: 'Generativity vs Stagnation' — because Generativity vs Stagnation is middle adult (40-65 years).",
+      "slide": 20
+    },
+    {
+      "id": "q2_sata_tanner",
+      "type": "sata",
+      "question": "Which statements about Tanner stages are correct? (Select all that apply.)",
+      "options": [
+        "Tanner stage 1 is prepubertal (no secondary sex characteristics).",
+        "Tanner stage 5 represents full sexual maturity.",
+        "Breast development in girls begins before pubic hair.",
+        "Boys develop pubic hair before testicular growth.",
+        "Tanner stages are used to assess pubertal development."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Tanner stage 1 is prepubertal (no secondary sex characteristics).' — because Tanner 1 is prepubertal. CORRECT: 'Tanner stage 5 represents full sexual maturity.' — because Tanner 5 is mature adult. CORRECT: 'Breast development in girls begins before pubic hair.' — because breast development precedes pubic hair in girls. CORRECT: 'Tanner stages are used to assess pubertal development.' — because Tanner stages assess pubertal development. INCORRECT: 'Boys develop pubic hair before testicular growth.' — because testicular growth precedes pubic hair in boys.",
+      "slide": 20
+    },
+    {
+      "id": "q3_mcq_headss",
+      "type": "mcq",
+      "question": "The HEADSS assessment is used to screen adolescents. What does the 'H' stand for?",
+      "options": [
+        "Health",
+        "Home",
+        "Hobbies",
+        "Hormones"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Home' — because HEADSS is a psychosocial screening tool for adolescents: Home, Education/Employment, Activities, Drugs, Sexuality, Suicide/Depression. INCORRECT: 'Health' — because H is Home, not Health. INCORRECT: 'Hobbies' — because Activities (not Hobbies). INCORRECT: 'Hormones' — because not Hormones.",
+      "slide": 20
+    },
+    {
+      "id": "q4_mcq_mva",
+      "type": "mcq",
+      "question": "What is the leading cause of death in adolescents?",
+      "options": [
+        "Cancer",
+        "Motor vehicle accidents",
+        "Suicide",
+        "Infectious diseases"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Motor vehicle accidents' — because motor vehicle accidents (MVA) are the leading cause of death in adolescents (ages 13-19). Risk factors include inexperience, distraction (phones), speeding, and not wearing seat belts. INCORRECT: 'Cancer' — because cancer is significant but not leading. INCORRECT: 'Suicide' — because suicide is second leading. INCORRECT: 'Infectious diseases' — because infections are lower due to immunity/vaccines.",
+      "slide": 20
+    },
+    {
+      "id": "q5_sata_vaccines_adolescent",
+      "type": "sata",
+      "question": "Which vaccines are recommended for adolescents? (Select all that apply.)",
+      "options": [
+        "Meningococcal conjugate (MenACWY)",
+        "Human papillomavirus (HPV)",
+        "Tetanus, diphtheria, pertussis (Tdap)",
+        "Measles, mumps, rubella (MMR) booster",
+        "Influenza annually"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Meningococcal conjugate (MenACWY)' — because MenACWY at 11-12 and 16 years. CORRECT: 'Human papillomavirus (HPV)' — because HPV at 11-12 years (2-3 doses). CORRECT: 'Tetanus, diphtheria, pertussis (Tdap)' — because Tdap at 11-12 years. CORRECT: 'Influenza annually' — because annual flu. INCORRECT: 'Measles, mumps, rubella (MMR) booster' — because MMR is given at 12 months and 4-6 years; booster not routine in adolescence.",
+      "slide": 20
+    },
+    {
+      "id": "q6_mcq_depression_screening",
+      "type": "mcq",
+      "question": "A 16-year-old reports feeling sad, hopeless, and withdrawing from friends. What is the nurse's priority action?",
+      "options": [
+        "Tell the teen to cheer up and be more social",
+        "Screen for suicidal ideation and notify provider",
+        "Prescribe an antidepressant",
+        "Recommend a social media detox"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Screen for suicidal ideation and notify provider' — because depression in adolescents is serious — suicide is the second leading cause of death in this age group. INCORRECT: 'Tell the teen to cheer up and be more social' — because dismissive and dangerous. INCORRECT: 'Prescribe an antidepressant' — because nurses don't prescribe. INCORRECT: 'Recommend a social media detox' — because not the priority action.",
+      "slide": 20
+    },
+    {
+      "id": "q7_matrix_development",
+      "type": "matrix",
+      "question": "Match each adolescent developmental task with the correct description:",
+      "rows": [
+        "Developing abstract thinking and future planning",
+        "Experimenting with different roles and values",
+        "Forming intimate relationships",
+        "Contributing to society and guiding others"
+      ],
+      "columns": [
+        "Piaget Formal Operational",
+        "Erikson Identity vs Role Confusion",
+        "Erikson Intimacy vs Isolation",
+        "Erikson Generativity vs Stagnation"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Developing abstract thinking and future planning' matches 'Piaget Formal Operational' — because Formal Operational (abstract thinking). CORRECT: 'Experimenting with different roles and values' matches 'Erikson Identity vs Role Confusion' — because Identity vs Role Confusion (role experimentation). CORRECT: 'Forming intimate relationships' matches 'Erikson Intimacy vs Isolation' — because Intimacy vs Isolation (intimate relationships). CORRECT: 'Contributing to society and guiding others' matches 'Erikson Generativity vs Stagnation' — because Generativity vs Stagnation (contributing to society).",
+      "slide": 20
+    },
+    {
+      "id": "q8_mcq_separation_anxiety",
+      "type": "mcq",
+      "question": "A 6-year-old hospitalized child becomes withdrawn and quiet after parents leave. This is which stage of separation anxiety?",
+      "options": [
+        "Protest",
+        "Despair",
+        "Detachment",
+        "Denial"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Despair' — because despair is the second stage of separation anxiety. The child becomes quiet, withdrawn, depressed, and may refuse to eat or play. INCORRECT: 'Protest' — because protest is loud crying and resistance. INCORRECT: 'Detachment' — because detachment appears as 'adjustment' but is emotional withdrawal. INCORRECT: 'Denial' — because not a standard stage.",
+      "slide": 21
+    },
+    {
+      "id": "q9_sata_pain_assessment",
+      "type": "sata",
+      "question": "Which pain assessment tools are appropriate for children? (Select all that apply.)",
+      "options": [
+        "FLACC scale for infants",
+        "FACES scale for children 3+ years",
+        "Numeric 0-10 scale for school-age+",
+        "CRIES scale for neonates",
+        "Visual analog scale for preschoolers"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'FLACC scale for infants' — because FLACC for nonverbal infants/children. CORRECT: 'FACES scale for children 3+ years' — because FACES for children 3+ years. CORRECT: 'Numeric 0-10 scale for school-age+' — because numeric for school-age who understand numbers. CORRECT: 'CRIES scale for neonates' — because CRIES for neonates. INCORRECT: 'Visual analog scale for preschoolers' — because visual analog is for school-age+.",
+      "slide": 21
+    },
+    {
+      "id": "q10_mcq_meningitis",
+      "type": "mcq",
+      "question": "A child with suspected meningitis is being evaluated. Which signs are positive for Kernig's and Brudzinski's signs?",
+      "options": [
+        "Kernig: knee flexion causes pain; Brudzinski: neck flexion causes hip flexion",
+        "Kernig: hip flexion causes knee pain; Brudzinski: hip extension causes neck pain",
+        "Kernig: neck flexion causes leg extension; Brudzinski: knee flexion causes neck pain",
+        "Kernig and Brudzinski are not used in children"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Kernig: knee flexion causes pain; Brudzinski: neck flexion causes hip flexion' — because Kernig's sign: with patient supine, flex hip and knee, then extend knee — pain/resistance is positive. Brudzinski's sign: passive neck flexion causes hip/knee flexion. Both indicate meningeal irritation. INCORRECT: 'Kernig: hip flexion causes knee pain; Brudzinski: hip extension causes neck pain' — because B is incorrect description. INCORRECT: 'Kernig: neck flexion causes leg extension; Brudzinski: knee flexion causes neck pain' — because C is incorrect description. INCORRECT: 'Kernig and Brudzinski are not used in children' — because these signs are used in children. CORRECT: 'Droplet precautions required' — because bacterial meningitis requires droplet precautions until 24 hours after antibiotics start. CORRECT: 'Droplet precautions required' — because bacterial meningitis requires droplet precautions until 24 hours after antibiotics start. CORRECT: 'Monitor for increased ICP' — because meningitis can cause increased intracranial pressure; watch for Cushing's triad (widening pulse pressure, bradycardia, irregular respirations).",
+      "slide": 23
+    },
+    {
+      "id": "q11_mcq_seizures",
+      "type": "mcq",
+      "question": "A child is having a generalized tonic-clonic seizure. What is the priority nursing intervention?",
+      "options": [
+        "Restrain the child to prevent injury",
+        "Place the child in a supine position",
+        "Clear the area of hazards and protect the head",
+        "Insert a tongue blade between teeth"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Clear the area of hazards and protect the head' — because protect the child during seizure: clear area of hazards, protect head, loosen tight clothing, position on side after seizure. INCORRECT: 'Restrain the child to prevent injury' — because restraint can cause injury. INCORRECT: 'Place the child in a supine position' — because position on side after seizure. INCORRECT: 'Insert a tongue blade between teeth' — because never insert objects in mouth (aspiration risk).",
+      "slide": 23
+    },
+    {
+      "id": "q12_sata_hydrocephalus",
+      "type": "sata",
+      "question": "Which signs and symptoms are characteristic of hydrocephalus? (Select all that apply.)",
+      "options": [
+        "Increasing head circumference",
+        "Bulging fontanelle",
+        "Setting sun sign (eyes looking downward)",
+        "High-pitched cry",
+        "Narrowing of suture lines"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Increasing head circumference' — because head circumference increases. CORRECT: 'Bulging fontanelle' — because fontanelle bulges. CORRECT: 'Setting sun sign (eyes looking downward)' — because setting sun sign. CORRECT: 'High-pitched cry' — because high-pitched cry. INCORRECT: 'Narrowing of suture lines' — because suture lines widen in hydrocephalus, not narrow.",
+      "slide": 23
+    },
+    {
+      "id": "q13_mcq_cerebral_palsy",
+      "type": "mcq",
+      "question": "What is the most common type of cerebral palsy?",
+      "options": [
+        "Dyskinetic (athetoid)",
+        "Ataxic",
+        "Spastic",
+        "Mixed"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Spastic' — because spastic cerebral palsy is the most common type (~70-80%). It is characterized by increased muscle tone, hyperreflexia, and scissor gait. INCORRECT: 'Dyskinetic (athetoid)' — because dyskinetic is ~10-20%. INCORRECT: 'Ataxic' — because ataxic is ~5-10%. INCORRECT: 'Mixed' — because mixed is combination.",
+      "slide": 23
+    },
+    {
+      "id": "q14_matrix_neuro",
+      "type": "matrix",
+      "question": "Match each neurological disorder with its key feature:",
+      "rows": [
+        "Sudden onset of fever, headache, stiff neck, positive Kernig's sign",
+        "Repeated seizures without known cause",
+        "Abnormal head growth with bulging fontanelle",
+        "Involuntary movements and difficulty with coordination"
+      ],
+      "columns": [
+        "Meningitis",
+        "Epilepsy",
+        "Hydrocephalus",
+        "Cerebral Palsy"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Sudden onset of fever, headache, stiff neck, positive Kernig's sign' matches 'Meningitis' — because meningitis presents with fever, stiff neck, Kernig's sign. CORRECT: 'Repeated seizures without known cause' matches 'Epilepsy' — because epilepsy is recurrent seizures without known cause. CORRECT: 'Abnormal head growth with bulging fontanelle' matches 'Hydrocephalus' — because hydrocephalus causes abnormal head growth and bulging fontanelle. CORRECT: 'Involuntary movements and difficulty with coordination' matches 'Cerebral Palsy' — because cerebral palsy causes involuntary movements and coordination difficulty.",
+      "slide": 23
+    },
+    {
+      "id": "q15_mcq_strabismus",
+      "type": "mcq",
+      "question": "A parent notices their 4-year-old's eyes appear to cross intermittently. What is the priority teaching?",
+      "options": [
+        "This is normal in preschoolers and will resolve",
+        "Covering the stronger eye is not an effective treatment",
+        "Early treatment is important to prevent amblyopia",
+        "Surgery is always the first-line treatment"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Early treatment is important to prevent amblyopia' — because early treatment of strabismus is critical to prevent amblyopia (lazy eye). Treatment includes patching the stronger eye, glasses, or surgery. INCORRECT: 'This is normal in preschoolers and will resolve' — because intermittent strabismus after 6 months requires evaluation. INCORRECT: 'Covering the stronger eye is not an effective treatment' — because patching is effective. INCORRECT: 'Surgery is always the first-line treatment' — because patching/glasses often tried first.",
+      "slide": 23
+    },
+    {
+      "id": "q16_sata_reye",
+      "type": "sata",
+      "question": "Which statements about Reye syndrome are correct? (Select all that apply.)",
+      "options": [
+        "Reye syndrome is associated with aspirin use during viral illness.",
+        "It causes acute encephalopathy and fatty liver.",
+        "It is most common in children under 15 years.",
+        "Acetaminophen is a safe alternative to aspirin.",
+        "It is a common childhood illness."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Reye syndrome is associated with aspirin use during viral illness.' — because aspirin + viral illness (flu, chickenpox) triggers Reye. CORRECT: 'It causes acute encephalopathy and fatty liver.' — because encephalopathy and fatty liver infiltration. CORRECT: 'It is most common in children under 15 years.' — because under 15 years. CORRECT: 'Acetaminophen is a safe alternative to aspirin.' — because acetaminophen is safe alternative. INCORRECT: 'It is a common childhood illness.' — because Reye is rare, especially with aspirin warnings.",
+      "slide": 23
+    },
+    {
+      "id": "q17_mcq_scoliosis",
+      "type": "mcq",
+      "question": "The Adams forward bend test is used to screen for:",
+      "options": [
+        "Clubfoot",
+        "Scoliosis",
+        "Developmental dysplasia of the hip",
+        "Cerebral palsy"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Scoliosis' — because the Adams forward bend test screens for scoliosis. The child bends forward — asymmetry in the back (rib hump) indicates possible scoliosis. INCORRECT: 'Clubfoot' — because clubfoot is foot deformity. INCORRECT: 'Developmental dysplasia of the hip' — because DDH uses Ortolani/Barlow tests. INCORRECT: 'Cerebral palsy' — because CP is neurological.",
+      "slide": 24
+    },
+    {
+      "id": "q18_mcq_ddh",
+      "type": "mcq",
+      "question": "Which test is used to screen for developmental dysplasia of the hip (DDH) in infants?",
+      "options": [
+        "Barlow and Ortolani maneuvers",
+        "Adams forward bend test",
+        "Gower's sign",
+        "Babinski reflex"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Barlow and Ortolani maneuvers' — because Barlow test: adduction with posterior pressure to check for dislocation. Ortolani test: abduction with anterior pressure to check for reduction. A click or clunk is positive. INCORRECT: 'Adams forward bend test' — because for scoliosis. INCORRECT: 'Gower's sign' — because for Duchenne muscular dystrophy. INCORRECT: 'Babinski reflex' — because for neurological testing.",
+      "slide": 24
+    },
+    {
+      "id": "q19_sata_fractures",
+      "type": "sata",
+      "question": "Which are the 5 P's of neurovascular assessment in a child with a fracture? (Select all that apply.)",
+      "options": [
+        "Pain",
+        "Pallor",
+        "Pulse",
+        "Paresthesia",
+        "Paralysis"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Pain' — because pain (out of proportion). CORRECT: 'Pallor' — because pallor (poor circulation). CORRECT: 'Pulse' — because pulse (absent or weak). CORRECT: 'Paresthesia' — because paresthesia (numbness/tingling). CORRECT: 'Paralysis' — because paralysis (loss of movement).",
+      "slide": 24
+    },
+    {
+      "id": "q20_mcq_traction",
+      "type": "mcq",
+      "question": "A child is placed in Buck's traction for a femur fracture. What is the priority nursing intervention?",
+      "options": [
+        "Allow the child to move freely in bed",
+        "Check neurovascular status frequently",
+        "Remove weights for comfort",
+        "Keep the bed flat with no elevation"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Check neurovascular status frequently' — because frequent neurovascular checks (5 P's) are critical with any traction to detect compartment syndrome or nerve/vascular compromise. INCORRECT: 'Allow the child to move freely in bed' — because child should be positioned correctly. INCORRECT: 'Remove weights for comfort' — because weights should never be removed. INCORRECT: 'Keep the bed flat with no elevation' — because bed may be elevated for counter-traction.",
+      "slide": 24
+    },
+    {
+      "id": "q21_mcq_duchenne",
+      "type": "mcq",
+      "question": "A boy with suspected Duchenne muscular dystrophy demonstrates Gower's sign. What is this?",
+      "options": [
+        "Walking on toes",
+        "Using hands to 'walk up' the legs when rising from the floor",
+        "Inability to sit without support",
+        "Scissor gait"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Using hands to 'walk up' the legs when rising from the floor' — because Gower's sign is when a child uses hands to push off knees and 'walk up' the legs when rising from sitting or squatting. It indicates proximal muscle weakness. INCORRECT: 'Walking on toes' — because toe walking may occur but not Gower's. INCORRECT: 'Inability to sit without support' — because not the sign. INCORRECT: 'Scissor gait' — because scissor gait is spastic CP.",
+      "slide": 24
+    },
+    {
+      "id": "q22_mcq_adolescence_depression",
+      "type": "mcq",
+      "question": "A 14-year-old reports feeling sad most days, loss of interest in activities, and difficulty sleeping. What is the most appropriate screening tool?",
+      "options": [
+        "Glasgow Coma Scale",
+        "PHQ-9",
+        "APGAR",
+        "Denver II"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'PHQ-9' — because PHQ-9 (Patient Health Questionnaire-9) is a validated depression screening tool for adolescents and adults. INCORRECT: 'Glasgow Coma Scale' — because GCS for neurological status. INCORRECT: 'APGAR' — because APGAR for newborn. INCORRECT: 'Denver II' — because Denver II for developmental screening.",
+      "slide": 20
+    },
+    {
+      "id": "q23_sata_eating_disorders",
+      "type": "sata",
+      "question": "Which statements about adolescent eating disorders are correct? (Select all that apply.)",
+      "options": [
+        "Anorexia nervosa involves restriction of food intake and fear of gaining weight.",
+        "Bulimia nervosa involves binge eating followed by compensatory behaviors.",
+        "Binge eating disorder involves recurrent binge eating without compensatory behaviors.",
+        "Eating disorders are more common in boys than girls.",
+        "Medical complications include electrolyte imbalances and cardiac arrhythmias."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Anorexia nervosa involves restriction of food intake and fear of gaining weight.' — because anorexia is restriction and fear of weight gain. CORRECT: 'Bulimia nervosa involves binge eating followed by compensatory behaviors.' — because bulimia is binge + purge/compensation. CORRECT: 'Binge eating disorder involves recurrent binge eating without compensatory behaviors.' — because binge eating disorder has no compensation. CORRECT: 'Medical complications include electrolyte imbalances and cardiac arrhythmias.' — because medical complications are serious. INCORRECT: 'Eating disorders are more common in boys than girls.' — because more common in girls.",
+      "slide": 20
+    },
+    {
+      "id": "q24_mcq_clubfoot",
+      "type": "mcq",
+      "question": "What is the primary treatment for clubfoot (talipes equinovarus) in infants?",
+      "options": [
+        "Immediate surgical correction",
+        "Ponseti method (serial casting)",
+        "Physical therapy only",
+        "Observation until age 2"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Ponseti method (serial casting)' — because the Ponseti method involves serial casting to gradually correct the deformity, followed by bracing (Denis Browne bar). Surgery is reserved for resistant cases. INCORRECT: 'Immediate surgical correction' — because surgery is not first-line. INCORRECT: 'Physical therapy only' — because casting is primary. INCORRECT: 'Observation until age 2' — because early treatment is essential.",
+      "slide": 24
+    },
+    {
+      "id": "q25_mcq_ngn_bowtie_adol",
+      "type": "bowtie",
+      "question": "A 16-year-old presents with weight loss, irregular periods, and excessive exercise. Identify the primary concern and select the most appropriate intervention.",
+      "options": [
+        "Concern: Anorexia nervosa with risk of electrolyte imbalance",
+        "Concern: Normal adolescent growth spurt",
+        "Concern: Hyperthyroidism",
+        "Intervention: Immediate hospitalization for stabilization",
+        "Intervention: Tell the teen to eat more",
+        "Intervention: Recommend more exercise to build strength"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT: 'Concern: Anorexia nervosa with risk of electrolyte imbalance' — because the symptoms (weight loss, irregular periods, excessive exercise) suggest anorexia nervosa. CORRECT: 'Intervention: Immediate hospitalization for stabilization' — because immediate hospitalization for stabilization (electrolytes, cardiac monitoring) is critical. INCORRECT: 'Concern: Normal adolescent growth spurt' — because not normal growth. INCORRECT: 'Concern: Hyperthyroidism' — because not hyperthyroidism. INCORRECT: 'Intervention: Tell the teen to eat more' — because dismissive. INCORRECT: 'Intervention: Recommend more exercise to build strength' — because dangerous advice.",
+      "slide": 20
+    },
+    {
+      "id": "q26_mcq_amblyopia",
+      "type": "mcq",
+      "question": "What is the primary treatment for amblyopia (lazy eye) in a child?",
+      "options": [
+        "Surgery",
+        "Patching the stronger eye",
+        "Eye drops",
+        "Observation"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Patching the stronger eye' — because patching the stronger eye forces the weaker eye to work harder, improving vision. Treatment is most effective before age 7-8. INCORRECT: 'Surgery' — because surgery may be for strabismus, not amblyopia. INCORRECT: 'Eye drops' — because drops may be used but patching is primary. INCORRECT: 'Observation' — because amblyopia requires treatment.",
+      "slide": 23
+    },
+    {
+      "id": "q27_sata_hospital_preparation",
+      "type": "sata",
+      "question": "Which statements about preparing children for hospitalization are correct? (Select all that apply.)",
+      "options": [
+        "Toddlers need simple explanations just before procedures.",
+        "School-age children can handle equipment and ask questions.",
+        "Adolescents benefit from involvement in decisions.",
+        "Preschoolers should be prepared days in advance.",
+        "All children should be told 'it won't hurt'."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "CORRECT: 'Toddlers need simple explanations just before procedures.' — because toddlers: simple, just before. CORRECT: 'School-age children can handle equipment and ask questions.' — because school-age: touch equipment. CORRECT: 'Adolescents benefit from involvement in decisions.' — because adolescents: involvement. INCORRECT: 'Preschoolers should be prepared days in advance.' — because days in advance causes anxiety in preschoolers. INCORRECT: 'All children should be told 'it won't hurt'.' — because never lie; be honest about sensations.",
+      "slide": 21
+    },
+    {
+      "id": "q28_mcq_matrix_ngn",
+      "type": "matrix",
+      "question": "Match each musculoskeletal disorder with its key test or sign:",
+      "rows": [
+        "Developmental dysplasia of the hip",
+        "Scoliosis",
+        "Duchenne muscular dystrophy",
+        "Clubfoot"
+      ],
+      "columns": [
+        "Ortolani/Barlow maneuvers",
+        "Adams forward bend test",
+        "Gower's sign",
+        "Ponseti method"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Developmental dysplasia of the hip' matches 'Ortolani/Barlow maneuvers' — because DDH uses Ortolani/Barlow maneuvers. CORRECT: 'Scoliosis' matches 'Adams forward bend test' — because scoliosis uses Adams forward bend test. CORRECT: 'Duchenne muscular dystrophy' matches 'Gower's sign' — because Duchenne uses Gower's sign. CORRECT: 'Clubfoot' matches 'Ponseti method' — because clubfoot uses Ponseti method.",
+      "slide": 24
+    },
+    {
+      "id": "q29_mcq_adol_autonomy",
+      "type": "mcq",
+      "question": "A 17-year-old refuses to follow the treatment plan and argues with parents about appointments. This is an example of:",
+      "options": [
+        "Abnormal behavior requiring intervention",
+        "Normal development of autonomy and identity",
+        "Sign of depression",
+        "Poor parenting"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Normal development of autonomy and identity' — because adolescents strive for autonomy and identity. Questioning authority and treatment plans is normal developmental behavior. INCORRECT: 'Abnormal behavior requiring intervention' — because not abnormal. INCORRECT: 'Sign of depression' — because not depression. INCORRECT: 'Poor parenting' — because not parenting issue.",
+      "slide": 20
+    },
+    {
+      "id": "q30_sata_seizure_precautions",
+      "type": "sata",
+      "question": "Which are appropriate seizure precautions for a hospitalized child? (Select all that apply.)",
+      "options": [
+        "Pad bed rails",
+        "Have suction and oxygen at bedside",
+        "Restrain during seizure",
+        "Stay with the child during seizure",
+        "Insert tongue blade if tongue is bitten"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Pad bed rails' — because pad rails. CORRECT: 'Have suction and oxygen at bedside' — because suction and oxygen ready. CORRECT: 'Stay with the child during seizure' — because stay with child. INCORRECT: 'Restrain during seizure' — because never restrain (causes injury). INCORRECT: 'Insert tongue blade if tongue is bitten' — because never insert objects in mouth.",
+      "slide": 23
+    },
+    {
+      "id": "q31_mcq_scoliosis_bracing",
+      "type": "mcq",
+      "question": "A 13-year-old with scoliosis has a 28-degree curve. What is the likely treatment?",
+      "options": [
+        "Observation only",
+        "Bracing (Boston or Milwaukee brace)",
+        "Immediate surgery",
+        "Physical therapy alone"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Bracing (Boston or Milwaukee brace)' — because curves 25-45 degrees in growing adolescents are treated with bracing to prevent progression. Surgery is for curves >45-50 degrees. INCORRECT: 'Observation only' — because 28 degrees requires treatment. INCORRECT: 'Immediate surgery' — because surgery for larger curves. INCORRECT: 'Physical therapy alone' — because bracing is primary.",
+      "slide": 24
+    },
+    {
+      "id": "q32_mcq_ngn_cloze",
+      "type": "cloze",
+      "question": "A child with cerebral palsy has increased muscle tone and scissor gait. This is _____ cerebral palsy, the most common type.",
+      "options": [
+        "spastic",
+        "dyskinetic",
+        "ataxic",
+        "mixed"
+      ],
+      "answer": [
+        0
+      ],
+      "rationale": "CORRECT: 'spastic' — because spastic cerebral palsy is the most common type (~70-80%). It is characterized by increased muscle tone (hypertonia), hyperreflexia, and scissor gait (legs cross when walking). INCORRECT: 'dyskinetic' — because dyskinetic is ~10-20%. INCORRECT: 'ataxic' — because ataxic is ~5-10%. INCORRECT: 'mixed' — because mixed is combination.",
+      "slide": 23
+    },
+    {
+      "id": "q33_mcq_meningococcal",
+      "type": "mcq",
+      "question": "At what age is the first dose of meningococcal conjugate vaccine (MenACWY) recommended?",
+      "options": [
+        "6 months",
+        "2 years",
+        "11-12 years",
+        "16 years"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: '11-12 years' — because MenACWY is recommended at 11-12 years with a booster at 16 years. INCORRECT: '6 months' — because not at 6 months. INCORRECT: '2 years' — because not at 2 years. INCORRECT: '16 years' — because 16 years is the booster.",
+      "slide": 20
+    },
+    {
+      "id": "q34_sata_pavlik",
+      "type": "sata",
+      "question": "Which statements about the Pavlik harness are correct? (Select all that apply.)",
+      "options": [
+        "It is used to treat developmental dysplasia of the hip (DDH).",
+        "It maintains the hips in flexion and abduction.",
+        "It is typically worn 23 hours per day.",
+        "It is used for clubfoot correction.",
+        "It should be removed for bathing."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "CORRECT: 'It is used to treat developmental dysplasia of the hip (DDH).' — because Pavlik harness treats DDH. CORRECT: 'It maintains the hips in flexion and abduction.' — because maintains flexion and abduction. CORRECT: 'It is typically worn 23 hours per day.' — because worn 23 hours/day. INCORRECT: 'It is used for clubfoot correction.' — because for clubfoot is Ponseti method. INCORRECT: 'It should be removed for bathing.' — because typically left on for bathing.",
+      "slide": 24
+    },
+    {
+      "id": "q35_mcq_ngn_highlight",
+      "type": "highlight",
+      "question": "A parent is teaching about adolescent safety. Highlight the THREE correct statements.",
+      "options": [
+        "Motor vehicle accidents are the leading cause of death in adolescents.",
+        "Texting while driving is safe if the teen is experienced.",
+        "Suicide is the second leading cause of death in adolescents.",
+        "Adolescents should never wear seat belts.",
+        "The HEADSS assessment screens for psychosocial risks."
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Motor vehicle accidents are the leading cause of death in adolescents.' — because MVA is leading cause of death. CORRECT: 'Suicide is the second leading cause of death in adolescents.' — because suicide is second. CORRECT: 'The HEADSS assessment screens for psychosocial risks.' — because HEADSS screens psychosocial risks. INCORRECT: 'Texting while driving is safe if the teen is experienced.' — because texting is dangerous. INCORRECT: 'Adolescents should never wear seat belts.' — because seat belts are essential.",
+      "slide": 20
+    },
+    {
+      "id": "q36_mcq_hpv",
+      "type": "mcq",
+      "question": "What is the recommended age for the first dose of human papillomavirus (HPV) vaccine?",
+      "options": [
+        "9 years",
+        "11-12 years",
+        "14 years",
+        "16 years"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: '11-12 years' — because HPV vaccine is recommended at 11-12 years (can be given as early as 9). Two doses if started before age 15; three doses if started at 15+. INCORRECT: '9 years' — because can be given but not the standard recommendation. INCORRECT: '14 years' — because too late for optimal protection. INCORRECT: '16 years' — because too late for optimal protection.",
+      "slide": 20
+    },
+    {
+      "id": "q37_sata_neuro_checks",
+      "type": "sata",
+      "question": "Which assessments are part of a neurological check for a child with a head injury? (Select all that apply.)",
+      "options": [
+        "Level of consciousness (LOC)",
+        "Pupil size and reactivity",
+        "Motor strength and movement",
+        "Vital signs",
+        "Sleep patterns"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Level of consciousness (LOC)' — because LOC is critical. CORRECT: 'Pupil size and reactivity' — because pupils indicate brain function. CORRECT: 'Motor strength and movement' — because motor assessment. CORRECT: 'Vital signs' — because vital signs. INCORRECT: 'Sleep patterns' — because not part of neuro check (though altered sleep may be noted).",
+      "slide": 23
+    },
+    {
+      "id": "q38_mcq_tanner_boys",
+      "type": "mcq",
+      "question": "In boys, which occurs first during puberty?",
+      "options": [
+        "Pubic hair growth",
+        "Penile growth",
+        "Testicular growth",
+        "Axillary hair"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Testicular growth' — because testicular growth is the first sign of puberty in boys (Tanner stage 2). This precedes pubic hair and penile growth. INCORRECT: 'Pubic hair growth' — because pubic hair follows. INCORRECT: 'Penile growth' — because follows testicular growth. INCORRECT: 'Axillary hair' — because axillary hair is later.",
+      "slide": 20
+    },
+    {
+      "id": "q39_mcq_ponseti",
+      "type": "mcq",
+      "question": "The Ponseti method for clubfoot correction involves:",
+      "options": [
+        "Surgery as the first step",
+        "Serial casting followed by bracing",
+        "Physical therapy alone",
+        "Observation until age 5"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Serial casting followed by bracing' — because the Ponseti method uses serial casting (weekly) to gradually correct the deformity, followed by bracing (Denis Browne bar) to maintain correction. Surgery is reserved for resistant cases. INCORRECT: 'Surgery as the first step' — because surgery not first. INCORRECT: 'Physical therapy alone' — because casting is primary. INCORRECT: 'Observation until age 5' — because early treatment essential.",
+      "slide": 24
+    },
+    {
+      "id": "q40_mcq_ngn_sata",
+      "type": "sata",
+      "question": "A 15-year-old presents with weight loss, amenorrhea, and excessive exercise. Which findings support anorexia nervosa? (Select all that apply.)",
+      "options": [
+        "BMI below 17",
+        "Fear of gaining weight",
+        "Distorted body image",
+        "Binge eating episodes",
+        "Electrolyte abnormalities"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'BMI below 17' — because low BMI. CORRECT: 'Fear of gaining weight' — because fear of weight gain. CORRECT: 'Distorted body image' — because distorted body image. CORRECT: 'Electrolyte abnormalities' — because electrolyte issues. INCORRECT: 'Binge eating episodes' — because binge eating is bulimia/binge eating disorder.",
+      "slide": 20
+    },
+    {
+      "id": "q41_mcq_seizure_types",
+      "type": "mcq",
+      "question": "A child has brief staring spells lasting 10-20 seconds with no postictal confusion. What type of seizure is this?",
+      "options": [
+        "Generalized tonic-clonic",
+        "Absence seizure",
+        "Partial complex",
+        "Febrile seizure"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Absence seizure' — because absence seizures (petit mal) are brief staring spells (5-20 seconds) with abrupt onset and no postictal confusion. Common in children 4-10 years. INCORRECT: 'Generalized tonic-clonic' — because tonic-clonic has convulsions. INCORRECT: 'Partial complex' — because partial complex has automatisms. INCORRECT: 'Febrile seizure' — because related to fever.",
+      "slide": 23
+    },
+    {
+      "id": "q42_mcq_ddh_pavlik",
+      "type": "mcq",
+      "question": "A 2-month-old is diagnosed with developmental dysplasia of the hip (DDH). What is the primary treatment?",
+      "options": [
+        "Pavlik harness",
+        "Immediate surgery",
+        "Observation",
+        "Casting"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Pavlik harness' — because the Pavlik harness is the primary treatment for DDH in infants <6 months. It maintains hips in flexion and abduction. Surgery is for older infants or failed harness. INCORRECT: 'Immediate surgery' — because surgery for older infants or failed harness. INCORRECT: 'Observation' — because observation not primary. INCORRECT: 'Casting' — because casting not primary for infants.",
+      "slide": 24
+    },
+    {
+      "id": "q43_sata_traction",
+      "type": "sata",
+      "question": "Which are important nursing interventions for a child in skeletal traction? (Select all that apply.)",
+      "options": [
+        "Check neurovascular status every 2-4 hours",
+        "Never remove weights without provider order",
+        "Keep weights hanging freely",
+        "Perform pin site care as ordered",
+        "Allow child to move freely in bed"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Check neurovascular status every 2-4 hours' — because frequent neuro checks. CORRECT: 'Never remove weights without provider order' — because never remove weights. CORRECT: 'Keep weights hanging freely' — because weights hang freely. CORRECT: 'Perform pin site care as ordered' — because pin care. INCORRECT: 'Allow child to move freely in bed' — because child should be positioned correctly, not move freely.",
+      "slide": 24
+    },
+    {
+      "id": "q44_mcq_adol_sleep",
+      "type": "mcq",
+      "question": "What is the recommended amount of sleep for adolescents?",
+      "options": [
+        "6-7 hours",
+        "7-8 hours",
+        "8-10 hours",
+        "10-12 hours"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: '8-10 hours' — because adolescents need 8-10 hours of sleep per night. Sleep deprivation affects mood, concentration, and school performance. INCORRECT: '6-7 hours' — because too little. INCORRECT: '7-8 hours' — because borderline. INCORRECT: '10-12 hours' — because too much.",
+      "slide": 20
+    },
+    {
+      "id": "q45_mcq_ngn_matrix",
+      "type": "matrix",
+      "question": "Match each vaccine with the correct recommendation:",
+      "rows": [
+        "Meningococcal (MenACWY)",
+        "Human Papillomavirus (HPV)",
+        "Tetanus, diphtheria, pertussis (Tdap)",
+        "Influenza"
+      ],
+      "columns": [
+        "11-12 years, booster at 16",
+        "11-12 years (2-3 doses)",
+        "11-12 years",
+        "Annually"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Meningococcal (MenACWY)' matches '11-12 years, booster at 16' — because MenACWY at 11-12 + 16. CORRECT: 'Human Papillomavirus (HPV)' matches '11-12 years (2-3 doses)' — because HPV at 11-12, 2-3 doses. CORRECT: 'Tetanus, diphtheria, pertussis (Tdap)' matches '11-12 years' — because Tdap at 11-12. CORRECT: 'Influenza' matches 'Annually' — because flu annually.",
+      "slide": 20
+    },
+    {
+      "id": "q46_mcq_cerebral_palsy_types",
+      "type": "mcq",
+      "question": "A child with cerebral palsy has involuntary movements and difficulty controlling posture. This is:",
+      "options": [
+        "Spastic CP",
+        "Dyskinetic (athetoid) CP",
+        "Ataxic CP",
+        "Mixed CP"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Dyskinetic (athetoid) CP' — because dyskinetic (athetoid) CP involves involuntary, writhing movements and difficulty with posture control. It is caused by damage to the basal ganglia. INCORRECT: 'Spastic CP' — because spastic is increased tone. INCORRECT: 'Ataxic CP' — because ataxic is balance/coordination issues. INCORRECT: 'Mixed CP' — because not mixed.",
+      "slide": 23
+    },
+    {
+      "id": "q47_sata_musculo_assessment",
+      "type": "sata",
+      "question": "Which assessments are important for a child with a musculoskeletal disorder? (Select all that apply.)",
+      "options": [
+        "Neurovascular status (5 P's)",
+        "Range of motion",
+        "Muscle strength",
+        "Pain level",
+        "Gait and posture"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Neurovascular status (5 P's)' — because neurovascular (5 P's) for circulation/nerve. CORRECT: 'Range of motion' — because ROM and strength for function. CORRECT: 'Muscle strength' — because ROM and strength for function. CORRECT: 'Pain level' — because pain for comfort. CORRECT: 'Gait and posture' — because gait/posture for alignment and mobility.",
+      "slide": 24
+    },
+    {
+      "id": "q48_mcq_ngn_bowtie2",
+      "type": "bowtie",
+      "question": "A 14-year-old with a femur fracture in traction reports severe pain, pallor, and tingling in the foot. Identify the concern and select the priority intervention.",
+      "options": [
+        "Concern: Compartment syndrome",
+        "Concern: Normal post-fracture pain",
+        "Concern: Traction weight too heavy",
+        "Intervention: Notify provider immediately",
+        "Intervention: Give more pain medication",
+        "Intervention: Elevate the leg higher"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT: 'Concern: Compartment syndrome' — because severe pain, pallor, and paresthesia (tingling) are signs of compartment syndrome — a medical emergency. CORRECT: 'Intervention: Notify provider immediately' — because notify provider immediately for possible fasciotomy. INCORRECT: 'Concern: Normal post-fracture pain' — because not normal pain. INCORRECT: 'Concern: Traction weight too heavy' — because not the cause. INCORRECT: 'Intervention: Give more pain medication' — because pain med won't fix compartment syndrome. INCORRECT: 'Intervention: Elevate the leg higher' — because elevation may worsen.",
+      "slide": 24
+    },
+    {
+      "id": "q49_mcq_adol_headss",
+      "type": "mcq",
+      "question": "During a HEADSS assessment, an adolescent admits to occasional alcohol use. What is the next step?",
+      "options": [
+        "Report to parents immediately",
+        "Ask about frequency, quantity, and context",
+        "Refer to addiction treatment",
+        "Ignore it as normal adolescent behavior"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Ask about frequency, quantity, and context' — because explore further — ask about frequency, quantity, context, and other substance use. INCORRECT: 'Report to parents immediately' — because not mandatory reporting unless safety concern. INCORRECT: 'Refer to addiction treatment' — because not first step. INCORRECT: 'Ignore it as normal adolescent behavior' — because needs exploration.",
+      "slide": 20
+    },
+    {
+      "id": "q50_mcq_scoliosis_surgery",
+      "type": "mcq",
+      "question": "At what curve degree is surgery typically recommended for adolescent idiopathic scoliosis?",
+      "options": [
+        "20-25 degrees",
+        "25-35 degrees",
+        "40-50 degrees",
+        "60-70 degrees"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: '40-50 degrees' — because surgery is typically recommended for curves >45-50 degrees to prevent progression and respiratory compromise. INCORRECT: '20-25 degrees' — because observation or bracing. INCORRECT: '25-35 degrees' — because bracing. INCORRECT: '60-70 degrees' — because too severe.",
+      "slide": 24
+    },
+    {
+      "id": "q51_sata_seizure_teaching",
+      "type": "sata",
+      "question": "Which statements about seizure safety teaching are correct? (Select all that apply.)",
+      "options": [
+        "Turn child on side after seizure ends.",
+        "Never restrain during seizure.",
+        "Place something soft under the head.",
+        "Call 911 if seizure lasts more than 5 minutes.",
+        "Insert a tongue blade during seizure."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Turn child on side after seizure ends.' — because side-lying prevents aspiration. CORRECT: 'Never restrain during seizure.' — because never restrain. CORRECT: 'Place something soft under the head.' — because protect head. CORRECT: 'Call 911 if seizure lasts more than 5 minutes.' — because status epilepticus. INCORRECT: 'Insert a tongue blade during seizure.' — because never insert objects in mouth.",
+      "slide": 23
+    },
+    {
+      "id": "q52_mcq_ngn_cloze2",
+      "type": "cloze",
+      "question": "A 16-year-old reports feeling sad, hopeless, and has lost interest in friends and activities. This is a sign of _____, which is the _____ leading cause of death in adolescents.",
+      "options": [
+        "depression",
+        "meningitis",
+        "second",
+        "first"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "rationale": "CORRECT: 'depression' — because depression symptoms include sadness, hopelessness, loss of interest. CORRECT: 'second' — because suicide (often related to depression) is the second leading cause of death in adolescents after motor vehicle accidents. INCORRECT: 'meningitis' — because not meningitis. INCORRECT: 'first' — because not first.",
+      "slide": 20
+    },
+    {
+      "id": "q53_mcq_pavlik_nursing",
+      "type": "mcq",
+      "question": "A parent asks about the Pavlik harness for their infant with DDH. What is correct teaching?",
+      "options": [
+        "Remove the harness for 4 hours daily",
+        "Keep the harness on 23 hours per day",
+        "It should be worn only at night",
+        "Bathing is done with harness off"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Keep the harness on 23 hours per day' — because the Pavlik harness is worn 23 hours per day for effective treatment. It maintains hips in flexion and abduction. Removal is only for bathing if provider allows. INCORRECT: 'Remove the harness for 4 hours daily' — because keep on as prescribed. INCORRECT: 'It should be worn only at night' — because keep on as prescribed. INCORRECT: 'Bathing is done with harness off' — because keep on as prescribed.",
+      "slide": 24
+    },
+    {
+      "id": "q54_sata_adol_nutrition",
+      "type": "sata",
+      "question": "Which statements about adolescent nutrition are correct? (Select all that apply.)",
+      "options": [
+        "Calcium intake is critical for bone development.",
+        "Iron needs increase due to growth and menstruation.",
+        "Adolescents need more calories than adults.",
+        "Skipping meals is healthy for weight control.",
+        "Calcium and vitamin D prevent osteoporosis later."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Calcium intake is critical for bone development.' — because calcium for bone. CORRECT: 'Iron needs increase due to growth and menstruation.' — because iron needs increase. CORRECT: 'Adolescents need more calories than adults.' — because higher calorie needs. CORRECT: 'Calcium and vitamin D prevent osteoporosis later.' — because prevention. INCORRECT: 'Skipping meals is healthy for weight control.' — because skipping meals is unhealthy.",
+      "slide": 20
+    },
+    {
+      "id": "q55_mcq_duchenne_prognosis",
+      "type": "mcq",
+      "question": "Duchenne muscular dystrophy is:",
+      "options": [
+        "Curable with medication",
+        "A progressive, fatal disorder",
+        "More common in girls",
+        "Caused by a viral infection"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'A progressive, fatal disorder' — because Duchenne is a progressive, fatal X-linked disorder caused by dystrophin gene mutation. It primarily affects boys. There is no cure, though corticosteroids can slow progression. INCORRECT: 'Curable with medication' — because not curable. INCORRECT: 'More common in girls' — because boys. INCORRECT: 'Caused by a viral infection' — because genetic.",
+      "slide": 24
+    },
+    {
+      "id": "q56_mcq_ngn_highlight2",
+      "type": "highlight",
+      "question": "A nurse is teaching about meningitis. Highlight the THREE correct signs/symptoms.",
+      "options": [
+        "Sudden onset of high fever",
+        "Stiff neck and positive Kernig's sign",
+        "Rash that disappears when pressed",
+        "Headache and photophobia",
+        "Clear, runny nose"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Sudden onset of high fever' — because sudden fever. CORRECT: 'Stiff neck and positive Kernig's sign' — because stiff neck/Kernig's. CORRECT: 'Headache and photophobia' — because headache/photophobia. INCORRECT: 'Rash that disappears when pressed' — because petechial rash (meningococcal) does NOT blanch. INCORRECT: 'Clear, runny nose' — because not just runny nose.",
+      "slide": 23
+    },
+    {
+      "id": "q57_mcq_ngn_matrix2",
+      "type": "matrix",
+      "question": "Match each condition with its primary sign:",
+      "rows": [
+        "Scoliosis",
+        "DDH",
+        "Clubfoot",
+        "Duchenne MD"
+      ],
+      "columns": [
+        "Rib hump on Adams test",
+        "Positive Ortolani",
+        "Inward turned foot",
+        "Gower's sign"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Scoliosis' matches 'Rib hump on Adams test' — because scoliosis causes rib hump. CORRECT: 'DDH' matches 'Positive Ortolani' — because DDH has positive Ortolani. CORRECT: 'Clubfoot' matches 'Inward turned foot' — because clubfoot is inward turned foot. CORRECT: 'Duchenne MD' matches 'Gower's sign' — because Duchenne has Gower's sign.",
+      "slide": 24
+    },
+    {
+      "id": "q58_sata_hospital_interventions",
+      "type": "sata",
+      "question": "Which interventions reduce hospitalization stress for a school-age child? (Select all that apply.)",
+      "options": [
+        "Allow child to handle equipment",
+        "Maintain normal routines",
+        "Explain procedures in detail",
+        "Provide age-appropriate activities",
+        "Restrict parent visits"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Allow child to handle equipment' — because hands-on. CORRECT: 'Maintain normal routines' — because routines. CORRECT: 'Explain procedures in detail' — because detailed explanation. CORRECT: 'Provide age-appropriate activities' — because activities. INCORRECT: 'Restrict parent visits' — because parent presence reduces stress.",
+      "slide": 21
+    },
+    {
+      "id": "q59_mcq_mva_prevention",
+      "type": "mcq",
+      "question": "What is the most effective intervention to reduce adolescent motor vehicle deaths?",
+      "options": [
+        "Teaching defensive driving",
+        "Graduated licensing laws",
+        "Restricting cell phone use",
+        "All of the above"
+      ],
+      "answer": 3,
+      "rationale": "CORRECT: 'All of the above' — because all are effective. Graduated licensing, cell phone restrictions, and defensive driving education all reduce MVA deaths. Comprehensive approaches are most effective. INCORRECT: 'Teaching defensive driving' — because only one component. INCORRECT: 'Graduated licensing laws' — because only one component. INCORRECT: 'Restricting cell phone use' — because only one component.",
+      "slide": 20
+    },
+    {
+      "id": "q60_mcq_ngn_bowtie3",
+      "type": "bowtie",
+      "question": "A 12-year-old with a femur fracture reports tingling, numbness, and severe pain in the calf. Identify the concern and priority intervention.",
+      "options": [
+        "Concern: Compartment syndrome",
+        "Concern: Fracture healing",
+        "Concern: Infection",
+        "Intervention: Notify provider immediately",
+        "Intervention: Apply ice and elevate",
+        "Intervention: Give oral pain medication"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT: 'Concern: Compartment syndrome' — because tingling, numbness, and severe pain in the calf indicate compartment syndrome — a surgical emergency. CORRECT: 'Intervention: Notify provider immediately' — because notify provider immediately. INCORRECT: 'Concern: Fracture healing' — because not healing. INCORRECT: 'Concern: Infection' — because not infection. INCORRECT: 'Intervention: Apply ice and elevate' — because ice/elevation may worsen. INCORRECT: 'Intervention: Give oral pain medication' — because pain med won't fix compartment syndrome.",
+      "slide": 24
+    },
+    {
+      "id": "q61_sata_seizure_meds",
+      "type": "sata",
+      "question": "Which medications are commonly used for seizure management in children? (Select all that apply.)",
+      "options": [
+        "Phenytoin (Dilantin)",
+        "Carbamazepine (Tegretol)",
+        "Valproic acid (Depakote)",
+        "Levetiracetam (Keppra)",
+        "Ibuprofen"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Phenytoin (Dilantin)' — because phenytoin. CORRECT: 'Carbamazepine (Tegretol)' — because carbamazepine. CORRECT: 'Valproic acid (Depakote)' — because valproic acid. CORRECT: 'Levetiracetam (Keppra)' — because levetiracetam. INCORRECT: 'Ibuprofen' — because ibuprofen is analgesic, not antiepileptic.",
+      "slide": 23
+    },
+    {
+      "id": "q62_mcq_ngn_cloze3",
+      "type": "cloze",
+      "question": "A child with hydrocephalus has a VP shunt. A sudden increase in _____ circumference, _____ fontanelle, and _____ cry indicates shunt malfunction.",
+      "options": [
+        "head",
+        "bulging",
+        "high-pitched",
+        "abdomen"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "CORRECT: 'head' — because head circumference. CORRECT: 'bulging' — because bulging fontanelle. CORRECT: 'high-pitched' — because high-pitched cry. INCORRECT: 'abdomen' — because abdomen is not a sign of shunt malfunction.",
+      "slide": 23
+    },
+    {
+      "id": "q63_mcq_adol_screening",
+      "type": "mcq",
+      "question": "Which screening should be performed at every adolescent well visit?",
+      "options": [
+        "Colonoscopy",
+        "Depression screening",
+        "Mammography",
+        "Bone density scan"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Depression screening' — because depression screening (e.g., PHQ-9) should be performed at every adolescent well visit. Suicide is the second leading cause of death in adolescents. INCORRECT: 'Colonoscopy' — because not for teens. INCORRECT: 'Mammography' — because not for teens. INCORRECT: 'Bone density scan' — because not routine.",
+      "slide": 20
+    },
+    {
+      "id": "q64_mcq_ngn_sata2",
+      "type": "sata",
+      "question": "Which are appropriate interventions for a child having a seizure? (Select all that apply.)",
+      "options": [
+        "Clear the area of hazards",
+        "Protect the head",
+        "Time the seizure",
+        "Turn on side after seizure",
+        "Restrain the child"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Clear the area of hazards' — because clear hazards. CORRECT: 'Protect the head' — because protect head. CORRECT: 'Time the seizure' — because time seizure. CORRECT: 'Turn on side after seizure' — because side after. INCORRECT: 'Restrain the child' — because never restrain.",
+      "slide": 23
+    },
+    {
+      "id": "q65_mcq_hospital_age",
+      "type": "mcq",
+      "question": "Which age group has the highest risk for separation anxiety during hospitalization?",
+      "options": [
+        "Infants (0-12 months)",
+        "Toddlers (1-3 years)",
+        "Preschoolers (3-5 years)",
+        "School-age (6-12 years)"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Toddlers (1-3 years)' — because toddlers (1-3 years) have the highest risk for separation anxiety. They have strong attachment to parents and limited understanding of time. INCORRECT: 'Infants (0-12 months)' — because infants show distress but less separation anxiety. INCORRECT: 'Preschoolers (3-5 years)' — because preschoolers have more understanding. INCORRECT: 'School-age (6-12 years)' — because school-age has coping skills.",
+      "slide": 21
+    },
+    {
+      "id": "q66_sata_ngn",
+      "type": "sata",
+      "question": "Which statements about NGN question types are correct? (Select all that apply.)",
+      "options": [
+        "Matrix questions require matching rows to columns.",
+        "Bowtie questions assess cause-effect and interventions.",
+        "Cloze questions use drag-and-drop fill-in-the-blank.",
+        "Highlight questions require selecting text.",
+        "SATA questions have only one correct answer."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Matrix questions require matching rows to columns.' — because matrix matches rows to columns. CORRECT: 'Bowtie questions assess cause-effect and interventions.' — because bowtie assesses cause-effect and interventions. CORRECT: 'Cloze questions use drag-and-drop fill-in-the-blank.' — because cloze is drag-and-drop. CORRECT: 'Highlight questions require selecting text.' — because highlight selects text. INCORRECT: 'SATA questions have only one correct answer.' — because SATA can have multiple correct answers.",
+      "slide": 21
+    },
+    {
+      "id": "q67_mcq_ngn_matrix3",
+      "type": "matrix",
+      "question": "Match each intervention with the correct condition:",
+      "rows": [
+        "Pavlik harness",
+        "Ponseti method",
+        "Boston brace",
+        "Gower's sign"
+      ],
+      "columns": [
+        "Developmental dysplasia of the hip",
+        "Clubfoot",
+        "Scoliosis",
+        "Duchenne muscular dystrophy"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Pavlik harness' matches 'Developmental dysplasia of the hip' — because Pavlik for DDH. CORRECT: 'Ponseti method' matches 'Clubfoot' — because Ponseti for clubfoot. CORRECT: 'Boston brace' matches 'Scoliosis' — because Boston brace for scoliosis. CORRECT: 'Gower's sign' matches 'Duchenne muscular dystrophy' — because Gower's for Duchenne.",
+      "slide": 24
+    },
+    {
+      "id": "q68_mcq_adol_vaccines",
+      "type": "mcq",
+      "question": "Which vaccine should be given to all adolescents at 11-12 years?",
+      "options": [
+        "Rotavirus",
+        "Pneumococcal",
+        "Tdap",
+        "Varicella"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Tdap' — because Tdap (tetanus, diphtheria, pertussis) is given at 11-12 years. INCORRECT: 'Rotavirus' — because rotavirus is for infants. INCORRECT: 'Pneumococcal' — because pneumococcal is for infants/elderly. INCORRECT: 'Varicella' — because varicella is given at 12 months and 4-6 years.",
+      "slide": 20
+    },
+    {
+      "id": "q69_sata_hydro",
+      "type": "sata",
+      "question": "Which are signs of hydrocephalus in an infant? (Select all that apply.)",
+      "options": [
+        "Increasing head circumference",
+        "Bulging fontanelle",
+        "Setting sun sign",
+        "High-pitched cry",
+        "Narrow suture lines"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Increasing head circumference' — because increasing head size. CORRECT: 'Bulging fontanelle' — because bulging fontanelle. CORRECT: 'Setting sun sign' — because setting sun sign. CORRECT: 'High-pitched cry' — because high-pitched cry. INCORRECT: 'Narrow suture lines' — because suture lines widen.",
+      "slide": 23
+    },
+    {
+      "id": "q70_mcq_ngn_final",
+      "type": "mcq",
+      "question": "A 16-year-old is experiencing identity confusion, experimenting with different roles, and questioning values. This is consistent with:",
+      "options": [
+        "Erikson's Industry vs Inferiority",
+        "Erikson's Identity vs Role Confusion",
+        "Piaget's Concrete Operational",
+        "Kohlberg's Postconventional"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Erikson's Identity vs Role Confusion' — because Identity vs Role Confusion (12-18 years) involves questioning values, experimenting with roles, and developing a sense of self. INCORRECT: 'Erikson's Industry vs Inferiority' — because Industry is school-age. INCORRECT: 'Piaget's Concrete Operational' — because Concrete Operational is cognitive, not psychosocial. INCORRECT: 'Kohlberg's Postconventional' — because Postconventional is moral reasoning.",
+      "slide": 20
+    },
+    {
+      "id": "q71_mcq_pain_5th_vital",
+      "type": "mcq",
+      "question": "A nurse is caring for a hospitalized child who is grimacing and guarding their abdomen but refuses to report pain. What should the nurse understand?",
+      "options": [
+        "Children always accurately report their pain level",
+        "Pain is the 5th vital sign and should be assessed even if the child does not verbalize it",
+        "If a child does not report pain, they are not experiencing it",
+        "Only school-age children can accurately describe pain"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pain is the 5th vital sign and should be assessed even if the child does not verbalize it' — because pain is whatever the person says it is (verbal or nonverbal). Children may not report pain for fear of injection or because they cannot verbalize. INCORRECT: 'Children always accurately report their pain level' — because children may not report due to fear. INCORRECT: 'If a child does not report pain, they are not experiencing it' — because nonverbal signs indicate pain. INCORRECT: 'Only school-age children can accurately describe pain' — because even infants show pain behaviors.",
+      "slide": 21
+    },
+    {
+      "id": "q72_mcq_conscious_sedation",
+      "type": "mcq",
+      "question": "A child is receiving conscious sedation for a procedure. What is the nurse's priority responsibility?",
+      "options": [
+        "Administer the sedation medication",
+        "Maintain a 1:1 nurse-patient ratio until the child returns to presedation level of responsiveness",
+        "Document the procedure only",
+        "Allow family to stay without monitoring"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Maintain a 1:1 nurse-patient ratio until the child returns to presedation level of responsiveness' — because conscious sedation impairs consciousness but protective reflexes remain. The nurse must monitor until stable vitals, age-appropriate motor/verbal abilities, adequate hydration, and presedation responsiveness return. INCORRECT: 'Administer the sedation medication' — because the provider typically administers. INCORRECT: 'Document the procedure only' — because monitoring is priority. INCORRECT: 'Allow family to stay without monitoring' — because the nurse must stay with the child.",
+      "slide": 21
+    },
+    {
+      "id": "q73_mcq_language_interpreter",
+      "type": "mcq",
+      "question": "A non-English speaking parent needs to consent for their child's procedure. What is the correct nursing action?",
+      "options": [
+        "Use the older sibling to translate",
+        "Use a professional language interpreter as required by federal law",
+        "Have the parent sign without explanation",
+        "Ask the provider to explain in English"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Use a professional language interpreter as required by federal law' — because healthcare sites are required by federal law to provide language interpreters at no charge. Family members should never be used because information can be 'lost in translation.' INCORRECT: 'Use the older sibling to translate' — because family should not interpret. INCORRECT: 'Have the parent sign without explanation' — because informed consent requires understanding. INCORRECT: 'Ask the provider to explain in English' — because the parent may not understand.",
+      "slide": 21
+    },
+    {
+      "id": "q74_mcq_cultural_sensitivity",
+      "type": "mcq",
+      "question": "A nurse is caring for a hospitalized child whose family has specific cultural practices around modesty and gender of caregivers. What is the best approach?",
+      "options": [
+        "Ignore cultural requests to maintain hospital efficiency",
+        "Show cultural sensitivity to decrease anxiety and improve compliance with treatment",
+        "Tell the family their practices are not allowed",
+        "Assign any available nurse regardless of preferences"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Show cultural sensitivity to decrease anxiety and improve compliance with treatment' — because effective utilization of healthcare services and compliance with treatment plans are enhanced when the nurse's approach is compatible with cultural needs and beliefs. Nonverbal cues and body language are important in intercultural communication. INCORRECT: 'Ignore cultural requests to maintain hospital efficiency' — because this increases anxiety. INCORRECT: 'Tell the family their practices are not allowed' — because this is disrespectful. INCORRECT: 'Assign any available nurse regardless of preferences' — because cultural needs should be accommodated when possible.",
+      "slide": 21
+    },
+    {
+      "id": "q75_mcq_tpn_nursing",
+      "type": "mcq",
+      "question": "A child is receiving TPN (Total Parenteral Nutrition) via a central line. What is a critical nursing consideration?",
+      "options": [
+        "The TPN line can be used for all medications",
+        "The TPN line is dedicated and should never be used for other medications without pharmacy approval",
+        "TPN does not require sterile technique",
+        "Daily weights are not necessary"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'The TPN line is dedicated and should never be used for other medications without pharmacy approval' — because TPN is a dedicated line. Nursing responsibilities include: strict sterile technique, monitor glucose, check site for infection, daily weights, I&O, and monitoring for complications (hyperglycemia, infection, liver dysfunction, fluid overload). INCORRECT: 'The TPN line can be used for all medications' — because it is dedicated. INCORRECT: 'TPN does not require sterile technique' — because infection risk is high. INCORRECT: 'Daily weights are not necessary' — because weights monitor fluid/nutrition status.",
+      "slide": 22
+    },
+    {
+      "id": "q76_mcq_pyloric_stenosis",
+      "type": "mcq",
+      "question": "An infant presents with projectile vomiting shortly after feeding. The infant remains hungry after vomiting, and the nurse palpates an olive-like mass in the right upper quadrant. What condition is suspected?",
+      "options": [
+        "Gastroesophageal reflux",
+        "Pyloric stenosis",
+        "Intussusception",
+        "Hirschsprung disease"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pyloric stenosis' — because hypertrophy of the pyloric sphincter causes gastric outlet obstruction. Classic signs: projectile non-bilious vomiting, hungry after vomiting, palpable olive-like mass in RUQ. INCORRECT: 'Gastroesophageal reflux' — because GER causes spitting up, not projectile vomiting with mass. INCORRECT: 'Intussusception' — because currant jelly stool, sausage-shaped mass. INCORRECT: 'Hirschsprung disease' — because failure to pass meconium, ribbon-like stools.",
+      "slide": 22
+    },
+    {
+      "id": "q77_mcq_tof_spell",
+      "type": "mcq",
+      "question": "A child with Tetralogy of Fallot becomes suddenly cyanotic and agitated during a tet spell. What is the priority nursing action?",
+      "options": [
+        "Administer oxygen only",
+        "Place the child in knee-chest position",
+        "Give morphine immediately",
+        "Call for rapid response"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Place the child in knee-chest position' — because knee-chest position increases systemic vascular resistance, reduces right-to-left shunting, and improves oxygenation. This is the first action. INCORRECT: 'Administer oxygen only' — because oxygen alone is not sufficient; position first. INCORRECT: 'Give morphine immediately' — because morphine reduces infundibular spasm but position is first. INCORRECT: 'Call for rapid response' — because the nurse should intervene immediately while calling for help.",
+      "slide": 26
+    },
+    {
+      "id": "q78_sata_cf_treatment",
+      "type": "sata",
+      "question": "Which nursing interventions are appropriate for a child with cystic fibrosis? (Select all that apply.)",
+      "options": [
+        "Administer pancreatic enzymes before meals",
+        "Encourage high-calorie, high-protein diet",
+        "Perform chest physiotherapy daily",
+        "Restrict salt intake in hot weather",
+        "Administer fat-soluble vitamin supplements"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Administer pancreatic enzymes before meals' — because pancreatic insufficiency requires enzyme replacement with all meals/snacks. CORRECT: 'Encourage high-calorie, high-protein diet' — because increased metabolic needs due to chronic lung disease. CORRECT: 'Perform chest physiotherapy daily' — because airway clearance is essential to prevent infections. CORRECT: 'Administer fat-soluble vitamin supplements' — because fat malabsorption leads to deficiencies of A, D, E, K. INCORRECT: 'Restrict salt intake in hot weather' — because salt supplementation is needed due to excessive salt loss in sweat.",
+      "slide": 23
+    },
+    {
+      "id": "q79_mcq_otitis_media",
+      "type": "mcq",
+      "question": "A toddler with otitis media tugs at their ear, is irritable, and has a fever. Which risk factor is most associated with this condition?",
+      "options": [
+        "Breastfeeding exclusively",
+        "Pacifier use and bottle propping",
+        "Regular hand hygiene",
+        "Limited daycare exposure"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Pacifier use and bottle propping' — because bottle propping allows milk to pool in the nasopharynx, and pacifier use increases pressure in the Eustachian tube. Other risk factors: smoke exposure, allergies, daycare. INCORRECT: 'Breastfeeding exclusively' — because breastfeeding is protective. INCORRECT: 'Regular hand hygiene' — because this prevents infections. INCORRECT: 'Limited daycare exposure' — because less exposure reduces risk.",
+      "slide": 23
+    },
+    {
+      "id": "q80_mcq_tonsillectomy",
+      "type": "mcq",
+      "question": "A child is 4 hours post-tonsillectomy. The nurse observes frequent swallowing and throat clearing. What is the priority action?",
+      "options": [
+        "Offer ice chips",
+        "Assess for bleeding",
+        "Give pain medication",
+        "Encourage rest",
+        "Avoid red liquids that can mask bleeding"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Assess for bleeding' — because frequent swallowing or throat clearing after tonsillectomy indicates bleeding (blood trickling down throat). Bleeding is the most critical post-op complication. CORRECT: 'Avoid red liquids that can mask bleeding' — because red liquids (cherry, red popsicles) can mask blood, making it hard to detect bleeding. INCORRECT: 'Offer ice chips' — because ice is appropriate but bleeding assessment is priority. INCORRECT: 'Give pain medication' — because pain management is important but bleeding is life-threatening. INCORRECT: 'Encourage rest' — because rest is appropriate but bleeding assessment is priority.",
+      "slide": 23
+    },
+    {
+      "id": "q81_mcq_ewing_sarcoma",
+      "type": "mcq",
+      "question": "A 14-year-old presents with localized bone pain worse at night, swelling, and fever. X-ray shows onion-skin periosteal reaction. What bone tumor is suspected?",
+      "options": [
+        "Osteosarcoma",
+        "Ewing sarcoma",
+        "Osteochondroma",
+        "Chondrosarcoma"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Ewing sarcoma' — because Ewing sarcoma is a malignant bone tumor of neuroectodermal origin, peak incidence 10-20 years, presents with bone pain, swelling, fever; X-ray shows onion-skin periosteal reaction. INCORRECT: 'Osteosarcoma' — because most common in knee area, sunburst pattern on X-ray. INCORRECT: 'Osteochondroma' — because benign, cartilage-capped bone projection. INCORRECT: 'Chondrosarcoma' — because rare in children, older adults.",
+      "slide": 24
+    },
+    {
+      "id": "q82_mcq_cerebral_palsy",
+      "type": "mcq",
+      "question": "A child with spastic cerebral palsy exhibits hypertonia, jerky movements, and scissoring gait. What is the primary goal of physical therapy?",
+      "options": [
+        "Cure the underlying brain injury",
+        "Prevent contractures and promote mobility",
+        "Eliminate the need for orthotics",
+        "Restore normal intelligence"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Prevent contractures and promote mobility' — because CP is non-progressive; physical therapy focuses on maintaining range of motion, preventing contractures, and maximizing functional mobility. INCORRECT: 'Cure the underlying brain injury' — because brain injury is permanent and non-progressive. INCORRECT: 'Eliminate the need for orthotics' — because orthotics are often needed. INCORRECT: 'Restore normal intelligence' — because intellectual disability may be present but is not the focus of PT.",
+      "slide": 23
+    },
+    {
+      "id": "q83_mcq_decerebrate",
+      "type": "mcq",
+      "question": "A child exhibits decerebrate posturing: supine with all four limbs extended, hands pronated, and arched back. What does this indicate?",
+      "options": [
+        "Mild concussion",
+        "Severe brain injury with brainstem dysfunction",
+        "Spinal cord injury",
+        "Seizure activity"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Severe brain injury with brainstem dysfunction' — because decerebrate posturing indicates damage to midbrain or pons, with poor prognosis. INCORRECT: 'Mild concussion' — because concussion does not cause posturing. INCORRECT: 'Spinal cord injury' — because posturing indicates brain, not spinal, injury. INCORRECT: 'Seizure activity' — because posturing is not seizure activity.",
+      "slide": 23
+    },
+    {
+      "id": "q84_sata_child_abuse",
+      "type": "sata",
+      "question": "Which findings are suspicious for child abuse? (Select all that apply.)",
+      "options": [
+        "Spiral fracture in a 3-month-old",
+        "Bruises in various stages of healing",
+        "Inconsistent caregiver history",
+        "Delayed presentation for care",
+        "Patterned injuries (belt marks)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Spiral fracture in a 3-month-old' — because spiral fractures in non-ambulatory infants are highly suspicious for abuse. CORRECT: 'Bruises in various stages of healing' — because different colored bruises indicate injuries at different times. CORRECT: 'Inconsistent caregiver history' — because stories that don't match injuries or developmental stage raise concern. CORRECT: 'Delayed presentation for care' — because delay may indicate concealment. CORRECT: 'Patterned injuries (belt marks)' — because patterned injuries suggest inflicted trauma.",
+      "slide": 21
+    },
+    {
+      "id": "q85_mcq_cast_care",
+      "type": "mcq",
+      "question": "A child with a newly casted arm complains of increasing pain unrelieved by medication, numbness, and inability to move fingers. What is the priority nursing action?",
+      "options": [
+        "Elevate the arm higher",
+        "Notify the provider immediately",
+        "Apply ice to reduce swelling",
+        "Give additional pain medication"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Notify the provider immediately' — because increasing pain, numbness, and paralysis are signs of compartment syndrome or compromised circulation — a surgical emergency. INCORRECT: 'Elevate the arm higher' — because elevation may help swelling but the priority is provider notification. INCORRECT: 'Apply ice to reduce swelling' — because ice may help but the emergency is circulation compromise. INCORRECT: 'Give additional pain medication' — because pain unrelieved by medication indicates a serious problem, not just pain.",
+      "slide": 24
+    },
+    {
+      "id": "q86_mcq_perthes",
+      "type": "mcq",
+      "question": "A 7-year-old boy presents with a limp, hip pain, and limited range of motion. X-ray shows avascular necrosis of the femoral head. What condition is suspected?",
+      "options": [
+        "Developmental dysplasia of the hip",
+        "Legg-Calvé-Perthes disease",
+        "Slipped capital femoral epiphysis",
+        "Osgood-Schlatter disease"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Legg-Calvé-Perthes disease' — because avascular necrosis of the femoral head in school-age children (typically boys 4-10) is Legg-Calvé-Perthes. Treatment includes rest, bracing, or surgery. Long-term risk is degenerative arthritis. INCORRECT: 'Developmental dysplasia of the hip' — because DDH presents in infancy with Ortolani/Barlow. INCORRECT: 'Slipped capital femoral epiphysis' — because SCFE is posterior displacement of femoral head, typically in obese adolescents. INCORRECT: 'Osgood-Schlatter disease' — because traction apophysitis at tibial tubercle, not femoral head.",
+      "slide": 24
+    }
+  ]
+}

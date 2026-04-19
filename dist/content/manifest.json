@@ -1,0 +1,537 @@
+{
+  "version": "5.0.3",
+  "description": "NCLEX Study Tool Content Manifest - Modular content registry for easy additions",
+  "exams": [
+    {
+      "id": "acute_resp",
+      "file": "exams/acute-respiratory.json",
+      "name": "Acute Respiratory Quiz",
+      "category": "Med-Surg",
+      "questions": 40
+    },
+    {
+      "id": "chronic_resp",
+      "file": "exams/chronic-respiratory.json",
+      "name": "Chronic Respiratory Exam",
+      "category": "Med-Surg",
+      "questions": 38
+    },
+    {
+      "id": "cardio_diabetes_pharm",
+      "file": "exams/cardio-diabetes-pharm.json",
+      "name": "Cardiovascular & Diabetes Pharmacology",
+      "category": "Pharmacology",
+      "questions": 38
+    },
+    {
+      "id": "med_surg_final",
+      "file": "exams/med-surg-comprehensive.json",
+      "name": "Final Review: Med-Surg Comprehensive",
+      "category": "Med-Surg",
+      "questions": 54
+    },
+    {
+      "id": "med_surg_final2",
+      "file": "exams/med-surg-abg.json",
+      "name": "Final Review Part 2: Class Notes & ABG",
+      "category": "Med-Surg",
+      "questions": 59
+    },
+    {
+      "id": "female_repro",
+      "file": "exams/female-reproductive.json",
+      "name": "Female Reproductive System & Disorders",
+      "category": "Reproductive",
+      "questions": 55
+    },
+    {
+      "id": "male_repro",
+      "file": "exams/male-reproductive.json",
+      "name": "Male Reproductive System & Disorders",
+      "category": "Reproductive",
+      "questions": 70
+    },
+    {
+      "id": "ob_ch3",
+      "file": "exams/ob-ch3-fetal.json",
+      "name": "OB Chapter 3: Fetal Development",
+      "category": "OB/Maternity",
+      "questions": 30
+    },
+    {
+      "id": "ob_ch4",
+      "file": "exams/ob-ch4-prenatal.json",
+      "name": "OB Chapter 4: Prenatal Care & Adaptations",
+      "category": "OB/Maternity",
+      "questions": 30
+    },
+    {
+      "id": "ob_ch5",
+      "file": "exams/ob-ch5-complications.json",
+      "name": "OB Chapter 5: Pregnancy Complications",
+      "category": "OB/Maternity",
+      "questions": 30
+    },
+    {
+      "id": "ob_ch67",
+      "file": "exams/ob-ch6-7-labor.json",
+      "name": "OB Chapters 6-7: Labor & Birth",
+      "category": "OB/Maternity",
+      "questions": 25
+    },
+    {
+      "id": "ob_ch8",
+      "file": "exams/ob-ch8-labor-complications.json",
+      "name": "OB Chapter 8: Labor & Birth Complications",
+      "category": "OB/Maternity",
+      "questions": 25
+    },
+    {
+      "id": "ob_ch9",
+      "file": "exams/ob-ch9-postpartum.json",
+      "name": "OB Chapter 9: Postpartum & Newborn Care",
+      "category": "OB/Maternity",
+      "questions": 30
+    },
+    {
+      "id": "ob_ch10",
+      "file": "exams/ob-ch10-postpartum-comp.json",
+      "name": "OB Chapter 10: Postpartum Complications",
+      "category": "OB/Maternity",
+      "questions": 25
+    },
+    {
+      "id": "ob_ch12",
+      "file": "exams/ob-ch12-newborn.json",
+      "name": "OB Chapter 12: The Term Newborn",
+      "category": "OB/Maternity",
+      "questions": 20
+    },
+    {
+      "id": "ob_ch13_preterm",
+      "file": "exams/ob-ch13-preterm-postterm.json",
+      "name": "OB Chapter 13: Preterm/Postterm Newborns",
+      "category": "OB/Maternity",
+      "questions": 30
+    },
+    {
+      "id": "ob_ch14_congenital",
+      "file": "exams/ob-ch14-congenital.json",
+      "name": "OB Chapter 14: Congenital Malformations",
+      "category": "OB/Maternity",
+      "questions": 25
+    },
+    {
+      "id": "acute_resp_quiz",
+      "file": "exams/acute_respiratory_quiz.json",
+      "name": "Acute Respiratory Disorders Quiz",
+      "category": "Med-Surg",
+      "questions": 40
+    },
+    {
+      "id": "chronic_resp_exam",
+      "file": "exams/chronic_respiratory_exam.json",
+      "name": "Chronic Respiratory Diseases Exam",
+      "category": "Med-Surg",
+      "questions": 38
+    },
+    {
+      "id": "peds_exam_1",
+      "file": "exams/peds-ch15-19-quiz.json",
+      "name": "PEDS Exam 1 \u2014 Chapters 15-19",
+      "category": "Pediatrics",
+      "questions": 70
+    },
+    {
+      "id": "peds_exam_2",
+      "file": "exams/peds-ch20-24-quiz.json",
+      "name": "PEDS Exam 2 \u2014 Chapters 20-24",
+      "category": "Pediatrics",
+      "questions": 70
+    },
+    {
+      "id": "peds_exam_3_adolescent_disorders",
+      "file": "exams/peds-exam-3-adolescent-disorders.json",
+      "name": "PEDS Exam 3 \u2014 Disorders and Diseases of Adolescent",
+      "category": "Pediatrics",
+      "questions": 31
+    },
+    {
+      "id": "ati_cms_peds_practice_a",
+      "file": "exams/ati-cms-peds-practice-a-quiz.json",
+      "name": "ATI CMS Peds Practice A \u2014 Comprehensive",
+      "category": "Pediatrics",
+      "questions": 90
+    }
+  ],
+  "missions": [
+    {
+      "id": "cardio",
+      "file": "missions/cardio.json",
+      "count": 20,
+      "categories": [
+        "Electrolytes",
+        "Emergency",
+        "Beta Blockers",
+        "Diuretics",
+        "Coagulation",
+        "Adrenergics",
+        "Antiplatelets",
+        "Nitrates",
+        "Thrombolytic",
+        "Lipids",
+        "Arrhythmia"
+      ]
+    },
+    {
+      "id": "endocrine",
+      "file": "missions/endocrine.json",
+      "count": 10,
+      "categories": [
+        "Diabetes"
+      ]
+    },
+    {
+      "id": "respiratory",
+      "file": "missions/respiratory.json",
+      "count": 10,
+      "categories": [
+        "Acute/Pneumonia"
+      ]
+    },
+    {
+      "id": "repro_female",
+      "file": "missions/repro-female.json",
+      "count": 8,
+      "categories": [
+        "PID",
+        "Mastectomy",
+        "Vaginitis",
+        "Endometriosis",
+        "Prolapse",
+        "Cervical Screening",
+        "Menopause",
+        "Bartholin"
+      ]
+    },
+    {
+      "id": "repro_male",
+      "file": "missions/repro-male.json",
+      "count": 8,
+      "categories": [
+        "Male Reproductive"
+      ]
+    },
+    {
+      "id": "complex",
+      "file": "missions/complex.json",
+      "count": 10,
+      "categories": [
+        "Multi-System/Comorbidities"
+      ]
+    },
+    {
+      "id": "ob",
+      "file": "missions/ob.json",
+      "count": 16,
+      "categories": [
+        "Fetal Development",
+        "Prenatal Care",
+        "Pregnancy Complications",
+        "Labor & Birth",
+        "Labor Complications",
+        "Postpartum",
+        "Postpartum Complications",
+        "Newborn"
+      ]
+    },
+    {
+      "id": "ngn",
+      "file": "missions/ngn.json",
+      "count": 10,
+      "categories": [
+        "NGN Scenarios"
+      ]
+    },
+    {
+      "id": "cardio_ngn",
+      "file": "missions/cardio_missions_gen.json",
+      "count": 15,
+      "categories": [
+        "NGN"
+      ]
+    },
+    {
+      "id": "diabetes_ngn",
+      "file": "missions/diabetes_missions_gen.json",
+      "count": 10,
+      "categories": [
+        "Diabetes"
+      ]
+    },
+    {
+      "id": "comorbid_ngn",
+      "file": "missions/comorbid_missions_gen.json",
+      "count": 10,
+      "categories": [
+        "Complex Care"
+      ]
+    },
+    {
+      "id": "acute_resp_missions",
+      "file": "missions/acute_respiratory_missions_full.json",
+      "count": 10,
+      "categories": [
+        "Acute Respiratory"
+      ]
+    },
+    {
+      "id": "advanced_ngn",
+      "file": "missions/advanced_missions.json",
+      "count": 10,
+      "categories": [
+        "NGN"
+      ]
+    }
+  ],
+  "drugCategories": [
+    {
+      "id": "cv",
+      "name": "Cardiovascular",
+      "files": [
+        "drugs/cv-beta-blockers.json",
+        "drugs/cv-raas.json",
+        "drugs/cv-diuretics.json",
+        "drugs/cv-lipids.json",
+        "drugs/cv-antiarrhythmics.json",
+        "drugs/cv-anticoagulants.json",
+        "drugs/cv-antiplatelets.json",
+        "drugs/cv-vasodilators.json",
+        "drugs/cv-adrenergics.json",
+        "drugs/cv-angina-hf.json"
+      ]
+    },
+    {
+      "id": "pain",
+      "name": "Pain Management",
+      "files": [
+        "drugs/pain.json"
+      ]
+    },
+    {
+      "id": "abx",
+      "name": "Antimicrobials",
+      "files": [
+        "drugs/antimicrobials.json"
+      ]
+    },
+    {
+      "id": "resp",
+      "name": "Respiratory",
+      "files": [
+        "drugs/respiratory.json"
+      ]
+    },
+    {
+      "id": "immun",
+      "name": "Corticosteroids/Immunity/Gout",
+      "files": [
+        "drugs/immunity.json"
+      ]
+    },
+    {
+      "id": "cns",
+      "name": "CNS/Psych",
+      "files": [
+        "drugs/cns-psych.json"
+      ]
+    },
+    {
+      "id": "gi",
+      "name": "GI",
+      "files": [
+        "drugs/gi.json"
+      ]
+    },
+    {
+      "id": "endo",
+      "name": "Endocrine/Thyroid",
+      "files": [
+        "drugs/thyroid.json",
+        "drugs/diabetes.json"
+      ]
+    },
+    {
+      "id": "neuro",
+      "name": "Neurology",
+      "files": [
+        "drugs/parkinsons.json",
+        "drugs/alzheimers.json"
+      ]
+    },
+    {
+      "id": "repro",
+      "name": "Reproductive/OB",
+      "files": [
+        "drugs/reproductive.json"
+      ]
+    },
+    {
+      "id": "sti",
+      "name": "STI Treatments",
+      "files": [
+        "drugs/sti.json"
+      ]
+    },
+    {
+      "id": "womens",
+      "name": "Women's Health",
+      "files": [
+        "drugs/womens-health.json"
+      ]
+    },
+    {
+      "id": "mens",
+      "name": "Men's Health",
+      "files": [
+        "drugs/mens-health.json"
+      ]
+    },
+    {
+      "id": "uro",
+      "name": "Urology",
+      "files": [
+        "drugs/urology.json"
+      ]
+    },
+    {
+      "id": "ophthal",
+      "name": "Ophthalmic/Glaucoma",
+      "files": [
+        "drugs/ophthalmic.json"
+      ]
+    },
+    {
+      "id": "msk",
+      "name": "Musculoskeletal/Osteoporosis",
+      "files": [
+        "drugs/osteoporosis.json"
+      ]
+    },
+    {
+      "id": "derm",
+      "name": "Dermatology",
+      "files": [
+        "drugs/dermatology.json"
+      ]
+    },
+    {
+      "id": "heme",
+      "name": "Hematology",
+      "files": [
+        "drugs/hematology.json"
+      ]
+    },
+    {
+      "id": "emerg",
+      "name": "Emergency",
+      "files": [
+        "drugs/emergency.json"
+      ]
+    }
+  ],
+  "studyGuides": [
+    {
+      "id": "ati-cms-maternal-newborn-cheatsheet",
+      "file": "study-guides/ati-cms-maternal-newborn-cheatsheet.md",
+      "title": "ATI CMS Maternal & Newborn \u2014 Cheat Sheet"
+    },
+    {
+      "id": "ati-cms-maternal-newborn-comprehensive",
+      "file": "study-guides/ati-cms-maternal-newborn-comprehensive.md",
+      "title": "ATI CMS Maternal & Newborn \u2014 Comprehensive"
+    },
+    {
+      "id": "ati-cms-maternal-newborn-exam",
+      "file": "study-guides/ati-cms-maternal-newborn-exam.md",
+      "title": "ATI CMS Maternal & Newborn \u2014 Exam Guide"
+    },
+    {
+      "id": "cardio-diabetes",
+      "file": "study-guides/cardio-diabetes.md",
+      "title": "Cardio & Diabetes Review"
+    },
+    {
+      "id": "ob-cheatsheet-ch6-7-8",
+      "file": "study-guides/ob-cheatsheet-ch6-7-8.md",
+      "title": "OB Cheat Sheet: Labor & Birth (Ch 6-8)"
+    },
+    {
+      "id": "ob-cheatsheet-ch9-10-12",
+      "file": "study-guides/ob-cheatsheet-ch9-10-12.md",
+      "title": "OB Cheat Sheet: Postpartum & Newborn (Ch 9-10,12)"
+    },
+    {
+      "id": "ob-cheatsheet",
+      "file": "study-guides/ob-cheatsheet.md",
+      "title": "OB Cheat Sheet: Fetal Development (Ch 3-5)"
+    },
+    {
+      "id": "ob-comprehensive-ch6-7-8",
+      "file": "study-guides/ob-comprehensive-ch6-7-8.md",
+      "title": "OB Comprehensive: Labor & Birth (Ch 6-8)"
+    },
+    {
+      "id": "ob-comprehensive-ch9-10-12",
+      "file": "study-guides/ob-comprehensive-ch9-10-12.md",
+      "title": "OB Comprehensive: Postpartum & Newborn (Ch 9-10,12)"
+    },
+    {
+      "id": "ob-comprehensive",
+      "file": "study-guides/ob-comprehensive.md",
+      "title": "OB Comprehensive: Fetal Development (Ch 3-5)"
+    },
+    {
+      "id": "pharmacology-8point",
+      "file": "study-guides/pharmacology-8point.md",
+      "title": "Pharmacology 8-Point Study Guide"
+    },
+    {
+      "id": "pharmacology-exhaustive",
+      "file": "study-guides/pharmacology-exhaustive.md",
+      "title": "Pharmacology Exhaustive Guide"
+    },
+    {
+      "id": "pharmacology-professional",
+      "file": "study-guides/pharmacology-professional.md",
+      "title": "Pharmacology Professional Guide"
+    },
+    {
+      "id": "pptx-questions",
+      "file": "study-guides/pptx-questions.md",
+      "title": "PPTX Questions (Raw)"
+    },
+    {
+      "id": "pptx-remastered",
+      "file": "study-guides/pptx-remastered.md",
+      "title": "PPTX Questions (Remastered)"
+    },
+    {
+      "id": "peds-ch15-19-comprehensive",
+      "file": "study-guides/peds-ch15-19-comprehensive.md",
+      "title": "PEDS Ch15-19: Growth, Development & Nutrition \u2014 Comprehensive"
+    },
+    {
+      "id": "peds-ch20-24-comprehensive",
+      "file": "study-guides/peds-ch20-24-comprehensive.md",
+      "title": "PEDS Ch20-24+: Adolescent & Disorders \u2014 Comprehensive"
+    },
+    {
+      "id": "ati-cms-peds-practice-a",
+      "file": "study-guides/ati-cms-peds-practice-a.md",
+      "title": "ATI CMS Pediatrics Practice A \u2014 Comprehensive Study Guide"
+    }
+  ],
+  "notes": "To add new content: 1. Add JSON/MD to appropriate content/ subdir 2. Update this manifest if new category 3. Run 'python tools/build.py' 4. Test in browser. Validation will catch errors.",
+  "lastUpdated": "2026-04-13"
+}

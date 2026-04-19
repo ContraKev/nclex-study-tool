@@ -1,0 +1,1141 @@
+{
+  "id": "peds_exam_1",
+  "name": "PEDS Exam 1 — Chapters 15-19: Growth, Development, Family & Hospitalization",
+  "category": "Pediatrics",
+  "questions": [
+    {
+      "id": "q1_mcq_erikson",
+      "type": "mcq",
+      "question": "A 7-year-old child proudly completes a 50-piece puzzle and shows it to the nurse. According to Erikson's psychosocial theory, this behavior demonstrates which developmental stage?",
+      "options": [
+        "Trust vs Mistrust",
+        "Industry vs Inferiority",
+        "Initiative vs Guilt",
+        "Autonomy vs Shame and Doubt"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Industry vs Inferiority' — because a 7-year-old completing a puzzle and showing pride demonstrates mastering tasks and developing competence. This is the Industry vs Inferiority stage (6–12 years). INCORRECT: 'Trust vs Mistrust' — because this stage (0–1 year) is about consistent caregiving building hope, not task completion. INCORRECT: 'Initiative vs Guilt' — because this stage (3–6 years) is about fantasy play and taking initiative, not school tasks. INCORRECT: 'Autonomy vs Shame and Doubt' — because this stage (1–3 years) is about independence and toilet training, not school projects.",
+      "slide": 15
+    },
+    {
+      "id": "q2_sata_growth_patterns",
+      "type": "sata",
+      "question": "A nurse is teaching parents about infant development. Which statements accurately describe the principles of growth and development? (Select all that apply.)",
+      "options": [
+        "Cephalocaudal development means infants lift their heads before they can sit.",
+        "Proximodistal development means infants grasp with fingers before using whole hand.",
+        "Growth is quantitative and can be measured in height and weight.",
+        "Development proceeds from general to specific movements.",
+        "Infants have lower metabolic rates per kilogram than adults."
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Cephalocaudal development means infants lift their heads before they can sit.' — because cephalocaudal = head-to-toe, infants gain head control (2-3mo) before sitting (6-8mo). CORRECT: 'Growth is quantitative and can be measured in height and weight.' — because growth is measurable in height, weight, head circumference. CORRECT: 'Development proceeds from general to specific movements.' — because development moves from general (whole arm reach) to specific (pincer grasp). INCORRECT: 'Proximodistal development means infants grasp with fingers before using whole hand.' — because proximodistal = center-to-periphery, so whole hand grasp comes BEFORE fine finger grasp (not after). INCORRECT: 'Infants have lower metabolic rates per kilogram than adults.' — because infants have HIGHER metabolic rates per kg than adults, requiring more calories/fluids proportionally.",
+      "slide": 15
+    },
+    {
+      "id": "q3_mcq_piaget",
+      "type": "mcq",
+      "question": "A 4-year-old hospitalized child refuses to eat green peas, saying, 'They're green and yucky.' According to Piaget, this is an example of which cognitive characteristic?",
+      "options": [
+        "Object permanence",
+        "Centration",
+        "Conservation",
+        "Formal operational reasoning"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Centration' — because it is a hallmark of Piaget's Preoperational stage (2-7 yrs). The child focuses on ONE characteristic (color = green) while ignoring others (taste, nutrition, texture) — this is why peas are 'yucky' based on color alone. INCORRECT: 'Object permanence' — because this develops in Sensorimotor stage (~8-9mo), not Preoperational. INCORRECT: 'Conservation' — because this (understanding quantity doesn't change with appearance) is Concrete Operational (7-11 yrs). INCORRECT: 'Formal operational reasoning' — because this (abstract thinking) begins at 11+ yrs.",
+      "slide": 18
+    },
+    {
+      "id": "q4_mcq_weight",
+      "type": "mcq",
+      "question": "An infant weighed 7 pounds 11 ounces at birth. What is the expected weight at 12 months of age?",
+      "options": [
+        "Approximately 15 pounds",
+        "Approximately 23 pounds",
+        "Approximately 30 pounds",
+        "Approximately 40 pounds"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Approximately 23 pounds' — because birth weight triples by 12 months: 7 lb 11 oz × 3 ≈ 23 pounds. This is a key milestone — failure to meet it may indicate nutritional/developmental concerns. INCORRECT: 'Approximately 15 pounds' — because this is roughly double (5-6mo), not triple. INCORRECT: 'Approximately 30 pounds' — because this would indicate overgrowth/obesity. INCORRECT: 'Approximately 40 pounds' — because this would indicate overgrowth/obesity.",
+      "slide": 16
+    },
+    {
+      "id": "q5_sata_family_types",
+      "type": "sata",
+      "question": "A family consists of a mother, her biological son, a father, and his biological daughter from a previous marriage. The couple has one child together. Which family structure best describes this? (Select all that apply.)",
+      "options": [
+        "Blended family",
+        "Nuclear family",
+        "Extended family",
+        "Step-family"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT: 'Blended family' — because parents with children from prior relationships who remarry/cohabitate. CORRECT: 'Step-family' — because this is the same term (also called blended). INCORRECT: 'Nuclear family' — because this is parents + only their biological children (no stepchildren). INCORRECT: 'Extended family' — because this is grandparents, aunts, uncles living together.",
+      "slide": 15
+    },
+    {
+      "id": "q6_mcq_denver",
+      "type": "mcq",
+      "question": "A nurse is performing a Denver II developmental screening on a 2-year-old. Which statement about this screening is correct?",
+      "options": [
+        "It is an IQ test that determines intelligence.",
+        "It screens for delays in personal-social, fine motor, language, and gross motor skills.",
+        "It should be performed only by licensed psychologists.",
+        "A low score indicates the child will not catch up developmentally."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'It screens for delays in personal-social, fine motor, language, and gross motor skills.' — because Denver II screens four domains and identifies children NOT performing at age level — it is NOT an IQ test. INCORRECT: 'It is an IQ test that determines intelligence.' — because Denver II is NOT an IQ test; it screens for developmental delays. INCORRECT: 'It should be performed only by licensed psychologists.' — because nurses and trained professionals can perform it. INCORRECT: 'A low score indicates the child will not catch up developmentally.' — because low scores indicate need for follow-up/intervention, but children often catch up with support.",
+      "slide": 15
+    },
+    {
+      "id": "q7_matrix_erikson",
+      "type": "matrix",
+      "question": "Match each developmental task with the correct Erikson stage:",
+      "rows": [
+        "Completing school projects and feeling proud",
+        "Saying 'no' to everything and wanting independence",
+        "Playing house with friends using imagination",
+        "Wondering 'Who am I?' and experimenting with roles"
+      ],
+      "columns": [
+        "Trust vs Mistrust",
+        "Autonomy vs Shame & Doubt",
+        "Initiative vs Guilt",
+        "Industry vs Inferiority",
+        "Identity vs Role Confusion"
+      ],
+      "answer": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Completing school projects and feeling proud' matches 'Industry vs Inferiority' — because Industry (6-12 yrs) is about mastering tasks and developing competence. CORRECT: 'Saying 'no' to everything and wanting independence' matches 'Autonomy vs Shame & Doubt' — because Autonomy (1-3 yrs) is about independence. CORRECT: 'Playing house with friends using imagination' matches 'Initiative vs Guilt' — because Initiative (3-6 yrs) is about fantasy play. CORRECT: 'Wondering 'Who am I?' and experimenting with roles' matches 'Identity vs Role Confusion' — because Identity (12-18 yrs) is about role exploration. INCORRECT: 'Trust vs Mistrust' — because this (0-1 yr) is about consistent caregiving building hope, not applicable to any of these developmental tasks.",
+      "slide": 15
+    },
+    {
+      "id": "q8_mcq_parallel_play",
+      "type": "mcq",
+      "question": "A 2-year-old plays with blocks in the same room as another child but does not interact or share toys. This play behavior is best described as:",
+      "options": [
+        "Cooperative play",
+        "Parallel play",
+        "Associative play",
+        "Competitive play"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Parallel play' — because toddlers (1-3 yrs) play beside each other with similar toys but do not interact or share. INCORRECT: 'Cooperative play' — because this is preschool (3-6 yrs) with shared goals. INCORRECT: 'Associative play' — because this is late preschool with early group interaction. INCORRECT: 'Competitive play' — because this is school-age (7+ yrs) with rules/teams.",
+      "slide": 17
+    },
+    {
+      "id": "q9_sata_milestones",
+      "type": "sata",
+      "question": "Which developmental milestones are expected in a 12-month-old infant? (Select all that apply.)",
+      "options": [
+        "Pincer grasp (thumb and index finger)",
+        "Walking independently without assistance",
+        "Saying 'mama' and 'dada' with meaning",
+        "Stranger anxiety",
+        "Posterior fontanelle still open"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Pincer grasp (thumb and index finger)' — because pincer grasp develops 9-12mo. CORRECT: 'Saying 'mama' and 'dada' with meaning' — because first meaningful words ~10-12mo. CORRECT: 'Stranger anxiety' — because stranger anxiety peaks 6-8mo, continues through 12mo. INCORRECT: 'Walking independently without assistance' — because independent walking is 12-15mo (not 12mo). INCORRECT: 'Posterior fontanelle still open' — because posterior fontanelle closes by 2-3mo (not still open at 12mo).",
+      "slide": 16
+    },
+    {
+      "id": "q10_mcq_play_toy",
+      "type": "mcq",
+      "question": "A 10-month-old hospitalized infant is fussy and restless. Which toy would be most developmentally appropriate?",
+      "options": [
+        "Modeling clay",
+        "A push-pull toy",
+        "A board game with rules",
+        "A complex building set"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'A push-pull toy' — because push-pull toys are ideal for 10-month-olds — they encourage locomotion (crawling, cruising) and support motor development. INCORRECT: 'Modeling clay' — because modeling clay is for preschoolers (3-5 yrs). INCORRECT: 'A board game with rules' — because board games with rules are for school-age (6+ yrs). INCORRECT: 'A complex building set' — because complex building sets require fine motor skills beyond 10-month-olds.",
+      "slide": 21
+    },
+    {
+      "id": "q11_mcq_time_out",
+      "type": "mcq",
+      "question": "A parent asks how long time-out should last for their 3-year-old who hit a sibling. What is the appropriate duration?",
+      "options": [
+        "30 seconds",
+        "3 minutes",
+        "5 minutes",
+        "10 minutes"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: '3 minutes' — because time-out = 1 minute per year of age. For 3-year-old = 3 minutes. The child should be calm before timing begins, and no interaction or eye contact during time-out. INCORRECT: '30 seconds' — because this is too short. INCORRECT: '5 minutes' — because this is too long for 3yo. INCORRECT: '10 minutes' — because this is too long.",
+      "slide": 17
+    },
+    {
+      "id": "q12_sata_play_types",
+      "type": "sata",
+      "question": "Which statements about play types and developmental stages are correct? (Select all that apply.)",
+      "options": [
+        "Preschoolers (3–5 years) engage in associative and cooperative play.",
+        "Toddlers (1–3 years) typically play beside but not with others.",
+        "School-age children (6–12 years) prefer fantasy and imaginary play.",
+        "Competitive play with rules is characteristic of school-age children.",
+        "Parallel play is the primary play type for infants under 12 months."
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Preschoolers (3–5 years) engage in associative and cooperative play.' — because preschoolers play house as family, take roles. CORRECT: 'Toddlers (1–3 years) typically play beside but not with others.' — because toddlers play parallel play. CORRECT: 'Competitive play with rules is characteristic of school-age children.' — because school-age children play organized games with rules. INCORRECT: 'School-age children (6–12 years) prefer fantasy and imaginary play.' — because school-age focus on concrete tasks and peer relationships, not fantasy. INCORRECT: 'Parallel play is the primary play type for infants under 12 months.' — because infants are in solitary play, not parallel play.",
+      "slide": 17
+    },
+    {
+      "id": "q13_mcq_head_control",
+      "type": "mcq",
+      "question": "A parent reports that their 3-month-old infant cannot lift their head when placed prone. What is the nurse's best response?",
+      "options": [
+        "This is normal; head control develops by 6 months.",
+        "This finding should be reported to the healthcare provider.",
+        "The infant should be placed supine only to prevent SIDS.",
+        "This is expected if the baby was born prematurely."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'This finding should be reported to the healthcare provider.' — because infants should be able to lift their head when prone by 2-3 months. Inability at 3 months is a red flag for possible neurological concern. INCORRECT: 'This is normal; head control develops by 6 months.' — because head control should be present by 3 months, not 6. INCORRECT: 'The infant should be placed supine only to prevent SIDS.' — because supine for sleep does not replace tummy time for development. INCORRECT: 'This is expected if the baby was born prematurely.' — because even premature infants should show head control by corrected age.",
+      "slide": 16
+    },
+    {
+      "id": "q14_matrix_family_play",
+      "type": "matrix",
+      "question": "Match each family or play description with the correct classification:",
+      "rows": [
+        "Parents remarry; each has children from prior relationships",
+        "A 2-year-old plays with blocks next to another child without interaction",
+        "A 4-year-old plays house with friends, assigning roles",
+        "A 9-year-old plays organized soccer with rules and teams"
+      ],
+      "columns": [
+        "Nuclear family",
+        "Blended family",
+        "Parallel play",
+        "Cooperative play",
+        "Competitive play"
+      ],
+      "answer": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Parents remarry; each has children from prior relationships' matches 'Blended family' — because remarriage with stepchildren. CORRECT: 'A 2-year-old plays with blocks next to another child without interaction' matches 'Parallel play' — because toddlers play side-by-side. CORRECT: 'A 4-year-old plays house with friends, assigning roles' matches 'Cooperative play' — because preschoolers do role-play. CORRECT: 'A 9-year-old plays organized soccer with rules and teams' matches 'Competitive play' — because school-age children play with rules/teams. INCORRECT: 'Nuclear family' — because this is biological parents + their children only, not applicable to any of these.",
+      "slide": 15
+    },
+    {
+      "id": "q15_mcq_teeth",
+      "type": "mcq",
+      "question": "A parent asks when their infant will have all 20 baby teeth. What is the correct response?",
+      "options": [
+        "By 6 months of age",
+        "By 1 year of age",
+        "By 2.5 years of age",
+        "By 4 years of age"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'By 2.5 years of age' — because deciduous (baby) teeth total 20 and are typically complete by 2.5 years of age. The first tooth (usually lower central incisor) erupts around 6-10 months, and ~6 teeth are present by the first birthday. INCORRECT: 'By 6 months of age' — because 6 months is when first tooth erupts. INCORRECT: 'By 1 year of age' — because only ~6 teeth by 1 year. INCORRECT: 'By 4 years of age' — because all baby teeth are in by 2.5 years.",
+      "slide": 15
+    },
+    {
+      "id": "q16_sata_nutrition",
+      "type": "sata",
+      "question": "Which statements about infant nutrition are correct? (Select all that apply.)",
+      "options": [
+        "Solids should be introduced around 4–6 months of age.",
+        "Iron-fortified rice cereal is the recommended first food.",
+        "Whole cow's milk can be given at 6 months of age.",
+        "Honey should be avoided until after 1 year of age.",
+        "Breastfeeding should stop completely when solids begin."
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Solids should be introduced around 4–6 months of age.' — because solids introduced 4-6 months when infant shows readiness. CORRECT: 'Iron-fortified rice cereal is the recommended first food.' — because iron-fortified rice cereal is first food (iron stores deplete by 6 months). CORRECT: 'Honey should be avoided until after 1 year of age.' — because no honey <1 year (botulism risk). INCORRECT: 'Whole cow's milk can be given at 6 months of age.' — because no cow's milk until 12 months (causes iron-deficiency anemia, poor digestion). INCORRECT: 'Breastfeeding should stop completely when solids begin.' — because breastfeeding continues alongside solids; gradual weaning.",
+      "slide": 16
+    },
+    {
+      "id": "q17_mcq_colic",
+      "type": "mcq",
+      "question": "An infant with colic is crying excessively in the evening. Which intervention should the nurse recommend?",
+      "options": [
+        "Place the infant supine and leave alone",
+        "Hold the infant prone over the arm and gently rock",
+        "Give the infant a large bottle of formula",
+        "Keep the infant in bright, noisy environment"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Hold the infant prone over the arm and gently rock' — because colic interventions include prone positioning over the arm (gas relief), pacifier, back massage, white noise, and caregiver breaks. Colic usually resolves by 3 months. INCORRECT: 'Place the infant supine and leave alone' — because infants should not be left alone while crying excessively. INCORRECT: 'Give the infant a large bottle of formula' — because overfeeding can worsen colic. INCORRECT: 'Keep the infant in bright, noisy environment' — because quiet, dim environment is soothing.",
+      "slide": 16
+    },
+    {
+      "id": "q18_mcq_oral_health",
+      "type": "mcq",
+      "question": "A parent asks about oral health for their 8-month-old. Which teaching is correct?",
+      "options": [
+        "Brush teeth starting at 2 years of age",
+        "Avoid fluoride until age 3",
+        "Brush teeth at eruption and use fluoride after 6 months",
+        "Share utensils to build immunity"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Brush teeth at eruption and use fluoride after 6 months' — because brush at eruption (around 6 months) and use fluoride after 6 months if not in water. INCORRECT: 'Brush teeth starting at 2 years of age' — because brushing starts with first tooth. INCORRECT: 'Avoid fluoride until age 3' — because fluoride after 6 months. INCORRECT: 'Share utensils to build immunity' — because sharing utensils transmits cariogenic bacteria (cavities).",
+      "slide": 15
+    },
+    {
+      "id": "q19_sata_safety",
+      "type": "sata",
+      "question": "Which statements about pediatric safety are correct? (Select all that apply.)",
+      "options": [
+        "Unintentional injury is the leading cause of death after age 1 year.",
+        "Car seats should be rear-facing until the child is 1 year AND 20–22 pounds.",
+        "Accidents are rare in school-age children.",
+        "Teaching 'hot' and traffic safety begins in toddlerhood.",
+        "Obesity prevention includes limiting screen time and encouraging activity."
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Unintentional injury is the leading cause of death after age 1 year.' — because unintentional injuries (MVA, drowning, poisoning) are #1 cause of death after 1 year. CORRECT: 'Car seats should be rear-facing until the child is 1 year AND 20–22 pounds.' — because rear-facing until 1yr AND 20-22lb minimum. CORRECT: 'Teaching 'hot' and traffic safety begins in toddlerhood.' — because anticipatory guidance for toddlers includes 'hot,' traffic, stair safety. CORRECT: 'Obesity prevention includes limiting screen time and encouraging activity.' — because obesity prevention: activity 60 min/day, limit screen time, family meals. INCORRECT: 'Accidents are rare in school-age children.' — because school-age children still at risk (bike, sports, strangers).",
+      "slide": 19
+    },
+    {
+      "id": "q20_mcq_centering",
+      "type": "mcq",
+      "question": "A 4-year-old refuses to eat peas, saying 'They're green and I don't like green things.' This is an example of:",
+      "options": [
+        "Conservation",
+        "Centration",
+        "Object permanence",
+        "Formal operational thinking"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Centration' — because Centration is a Preoperational stage characteristic (2-7 years). The child focuses on ONE feature (color = green) and ignores others (taste, nutrition). This is why peas are 'yucky' based on color alone. INCORRECT: 'Conservation' — because conservation is Concrete Operational (7-11 yrs). INCORRECT: 'Object permanence' — because object permanence is Sensorimotor (~9 mo). INCORRECT: 'Formal operational thinking' — because this is not a moral level (Piaget cognitive stage).",
+      "slide": 18
+    },
+    {
+      "id": "q21_mcq_tetracycline",
+      "type": "mcq",
+      "question": "A parent mentions their child was prescribed tetracycline for an infection. What is the nurse's priority response?",
+      "options": [
+        "Tetracycline is the best antibiotic for children.",
+        "Tetracycline can cause permanent tooth staining in children.",
+        "Tetracycline should be taken with dairy products.",
+        "Tetracycline is safe for all ages."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Tetracycline can cause permanent tooth staining in children.' — because tetracycline causes permanent tooth staining in developing teeth. It should NEVER be given to children under 8 years. INCORRECT: 'Tetracycline is the best antibiotic for children.' — because tetracycline is contraindicated in children. INCORRECT: 'Tetracycline should be taken with dairy products.' — because dairy decreases tetracycline absorption. INCORRECT: 'Tetracycline is safe for all ages.' — because tetracycline is contraindicated in children and pregnancy.",
+      "slide": 15
+    },
+    {
+      "id": "q22_mcq_separation",
+      "type": "mcq",
+      "question": "A 2-year-old hospitalized toddler screams and reaches for parents when they leave. Which stage of separation anxiety is this?",
+      "options": [
+        "Despair",
+        "Detachment",
+        "Protest",
+        "Denial"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Protest' — because Protest is the first stage of separation anxiety. The child cries loudly, calls for parents, and may hit or push away strangers. This is normal and indicates attachment. INCORRECT: 'Detachment' — because detachment (third stage) appears as 'adjustment' but is actually emotional withdrawal. INCORRECT: 'Despair' — because despair (second stage) shows withdrawal and depression. INCORRECT: 'Denial' — because denial is not a standard stage.",
+      "slide": 21
+    },
+    {
+      "id": "q23_sata_hospitalization",
+      "type": "sata",
+      "question": "Which interventions help reduce stress for a hospitalized toddler? (Select all that apply.)",
+      "options": [
+        "Encourage parents to stay with the child",
+        "Maintain the child's usual routines",
+        "Explain procedures in medical jargon",
+        "Provide comfort items from home",
+        "Use therapeutic play to prepare for procedures"
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Encourage parents to stay with the child' — because parent presence reduces separation anxiety. CORRECT: 'Maintain the child's usual routines' — because routines provide security. CORRECT: 'Provide comfort items from home' — because comfort items (blanket, stuffed animal) reduce stress. CORRECT: 'Use therapeutic play to prepare for procedures' — because therapeutic play helps children process and prepare. INCORRECT: 'Explain procedures in medical jargon' — because use simple, concrete explanations at the child's level.",
+      "slide": 21
+    },
+    {
+      "id": "q24_mcq_therapeutic_play",
+      "type": "mcq",
+      "question": "A 4-year-old is admitted for surgery. Which activity would best help the child express feelings about hospitalization?",
+      "options": [
+        "Watching television",
+        "Playing with modeling clay",
+        "Completing a math workbook",
+        "Playing a competitive board game"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Playing with modeling clay' — because modeling clay is expressive and therapeutic for preschoolers. It allows them to work through feelings about hospitalization, procedures, and fears. INCORRECT: 'Watching television' — because passive activity doesn't allow expression. INCORRECT: 'Completing a math workbook' — because school-age appropriate, not 4-year-old. INCORRECT: 'Playing a competitive board game' — because competitive play is for older children; may increase stress.",
+      "slide": 21
+    },
+    {
+      "id": "q25_mcq_pain_flacc",
+      "type": "mcq",
+      "question": "A 9-month-old is crying, kicking, and difficult to console after a procedure. Which pain scale is most appropriate?",
+      "options": [
+        "Numeric 0–10 scale",
+        "FACES scale",
+        "FLACC scale",
+        "Visual analog scale"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'FLACC scale' — because FLACC (Face, Legs, Activity, Cry, Consolability) is for nonverbal infants and children. It scores 0-2 in each category for a total 0-10. INCORRECT: 'Numeric 0–10 scale' — because numeric scales require verbal/cognitive ability (school-age+). INCORRECT: 'FACES scale' — because FACES is for children 3+ who can point to faces. INCORRECT: 'Visual analog scale' — because visual scales require verbal/cognitive ability (school-age+).",
+      "slide": 21
+    },
+    {
+      "id": "q26_sata_preparation",
+      "type": "sata",
+      "question": "Which statements about preparing children for procedures are correct? (Select all that apply.)",
+      "options": [
+        "Explain procedures just before for toddlers (1–3 years).",
+        "Use medical jargon so children understand better.",
+        "Allow school-age children to handle equipment.",
+        "Adolescents benefit from written and oral information.",
+        "Preschoolers should be prepared days in advance."
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Explain procedures just before for toddlers (1–3 years).' — because toddlers: just before, simple words. CORRECT: 'Allow school-age children to handle equipment.' — because school-age children can touch equipment and ask questions. CORRECT: 'Adolescents benefit from written and oral information.' — because adolescents: oral + written info, involvement in decisions. INCORRECT: 'Use medical jargon so children understand better.' — because use simple, concrete terms. INCORRECT: 'Preschoolers should be prepared days in advance.' — because preschoolers: day before is fine, too early causes anxiety.",
+      "slide": 21
+    },
+    {
+      "id": "q27_mcq_modeling_clay",
+      "type": "mcq",
+      "question": "A nurse is planning care for a 4-year-old hospitalized child. Which toy/activity is most appropriate for therapeutic play?",
+      "options": [
+        "A push-pull toy",
+        "Modeling clay",
+        "A competitive board game",
+        "An infant rattle"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Modeling clay' — because modeling clay allows expressive, creative play for preschoolers. It helps children process feelings about illness and hospitalization. INCORRECT: 'A push-pull toy' — because push-pull toy is for 9-12 month infants. INCORRECT: 'A competitive board game' — because competitive games are for school-age. INCORRECT: 'An infant rattle' — because rattles are for infants.",
+      "slide": 21
+    },
+    {
+      "id": "q28_mcq_faces_scale",
+      "type": "mcq",
+      "question": "A 5-year-old points to a face on the FACES pain scale that shows a frown and tears. What does this indicate?",
+      "options": [
+        "The child is not in pain",
+        "The child has moderate to severe pain",
+        "The child is hungry",
+        "The child wants to go home"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'The child has moderate to severe pain' — because the FACES scale uses faces from smiling (0, no pain) to crying/frowning (10, worst pain). A frown with tears indicates moderate to severe pain. This scale is appropriate for children 3+ years who can point to the face matching their pain. INCORRECT: 'The child is not in pain' — because smiling face = no pain, not frown with tears. INCORRECT: 'The child is hungry' — because not related to pain assessment. INCORRECT: 'The child wants to go home' — because not related to pain assessment.",
+      "slide": 21
+    },
+    {
+      "id": "q29_mcq_obesity",
+      "type": "mcq",
+      "question": "Which intervention is most effective for preventing childhood obesity?",
+      "options": [
+        "Restrict all snacks between meals",
+        "Limit screen time and encourage 60 minutes of daily activity",
+        "Give vitamin supplements",
+        "Weigh the child daily"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Limit screen time and encourage 60 minutes of daily activity' — because obesity prevention includes physical activity (60 min/day), limiting screen time (≤2 hours), family meals, appropriate portions, and role modeling. INCORRECT: 'Restrict all snacks between meals' — because healthy snacks are appropriate; restriction causes rebound overeating. INCORRECT: 'Give vitamin supplements' — because vitamins don't prevent obesity. INCORRECT: 'Weigh the child daily' — because daily weighing increases anxiety, not prevention.",
+      "slide": 19
+    },
+    {
+      "id": "q30_sata_nutrition_teaching",
+      "type": "sata",
+      "question": "Which statements about toddler nutrition are correct? (Select all that apply.)",
+      "options": [
+        "Food jags (only wanting one food) are normal.",
+        "Juice should be limited to 4–6 ounces per day.",
+        "Milk intake should exceed 32 ounces per day.",
+        "Self-feeding builds autonomy.",
+        "Picky eating is a sign of a disorder."
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Food jags (only wanting one food) are normal.' — because food jags are normal toddler behavior. CORRECT: 'Juice should be limited to 4–6 ounces per day.' — because excess juice causes dental caries and poor nutrition. CORRECT: 'Self-feeding builds autonomy.' — because self-feeding builds autonomy (Erikson). INCORRECT: 'Milk intake should exceed 32 ounces per day.' — because >24 oz milk/day causes iron-deficiency anemia. INCORRECT: 'Picky eating is a sign of a disorder.' — because picky eating is normal, not a disorder.",
+      "slide": 17
+    },
+    {
+      "id": "q31_mcq_dosage",
+      "type": "mcq",
+      "question": "A child weighs 20 kg. The ordered medication is 10 mg/kg/day divided every 8 hours. What is the dose per administration?",
+      "options": [
+        "66.6 mg",
+        "200 mg",
+        "100 mg",
+        "50 mg"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: '66.6 mg' — because total daily dose = 10 mg/kg × 20 kg = 200 mg/day. Divided q8h (3 times) = 200 ÷ 3 = 66.6 mg per dose. INCORRECT: '200 mg' — because that's the total daily dose. INCORRECT: '100 mg' — because 100 mg would be for q12h. INCORRECT: '50 mg' — because 50 mg is too low.",
+      "slide": 22
+    },
+    {
+      "id": "q32_mcq_immunization",
+      "type": "mcq",
+      "question": "Which immunizations are typically given at 2 months of age?",
+      "options": [
+        "MMR and Varicella",
+        "DTaP, IPV, Hib, HepB, Rotavirus",
+        "Tetanus and Meningococcal",
+        "Influenza only"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'DTaP, IPV, Hib, HepB, Rotavirus' — because at 2 months, infants receive DTaP #1, IPV #1, Hib #1, HepB #2 (if not at birth), Rotavirus #1, PCV13 #1. INCORRECT: 'MMR and Varicella' — because MMR and Varicella are at 12 months. INCORRECT: 'Tetanus and Meningococcal' — because Tdap at 11-12 years, Meningococcal at 11-12 and 16 years. INCORRECT: 'Influenza only' — because flu starts at 6 months annually.",
+      "slide": 16
+    },
+    {
+      "id": "q33_mcq_regression",
+      "type": "mcq",
+      "question": "A previously toilet-trained 3-year-old begins wetting the bed after hospitalization. What is the nurse's best response to the parents?",
+      "options": [
+        "This is abnormal and needs immediate intervention.",
+        "This is normal regression; praise dry nights and ignore accidents.",
+        "The child is acting out and needs discipline.",
+        "This indicates a urinary tract infection."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'This is normal regression; praise dry nights and ignore accidents.' — because regression (returning to earlier behaviors) is NORMAL during stress/illness/hospitalization. It resolves when stress is removed. Parents should praise appropriate behavior and ignore regression. INCORRECT: 'This is abnormal and needs immediate intervention.' — because normal during stress. INCORRECT: 'The child is acting out and needs discipline.' — because not acting out, it's a coping mechanism. INCORRECT: 'This indicates a urinary tract infection.' — because not indicative of UTI without other symptoms.",
+      "slide": 21
+    },
+    {
+      "id": "q34_sata_anticipatory",
+      "type": "sata",
+      "question": "Which anticipatory guidance topics are appropriate for parents of a 6-month-old? (Select all that apply.)",
+      "options": [
+        "Introduce solid foods",
+        "Place baby on back to sleep",
+        "Start potty training",
+        "Childproof the home (poisons, stairs)",
+        "Teach stranger danger"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Introduce solid foods' — because solids at 4-6 months. CORRECT: 'Place baby on back to sleep' — because back to sleep (SIDS prevention). CORRECT: 'Childproof the home (poisons, stairs)' — because childproofing for mobile infant. INCORRECT: 'Start potty training' — because potty training is 18-24 months (toddler). INCORRECT: 'Teach stranger danger' — because stranger danger is preschool/school-age teaching.",
+      "slide": 16
+    },
+    {
+      "id": "q35_mcq_latchkey",
+      "type": "mcq",
+      "question": "A 9-year-old comes home alone after school while parents work. Which statement is correct?",
+      "options": [
+        "This is always unsafe and should be reported.",
+        "Latchkey children may experience anxiety or develop self-care skills.",
+        "Parents should never leave children alone before age 12.",
+        "This is child neglect in all cases."
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Latchkey children may experience anxiety or develop self-care skills.' — because latchkey children (unsupervised after school) may experience anxiety, loneliness, or develop independence/self-care skills. Risk depends on child maturity, neighborhood, and preparation. INCORRECT: 'This is always unsafe and should be reported.' — because not always unsafe. INCORRECT: 'Parents should never leave children alone before age 12.' — because no fixed age; depends on child and situation. INCORRECT: 'This is child neglect in all cases.' — because not automatically neglect.",
+      "slide": 19
+    },
+    {
+      "id": "q36_mcq_safety",
+      "type": "mcq",
+      "question": "Which is the leading cause of death in children over 1 year of age?",
+      "options": [
+        "Cancer",
+        "Congenital anomalies",
+        "Unintentional injuries",
+        "Infectious diseases"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Unintentional injuries' — because unintentional injuries (motor vehicle accidents, drowning, poisoning, burns) are the leading cause of death after age 1 year. INCORRECT: 'Cancer' — because cancer is a significant cause but not leading. INCORRECT: 'Congenital anomalies' — because congenital anomalies are leading in infants <1 year. INCORRECT: 'Infectious diseases' — because infectious diseases are lower due to vaccines.",
+      "slide": 19
+    },
+    {
+      "id": "q37_mcq_car_seat",
+      "type": "mcq",
+      "question": "A parent asks when their infant can face forward in the car seat. What is the correct response?",
+      "options": [
+        "As soon as the infant can sit up",
+        "At 6 months of age",
+        "At 1 year AND 20–22 pounds minimum",
+        "At 3 years of age"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'At 1 year AND 20–22 pounds minimum' — because car seats should be rear-facing until the child is at least 1 year old AND 20-22 pounds (varies by seat). This protects the head, neck, and spine in a crash. INCORRECT: 'As soon as the infant can sit up' — because sitting up is not the criterion. INCORRECT: 'At 6 months of age' — because 6 months is too young. INCORRECT: 'At 3 years of age' — because 3 years is too late; most children can face forward earlier.",
+      "slide": 16
+    },
+    {
+      "id": "q38_sata_milestones_18mo",
+      "type": "sata",
+      "question": "Which milestones are expected in an 18-month-old toddler? (Select all that apply.)",
+      "options": [
+        "Says 10–20 words",
+        "Walks up stairs with help",
+        "Runs and jumps independently",
+        "Removes clothing",
+        "Draws a circle"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "CORRECT: 'Says 10–20 words' — because 10-20 words by 18 months. CORRECT: 'Walks up stairs with help' — because climbs stairs with help. CORRECT: 'Removes clothing' — because removes some clothing. INCORRECT: 'Runs and jumps independently' — because runs by 18 months but jumping is later (2-2.5 years). INCORRECT: 'Draws a circle' — because drawing a circle is a 3-year milestone.",
+      "slide": 17
+    },
+    {
+      "id": "q39_mcq_kohlberg",
+      "type": "mcq",
+      "question": "A 5-year-old says, 'I won't hit my sister because I'll get spanked.' According to Kohlberg, this reflects which moral level?",
+      "options": [
+        "Postconventional",
+        "Conventional",
+        "Preconventional",
+        "Formal operational"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Preconventional' — because Preconventional moral reasoning (ages ~4-7) is based on punishment and reward. The child obeys to avoid punishment. INCORRECT: 'Postconventional' — because postconventional is 13+ years (ethical principles). INCORRECT: 'Conventional' — because conventional is 9-13 years (social approval). INCORRECT: 'Formal operational' — because not a moral level (Piaget cognitive stage).",
+      "slide": 18
+    },
+    {
+      "id": "q40_mcq_dosage_safety",
+      "type": "mcq",
+      "question": "Before giving any medication to a child, what is the MOST important nursing action?",
+      "options": [
+        "Ask the parent if the child likes the medication",
+        "Verify the child's weight and calculate mg/kg dose",
+        "Mix the medication with juice",
+        "Give the medication as quickly as possible"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Verify the child's weight and calculate mg/kg dose' — because always calculate pediatric doses by weight (mg/kg) and verify against safe dose range. This prevents overdose/under-dose. INCORRECT: 'Ask the parent if the child likes the medication' — because preference doesn't affect safety. INCORRECT: 'Mix the medication with juice' — because mixing with essential foods may cause refusal. INCORRECT: 'Give the medication as quickly as possible' — because safety over speed.",
+      "slide": 22
+    },
+    {
+      "id": "q41_mcq_teeth_brush",
+      "type": "mcq",
+      "question": "A parent asks when to start brushing their infant's teeth. What is correct teaching?",
+      "options": [
+        "When all 20 teeth are in",
+        "At first tooth eruption",
+        "At 2 years of age",
+        "Never; baby teeth don't need brushing"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'At first tooth eruption' — because brush teeth at first eruption (~6 months). Daily brushing removes plaque and establishes good habits. INCORRECT: 'When all 20 teeth are in' — because too late (all teeth in by 2.5 years). INCORRECT: 'At 2 years of age' — because should start much earlier. INCORRECT: 'Never; baby teeth don't need brushing' — because baby teeth are important for eating, speech, and space maintenance.",
+      "slide": 15
+    },
+    {
+      "id": "q42_mcq_pincer",
+      "type": "mcq",
+      "question": "A 9-month-old is beginning to pick up Cheerios using the thumb and index finger. This milestone is called:",
+      "options": [
+        "Grasp reflex",
+        "Palmar grasp",
+        "Pincer grasp",
+        "Raking grasp"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Pincer grasp' — because pincer grasp (thumb and index finger) develops 9-12 months. It demonstrates fine motor development. INCORRECT: 'Grasp reflex' — because grasp reflex is present at birth and fades. INCORRECT: 'Palmar grasp' — because palmar grasp uses the whole hand (earlier). INCORRECT: 'Raking grasp' — because raking grasp uses fingers together (earlier than pincer).",
+      "slide": 16
+    },
+    {
+      "id": "q43_sata_developmental_factors",
+      "type": "sata",
+      "question": "Which factors influence a child's development? (Select all that apply.)",
+      "options": [
+        "Heredity (genetics)",
+        "Environment (nutrition, stimulation)",
+        "Ordinal position in family",
+        "Temperament",
+        "Only parental income"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "CORRECT: 'Heredity (genetics)' — because heredity provides genetic blueprint. CORRECT: 'Environment (nutrition, stimulation)' — because environment (nutrition, stimulation, safety) affects development. CORRECT: 'Ordinal position in family' — because birth order affects (e.g., youngest may have delayed language). CORRECT: 'Temperament' — because temperament affects how children respond to environment. INCORRECT: 'Only parental income' — because income is one factor but not the only one.",
+      "slide": 15
+    },
+    {
+      "id": "q44_mcq_self_feeding",
+      "type": "mcq",
+      "question": "A 2-year-old wants to feed themselves with a spoon even though they make a mess. According to Erikson, this behavior supports which task?",
+      "options": [
+        "Trust",
+        "Autonomy",
+        "Initiative",
+        "Industry"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Autonomy' — because Autonomy vs Shame and Doubt (1-3 years). Self-feeding builds independence and autonomy. The mess is normal; parents should encourage attempts. INCORRECT: 'Trust' — because trust is infant. INCORRECT: 'Initiative' — because initiative is preschool. INCORRECT: 'Industry' — because industry is school-age.",
+      "slide": 17
+    },
+    {
+      "id": "q45_mcq_dosage_check",
+      "type": "mcq",
+      "question": "A nurse calculates a medication dose for a child. What is the MOST important step before administration?",
+      "options": [
+        "Ask the parent if the dose looks right",
+        "Have another nurse verify the calculation",
+        "Give the medication quickly",
+        "Mix the medication with the child's favorite food"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Have another nurse verify the calculation' — because double-checking pediatric medication calculations with another nurse is critical to prevent errors. Weight-based dosing (mg/kg) must be verified. INCORRECT: 'Ask the parent if the dose looks right' — because parents may not know safe doses. INCORRECT: 'Give the medication quickly' — because safety first. INCORRECT: 'Mix the medication with the child's favorite food' — because mixing with essential foods may cause refusal.",
+      "slide": 22
+    },
+    {
+      "id": "q46_mcq_oral_care",
+      "type": "mcq",
+      "question": "Which statement about oral health is correct for children?",
+      "options": [
+        "Baby teeth don't matter since they fall out",
+        "Brush teeth at bedtime and after meals",
+        "Avoid fluoride completely",
+        "Sharing utensils prevents cavities"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Brush teeth at bedtime and after meals' — because brush at bedtime (most important) and after meals. Baby teeth are space maintainers. INCORRECT: 'Baby teeth don't matter since they fall out' — because baby teeth are critical. INCORRECT: 'Avoid fluoride completely' — because fluoride after 6 months prevents cavities. INCORRECT: 'Sharing utensils prevents cavities' — because sharing transmits bacteria.",
+      "slide": 15
+    },
+    {
+      "id": "q47_mcq_erikson_toddler",
+      "type": "mcq",
+      "question": "A 2-year-old says 'no' to everything. According to Erikson, this is:",
+      "options": [
+        "Abnormal behavior",
+        "Normal autonomy development",
+        "Sign of hearing loss",
+        "Behavioral disorder"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Normal autonomy development' — because 'No' is normal for Autonomy vs Shame and Doubt (1-3 years). It's the child's way of asserting independence. INCORRECT: 'Abnormal behavior' — because normal. INCORRECT: 'Sign of hearing loss' — because not hearing. INCORRECT: 'Behavioral disorder' — because not a disorder.",
+      "slide": 17
+    },
+    {
+      "id": "q48_sata_development",
+      "type": "sata",
+      "question": "Which are true about development? (Select all that apply.)",
+      "options": [
+        "Growth is measurable (height, weight)",
+        "Development is qualitative (skills, behaviors)",
+        "All children develop at the exact same rate",
+        "Development is predictable in sequence",
+        "Environment influences development"
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Growth is measurable (height, weight)' — because growth is quantitative. CORRECT: 'Development is qualitative (skills, behaviors)' — because development is qualitative. CORRECT: 'Development is predictable in sequence' — because sequence is predictable. CORRECT: 'Environment influences development' — because environment matters. INCORRECT: 'All children develop at the exact same rate' — because rate varies by individual.",
+      "slide": 15
+    },
+    {
+      "id": "q49_mcq_piaget_preschool",
+      "type": "mcq",
+      "question": "A preschooler believes the moon follows them. This is:",
+      "options": [
+        "Normal magical thinking",
+        "Hallucination",
+        "Sign of autism",
+        "Vision problem"
+      ],
+      "answer": 0,
+      "rationale": "CORRECT: 'Normal magical thinking' — because magical thinking is normal in Preoperational stage (2-7 years). The child believes the moon follows them or that wishes come true. INCORRECT: 'Hallucination' — because not hallucination. INCORRECT: 'Sign of autism' — because not autism sign. INCORRECT: 'Vision problem' — because not vision.",
+      "slide": 18
+    },
+    {
+      "id": "q50_mcq_hospital_play",
+      "type": "mcq",
+      "question": "A 3-year-old in the hospital is playing with a doll and pretending to give it medicine. This is:",
+      "options": [
+        "Abnormal play",
+        "Therapeutic play",
+        "Regression",
+        "Attention seeking"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Therapeutic play' — because therapeutic play allows children to process feelings about hospitalization and procedures. Playing doctor/nurse helps them understand and cope. INCORRECT: 'Abnormal play' — because normal. INCORRECT: 'Regression' — because not regression. INCORRECT: 'Attention seeking' — because not attention seeking.",
+      "slide": 21
+    },
+    {
+      "id": "q51_mcq_pain_numeric",
+      "type": "mcq",
+      "question": "Which pain scale is appropriate for a 10-year-old?",
+      "options": [
+        "FLACC",
+        "FACES",
+        "Numeric 0–10",
+        "All of the above"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'Numeric 0–10' — because numeric 0-10 scale is appropriate for school-age children (6+ years) who can understand numbers. INCORRECT: 'FLACC' — because FLACC is for nonverbal infants. INCORRECT: 'FACES' — because FACES is for preschool 3+ years. INCORRECT: 'All of the above' — because only C is appropriate here.",
+      "slide": 21
+    },
+    {
+      "id": "q52_mcq_autonomy",
+      "type": "mcq",
+      "question": "A 2-year-old insists on dressing themselves even though they put clothes on backwards. This supports which Erikson stage?",
+      "options": [
+        "Trust",
+        "Autonomy",
+        "Initiative",
+        "Industry"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Autonomy' — because Autonomy vs Shame and Doubt (1-3 years). Self-dressing (even if imperfect) builds independence. INCORRECT: 'Trust' — because trust is infant. INCORRECT: 'Initiative' — because initiative is preschool. INCORRECT: 'Industry' — because industry is school-age.",
+      "slide": 17
+    },
+    {
+      "id": "q53_mcq_brush_frequency",
+      "type": "mcq",
+      "question": "How often should children brush their teeth?",
+      "options": [
+        "Once a day",
+        "After each meal and snack",
+        "Once a week",
+        "Only when teeth look dirty"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'After each meal and snack' — because brush after each meal/snack and at bedtime. This removes plaque and prevents cavities. INCORRECT: 'Once a day' — because once daily is insufficient. INCORRECT: 'Once a week' — because too infrequent. INCORRECT: 'Only when teeth look dirty' — because appearance is not the indicator.",
+      "slide": 15
+    },
+    {
+      "id": "q54_mcq_solid_timing",
+      "type": "mcq",
+      "question": "When should solid foods be introduced to infants?",
+      "options": [
+        "At birth",
+        "At 2 months",
+        "At 4–6 months",
+        "At 1 year"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: 'At 4–6 months' — because solids at 4-6 months when infant shows readiness (sitting with support, head control, interest in food). INCORRECT: 'At birth' — because breast/formula only 0-6 months. INCORRECT: 'At 2 months' — because too early. INCORRECT: 'At 1 year' — because solids should be well-established by 1 year.",
+      "slide": 16
+    },
+    {
+      "id": "q55_sata_safety_toddler",
+      "type": "sata",
+      "question": "Which safety measures are appropriate for toddlers? (Select all that apply.)",
+      "options": [
+        "Childproof cabinets and locks",
+        "Keep hot liquids out of reach",
+        "Teach water safety",
+        "Allow unsupervised play in the street",
+        "Use rear-facing car seat"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Childproof cabinets and locks' — because poison prevention. CORRECT: 'Keep hot liquids out of reach' — because burn prevention. CORRECT: 'Teach water safety' — because drowning prevention. CORRECT: 'Use rear-facing car seat' — because rear-facing car seat. INCORRECT: 'Allow unsupervised play in the street' — because unsupervised street play is dangerous.",
+      "slide": 17
+    },
+    {
+      "id": "q56_mcq_denver_domains",
+      "type": "mcq",
+      "question": "The Denver II screening test assesses which four domains?",
+      "options": [
+        "IQ, memory, attention, behavior",
+        "Personal-social, fine motor, language, gross motor",
+        "Reading, writing, math, science",
+        "Vision, hearing, speech, mobility"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Personal-social, fine motor, language, gross motor' — because the Denver II screens four domains: personal-social, fine motor-adaptive, language, and gross motor. It identifies children not meeting age-level expectations. INCORRECT: 'IQ, memory, attention, behavior' — because not an IQ test. INCORRECT: 'Reading, writing, math, science' — because academic subjects are for school-age. INCORRECT: 'Vision, hearing, speech, mobility' — because vision/hearing are separate screens.",
+      "slide": 15
+    },
+    {
+      "id": "q57_mcq_bowtie_ngn",
+      "type": "bowtie",
+      "question": "A 3-year-old hospitalized child refuses to eat, cries when parents leave, and regresses to bedwetting. Identify the primary cause and select the most appropriate nursing intervention.",
+      "options": [
+        "Cause: Separation anxiety from hospitalization",
+        "Cause: Nutritional deficiency",
+        "Cause: Urinary tract infection",
+        "Intervention: Encourage parents to stay and provide familiar comfort items",
+        "Intervention: Restrict fluids after dinner",
+        "Intervention: Force the child to eat"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT: 'Cause: Separation anxiety from hospitalization' — because the child's behaviors (refusing to eat, crying when parents leave, regression to bedwetting) are classic signs of separation anxiety during hospitalization. CORRECT: 'Intervention: Encourage parents to stay and provide familiar comfort items' — because the appropriate intervention is to encourage parents to stay with the child and provide familiar comfort items (blanket, stuffed animal) to reduce stress. INCORRECT: 'Cause: Nutritional deficiency' — because this is not nutritional deficiency. INCORRECT: 'Cause: Urinary tract infection' — because no UTI symptoms. INCORRECT: 'Intervention: Restrict fluids after dinner' — because restricting fluids doesn't address the emotional cause. INCORRECT: 'Intervention: Force the child to eat' — because forcing the child to eat increases stress.",
+      "slide": 21
+    },
+    {
+      "id": "q58_mcq_cloze_ngn",
+      "type": "cloze",
+      "question": "A 4-year-old refuses to eat green peas, saying 'They're green and I don't like green things.' This demonstrates _____ thinking, a normal characteristic of Piaget's _____ stage (ages 2-7 years).",
+      "options": [
+        "magical",
+        "centration",
+        "preoperational",
+        "conservation"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "rationale": "CORRECT: 'centration' — because centration is the tendency to focus on one characteristic (color) while ignoring others (taste, nutrition) — a hallmark of Piaget's Preoperational stage (2-7 years). CORRECT: 'preoperational' — because centration is a hallmark of Piaget's Preoperational stage (2-7 years). INCORRECT: 'magical' — because magical thinking is also Preoperational but the specific behavior here is centration. INCORRECT: 'conservation' — because conservation is Concrete Operational (7-11 years).",
+      "slide": 18
+    },
+    {
+      "id": "q59_sata_ngn_types",
+      "type": "sata",
+      "question": "Which statements about NGN question types are correct? (Select all that apply.)",
+      "options": [
+        "Matrix questions require matching items in rows to columns.",
+        "SATA questions may have multiple correct answers.",
+        "Bowtie questions assess cause-effect and interventions.",
+        "Cloze questions use drag-and-drop fill-in-the-blank.",
+        "Highlight questions require selecting text in a passage."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Matrix questions require matching items in rows to columns.' — because matrix questions match rows to columns. CORRECT: 'SATA questions may have multiple correct answers.' — because SATA (Select All That Apply) can have multiple correct answers. CORRECT: 'Bowtie questions assess cause-effect and interventions.' — because bowtie questions assess cause/effect and interventions. CORRECT: 'Cloze questions use drag-and-drop fill-in-the-blank.' — because cloze questions use drag-and-drop to fill blanks. CORRECT: 'Highlight questions require selecting text in a passage.' — because highlight questions require selecting text in a passage.",
+      "slide": 21
+    },
+    {
+      "id": "q60_mcq_highlight_ngn",
+      "type": "highlight",
+      "question": "A parent is teaching about car seat safety. Highlight the THREE correct statements that should be included in teaching.",
+      "options": [
+        "Infants should be rear-facing until 1 year AND 20-22 pounds minimum.",
+        "Children can face forward as soon as they can sit up.",
+        "Never place a rear-facing car seat in front of an airbag.",
+        "Booster seats are for children under 40 pounds.",
+        "Car seat should be installed in the back seat, never the front."
+      ],
+      "answer": [
+        0,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Infants should be rear-facing until 1 year AND 20-22 pounds minimum.' — because rear-facing until 1 year AND 20-22 pounds. CORRECT: 'Never place a rear-facing car seat in front of an airbag.' — because never place rear-facing seat in front of airbag. CORRECT: 'Car seat should be installed in the back seat, never the front.' — because always in back seat. INCORRECT: 'Children can face forward as soon as they can sit up.' — because sitting up alone is not the criterion. INCORRECT: 'Booster seats are for children under 40 pounds.' — because booster seats are for children 40+ pounds (after outgrowing car seat).",
+      "slide": 19
+    },
+    {
+      "id": "q61_mcq_teeth_count",
+      "type": "mcq",
+      "question": "How many baby (deciduous) teeth do children have?",
+      "options": [
+        "10",
+        "16",
+        "20",
+        "32"
+      ],
+      "answer": 2,
+      "rationale": "CORRECT: '20' — because children have 20 baby teeth, which are typically all present by 2.5 years of age. These are eventually replaced by 32 permanent teeth. INCORRECT: '10' — because 10 is half. INCORRECT: '16' — because 16 is not a standard count. INCORRECT: '32' — because 32 is the permanent adult count.",
+      "slide": 15
+    },
+    {
+      "id": "q62_sata_weight_milestones",
+      "type": "sata",
+      "question": "Which weight milestones are correct for infants? (Select all that apply.)",
+      "options": [
+        "Birth weight doubles by 5–6 months",
+        "Birth weight triples by 12 months",
+        "Birth weight quadruples by 24 months",
+        "Weight gain of 5-7 oz/week in first 6 months",
+        "Weight gain of 3-5 oz/week in second 6 months"
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "rationale": "CORRECT: 'Birth weight doubles by 5–6 months' — because birth weight doubles by 5-6 months. CORRECT: 'Birth weight triples by 12 months' — because birth weight triples by 12 months. CORRECT: 'Weight gain of 5-7 oz/week in first 6 months' — because 5-7 oz/week first 6 months. CORRECT: 'Weight gain of 3-5 oz/week in second 6 months' — because 3-5 oz/week second 6 months. INCORRECT: 'Birth weight quadruples by 24 months' — because birth weight quadruples by about 30 months, not 24.",
+      "slide": 16
+    },
+    {
+      "id": "q63_mcq_cephalocaudal",
+      "type": "mcq",
+      "question": "Which statement best describes cephalocaudal development?",
+      "options": [
+        "Development proceeds from center to periphery",
+        "Development proceeds from head to toe",
+        "Development proceeds from general to specific",
+        "Development is the same in all children"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Development proceeds from head to toe' — because cephalocaudal development means head-to-toe (cephalo = head, caudal = tail). Infants gain head control before sitting, walking, etc. INCORRECT: 'Development proceeds from center to periphery' — because that is proximodistal (center-to-periphery). INCORRECT: 'Development proceeds from general to specific' — because that is general-to-specific (motor development). INCORRECT: 'Development is the same in all children' — because development varies by individual.",
+      "slide": 15
+    },
+    {
+      "id": "q64_mcq_proximodistal",
+      "type": "mcq",
+      "question": "Which statement best describes proximodistal development?",
+      "options": [
+        "Development proceeds from head to toe",
+        "Development proceeds from center to periphery",
+        "Development proceeds from general to specific",
+        "Development is the same in all children"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Development proceeds from center to periphery' — because proximodistal development means center-to-periphery (proximo = near, distal = far). Infants use whole arm reach before fine finger grasp. INCORRECT: 'Development proceeds from head to toe' — because that is cephalocaudal (head-to-toe). INCORRECT: 'Development proceeds from general to specific' — because that is general-to-specific (motor development). INCORRECT: 'Development is the same in all children' — because development varies by individual.",
+      "slide": 15
+    },
+    {
+      "id": "q65_sata_family_teaching",
+      "type": "sata",
+      "question": "A nurse is teaching about family types. Which statements are correct? (Select all that apply.)",
+      "options": [
+        "A nuclear family includes parents and their biological children.",
+        "A blended family includes children from previous relationships.",
+        "An extended family includes grandparents, aunts, and uncles.",
+        "A single-parent family is not considered a family type.",
+        "A foster family is a temporary placement for children."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'A nuclear family includes parents and their biological children.' — because nuclear family is parents + biological children. CORRECT: 'A blended family includes children from previous relationships.' — because blended family includes stepchildren. CORRECT: 'An extended family includes grandparents, aunts, and uncles.' — because extended family includes relatives. CORRECT: 'A foster family is a temporary placement for children.' — because foster families are temporary placements. INCORRECT: 'A single-parent family is not considered a family type.' — because single-parent families are a valid family type.",
+      "slide": 15
+    },
+    {
+      "id": "q66_mcq_bowtie_ngn2",
+      "type": "bowtie",
+      "question": "A 2-year-old hospitalized child is crying, hitting, and pushing away staff when parents leave. Identify the cause and select the most appropriate intervention.",
+      "options": [
+        "Cause: Protest stage of separation anxiety",
+        "Cause: Child abuse",
+        "Cause: Hearing impairment",
+        "Intervention: Encourage parents to stay with child as much as possible",
+        "Intervention: Restrain the child during procedures",
+        "Intervention: Ignore the child's crying"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "rationale": "CORRECT: 'Cause: Protest stage of separation anxiety' — because the child's behavior (crying, hitting, pushing away staff) is the Protest stage of separation anxiety — the first stage. CORRECT: 'Intervention: Encourage parents to stay with child as much as possible' — because the appropriate intervention is to encourage parents to stay with the child as much as possible. INCORRECT: 'Cause: Child abuse' — because no signs of abuse. INCORRECT: 'Cause: Hearing impairment' — because not hearing. INCORRECT: 'Intervention: Restrain the child during procedures' — because restraint increases stress. INCORRECT: 'Intervention: Ignore the child's crying' — because ignoring increases anxiety.",
+      "slide": 21
+    },
+    {
+      "id": "q67_mcq_metabolic_rate",
+      "type": "mcq",
+      "question": "Compared to adults, infants have a higher metabolic rate. What is the clinical implication?",
+      "options": [
+        "Infants need fewer calories per kg",
+        "Infants need more calories and fluids per kg",
+        "Infants can tolerate long periods without eating",
+        "Infants have lower oxygen needs"
+      ],
+      "answer": 1,
+      "rationale": "CORRECT: 'Infants need more calories and fluids per kg' — because infants have HIGHER metabolic rates per kilogram than adults, meaning they require more calories and fluids proportionally. This is why infants need frequent feedings. INCORRECT: 'Infants need fewer calories per kg' — because opposite. INCORRECT: 'Infants can tolerate long periods without eating' — because infants cannot tolerate long periods without eating. INCORRECT: 'Infants have lower oxygen needs' — because infants have higher oxygen needs.",
+      "slide": 15
+    },
+    {
+      "id": "q68_sata_play_development",
+      "type": "sata",
+      "question": "Which statements about play and development are correct? (Select all that apply.)",
+      "options": [
+        "Parallel play is characteristic of toddlers (1-3 years).",
+        "Cooperative play is characteristic of preschoolers (3-5 years).",
+        "Competitive play with rules is characteristic of school-age children (6-12 years).",
+        "Fantasy play is characteristic of infants (0-12 months).",
+        "Solitary play is the primary play type for infants."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "CORRECT: 'Parallel play is characteristic of toddlers (1-3 years).' — because parallel play is toddlers. CORRECT: 'Cooperative play is characteristic of preschoolers (3-5 years).' — because cooperative play is preschoolers. CORRECT: 'Competitive play with rules is characteristic of school-age children (6-12 years).' — because competitive play is school-age. CORRECT: 'Solitary play is the primary play type for infants.' — because solitary play is infants. INCORRECT: 'Fantasy play is characteristic of infants (0-12 months).' — because fantasy play is preschoolers (3-5 years), not infants.",
+      "slide": 17
+    },
+    {
+      "id": "q69_mcq_cloze_ngn2",
+      "type": "cloze",
+      "question": "A 4-year-old says 'I won't hit my sister because I'll get spanked.' This reflects _____ moral reasoning, which is characteristic of Kohlberg's _____ level (ages 4-7 years).",
+      "options": [
+        "preconventional",
+        "conventional",
+        "postconventional",
+        "formal"
+      ],
+      "answer": [
+        0,
+        0
+      ],
+      "rationale": "CORRECT: 'preconventional' — because the child obeys to avoid punishment — this is Preconventional moral reasoning (Kohlberg's first level, ages 4-7 years). CORRECT: 'preconventional' — because the child obeys to avoid punishment — this is Preconventional moral reasoning (Kohlberg's first level, ages 4-7 years). INCORRECT: 'conventional' — because conventional is 9-13 years (social approval). INCORRECT: 'postconventional' — because postconventional is 13+ years (ethical principles). INCORRECT: 'formal' — because formal is Piaget's cognitive stage, not Kohlberg.",
+      "slide": 18
+    },
+    {
+      "id": "q70_mcq_matrix_ngn",
+      "type": "matrix",
+      "question": "Match each milestone with the correct age:",
+      "rows": [
+        "Pincer grasp (thumb and index finger)",
+        "Independent walking",
+        "First words with meaning",
+        "Stranger anxiety peaks"
+      ],
+      "columns": [
+        "2-3 months",
+        "6-8 months",
+        "9-12 months",
+        "12-15 months"
+      ],
+      "answer": [
+        2,
+        3,
+        2,
+        1
+      ],
+      "rationale": "CORRECT: 'Pincer grasp (thumb and index finger)' matches '9-12 months' — because pincer grasp develops 9-12 months. CORRECT: 'Independent walking' matches '12-15 months' — because independent walking is 12-15 months. CORRECT: 'First words with meaning' matches '9-12 months' — because first words with meaning are 10-12 months. CORRECT: 'Stranger anxiety peaks' matches '6-8 months' — because stranger anxiety peaks 6-8 months.",
+      "slide": 16
+    }
+  ]
+}

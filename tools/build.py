@@ -21,6 +21,7 @@ No more broken data, no more editing giant HTML.
 import json
 import os
 import sys
+import shutil
 from pathlib import Path
 
 try:
@@ -93,6 +94,16 @@ def validate_drugs():
                 print(f"❌ Drug validation failed in {f}: {e}")
                 errors += 1
     return errors == 0
+
+
+def prepare_dist():
+    print("\n📦 Preparing dist/ directory...")
+    dist_content = DIST / "content"
+    if dist_content.exists():
+        shutil.rmtree(dist_content)
+    shutil.copytree(CONTENT, dist_content)
+    print("✅ Copied content/ to dist/content/")
+    return True
 
 def verify_dist():
     """Catch common runtime issues before push."""
@@ -174,6 +185,7 @@ def main():
     ok = validate_manifest()
     ok &= validate_exams()
     ok &= validate_drugs()
+    ok &= prepare_dist()
     ok &= verify_dist()
     if ok:
         print("\n✅ All checks passed.")
