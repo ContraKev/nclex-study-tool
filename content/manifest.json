@@ -153,14 +153,15 @@
       "id": "peds_exam_3_adolescent_disorders",
       "file": "exams/peds-exam-3-adolescent-disorders.json",
       "name": "PEDS Exam 3 \u2014 Disorders and Diseases of Adolescent",
+      "name": "PEDS Exam 3 — Disorders and Diseases of Adolescent",
       "category": "Pediatrics",
       "questions": 31
     },
     {
       "id": "ati_cms_peds_practice_a",
       "file": "exams/ati-cms-peds-practice-a-quiz.json",
-      "name": "ATI CMS Peds Practice A \u2014 Comprehensive",
-      "category": "Pediatrics",
+      "name": "ATI CMS Peds Practice A — Comprehensive",
+      "category": "ATI CMS",
       "questions": 90
     }
   ],

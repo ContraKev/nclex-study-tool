@@ -8644,27 +8644,81 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
 
         // EXAM LOGIC WRAPPER
         function startExam() {
-            showExamSelectionModal();
+            showExamCategoryModal();
         }
 
-        function showExamSelectionModal() {
+        function showExamCategoryModal() {
             if (!window.availableExams || window.availableExams.length === 0) {
                 alert('No exams available. Please check that exam modules have been properly configured.');
                 return;
             }
 
+            // Extract unique categories
+            const categories = [...new Set(window.availableExams.map(e => e.category || 'Other'))].sort();
+
+            const getCategoryIcon = (cat) => {
+                const map = {
+                    'Pediatrics': 'fa-baby',
+                    'OB/Maternity': 'fa-person-pregnant',
+                    'Med-Surg': 'fa-procedures',
+                    'Pharmacology': 'fa-pills',
+                    'Reproductive': 'fa-venus-mars',
+                    'ATI CMS': 'fa-book-medical'
+                };
+                return map[cat] || 'fa-folder';
+            };
+
             const modalHtml = `<div id="examSelectionModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;">
                 <div class="container" style="max-width: 900px;">
                     <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
                         <h2 class="text-accent fw-bold">
-                            <i class="fas fa-graduation-cap me-3"></i>
-                            SELECT EXAM MODULE
+                            <i class="fas fa-layer-group me-3"></i>
+                            SELECT EXAM CATEGORY
                         </h2>
                         <button class="btn btn-outline-danger" onclick="closeExamSelection()">Cancel</button>
                     </div>
 
                     <div class="row">
-                        ${window.availableExams.map(exam => {
+                        ${categories.map(cat => {
+                            const count = window.availableExams.filter(e => (e.category || 'Other') === cat).length;
+                            return `
+                            <div class="col-md-6 mb-4">
+                                <div class="nexus-card text-center" style="cursor: pointer;" onclick="showExamSelectionModal('${cat}')">
+                                    <i class="fas ${getCategoryIcon(cat)} fa-3x text-warning mb-3"></i>
+                                    <h3 class="text-white mb-2">${cat}</h3>
+                                    <span class="badge bg-info text-primary fs-6">${count} Modules</span>
+                                </div>
+                            </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            </div>`;
+            
+            closeExamSelection();
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+        }
+
+        function showExamSelectionModal(category) {
+            const filteredExams = window.availableExams.filter(e => (e.category || 'Other') === category);
+
+            const modalHtml = `<div id="examSelectionModal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--primary); z-index: 2000; overflow-y: auto; padding: 40px;">
+                <div class="container" style="max-width: 900px;">
+                    <div class="d-flex justify-content-between align-items-center mb-5 border-bottom pb-3 border-secondary">
+                        <div class="d-flex align-items-center">
+                            <button class="btn btn-outline-secondary me-3" onclick="showExamCategoryModal()">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <h2 class="text-accent fw-bold mb-0">
+                                <i class="fas fa-graduation-cap me-3"></i>
+                                ${category.toUpperCase()} EXAMS
+                            </h2>
+                        </div>
+                        <button class="btn btn-outline-danger" onclick="closeExamSelection()">Cancel</button>
+                    </div>
+
+                    <div class="row">
+                        ${filteredExams.map(exam => {
                             const qCount = exam.data ? exam.data.length : (exam.questionCount || 'Dynamic');
                             return `
                             <div class="col-md-6 mb-4">
@@ -8683,6 +8737,8 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
                     </div>
                 </div>
             </div>`;
+            
+            closeExamSelection();
             document.body.insertAdjacentHTML('beforeend', modalHtml);
         }
 
