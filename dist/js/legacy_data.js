@@ -8664,19 +8664,22 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
                     </div>
 
                     <div class="row">
-                        ${window.availableExams.map(exam => `
+                        ${window.availableExams.map(exam => {
+                            const qCount = exam.data ? exam.data.length : (exam.questionCount || 'Dynamic');
+                            return `
                             <div class="col-md-6 mb-4">
                                 <div class="nexus-card" style="cursor: pointer;" onclick="selectExam('${exam.id}')">
                                     <div class="point-label">EXAM MODULE</div>
                                     <h4 class="text-white mb-3">${exam.name}</h4>
-                                    <p class="text-white-50 mb-3">${exam.data.length} Questions Available</p>
+                                    <p class="text-white-50 mb-3">${qCount} Questions Available</p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <span class="badge bg-info text-primary">${exam.data.length} Questions</span>
+                                        <span class="badge bg-info text-primary">${qCount} Questions</span>
                                         <i class="fas fa-arrow-right text-accent"></i>
                                     </div>
                                 </div>
                             </div>
-                        `).join('')}
+                            `;
+                        }).join('')}
                     </div>
                 </div>
             </div>`;
