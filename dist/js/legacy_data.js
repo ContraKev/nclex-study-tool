@@ -8556,7 +8556,7 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
                             </div>
 
                             <div class="row g-4">
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="nexus-card p-4 text-center h-100" onclick="showDrugReferences()">
                                         <div class="card-icon mb-3">
                                             <i class="fas fa-pills fa-3x text-accent"></i>
@@ -8570,7 +8570,7 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="nexus-card p-4 text-center h-100" onclick="showCaseStudies()">
                                         <div class="card-icon mb-3">
                                             <i class="fas fa-stethoscope fa-3x text-success"></i>
@@ -8584,7 +8584,7 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
                                     </div>
                                 </div>
 
-                                <div class="col-md-4">
+                                <div class="col-md-6">
                                     <div class="nexus-card p-4 text-center h-100" onclick="showExams()">
                                         <div class="card-icon mb-3">
                                             <i class="fas fa-graduation-cap fa-3x text-warning"></i>
@@ -8594,6 +8594,20 @@ function setSort(mode) { sortMode = mode; document.getElementById('sort-az').cla
                                         <button class="btn btn-warning w-100 fw-bold">
                                             <i class="fas fa-clipboard-check me-2"></i>
                                             Take Exam
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="nexus-card p-4 text-center h-100" onclick="showStudyGuideSelector()">
+                                        <div class="card-icon mb-3">
+                                            <i class="fas fa-book-open fa-3x" style="color: #06b6d4;"></i>
+                                        </div>
+                                        <h3 class="h4 fw-bold mb-3">Study Guides</h3>
+                                        <p class="text-secondary mb-3">Review cheat sheets and comprehensive walkthroughs before exams. Key facts, tables, and clinical highlights.</p>
+                                        <button class="btn w-100 fw-bold" style="background: #06b6d4; color: white;">
+                                            <i class="fas fa-book me-2"></i>
+                                            Browse Guides
                                         </button>
                                     </div>
                                 </div>
